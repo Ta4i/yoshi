@@ -412,6 +412,14 @@ function createCommonWebpackConfig({
             },
             {
               loader: 'babel-loader',
+              options: {
+                babelrc: false,
+                configFile: false,
+                presets: [
+                  [require.resolve('babel-preset-yoshi')],
+                  { modules: false },
+                ],
+              },
             },
           ],
         },
