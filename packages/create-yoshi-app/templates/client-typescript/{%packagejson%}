@@ -16,7 +16,8 @@
     "release": "yoshi release"
   },
   "devDependencies": {
-    "enzyme": "~2.9.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
     "express": "~4.15.0",
     "express-session": "~1.15.0",
     "husky": "~0.14.0",
@@ -34,8 +35,8 @@
     "@types/i18next": "^8.4.5",
     "@types/jest": "~23.3.1",
     "@types/prop-types": "~15.5.0",
-    "@types/react": "~15.6.0",
-    "@types/react-dom": "~15.5.0",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
     "@types/react-i18next": "^7.8.2"
   },
   "dependencies": {
