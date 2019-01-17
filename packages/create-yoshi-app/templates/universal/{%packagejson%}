@@ -67,6 +67,11 @@
     ]
   },
   "eslintConfig": {
-    "extends": "yoshi"
+    "extends": "yoshi",
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   }
 }
