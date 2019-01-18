@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import * as translation from '../../src/assets/locale/messages_en.json';
 
 // We initialize i18next once with configuration for component tests.
-export default i18next.init({
+i18next.init({
   // This configuration causes i18n to always return the key from calling `t('...')`
   fallbackLng: 'cimode',
 
@@ -19,3 +19,4 @@ export default i18next.init({
     en: { translation },
   },
 });
+export default i18next;

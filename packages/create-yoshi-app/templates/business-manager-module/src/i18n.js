@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import i18nextXHRBackend from 'i18next-xhr-backend';
 
 export default function i18n({ locale, baseUrl = '' }) {
-  return i18next.use(i18nextXHRBackend).init({
+  i18next.use(i18nextXHRBackend).init({
     lng: locale,
     fallbackLng: 'en',
     keySeparator: '$',
@@ -14,4 +14,5 @@ export default function i18n({ locale, baseUrl = '' }) {
       crossDomain: true,
     },
   });
+  return i18next;
 }

@@ -70,6 +70,11 @@
   },
   "eslintConfig": {
     "extends": "yoshi",
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
     "globals": {
       "testKitEnv": true
     }
