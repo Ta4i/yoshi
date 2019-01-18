@@ -20,9 +20,11 @@ describe('App', () => {
 
   afterEach(() => wrapper.detach());
 
-  it('renders a title correctly', () => {
+  it('renders a title correctly', async () => {
+    const i18n = i18next.createInstance();
+    await i18n.init(i18nData);
     wrapper = mount(
-      <I18nextProvider i18n={i18next.createInstance().init(i18nData)}>
+      <I18nextProvider i18n={i18n}>
         <App />
       </I18nextProvider>,
       { attachTo: document.createElement('div') },
