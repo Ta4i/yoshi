@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { translate, InjectedTranslateProps } from 'react-i18next';
+import React from 'react';
+import { withNamespaces, WithNamespaces } from 'react-i18next';
 import * as s from './App.scss';
 
-interface AppProps extends InjectedTranslateProps {}
+interface AppProps extends WithNamespaces {}
 
 class App extends React.Component<AppProps> {
   render() {
@@ -19,4 +19,4 @@ class App extends React.Component<AppProps> {
   }
 }
 
-export default translate()(App);
+export default withNamespaces()(App);

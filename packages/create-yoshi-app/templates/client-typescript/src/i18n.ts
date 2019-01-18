@@ -1,7 +1,7 @@
-import * as i18next from 'i18next';
+import i18next from 'i18next';
 
 export default function i18n(locale) {
-  return i18next
+  i18next
     .use({
       type: 'backend',
       read: (language, namespace, callback) => {
@@ -30,5 +30,10 @@ export default function i18n(locale) {
       react: {
         wait: true,
       },
+    })
+    .catch(e => {
+      throw e;
     });
+
+  return i18next;
 }
