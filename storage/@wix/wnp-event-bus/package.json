@@ -1,0 +1,1342 @@
+{
+	"name": "@wix/wnp-event-bus",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.12",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.12.tgz",
+				"shasum": "8dbb48f6e17cbca97c709e94a56be0155c83bf31"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.12"
+		},
+		"1.0.23": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.23",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.23.tgz",
+				"shasum": "3a3a6a8a4d7f4b228d88e8c73b2b79e483650920"
+			},
+			"dependencies": {
+				"@wix/wix-debug": "~1.0.1",
+				"eventemitter2": "5.0.1"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.23"
+		},
+		"1.0.13": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.13",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.13.tgz",
+				"shasum": "92118ad2cf95459ff5bf6a98f3ebafebb329df4b"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.13"
+		},
+		"1.0.14": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.14",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.14.tgz",
+				"shasum": "d624fb14659a08499ccff7635f510a12b5792be3"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"shelljs": "0.8.2",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.14"
+		},
+		"1.0.15": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.15",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.15.tgz",
+				"shasum": "c59a6ca67bd778cd2b55c9d1cf5716416e841ff4"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"shelljs": "0.8.2",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.15"
+		},
+		"1.0.20": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.20",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.20.tgz",
+				"shasum": "23fbeea7ed53373da6be7c0ac71c89fcfb188e2f"
+			},
+			"dependencies": {
+				"@wix/wix-debug": "~1.0.1",
+				"eventemitter2": "5.0.1"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.20"
+		},
+		"1.0.10": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.10",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.10.tgz",
+				"shasum": "649355cbd137addde870caab6f08fc763f1b41ad"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.10"
+		},
+		"1.0.21": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.21",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.21.tgz",
+				"shasum": "0c94b51a11e42f7f5cc0b462264562fc5a823d78"
+			},
+			"dependencies": {
+				"@wix/wix-debug": "~1.0.1",
+				"eventemitter2": "5.0.1"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.21"
+		},
+		"1.0.11": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.11",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.11.tgz",
+				"shasum": "8858140c7c743576e6b1af77c217533dd95d6234"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.11"
+		},
+		"1.0.22": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.22",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.22.tgz",
+				"shasum": "e74342af7edee89e2ac2de20b5629ed4d369976e"
+			},
+			"dependencies": {
+				"@wix/wix-debug": "~1.0.1",
+				"eventemitter2": "5.0.1"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.22"
+		},
+		"1.0.3": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.3",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.3.tgz",
+				"shasum": "dd86342a916e6eb1b053cfaae7723e537ab41f23"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.0.1",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.3"
+		},
+		"1.0.4": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.4",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.4.tgz",
+				"shasum": "ab6d65fad816b7c022829764679ea426a3a6e06c"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.0",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.4"
+		},
+		"1.0.5": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.5",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.5.tgz",
+				"shasum": "be563155252bc4d2b2b6e718106ead477f4dbd2d"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "5.1.0",
+				"sinon-chai": "3.1.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.5"
+		},
+		"1.0.6": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.6",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.6.tgz",
+				"shasum": "b00fd5dfcd5a0724f94d3205b0f60d02b3c2b531"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.0",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.6"
+		},
+		"1.0.7": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.7",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.7.tgz",
+				"shasum": "319c019a3a86fdb4247b398d9285acc43e355a04"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.3",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.7"
+		},
+		"1.0.8": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.8",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.8.tgz",
+				"shasum": "01dab8de6ff5f58ee8d47ed6e00e17bbdaba14f5"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.8"
+		},
+		"1.0.9": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.9",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.9.tgz",
+				"shasum": "116ff690ec0970df0009b04a19d92ade56c140a0"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.1.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.9"
+		},
+		"1.0.16": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.16",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.16.tgz",
+				"shasum": "7fb67423b8b982c877b3ffe20d8bd212f91c9ce2"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2",
+				"shelljs": "0.8.2",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.16"
+		},
+		"1.0.0": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.0",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.0.tgz",
+				"shasum": "2f753e39691e52c68a6c86eb2eef45121f33564c"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "5.1.0",
+				"sinon-chai": "3.1.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.0"
+		},
+		"1.0.17": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.17",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.17.tgz",
+				"shasum": "2f6b0c287e9831a2b0afcce52baf9ec1eeffacc6"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.17"
+		},
+		"1.0.1": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.1",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.1.tgz",
+				"shasum": "a4f67cf0340220d8e91a49889bc4778cdfe38be2"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.0.0",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.1"
+		},
+		"1.0.18": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.18",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.18.tgz",
+				"shasum": "c104db7c84af9ebf5daa80350f68f32e1e9ac29c"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.18"
+		},
+		"1.0.2": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.2",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.2.tgz",
+				"shasum": "7184b0368eb0224a38367bc75ac4032605c7b941"
+			},
+			"dependencies": {
+				"eventemitter2": "5.0.1",
+				"wix-debug": "~1.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"shelljs": "0.8.2",
+				"sinon": "6.0.0",
+				"sinon-chai": "3.2.0"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.2"
+		},
+		"1.0.19": {
+			"name": "@wix/wnp-event-bus",
+			"description": "platform-internal global event-bus",
+			"version": "1.0.19",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/utils/wnp-event-bus"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.19.tgz",
+				"shasum": "1af9930c13500643da54e92b9baed955e2d702d9"
+			},
+			"dependencies": {
+				"@wix/wix-debug": "~1.0.1",
+				"eventemitter2": "5.0.1"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"shelljs": "0.8.3",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"artifact"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-event-bus@1.0.19"
+		}
+	},
+	"time": {
+		"1.0.12": "2018-09-13T11:00:32.627Z",
+		"1.0.13": "2018-10-02T10:38:19.364Z",
+		"1.0.14": "2018-10-03T10:58:18.852Z",
+		"1.0.15": "2018-10-24T15:36:52.989Z",
+		"1.0.10": "2018-08-15T07:02:23.117Z",
+		"1.0.11": "2018-08-26T12:10:45.643Z",
+		"modified": "2019-01-14T11:37:43.999Z",
+		"1.0.23": "2019-01-14T11:37:43.999Z",
+		"1.0.20": "2018-12-13T12:03:28.921Z",
+		"created": "2018-06-18T11:53:29.469Z",
+		"1.0.21": "2018-12-13T14:27:01.866Z",
+		"1.0.22": "2019-01-02T14:23:04.994Z",
+		"1.0.3": "2018-06-26T07:58:11.916Z",
+		"1.0.4": "2018-07-09T08:37:19.956Z",
+		"1.0.5": "2018-07-11T18:55:09.433Z",
+		"1.0.6": "2018-07-12T07:39:21.698Z",
+		"1.0.7": "2018-07-17T18:28:11.360Z",
+		"1.0.8": "2018-07-25T08:27:20.755Z",
+		"1.0.9": "2018-08-06T09:54:55.439Z",
+		"1.0.16": "2018-11-04T14:49:55.272Z",
+		"1.0.0": "2018-06-18T11:53:29.469Z",
+		"1.0.17": "2018-11-14T12:24:46.468Z",
+		"1.0.1": "2018-06-19T12:01:10.554Z",
+		"1.0.18": "2018-12-05T11:46:10.272Z",
+		"1.0.2": "2018-06-19T12:02:52.869Z",
+		"1.0.19": "2018-12-12T08:49:23.165Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.23"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749349216
+		}
+	},
+	"_distfiles": {
+		"wnp-event-bus-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.12.tgz",
+			"sha": "8dbb48f6e17cbca97c709e94a56be0155c83bf31"
+		},
+		"wnp-event-bus-1.0.23.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.23.tgz",
+			"sha": "3a3a6a8a4d7f4b228d88e8c73b2b79e483650920"
+		},
+		"wnp-event-bus-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.13.tgz",
+			"sha": "92118ad2cf95459ff5bf6a98f3ebafebb329df4b"
+		},
+		"wnp-event-bus-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.14.tgz",
+			"sha": "d624fb14659a08499ccff7635f510a12b5792be3"
+		},
+		"wnp-event-bus-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.15.tgz",
+			"sha": "c59a6ca67bd778cd2b55c9d1cf5716416e841ff4"
+		},
+		"wnp-event-bus-1.0.20.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.20.tgz",
+			"sha": "23fbeea7ed53373da6be7c0ac71c89fcfb188e2f"
+		},
+		"wnp-event-bus-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.10.tgz",
+			"sha": "649355cbd137addde870caab6f08fc763f1b41ad"
+		},
+		"wnp-event-bus-1.0.21.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.21.tgz",
+			"sha": "0c94b51a11e42f7f5cc0b462264562fc5a823d78"
+		},
+		"wnp-event-bus-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.11.tgz",
+			"sha": "8858140c7c743576e6b1af77c217533dd95d6234"
+		},
+		"wnp-event-bus-1.0.22.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.22.tgz",
+			"sha": "e74342af7edee89e2ac2de20b5629ed4d369976e"
+		},
+		"wnp-event-bus-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.3.tgz",
+			"sha": "dd86342a916e6eb1b053cfaae7723e537ab41f23"
+		},
+		"wnp-event-bus-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.4.tgz",
+			"sha": "ab6d65fad816b7c022829764679ea426a3a6e06c"
+		},
+		"wnp-event-bus-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.5.tgz",
+			"sha": "be563155252bc4d2b2b6e718106ead477f4dbd2d"
+		},
+		"wnp-event-bus-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.6.tgz",
+			"sha": "b00fd5dfcd5a0724f94d3205b0f60d02b3c2b531"
+		},
+		"wnp-event-bus-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.7.tgz",
+			"sha": "319c019a3a86fdb4247b398d9285acc43e355a04"
+		},
+		"wnp-event-bus-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.8.tgz",
+			"sha": "01dab8de6ff5f58ee8d47ed6e00e17bbdaba14f5"
+		},
+		"wnp-event-bus-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.9.tgz",
+			"sha": "116ff690ec0970df0009b04a19d92ade56c140a0"
+		},
+		"wnp-event-bus-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.16.tgz",
+			"sha": "7fb67423b8b982c877b3ffe20d8bd212f91c9ce2"
+		},
+		"wnp-event-bus-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.0.tgz",
+			"sha": "2f753e39691e52c68a6c86eb2eef45121f33564c"
+		},
+		"wnp-event-bus-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.17.tgz",
+			"sha": "2f6b0c287e9831a2b0afcce52baf9ec1eeffacc6"
+		},
+		"wnp-event-bus-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.1.tgz",
+			"sha": "a4f67cf0340220d8e91a49889bc4778cdfe38be2"
+		},
+		"wnp-event-bus-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.18.tgz",
+			"sha": "c104db7c84af9ebf5daa80350f68f32e1e9ac29c"
+		},
+		"wnp-event-bus-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.2.tgz",
+			"sha": "7184b0368eb0224a38367bc75ac4032605c7b941"
+		},
+		"wnp-event-bus-1.0.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-event-bus/-/@wix/wnp-event-bus-1.0.19.tgz",
+			"sha": "1af9930c13500643da54e92b9baed955e2d702d9"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-c258328a750c9649",
+	"readme": ""
+}

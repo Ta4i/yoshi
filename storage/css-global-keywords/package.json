@@ -1,0 +1,129 @@
+{
+	"name": "css-global-keywords",
+	"versions": {
+		"1.0.0": {
+			"name": "css-global-keywords",
+			"description": "List of global, CSS-wide property values.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/css-global-keywords#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/css-global-keywords.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/css-global-keywords/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-global-keywords/-/css-global-keywords-1.0.0.tgz",
+				"shasum": "c7b7ee1942ab077908c163af1c583da515845401"
+			},
+			"keywords": [
+				"css",
+				"global",
+				"property",
+				"values"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "css-global-keywords@1.0.0",
+			"gitHead": "1838f34060597030babbab031f0a278e4a9974b1",
+			"_shasum": "c7b7ee1942ab077908c163af1c583da515845401",
+			"_nodeVersion": "4.1.0"
+		},
+		"1.0.1": {
+			"name": "css-global-keywords",
+			"description": "List of CSS global keywords.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/css-global-keywords#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/css-global-keywords.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/css-global-keywords/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-global-keywords/-/css-global-keywords-1.0.1.tgz",
+				"shasum": "72a9aea72796d019b1d2a3252de4e5aaa37e4a69"
+			},
+			"keywords": [
+				"css",
+				"global",
+				"keywords"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "css-global-keywords@1.0.1",
+			"gitHead": "448907fa783c20e3a76f62ccc3612b0433f2ace3",
+			"_shasum": "72a9aea72796d019b1d2a3252de4e5aaa37e4a69",
+			"_nodeVersion": "4.1.0"
+		}
+	},
+	"time": {
+		"created": "2015-10-02T22:28:44.888Z",
+		"modified": "2015-10-02T23:04:01.961Z",
+		"1.0.0": "2015-10-02T22:28:44.888Z",
+		"1.0.1": "2015-10-02T23:04:01.961Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749399189
+		}
+	},
+	"_distfiles": {
+		"css-global-keywords-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-global-keywords/-/css-global-keywords-1.0.0.tgz",
+			"sha": "c7b7ee1942ab077908c163af1c583da515845401"
+		},
+		"css-global-keywords-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-global-keywords/-/css-global-keywords-1.0.1.tgz",
+			"sha": "72a9aea72796d019b1d2a3252de4e5aaa37e4a69"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-802696fadd3744aa",
+	"readme": "# css-global-keywords\n\nList of global, CSS-wide keywords:\n- [`initial`](https://developer.mozilla.org/en-US/docs/Web/CSS/initial)\n- [`inherit`](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit)\n- [`unset`](https://developer.mozilla.org/en-US/docs/Web/CSS/unset)\n\n## Installation\n\n```\nnpm install css-global-keywords [--save[-dev]]\n```\n\n## Usage\n\n```js\nvar cssGlobalKeywords = require('css-global-keywords');\ncssGlobalKeywords; // ['initial', 'inherit', 'unset']\n```"
+}

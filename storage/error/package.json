@@ -1,0 +1,3188 @@
+{
+	"name": "error",
+	"versions": {
+		"0.0.4": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.0.4",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.6.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.4.tgz",
+				"shasum": "9d356fa7a7017727d187a1f4af86641873af416b"
+			},
+			"dependencies": {
+				"fcombine": "0.0.4"
+			},
+			"devDependencies": {
+				"tester": "0.0.4"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@0.0.4",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.0"
+		},
+		"0.0.5": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.0.5",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.6.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.5.tgz",
+				"shasum": "764afb258e360255abd8f3edcb4fc1731c3f4c9b"
+			},
+			"dependencies": {
+				"fcombine": "0.0.4"
+			},
+			"devDependencies": {
+				"tester": "0.0.4"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@0.0.5",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.0"
+		},
+		"4.1.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.1.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.1.1.tgz",
+				"shasum": "9af977953d6f1bb78e98ea94ba7c6d50e67b8479"
+			},
+			"dependencies": {
+				"assert": "^1.1.1",
+				"camelize": "^0.1.2",
+				"string-template": "~0.1.3",
+				"xtend": "~2.1.1"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.15",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.1.1",
+			"gitHead": "f4f47b72084db4565d2a6e0feac1955ee0741cd3",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "9af977953d6f1bb78e98ea94ba7c6d50e67b8479"
+		},
+		"4.2.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.2.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.2.0.tgz",
+				"shasum": "86b94d82116b4b28f95f9bf797e9b0432f604007"
+			},
+			"dependencies": {
+				"camelize": "^0.1.2",
+				"string-template": "~0.1.3",
+				"xtend": "~2.1.1"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.2.0",
+			"gitHead": "69ad4b5c57bd935dec66eb8f3cb0ca8299c03c32",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "86b94d82116b4b28f95f9bf797e9b0432f604007"
+		},
+		"4.3.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.3.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.3.0.tgz",
+				"shasum": "bda3159a6f54977fc689459f49b91ee4066d17d8"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"tape": "~3.0.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.3.0",
+			"gitHead": "ae958243f0ad7846ea99ee1d2f787c78a0dfc45f",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "bda3159a6f54977fc689459f49b91ee4066d17d8"
+		},
+		"4.0.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.0.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.0.0.tgz",
+				"shasum": "230bc3891f0b2384585e51b6dfa876d06959b128"
+			},
+			"dependencies": {
+				"assert": "^1.1.1",
+				"camelize": "^0.1.2",
+				"string-template": "~0.1.3",
+				"xtend": "~2.1.1"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.12",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.0.0",
+			"gitHead": "0752785fd02c9af440eda21eceace736514242b9",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "230bc3891f0b2384585e51b6dfa876d06959b128"
+		},
+		"4.1.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.1.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.1.0.tgz",
+				"shasum": "b541fcaf282367f9b723d3cac94bdc54452f6f29"
+			},
+			"dependencies": {
+				"assert": "^1.1.1",
+				"camelize": "^0.1.2",
+				"string-template": "~0.1.3",
+				"xtend": "~2.1.1"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.15",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.1.0",
+			"gitHead": "9f2f3063bffe93f38a066cb76e6f4efdff117cd9",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "b541fcaf282367f9b723d3cac94bdc54452f6f29"
+		},
+		"0.0.2": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.0.2",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.6.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.2.tgz",
+				"shasum": "97790f95fa98614ce66224d4b29579b6d5c1e8b6"
+			},
+			"dependencies": {
+				"fcombine": "0.0.4"
+			},
+			"devDependencies": {
+				"tester": "0.0.4"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@0.0.2",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.0"
+		},
+		"0.0.3": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.0.3",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.6.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.3.tgz",
+				"shasum": "f569b0991fcd64bb5e588a6d046f3bd8af58f77b"
+			},
+			"dependencies": {
+				"fcombine": "0.0.4"
+			},
+			"devDependencies": {
+				"tester": "0.0.4"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@0.0.3",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.0"
+		},
+		"4.4.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "4.4.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.4.0.tgz",
+				"shasum": "bf69ff251fb4a279c19adccdaa6b61e90d9bf12a"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"tape": "~3.0.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@4.4.0",
+			"gitHead": "81e533bf0a84f94e5c303d70e35af524396ce0b7",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "bf69ff251fb4a279c19adccdaa6b61e90d9bf12a",
+			"_nodeVersion": "0.10.26"
+		},
+		"6.4.2": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.4.2",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.2.tgz",
+				"shasum": "7cdeda3c7b03b0f5ec8ac555699be8c621100625"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.4.2",
+			"gitHead": "b5d2741ce509cd0caeac43a142d45fc4778d03a5",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "7cdeda3c7b03b0f5ec8ac555699be8c621100625",
+			"_nodeVersion": "0.10.32"
+		},
+		"0.0.1": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.0.1",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.5.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.1.tgz",
+				"shasum": "74df840704ef29ba7be53806adcb3efaea38ca01"
+			},
+			"dependencies": {
+				"fcombine": "0.0.3"
+			},
+			"devDependencies": {
+				"tester": "0.0.2"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.0.30",
+			"_id": "error@0.0.1",
+			"_npmJsonOpts": {
+				"file": "/home/raynos/.npm/error/0.0.1/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.5.9"
+		},
+		"0.1.0": {
+			"name": "error",
+			"description": "error handling utility",
+			"version": "0.1.0",
+			"author": {
+				"name": "Jake Verbaten",
+				"email": "raynos2@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"engines": {
+				"node": "0.6.x"
+			},
+			"main": "src/error",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.1.0.tgz",
+				"shasum": "446492f52c9a2e47ac4d61920c04a47cb267f494"
+			},
+			"dependencies": {
+				"fcombine": "0.0.4"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"tester": "0.0.4"
+			},
+			"keywords": [
+				"error",
+				"arch",
+				"utility"
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/error-test.js"
+			},
+			"_npmVersion": "1.1.0",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@0.1.0",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.6"
+		},
+		"6.4.3": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.4.3",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.3.tgz",
+				"shasum": "7d7b2caa0f1a11b6019aaeed4286ffdbebe4e3d8"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.4.3",
+			"gitHead": "bae0cf3ecfc01e96b308bb822586c4c946485dcb",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "7d7b2caa0f1a11b6019aaeed4286ffdbebe4e3d8",
+			"_nodeVersion": "0.10.32"
+		},
+		"3.0.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "3.0.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-3.0.0.tgz",
+				"shasum": "a2957dcfd02e66cced07c120d20b6fbf7f9d8d78"
+			},
+			"dependencies": {
+				"xtend": "~2.1.1",
+				"string-template": "~0.1.3"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@3.0.0",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"7.0.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "7.0.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.1.tgz",
+				"shasum": "06a0ad7d2cfe63139364fb4efb2cc54b20850b5c"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@7.0.1",
+			"gitHead": "9c563bb070e8a59cbe0f9e654072cb7c10dc85ae",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "06a0ad7d2cfe63139364fb4efb2cc54b20850b5c",
+			"_nodeVersion": "0.10.32"
+		},
+		"2.0.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "2.0.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.1.tgz",
+				"shasum": "bc2fd58970826240cef41be8d0df347f1b8f05a4"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.1",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@2.0.1",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"7.0.2": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "7.0.2",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.2.tgz",
+				"shasum": "a5f75fff4d9926126ddac0ea5dc38e689153cb02"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@7.0.2",
+			"gitHead": "997d4df1bc9c748bf31e61622e922c10af0979c2",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "a5f75fff4d9926126ddac0ea5dc38e689153cb02",
+			"_nodeVersion": "0.10.32"
+		},
+		"6.0.0-experiment3": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.0.0-experiment3",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-experiment3.tgz",
+				"shasum": "e7be9bb4c32b46db38e8ab168c0fdf20c83d59ed"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.0.0-experiment3",
+			"gitHead": "4f0aeab170f008030db26ccba7793961c2d684a8",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"bundleDependencies": [
+				"camelize",
+				"is-error",
+				"string-template",
+				"xtend"
+			],
+			"_shasum": "e7be9bb4c32b46db38e8ab168c0fdf20c83d59ed",
+			"fakeProductionDependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			}
+		},
+		"6.0.0-experiment2": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.0.0-experiment2",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-experiment2.tgz",
+				"shasum": "39801016470f88b3ccd9f48907160ceba03b012f"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.0.0-experiment2",
+			"gitHead": "ee5bdd558c031656bc79425f134f0b2cd038089f",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "39801016470f88b3ccd9f48907160ceba03b012f",
+			"fakeProductionDependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			}
+		},
+		"7.0.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "7.0.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.0.tgz",
+				"shasum": "b102dcf071c6f7e473f08500f433728a00454bf1"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@7.0.0",
+			"gitHead": "f00d35fee169c313e6befb48d94c84bcdb3443b4",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "b102dcf071c6f7e473f08500f433728a00454bf1",
+			"_nodeVersion": "0.10.32"
+		},
+		"2.0.4": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "2.0.4",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.4.tgz",
+				"shasum": "b6ad90885b0567383204d85de7ae1bcc59464548"
+			},
+			"dependencies": {
+				"xtend": "~2.1.1"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@2.0.4",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"2.0.2": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "2.0.2",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.2.tgz",
+				"shasum": "4ee45cb2855ef577cebff2d1fa9d51d62f737d2b"
+			},
+			"dependencies": {
+				"xtend": "~2.0.6"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@2.0.2",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"2.0.3": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "2.0.3",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.3.tgz",
+				"shasum": "9666af3fc561fc92fb81670d1c37da4854371ab6"
+			},
+			"dependencies": {
+				"xtend": "~2.0.6"
+			},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.1",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@2.0.3",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"1.0.3": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "1.0.3",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.3.tgz",
+				"shasum": "f0833314129d70b0a5a3f11607eaaaa37a9d1fab"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@1.0.3",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"6.4.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.4.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.0.tgz",
+				"shasum": "09bfa4ab1746eb8adc7b6bec99a2defaa22248e3"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.4.0",
+			"gitHead": "3053eea218ac6de5da8bee4a168fefa0d6923b3e",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "09bfa4ab1746eb8adc7b6bec99a2defaa22248e3",
+			"_nodeVersion": "0.10.32"
+		},
+		"6.4.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.4.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.1.tgz",
+				"shasum": "a5a6d28778603a99bd5dabc1259de9c707059422"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.4.1",
+			"gitHead": "33703461b6bf34436b5054d9bd340754d230f899",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "a5a6d28778603a99bd5dabc1259de9c707059422",
+			"_nodeVersion": "0.10.32"
+		},
+		"6.2.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.2.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.2.0.tgz",
+				"shasum": "3a7c5d30e4d334e1363afbf9555635d92986df40"
+			},
+			"dependencies": {
+				"string-template": "~0.2.1",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.13",
+				"tape": "^3.5.0",
+				"uber-standard": "3.6.4"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "standard -v .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.2.0",
+			"gitHead": "e606411585503cc7486a01de790f36185ab3239f",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "3a7c5d30e4d334e1363afbf9555635d92986df40",
+			"_nodeVersion": "0.10.32"
+		},
+		"6.0.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.0.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0.tgz",
+				"shasum": "b38630cf9f082e0339fc434f6a493df9afb2aef2"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.0.0",
+			"gitHead": "92549febe94e3859251411b92dba770259981629",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "b38630cf9f082e0339fc434f6a493df9afb2aef2"
+		},
+		"6.1.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.1.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.1.0.tgz",
+				"shasum": "b1bed6df46fefea0b09644f57c58134211aa7e36"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.1.0",
+			"gitHead": "baa53b128f5bc87a8c0321106cd4b03e785ed146",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "b1bed6df46fefea0b09644f57c58134211aa7e36",
+			"_nodeVersion": "0.10.26"
+		},
+		"5.0.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "5.0.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.0.0.tgz",
+				"shasum": "921e0bee6b22ec7fd9ff74f09d786fe39a878949"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"tape": "~3.0.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@5.0.0",
+			"gitHead": "dd7de11a0ea635f621f2cec412f92d78b83373c3",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "921e0bee6b22ec7fd9ff74f09d786fe39a878949",
+			"_nodeVersion": "0.10.26"
+		},
+		"5.1.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "5.1.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.1.0.tgz",
+				"shasum": "c2a81d83e22a6b1013ed016b82c20cbb4c6a3277"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"tape": "~3.0.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "jcorbin",
+				"email": "jcorbin@wunjo.org"
+			},
+			"_id": "error@5.1.0",
+			"gitHead": "d3dffe0d54c07ae50155926ac58ce1fe53c5f962",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "c2a81d83e22a6b1013ed016b82c20cbb4c6a3277"
+		},
+		"5.1.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "5.1.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.1.1.tgz",
+				"shasum": "595f2ee50e8d8b495a6123203cc1298a64ef7d48"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"tape": "~3.0.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "jcorbin",
+				"email": "jcorbin@wunjo.org"
+			},
+			"_id": "error@5.1.1",
+			"gitHead": "c5117eab8b02036808365b59b847fef3571b86eb",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "595f2ee50e8d8b495a6123203cc1298a64ef7d48"
+		},
+		"5.2.0": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "5.2.0",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.2.0.tgz",
+				"shasum": "3fb59d16790058466481fae16012e69e432fba42"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@5.2.0",
+			"gitHead": "fcb9103ffad606c8a9c9ce91c1e104480b076803",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "3fb59d16790058466481fae16012e69e432fba42"
+		},
+		"6.0.0-npm-experiment1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "6.0.0-npm-experiment1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-npm-experiment1.tgz",
+				"shasum": "2214ffaec06b626ad3fbc67cd6885d5b4c2caf8b"
+			},
+			"dependencies": {
+				"camelize": "^1.0.0",
+				"is-error": "^2.0.0",
+				"string-template": "~0.2.0",
+				"xtend": "~4.0.0"
+			},
+			"devDependencies": {
+				"lint-trap": "^1.0.1",
+				"tape": "^3.5.0"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				},
+				{
+					"name": "jcorbin",
+					"email": "jcorbin@wunjo.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "lint-trap .",
+				"test": "npm run lint && node test/index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@6.0.0-npm-experiment1",
+			"gitHead": "8d8731420731bb716565e4d3e6ce2f0b620377f7",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"_shasum": "2214ffaec06b626ad3fbc67cd6885d5b4c2caf8b"
+		},
+		"1.0.1": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "1.0.1",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.1.tgz",
+				"shasum": "56d2a4e05d16b9afb6f9141de284ec90c3dabbf5"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.21",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@1.0.1",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		},
+		"1.0.2": {
+			"name": "error",
+			"description": "Custom errors",
+			"version": "1.0.2",
+			"author": {
+				"name": "Raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"homepage": "https://github.com/Raynos/error",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/Raynos/error.git"
+			},
+			"contributors": [
+				{
+					"name": "Raynos"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/Raynos/error/issues",
+				"email": "raynos2@gmail.com"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.2.tgz",
+				"shasum": "747eca00abff9d890efa2c995da96877e6c2abad"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~1.0.2"
+			},
+			"keywords": [],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/Raynos/error/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "raynos",
+					"email": "raynos2@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node ./test/index.js",
+				"start": "node ./index.js",
+				"watch": "nodemon -w ./index.js index.js",
+				"travis-test": "istanbul cover ./test/index.js && ((cat coverage/lcov.info | coveralls) || exit 0)",
+				"cover": "istanbul cover --report none --print detail ./test/index.js",
+				"view-cover": "istanbul report html && google-chrome ./coverage/index.html",
+				"test-browser": "testem-browser ./test/browser/index.js",
+				"testem": "testem-both -b=./test/browser/index.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.1",
+			"_npmUser": {
+				"name": "raynos",
+				"email": "raynos2@gmail.com"
+			},
+			"_id": "error@1.0.2",
+			"testling": {
+				"files": "test/index.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/16..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			}
+		}
+	},
+	"time": {
+		"0.0.4": "2011-11-17T17:18:01.114Z",
+		"0.0.5": "2011-11-17T17:53:48.228Z",
+		"4.1.1": "2014-07-01T09:06:05.088Z",
+		"4.2.0": "2014-08-31T22:36:36.613Z",
+		"4.3.0": "2014-10-09T17:17:13.875Z",
+		"4.0.0": "2014-06-11T22:56:05.694Z",
+		"4.1.0": "2014-07-01T09:03:40.862Z",
+		"0.0.2": "2011-11-16T17:31:41.763Z",
+		"0.0.3": "2011-11-17T17:04:37.091Z",
+		"4.4.0": "2014-12-24T00:41:46.717Z",
+		"6.4.2": "2015-05-28T19:11:32.379Z",
+		"0.0.1": "2011-10-19T17:22:53.961Z",
+		"0.1.0": "2012-02-17T16:58:20.123Z",
+		"6.4.3": "2015-05-28T19:14:59.403Z",
+		"3.0.0": "2014-03-14T01:48:02.567Z",
+		"modified": "2018-03-14T06:12:27.053Z",
+		"7.0.1": "2015-05-29T19:47:42.134Z",
+		"2.0.1": "2013-08-20T18:42:58.240Z",
+		"7.0.2": "2015-06-18T18:32:18.248Z",
+		"created": "2011-10-19T17:22:52.198Z",
+		"6.0.0-experiment3": "2015-04-08T02:53:39.901Z",
+		"6.0.0-experiment2": "2015-04-08T02:52:04.318Z",
+		"7.0.0": "2015-05-28T19:11:53.141Z",
+		"2.0.4": "2013-11-25T08:22:36.418Z",
+		"2.0.2": "2013-08-23T18:46:28.880Z",
+		"2.0.3": "2013-08-23T21:59:20.316Z",
+		"1.0.3": "2013-08-16T21:48:43.342Z",
+		"6.4.0": "2015-05-27T03:18:09.625Z",
+		"6.4.1": "2015-05-27T03:23:36.231Z",
+		"6.2.0": "2015-05-06T06:09:00.233Z",
+		"6.0.0": "2015-03-20T01:01:12.410Z",
+		"6.1.0": "2015-05-04T19:50:12.596Z",
+		"5.0.0": "2014-12-24T01:37:27.674Z",
+		"5.1.0": "2015-02-27T03:01:36.852Z",
+		"5.1.1": "2015-02-27T04:22:41.255Z",
+		"5.2.0": "2015-03-09T00:40:08.022Z",
+		"6.0.0-npm-experiment1": "2015-04-08T02:49:29.735Z",
+		"1.0.1": "2013-06-20T20:29:11.821Z",
+		"1.0.2": "2013-07-29T23:47:27.846Z"
+	},
+	"dist-tags": {
+		"experiment": "6.0.0-experiment3",
+		"latest": "7.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749460172
+		}
+	},
+	"_distfiles": {
+		"error-0.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.4.tgz",
+			"sha": "9d356fa7a7017727d187a1f4af86641873af416b"
+		},
+		"error-0.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.5.tgz",
+			"sha": "764afb258e360255abd8f3edcb4fc1731c3f4c9b"
+		},
+		"error-4.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.1.1.tgz",
+			"sha": "9af977953d6f1bb78e98ea94ba7c6d50e67b8479"
+		},
+		"error-4.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.2.0.tgz",
+			"sha": "86b94d82116b4b28f95f9bf797e9b0432f604007"
+		},
+		"error-4.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.3.0.tgz",
+			"sha": "bda3159a6f54977fc689459f49b91ee4066d17d8"
+		},
+		"error-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.0.0.tgz",
+			"sha": "230bc3891f0b2384585e51b6dfa876d06959b128"
+		},
+		"error-4.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.1.0.tgz",
+			"sha": "b541fcaf282367f9b723d3cac94bdc54452f6f29"
+		},
+		"error-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.2.tgz",
+			"sha": "97790f95fa98614ce66224d4b29579b6d5c1e8b6"
+		},
+		"error-0.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.3.tgz",
+			"sha": "f569b0991fcd64bb5e588a6d046f3bd8af58f77b"
+		},
+		"error-4.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-4.4.0.tgz",
+			"sha": "bf69ff251fb4a279c19adccdaa6b61e90d9bf12a"
+		},
+		"error-6.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.2.tgz",
+			"sha": "7cdeda3c7b03b0f5ec8ac555699be8c621100625"
+		},
+		"error-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.0.1.tgz",
+			"sha": "74df840704ef29ba7be53806adcb3efaea38ca01"
+		},
+		"error-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-0.1.0.tgz",
+			"sha": "446492f52c9a2e47ac4d61920c04a47cb267f494"
+		},
+		"error-6.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.3.tgz",
+			"sha": "7d7b2caa0f1a11b6019aaeed4286ffdbebe4e3d8"
+		},
+		"error-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-3.0.0.tgz",
+			"sha": "a2957dcfd02e66cced07c120d20b6fbf7f9d8d78"
+		},
+		"error-7.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.1.tgz",
+			"sha": "06a0ad7d2cfe63139364fb4efb2cc54b20850b5c"
+		},
+		"error-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.1.tgz",
+			"sha": "bc2fd58970826240cef41be8d0df347f1b8f05a4"
+		},
+		"error-7.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.2.tgz",
+			"sha": "a5f75fff4d9926126ddac0ea5dc38e689153cb02"
+		},
+		"error-6.0.0-experiment3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-experiment3.tgz",
+			"sha": "e7be9bb4c32b46db38e8ab168c0fdf20c83d59ed"
+		},
+		"error-6.0.0-experiment2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-experiment2.tgz",
+			"sha": "39801016470f88b3ccd9f48907160ceba03b012f"
+		},
+		"error-7.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-7.0.0.tgz",
+			"sha": "b102dcf071c6f7e473f08500f433728a00454bf1"
+		},
+		"error-2.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.4.tgz",
+			"sha": "b6ad90885b0567383204d85de7ae1bcc59464548"
+		},
+		"error-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.2.tgz",
+			"sha": "4ee45cb2855ef577cebff2d1fa9d51d62f737d2b"
+		},
+		"error-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-2.0.3.tgz",
+			"sha": "9666af3fc561fc92fb81670d1c37da4854371ab6"
+		},
+		"error-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.3.tgz",
+			"sha": "f0833314129d70b0a5a3f11607eaaaa37a9d1fab"
+		},
+		"error-6.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.0.tgz",
+			"sha": "09bfa4ab1746eb8adc7b6bec99a2defaa22248e3"
+		},
+		"error-6.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.4.1.tgz",
+			"sha": "a5a6d28778603a99bd5dabc1259de9c707059422"
+		},
+		"error-6.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.2.0.tgz",
+			"sha": "3a7c5d30e4d334e1363afbf9555635d92986df40"
+		},
+		"error-6.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0.tgz",
+			"sha": "b38630cf9f082e0339fc434f6a493df9afb2aef2"
+		},
+		"error-6.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.1.0.tgz",
+			"sha": "b1bed6df46fefea0b09644f57c58134211aa7e36"
+		},
+		"error-5.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.0.0.tgz",
+			"sha": "921e0bee6b22ec7fd9ff74f09d786fe39a878949"
+		},
+		"error-5.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.1.0.tgz",
+			"sha": "c2a81d83e22a6b1013ed016b82c20cbb4c6a3277"
+		},
+		"error-5.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.1.1.tgz",
+			"sha": "595f2ee50e8d8b495a6123203cc1298a64ef7d48"
+		},
+		"error-5.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-5.2.0.tgz",
+			"sha": "3fb59d16790058466481fae16012e69e432fba42"
+		},
+		"error-6.0.0-npm-experiment1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-6.0.0-npm-experiment1.tgz",
+			"sha": "2214ffaec06b626ad3fbc67cd6885d5b4c2caf8b"
+		},
+		"error-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.1.tgz",
+			"sha": "56d2a4e05d16b9afb6f9141de284ec90c3dabbf5"
+		},
+		"error-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/error/-/error-1.0.2.tgz",
+			"sha": "747eca00abff9d890efa2c995da96877e6c2abad"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-2a91c91e186e5b9a",
+	"readme": "# error\r\n\r\n<!--\r\n    [![build status][1]][2]\r\n    [![NPM version][3]][4]\r\n    [![Coverage Status][5]][6]\r\n    [![gemnasium Dependency Status][7]][8]\r\n    [![Davis Dependency status][9]][10]\r\n-->\r\n\r\n<!-- [![browser support][11]][12] -->\r\n\r\nCustom errors\r\n\r\n## Typed Error\r\n\r\n```js\r\nvar TypedError = require(\"error/typed\")\r\n\r\nvar ServerError = TypedError({\r\n    type: 'server.5xx',\r\n    message: '{title} server error, status={statusCode}',\r\n    title: null,\r\n    statusCode: null\r\n});\r\nvar ClientError = TypedError({\r\n    type: 'client.4xx',\r\n    message: '{title} client error, status={statusCode}',\r\n    title: null,\r\n    statusCode: null\r\n});\r\n\r\nvar error = ServerError({\r\n    title:'some title',\r\n    statusCode: 500\r\n});\r\nvar error2 = ClientError({\r\n    title: 'some title',\r\n    statusCode: 404\r\n});\r\n```\r\n\r\n## Wrapped Errors\r\n\r\n```js\r\nvar net = require('net');\r\nvar WrappedError = require('error/wrapped');\r\n\r\nvar ServerListenError = WrappedError({\r\n    message: 'server: {origMessage}',\r\n    type: 'server.listen-failed',\r\n    requestedPort: null,\r\n    host: null\r\n});\r\n\r\nvar server = net.createServer();\r\n\r\nserver.on('error', function onError(err) {\r\n    if (err.code === 'EADDRINUSE') {\r\n        throw ServerListenError(err, {\r\n            requestedPort: 3000,\r\n            host: null\r\n        });\r\n    } else {\r\n        throw err;\r\n    }\r\n});\r\n\r\nserver.listen(3000);\r\n```\r\n\r\n## Installation\r\n\r\n`npm install error`\r\n\r\n## Contributors\r\n\r\n - Raynos\r\n\r\n## MIT Licenced\r\n\r\n  [1]: https://secure.travis-ci.org/Raynos/error.png\r\n  [2]: https://travis-ci.org/Raynos/error\r\n  [3]: https://badge.fury.io/js/error.png\r\n  [4]: https://badge.fury.io/js/error\r\n  [5]: https://coveralls.io/repos/Raynos/error/badge.png\r\n  [6]: https://coveralls.io/r/Raynos/error\r\n  [7]: https://gemnasium.com/Raynos/error.png\r\n  [8]: https://gemnasium.com/Raynos/error\r\n  [9]: https://david-dm.org/Raynos/error.png\r\n  [10]: https://david-dm.org/Raynos/error\r\n  [11]: https://ci.testling.com/Raynos/error.png\r\n  [12]: https://ci.testling.com/Raynos/error"
+}

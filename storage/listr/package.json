@@ -1,0 +1,2212 @@
+{
+	"name": "listr",
+	"versions": {
+		"0.4.2": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.4.2",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.2.tgz",
+				"shasum": "d08cfab17856700030153a09052c975f960377e1"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.4.2",
+			"gitHead": "293e849170063b04c98079d6e6f9da64931334e8",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.4.2.tgz_1467456111956_0.3644413931760937"
+			},
+			"clinton": {
+				"rules": {
+					"editorconfig": "off"
+				}
+			},
+			"_shasum": "d08cfab17856700030153a09052c975f960377e1",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.6.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.6.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.6.0.tgz",
+				"shasum": "94b69177a3e2486186a2fcd821e66a74ebca1363"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.0.0",
+				"listr-update-renderer": "^0.1.1",
+				"listr-verbose-renderer": "^0.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.6.0",
+			"gitHead": "5e1191963c6c3888967cf876e22ff0c287b50497",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.6.0.tgz_1473966371778_0.40352301741950214"
+			},
+			"_shasum": "94b69177a3e2486186a2fcd821e66a74ebca1363",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.4.3": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.4.3",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.3.tgz",
+				"shasum": "2302cb24d2af02aad848d133119cbafffab9d23d"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.4.3",
+			"gitHead": "2d8180f8d6db7179be1f2c43952a8d396646af95",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.4.3.tgz_1467740418524_0.2424146649427712"
+			},
+			"clinton": {
+				"rules": {
+					"editorconfig": "off"
+				}
+			},
+			"_shasum": "2302cb24d2af02aad848d133119cbafffab9d23d",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.6.1": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.6.1",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.6.1.tgz",
+				"shasum": "adf33fbff0efc38e247442de0a8501ff92667ba2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.0.0",
+				"listr-update-renderer": "^0.1.1",
+				"listr-verbose-renderer": "^0.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.6.1",
+			"gitHead": "d4595d0db573a074bce02a5f0abb1c1d02c2aef3",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.6.1.tgz_1474218530152_0.47431463515385985"
+			},
+			"_shasum": "adf33fbff0efc38e247442de0a8501ff92667ba2",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.7.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.7.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.7.0.tgz",
+				"shasum": "b94ba2a5072daad8bff6d3984b50afc590c3d8e5"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.0.0",
+				"listr-update-renderer": "^0.1.1",
+				"listr-verbose-renderer": "^0.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"nyc": "^8.3.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.7.0",
+			"gitHead": "c37d2d38883e56ef56f92c0989f2648db8c3b4a6",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.7.0.tgz_1477855883863_0.9340526624582708"
+			},
+			"_shasum": "b94ba2a5072daad8bff6d3984b50afc590c3d8e5",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.14.3": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.14.3",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/SamVerschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SamVerschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/SamVerschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.3.tgz",
+				"shasum": "2fea909604e434be464c50bddba0d496928fa586"
+			},
+			"dependencies": {
+				"@samverschueren/stream-to-observable": "^0.3.0",
+				"is-observable": "^1.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.5.0",
+				"listr-verbose-renderer": "^0.5.0",
+				"p-map": "^2.0.0",
+				"rxjs": "^6.3.3"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"codecov": "^3.1.0",
+				"delay": "^4.1.0",
+				"hook-std": "^1.1.0",
+				"lint-staged": "^8.0.5",
+				"log-symbols": "^2.2.0",
+				"nyc": "^13.1.0",
+				"pre-commit": "^1.2.2",
+				"split": "^1.0.1",
+				"xo": "*",
+				"zen-observable": "^0.8.11"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"lint:staged": "lint-staged"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.14.3",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "fe40ce5b94f53f16a745ab5a94b31a92834c9f85",
+			"xo": {
+				"rules": {
+					"prefer-destructuring": "off"
+				}
+			},
+			"pre-commit": "lint:staged",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/listr_0.14.3_1542486006344_0.9162906249375413"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"0.4.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.4.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.0.tgz",
+				"shasum": "53d76b3ef181094927e28c17e6449c0567504113"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.4.0",
+			"gitHead": "a37ad515f16c04cd419e6ba1164455dc5aeda65a",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.4.0.tgz_1467230070677_0.48053037002682686"
+			},
+			"clinton": {
+				"rules": {
+					"editorconfig": "off"
+				}
+			},
+			"_shasum": "53d76b3ef181094927e28c17e6449c0567504113",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.14.2": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.14.2",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/SamVerschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SamVerschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/SamVerschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.2.tgz",
+				"shasum": "cbe44b021100a15376addfc2d79349ee430bfe14"
+			},
+			"dependencies": {
+				"@samverschueren/stream-to-observable": "^0.3.0",
+				"is-observable": "^1.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.4.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"p-map": "^1.1.1",
+				"rxjs": "^6.1.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"codecov": "^3.0.0",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"lint-staged": "^3.3.1",
+				"log-symbols": "^2.2.0",
+				"nyc": "^8.3.2",
+				"pre-commit": "^1.2.2",
+				"split": "^1.0.1",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"lint:staged": "lint-staged"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.14.2",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "edbba65de1988e40d1af25c01eefdfadb21f94e1",
+			"xo": {
+				"rules": {
+					"prefer-destructuring": "off"
+				}
+			},
+			"pre-commit": "lint:staged",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/listr_0.14.2_1535717176085_0.09558347396296085"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"0.4.1": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.4.1",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.1.tgz",
+				"shasum": "4613410cb1180dc31aa4ebf2dea089fd5d9b2e4a"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.4.1",
+			"gitHead": "5edbf9c26d687b3c562bf87d828e73c28dbe267a",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.4.1.tgz_1467231142108_0.19772895821370184"
+			},
+			"clinton": {
+				"rules": {
+					"editorconfig": "off"
+				}
+			},
+			"_shasum": "4613410cb1180dc31aa4ebf2dea089fd5d9b2e4a",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.5.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.5.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.5.0.tgz",
+				"shasum": "82c756d63d63db710b7a2f649f01e235e4d69172"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"delay": "^1.3.1",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.5.0",
+			"gitHead": "eeaaf150d9a79534432c513b99f605a43065b11c",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.5.0.tgz_1469515891191_0.6830719853751361"
+			},
+			"clinton": {
+				"rules": {
+					"editorconfig": "off"
+				}
+			},
+			"_shasum": "82c756d63d63db710b7a2f649f01e235e4d69172",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.14.1": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.14.1",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/SamVerschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SamVerschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/SamVerschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.1.tgz",
+				"shasum": "8a7afa4a7135cee4c921d128e0b7dfc6e522d43d"
+			},
+			"dependencies": {
+				"@samverschueren/stream-to-observable": "^0.3.0",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-observable": "^1.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.4.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"p-map": "^1.1.1",
+				"rxjs": "^6.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"codecov": "^3.0.0",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"lint-staged": "^3.3.1",
+				"nyc": "^8.3.2",
+				"pre-commit": "^1.2.2",
+				"split": "^1.0.1",
+				"xo": "^0.20.3",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"lint:staged": "lint-staged"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.14.1",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "588036807405e6b4b961ea7b13f88b25978bbe96",
+			"xo": {
+				"rules": {
+					"prefer-destructuring": "off"
+				}
+			},
+			"pre-commit": "lint:staged",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/listr_0.14.1_1526046883053_0.5792882268564952"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"0.14.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.14.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/SamVerschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SamVerschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/SamVerschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.0.tgz",
+				"shasum": "3abc68909aacd2273319644c24dea236ad7fbe7f"
+			},
+			"dependencies": {
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-observable": "^0.2.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.4.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"p-map": "^1.1.1",
+				"rxjs": "^5.6.0-forward-compat.0 || ^6.0.0-rc.1",
+				"stream-to-observable": "^0.2.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"codecov": "^3.0.0",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"lint-staged": "^3.3.1",
+				"nyc": "^8.3.2",
+				"pre-commit": "^1.2.2",
+				"split": "^1.0.1",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"lint:staged": "lint-staged"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.14.0",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "b2955256fc12cc7dfd667616a6565c803e3dbb17",
+			"pre-commit": "lint:staged",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/listr_0.14.0_1523425266993_0.7289920529503731"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"0.13.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.13.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.13.0.tgz",
+				"shasum": "20bb0ba30bae660ee84cc0503df4be3d5623887d"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-observable": "^0.2.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.4.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"p-map": "^1.1.1",
+				"rxjs": "^5.4.2",
+				"stream-to-observable": "^0.2.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"codecov": "^3.0.0",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"lint-staged": "^3.3.1",
+				"nyc": "^8.3.2",
+				"pre-commit": "^1.2.2",
+				"split": "^1.0.1",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"lint:staged": "lint-staged"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.13.0",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "7ef935e60f1b92fa9a70f8b92117cbfb116cf0e5",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/listr-0.13.0.tgz_1508860533089_0.6862354667391628"
+			},
+			"_shasum": "20bb0ba30bae660ee84cc0503df4be3d5623887d",
+			"_nodeVersion": "6.9.5"
+		},
+		"0.8.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.8.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.8.0.tgz",
+				"shasum": "deb71025890118c3059413d6c9f217cc8d8f449a"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.0.0",
+				"listr-update-renderer": "^0.1.1",
+				"listr-verbose-renderer": "^0.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"nyc": "^8.3.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.8.0",
+			"gitHead": "efffc3a43382f84ba694c7b614d6bf4820af40ff",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.8.0.tgz_1479495299405_0.35242947563529015"
+			},
+			"_shasum": "deb71025890118c3059413d6c9f217cc8d8f449a",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.12.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.12.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.12.0.tgz",
+				"shasum": "6bce2c0f5603fa49580ea17cd6a00cc0e5fa451a"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.2.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"p-map": "^1.1.1",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"lint-staged": "^3.3.1",
+				"nyc": "^8.3.2",
+				"pre-commit": "^1.2.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls",
+				"lint:staged": "lint-staged"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.12.0",
+			"lint-staged": {
+				"*.js": "xo"
+			},
+			"gitHead": "2d7a7bfdbe95cede7f7bd9265f6450281ec943ad",
+			"xo": {
+				"esnext": true
+			},
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.12.0.tgz_1493380607661_0.4558431007899344"
+			},
+			"_shasum": "6bce2c0f5603fa49580ea17cd6a00cc0e5fa451a",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.9.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.9.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.9.0.tgz",
+				"shasum": "0ee78c5d95499f26042abe3334e10cacc9e81fcf"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.1.1",
+				"listr-verbose-renderer": "^0.2.1",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"nyc": "^8.3.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.9.0",
+			"gitHead": "459ccbcb3058e998bb8d3afcf8b27fce84e845f6",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.9.0.tgz_1481100278386_0.4809084068983793"
+			},
+			"_shasum": "0ee78c5d95499f26042abe3334e10cacc9e81fcf",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.11.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.11.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.11.0.tgz",
+				"shasum": "5e778bc23806ac3ab984ed75564458151f39b03e"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.2.0",
+				"listr-verbose-renderer": "^0.4.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"nyc": "^8.3.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.11.0",
+			"gitHead": "7b334b155a06100d1614b78eaba9220e063bdec0",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.11.0.tgz_1487511113801_0.11083454731851816"
+			},
+			"_shasum": "5e778bc23806ac3ab984ed75564458151f39b03e",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.2.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.2.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.2.0.tgz",
+				"shasum": "d1b808d3c0e6e8e0a9e4082e2dc56c85fae53a6e"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.2.0",
+			"gitHead": "0b04113a10652eba27f986362022761f1a1188bf",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.2.0.tgz_1467016201506_0.6354189657140523"
+			},
+			"_shasum": "d1b808d3c0e6e8e0a9e4082e2dc56c85fae53a6e",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.3.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.3.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.3.0.tgz",
+				"shasum": "534b98c0b515ac1f8432e566dc9d6911762edc82"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"stream-to-observable": "^0.1.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"rxjs": "^5.0.0-beta.9",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.3.0",
+			"gitHead": "b448190b42207dcaff62e124be96955c20898949",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.3.0.tgz_1467183727933_0.6925493641756475"
+			},
+			"_shasum": "534b98c0b515ac1f8432e566dc9d6911762edc82",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.1.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.1.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.1.0.tgz",
+				"shasum": "a93457a4c2ca0e993ceace8c8a145ea8c7b6653a"
+			},
+			"dependencies": {
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"xo": "*"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.1.0",
+			"gitHead": "9168084ce65f7c859268d120dbb1b96216aacada",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/listr-0.1.0.tgz_1465510050945_0.7093272563070059"
+			},
+			"_shasum": "a93457a4c2ca0e993ceace8c8a145ea8c7b6653a",
+			"_nodeVersion": "4.4.3"
+		},
+		"0.10.0": {
+			"name": "listr",
+			"description": "Terminal task list",
+			"version": "0.10.0",
+			"author": {
+				"name": "Sam Verschueren",
+				"email": "sam.verschueren@gmail.com",
+				"url": "github.com/SamVerschueren"
+			},
+			"homepage": "https://github.com/samverschueren/listr#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/samverschueren/listr.git"
+			},
+			"bugs": {
+				"url": "https://github.com/samverschueren/listr/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.10.0.tgz",
+				"shasum": "342d7210966c0497a9193aaab5053e7bf619e3e2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cli-truncate": "^0.2.1",
+				"figures": "^1.7.0",
+				"indent-string": "^2.1.0",
+				"is-promise": "^2.1.0",
+				"is-stream": "^1.1.0",
+				"listr-silent-renderer": "^1.1.1",
+				"listr-update-renderer": "^0.2.0",
+				"listr-verbose-renderer": "^0.3.0",
+				"log-symbols": "^1.0.2",
+				"log-update": "^1.0.2",
+				"ora": "^0.2.3",
+				"rxjs": "^5.0.0-beta.11",
+				"stream-to-observable": "^0.1.0",
+				"strip-ansi": "^3.0.1"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"clinton": "*",
+				"coveralls": "^2.11.14",
+				"delay": "^1.3.1",
+				"hook-std": "^0.2.0",
+				"nyc": "^8.3.2",
+				"xo": "*",
+				"zen-observable": "^0.3.0"
+			},
+			"keywords": [
+				"cli",
+				"task",
+				"list",
+				"tasklist",
+				"terminal",
+				"term",
+				"console",
+				"ascii",
+				"unicode",
+				"loading",
+				"indicator",
+				"progress",
+				"busy",
+				"wait",
+				"idle"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "samverschueren",
+					"email": "sam.verschueren@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "clinton && xo && nyc ava",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "samverschueren",
+				"email": "sam.verschueren@gmail.com"
+			},
+			"_id": "listr@0.10.0",
+			"gitHead": "c29cf628809f7b2ec7dacb7529425c8040843e4d",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/listr-0.10.0.tgz_1485551481169_0.5951458842027932"
+			},
+			"_shasum": "342d7210966c0497a9193aaab5053e7bf619e3e2",
+			"_nodeVersion": "6.9.1"
+		}
+	},
+	"time": {
+		"0.4.2": "2016-07-02T10:41:54.195Z",
+		"0.6.0": "2016-09-15T19:06:13.254Z",
+		"0.4.3": "2016-07-05T17:40:20.951Z",
+		"0.6.1": "2016-09-18T17:08:52.285Z",
+		"0.7.0": "2016-10-30T19:31:24.484Z",
+		"0.14.3": "2018-11-17T20:20:06.457Z",
+		"0.4.0": "2016-06-29T19:54:33.238Z",
+		"0.14.2": "2018-08-31T12:06:16.234Z",
+		"0.4.1": "2016-06-29T20:12:24.494Z",
+		"0.5.0": "2016-07-26T06:51:33.375Z",
+		"0.14.1": "2018-05-11T13:54:43.141Z",
+		"0.14.0": "2018-04-11T05:41:07.084Z",
+		"0.13.0": "2017-10-24T15:55:34.134Z",
+		"created": "2016-06-09T22:07:33.447Z",
+		"0.8.0": "2016-11-18T18:55:00.077Z",
+		"0.12.0": "2017-04-28T11:56:49.680Z",
+		"0.9.0": "2016-12-07T08:44:39.208Z",
+		"0.11.0": "2017-02-19T13:31:54.418Z",
+		"0.2.0": "2016-06-27T08:30:04.030Z",
+		"0.3.0": "2016-06-29T07:02:10.048Z",
+		"0.1.0": "2016-06-09T22:07:33.447Z",
+		"0.10.0": "2017-01-27T21:11:21.884Z",
+		"modified": "2019-01-04T16:07:53.237Z"
+	},
+	"dist-tags": {
+		"latest": "0.14.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749343899
+		}
+	},
+	"_distfiles": {
+		"listr-0.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.2.tgz",
+			"sha": "d08cfab17856700030153a09052c975f960377e1"
+		},
+		"listr-0.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.6.0.tgz",
+			"sha": "94b69177a3e2486186a2fcd821e66a74ebca1363"
+		},
+		"listr-0.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.3.tgz",
+			"sha": "2302cb24d2af02aad848d133119cbafffab9d23d"
+		},
+		"listr-0.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.6.1.tgz",
+			"sha": "adf33fbff0efc38e247442de0a8501ff92667ba2"
+		},
+		"listr-0.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.7.0.tgz",
+			"sha": "b94ba2a5072daad8bff6d3984b50afc590c3d8e5"
+		},
+		"listr-0.14.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.3.tgz",
+			"sha": "2fea909604e434be464c50bddba0d496928fa586"
+		},
+		"listr-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.0.tgz",
+			"sha": "53d76b3ef181094927e28c17e6449c0567504113"
+		},
+		"listr-0.14.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.2.tgz",
+			"sha": "cbe44b021100a15376addfc2d79349ee430bfe14"
+		},
+		"listr-0.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.4.1.tgz",
+			"sha": "4613410cb1180dc31aa4ebf2dea089fd5d9b2e4a"
+		},
+		"listr-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.5.0.tgz",
+			"sha": "82c756d63d63db710b7a2f649f01e235e4d69172"
+		},
+		"listr-0.14.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.1.tgz",
+			"sha": "8a7afa4a7135cee4c921d128e0b7dfc6e522d43d"
+		},
+		"listr-0.14.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.14.0.tgz",
+			"sha": "3abc68909aacd2273319644c24dea236ad7fbe7f"
+		},
+		"listr-0.13.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.13.0.tgz",
+			"sha": "20bb0ba30bae660ee84cc0503df4be3d5623887d"
+		},
+		"listr-0.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.8.0.tgz",
+			"sha": "deb71025890118c3059413d6c9f217cc8d8f449a"
+		},
+		"listr-0.12.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.12.0.tgz",
+			"sha": "6bce2c0f5603fa49580ea17cd6a00cc0e5fa451a"
+		},
+		"listr-0.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.9.0.tgz",
+			"sha": "0ee78c5d95499f26042abe3334e10cacc9e81fcf"
+		},
+		"listr-0.11.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.11.0.tgz",
+			"sha": "5e778bc23806ac3ab984ed75564458151f39b03e"
+		},
+		"listr-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.2.0.tgz",
+			"sha": "d1b808d3c0e6e8e0a9e4082e2dc56c85fae53a6e"
+		},
+		"listr-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.3.0.tgz",
+			"sha": "534b98c0b515ac1f8432e566dc9d6911762edc82"
+		},
+		"listr-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.1.0.tgz",
+			"sha": "a93457a4c2ca0e993ceace8c8a145ea8c7b6653a"
+		},
+		"listr-0.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/listr/-/listr-0.10.0.tgz",
+			"sha": "342d7210966c0497a9193aaab5053e7bf619e3e2"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-c0286eed73c645c0",
+	"readme": "# listr\n\n[![Build Status Linux](https://travis-ci.org/SamVerschueren/listr.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr) [![Build status Windows](https://ci.appveyor.com/api/projects/status/y8vhpwsb98b8o4cm?svg=true)](https://ci.appveyor.com/project/SamVerschueren/listr) [![Coverage Status](https://codecov.io/gh/SamVerschueren/listr/branch/master/graph/badge.svg)](https://codecov.io/gh/SamVerschueren/listr)\n\n> Terminal task list\n\n<img src=\"media/screenshot.gif\">\n\n## Install\n\n```\n$ npm install --save listr\n```\n\n\n## Usage\n\n```js\nconst execa = require('execa');\nconst Listr = require('listr');\n\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Git',\n\t\ttask: () => {\n\t\t\treturn new Listr([\n\t\t\t\t{\n\t\t\t\t\ttitle: 'Checking git status',\n\t\t\t\t\ttask: () => execa.stdout('git', ['status', '--porcelain']).then(result => {\n\t\t\t\t\t\tif (result !== '') {\n\t\t\t\t\t\t\tthrow new Error('Unclean working tree. Commit or stash changes first.');\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\ttitle: 'Checking remote history',\n\t\t\t\t\ttask: () => execa.stdout('git', ['rev-list', '--count', '--left-only', '@{u}...HEAD']).then(result => {\n\t\t\t\t\t\tif (result !== '0') {\n\t\t\t\t\t\t\tthrow new Error('Remote history differ. Please pull changes.');\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t}\n\t\t\t], {concurrent: true});\n\t\t}\n\t},\n\t{\n\t\ttitle: 'Install package dependencies with Yarn',\n\t\ttask: (ctx, task) => execa('yarn')\n\t\t\t.catch(() => {\n\t\t\t\tctx.yarn = false;\n\n\t\t\t\ttask.skip('Yarn not available, install it via `npm install -g yarn`');\n\t\t\t})\n\t},\n\t{\n\t\ttitle: 'Install package dependencies with npm',\n\t\tenabled: ctx => ctx.yarn === false,\n\t\ttask: () => execa('npm', ['install'])\n\t},\n\t{\n\t\ttitle: 'Run tests',\n\t\ttask: () => execa('npm', ['test'])\n\t},\n\t{\n\t\ttitle: 'Publish package',\n\t\ttask: () => execa('npm', ['publish'])\n\t}\n]);\n\ntasks.run().catch(err => {\n\tconsole.error(err);\n});\n```\n\n\n## Task\n\nA `task` can return different values. If a `task` returns, it means the task was completed successfully. If a task throws an error, the task failed.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Success',\n\t\ttask: () => 'Foo'\n\t},\n\t{\n\t\ttitle: 'Failure',\n\t\ttask: () => {\n\t\t\tthrow new Error('Bar')\n\t\t}\n\t}\n]);\n```\n\n\n### Promises\n\nA `task` can also be async by returning a `Promise`. If the promise resolves, the task completed successfully, if it rejects, the task failed.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Success',\n\t\ttask: () => Promise.resolve('Foo')\n\t},\n\t{\n\t\ttitle: 'Failure',\n\t\ttask: () => Promise.reject(new Error('Bar'))\n\t}\n]);\n```\n\n> Tip: Always reject a promise with some kind of `Error` object.\n\n### Observable\n\n<img src=\"media/observable.gif\" width=\"250\" align=\"right\">\n\nA `task` can also return an `Observable`. The thing about observables is that it can emit multiple values and can be used to show the output of the\ntask. Please note that only the last line of the output is rendered.\n\n```js\nconst {Observable} = require('rxjs');\n\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Success',\n\t\ttask: () => {\n\t\t\treturn new Observable(observer => {\n\t\t\t\tobserver.next('Foo');\n\n\t\t\t\tsetTimeout(() => {\n\t\t\t\t\tobserver.next('Bar');\n\t\t\t\t}, 2000);\n\n\t\t\t\tsetTimeout(() => {\n\t\t\t\t\tobserver.complete();\n\t\t\t\t}, 4000);\n\t\t\t});\n\t\t}\n\t},\n\t{\n\t\ttitle: 'Failure',\n\t\ttask: () => Promise.reject(new Error('Bar'))\n\t}\n]);\n```\n\nYou can use the `Observable` package you feel most comfortable with, like [RxJS](https://www.npmjs.com/package/rxjs) or [zen-observable](https://www.npmjs.com/package/zen-observable).\n\n### Streams\n\nIt's also possible to return a [`ReadableStream`](https://nodejs.org/api/stream.html#stream_class_stream_readable). The stream will be converted to an `Observable` and handled as such.\n\n```js\nconst fs = require('fs');\nconst split = require('split');\n\nconst list = new Listr([\n\t{\n\t\ttitle: 'File',\n\t\ttask: () => fs.createReadStream('data.txt', 'utf8')\n\t\t\t.pipe(split(/\\r?\\n/, null, {trailing: false}))\n\t}\n]);\n```\n\n### Skipping tasks\n\n<img src=\"media/skipped.png\" width=\"250\" align=\"right\">\n\nOptionally specify a `skip` function to determine whether a task can be skipped.\n\n- If the `skip` function returns a truthy value or a `Promise` that resolves to a truthy value then the task will be skipped.\n- If the returned value is a string it will be displayed as the reason for skipping the task.\n- If the `skip` function returns a falsey value or a `Promise` that resolves to a falsey value then the task will be executed as normal.\n- If the `skip` function throws or returns a `Promise` that rejects, the task (and the whole build) will fail.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Task 1',\n\t\ttask: () => Promise.resolve('Foo')\n\t},\n\t{\n\t\ttitle: 'Can be skipped',\n\t\tskip: () => {\n\t\t\tif (Math.random() > 0.5) {\n\t\t\t\treturn 'Reason for skipping';\n\t\t\t}\n\t\t},\n\t\ttask: () => 'Bar'\n\t},\n\t{\n\t\ttitle: 'Task 3',\n\t\ttask: () => Promise.resolve('Bar')\n\t}\n]);\n```\n\n> Tip: You can still skip a task while already executing the `task` function with the [task object](#task-object).\n\n## Enabling tasks\n\nBy default, every task is enabled which means that every task will be executed. However, it's also possible to provide an `enabled` function that returns whether the task should be executed or not.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Install package dependencies with Yarn',\n\t\ttask: (ctx, task) => execa('yarn')\n\t\t\t.catch(() => {\n\t\t\t\tctx.yarn = false;\n\n\t\t\t\ttask.skip('Yarn not available, install it via `npm install -g yarn`');\n\t\t\t})\n\t},\n\t{\n\t\ttitle: 'Install package dependencies with npm',\n\t\tenabled: ctx => ctx.yarn === false,\n\t\ttask: () => execa('npm', ['install'])\n\t}\n]);\n```\n\nIn the above example, we try to run `yarn` first, if that fails we will fall back to `npm`. However, at first only the Yarn task will be visible. Because we set the `yarn` flag of the [context](https://github.com/SamVerschueren/listr#context) object to `false`, the second task will automatically be enabled and will be executed.\n\n> Note: This does not work in combination with [concurrent](https://github.com/SamVerschueren/listr#concurrent) tasks.\n\n\n## Context\n\nA context object is passed as argument to every `skip` and `task` function. This allows you to create composable tasks and change the behaviour of your task depending on previous results.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Task 1',\n\t\tskip: ctx => ctx.foo === 'bar',\n\t\ttask: () => Promise.resolve('Foo')\n\t},\n\t{\n\t\ttitle: 'Can be skipped',\n\t\tskip: () => {\n\t\t\tif (Math.random() > 0.5) {\n\t\t\t\treturn 'Reason for skipping';\n\t\t\t}\n\t\t},\n\t\ttask: ctx => {\n\t\t\tctx.unicorn = 'rainbow';\n\t\t}\n\t},\n\t{\n\t\ttitle: 'Task 3',\n\t\ttask: ctx => Promise.resolve(`${ctx.foo} ${ctx.bar}`)\n\t}\n]);\n\ntasks.run({\n\tfoo: 'bar'\n}).then(ctx => {\n\tconsole.log(ctx);\n\t//=> {foo: 'bar', unicorn: 'rainbow'}\n});\n```\n\n\n## Task object\n\nA special task object is passed as second argument to the `task` function. This task object lets you change the title while running your task, you can skip it depending on some results or you can update the task's output.\n\n```js\nconst tasks = new Listr([\n\t{\n\t\ttitle: 'Install package dependencies with Yarn',\n\t\ttask: (ctx, task) => execa('yarn')\n\t\t\t.catch(() => {\n\t\t\t\tctx.yarn = false;\n\n\t\t\t\ttask.title = `${task.title} (or not)`;\n\t\t\t\ttask.skip('Yarn not available');\n\t\t\t})\n\t},\n\t{\n\t\ttitle: 'Install package dependencies with npm',\n\t\tskip: ctx => ctx.yarn !== false && 'Dependencies already installed with Yarn',\n\t\ttask: (ctx, task) => {\n\t\t\ttask.output = 'Installing dependencies...';\n\n\t\t\treturn execa('npm', ['install'])\n\t\t}\n\t}\n]);\n\ntasks.run();\n```\n\n\n## Custom renderers\n\nIt's possible to write custom renderers for Listr. A renderer is an ES6 class that accepts the tasks that it should render, and the Listr options object. It has two methods, the `render` method which is called when it should start rendering, and the `end` method. The `end` method is called when all the tasks are completed or if a task failed. If a task failed, the error object is passed in via an argument.\n\n```js\nclass CustomRenderer {\n\n\tconstructor(tasks, options) { }\n\n\tstatic get nonTTY() {\n\t\treturn false;\n\t}\n\n\trender() { }\n\n\tend(err) { }\n}\n\nmodule.exports = CustomRenderer;\n```\n\n> Note: A renderer is not passed through to the subtasks, only to the main task. It is up to you to handle that case.\n\nThe `nonTTY` property returns a boolean indicating if the renderer supports non-TTY environments. The default for this property is `false` if you do not implement it.\n\n### Observables\n\nEvery task is an observable. The task emits three different events and every event is an object with a `type` property.\n\n1. The state of the task has changed (`STATE`).\n2. The task outputted data (`DATA`).\n3. The task returns a subtask list (`SUBTASKS`).\n4. The task's title changed (`TITLE`).\n5. The task became enabled or disabled (`ENABLED`).\n\nThis allows you to flexibly build your UI. Let's render every task that starts executing.\n\n```js\nclass CustomRenderer {\n\n\tconstructor(tasks, options) {\n\t\tthis._tasks = tasks;\n\t\tthis._options = Object.assign({}, options);\n\t}\n\n\tstatic get nonTTY() {\n\t\treturn true;\n\t}\n\n\trender() {\n\t\tfor (const task of this._tasks) {\n\t\t\ttask.subscribe(event => {\n\t\t\t\tif (event.type === 'STATE' && task.isPending()) {\n\t\t\t\t\tconsole.log(`${task.title} [started]`);\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t}\n\n\tend(err) { }\n}\n\nmodule.exports = CustomRenderer;\n```\n\nIf you want more complex examples, take a look at the [update](https://github.com/SamVerschueren/listr-update-renderer) and [verbose](https://github.com/SamVerschueren/listr-verbose-renderer) renderers.\n\n\n## API\n\n### Listr([tasks], [options])\n\n#### tasks\n\nType: `object[]`\n\nList of tasks.\n\n##### title\n\nType: `string`\n\nTitle of the task.\n\n##### task\n\nType: `Function`\n\nTask function.\n\n##### skip\n\nType: `Function`\n\nSkip function. Read more about [skipping tasks](#skipping-tasks).\n\n#### options\n\nAny renderer specific options. For instance, when using the `update-renderer`, you can pass in all of its [options](https://github.com/SamVerschueren/listr-update-renderer#options).\n\n##### concurrent\n\nType: `boolean` `number`<br>\nDefault: `false`\n\nSet to `true` if you want to run tasks in parallel, set to a number to control the concurrency. By default it runs tasks sequentially.\n\n##### exitOnError\n\nType: `boolean`<br>\nDefault: `true`\n\nSet to `false` if you don't want to stop the execution of other tasks when one or more tasks fail.\n\n##### renderer\n\nType: `string` `object`<br>\nDefault: `default`<br>\nOptions: `default` `verbose` `silent`\n\nRenderer that should be used. You can either pass in the name of the known renderer, or a class of a custom renderer.\n\n##### nonTTYRenderer\n\nType: `string` `object`<br>\nDefault: `verbose`\n\nThe renderer that should be used if the main renderer does not support TTY environments. You can either pass in the name of the renderer, or a class of a custom renderer.\n\n### Instance\n\n#### add(task)\n\nReturns the instance.\n\n##### task\n\nType: `object` `object[]`\n\nTask object or multiple task objects.\n\n#### run([context])\n\nStart executing the tasks. Returns a `Promise` for the context object.\n\n##### context\n\nType: `object`<br>\nDefault: `Object.create(null)`\n\nInitial context object.\n\n\n## Related\n\n- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner\n- [cli-spinners](https://github.com/sindresorhus/cli-spinners) - Spinners for use in the terminal\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)"
+}

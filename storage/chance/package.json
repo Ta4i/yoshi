@@ -1,0 +1,4288 @@
+{
+	"name": "chance",
+	"versions": {
+		"0.4.2": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.4.2",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.2.tgz",
+				"shasum": "89ab211790bddc42810e0b93b1918ef77467d500"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-uglify": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.4.2"
+		},
+		"0.6.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.6.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.0.tgz",
+				"shasum": "1213e7172db65409593ac29644814d04a3bb7aad"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.6.0",
+			"gitHead": "ccc72315372294192741ba6deaa69d98634a7388",
+			"_shasum": "1213e7172db65409593ac29644814d04a3bb7aad"
+		},
+		"1.0.12": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.12",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.12.tgz",
+				"shasum": "6764c9cb7b4f34856fb780d07f0e17a6601c6c08"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.12",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "9d92167fa906122072ad782e93b9049b1d52e49c",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance-1.0.12.tgz_1508974857673_0.5334249229636043"
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"0.4.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.4.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.3.tgz",
+				"shasum": "c8c5191c82b17a036c2bec9ba0d4f42a7692f29e"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-uglify": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.4.3"
+		},
+		"0.6.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.6.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.1.tgz",
+				"shasum": "cb8563ad8ab04f0911896e73dc78cfc924e09a63"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.6.1",
+			"gitHead": "483ba9ce269c69a563dd83b489a72dde7582eb39",
+			"_shasum": "cb8563ad8ab04f0911896e73dc78cfc924e09a63"
+		},
+		"1.0.13": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.13",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.13.tgz",
+				"shasum": "666bec2db42b3084456a3e4f4c28a82db5ccb7e6"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.13",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "cb4c6159cef5f14b389c04ef17d45c26d95036f2",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance-1.0.13.tgz_1514558814363_0.5129237414803356"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"0.4.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.4.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.0.tgz",
+				"shasum": "6cbf23241b2a53aa8d65d14a5859fadd83c4a359"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-uglify": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.4.0"
+		},
+		"1.0.14": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.14",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.14.tgz",
+				"shasum": "99a52f02336dd7fb02ad85a6aedef0c4145c936e"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.14",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "0df13dafef473308735d65c3dc1e040102b52319",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance_1.0.14_1524682546214_0.16002001347253025"
+			},
+			"_nodeVersion": "8.3.0"
+		},
+		"1.0.15": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.15",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.15.tgz",
+				"shasum": "d1969a6ac127d3aaa4ad1ae6a5a2045510974ebb"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.15",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "b4f03aac5d5f16a07ae04a13c02ed20a2d510bc9",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance_1.0.15_1524689756707_0.10834663831756841"
+			},
+			"_nodeVersion": "8.3.0"
+		},
+		"0.6.4": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.6.4",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.4.tgz",
+				"shasum": "4955e67b7f905b8a6534e10bac812f611f95f14a"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.6.4",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "f143c763207e8dd70f1037ef7e9479c780a76293",
+			"_shasum": "4955e67b7f905b8a6534e10bac812f611f95f14a",
+			"_nodeVersion": "0.11.14"
+		},
+		"0.6.2": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.6.2",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.2.tgz",
+				"shasum": "1566a1ffc97ce8587f4cacb285d40f4d4d4c87c9"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.6.2",
+			"gitHead": "4bc237293a82ce13c27a4e781b914f6795dfbf39",
+			"_shasum": "1566a1ffc97ce8587f4cacb285d40f4d4d4c87c9",
+			"_nodeVersion": "0.11.14"
+		},
+		"0.8.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.8.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.8.0.tgz",
+				"shasum": "b48b7f1f16b7fcc1c4496fd2e6ebfff13f47ed24"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.8.0",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "644d4546f0b3aa73e781bfead4b6e9d384e7f877",
+			"github": "https://github.com/victorquinn/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_shasum": "b48b7f1f16b7fcc1c4496fd2e6ebfff13f47ed24",
+			"_nodeVersion": "2.3.1"
+		},
+		"1.0.10": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.10",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.10.tgz",
+				"shasum": "03500b04ad94e778dd2891b09ec73a6ad87b1996"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.10",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "e5f7761a7209003fa312a320edc015a2be6b8e21",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance-1.0.10.tgz_1497741002686_0.5386873648967594"
+			},
+			"_shasum": "03500b04ad94e778dd2891b09ec73a6ad87b1996",
+			"_nodeVersion": "7.7.2"
+		},
+		"0.6.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.6.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.3.tgz",
+				"shasum": "f23e91574c94c8dad715bdbea5d9ab49df0d9c4f"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.6.3",
+			"gitHead": "34c1a1becef32fd5957e746facc32c30d2c96397",
+			"_shasum": "f23e91574c94c8dad715bdbea5d9ab49df0d9c4f",
+			"_nodeVersion": "0.11.14"
+		},
+		"1.0.11": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.11",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.11.tgz",
+				"shasum": "48e82f7583df356053e0ad122d4654c5066c570d"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.11",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "c7c50624fee45cf03f93f0e77f1cf85aa47286bc",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance-1.0.11.tgz_1503959239111_0.3510110583156347"
+			},
+			"_nodeVersion": "8.3.0"
+		},
+		"0.2.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.2.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.2.0.tgz",
+				"shasum": "bc60f9cfcdc590277d470a3d14c941981679a56d"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.2.0"
+		},
+		"0.2.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.2.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.2.1.tgz",
+				"shasum": "b666d662e9ee00237c558456fe41e3863736340f"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.2.1"
+		},
+		"0.5.9": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.9",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.9.tgz",
+				"shasum": "337d725f2322932fa60b88f2676cb4721c462d9c"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.17",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.9",
+			"gitHead": "741b9bfc3f4900660074c1116f8db0dd16a4d86f",
+			"_shasum": "337d725f2322932fa60b88f2676cb4721c462d9c"
+		},
+		"0.7.7": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.7",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.7.tgz",
+				"shasum": "cedae6cb6b8faa6ce5f635a9fa64fea333b5da99"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.7",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "186c57b74fb073e61b408afe3c041f4cbba472f7",
+			"_shasum": "cedae6cb6b8faa6ce5f635a9fa64fea333b5da99",
+			"_nodeVersion": "0.12.7"
+		},
+		"0.5.7": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.7",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.7.tgz",
+				"shasum": "d7bbccfe2702ddb2c381374d8cefa39992602562"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.7",
+			"gitHead": "860c58a04420b6a8ccf66158fe79feea523703d7",
+			"_shasum": "d7bbccfe2702ddb2c381374d8cefa39992602562"
+		},
+		"0.7.5": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.5",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.5.tgz",
+				"shasum": "15f53f647e3dee00a891124c63dbfab00892f0d0"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.5",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "2f9a46d08ce74dbf317ea646c88df0e125a0c5f0",
+			"_shasum": "15f53f647e3dee00a891124c63dbfab00892f0d0",
+			"_nodeVersion": "2.0.0"
+		},
+		"0.5.8": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.8",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.8.tgz",
+				"shasum": "94f3d9e200b1101e35934bbe7c9db120e05bcd7f"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-shell": "0.7.0",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.8",
+			"gitHead": "55de626d01a855e4bf3a76e25b5d2a677c96a972",
+			"_shasum": "94f3d9e200b1101e35934bbe7c9db120e05bcd7f"
+		},
+		"0.7.6": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.6",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.6.tgz",
+				"shasum": "9601fc123582801dc1ea66973082cc39c08dd596"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.6",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "960829cc7750ef308a250c89cad34219c1957272",
+			"_shasum": "9601fc123582801dc1ea66973082cc39c08dd596"
+		},
+		"0.3.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.3.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.3.tgz",
+				"shasum": "4938651014ac46be4aa77f07eca22ed09985eaf7"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.3.3"
+		},
+		"0.5.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.1.tgz",
+				"shasum": "e3acdb49029cc35267d1e442a3c2548ca2f3b1ce"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "1.5.2",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.1"
+		},
+		"0.5.2": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.2",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.2.tgz",
+				"shasum": "b633db73de7fd8e4cdd6e73487819ea1d32d8193"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "1.5.2",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.2"
+		},
+		"0.7.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.0.tgz",
+				"shasum": "e931dc37691d6262f86c9b2e6e96d6f2495aa05e"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-bump": "0.0.11",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-shell": "0.7.0",
+				"line-by-line": "^0.1.3",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.0",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "04c70d7fd97a2899d23ddb4e188e414a6142f8d4",
+			"_shasum": "e931dc37691d6262f86c9b2e6e96d6f2495aa05e",
+			"_nodeVersion": "0.11.14"
+		},
+		"0.3.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.3.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.1.tgz",
+				"shasum": "30febb52c9e0525d703341e2325de8e6563df3a2"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.3.1"
+		},
+		"0.5.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.0.tgz",
+				"shasum": "d6ede2eb2d9c70b93b680f330d5e481bd2a26103"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "1.5.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.0"
+		},
+		"0.5.5": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.5",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.5.tgz",
+				"shasum": "b4ea4c43010acf93eecba03b621c634ce72c1a3c"
+			},
+			"devDependencies": {
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha-phantomjs": "3.3.2",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.5"
+		},
+		"0.7.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.3.tgz",
+				"shasum": "dc4b0605424952cb07d4a00c3ab75980eaba172e"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-bump": "0.0.16",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-mocha-phantomjs": "^0.6.0",
+				"line-by-line": "^0.1.3",
+				"lodash-cli": "^2.4.2",
+				"mocha-phantomjs": "^3.5.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "lodash compat -o test/lib/lodash/lodash.build.js",
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.3",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "bf0306cfb86bdc8785df201454292ee9f6d49763",
+			"_shasum": "dc4b0605424952cb07d4a00c3ab75980eaba172e",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.5.6": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.6",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.6.tgz",
+				"shasum": "a83cf4c545efa53397b81944ca76241284966939"
+			},
+			"devDependencies": {
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha-phantomjs": "3.3.2",
+				"uglify-js": "1.2.6",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.6"
+		},
+		"0.7.4": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.4",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.4.tgz",
+				"shasum": "c159bb33dcf98abd4264269b7305dabc12a1f940"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.4",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "79397e57bbe8ca6845596471af32058df2a216e3",
+			"_shasum": "c159bb33dcf98abd4264269b7305dabc12a1f940"
+		},
+		"0.5.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.3.tgz",
+				"shasum": "11f4a4e062667612284082c1801606fcc9c6e10c"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "1.5.2",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.3"
+		},
+		"0.7.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.1.tgz",
+				"shasum": "f840f2e87529bce64edf8f5b207185190e192e8c"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-bump": "0.0.11",
+				"grunt-contrib-jshint": "0.10.0",
+				"grunt-contrib-uglify": "0.5.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-mocha-phantomjs": "0.5.0",
+				"grunt-shell": "0.7.0",
+				"line-by-line": "^0.1.3",
+				"mocha-phantomjs": "3.5.0",
+				"uglify-js": "1.2.6"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.1",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "f1f79147ee7e91aed97a3ec9fbaaa8d388b61bce",
+			"_shasum": "f840f2e87529bce64edf8f5b207185190e192e8c"
+		},
+		"0.5.4": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.5.4",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.4.tgz",
+				"shasum": "7ed7360017ecaaf02384311ffa40e11cf19b4af1"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "0.4.1",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "0.3.0",
+				"grunt-contrib-uglify": "0.2.4",
+				"grunt-contrib-watch": "0.5.3",
+				"grunt-shell": "0.3.1",
+				"mocha": "1.8",
+				"mocha-phantomjs": "2.0.3",
+				"phantomjs": "1.9.0-2",
+				"requirejs": "2.1.6",
+				"uglify-js": "1.2.6",
+				"underscore": "1.5.2",
+				"grunt-bump": "0.0.11"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.21",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.5.4"
+		},
+		"0.7.2": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.7.2",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.2.tgz",
+				"shasum": "8e9aaeee112d055cf8d8700f4416f530975520d0"
+			},
+			"dependencies": {
+				"minimist": "^1.1.0"
+			},
+			"devDependencies": {
+				"grunt": "0.4.5",
+				"grunt-bump": "0.0.16",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-mocha-phantomjs": "^0.6.0",
+				"line-by-line": "^0.1.3",
+				"lodash-cli": "^2.4.2",
+				"mocha-phantomjs": "^3.5.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"bin": {
+				"chance": "./bin/chance.js"
+			},
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"postinstall": "lodash compat -o test/lib/lodash/lodash.build.js",
+				"test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.7.2",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "e1e31b3048baac7079a28339399b2701b26a3d22",
+			"_shasum": "8e9aaeee112d055cf8d8700f4416f530975520d0",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.1.1": {
+			"name": "chance",
+			"description": "ChanceJS - Random generator helper for JavaScript",
+			"version": "0.1.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.1.1.tgz",
+				"shasum": "869ec46d0a01fa987dffdee139a13e035072d40a"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.1.1"
+		},
+		"0.3.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "0.3.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.0.tgz",
+				"shasum": "5d05f075be289bc7513dd90d486e8158bbea3dbb"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.3.0"
+		},
+		"0.1.0": {
+			"name": "chance",
+			"description": "chancejs ========",
+			"version": "0.1.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com",
+				"url": "http://victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.1.0.tgz",
+				"shasum": "7d9764fddb9e191d3b9ef311387588051dd7c96c"
+			},
+			"devDependencies": {
+				"chai": "1.5",
+				"grunt": "*",
+				"grunt-contrib-jshint": "~0.1.1",
+				"grunt-mocha-phantomjs": "*",
+				"grunt-contrib-watch": "*",
+				"grunt-shell": "*",
+				"jslint": "*",
+				"mocha": "1.8",
+				"mocha-phantomjs": "*",
+				"phantomjs": "1.9",
+				"requirejs": "*",
+				"uglify-js": "1.2.6",
+				"underscore": "*"
+			},
+			"keywords": [
+				"random",
+				"generator",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://chancejs.com/license/"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@0.1.0"
+		},
+		"1.0.3": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.3",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.3.tgz",
+				"shasum": "a23f5b37cd3ef8edd2b11852d792a5a3ad76bd78"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.3",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "1243bbf2efc52fa6285a228e55c4130499e72138",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.3.tgz_1462287776927_0.560142683563754"
+			},
+			"_shasum": "a23f5b37cd3ef8edd2b11852d792a5a3ad76bd78",
+			"_nodeVersion": "5.10.0"
+		},
+		"1.0.4": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.4",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.4.tgz",
+				"shasum": "2dbc3ea6ad0541f7f965bd0af25d1ca275c853c4"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.4",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "84a819b12f5ebd47b7d30e57afb459f9828be359",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.4.tgz_1468953186162_0.9751991033554077"
+			},
+			"_shasum": "2dbc3ea6ad0541f7f965bd0af25d1ca275c853c4",
+			"_nodeVersion": "6.1.0"
+		},
+		"1.0.5": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.5",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.5.tgz",
+				"shasum": "29ac70966ba0e6218ca2655e56a1e837ef49fb73"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.5",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "114164a6b1a3370cfc3ed50061a90da61543a661",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.5.tgz_1487699874470_0.5807976748328656"
+			},
+			"_shasum": "29ac70966ba0e6218ca2655e56a1e837ef49fb73",
+			"_nodeVersion": "7.4.0"
+		},
+		"1.0.6": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.6",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.6.tgz",
+				"shasum": "4734f62d02b738cdc2882d8b5d41f89af49e7bfd"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.6",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "330656d5e0316a0be515d9125f81372a5d3f89a9",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.6.tgz_1487706070652_0.9535998611245304"
+			},
+			"_shasum": "4734f62d02b738cdc2882d8b5d41f89af49e7bfd",
+			"_nodeVersion": "7.5.0"
+		},
+		"1.0.7": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.7",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.7.tgz",
+				"shasum": "bd38ba0d26aaa091c4f049d34abec1e829e18881"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.7",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "17109c1afe9c4d1d04799f6338eaa6a56e752e12",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.7.tgz_1493385618507_0.3571474044583738"
+			},
+			"_shasum": "bd38ba0d26aaa091c4f049d34abec1e829e18881",
+			"_nodeVersion": "7.7.2"
+		},
+		"1.0.8": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.8",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.8.tgz",
+				"shasum": "201af737c757ef049346ca7ed6a64cdfbd217e41"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.8",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "75d995441bbc7b46850b24a431996cee87b78925",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.8.tgz_1493392930472_0.5391554944217205"
+			},
+			"_shasum": "201af737c757ef049346ca7ed6a64cdfbd217e41",
+			"_nodeVersion": "7.7.2"
+		},
+		"1.0.9": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.9",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.9.tgz",
+				"shasum": "85ae52c145c433d69f6f1eff24f056012b77a60f"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.9",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "6c78cd5268fe3e3560b2ac2ff27a7c41f7dc4129",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance-1.0.9.tgz_1495656935551_0.33180502988398075"
+			},
+			"_shasum": "85ae52c145c433d69f6f1eff24f056012b77a60f",
+			"_nodeVersion": "7.7.4"
+		},
+		"1.0.16": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.16",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.16.tgz",
+				"shasum": "bd61912716b0010c3dca8e3948a960efcaa7bb1b"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"gulp": "^3.9.1",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.16",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "053d8529be0ede39875c9300adc78b1273b37cb9",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance_1.0.16_1524761723652_0.32671038585087353"
+			},
+			"_nodeVersion": "8.3.0"
+		},
+		"1.0.0": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.0",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/victorquinn/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/victorquinn/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.0.tgz",
+				"shasum": "18d82fcd4c790afd74af6457f5ab1c1afa02b197"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.0",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "8d1c4d6610eb234bd593c33f3e3024434ddca3a0",
+			"github": "https://github.com/victorquinn/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.0.tgz_1455314445023_0.23913108580745757"
+			},
+			"_shasum": "18d82fcd4c790afd74af6457f5ab1c1afa02b197",
+			"_nodeVersion": "4.1.2"
+		},
+		"1.0.17": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.17",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.17.tgz",
+				"shasum": "3d67f1bd60d1a14de90e36a625920543707c6538"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"docpress": "0.7.1",
+				"git-update-ghpages": "1.3.0",
+				"gulp": "^4.0.0",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.17",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "8f87828dd0dfeb0981a94ca0cd84f3249fdf48c9",
+			"github": "https://github.com/chancejs/chancejs",
+			"docpress": {
+				"scripts": [
+					"chance.js",
+					"analytics.js",
+					"https://platform.twitter.com/widgets.js"
+				],
+				"github": "chancejs/chancejs",
+				"css": [
+					"docs/chance.css"
+				]
+			},
+			"jam": {
+				"main": "chance.js"
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance_1.0.17_1543523170085_0.9269019873832107"
+			},
+			"_nodeVersion": "10.13.0"
+		},
+		"1.0.1": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.1",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.1.tgz",
+				"shasum": "5446c687534d819382e5a67253b62c32db24149e"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.9",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.1",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "f1876607584d36eee062f64995b43c853847fee3",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.1.tgz_1456498610543_0.953008201206103"
+			},
+			"_shasum": "5446c687534d819382e5a67253b62c32db24149e",
+			"_nodeVersion": "5.0.0"
+		},
+		"1.0.18": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.18",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.18.tgz",
+				"shasum": "79788fe6fca4c338bf404321c347eecc80f969ee"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-eslint": "^7.2.3",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.2",
+				"dirty-chai": "^1.2.2",
+				"docpress": "0.7.1",
+				"git-update-ghpages": "1.3.0",
+				"gulp": "^4.0.0",
+				"gulp-ava": "^0.17.1",
+				"gulp-eslint": "^3.0.1",
+				"gulp-jshint": "^2.0.4",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^2.6.1",
+				"gulp-uglify": "^3.0.0",
+				"jshint-stylish": "^2.2.1",
+				"lodash": "^4.17.4",
+				"nyc": "^10.3.2",
+				"pump": "^1.0.2"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp travis"
+			},
+			"_npmVersion": "6.4.0",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.18",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "d16e93c8be17a7da5a8226acd561c78121e3960a",
+			"github": "https://github.com/chancejs/chancejs",
+			"docpress": {
+				"scripts": [
+					"chance.js",
+					"analytics.js",
+					"https://platform.twitter.com/widgets.js"
+				],
+				"github": "chancejs/chancejs",
+				"css": [
+					"docs/chance.css"
+				]
+			},
+			"jam": {
+				"main": "chance.js"
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/chance_1.0.18_1543893660924_0.10543659483442469"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.2": {
+			"name": "chance",
+			"description": "Chance - Utility library to generate anything random",
+			"version": "1.0.2",
+			"author": {
+				"name": "Victor Quinn",
+				"email": "mail@victorquinn.com"
+			},
+			"homepage": "http://chancejs.com",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/chancejs/chancejs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chancejs/chancejs/issues"
+			},
+			"main": "./chance.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.2.tgz",
+				"shasum": "86580c70fd34f84967670132fb1e4ba7f3e76893"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.2",
+				"grunt": "0.4.5",
+				"grunt-contrib-jshint": "^0.11.0",
+				"grunt-contrib-uglify": "^0.9.2",
+				"grunt-contrib-watch": "0.6.1",
+				"grunt-js-test": "git://github.com/victorquinn/grunt-js-test.git#ffc580375f0ff7b496026ab87b4a9666992d2f33",
+				"grunt-shell": "^1.1.2",
+				"istanbul": "^0.3.13",
+				"line-by-line": "^0.1.3",
+				"minimatch": "^2.0.4",
+				"mocha-lcov-reporter": "0.0.2",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"chance",
+				"random",
+				"generator",
+				"test",
+				"mersenne",
+				"name",
+				"address",
+				"dice"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "victorquinn",
+					"email": "mail@victorquinn.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test-ci"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "victorquinn",
+				"email": "mail@victorquinn.com"
+			},
+			"_id": "chance@1.0.2",
+			"spm": {
+				"main": "chance.js",
+				"ignore": [
+					"test"
+				]
+			},
+			"gitHead": "26b6bf900b6a8dc451c828813b308082fe09242f",
+			"github": "https://github.com/chancejs/chancejs",
+			"jam": {
+				"main": "chance.js"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/chance-1.0.2.tgz_1460735568508_0.4998425655066967"
+			},
+			"_shasum": "86580c70fd34f84967670132fb1e4ba7f3e76893",
+			"_nodeVersion": "5.10.0"
+		}
+	},
+	"time": {
+		"0.4.2": "2013-07-27T16:06:12.991Z",
+		"0.6.0": "2014-09-02T20:43:39.540Z",
+		"1.0.12": "2017-10-25T23:40:59.655Z",
+		"0.4.3": "2013-08-10T23:35:57.335Z",
+		"0.6.1": "2014-09-03T15:43:54.562Z",
+		"1.0.13": "2017-12-29T14:46:56.313Z",
+		"0.4.0": "2013-07-18T04:38:54.010Z",
+		"1.0.14": "2018-04-25T18:55:46.374Z",
+		"1.0.15": "2018-04-25T20:55:56.903Z",
+		"0.6.4": "2014-12-02T15:05:57.330Z",
+		"0.6.2": "2014-11-26T14:53:12.415Z",
+		"0.8.0": "2015-10-06T20:32:13.152Z",
+		"1.0.10": "2017-06-17T23:10:05.639Z",
+		"0.6.3": "2014-11-26T15:21:22.925Z",
+		"1.0.11": "2017-08-28T22:27:20.930Z",
+		"0.2.0": "2013-06-23T15:52:05.785Z",
+		"0.2.1": "2013-06-24T02:28:24.922Z",
+		"modified": "2019-01-08T05:47:20.426Z",
+		"created": "2013-06-22T23:51:23.779Z",
+		"0.5.9": "2014-07-11T15:06:42.937Z",
+		"0.7.7": "2015-09-02T19:24:23.066Z",
+		"0.5.7": "2014-06-27T15:53:36.338Z",
+		"0.7.5": "2015-05-12T19:03:40.819Z",
+		"0.5.8": "2014-06-27T17:05:47.760Z",
+		"0.7.6": "2015-06-23T18:35:44.132Z",
+		"0.3.3": "2013-07-04T17:57:43.277Z",
+		"0.5.1": "2013-10-29T13:47:00.266Z",
+		"0.5.2": "2013-11-06T03:09:52.445Z",
+		"0.7.0": "2014-12-05T20:21:46.534Z",
+		"0.3.1": "2013-06-25T21:49:52.014Z",
+		"0.5.0": "2013-10-27T19:24:05.997Z",
+		"0.5.5": "2014-03-16T21:24:42.172Z",
+		"0.7.3": "2015-01-26T22:25:27.066Z",
+		"0.5.6": "2014-04-14T23:08:29.554Z",
+		"0.7.4": "2015-04-28T00:15:40.885Z",
+		"0.5.3": "2013-11-08T17:23:36.240Z",
+		"0.7.1": "2014-12-23T14:33:02.172Z",
+		"0.5.4": "2013-12-30T18:01:42.488Z",
+		"0.7.2": "2015-01-26T21:50:40.070Z",
+		"0.1.1": "2013-06-23T03:27:14.142Z",
+		"0.3.0": "2013-06-24T17:11:17.823Z",
+		"0.1.0": "2013-06-22T23:51:24.428Z",
+		"1.0.3": "2016-05-03T15:02:58.158Z",
+		"1.0.4": "2016-07-19T18:33:07.351Z",
+		"1.0.5": "2017-02-21T17:57:55.231Z",
+		"1.0.6": "2017-02-21T19:41:11.631Z",
+		"1.0.7": "2017-04-28T13:20:19.227Z",
+		"1.0.8": "2017-04-28T15:22:11.232Z",
+		"1.0.9": "2017-05-24T20:15:36.991Z",
+		"1.0.16": "2018-04-26T16:55:23.734Z",
+		"1.0.0": "2016-02-12T22:00:50.643Z",
+		"1.0.17": "2018-11-29T20:26:10.355Z",
+		"1.0.1": "2016-02-26T14:56:51.902Z",
+		"1.0.18": "2018-12-04T03:21:01.162Z",
+		"1.0.2": "2016-04-15T15:52:51.352Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.18"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547744905413
+		}
+	},
+	"_distfiles": {
+		"chance-0.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.2.tgz",
+			"sha": "89ab211790bddc42810e0b93b1918ef77467d500"
+		},
+		"chance-0.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.0.tgz",
+			"sha": "1213e7172db65409593ac29644814d04a3bb7aad"
+		},
+		"chance-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.12.tgz",
+			"sha": "6764c9cb7b4f34856fb780d07f0e17a6601c6c08"
+		},
+		"chance-0.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.3.tgz",
+			"sha": "c8c5191c82b17a036c2bec9ba0d4f42a7692f29e"
+		},
+		"chance-0.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.1.tgz",
+			"sha": "cb8563ad8ab04f0911896e73dc78cfc924e09a63"
+		},
+		"chance-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.13.tgz",
+			"sha": "666bec2db42b3084456a3e4f4c28a82db5ccb7e6"
+		},
+		"chance-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.4.0.tgz",
+			"sha": "6cbf23241b2a53aa8d65d14a5859fadd83c4a359"
+		},
+		"chance-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.14.tgz",
+			"sha": "99a52f02336dd7fb02ad85a6aedef0c4145c936e"
+		},
+		"chance-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.15.tgz",
+			"sha": "d1969a6ac127d3aaa4ad1ae6a5a2045510974ebb"
+		},
+		"chance-0.6.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.4.tgz",
+			"sha": "4955e67b7f905b8a6534e10bac812f611f95f14a"
+		},
+		"chance-0.6.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.2.tgz",
+			"sha": "1566a1ffc97ce8587f4cacb285d40f4d4d4c87c9"
+		},
+		"chance-0.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.8.0.tgz",
+			"sha": "b48b7f1f16b7fcc1c4496fd2e6ebfff13f47ed24"
+		},
+		"chance-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.10.tgz",
+			"sha": "03500b04ad94e778dd2891b09ec73a6ad87b1996"
+		},
+		"chance-0.6.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.6.3.tgz",
+			"sha": "f23e91574c94c8dad715bdbea5d9ab49df0d9c4f"
+		},
+		"chance-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.11.tgz",
+			"sha": "48e82f7583df356053e0ad122d4654c5066c570d"
+		},
+		"chance-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.2.0.tgz",
+			"sha": "bc60f9cfcdc590277d470a3d14c941981679a56d"
+		},
+		"chance-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.2.1.tgz",
+			"sha": "b666d662e9ee00237c558456fe41e3863736340f"
+		},
+		"chance-0.5.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.9.tgz",
+			"sha": "337d725f2322932fa60b88f2676cb4721c462d9c"
+		},
+		"chance-0.7.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.7.tgz",
+			"sha": "cedae6cb6b8faa6ce5f635a9fa64fea333b5da99"
+		},
+		"chance-0.5.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.7.tgz",
+			"sha": "d7bbccfe2702ddb2c381374d8cefa39992602562"
+		},
+		"chance-0.7.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.5.tgz",
+			"sha": "15f53f647e3dee00a891124c63dbfab00892f0d0"
+		},
+		"chance-0.5.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.8.tgz",
+			"sha": "94f3d9e200b1101e35934bbe7c9db120e05bcd7f"
+		},
+		"chance-0.7.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.6.tgz",
+			"sha": "9601fc123582801dc1ea66973082cc39c08dd596"
+		},
+		"chance-0.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.3.tgz",
+			"sha": "4938651014ac46be4aa77f07eca22ed09985eaf7"
+		},
+		"chance-0.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.1.tgz",
+			"sha": "e3acdb49029cc35267d1e442a3c2548ca2f3b1ce"
+		},
+		"chance-0.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.2.tgz",
+			"sha": "b633db73de7fd8e4cdd6e73487819ea1d32d8193"
+		},
+		"chance-0.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.0.tgz",
+			"sha": "e931dc37691d6262f86c9b2e6e96d6f2495aa05e"
+		},
+		"chance-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.1.tgz",
+			"sha": "30febb52c9e0525d703341e2325de8e6563df3a2"
+		},
+		"chance-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.0.tgz",
+			"sha": "d6ede2eb2d9c70b93b680f330d5e481bd2a26103"
+		},
+		"chance-0.5.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.5.tgz",
+			"sha": "b4ea4c43010acf93eecba03b621c634ce72c1a3c"
+		},
+		"chance-0.7.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.3.tgz",
+			"sha": "dc4b0605424952cb07d4a00c3ab75980eaba172e"
+		},
+		"chance-0.5.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.6.tgz",
+			"sha": "a83cf4c545efa53397b81944ca76241284966939"
+		},
+		"chance-0.7.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.4.tgz",
+			"sha": "c159bb33dcf98abd4264269b7305dabc12a1f940"
+		},
+		"chance-0.5.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.3.tgz",
+			"sha": "11f4a4e062667612284082c1801606fcc9c6e10c"
+		},
+		"chance-0.7.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.1.tgz",
+			"sha": "f840f2e87529bce64edf8f5b207185190e192e8c"
+		},
+		"chance-0.5.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.5.4.tgz",
+			"sha": "7ed7360017ecaaf02384311ffa40e11cf19b4af1"
+		},
+		"chance-0.7.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.7.2.tgz",
+			"sha": "8e9aaeee112d055cf8d8700f4416f530975520d0"
+		},
+		"chance-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.1.1.tgz",
+			"sha": "869ec46d0a01fa987dffdee139a13e035072d40a"
+		},
+		"chance-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.3.0.tgz",
+			"sha": "5d05f075be289bc7513dd90d486e8158bbea3dbb"
+		},
+		"chance-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-0.1.0.tgz",
+			"sha": "7d9764fddb9e191d3b9ef311387588051dd7c96c"
+		},
+		"chance-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.3.tgz",
+			"sha": "a23f5b37cd3ef8edd2b11852d792a5a3ad76bd78"
+		},
+		"chance-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.4.tgz",
+			"sha": "2dbc3ea6ad0541f7f965bd0af25d1ca275c853c4"
+		},
+		"chance-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.5.tgz",
+			"sha": "29ac70966ba0e6218ca2655e56a1e837ef49fb73"
+		},
+		"chance-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.6.tgz",
+			"sha": "4734f62d02b738cdc2882d8b5d41f89af49e7bfd"
+		},
+		"chance-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.7.tgz",
+			"sha": "bd38ba0d26aaa091c4f049d34abec1e829e18881"
+		},
+		"chance-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.8.tgz",
+			"sha": "201af737c757ef049346ca7ed6a64cdfbd217e41"
+		},
+		"chance-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.9.tgz",
+			"sha": "85ae52c145c433d69f6f1eff24f056012b77a60f"
+		},
+		"chance-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.16.tgz",
+			"sha": "bd61912716b0010c3dca8e3948a960efcaa7bb1b"
+		},
+		"chance-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.0.tgz",
+			"sha": "18d82fcd4c790afd74af6457f5ab1c1afa02b197"
+		},
+		"chance-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.17.tgz",
+			"sha": "3d67f1bd60d1a14de90e36a625920543707c6538"
+		},
+		"chance-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.1.tgz",
+			"sha": "5446c687534d819382e5a67253b62c32db24149e"
+		},
+		"chance-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.18.tgz",
+			"sha": "79788fe6fca4c338bf404321c347eecc80f969ee"
+		},
+		"chance-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chance/-/chance-1.0.2.tgz",
+			"sha": "86580c70fd34f84967670132fb1e4ba7f3e76893"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-dc342625e5cda441",
+	"readme": "# Chance\n\n[![Chance Logo](http://chancejs.com/logo.png)](http://chancejs.com)\n\n[![Build Status](https://travis-ci.org/chancejs/chancejs.svg?branch=develop)](https://travis-ci.org/chancejs/chancejs) [![GitHub license](https://img.shields.io/github/license/chancejs/chancejs.svg)](https://github.com/chancejs/chancejs) [![GitHub stars](https://img.shields.io/github/stars/chancejs/chancejs.svg)](https://github.com/chancejs/chancejs) [![npm](https://img.shields.io/npm/dm/chance.svg)](https://npmjs.com/package/chance) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/chance/badge?style=rounded)](https://www.jsdelivr.com/package/npm/chance) [![npm](https://img.shields.io/npm/v/chance.svg)](https://npmjs.com/package/chance) [![Coverage Status](https://coveralls.io/repos/chancejs/chancejs/badge.svg?branch=master)](https://coveralls.io/r/chancejs/chancejs?branch=master) [![awesomeness](https://img.shields.io/badge/awesomeness-maximum-red.svg)](https://github.com/chancejs/chancejs)\n\nChance - Random generator helper for JavaScript\n\nHomepage: [http://chancejs.com](http://chancejs.com)\n\nMany more details on [http://chancejs.com](http://chancejs.com) but this single\nlibrary can generate random numbers, characters, strings, names, addresses,\ndice, and pretty much anything else.\n\nIt includes the basic building blocks for all these items and is built on top\nof a Mersenne Twister so it can generate these things with repeatability, if\ndesired.\n\n## Usage \n\nSee the [full docs](https://chancejs.com) for details on installation and usage.\n\n## Dependent tools\n\n* [Chance CLI](https://github.com/chancejs/chance-cli) - Use Chance on the command line.\n* [Chance Token Replacer](https://github.com/drewbrokke/chance-token-replacer) - Replace tokens in a string with Chance generated items.\n* [Dream.js](https://github.com/adleroliveira/dreamjs) - Lightweight json data generator\n* [Fake JSON Schema](https://github.com/pateketrueke/json-schema-faker/) - Use chance generators to populate JSON Schema samples.\n* [Mocker Data Generator](https://github.com/danibram/mocker-data-generator/) - Minimal JSON data generator.\n* [swagger-mock-api](https://github.com/dzdrazil/swagger-mock-api/) - Generate API mocks from a Swagger spec file enriched with Chance types and constraints\n* [fony](https://github.com/captainsafia/fony) - A simple command line tool for generating fake data from a template string\n\nOr [view all of the dependents on npm](https://www.npmjs.com/package/chance)\n\n*Know a library that uses Chance that isn't here? Update the README and submit a PR!*\n\n## Author\n### Victor Quinn\n[https://www.victorquinn.com](https://www.victorquinn.com)\n[@victorquinn](https://twitter.com/victorquinn)\n\nPlease feel free to reach out to me if you have any questions or suggestions.\n\n### Contributors\n\nTHANK YOU!\n\n### Contribute! \n\nBe a part of this project! You can run the test using the following.\n\n1. Install dependencies from package.json by running `npm install`\n2. Run the test via `npm test`\n3. Make some fun new modules!\n\nThis project is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License) so feel free to hack away :)\n\nProudly written in Washington, D.C."
+}

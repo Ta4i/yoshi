@@ -1,0 +1,1529 @@
+{
+	"name": "randexp",
+	"versions": {
+		"0.3.3": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.3.3",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.3.tgz",
+				"shasum": "1f7b0c60cdedf0a7d1f6013805c3edf5c033df76"
+			},
+			"dependencies": {
+				"ret": "0.1.x"
+			},
+			"devDependencies": {
+				"mocha": "x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.3.3"
+		},
+		"0.4.2": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.2",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.2.tgz",
+				"shasum": "a681cca9fc94b0e0ee6479d1f97d851738dec3e5"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^12.0.1",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^1.4.1",
+				"mocha": "x",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.2",
+			"gitHead": "f7cb87b4bd8bba75dfcda8775a6a462ea429dc71",
+			"_shasum": "a681cca9fc94b0e0ee6479d1f97d851738dec3e5",
+			"_nodeVersion": "4.2.2"
+		},
+		"0.5.1": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.5.1",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.1.tgz",
+				"shasum": "bf7916a4419ea44a377c876d15919f8f6cb90725"
+			},
+			"dependencies": {
+				"drange": "^1.0.0",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^15.2.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.5.1",
+			"gitHead": "c1e024c2ba1a9e7b2f4041a4de78b5e625204099",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.5.1_1518360824465_0.5269337342351839"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.3.4": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.3.4",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.4.tgz",
+				"shasum": "31c77b9754698e02d410ee0d6720aa23dedd8bdd"
+			},
+			"dependencies": {
+				"ret": "0.1.x"
+			},
+			"devDependencies": {
+				"mocha": "x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.3.4",
+			"gitHead": "9e15297e00c104ac5d2f7318173261afbb0e0274",
+			"_shasum": "31c77b9754698e02d410ee0d6720aa23dedd8bdd"
+		},
+		"0.4.3": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.3",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.3.tgz",
+				"shasum": "1712d4f9cdd57e0005c13064e0e208fba8e58d50"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^1.4.1",
+				"istanbul": "*",
+				"mocha": "*",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "istanbul cover node_modules/.bin/_mocha test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.3",
+			"gitHead": "d2d220030ce771e0a9ea13dc90d9a0d98813cd1a",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/randexp-0.4.3.tgz_1468848801008_0.9043827331624925"
+			},
+			"_shasum": "1712d4f9cdd57e0005c13064e0e208fba8e58d50",
+			"_nodeVersion": "6.2.2"
+		},
+		"0.5.2": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.5.2",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.2.tgz",
+				"shasum": "dfc157e722b84948bc08af5cbee552206cd0b4bc"
+			},
+			"dependencies": {
+				"drange": "^1.0.0",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.1.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.5.2",
+			"gitHead": "dfb1923cd1dd176ed56322eb58c631557c4a050e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.5.2_1519396434556_0.7549452317256782"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.3.1": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.3.1",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.com/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.1.tgz",
+				"shasum": "2a8f28799c345ce3b3e586303cf9a9825fc6e0e5"
+			},
+			"dependencies": {
+				"ret": "0.1.x"
+			},
+			"devDependencies": {
+				"mocha": "0.7.x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "neat",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_npmVersion": "1.0.106",
+			"_npmUser": {
+				"name": "neat",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.3.1",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.6"
+		},
+		"0.4.0": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.0",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.0.tgz",
+				"shasum": "b45053647881d538693e10ea070e181bc66ac924"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "0.1.10"
+			},
+			"devDependencies": {
+				"mocha": "x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.0",
+			"gitHead": "a9f8b292adcbfa615ad185c4d0a6b5ee19faab31",
+			"_shasum": "b45053647881d538693e10ea070e181bc66ac924"
+		},
+		"0.3.2": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.3.2",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.2.tgz",
+				"shasum": "8e6e09dbf9e01f72b0a9850c1e49af85a6f03ac3"
+			},
+			"dependencies": {
+				"ret": "0.1.x"
+			},
+			"devDependencies": {
+				"mocha": "x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.2",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.3.2"
+		},
+		"0.4.1": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.1",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.1.tgz",
+				"shasum": "91a7eeec902057e080659d6249551030b3e81060"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^11.1.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^1.4.1",
+				"mocha": "x",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.1",
+			"gitHead": "01d4e3366b51c8c9a887b648a47e4edc8ba5cd9d",
+			"_shasum": "91a7eeec902057e080659d6249551030b3e81060",
+			"_nodeVersion": "4.1.1"
+		},
+		"0.5.0": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.5.0",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.0.tgz",
+				"shasum": "595206ec223f84ce4ce52060fe5e4f4446d6114f"
+			},
+			"dependencies": {
+				"discontinuous-range": "github:fent/discontinuous-range#feature/intersect",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^15.2.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.5.0",
+			"gitHead": "ccce147c517d7d21cf8325db560523b5cfc8c189",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.5.0_1518221816133_0.3627433973433234"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.4.6": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.6",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=0.12"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.6.tgz",
+				"shasum": "e986ad5e5e31dae13ddd6f7b3019aa7c87f60ca3"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^14.0.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "*",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.6",
+			"gitHead": "b02776ed5faba4e049738dc3a20ffcefcc68237d",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp-0.4.6.tgz_1502341910067_0.2377146608196199"
+			},
+			"_nodeVersion": "8.3.0"
+		},
+		"0.4.7": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.7",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.7.tgz",
+				"shasum": "1d9649bdea6ea27ad8ba5748b6dde05ee25e8c10"
+			},
+			"dependencies": {
+				"discontinuous-range": "github:fent/discontinuous-range#feature/intersect",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^15.2.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.4.7",
+			"gitHead": "d6893555ba93917c9a55ca98ff72872bc789249b",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.4.7_1518221193022_0.33585838914028443"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.4.4": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.4",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.4.tgz",
+				"shasum": "ba68265f4a9f9e85f5814d34e160291f939f168e"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^1.4.1",
+				"istanbul": "*",
+				"mocha": "*",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"preversion": "gulp build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.4",
+			"gitHead": "bfa68551333bdadb787ed18770cbb4e7e707c394",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/randexp-0.4.4.tgz_1480905635370_0.5144293904304504"
+			},
+			"_shasum": "ba68265f4a9f9e85f5814d34e160291f939f168e",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.5.3": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.5.3",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.3.tgz",
+				"shasum": "f31c2de3148b30bdeb84b7c3f59b0ebb9fec3738"
+			},
+			"dependencies": {
+				"drange": "^1.0.2",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.1.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib",
+				"types/index.d.ts"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js",
+				"dtslint": "dtslint types --onlyTestTsNext"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.5.3",
+			"gitHead": "2dab4fd8cf9dd606ae85ba66d45f522c29ea29c7",
+			"types": "./types",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.5.3_1532212556979_0.11376775055035937"
+			},
+			"_nodeVersion": "10.2.0"
+		},
+		"0.4.5": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.5",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=0.12"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.5.tgz",
+				"shasum": "ffe3a80c3f666cd71e6b008e477e584c1a32ff3e"
+			},
+			"dependencies": {
+				"discontinuous-range": "1.0.0",
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"browserify": "^14.0.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^1.7.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^2.0.0",
+				"istanbul": "*",
+				"mocha": "*",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "fent",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.4.5",
+			"gitHead": "7ca2578ad28ff9fe38cc8c7ddfd6716881eea900",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/randexp-0.4.5.tgz_1488516463215_0.6145465485751629"
+			},
+			"_shasum": "ffe3a80c3f666cd71e6b008e477e584c1a32ff3e",
+			"_nodeVersion": "7.7.1"
+		},
+		"0.1.1": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.com/randexp.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.1.1.tgz",
+				"shasum": "dc8b736e6f47752cbc2ea3b98fa47f14b7c4a0ca"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"vows": "0.5.x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "neat",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "vows test/*-test.js --spec"
+			},
+			"_npmVersion": "1.1.0-alpha-6",
+			"_npmUser": {
+				"name": "neat",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.1.1",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.5"
+		},
+		"0.3.0": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.3.0",
+			"author": {
+				"name": "Roly Fentanes",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.com/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.0.tgz",
+				"shasum": "fc0c65bc7b36ab7ef812d499abc8958998e8e37c"
+			},
+			"dependencies": {
+				"ret": "0.1.x"
+			},
+			"devDependencies": {
+				"mocha": "0.7.x"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/fent/randexp.js/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "neat",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha -R spec test/*-test.js"
+			},
+			"_npmVersion": "1.0.106",
+			"_npmUser": {
+				"name": "neat",
+				"email": "roly426@gmail.com"
+			},
+			"_id": "randexp@0.3.0",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.4.12"
+		},
+		"0.4.8": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.8",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.8.tgz",
+				"shasum": "146982946c081390910f73a56431bf07f252e05c"
+			},
+			"dependencies": {
+				"drange": "^1.0.0",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^15.2.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.4.8",
+			"gitHead": "28d36336028f4d17e80e224ddbf4e3099a5a49d4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.4.8_1518673292101_0.721572009173491"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.4.9": {
+			"name": "randexp",
+			"description": "Create random strings that match a given regular expression.",
+			"version": "0.4.9",
+			"author": {
+				"name": "fent",
+				"url": "https://github.com/fent"
+			},
+			"homepage": "http://fent.github.io/randexp.js/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fent/randexp.js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fent/randexp.js/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/randexp.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.9.tgz",
+				"shasum": "327326358e190c685c2069e1f9b45c5190c517b2"
+			},
+			"dependencies": {
+				"drange": "^1.0.0",
+				"ret": "^0.2.0"
+			},
+			"devDependencies": {
+				"browserify": "^15.2.0",
+				"gulp": "^3.9.0",
+				"gulp-header": "^2.0.1",
+				"gulp-insert": "^0.5.0",
+				"gulp-uglify": "^3.0.0",
+				"istanbul": "*",
+				"mocha": "^5.0.0",
+				"vinyl-buffer": "^1.0.1",
+				"vinyl-source-stream": "^1.1.2"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"regular expression",
+				"random",
+				"test"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "fent",
+					"email": "roly426@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"version": "gulp build && git add build",
+				"test": "istanbul cover node_modules/.bin/_mocha -- test/*-test.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "fent",
+				"email": "fentbox@gmail.com"
+			},
+			"_id": "randexp@0.4.9",
+			"gitHead": "8d7f1f99da57c509419b0fc3164e7e8b4d77a58b",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/randexp_0.4.9_1519742173876_0.818399160268479"
+			},
+			"_nodeVersion": "9.5.0"
+		}
+	},
+	"time": {
+		"0.3.3": "2013-09-29T06:09:25.674Z",
+		"0.4.2": "2015-12-02T14:53:19.590Z",
+		"0.5.1": "2018-02-11T14:53:45.099Z",
+		"0.3.4": "2014-06-28T18:00:52.153Z",
+		"0.4.3": "2016-07-18T13:33:23.106Z",
+		"0.5.2": "2018-02-23T14:33:54.605Z",
+		"0.3.1": "2011-12-31T14:43:47.592Z",
+		"0.4.0": "2014-09-19T20:08:17.449Z",
+		"0.3.2": "2013-07-20T19:05:56.682Z",
+		"0.4.1": "2015-09-27T21:14:06.125Z",
+		"0.5.0": "2018-02-10T00:16:56.861Z",
+		"0.4.6": "2017-08-10T05:11:50.973Z",
+		"0.4.7": "2018-02-10T00:06:33.979Z",
+		"created": "2011-12-06T19:30:47.007Z",
+		"0.4.4": "2016-12-05T02:40:36.115Z",
+		"0.5.3": "2018-07-21T22:35:57.051Z",
+		"0.4.5": "2017-03-03T04:47:43.893Z",
+		"0.1.1": "2011-12-06T19:30:49.695Z",
+		"0.3.0": "2011-12-29T13:42:43.041Z",
+		"modified": "2019-01-08T05:36:06.166Z",
+		"0.4.8": "2018-02-15T05:41:32.805Z",
+		"0.4.9": "2018-02-27T14:36:13.948Z"
+	},
+	"dist-tags": {
+		"latest": "0.5.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749405870
+		}
+	},
+	"_distfiles": {
+		"randexp-0.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.3.tgz",
+			"sha": "1f7b0c60cdedf0a7d1f6013805c3edf5c033df76"
+		},
+		"randexp-0.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.2.tgz",
+			"sha": "a681cca9fc94b0e0ee6479d1f97d851738dec3e5"
+		},
+		"randexp-0.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.1.tgz",
+			"sha": "bf7916a4419ea44a377c876d15919f8f6cb90725"
+		},
+		"randexp-0.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.4.tgz",
+			"sha": "31c77b9754698e02d410ee0d6720aa23dedd8bdd"
+		},
+		"randexp-0.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.3.tgz",
+			"sha": "1712d4f9cdd57e0005c13064e0e208fba8e58d50"
+		},
+		"randexp-0.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.2.tgz",
+			"sha": "dfc157e722b84948bc08af5cbee552206cd0b4bc"
+		},
+		"randexp-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.1.tgz",
+			"sha": "2a8f28799c345ce3b3e586303cf9a9825fc6e0e5"
+		},
+		"randexp-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.0.tgz",
+			"sha": "b45053647881d538693e10ea070e181bc66ac924"
+		},
+		"randexp-0.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.2.tgz",
+			"sha": "8e6e09dbf9e01f72b0a9850c1e49af85a6f03ac3"
+		},
+		"randexp-0.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.1.tgz",
+			"sha": "91a7eeec902057e080659d6249551030b3e81060"
+		},
+		"randexp-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.0.tgz",
+			"sha": "595206ec223f84ce4ce52060fe5e4f4446d6114f"
+		},
+		"randexp-0.4.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.6.tgz",
+			"sha": "e986ad5e5e31dae13ddd6f7b3019aa7c87f60ca3"
+		},
+		"randexp-0.4.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.7.tgz",
+			"sha": "1d9649bdea6ea27ad8ba5748b6dde05ee25e8c10"
+		},
+		"randexp-0.4.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.4.tgz",
+			"sha": "ba68265f4a9f9e85f5814d34e160291f939f168e"
+		},
+		"randexp-0.5.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.5.3.tgz",
+			"sha": "f31c2de3148b30bdeb84b7c3f59b0ebb9fec3738"
+		},
+		"randexp-0.4.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.5.tgz",
+			"sha": "ffe3a80c3f666cd71e6b008e477e584c1a32ff3e"
+		},
+		"randexp-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.1.1.tgz",
+			"sha": "dc8b736e6f47752cbc2ea3b98fa47f14b7c4a0ca"
+		},
+		"randexp-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.3.0.tgz",
+			"sha": "fc0c65bc7b36ab7ef812d499abc8958998e8e37c"
+		},
+		"randexp-0.4.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.8.tgz",
+			"sha": "146982946c081390910f73a56431bf07f252e05c"
+		},
+		"randexp-0.4.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/randexp/-/randexp-0.4.9.tgz",
+			"sha": "327326358e190c685c2069e1f9b45c5190c517b2"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-4c35a49285454586",
+	"readme": "# randexp.js\n\nrandexp will generate a random string that matches a given RegExp Javascript object.\n\n[![Build Status](https://secure.travis-ci.org/fent/randexp.js.svg)](http://travis-ci.org/fent/randexp.js)\n[![Dependency Status](https://david-dm.org/fent/randexp.js.svg)](https://david-dm.org/fent/randexp.js)\n[![codecov](https://codecov.io/gh/fent/randexp.js/branch/master/graph/badge.svg)](https://codecov.io/gh/fent/randexp.js)\n\n# Usage\n\n```js\nconst RandExp = require('randexp');\n\n// supports grouping and piping\nnew RandExp(/hello+ (world|to you)/).gen();\n// => hellooooooooooooooooooo world\n\n// sets and ranges and references\nnew RandExp(/<([a-z]\\w{0,20})>foo<\\1>/).gen();\n// => <m5xhdg>foo<m5xhdg>\n\n// wildcard\nnew RandExp(/random stuff: .+/).gen();\n// => random stuff: l3m;Hf9XYbI [YPaxV>U*4-_F!WXQh9>;rH3i l!8.zoh?[utt1OWFQrE ^~8zEQm]~tK\n\n// ignore case\nnew RandExp(/xxx xtreme dragon warrior xxx/i).gen();\n// => xxx xtReME dRAGON warRiOR xXX\n\n// dynamic regexp shortcut\nnew RandExp('(sun|mon|tue|wednes|thurs|fri|satur)day', 'i');\n// is the same as\nnew RandExp(new RegExp('(sun|mon|tue|wednes|thurs|fri|satur)day', 'i'));\n```\n\nIf you're only going to use `gen()` once with a regexp and want slightly shorter syntax for it\n\n```js\nconst randexp = require('randexp').randexp;\n\nrandexp(/[1-6]/); // 4\nrandexp('great|good( job)?|excellent'); // great\n```\n\nIf you miss the old syntax\n\n```js\nrequire('randexp').sugar();\n\n/yes|no|maybe|i don't know/.gen(); // maybe\n```\n\n# Motivation\n\nRegular expressions are used in every language, every programmer is familiar with them. Regex can be used to easily express complex strings. What better way to generate a random string than with a language you can use to express the string you want?\n\nThanks to [String-Random](http://search.cpan.org/~steve/String-Random-0.22/lib/String/Random.pm) for giving me the idea to make this in the first place and [randexp](https://github.com/benburkert/randexp) for the sweet `.gen()` syntax.\n\n# Default Range\n\nThe default generated character range includes printable ASCII. In order to add or remove characters,\na `defaultRange` attribute is exposed. you can `subtract(from, to)` and `add(from, to)`\n```js\nconst randexp = new RandExp(/random stuff: .+/);\nrandexp.defaultRange.subtract(32, 126);\nrandexp.defaultRange.add(0, 65535);\nrandexp.gen();\n// => random stuff: 湐箻ໜ䫴␩⶛㳸長���邓蕲뤀쑡篷皇硬剈궦佔칗븛뀃匫鴔事좍ﯣ⭼ꝏ䭍詳蒂䥂뽭\n```\n\nYou can also change the default range by changing `RandExp.prototype.defaultRange`.\n\n# Custom PRNG\n\nThe default randomness is provided by `Math.random()`. If you need to use a seedable or cryptographic PRNG, you\ncan override `RandExp.prototype.randInt` or `randexp.randInt` (where `randexp` is an instance of `RandExp`). `randInt(from, to)` accepts an inclusive range and returns a randomly selected number within that range.\n\n# Infinite Repetitionals\n\nRepetitional tokens such as `*`, `+`, and `{3,}` have an infinite max range. In this case, randexp looks at its min and adds 100 to it to get a useable max value. If you want to use another int other than 100 you can change the `max` property in `RandExp.prototype` or the RandExp instance.\n\n```js\nconst randexp = new RandExp(/no{1,}/);\nrandexp.max = 1000000;\n```\n\nWith `RandExp.sugar()`\n\n```js\nconst regexp = /(hi)*/;\nregexp.max = 1000000;\n```\n\n# Bad Regular Expressions\n\nThere are some regular expressions which can never match any string.\n\n* Ones with badly placed positionals such as `/a^/` and `/$c/m`. Randexp will ignore positional tokens.\n\n* Back references to non-existing groups like `/(a)\\1\\2/`. Randexp will ignore those references, returning an empty string for them. If the group exists only after the reference is used such as in `/\\1 (hey)/`, it will too be ignored.\n\n* Custom negated character sets with two sets inside that cancel each other out. Example: `/[^\\w\\W]/`. If you give this to randexp, it will return an empty string for this set since it can't match anything.\n\n\n# Projects based on randexp.js\n\n\n## JSON-Schema Faker\n\nUse generators to populate JSON Schema samples. See: [jsf on github](https://github.com/json-schema-faker/json-schema-faker/) and [jsf demo page](http://json-schema-faker.js.org/).\n\n\n# Install\n\n### Node.js\n\n    npm install randexp\n\n### Browser\n\nDownload the [minified version](https://github.com/fent/randexp.js/releases) from the latest release.\n\n\n# Tests\n\nTests are written with [mocha](https://mochajs.org)\n\n```bash\nnpm test\n```\n\n# Integration with TypeScript\n\nRandExp includes TypeScript definitions.\n\n```typescript\nimport * as RandExp from \"randexp\";\nconst randexp = new RandExp(/[a-z]{6}/);\nrandexp.gen();\n```\n\nUse dtslint to check the definition file.\n\n    npm install -g dtslint\n    npm run dtslint"
+}

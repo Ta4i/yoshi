@@ -1,0 +1,170 @@
+{
+	"name": "defined",
+	"versions": {
+		"1.0.0": {
+			"name": "defined",
+			"description": "return the first argument that is `!== undefined`",
+			"version": "1.0.0",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/defined",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/defined.git"
+			},
+			"bugs": {
+				"url": "https://github.com/substack/defined/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/defined/-/defined-1.0.0.tgz",
+				"shasum": "c98d9bcef75674188e110969151199e39b1fa693"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~3.5.0"
+			},
+			"keywords": [
+				"undefined",
+				"short-circuit",
+				"||",
+				"or",
+				"//",
+				"defined-or"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "defined@1.0.0",
+			"gitHead": "3a46c81d39b5f94c0c17c47638939af2528520f3",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": {
+					"ie": [
+						6,
+						7,
+						8,
+						9
+					],
+					"ff": [
+						3.5,
+						10,
+						15
+					],
+					"chrome": [
+						10,
+						22
+					],
+					"safari": [
+						5.1
+					],
+					"opera": [
+						12
+					]
+				}
+			},
+			"_shasum": "c98d9bcef75674188e110969151199e39b1fa693",
+			"_nodeVersion": "0.12.0"
+		},
+		"0.0.0": {
+			"name": "defined",
+			"description": "return the first argument that is `!== undefined`",
+			"version": "0.0.0",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/defined",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/defined.git"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/defined/-/defined-0.0.0.tgz",
+				"shasum": "f35eea7d705e933baf13b2f03b3f83d921403b3e"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.3.0",
+				"tape": "~0.0.2"
+			},
+			"keywords": [
+				"undefined",
+				"short-circuit",
+				"||",
+				"or",
+				"//",
+				"defined-or"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "defined@0.0.0"
+		}
+	},
+	"time": {
+		"created": "2012-11-26T04:53:25.352Z",
+		"modified": "2017-06-18T04:13:30.355Z",
+		"1.0.0": "2015-04-08T11:28:28.088Z",
+		"0.0.0": "2012-11-26T04:53:26.402Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749402404
+		}
+	},
+	"_distfiles": {
+		"defined-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/defined/-/defined-1.0.0.tgz",
+			"sha": "c98d9bcef75674188e110969151199e39b1fa693"
+		},
+		"defined-0.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/defined/-/defined-0.0.0.tgz",
+			"sha": "f35eea7d705e933baf13b2f03b3f83d921403b3e"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-6f32c86678904e46",
+	"readme": "# defined\n\nreturn the first argument that is `!== undefined`\n\n[![browser support](http://ci.testling.com/substack/defined.png)](http://ci.testling.com/substack/defined)\n\n[![build status](https://secure.travis-ci.org/substack/defined.png)](http://travis-ci.org/substack/defined)\n\nMost of the time when I chain together `||`s, I actually just want the first\nitem that is not `undefined`, not the first non-falsy item.\n\nThis module is like the defined-or (`//`) operator in perl 5.10+.\n\n# example\n\n``` js\nvar defined = require('defined');\nvar opts = { y : false, w : 4 };\nvar x = defined(opts.x, opts.y, opts.w, 100);\nconsole.log(x);\n```\n\n```\n$ node example/defined.js\nfalse\n```\n\nThe return value is `false` because `false` is the first item that is\n`!== undefined`.\n\n# methods\n\n``` js\nvar defined = require('defined')\n```\n\n## var x = defined(a, b, c...)\n\nReturn the first item in the argument list `a, b, c...` that is `!== undefined`.\n\nIf all the items are `=== undefined`, return undefined.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install defined\n```\n\n# license\n\nMIT"
+}

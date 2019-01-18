@@ -1,0 +1,904 @@
+{
+	"name": "fast-url-parser",
+	"versions": {
+		"1.1.0-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.1.0-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.0-0.tgz",
+				"shasum": "01edc68e7167c01130506ba83eda9692d390eb12"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"querystringparser": "^0.1.1",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.1.0-0",
+			"gitHead": "3647e55526ce6615bce7e3b34d66901be13b0763",
+			"_shasum": "01edc68e7167c01130506ba83eda9692d390eb12",
+			"_nodeVersion": "0.10.34"
+		},
+		"1.0.8-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.8-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.8-0.tgz",
+				"shasum": "698c8f3e4d124d12f7f19d739648adef1aceeeaf"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"querystringparser": "^0.1.1",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.8-0",
+			"gitHead": "18ab136e4cd11c885bdcfe75390742f0f2174db3",
+			"_shasum": "698c8f3e4d124d12f7f19d739648adef1aceeeaf",
+			"_nodeVersion": "0.10.34"
+		},
+		"1.0.2-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.2-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./js/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.2-0.tgz",
+				"shasum": "db7252ad361d53adfb3d4c66f520d3b56b7523d3"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"acorn": "~0.3.1",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"bluebird": "~0.11",
+				"benchmark": "~1.0.0",
+				"deque": "0.0.4",
+				"q": "~0.9.7",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.2-0"
+		},
+		"1.1.2": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.1.2",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.2.tgz",
+				"shasum": "4b32460ec3a6a70e8d491fa88015de5338d01c40"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"querystringparser": "^0.1.1",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.1.2",
+			"gitHead": "85f5b6e4082e88488010fe1631db138e1227b6db",
+			"_shasum": "4b32460ec3a6a70e8d491fa88015de5338d01c40",
+			"_nodeVersion": "0.10.34"
+		},
+		"1.0.3-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.3-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./js/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.3-0.tgz",
+				"shasum": "e3c8718e7342286ab44ea94b30e34b4336a4e621"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"acorn": "~0.3.1",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"bluebird": "~0.11",
+				"benchmark": "~1.0.0",
+				"deque": "0.0.4",
+				"q": "~0.9.7",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.3-0"
+		},
+		"1.1.3": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.1.3",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.3.tgz",
+				"shasum": "f4af3ea9f34d8a271cf58ad2b3759f431f0b318d"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"querystringparser": "^0.1.1",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.1.3",
+			"gitHead": "545dcd3ecf148ac9e27a8910db54f9a6f74f441b",
+			"_shasum": "f4af3ea9f34d8a271cf58ad2b3759f431f0b318d",
+			"_nodeVersion": "0.10.34"
+		},
+		"1.0.1-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.1-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./js/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.1-0.tgz",
+				"shasum": "0a9197bb33772adc456ae468d28261c2bbed3ae3"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"acorn": "~0.3.1",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"bluebird": "~0.11",
+				"benchmark": "~1.0.0",
+				"deque": "0.0.4",
+				"q": "~0.9.7",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.1-0"
+		},
+		"1.0.6-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.6-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.6-0.tgz",
+				"shasum": "f9af5feaed8f61a7191f7ee4f139b9e759946bcd"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"benchmark": "~1.0.0",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.6-0"
+		},
+		"1.0.7-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.7-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.7-0.tgz",
+				"shasum": "fa9c137c6957c9fd645b830a9820feb1c9248b7f"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.7-0",
+			"gitHead": "f5cfff110629b439e75906f812fcb7559e826abf",
+			"_shasum": "fa9c137c6957c9fd645b830a9820feb1c9248b7f",
+			"_nodeVersion": "0.10.34"
+		},
+		"1.0.4-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.4-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.4-0.tgz",
+				"shasum": "7799522014882acfc2084018ae20361ebed61bf2"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"benchmark": "~1.0.0",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.4-0"
+		},
+		"1.0.5-0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.5-0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.5-0.tgz",
+				"shasum": "384fefa9548e60bf91cf773f524bbe3cff380e1f"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"benchmark": "~1.0.0",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.5-0"
+		},
+		"1.0.0": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.0.0",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./js/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.0.tgz",
+				"shasum": "dd9763ea245773b8ace4699e501d7ed13ab697c1"
+			},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-jshint": "~0.6.4",
+				"jshint-stylish": "latest",
+				"acorn": "~0.3.1",
+				"mocha": "~1.12.1",
+				"grunt-cli": "~0.1.9",
+				"bluebird": "~0.11",
+				"benchmark": "~1.0.0",
+				"deque": "0.0.4",
+				"q": "~0.9.7",
+				"semver-utils": "~1.1.0"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"_from": "./",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.0.0"
+		},
+		"1.1.1": {
+			"name": "fast-url-parser",
+			"description": "Extremely fast implementation of node core url library",
+			"version": "1.1.1",
+			"author": {
+				"name": "Petka Antonov",
+				"email": "petka_antonov@hotmail.com",
+				"url": "http://github.com/petkaantonov/"
+			},
+			"homepage": "https://github.com/petkaantonov/urlparser",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/petkaantonov/urlparser.git"
+			},
+			"bugs": {
+				"url": "http://github.com/petkaantonov/urlparser/issues"
+			},
+			"main": "./src/urlparser.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.1.tgz",
+				"shasum": "1212f6fef30036203c7cec7fb590c2d2e8eb9d87"
+			},
+			"dependencies": {
+				"punycode": "^1.3.2"
+			},
+			"devDependencies": {
+				"jshint": "^2.5.10",
+				"querystringparser": "^0.1.1",
+				"tap-dot": "^0.2.3",
+				"tap-spec": "^2.1.1",
+				"tape": "^3.0.3"
+			},
+			"keywords": [
+				"fast",
+				"parse",
+				"parser",
+				"url",
+				"uri",
+				"performance"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "esailija",
+					"email": "petka_antonov@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run jshint && node ./test/index.js | tap-spec",
+				"dot": "node ./test/index.js | tap-dot",
+				"bench": "node ./benchmark/urlparser.js",
+				"bench-node": "node ./benchmark/nodecore.js",
+				"jshint": "jshint --verbose ./src/*"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.12",
+			"_npmUser": {
+				"name": "esailija",
+				"email": "petka_antonov@hotmail.com"
+			},
+			"_id": "fast-url-parser@1.1.1",
+			"gitHead": "2609f4fdf426bb8266e0f55c01e398933252efb9",
+			"_shasum": "1212f6fef30036203c7cec7fb590c2d2e8eb9d87",
+			"_nodeVersion": "0.10.34"
+		}
+	},
+	"time": {
+		"1.1.0-0": "2014-12-23T15:00:26.628Z",
+		"created": "2013-12-29T16:48:15.784Z",
+		"1.0.8-0": "2014-12-23T14:32:19.698Z",
+		"1.0.2-0": "2013-12-31T13:42:54.270Z",
+		"1.1.2": "2015-01-24T23:49:14.391Z",
+		"1.0.3-0": "2014-01-02T16:05:26.622Z",
+		"1.1.3": "2015-01-25T15:36:50.413Z",
+		"1.0.1-0": "2013-12-31T12:55:25.600Z",
+		"1.0.6-0": "2014-01-09T22:08:32.912Z",
+		"1.0.7-0": "2014-12-23T14:05:33.725Z",
+		"1.0.4-0": "2014-01-02T16:07:55.810Z",
+		"1.0.5-0": "2014-01-02T23:06:58.817Z",
+		"modified": "2016-10-20T18:45:18.223Z",
+		"1.0.0": "2013-12-29T16:48:17.172Z",
+		"1.1.1": "2015-01-08T16:40:14.477Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749364513
+		}
+	},
+	"_distfiles": {
+		"fast-url-parser-1.1.0-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.0-0.tgz",
+			"sha": "01edc68e7167c01130506ba83eda9692d390eb12"
+		},
+		"fast-url-parser-1.0.8-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.8-0.tgz",
+			"sha": "698c8f3e4d124d12f7f19d739648adef1aceeeaf"
+		},
+		"fast-url-parser-1.0.2-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.2-0.tgz",
+			"sha": "db7252ad361d53adfb3d4c66f520d3b56b7523d3"
+		},
+		"fast-url-parser-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.2.tgz",
+			"sha": "4b32460ec3a6a70e8d491fa88015de5338d01c40"
+		},
+		"fast-url-parser-1.0.3-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.3-0.tgz",
+			"sha": "e3c8718e7342286ab44ea94b30e34b4336a4e621"
+		},
+		"fast-url-parser-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.3.tgz",
+			"sha": "f4af3ea9f34d8a271cf58ad2b3759f431f0b318d"
+		},
+		"fast-url-parser-1.0.1-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.1-0.tgz",
+			"sha": "0a9197bb33772adc456ae468d28261c2bbed3ae3"
+		},
+		"fast-url-parser-1.0.6-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.6-0.tgz",
+			"sha": "f9af5feaed8f61a7191f7ee4f139b9e759946bcd"
+		},
+		"fast-url-parser-1.0.7-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.7-0.tgz",
+			"sha": "fa9c137c6957c9fd645b830a9820feb1c9248b7f"
+		},
+		"fast-url-parser-1.0.4-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.4-0.tgz",
+			"sha": "7799522014882acfc2084018ae20361ebed61bf2"
+		},
+		"fast-url-parser-1.0.5-0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.5-0.tgz",
+			"sha": "384fefa9548e60bf91cf773f524bbe3cff380e1f"
+		},
+		"fast-url-parser-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.0.0.tgz",
+			"sha": "dd9763ea245773b8ace4699e501d7ed13ab697c1"
+		},
+		"fast-url-parser-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-url-parser/-/fast-url-parser-1.1.1.tgz",
+			"sha": "1212f6fef30036203c7cec7fb590c2d2e8eb9d87"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-d42a4d7a4fe2940f",
+	"readme": "#Introduction\n\nFast implementation of an url parser for node.js.\n\n#Quick start\n\n    npm install fast-url-parser\n\n```js\nvar url = require(\"fast-url-parser\");\n```\n\n#API\n\nThis module has exactly the same API and semantics as the `require(\"url\");`- module that comes with node.\n\nSee [Node.JS URL API documentation](http://nodejs.org/docs/latest/api/url.html).\n\nIn addition, you may inject a custom query string implementation by setting the `url.queryString` property. The module export object must expose the methods `.parse` and `.stringify`. By default the core `\"querystring\"` module is used.\n\nYou may disable automatic escaping of some characters when parsing an URL by passing `true` as a forth argument so that: `url.format(url.parse(yourUrl, false, false, true)) == yourUrl`\n\nExample:\n\n```js\nvar url = require(\"fast-url-parser\");\n// the querystringparser module supports nested properties\nurl.queryString = require(\"querystringparser\");\nvar parsed = Url.parse('/path?user[name][first]=tj&user[name][last]=holowaychuk', true);\nconsole.log(parsed.query);\n//{ user: { name: { first: 'tj', last: 'holowaychuk' } } }\n```\n\nIf in your application you may want all modules use this parser automatically, you can do so by inserting this line at the beginning of your application:\n\n```js\nrequire(\"fast-url-parser\").replace();\n```\n\nAnything that now calls `require(\"url\")` will instead get an instance of this module instead of the url parser that comes with node core.\n\n#Performance\n\n    Petka Antonov@PETKAANTONOV-PC ~/urlparser (master)\n    $ node ./benchmark/urlparser.js\n    misc/url.js parse(): 402045.67\n    misc/url.js format(): 253946.82\n    misc/url.js resolve(\"../foo/bar?baz=boom\"): 56701.419\n    misc/url.js resolve(\"foo/bar\"): 80059.500\n    misc/url.js resolve(\"http://nodejs.org\"): 118566.13\n    misc/url.js resolve(\"./foo/bar?baz\"): 62778.648\n\n    Petka Antonov@PETKAANTONOV-PC ~/urlparser (master)\n    $ node ./benchmark/nodecore.js\n    misc/url.js parse(): 16459\n    misc/url.js format(): 15978\n    misc/url.js resolve(\"../foo/bar?baz=boom\"): 6837.7\n    misc/url.js resolve(\"foo/bar\"): 7038.6\n    misc/url.js resolve(\"http://nodejs.org\"): 6491.1\n    misc/url.js resolve(\"./foo/bar?baz\"): 6968.4\n\n#License\n\nMIT License:\n\n    Copyright (c) 2014 Petka Antonov\n\n    Permission is hereby granted, free of charge, to any person obtaining a copy\n    of this software and associated documentation files (the \"Software\"), to deal\n    in the Software without restriction, including without limitation the rights\n    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n    copies of the Software, and to permit persons to whom the Software is\n    furnished to do so, subject to the following conditions:\n\n    The above copyright notice and this permission notice shall be included in\n    all copies or substantial portions of the Software.\n\n    THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\n    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n    THE SOFTWARE."
+}

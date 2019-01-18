@@ -1,0 +1,102 @@
+{
+	"name": "execall",
+	"versions": {
+		"1.0.0": {
+			"name": "execall",
+			"description": "Find multiple RegExp matches in a string",
+			"version": "1.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/execall",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/execall"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/execall/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/execall/-/execall-1.0.0.tgz",
+				"shasum": "73d0904e395b3cab0658b08d09ec25307f29bb73"
+			},
+			"dependencies": {
+				"clone-regexp": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "0.0.4"
+			},
+			"keywords": [
+				"regex",
+				"regexp",
+				"re",
+				"regular",
+				"expression",
+				"exec",
+				"match",
+				"matches",
+				"execall",
+				"all",
+				"find",
+				"findall",
+				"immutable",
+				"string",
+				"str",
+				"multiple",
+				"many",
+				"global"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "execall@1.0.0",
+			"gitHead": "18797f2b16558e1c6ef2c78e816e963fa632d0f9",
+			"_shasum": "73d0904e395b3cab0658b08d09ec25307f29bb73",
+			"_nodeVersion": "0.12.4"
+		}
+	},
+	"time": {
+		"created": "2015-05-31T12:12:52.910Z",
+		"modified": "2017-08-28T06:36:46.885Z",
+		"1.0.0": "2015-05-31T12:12:52.910Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749392406
+		}
+	},
+	"_distfiles": {
+		"execall-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/execall/-/execall-1.0.0.tgz",
+			"sha": "73d0904e395b3cab0658b08d09ec25307f29bb73"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-6a10e75430c4f69f",
+	"readme": "# execall [![Build Status](https://travis-ci.org/sindresorhus/execall.svg?branch=master)](https://travis-ci.org/sindresorhus/execall)\n\n> Find multiple RegExp matches in a string\n\nInstead of having to iterate over `RegExp#exec`, immutable, and with a nicer result format.\n\n\n## Install\n\n```\n$ npm install --save execall\n```\n\n\n## Usage\n\n```js\nvar execall = require('execall');\n\nexecall(/(\\d+)/g, '$200 and $400');\n/*\n[\n\t{\n\t\tmatch: '200',\n\t\tsub: ['200'],\n\t\tindex: 1\n\t},\n\t{\n\t\tmatch: '400',\n\t\tsub: ['400'],\n\t\tindex: 10\n\t}\n]\n*/\n```\n\n\n## API\n\n### execall(re, input)\n\nReturns an array of objects with a match, sub-matches, and index.\n\n#### re\n\nType: `regexp`\n\nRegular expression to match against the `input`.\n\n#### input\n\nType: `string`\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
+}

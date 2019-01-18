@@ -1,0 +1,769 @@
+{
+	"name": "minizlib",
+	"versions": {
+		"1.0.3": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.0.3",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.3.tgz",
+				"shasum": "d5c1abf77be154619952e253336eccab9b2a32f5"
+			},
+			"dependencies": {
+				"minipass": "^2.0.0"
+			},
+			"devDependencies": {
+				"tap": "^10.3.0"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"constants.js"
+			],
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.0.3",
+			"gitHead": "18adfc6e208468eae276617b34bb4dfaeec1f532",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/minizlib-1.0.3.tgz_1493884866315_0.7689040366094559"
+			},
+			"_shasum": "d5c1abf77be154619952e253336eccab9b2a32f5",
+			"_nodeVersion": "8.0.0-pre"
+		},
+		"1.2.1": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.2.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.2.1.tgz",
+				"shasum": "dd27ea6136243c7c880684e8672bb3a45fd9b614"
+			},
+			"dependencies": {
+				"minipass": "^2.2.1"
+			},
+			"devDependencies": {
+				"tap": "^12.0.1"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.2.1",
+			"gitHead": "ad2e969851c3573eff84a5ddfe906344c814581b",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/minizlib_1.2.1_1544205658697_0.07448144618627572"
+			},
+			"_nodeVersion": "10.12.0"
+		},
+		"1.0.4": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.0.4",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.4.tgz",
+				"shasum": "8ebb51dd8bbe40b0126b5633dbb36b284a2f523c"
+			},
+			"dependencies": {
+				"minipass": "^2.2.1"
+			},
+			"devDependencies": {
+				"tap": "^10.7.2"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"constants.js"
+			],
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.0.4",
+			"gitHead": "98bb59595f49abb12246e9bf91a1b96d9809768d",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/minizlib-1.0.4.tgz_1508312111191_0.25975665473379195"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"1.0.0": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.0.tgz",
+				"shasum": "a5b3994a671ad46c769af9905b7dc1cfe4aa1fb6"
+			},
+			"dependencies": {
+				"minipass": "^1.1.6"
+			},
+			"devDependencies": {
+				"tap": "^10.3.0"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "ceejbot",
+					"email": "ceejceej@gmail.com"
+				},
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.0.0",
+			"gitHead": "356f7243ac9a988b172b0a58074d05aac8351529",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/minizlib-1.0.0.tgz_1490775065011_0.09464420657604933"
+			},
+			"_shasum": "a5b3994a671ad46c769af9905b7dc1cfe4aa1fb6",
+			"_nodeVersion": "8.0.0-pre"
+		},
+		"1.0.1": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.1.tgz",
+				"shasum": "038b4fc0dd85290fb4c94eb8a9c8254047985218"
+			},
+			"dependencies": {
+				"minipass": "^1.1.6"
+			},
+			"devDependencies": {
+				"tap": "^10.3.0"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "ceejbot",
+					"email": "ceejceej@gmail.com"
+				},
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.0.1",
+			"gitHead": "89ef737a875a1176a60a6824b405c44d78eb9d5e",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/minizlib-1.0.1.tgz_1490775112216_0.8146075017284602"
+			},
+			"_shasum": "038b4fc0dd85290fb4c94eb8a9c8254047985218",
+			"_nodeVersion": "8.0.0-pre"
+		},
+		"1.1.0": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.1.0.tgz",
+				"shasum": "11e13658ce46bc3a70a267aac58359d1e0c29ceb"
+			},
+			"dependencies": {
+				"minipass": "^2.2.1"
+			},
+			"devDependencies": {
+				"tap": "^10.7.2"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"constants.js"
+			],
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.1.0",
+			"gitHead": "e10e489a9d7a41b52dccacb39bb22e078835ebed",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/minizlib-1.1.0.tgz_1513828974124_0.5935359639115632"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"0.0.1": {
+			"name": "minizlib",
+			"description": "A smaller, faster, zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "0.0.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-0.0.1.tgz",
+				"shasum": "86c1f23d56bd35c2e1fcf045548e11c8ed6c231a"
+			},
+			"dependencies": {
+				"minipass": "^1.1.1"
+			},
+			"devDependencies": {
+				"tap": "^10.3.0"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@0.0.1",
+			"gitHead": "eeb244f223858fb95742540fcdff8020c4e13e03",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/minizlib-0.0.1.tgz_1490686822685_0.5977697225753218"
+			},
+			"_shasum": "86c1f23d56bd35c2e1fcf045548e11c8ed6c231a",
+			"_nodeVersion": "8.0.0-pre"
+		},
+		"1.0.2": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.2.tgz",
+				"shasum": "6c4a4c624bee69905b0044b166ea1adfcd6581fe"
+			},
+			"dependencies": {
+				"minipass": "^1.1.6"
+			},
+			"devDependencies": {
+				"tap": "^10.3.0"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"constants.js"
+			],
+			"maintainers": [
+				{
+					"name": "ceejbot",
+					"email": "ceejceej@gmail.com"
+				},
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.0.2",
+			"gitHead": "666b33cf8158c12111046d94449eed53c9c9fab2",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/minizlib-1.0.2.tgz_1490775174783_0.6375827312003821"
+			},
+			"_shasum": "6c4a4c624bee69905b0044b166ea1adfcd6581fe",
+			"_nodeVersion": "8.0.0-pre"
+		},
+		"1.1.1": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.1.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.1.1.tgz",
+				"shasum": "6734acc045a46e61d596a43bb9d9cd326e19cc42"
+			},
+			"dependencies": {
+				"minipass": "^2.2.1"
+			},
+			"devDependencies": {
+				"tap": "^10.7.2"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.1.1",
+			"gitHead": "814af72cf7ee5011814dbc6226b5961051ea5bc3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/minizlib_1.1.1_1539193940689_0.34679390777921637"
+			},
+			"_nodeVersion": "10.10.0"
+		},
+		"1.2.0": {
+			"name": "minizlib",
+			"description": "A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.",
+			"version": "1.2.0",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/minizlib#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/isaacs/minizlib.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/minizlib/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.2.0.tgz",
+				"shasum": "59517387478fd98d8017ed0299c6cb16cbd12da3"
+			},
+			"dependencies": {
+				"minipass": "^2.2.1"
+			},
+			"devDependencies": {
+				"tap": "^12.0.1"
+			},
+			"keywords": [
+				"zlib",
+				"gzip",
+				"gunzip",
+				"deflate",
+				"inflate",
+				"compression",
+				"zip",
+				"unzip"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tap test/*.js --100 -J",
+				"preversion": "npm test",
+				"postversion": "npm publish",
+				"postpublish": "git push origin --all; git push origin --tags"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "minizlib@1.2.0",
+			"gitHead": "94087dacbcc5e49e4b55ccd3ee4901d64a0a37e1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/minizlib_1.2.0_1544138714049_0.5809128408831707"
+			},
+			"_nodeVersion": "10.12.0"
+		}
+	},
+	"time": {
+		"1.0.3": "2017-05-04T08:01:06.591Z",
+		"1.2.1": "2018-12-07T18:00:58.925Z",
+		"1.0.4": "2017-10-18T07:35:11.315Z",
+		"created": "2017-03-28T07:40:22.993Z",
+		"modified": "2018-12-07T18:01:01.578Z",
+		"1.0.0": "2017-03-29T08:11:06.728Z",
+		"1.0.1": "2017-03-29T08:11:52.460Z",
+		"1.1.0": "2017-12-21T04:02:54.335Z",
+		"0.0.1": "2017-03-28T07:40:22.993Z",
+		"1.0.2": "2017-03-29T08:12:55.022Z",
+		"1.1.1": "2018-10-10T17:52:20.823Z",
+		"1.2.0": "2018-12-06T23:25:14.139Z"
+	},
+	"dist-tags": {
+		"latest": "1.2.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749376910
+		}
+	},
+	"_distfiles": {
+		"minizlib-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.3.tgz",
+			"sha": "d5c1abf77be154619952e253336eccab9b2a32f5"
+		},
+		"minizlib-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.2.1.tgz",
+			"sha": "dd27ea6136243c7c880684e8672bb3a45fd9b614"
+		},
+		"minizlib-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.4.tgz",
+			"sha": "8ebb51dd8bbe40b0126b5633dbb36b284a2f523c"
+		},
+		"minizlib-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.0.tgz",
+			"sha": "a5b3994a671ad46c769af9905b7dc1cfe4aa1fb6"
+		},
+		"minizlib-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.1.tgz",
+			"sha": "038b4fc0dd85290fb4c94eb8a9c8254047985218"
+		},
+		"minizlib-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.1.0.tgz",
+			"sha": "11e13658ce46bc3a70a267aac58359d1e0c29ceb"
+		},
+		"minizlib-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-0.0.1.tgz",
+			"sha": "86c1f23d56bd35c2e1fcf045548e11c8ed6c231a"
+		},
+		"minizlib-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.0.2.tgz",
+			"sha": "6c4a4c624bee69905b0044b166ea1adfcd6581fe"
+		},
+		"minizlib-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.1.1.tgz",
+			"sha": "6734acc045a46e61d596a43bb9d9cd326e19cc42"
+		},
+		"minizlib-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.2.0.tgz",
+			"sha": "59517387478fd98d8017ed0299c6cb16cbd12da3"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-e3fb3c27cf255752",
+	"readme": "# minizlib\n\nA tiny fast zlib stream built on [minipass](http://npm.im/minipass)\nand Node.js's zlib binding.\n\nThis module was created to serve the needs of\n[node-tar](http://npm.im/tar) v2.  If your needs are different, then\nit may not be for you.\n\n## How does this differ from the streams in `require('zlib')`?\n\nFirst, there are no convenience methods to compress or decompress a\nbuffer.  If you want those, use the built-in `zlib` module.  This is\nonly streams.\n\nThis module compresses and decompresses the data as fast as you feed\nit in.  It is synchronous, and runs on the main process thread.  Zlib\noperations can be high CPU, but they're very fast, and doing it this\nway means much less bookkeeping and artificial deferral.\n\nNode's built in zlib streams are built on top of `stream.Transform`.\nThey do the maximally safe thing with respect to consistent\nasynchrony, buffering, and backpressure.\n\nThis module _does_ support backpressure, and will buffer output chunks\nthat are not consumed, but is less of a mediator between the input and\noutput.  There is no high or low watermarks, no state objects, and so\nartificial async deferrals.  It will not protect you from Zalgo.\n\nIf you write, data will be emitted right away.  If you write\neverything synchronously in one tick, and you are listening to the\n`data` event to consume it, then it'll all be emitted right away in\nthat same tick.  If you want data to be emitted in the next tick, then\nwrite it in the next tick.\n\nIt is thus the responsibility of the reader and writer to manage their\nown consumption and process execution flow.\n\nThe goal is to compress and decompress as fast as possible, even for\nfiles that are too large to store all in one buffer.\n\nThe API is very similar to the built-in zlib module.  There are\nclasses that you instantiate with `new` and they are streams that can\nbe piped together."
+}

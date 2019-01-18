@@ -1,0 +1,100 @@
+{
+	"name": "p-defer",
+	"versions": {
+		"1.0.0": {
+			"name": "p-defer",
+			"description": "Create a deferred promise",
+			"version": "1.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/p-defer#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-defer.git"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-defer/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/p-defer/-/p-defer-1.0.0.tgz",
+				"shasum": "9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"keywords": [
+				"promise",
+				"defer",
+				"deferred",
+				"resolve",
+				"reject",
+				"lazy",
+				"later",
+				"async",
+				"await",
+				"promises",
+				"bluebird"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "p-defer@1.0.0",
+			"gitHead": "31911e0cba4c1143daef9c3ab696d3c882402c3b",
+			"xo": {
+				"esnext": true
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/p-defer-1.0.0.tgz_1477026871661_0.6250647243577987"
+			},
+			"_shasum": "9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c",
+			"_nodeVersion": "4.6.0"
+		}
+	},
+	"time": {
+		"created": "2016-10-21T05:14:31.906Z",
+		"modified": "2017-07-05T06:17:26.450Z",
+		"1.0.0": "2016-10-21T05:14:31.906Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749451363
+		}
+	},
+	"_distfiles": {
+		"p-defer-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/p-defer/-/p-defer-1.0.0.tgz",
+			"sha": "9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-dbe576f8e077a5a5",
+	"readme": "# p-defer [![Build Status](https://travis-ci.org/sindresorhus/p-defer.svg?branch=master)](https://travis-ci.org/sindresorhus/p-defer)\n\n> Create a deferred promise\n\n[**Don't use this unless you know what you're doing!**](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns#the-deferred-anti-pattern) Prefer the `Promise` constructor.\n\n\n## Install\n\n```\n$ npm install --save p-defer\n```\n\n\n## Usage\n\n```js\nconst pDefer = require('p-defer');\n\nfunction delay(ms) {\n\tconst deferred = pDefer();\n\tsetTimeout(deferred.resolve, ms, '🦄');\n\treturn deferred.promise;\n}\n\ndelay(100).then(console.log);\n//=> '🦄'\n```\n\n*The above is just an example. Use [`delay`](https://github.com/sindresorhus/delay) if you need to delay a promise.*\n\n\n## API\n\n### pDefer()\n\nReturns an `Object` with a `promise` property and functions to `resolve()` and `reject()`.\n\n\n## Related\n\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}

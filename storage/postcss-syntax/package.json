@@ -1,0 +1,2532 @@
+{
+	"name": "postcss-syntax",
+	"versions": {
+		"0.6.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.6.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.6.0.tgz",
+				"shasum": "fdac48db9adc97057973ec66280486f8c68269fd"
+			},
+			"dependencies": {
+				"htmlparser2": "^3.9.2",
+				"postcss-html": "^0.23.2",
+				"postcss-jsx": "^0.5.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"optionalDependencies": {
+				"postcss-html": "^0.23.2",
+				"postcss-jsx": "^0.5.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.1",
+				"mocha": "^5.1.1",
+				"nyc": "^11.7.1",
+				"postcss-html": "^0.23.3",
+				"postcss-jsx": "^0.6.0",
+				"postcss-markdown": "^0.23.3"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.6.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.6.0_1525432076123_0.8023726273559095"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.7.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.7.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.7.0.tgz",
+				"shasum": "846ab0e95c54658e0f5863539c9104dba8757bb6"
+			},
+			"dependencies": {
+				"htmlparser2": "^3.9.2",
+				"postcss-html": "^0.23.4",
+				"postcss-jsx": "^0.7.0",
+				"postcss-markdown": "^0.23.4",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"optionalDependencies": {
+				"postcss-html": "^0.23.4",
+				"postcss-jsx": "^0.7.0",
+				"postcss-markdown": "^0.23.4",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.1",
+				"mocha": "^5.1.1",
+				"nyc": "^11.7.1",
+				"postcss-html": "^0.23.4",
+				"postcss-jsx": "^0.7.0",
+				"postcss-markdown": "^0.23.4"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.7.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.7.0_1525663229651_0.047945708020354694"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.3.1": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.3.1",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.3.1.tgz",
+				"shasum": "10629393c5aeca1a594ce6ad40346493b4bf48c2"
+			},
+			"dependencies": {
+				"htmlparser2": "^3.9.2",
+				"postcss-html": "^0.23.2",
+				"postcss-jsx": "^0.5.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"optionalDependencies": {
+				"postcss-html": "^0.23.2",
+				"postcss-jsx": "^0.5.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.1",
+				"mocha": "^5.1.1",
+				"nyc": "^11.7.1",
+				"postcss-html": "^0.23.2",
+				"postcss-jsx": "^0.5.0",
+				"postcss-markdown": "^0.23.2"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.3.1",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.3.1_1525430804255_0.5034421094057773"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.9.1": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.9.1",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.9.1.tgz",
+				"shasum": "5dbd90af1631ab8805b8f594bef2c2e8002d3758"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.1.1",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": "^0.23.8",
+				"postcss-jsx": "^0.11.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "^0.23.8",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.9.1",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.9.1_1526658454551_0.23059035383394777"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"0.8.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.8.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.8.0.tgz",
+				"shasum": "61d21d47389794b2f8bf9fa70893ddf4ff2b5f28"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.1",
+				"mocha": "^5.1.1",
+				"nyc": "^11.7.1",
+				"postcss": "^6.0.22",
+				"postcss-html": "github:gucong3000/postcss-html#HEAD",
+				"postcss-jsx": "github:gucong3000/postcss-jsx#HEAD",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "github:gucong3000/postcss-markdown#HEAD",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.8.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.8.0_1525768707330_0.9081708584786194"
+			},
+			"_shasum": "61d21d47389794b2f8bf9fa70893ddf4ff2b5f28",
+			"_nodeVersion": "10.0.0"
+		},
+		"0.9.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.9.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.9.0.tgz",
+				"shasum": "671a82b110edf56170fe2309dc8c2a5eaf9d2d0e"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.1",
+				"mocha": "^5.1.1",
+				"nyc": "^11.7.1",
+				"postcss": "^6.0.22",
+				"postcss-html": "^0.23.6",
+				"postcss-jsx": "^0.9.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "^0.23.6",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.9.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.9.0_1525770604560_0.890369212083459"
+			},
+			"_shasum": "671a82b110edf56170fe2309dc8c2a5eaf9d2d0e",
+			"_nodeVersion": "10.0.0"
+		},
+		"0.24.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.24.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.24.0.tgz",
+				"shasum": "e5e8055763b01baa344b1e39fef4cce3617f18da"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.24.0",
+				"postcss-jsx": ">=0.24.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": ">=0.24.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.24.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.24.0_1527173693697_0.3435802280940936"
+			},
+			"_shasum": "e5e8055763b01baa344b1e39fef4cce3617f18da",
+			"_nodeVersion": "10.1.0"
+		},
+		"0.25.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.25.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.25.0.tgz",
+				"shasum": "5a77d170dbbf3ac53202287d557b0bb823a72405"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.25.0",
+				"postcss-jsx": ">=0.25.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": ">=0.25.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.25.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.25.0_1527246700811_0.03700286315277501"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.0.2": {
+			"name": "postcss-syntax",
+			"description": "postcss-syntax",
+			"version": "0.0.2",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.0.2.tgz",
+				"shasum": "1ef605f533256d94739ab1e1edbcd85d6c77233f"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.0",
+				"eslint": "^4.19.1",
+				"eslint-config-standard": "^11.0.0",
+				"eslint-plugin-import": "^2.11.0",
+				"eslint-plugin-node": "^6.0.1",
+				"eslint-plugin-promise": "^3.7.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"mocha": "^5.1.0",
+				"nyc": "^11.6.0",
+				"postcss": "^6.0.21",
+				"postcss-html": "^0.21.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "^0.21.0",
+				"postcss-parser-tests": "^6.2.1",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.0",
+				"postcss-scss": "^1.0.5",
+				"postcss-styled": "0.0.2",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"report-coverage": "codecov",
+				"pretest": "eslint lib test",
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.0.2",
+			"gitHead": "df6f6a70da034e6c5cf3f67faf55dbbd738b4ee6",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.0.2_1523617801794_0.2667489798516778"
+			},
+			"_nodeVersion": "9.9.0"
+		},
+		"0.2.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.2.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax/tree/master/packages/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.2.0.tgz",
+				"shasum": "d28a3524b4eb3bd7daf2b222d8fb063230894c0f"
+			},
+			"dependencies": {
+				"postcss-html": "^v0.22.0",
+				"postcss-jsx": "^v0.0.1-beta.1",
+				"postcss-markdown": "^v0.22.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.0",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"optionalDependencies": {
+				"postcss-html": "^v0.22.0",
+				"postcss-jsx": "^v0.0.1-beta.1",
+				"postcss-markdown": "^v0.22.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.0",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"devDependencies": {
+				"postcss-html": "^v0.22.0",
+				"postcss-jsx": "^v0.0.1-beta.1",
+				"postcss-markdown": "^v0.22.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.2.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.2.0_1524887607102_0.8729302659500779"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.26.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.26.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.26.0.tgz",
+				"shasum": "a0f4de034366c6092299267e9d2517a414550f84"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.26.0",
+				"postcss-jsx": ">=0.26.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": ">=0.26.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.26.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.26.0_1527485621041_0.8271587287002893"
+			},
+			"_shasum": "a0f4de034366c6092299267e9d2517a414550f84",
+			"_nodeVersion": "10.0.0"
+		},
+		"0.3.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.3.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax/tree/master/packages/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.3.0.tgz",
+				"shasum": "c19d068037ed87ea96fc2cfb5031f56e2a064023"
+			},
+			"dependencies": {
+				"postcss-html": "^0.23.0",
+				"postcss-jsx": "^0.1.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"optionalDependencies": {
+				"postcss-html": "^0.23.0",
+				"postcss-jsx": "^0.1.0",
+				"postcss-markdown": "^0.23.0",
+				"postcss-less": "^1.1.5",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"devDependencies": {
+				"postcss-html": "^0.23.0",
+				"postcss-jsx": "^0.1.0",
+				"postcss-markdown": "^0.23.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.3.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.3.0_1525318575345_0.48906199440964837"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.26.1": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.26.1",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.26.1.tgz",
+				"shasum": "9c14f706c025af0ff3b1f56d433c60ac96ab093a"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.26.0",
+				"postcss-jsx": ">=0.26.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": ">=0.26.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.26.1",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.26.1_1527494218207_0.6025825677906265"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"0.27.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.27.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.27.0.tgz",
+				"shasum": "7aa994ffdb0265c5bad4d9e250903c61f9628d4f"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.27.0",
+				"postcss-jsx": ">=0.27.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.27.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.27.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.27.0_1528351519953_0.11336014842440512"
+			},
+			"_shasum": "7aa994ffdb0265c5bad4d9e250903c61f9628d4f",
+			"_nodeVersion": "8.11.2"
+		},
+		"0.28.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.28.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.28.0.tgz",
+				"shasum": "e17572a7dcf5388f0c9b68232d2dad48fa7f0b12"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.28.0",
+				"postcss-jsx": ">=0.28.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.28.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.28.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.28.0_1528702974354_0.1284704987717591"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"0.0.1": {
+			"name": "postcss-syntax",
+			"description": "postcss-syntax",
+			"version": "0.0.1",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.0.1.tgz",
+				"shasum": "873de56bcd54fe7754068c8fc8983c8915d26567"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.0",
+				"eslint": "^4.19.1",
+				"eslint-config-standard": "^11.0.0",
+				"eslint-plugin-import": "^2.10.0",
+				"eslint-plugin-node": "^6.0.1",
+				"eslint-plugin-promise": "^3.7.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"mocha": "^5.0.5",
+				"nyc": "^11.6.0",
+				"postcss": "^6.0.21",
+				"postcss-html": "file:../postcss-html",
+				"postcss-markdown": "file:../postcss-markdown",
+				"postcss-less": "^1.1.5",
+				"postcss-parser-tests": "^6.2.1",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.0",
+				"postcss-scss": "^1.0.5",
+				"postcss-styled": "file:../postcss-styled",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gucong",
+					"email": "gucong@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"report-coverage": "codecov",
+				"pretest": "eslint lib test",
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.0.1",
+			"gitHead": "9c7d1bc994539ee19c2d9de81b81d4bf07d16145",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.0.1_1523531190905_0.1616941285951088"
+			},
+			"_nodeVersion": "9.9.0"
+		},
+		"0.1.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.1.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.1.0.tgz",
+				"shasum": "f57dca90bf20af99b545ae970ac694c8e3b50a7b"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.0",
+				"eslint": "^4.19.1",
+				"eslint-config-standard": "^11.0.0",
+				"eslint-plugin-import": "^2.11.0",
+				"eslint-plugin-node": "^6.0.1",
+				"eslint-plugin-promise": "^3.7.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"mocha": "^5.1.0",
+				"nyc": "^11.6.0",
+				"postcss": "^6.0.21",
+				"postcss-html": "^0.21.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "^0.21.0",
+				"postcss-parser-tests": "^6.2.1",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-sass": "^0.3.0",
+				"postcss-scss": "^1.0.5",
+				"postcss-styled": "0.1.0",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"report-coverage": "codecov",
+				"pretest": "eslint lib test",
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.1.0",
+			"gitHead": "a7a8e786637e7afa52ef273a304152b8289a6981",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.1.0_1523684518911_0.5238398537719235"
+			},
+			"_nodeVersion": "9.9.0"
+		},
+		"0.30.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.30.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.30.0.tgz",
+				"shasum": "37080b021afebb51fe4b76c1634a12d20ebfcedd"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^6.0.22",
+				"postcss-html": ">=0.30.0",
+				"postcss-jsx": ">=0.30.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.30.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"proxyquire": "^2.0.1",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.30.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.30.0_1529461858147_0.9601234835019454"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"0.31.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.31.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.31.0.tgz",
+				"shasum": "13d955c705d339595d10a19efa4a1bee82dfb78f"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^6.0.23",
+				"postcss-html": ">=0.31.0",
+				"postcss-jsx": ">=0.31.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.31.0",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.6",
+				"proxyquire": "^2.0.1",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.31.0",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.31.0_1530268945104_0.09182542547539807"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"0.32.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.32.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.32.0.tgz",
+				"shasum": "038a9a5a11d488709e8d5402a12007bc3fd0a77b"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.4",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^7.0.1",
+				"postcss-html": ">=0.32.0",
+				"postcss-jsx": ">=0.32.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.32.0",
+				"postcss-safe-parser": "^4.0.1",
+				"postcss-scss": "^2.0.0",
+				"proxyquire": "^2.0.1",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.32.0",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn",
+				".svelte"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.32.0_1532669204534_0.01787261311167998"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"0.10.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.10.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.10.0.tgz",
+				"shasum": "62662d75479e1e75024b582c5f604613707d8f92"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.2",
+				"mocha": "^5.1.1",
+				"nyc": "^11.8.0",
+				"postcss": "^6.0.22",
+				"postcss-html": "^0.23.7",
+				"postcss-jsx": "^0.10.0",
+				"postcss-less": "^1.1.5",
+				"postcss-markdown": "^0.23.7",
+				"postcss-safe-parser": "^3.0.1",
+				"postcss-scss": "^1.0.5",
+				"sugarss": "^1.0.1"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.10.0",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.10.0_1526636949020_0.5184758520786596"
+			},
+			"_shasum": "62662d75479e1e75024b582c5f604613707d8f92",
+			"_nodeVersion": "10.0.0"
+		},
+		"0.33.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.33.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.33.0.tgz",
+				"shasum": "59c0c678d2f9ecefa84c6ce9ef46fc805c54ab3a"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.0.4",
+				"mocha": "^5.2.0",
+				"nyc": "^12.0.2",
+				"postcss": "^7.0.2",
+				"postcss-html": ">=0.33.0",
+				"postcss-jsx": ">=0.33.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.33.0",
+				"postcss-safe-parser": "^4.0.1",
+				"postcss-scss": "^2.0.0",
+				"proxyquire": "^2.0.1",
+				"sugarss": "^2.0.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc mocha --require ./test/fixtures/link --no-timeouts"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.33.0",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn",
+				".svelte"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.33.0_1534319946477_0.15113460920386657"
+			},
+			"_shasum": "59c0c678d2f9ecefa84c6ce9ef46fc805c54ab3a",
+			"_nodeVersion": "8.11.3"
+		},
+		"0.34.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.34.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.34.0.tgz",
+				"shasum": "4a85c022f1cdecea72102775c91af1e7f506d83a"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"codecov": "^3.1.0",
+				"mocha": "^5.2.0",
+				"nyc": "^13.0.1",
+				"postcss": "^7.0.2",
+				"postcss-html": ">=0.34.0",
+				"postcss-jsx": ">=0.34.0",
+				"postcss-less": "^2.0.0",
+				"postcss-markdown": ">=0.34.0",
+				"postcss-safe-parser": "^4.0.1",
+				"postcss-scss": "^2.0.0",
+				"proxyquire": "^2.1.0",
+				"sugarss": "^2.0.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"mocha": "mocha --require ./test/fixtures/link --no-timeouts",
+				"test": "nyc npm run mocha",
+				"debug": "npm run mocha -- --inspect-brk"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.34.0",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn",
+				".svelte"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.34.0_1537261398287_0.9944479248656428"
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.36.0": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.36.0",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.36.0.tgz",
+				"shasum": "9d3d48d25d9feb9903e283690e72dc1925d39952"
+			},
+			"devDependencies": {
+				"chai": "^4.2.0",
+				"codecov": "^3.1.0",
+				"mocha": "^5.2.0",
+				"nyc": "^13.1.0",
+				"postcss": "^7.0.7",
+				"postcss-html": ">=0.36.0",
+				"postcss-jsx": ">=0.36.0",
+				"postcss-less": "^3.1.0",
+				"postcss-markdown": ">=0.36.0",
+				"postcss-safe-parser": "^4.0.1",
+				"postcss-scss": "^2.0.0",
+				"proxyquire": "^2.1.0",
+				"sugarss": "^2.0.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"mocha": "mocha --require ./test/fixtures/link --no-timeouts",
+				"test": "nyc npm run mocha",
+				"debug": "npm run mocha -- --inspect-brk"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.36.0",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn",
+				".svelte"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.36.0_1546405211100_0.5152908155091618"
+			},
+			"_nodeVersion": "10.14.2"
+		},
+		"0.36.2": {
+			"name": "postcss-syntax",
+			"description": "Automatically switch PostCSS syntax by file extensions",
+			"version": "0.36.2",
+			"author": {
+				"name": "gucong"
+			},
+			"homepage": "https://github.com/gucong3000/postcss-syntax#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gucong3000/postcss-syntax.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gucong3000/postcss-syntax/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.36.2.tgz",
+				"shasum": "f08578c7d95834574e5593a82dfbfa8afae3b51c"
+			},
+			"devDependencies": {
+				"chai": "^4.2.0",
+				"codecov": "^3.1.0",
+				"mocha": "^5.2.0",
+				"nyc": "^13.1.0",
+				"postcss": "^7.0.7",
+				"postcss-html": ">=0.36.0",
+				"postcss-jsx": ">=0.36.0",
+				"postcss-less": "^3.1.0",
+				"postcss-markdown": ">=0.36.0",
+				"postcss-safe-parser": "^4.0.1",
+				"postcss-scss": "^2.0.0",
+				"proxyquire": "^2.1.0",
+				"sugarss": "^2.0.0"
+			},
+			"peerDependencies": {
+				"postcss": ">=5.0.0"
+			},
+			"keywords": [
+				"postcss",
+				"syntax",
+				"switch",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "gucong@gmail.com",
+					"name": "gucong"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"mocha": "mocha --require ./test/fixtures/link --no-timeouts",
+				"test": "nyc npm run mocha",
+				"debug": "npm run mocha -- --inspect-brk"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "gucong",
+				"email": "gucong@gmail.com"
+			},
+			"_id": "postcss-syntax@0.36.2",
+			"extensions": [
+				".css",
+				".pcss",
+				".postcss",
+				".acss",
+				".wxss",
+				".sass",
+				".scss",
+				".less",
+				".sss",
+				".js",
+				".es6",
+				".mjs",
+				".pac",
+				".jsx",
+				".ts",
+				".tsx",
+				".babel",
+				".flow",
+				".html",
+				".htm",
+				".shtml",
+				".xhtml",
+				".mdoc",
+				".jsp",
+				".asp",
+				".aspx",
+				".jshtm",
+				".volt",
+				".ejs",
+				".rhtml",
+				".xsl",
+				".xslt",
+				".vue",
+				".wpy",
+				".ux",
+				".php",
+				".php4",
+				".php5",
+				".phtml",
+				".ctp",
+				".twig",
+				".liquid",
+				".md",
+				".mdown",
+				".markdown",
+				".markdn",
+				".svelte"
+			],
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"all": true,
+				"cache": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-syntax_0.36.2_1546509007549_0.4023848900404756"
+			},
+			"_nodeVersion": "10.14.2"
+		}
+	},
+	"time": {
+		"0.6.0": "2018-05-04T11:07:56.181Z",
+		"0.7.0": "2018-05-07T03:20:29.727Z",
+		"0.3.1": "2018-05-04T10:46:44.393Z",
+		"0.9.1": "2018-05-18T15:47:34.624Z",
+		"0.8.0": "2018-05-08T08:38:27.394Z",
+		"0.9.0": "2018-05-08T09:10:04.744Z",
+		"0.24.0": "2018-05-24T14:54:53.827Z",
+		"0.25.0": "2018-05-25T11:11:40.912Z",
+		"0.0.2": "2018-04-13T11:10:01.942Z",
+		"0.2.0": "2018-04-28T03:53:27.168Z",
+		"0.26.0": "2018-05-28T05:33:41.115Z",
+		"0.3.0": "2018-05-03T03:36:15.408Z",
+		"0.26.1": "2018-05-28T07:56:58.331Z",
+		"0.27.0": "2018-06-07T06:05:20.012Z",
+		"0.28.0": "2018-06-11T07:42:54.547Z",
+		"0.0.1": "2018-04-12T11:06:30.963Z",
+		"0.1.0": "2018-04-14T05:41:58.993Z",
+		"0.30.0": "2018-06-20T02:30:58.230Z",
+		"0.31.0": "2018-06-29T10:42:25.158Z",
+		"0.32.0": "2018-07-27T05:26:44.607Z",
+		"0.10.0": "2018-05-18T09:49:09.074Z",
+		"modified": "2019-01-05T04:45:54.639Z",
+		"created": "2018-04-12T11:06:30.904Z",
+		"0.33.0": "2018-08-15T07:59:06.554Z",
+		"0.34.0": "2018-09-18T09:03:18.415Z",
+		"0.36.0": "2019-01-02T05:00:11.253Z",
+		"0.36.1": "2019-01-03T09:27:41.506Z",
+		"0.36.2": "2019-01-03T09:50:07.690Z"
+	},
+	"dist-tags": {
+		"latest": "0.36.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749393588
+		}
+	},
+	"_distfiles": {
+		"postcss-syntax-0.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.6.0.tgz",
+			"sha": "fdac48db9adc97057973ec66280486f8c68269fd"
+		},
+		"postcss-syntax-0.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.7.0.tgz",
+			"sha": "846ab0e95c54658e0f5863539c9104dba8757bb6"
+		},
+		"postcss-syntax-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.3.1.tgz",
+			"sha": "10629393c5aeca1a594ce6ad40346493b4bf48c2"
+		},
+		"postcss-syntax-0.9.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.9.1.tgz",
+			"sha": "5dbd90af1631ab8805b8f594bef2c2e8002d3758"
+		},
+		"postcss-syntax-0.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.8.0.tgz",
+			"sha": "61d21d47389794b2f8bf9fa70893ddf4ff2b5f28"
+		},
+		"postcss-syntax-0.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.9.0.tgz",
+			"sha": "671a82b110edf56170fe2309dc8c2a5eaf9d2d0e"
+		},
+		"postcss-syntax-0.24.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.24.0.tgz",
+			"sha": "e5e8055763b01baa344b1e39fef4cce3617f18da"
+		},
+		"postcss-syntax-0.25.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.25.0.tgz",
+			"sha": "5a77d170dbbf3ac53202287d557b0bb823a72405"
+		},
+		"postcss-syntax-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.0.2.tgz",
+			"sha": "1ef605f533256d94739ab1e1edbcd85d6c77233f"
+		},
+		"postcss-syntax-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.2.0.tgz",
+			"sha": "d28a3524b4eb3bd7daf2b222d8fb063230894c0f"
+		},
+		"postcss-syntax-0.26.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.26.0.tgz",
+			"sha": "a0f4de034366c6092299267e9d2517a414550f84"
+		},
+		"postcss-syntax-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.3.0.tgz",
+			"sha": "c19d068037ed87ea96fc2cfb5031f56e2a064023"
+		},
+		"postcss-syntax-0.26.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.26.1.tgz",
+			"sha": "9c14f706c025af0ff3b1f56d433c60ac96ab093a"
+		},
+		"postcss-syntax-0.27.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.27.0.tgz",
+			"sha": "7aa994ffdb0265c5bad4d9e250903c61f9628d4f"
+		},
+		"postcss-syntax-0.28.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.28.0.tgz",
+			"sha": "e17572a7dcf5388f0c9b68232d2dad48fa7f0b12"
+		},
+		"postcss-syntax-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.0.1.tgz",
+			"sha": "873de56bcd54fe7754068c8fc8983c8915d26567"
+		},
+		"postcss-syntax-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.1.0.tgz",
+			"sha": "f57dca90bf20af99b545ae970ac694c8e3b50a7b"
+		},
+		"postcss-syntax-0.30.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.30.0.tgz",
+			"sha": "37080b021afebb51fe4b76c1634a12d20ebfcedd"
+		},
+		"postcss-syntax-0.31.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.31.0.tgz",
+			"sha": "13d955c705d339595d10a19efa4a1bee82dfb78f"
+		},
+		"postcss-syntax-0.32.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.32.0.tgz",
+			"sha": "038a9a5a11d488709e8d5402a12007bc3fd0a77b"
+		},
+		"postcss-syntax-0.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.10.0.tgz",
+			"sha": "62662d75479e1e75024b582c5f604613707d8f92"
+		},
+		"postcss-syntax-0.33.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.33.0.tgz",
+			"sha": "59c0c678d2f9ecefa84c6ce9ef46fc805c54ab3a"
+		},
+		"postcss-syntax-0.34.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.34.0.tgz",
+			"sha": "4a85c022f1cdecea72102775c91af1e7f506d83a"
+		},
+		"postcss-syntax-0.36.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.36.0.tgz",
+			"sha": "9d3d48d25d9feb9903e283690e72dc1925d39952"
+		},
+		"postcss-syntax-0.36.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-syntax/-/postcss-syntax-0.36.2.tgz",
+			"sha": "f08578c7d95834574e5593a82dfbfa8afae3b51c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-13f14c2f0aec751d",
+	"readme": "PostCSS Syntax\n====\n\n[![NPM version](https://img.shields.io/npm/v/postcss-syntax.svg?style=flat-square)](https://www.npmjs.com/package/postcss-syntax)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-syntax.svg)](https://travis-ci.org/gucong3000/postcss-syntax)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-syntaxes.svg?label=integration)](https://travis-ci.org/gucong3000/postcss-syntaxes)\n[![Codecov](https://img.shields.io/codecov/c/github/gucong3000/postcss-syntax.svg)](https://codecov.io/gh/gucong3000/postcss-syntax)\n[![David](https://img.shields.io/david/dev/gucong3000/postcss-syntax.svg)](https://david-dm.org/gucong3000/postcss-syntax?type=dev)\n\n<img align=\"right\" width=\"95\" height=\"95\"\n\ttitle=\"Philosopher’s stone, logo of PostCSS\"\n\tsrc=\"http://postcss.github.io/postcss/logo.svg\">\n\npostcss-syntax can automatically switch the required [PostCSS](https://github.com/postcss/postcss) syntax by file extension/source\n\n## Getting Started\n\nFirst thing's first, install the module:\n\n```\nnpm install postcss-syntax --save-dev\n```\n\nIf you want support SCSS/SASS/LESS/SugarSS syntax, you need to install these module:\n\n- SCSS: [postcss-scss](https://github.com/postcss/postcss-scss)\n- SASS: [postcss-sass](https://github.com/aleshaoleg/postcss-sass)\n- LESS: [postcss-less](https://github.com/shellscape/postcss-less)\n- SugarSS: [sugarss](https://github.com/postcss/sugarss)\n\nIf you want support HTML (and HTML-like)/Markdown/CSS-in-JS file format, you need to install these module:\n\n- CSS-in-JS: [postcss-jsx](https://github.com/gucong3000/postcss-jsx)\n- HTML (and HTML-like): [postcss-html](https://github.com/gucong3000/postcss-html)\n- Markdown: [postcss-markdown](https://github.com/gucong3000/postcss-markdown)\n\n## Use Cases\n\n```js\nconst postcss = require('postcss');\nconst syntax = require('postcss-syntax')({\n\trules: [\n\t\t{\n\t\t\ttest: /\\.(?:[sx]?html?|[sx]ht|vue|ux|php)$/i,\n\t\t\textract: 'html',\n\t\t},\n\t\t{\n\t\t\ttest: /\\.(?:markdown|md)$/i,\n\t\t\textract: 'markdown',\n\t\t},\n\t\t{\n\t\t\ttest: /\\.(?:m?[jt]sx?|es\\d*|pac)$/i,\n\t\t\textract: 'jsx',\n\t\t},\n\t\t{\n\t\t\t// custom language for file extension\n\t\t\ttest: /\\.postcss$/i,\n\t\t\tlang: 'scss'\n\t\t},\n\t\t{\n\t\t\t// custom language for file extension\n\t\t\ttest: /\\.customcss$/i,\n\t\t\tlang: 'custom'\n\t\t},\n\t],\n\n\t// custom parser for CSS (using `postcss-safe-parser`)\n\tcss: 'postcss-safe-parser',\n\t// custom parser for SASS (PostCSS-compatible syntax.)\n\tsass: require('postcss-sass'),\n\t// custom parser for SCSS (by module name)\n\tscss: 'postcss-scss',\n\t// custom parser for LESS (by module path)\n\tless: './node_modules/postcss-less',\n\t// custom parser for SugarSS\n\tsugarss: require('sugarss'),\n\t// custom parser for custom language\n\tcustom: require('postcss-custom-syntax'),\n\n});\npostcss(plugins).process(source, { syntax: syntax }).then(function (result) {\n\t// An alias for the result.css property. Use it with syntaxes that generate non-CSS output.\n\tresult.content\n});\n```"
+}

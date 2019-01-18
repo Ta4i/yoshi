@@ -1,0 +1,140 @@
+{
+	"name": "sigmund",
+	"versions": {
+		"1.0.0": {
+			"name": "sigmund",
+			"description": "Quick and dirty signatures for Objects.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/isaacs/sigmund"
+			},
+			"main": "sigmund.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/sigmund/-/sigmund-1.0.0.tgz",
+				"shasum": "66a2b3a749ae8b5fb89efd4fcc01dc94fbe02296"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.3.0"
+			},
+			"keywords": [
+				"object",
+				"signature",
+				"key",
+				"data",
+				"psychoanalysis"
+			],
+			"license": "BSD",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "tap test/*.js",
+				"bench": "node bench.js"
+			},
+			"_npmVersion": "1.1.48",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "sigmund@1.0.0"
+		},
+		"1.0.1": {
+			"name": "sigmund",
+			"description": "Quick and dirty signatures for Objects.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me/"
+			},
+			"homepage": "https://github.com/isaacs/sigmund#readme",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/isaacs/sigmund.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/sigmund/issues"
+			},
+			"main": "sigmund.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/sigmund/-/sigmund-1.0.1.tgz",
+				"shasum": "3ff21f198cad2175f9f3b781853fd94d0d19b590"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.3.0"
+			},
+			"keywords": [
+				"object",
+				"signature",
+				"key",
+				"data",
+				"psychoanalysis"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "tap test/*.js",
+				"bench": "node bench.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.10.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "isaacs@npmjs.com"
+			},
+			"_id": "sigmund@1.0.1",
+			"gitHead": "527f97aa5bb253d927348698c0cd3bb267d098c6",
+			"_shasum": "3ff21f198cad2175f9f3b781853fd94d0d19b590",
+			"_nodeVersion": "2.0.1"
+		}
+	},
+	"time": {
+		"created": "2012-08-13T15:59:10.991Z",
+		"modified": "2017-11-22T14:29:45.153Z",
+		"1.0.0": "2012-08-13T15:59:12.395Z",
+		"1.0.1": "2015-05-20T07:19:05.814Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749429057
+		}
+	},
+	"_distfiles": {
+		"sigmund-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/sigmund/-/sigmund-1.0.0.tgz",
+			"sha": "66a2b3a749ae8b5fb89efd4fcc01dc94fbe02296"
+		},
+		"sigmund-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/sigmund/-/sigmund-1.0.1.tgz",
+			"sha": "3ff21f198cad2175f9f3b781853fd94d0d19b590"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-818c32b7b0851e2e",
+	"readme": "# sigmund\n\nQuick and dirty signatures for Objects.\n\nThis is like a much faster `deepEquals` comparison, which returns a\nstring key suitable for caches and the like.\n\n## Usage\n\n```javascript\nfunction doSomething (someObj) {\n  var key = sigmund(someObj, maxDepth) // max depth defaults to 10\n  var cached = cache.get(key)\n  if (cached) return cached\n\n  var result = expensiveCalculation(someObj)\n  cache.set(key, result)\n  return result\n}\n```\n\nThe resulting key will be as unique and reproducible as calling\n`JSON.stringify` or `util.inspect` on the object, but is much faster.\nIn order to achieve this speed, some differences are glossed over.\nFor example, the object `{0:'foo'}` will be treated identically to the\narray `['foo']`.\n\nAlso, just as there is no way to summon the soul from the scribblings\nof a cocaine-addled psychoanalyst, there is no way to revive the object\nfrom the signature string that sigmund gives you.  In fact, it's\nbarely even readable.\n\nAs with `util.inspect` and `JSON.stringify`, larger objects will\nproduce larger signature strings.\n\nBecause sigmund is a bit less strict than the more thorough\nalternatives, the strings will be shorter, and also there is a\nslightly higher chance for collisions.  For example, these objects\nhave the same signature:\n\n    var obj1 = {a:'b',c:/def/,g:['h','i',{j:'',k:'l'}]}\n    var obj2 = {a:'b',c:'/def/',g:['h','i','{jkl']}\n\nLike a good Freudian, sigmund is most effective when you already have\nsome understanding of what you're looking for.  It can help you help\nyourself, but you must be willing to do some work as well.\n\nCycles are handled, and cyclical objects are silently omitted (though\nthe key is included in the signature output.)\n\nThe second argument is the maximum depth, which defaults to 10,\nbecause that is the maximum object traversal depth covered by most\ninsurance carriers."
+}

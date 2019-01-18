@@ -1,0 +1,4112 @@
+{
+	"name": "@wix/wix-hmac-signer",
+	"versions": {
+		"1.0.904": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.904",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.904.tgz",
+				"shasum": "4bffc7ab18f8195641972341ad06d651168ff0f6"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.904"
+		},
+		"1.0.905": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.905",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.905.tgz",
+				"shasum": "aa80e79be197adb580e938983a4c52f52d0c387a"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.905"
+		},
+		"1.0.869": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.869",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.869.tgz",
+				"shasum": "6baac14ee603877cb54f107cbcd5204650e48f86"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.869"
+		},
+		"1.0.902": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.902",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.902.tgz",
+				"shasum": "39105b5f7733fd4e7e1dc328fdd61f7710d42f1b"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.902"
+		},
+		"1.0.903": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.903",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.903.tgz",
+				"shasum": "f729d0063c99e28ad69c934c5324c10dd25ac548"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.903"
+		},
+		"1.0.908": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.908",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.908.tgz",
+				"shasum": "0241f4cb17e5bfcc40f846c4b94e30f2c6742c02"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.908"
+		},
+		"1.0.909": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.909",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.909.tgz",
+				"shasum": "5e3a76043b315ce4edfa8e8ffd85698722eb6751"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.909"
+		},
+		"1.0.906": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.906",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.906.tgz",
+				"shasum": "485b3f7910d6cc650dd2367eeef35153a1721247"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.906"
+		},
+		"1.0.907": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.907",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.907.tgz",
+				"shasum": "4a4ff538ef9589403d6917c1c987d3dc50927819"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.907"
+		},
+		"1.0.874": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.874",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.874.tgz",
+				"shasum": "47d333ede038766b783959d29025259da4f823bb"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.874"
+		},
+		"1.0.875": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.875",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.875.tgz",
+				"shasum": "4a7ad5cae1307b42756e414a4335394e2e4bd225"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.875"
+		},
+		"1.0.872": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.872",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.872.tgz",
+				"shasum": "34a117a62e3901d55e0c9aa980b892c8e53fb311"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.872"
+		},
+		"1.0.873": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.873",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.873.tgz",
+				"shasum": "4cb505a7f3fd7bad930e5a815a19d98c98976d8c"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.873"
+		},
+		"1.0.878": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.878",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.878.tgz",
+				"shasum": "5ec77917430c2bb52246fce34820896841b30b8f"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.878"
+		},
+		"1.0.911": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.911",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.911.tgz",
+				"shasum": "4a6f4fa7e495dc825c3e583670b5d72499a6c02e"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.911"
+		},
+		"1.0.879": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.879",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.879.tgz",
+				"shasum": "76d9cecd578b635c8680ed57f790957d4d873aa6"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.879"
+		},
+		"1.0.912": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.912",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.912.tgz",
+				"shasum": "233c0ac40dc4d3d87b81b13ccb00f19267320338"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.912"
+		},
+		"1.0.876": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.876",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.876.tgz",
+				"shasum": "fc1c9e43302c360cf88b712c7d32ec54b1c7a74c"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.876"
+		},
+		"1.0.877": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.877",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.877.tgz",
+				"shasum": "357a27cba7aefd90b83495a54199eab377143b94"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.877"
+		},
+		"1.0.910": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.910",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.910.tgz",
+				"shasum": "2f14207729ed447dec97736b3ec15037f6dbd8e8"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.910"
+		},
+		"1.0.870": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.870",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.870.tgz",
+				"shasum": "27bfe3eb5cae83381cb55f38dba04cdbd251e8ea"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.870"
+		},
+		"1.0.871": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.871",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.871.tgz",
+				"shasum": "4df13c6d5d3bebc0c41c71cd3b2cb0e3a1b04007"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.871"
+		},
+		"1.0.915": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.915",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.915.tgz",
+				"shasum": "360b4e6f038c4c68879b49947faed75617bcd8da"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.915"
+		},
+		"1.0.916": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.916",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.916.tgz",
+				"shasum": "568aa72258b08b0e2a69d236adae8bf3147d2274"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.916"
+		},
+		"1.0.913": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.913",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.913.tgz",
+				"shasum": "334e070a6febd89a667df2f805f551b811bc3dbf"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.913"
+		},
+		"1.0.914": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.914",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.914.tgz",
+				"shasum": "1d01a5a05e7468b279c1772d253b9f6365b83bd1"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.914"
+		},
+		"1.0.919": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.919",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.919.tgz",
+				"shasum": "065f02f348d70d20ff5772a9aa83159c8bf77734"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.919"
+		},
+		"1.0.917": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.917",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.917.tgz",
+				"shasum": "09b97e474e329b18b07fa8d2774f5f5379aa0da4"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.917"
+		},
+		"1.0.918": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.918",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.918.tgz",
+				"shasum": "674fa73604baa6979c4da1224c2397eb42838b24"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.918"
+		},
+		"1.0.885": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.885",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.885.tgz",
+				"shasum": "c110cad124e04bccdee36f569ab973943b8156f4"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.885"
+		},
+		"1.0.886": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.886",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.886.tgz",
+				"shasum": "f9b44d760287a214414e19fd2838be106d44af0b"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.886"
+		},
+		"1.0.883": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.883",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.883.tgz",
+				"shasum": "4d617e4213b3eeb97193223a9e178a5ff61ffbb2"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.883"
+		},
+		"1.0.884": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.884",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.884.tgz",
+				"shasum": "62db1fb7357c0b1d58203605e39a2d9f112cd450"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.884"
+		},
+		"1.0.889": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.889",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.889.tgz",
+				"shasum": "1494b67905f52e10eb993f1e46e03ede70193b74"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.889"
+		},
+		"1.0.922": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.922",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.922.tgz",
+				"shasum": "0f32012f1e7e127a1f07764563fbed184336dba2"
+			},
+			"dependencies": {
+				"lodash": "4.17.5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.922"
+		},
+		"1.0.923": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.923",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.923.tgz",
+				"shasum": "4e4f0d3e835e9fad9d316022af762a4013d82cbb"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.923"
+		},
+		"1.0.887": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.887",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.887.tgz",
+				"shasum": "bd3ab1954ee0926d53ab522b7e2d2a0f65e5481e"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.887"
+		},
+		"1.0.920": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.920",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.920.tgz",
+				"shasum": "69ff43d2aa4312bea52f2b785c8ccd8cf4e3328e"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.920"
+		},
+		"1.0.888": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.888",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.888.tgz",
+				"shasum": "0e6dbea76db7f71b837def9ec6617cd795cb9730"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.888"
+		},
+		"1.0.921": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.921",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.921.tgz",
+				"shasum": "09b16575e1b237245c67fe80937797dad46512d9"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.921"
+		},
+		"1.0.881": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.881",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.881.tgz",
+				"shasum": "72c91e90688f3645874521c0d044dca6622967e0"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.881"
+		},
+		"1.0.882": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.882",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.882.tgz",
+				"shasum": "e1c72bd5e95e9138227bb8422508f8b701013cb6"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.882"
+		},
+		"1.0.880": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.880",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.880.tgz",
+				"shasum": "c46f15375491b1d30755b07d2861acffc292d8f9"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.880"
+		},
+		"1.0.926": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.926",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.926.tgz",
+				"shasum": "b590ab7bc5dd048839d328fc30c70f889d69d668"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.926"
+		},
+		"1.0.927": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.927",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.927.tgz",
+				"shasum": "9ec75226ff96a068fdcf8068ba1d4257360b92c6"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.927"
+		},
+		"1.0.924": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.924",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.924.tgz",
+				"shasum": "ffb992872e8897b0f827e800917cad47d6af5ce1"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.924"
+		},
+		"1.0.925": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.925",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.925.tgz",
+				"shasum": "96964f4eab8a34de39325e12c6824ddf04812948"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.925"
+		},
+		"1.0.928": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.928",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.928.tgz",
+				"shasum": "fca97d0ddcb391e3f0abe996280ce89af467ad95"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.928"
+		},
+		"1.0.929": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.929",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.929.tgz",
+				"shasum": "555f70c7531c5d58a7afa30939eb0a9a513f703f"
+			},
+			"dependencies": {
+				"lodash": "4.17.10"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.929"
+		},
+		"1.0.896": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.896",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.896.tgz",
+				"shasum": "653f2ccef18a7cb334b01c03f1656ecb703f522d"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.896"
+		},
+		"1.0.897": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.897",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.897.tgz",
+				"shasum": "ba0964997e83355c13935eff3dce8c6573c0989f"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.897"
+		},
+		"1.0.930": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.930",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.930.tgz",
+				"shasum": "e21d7455721b7c17757cf9c53994f91823b13019"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.930"
+		},
+		"1.0.894": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.894",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.894.tgz",
+				"shasum": "2116441f09789ae34ced4296239441cfbba6b6db"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.894"
+		},
+		"1.0.895": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.895",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.895.tgz",
+				"shasum": "b76fc680932385664685935decf75a464e1d7180"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.895"
+		},
+		"1.0.933": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.933",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.933.tgz",
+				"shasum": "7cea9b156d9355506af51c34d230d779ba2d0f11"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.933"
+		},
+		"1.0.934": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.934",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.934.tgz",
+				"shasum": "0c41682def6cd2bf6cf023d679ffff9683b8dae2"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.934"
+		},
+		"1.0.898": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.898",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.898.tgz",
+				"shasum": "813eafad5a18188a782dd19d5bd56f19992331c5"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.898"
+		},
+		"1.0.931": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.931",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.931.tgz",
+				"shasum": "7252ca6f9b759b16ba6c392dd3fca0f8eb44357e"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.931"
+		},
+		"1.0.899": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.899",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.899.tgz",
+				"shasum": "150a975418e62df17fde8d4bf221a527f77db3bf"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.899"
+		},
+		"1.0.932": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.932",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.932.tgz",
+				"shasum": "1bc172b33d0fcb2ad7791db14c9cee42e682bbb7"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.932"
+		},
+		"1.0.892": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.892",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.892.tgz",
+				"shasum": "0c75a12d4bdac47a683b8f602c92091ee47adfd8"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.892"
+		},
+		"1.0.893": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.893",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.893.tgz",
+				"shasum": "340d7ea8eee96316634c5d16892d3fce594df26a"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.893"
+		},
+		"1.0.890": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.890",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.890.tgz",
+				"shasum": "c022fec55fe66fc2742b928082177e8797f44cbb"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.890"
+		},
+		"1.0.891": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.891",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.891.tgz",
+				"shasum": "7d038a6ce36703c486faa0880540468614903af0"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.891"
+		},
+		"1.0.937": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.937",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.937.tgz",
+				"shasum": "ae108f0d5b3e26973211021648e4a24e1e0648d2"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.937"
+		},
+		"1.0.938": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.938",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.938.tgz",
+				"shasum": "0112e690f6ad1aa8f0d8773475c5a4a221320b64"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.938"
+		},
+		"1.0.935": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.935",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.935.tgz",
+				"shasum": "89ddcdf6e629b97b480cc58c4ae1437ab7187d9c"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.935"
+		},
+		"1.0.936": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.936",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.936.tgz",
+				"shasum": "af20fb81b542869b81815b5e75e7ce8ab8159c77"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.936"
+		},
+		"1.0.939": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.939",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.939.tgz",
+				"shasum": "3ed3b312ed36414afd89e728792a5f659bbddbb3"
+			},
+			"dependencies": {
+				"lodash": "4.17.11"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.939"
+		},
+		"1.0.863": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.863",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.863.tgz",
+				"shasum": "e0c842c97d5506f1745f3c84fbe195d4766b50bb"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.863"
+		},
+		"1.0.864": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.864",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.864.tgz",
+				"shasum": "c16e47e2eebde2995f1b4329afa9ee8b3f66c095"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.864"
+		},
+		"1.0.862": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.862",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.862.tgz",
+				"shasum": "cb9447b470a8e78f63b946a4dc6890d2456399a3"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.862"
+		},
+		"1.0.867": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.867",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.867.tgz",
+				"shasum": "d060bdc2e17d149818f383c936d5bf8c91c705af"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.867"
+		},
+		"1.0.900": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.900",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.900.tgz",
+				"shasum": "6b5a1aa550ce84c655b4e6440c45f3666e67a481"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.900"
+		},
+		"1.0.868": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.868",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.868.tgz",
+				"shasum": "6cf4df6782b8b85a64138c299a8fb4facba352f5"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.868"
+		},
+		"1.0.901": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.901",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.901.tgz",
+				"shasum": "6fb7c201ff396c135773696d20de64e745ede586"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.901"
+		},
+		"1.0.865": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.865",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.865.tgz",
+				"shasum": "611afc004f4c9411bccce1e00f88ed8fbd8b68d7"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.865"
+		},
+		"1.0.866": {
+			"name": "@wix/wix-hmac-signer",
+			"description": "Generates hmac signature",
+			"version": "1.0.866",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-hmac-signer"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.866.tgz",
+				"shasum": "2a72ae84ba1d696f5f269c62c96b309d7d3875c3"
+			},
+			"dependencies": {
+				"lodash": "4.17.4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"security",
+				"hmac"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-hmac-signer@1.0.866"
+		}
+	},
+	"time": {
+		"1.0.904": "2017-12-25T09:36:13.142Z",
+		"1.0.905": "2018-01-08T10:15:29.876Z",
+		"1.0.869": "2017-10-29T06:04:31.340Z",
+		"1.0.902": "2017-12-10T13:12:06.475Z",
+		"1.0.903": "2017-12-11T12:58:06.387Z",
+		"1.0.908": "2018-01-30T11:27:12.004Z",
+		"1.0.909": "2018-02-21T16:07:09.495Z",
+		"1.0.906": "2018-01-09T09:21:37.311Z",
+		"1.0.907": "2018-01-15T15:03:34.219Z",
+		"1.0.874": "2017-10-31T10:31:19.866Z",
+		"1.0.875": "2017-11-01T16:59:42.069Z",
+		"1.0.872": "2017-10-31T05:43:48.382Z",
+		"1.0.873": "2017-10-31T07:12:06.790Z",
+		"1.0.878": "2017-11-03T13:53:06.648Z",
+		"1.0.911": "2018-03-19T07:03:33.091Z",
+		"1.0.879": "2017-11-05T05:29:44.150Z",
+		"1.0.912": "2018-03-19T07:44:55.419Z",
+		"1.0.876": "2017-11-02T01:00:14.464Z",
+		"1.0.877": "2017-11-03T02:08:58.287Z",
+		"1.0.910": "2018-03-16T06:09:14.185Z",
+		"modified": "2019-01-14T11:34:48.141Z",
+		"1.0.870": "2017-10-29T13:47:45.837Z",
+		"1.0.871": "2017-10-30T05:36:49.038Z",
+		"created": "2017-10-24T07:37:04.445Z",
+		"1.0.915": "2018-04-16T13:36:23.275Z",
+		"1.0.916": "2018-04-26T06:53:58.914Z",
+		"1.0.913": "2018-03-25T10:34:00.520Z",
+		"1.0.914": "2018-04-05T08:35:05.548Z",
+		"1.0.919": "2018-05-30T08:15:33.288Z",
+		"1.0.917": "2018-05-06T07:16:50.810Z",
+		"1.0.918": "2018-05-20T10:38:26.805Z",
+		"1.0.885": "2017-11-07T12:58:51.623Z",
+		"1.0.886": "2017-11-08T08:36:21.922Z",
+		"1.0.883": "2017-11-07T03:22:36.576Z",
+		"1.0.884": "2017-11-07T07:32:12.679Z",
+		"1.0.889": "2017-11-09T12:04:49.409Z",
+		"1.0.922": "2018-07-11T18:53:54.062Z",
+		"1.0.923": "2018-07-12T07:40:05.990Z",
+		"1.0.887": "2017-11-08T14:38:31.587Z",
+		"1.0.920": "2018-06-07T13:38:33.597Z",
+		"1.0.888": "2017-11-09T12:02:58.595Z",
+		"1.0.921": "2018-06-19T12:01:32.344Z",
+		"1.0.881": "2017-11-05T15:02:43.575Z",
+		"1.0.882": "2017-11-05T16:33:56.036Z",
+		"1.0.880": "2017-11-05T13:21:11.499Z",
+		"1.0.926": "2018-09-13T10:59:54.735Z",
+		"1.0.927": "2018-09-20T13:34:27.886Z",
+		"1.0.924": "2018-08-06T09:49:49.145Z",
+		"1.0.925": "2018-08-26T12:10:25.232Z",
+		"1.0.928": "2018-09-25T14:28:41.727Z",
+		"1.0.929": "2018-10-02T10:37:42.845Z",
+		"1.0.896": "2017-11-14T05:53:18.668Z",
+		"1.0.897": "2017-11-14T12:18:37.725Z",
+		"1.0.930": "2018-10-03T10:57:22.922Z",
+		"1.0.894": "2017-11-12T05:51:08.279Z",
+		"1.0.895": "2017-11-13T05:52:14.616Z",
+		"1.0.933": "2018-11-14T12:23:47.385Z",
+		"1.0.934": "2018-12-05T11:46:16.895Z",
+		"1.0.898": "2017-11-16T02:25:06.369Z",
+		"1.0.931": "2018-10-24T15:36:06.542Z",
+		"1.0.899": "2017-11-16T06:55:07.610Z",
+		"1.0.932": "2018-11-04T14:49:23.393Z",
+		"1.0.892": "2017-11-11T02:38:18.881Z",
+		"1.0.893": "2017-11-11T05:49:50.942Z",
+		"1.0.890": "2017-11-09T12:20:58.193Z",
+		"1.0.891": "2017-11-10T02:03:14.607Z",
+		"1.0.937": "2018-12-13T14:26:40.212Z",
+		"1.0.938": "2019-01-02T14:22:03.816Z",
+		"1.0.935": "2018-12-12T08:48:38.436Z",
+		"1.0.936": "2018-12-13T12:02:27.762Z",
+		"1.0.939": "2019-01-14T11:34:48.141Z",
+		"1.0.863": "2017-10-24T16:35:02.793Z",
+		"1.0.864": "2017-10-24T19:23:54.037Z",
+		"1.0.862": "2017-10-24T07:37:04.445Z",
+		"1.0.867": "2017-10-27T06:15:24.319Z",
+		"1.0.900": "2017-11-16T07:22:16.621Z",
+		"1.0.868": "2017-10-28T08:01:06.363Z",
+		"1.0.901": "2017-11-16T20:15:15.744Z",
+		"1.0.865": "2017-10-26T02:45:38.011Z",
+		"1.0.866": "2017-10-26T06:14:06.642Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.939"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749440868
+		}
+	},
+	"_distfiles": {
+		"wix-hmac-signer-1.0.904.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.904.tgz",
+			"sha": "4bffc7ab18f8195641972341ad06d651168ff0f6"
+		},
+		"wix-hmac-signer-1.0.905.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.905.tgz",
+			"sha": "aa80e79be197adb580e938983a4c52f52d0c387a"
+		},
+		"wix-hmac-signer-1.0.869.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.869.tgz",
+			"sha": "6baac14ee603877cb54f107cbcd5204650e48f86"
+		},
+		"wix-hmac-signer-1.0.902.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.902.tgz",
+			"sha": "39105b5f7733fd4e7e1dc328fdd61f7710d42f1b"
+		},
+		"wix-hmac-signer-1.0.903.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.903.tgz",
+			"sha": "f729d0063c99e28ad69c934c5324c10dd25ac548"
+		},
+		"wix-hmac-signer-1.0.908.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.908.tgz",
+			"sha": "0241f4cb17e5bfcc40f846c4b94e30f2c6742c02"
+		},
+		"wix-hmac-signer-1.0.909.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.909.tgz",
+			"sha": "5e3a76043b315ce4edfa8e8ffd85698722eb6751"
+		},
+		"wix-hmac-signer-1.0.906.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.906.tgz",
+			"sha": "485b3f7910d6cc650dd2367eeef35153a1721247"
+		},
+		"wix-hmac-signer-1.0.907.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.907.tgz",
+			"sha": "4a4ff538ef9589403d6917c1c987d3dc50927819"
+		},
+		"wix-hmac-signer-1.0.874.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.874.tgz",
+			"sha": "47d333ede038766b783959d29025259da4f823bb"
+		},
+		"wix-hmac-signer-1.0.875.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.875.tgz",
+			"sha": "4a7ad5cae1307b42756e414a4335394e2e4bd225"
+		},
+		"wix-hmac-signer-1.0.872.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.872.tgz",
+			"sha": "34a117a62e3901d55e0c9aa980b892c8e53fb311"
+		},
+		"wix-hmac-signer-1.0.873.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.873.tgz",
+			"sha": "4cb505a7f3fd7bad930e5a815a19d98c98976d8c"
+		},
+		"wix-hmac-signer-1.0.878.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.878.tgz",
+			"sha": "5ec77917430c2bb52246fce34820896841b30b8f"
+		},
+		"wix-hmac-signer-1.0.911.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.911.tgz",
+			"sha": "4a6f4fa7e495dc825c3e583670b5d72499a6c02e"
+		},
+		"wix-hmac-signer-1.0.879.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.879.tgz",
+			"sha": "76d9cecd578b635c8680ed57f790957d4d873aa6"
+		},
+		"wix-hmac-signer-1.0.912.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.912.tgz",
+			"sha": "233c0ac40dc4d3d87b81b13ccb00f19267320338"
+		},
+		"wix-hmac-signer-1.0.876.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.876.tgz",
+			"sha": "fc1c9e43302c360cf88b712c7d32ec54b1c7a74c"
+		},
+		"wix-hmac-signer-1.0.877.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.877.tgz",
+			"sha": "357a27cba7aefd90b83495a54199eab377143b94"
+		},
+		"wix-hmac-signer-1.0.910.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.910.tgz",
+			"sha": "2f14207729ed447dec97736b3ec15037f6dbd8e8"
+		},
+		"wix-hmac-signer-1.0.870.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.870.tgz",
+			"sha": "27bfe3eb5cae83381cb55f38dba04cdbd251e8ea"
+		},
+		"wix-hmac-signer-1.0.871.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.871.tgz",
+			"sha": "4df13c6d5d3bebc0c41c71cd3b2cb0e3a1b04007"
+		},
+		"wix-hmac-signer-1.0.915.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.915.tgz",
+			"sha": "360b4e6f038c4c68879b49947faed75617bcd8da"
+		},
+		"wix-hmac-signer-1.0.916.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.916.tgz",
+			"sha": "568aa72258b08b0e2a69d236adae8bf3147d2274"
+		},
+		"wix-hmac-signer-1.0.913.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.913.tgz",
+			"sha": "334e070a6febd89a667df2f805f551b811bc3dbf"
+		},
+		"wix-hmac-signer-1.0.914.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.914.tgz",
+			"sha": "1d01a5a05e7468b279c1772d253b9f6365b83bd1"
+		},
+		"wix-hmac-signer-1.0.919.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.919.tgz",
+			"sha": "065f02f348d70d20ff5772a9aa83159c8bf77734"
+		},
+		"wix-hmac-signer-1.0.917.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.917.tgz",
+			"sha": "09b97e474e329b18b07fa8d2774f5f5379aa0da4"
+		},
+		"wix-hmac-signer-1.0.918.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.918.tgz",
+			"sha": "674fa73604baa6979c4da1224c2397eb42838b24"
+		},
+		"wix-hmac-signer-1.0.885.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.885.tgz",
+			"sha": "c110cad124e04bccdee36f569ab973943b8156f4"
+		},
+		"wix-hmac-signer-1.0.886.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.886.tgz",
+			"sha": "f9b44d760287a214414e19fd2838be106d44af0b"
+		},
+		"wix-hmac-signer-1.0.883.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.883.tgz",
+			"sha": "4d617e4213b3eeb97193223a9e178a5ff61ffbb2"
+		},
+		"wix-hmac-signer-1.0.884.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.884.tgz",
+			"sha": "62db1fb7357c0b1d58203605e39a2d9f112cd450"
+		},
+		"wix-hmac-signer-1.0.889.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.889.tgz",
+			"sha": "1494b67905f52e10eb993f1e46e03ede70193b74"
+		},
+		"wix-hmac-signer-1.0.922.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.922.tgz",
+			"sha": "0f32012f1e7e127a1f07764563fbed184336dba2"
+		},
+		"wix-hmac-signer-1.0.923.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.923.tgz",
+			"sha": "4e4f0d3e835e9fad9d316022af762a4013d82cbb"
+		},
+		"wix-hmac-signer-1.0.887.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.887.tgz",
+			"sha": "bd3ab1954ee0926d53ab522b7e2d2a0f65e5481e"
+		},
+		"wix-hmac-signer-1.0.920.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.920.tgz",
+			"sha": "69ff43d2aa4312bea52f2b785c8ccd8cf4e3328e"
+		},
+		"wix-hmac-signer-1.0.888.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.888.tgz",
+			"sha": "0e6dbea76db7f71b837def9ec6617cd795cb9730"
+		},
+		"wix-hmac-signer-1.0.921.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.921.tgz",
+			"sha": "09b16575e1b237245c67fe80937797dad46512d9"
+		},
+		"wix-hmac-signer-1.0.881.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.881.tgz",
+			"sha": "72c91e90688f3645874521c0d044dca6622967e0"
+		},
+		"wix-hmac-signer-1.0.882.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.882.tgz",
+			"sha": "e1c72bd5e95e9138227bb8422508f8b701013cb6"
+		},
+		"wix-hmac-signer-1.0.880.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.880.tgz",
+			"sha": "c46f15375491b1d30755b07d2861acffc292d8f9"
+		},
+		"wix-hmac-signer-1.0.926.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.926.tgz",
+			"sha": "b590ab7bc5dd048839d328fc30c70f889d69d668"
+		},
+		"wix-hmac-signer-1.0.927.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.927.tgz",
+			"sha": "9ec75226ff96a068fdcf8068ba1d4257360b92c6"
+		},
+		"wix-hmac-signer-1.0.924.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.924.tgz",
+			"sha": "ffb992872e8897b0f827e800917cad47d6af5ce1"
+		},
+		"wix-hmac-signer-1.0.925.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.925.tgz",
+			"sha": "96964f4eab8a34de39325e12c6824ddf04812948"
+		},
+		"wix-hmac-signer-1.0.928.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.928.tgz",
+			"sha": "fca97d0ddcb391e3f0abe996280ce89af467ad95"
+		},
+		"wix-hmac-signer-1.0.929.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.929.tgz",
+			"sha": "555f70c7531c5d58a7afa30939eb0a9a513f703f"
+		},
+		"wix-hmac-signer-1.0.896.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.896.tgz",
+			"sha": "653f2ccef18a7cb334b01c03f1656ecb703f522d"
+		},
+		"wix-hmac-signer-1.0.897.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.897.tgz",
+			"sha": "ba0964997e83355c13935eff3dce8c6573c0989f"
+		},
+		"wix-hmac-signer-1.0.930.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.930.tgz",
+			"sha": "e21d7455721b7c17757cf9c53994f91823b13019"
+		},
+		"wix-hmac-signer-1.0.894.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.894.tgz",
+			"sha": "2116441f09789ae34ced4296239441cfbba6b6db"
+		},
+		"wix-hmac-signer-1.0.895.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.895.tgz",
+			"sha": "b76fc680932385664685935decf75a464e1d7180"
+		},
+		"wix-hmac-signer-1.0.933.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.933.tgz",
+			"sha": "7cea9b156d9355506af51c34d230d779ba2d0f11"
+		},
+		"wix-hmac-signer-1.0.934.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.934.tgz",
+			"sha": "0c41682def6cd2bf6cf023d679ffff9683b8dae2"
+		},
+		"wix-hmac-signer-1.0.898.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.898.tgz",
+			"sha": "813eafad5a18188a782dd19d5bd56f19992331c5"
+		},
+		"wix-hmac-signer-1.0.931.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.931.tgz",
+			"sha": "7252ca6f9b759b16ba6c392dd3fca0f8eb44357e"
+		},
+		"wix-hmac-signer-1.0.899.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.899.tgz",
+			"sha": "150a975418e62df17fde8d4bf221a527f77db3bf"
+		},
+		"wix-hmac-signer-1.0.932.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.932.tgz",
+			"sha": "1bc172b33d0fcb2ad7791db14c9cee42e682bbb7"
+		},
+		"wix-hmac-signer-1.0.892.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.892.tgz",
+			"sha": "0c75a12d4bdac47a683b8f602c92091ee47adfd8"
+		},
+		"wix-hmac-signer-1.0.893.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.893.tgz",
+			"sha": "340d7ea8eee96316634c5d16892d3fce594df26a"
+		},
+		"wix-hmac-signer-1.0.890.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.890.tgz",
+			"sha": "c022fec55fe66fc2742b928082177e8797f44cbb"
+		},
+		"wix-hmac-signer-1.0.891.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.891.tgz",
+			"sha": "7d038a6ce36703c486faa0880540468614903af0"
+		},
+		"wix-hmac-signer-1.0.937.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.937.tgz",
+			"sha": "ae108f0d5b3e26973211021648e4a24e1e0648d2"
+		},
+		"wix-hmac-signer-1.0.938.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.938.tgz",
+			"sha": "0112e690f6ad1aa8f0d8773475c5a4a221320b64"
+		},
+		"wix-hmac-signer-1.0.935.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.935.tgz",
+			"sha": "89ddcdf6e629b97b480cc58c4ae1437ab7187d9c"
+		},
+		"wix-hmac-signer-1.0.936.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.936.tgz",
+			"sha": "af20fb81b542869b81815b5e75e7ce8ab8159c77"
+		},
+		"wix-hmac-signer-1.0.939.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.939.tgz",
+			"sha": "3ed3b312ed36414afd89e728792a5f659bbddbb3"
+		},
+		"wix-hmac-signer-1.0.863.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.863.tgz",
+			"sha": "e0c842c97d5506f1745f3c84fbe195d4766b50bb"
+		},
+		"wix-hmac-signer-1.0.864.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.864.tgz",
+			"sha": "c16e47e2eebde2995f1b4329afa9ee8b3f66c095"
+		},
+		"wix-hmac-signer-1.0.862.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.862.tgz",
+			"sha": "cb9447b470a8e78f63b946a4dc6890d2456399a3"
+		},
+		"wix-hmac-signer-1.0.867.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.867.tgz",
+			"sha": "d060bdc2e17d149818f383c936d5bf8c91c705af"
+		},
+		"wix-hmac-signer-1.0.900.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.900.tgz",
+			"sha": "6b5a1aa550ce84c655b4e6440c45f3666e67a481"
+		},
+		"wix-hmac-signer-1.0.868.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.868.tgz",
+			"sha": "6cf4df6782b8b85a64138c299a8fb4facba352f5"
+		},
+		"wix-hmac-signer-1.0.901.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.901.tgz",
+			"sha": "6fb7c201ff396c135773696d20de64e745ede586"
+		},
+		"wix-hmac-signer-1.0.865.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.865.tgz",
+			"sha": "611afc004f4c9411bccce1e00f88ed8fbd8b68d7"
+		},
+		"wix-hmac-signer-1.0.866.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-hmac-signer/-/@wix/wix-hmac-signer-1.0.866.tgz",
+			"sha": "2a72ae84ba1d696f5f269c62c96b309d7d3875c3"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-1d20a0d277b4e091",
+	"readme": ""
+}

@@ -1,0 +1,333 @@
+{
+	"name": "eslint-plugin-wix-style-react",
+	"versions": {
+		"1.0.3": {
+			"name": "eslint-plugin-wix-style-react",
+			"description": "Wix Style React Lint Plugin",
+			"version": "1.0.3",
+			"author": {
+				"name": "yairhaimo"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.3.tgz",
+				"shasum": "853d8744c304c8a338d30e574757bbf08f602f17"
+			},
+			"dependencies": {
+				"requireindex": "~1.1.0",
+				"resolve": "^1.9.0",
+				"semver": "^5.6.0"
+			},
+			"devDependencies": {
+				"assert": "^1.4.1",
+				"eslint": "~3.9.1",
+				"execa": "^1.0.0",
+				"mocha": "^3.1.2",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				"eslint",
+				"eslintplugin",
+				"eslint-plugin"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './tests/{,!(fixtures)/**}/*.js' --recursive",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "eslint-plugin-wix-style-react@1.0.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-wix-style-react_1.0.3_1547565923458_0.06143703014726021"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.4": {
+			"name": "eslint-plugin-wix-style-react",
+			"description": "Wix Style React Lint Plugin",
+			"version": "1.0.4",
+			"author": {
+				"name": "yairhaimo"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.4.tgz",
+				"shasum": "58a24c9c78c950830ca3c0b0a18339844a26b5b8"
+			},
+			"dependencies": {
+				"requireindex": "~1.1.0",
+				"resolve": "^1.9.0",
+				"semver": "^5.6.0"
+			},
+			"devDependencies": {
+				"assert": "^1.4.1",
+				"eslint": "~3.9.1",
+				"execa": "^1.0.0",
+				"mocha": "^3.1.2",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				"eslint",
+				"eslintplugin",
+				"eslint-plugin"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './tests/{,!(fixtures)/**}/*.js' --recursive",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "eslint-plugin-wix-style-react@1.0.4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-wix-style-react_1.0.4_1547655183707_0.47072950070205155"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.0": {
+			"name": "eslint-plugin-wix-style-react",
+			"description": "Wix Style React Lint Plugin",
+			"version": "1.0.0",
+			"author": {
+				"name": "yairhaimo"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.0.tgz",
+				"shasum": "e24cd1bdced5f5382c8e7dd7661e712baeb10caf"
+			},
+			"dependencies": {
+				"requireindex": "~1.1.0"
+			},
+			"devDependencies": {
+				"eslint": "~3.9.1",
+				"mocha": "^3.1.2"
+			},
+			"keywords": [
+				"eslint",
+				"eslintplugin",
+				"eslint-plugin"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha tests --recursive"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "eslint-plugin-wix-style-react@1.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-wix-style-react_1.0.0_1532508741931_0.28881242722553235"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.1": {
+			"name": "eslint-plugin-wix-style-react",
+			"description": "Wix Style React Lint Plugin",
+			"version": "1.0.1",
+			"author": {
+				"name": "yairhaimo"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.1.tgz",
+				"shasum": "34c6833e1edeadfed1a4495be9b25dd8228ed841"
+			},
+			"dependencies": {
+				"requireindex": "~1.1.0"
+			},
+			"devDependencies": {
+				"eslint": "~3.9.1",
+				"mocha": "^3.1.2",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				"eslint",
+				"eslintplugin",
+				"eslint-plugin"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha tests --recursive",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "eslint-plugin-wix-style-react@1.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-wix-style-react_1.0.1_1532524307686_0.9103127942943539"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.2": {
+			"name": "eslint-plugin-wix-style-react",
+			"description": "Wix Style React Lint Plugin",
+			"version": "1.0.2",
+			"author": {
+				"name": "yairhaimo"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.2.tgz",
+				"shasum": "2c819cf0cafda610387fdb36769fe4292124e48b"
+			},
+			"dependencies": {
+				"requireindex": "~1.1.0"
+			},
+			"devDependencies": {
+				"eslint": "~3.9.1",
+				"mocha": "^3.1.2",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				"eslint",
+				"eslintplugin",
+				"eslint-plugin"
+			],
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha tests --recursive",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "eslint-plugin-wix-style-react@1.0.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-wix-style-react_1.0.2_1532591916612_0.36449924192898253"
+			},
+			"_nodeVersion": "6.11.3"
+		}
+	},
+	"time": {
+		"1.0.3": "2019-01-15T15:25:23.653Z",
+		"1.0.4": "2019-01-16T16:13:03.877Z",
+		"created": "2018-07-25T08:52:21.931Z",
+		"modified": "2019-01-16T16:13:09.337Z",
+		"1.0.0": "2018-07-25T08:52:22.037Z",
+		"1.0.1": "2018-07-25T13:11:47.820Z",
+		"1.0.2": "2018-07-26T07:58:36.742Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749332795
+		}
+	},
+	"_distfiles": {
+		"eslint-plugin-wix-style-react-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.3.tgz",
+			"sha": "853d8744c304c8a338d30e574757bbf08f602f17"
+		},
+		"eslint-plugin-wix-style-react-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.4.tgz",
+			"sha": "58a24c9c78c950830ca3c0b0a18339844a26b5b8"
+		},
+		"eslint-plugin-wix-style-react-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.0.tgz",
+			"sha": "e24cd1bdced5f5382c8e7dd7661e712baeb10caf"
+		},
+		"eslint-plugin-wix-style-react-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.1.tgz",
+			"sha": "34c6833e1edeadfed1a4495be9b25dd8228ed841"
+		},
+		"eslint-plugin-wix-style-react-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-wix-style-react/-/eslint-plugin-wix-style-react-1.0.2.tgz",
+			"sha": "2c819cf0cafda610387fdb36769fe4292124e48b"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-64eacf173e75fc8a",
+	"readme": "# eslint-plugin-wix-style-react\n\nWix Style React Lint Plugin\n\n## Installation\n\nYou'll first need to install [ESLint](http://eslint.org):\n\n```\n$ npm i eslint --save-dev\n```\n\nNext, install `eslint-plugin-wix-style-react`:\n\n```\n$ npm install eslint-plugin-wix-style-react --save-dev\n```\n\n**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-wix-style-react` globally.\n\n## Usage\n\nAdd `wix-style-react` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:\n\n```json\n{\n    \"plugins\": [\n        \"wix-style-react\"\n    ]\n}\n```\n\n\nThen configure the rules you want to use under the rules section.\n\n```json\n{\n    \"rules\": {\n        \"wix-style-react/no-full-wsr-lib\": 2\n    }\n}\n```\n\n## Supported Rules\n\n* Fill in provided rules here"
+}

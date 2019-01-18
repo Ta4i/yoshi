@@ -1,0 +1,3616 @@
+{
+	"name": "@fimbul/bifrost",
+	"versions": {
+		"0.6.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.6.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0.tgz",
+				"shasum": "5150302b63e1bd37ff95f561c3605949cb7e3770"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.6.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.6.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.6.0_1521841892572_0.13211832754542274"
+			},
+			"_nodeVersion": "9.9.0"
+		},
+		"0.4.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0.tgz",
+				"shasum": "b6d852edc3bed8442967e750fa3ce88e17397e17"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.4.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0_1520630890623_0.06541414754720898"
+			},
+			"_nodeVersion": "9.8.0"
+		},
+		"0.2.0-dev.20180223": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180223",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180223.tgz",
+				"shasum": "2e1bdc8ef23d7742358c8bfcdfb20db14beba227"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.2.0-dev.20180223",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180223",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180223_1519427636277_0.008205360049087673"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.6.1"
+		},
+		"0.5.0-dev.20180313": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.5.0-dev.20180313",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.5.0-dev.20180313.tgz",
+				"shasum": "4b1f21b54d035aa067852ebc4e10fd56528a2811"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.4.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.5.0-dev.20180313",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.5.0-dev.20180313_1520983328500_0.21380280043061783"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.8.0"
+		},
+		"0.17.0-dev.20181221": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0-dev.20181221",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181221.tgz",
+				"shasum": "bc4dc0e2a7ca2d50a9b39466d1848856d0283102"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.17.0-dev.20181221",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0-dev.20181221",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0-dev.20181221_1545357223781_0.46496031423950734"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.5.0"
+		},
+		"0.2.0-dev.20180220": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180220",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180220.tgz",
+				"shasum": "90dde1a916f02932116eb6b31813bf6d4204da12"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.2.0-dev.20180220",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180220",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180220_1519168327824_0.39141650998521627"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.5.0"
+		},
+		"0.2.0-dev.20180221": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180221",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180221.tgz",
+				"shasum": "ed393d1020ad7ffa8cb3bc1e041d974e5a3d4b27"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.2.0-dev.20180221",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180221",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180221_1519254758425_0.9399593613371562"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.5.0"
+		},
+		"0.2.0-dev.20180222": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180222",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180222.tgz",
+				"shasum": "8033dede9374b215cf1ac40dd7505ab09c44051e"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.2.0-dev.20180222",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180222",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180222_1519341225257_0.975778622714506"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.6.0"
+		},
+		"0.2.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0.tgz",
+				"shasum": "c5bfde1b5c3cf54be29a5d294029708026a3661c"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "^0.2.0",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "ajaff",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0_1519509051109_0.01909002621235878"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"0.0.1": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.0.1",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.0.1.tgz",
+				"shasum": "b4f751de5dbb657cb19e4612f3500d535f7fee74"
+			},
+			"dependencies": {
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@fimbul/wotan": "^0.0.1",
+				"ava": "^0.25.0",
+				"npm-run-all": "^4.1.2",
+				"tslint": "^5.9.1"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "^0.0.1",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"name": "ajaff",
+					"email": "klaus.meinhardt1@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint:tslint": "tslint -p .",
+				"lint:wotan": "wotan",
+				"lint": "run-p lint:tslint lint:wotan",
+				"test": "ava -v test/*.spec.js"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "ajaff",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.0.1",
+			"types": "src/index",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost-0.0.1.tgz_1517494211008_0.283610814018175"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"0.1.0-dev.20180213": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.1.0-dev.20180213",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.1.0-dev.20180213.tgz",
+				"shasum": "b46fe7172c6b4343773625c1ef28afe0dc06cff6"
+			},
+			"dependencies": {
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@fimbul/wotan": "^0.0.1",
+				"ava": "^0.25.0",
+				"npm-run-all": "^4.1.2",
+				"tslint": "^5.9.1"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.1.0-dev.20180213",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint:tslint": "tslint -p .",
+				"lint:wotan": "wotan",
+				"lint": "run-p lint:*",
+				"test": "ava -v test/*.spec.js"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.1.0-dev.20180213",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.1.0-dev.20180213_1518527158548_0.02035514706405972"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.5.0"
+		},
+		"0.4.0-dev.20180301": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180301",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180301.tgz",
+				"shasum": "ab3e27132193318e624fb58425c657f5fbacf939"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.4.0-dev.20180301",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180301",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180301_1519946349739_0.5229313791495032"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.7.0"
+		},
+		"0.4.0-dev.20180302": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180302",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180302.tgz",
+				"shasum": "e61ab74e8739911070255b78d6cd91c24264b2ef"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.4.0-dev.20180302",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180302",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180302_1520032961804_0.019106387933489177"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.7.1"
+		},
+		"0.10.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.10.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.10.0.tgz",
+				"shasum": "0e95ce7924473864bf9830dde0a18bfa5abed984"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.9.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.9.0-dev || >= 2.9.1-insiders || >= 3.0.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.10.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.10.0_1526658792090_0.05645892081918791"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"0.4.0-dev.20180227": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180227",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180227.tgz",
+				"shasum": "a5fe828f6bdea9cec633ef811515b68682620a2c"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.4.0-dev.20180227",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180227",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180227_1519773339231_0.7700111896847261"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.6.1"
+		},
+		"0.4.0-dev.20180228": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180228",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180228.tgz",
+				"shasum": "72d53856b2f09d9837c6bd556ea02e4a247d0e63"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.4.0-dev.20180228",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180228",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180228_1519859769374_0.7490621339211165"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.6.1"
+		},
+		"0.4.0-dev.20180305": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180305",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180305.tgz",
+				"shasum": "4011b6cb99ec2e683ce8fc63e06286e87363f1f0"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.4.0-dev.20180305",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180305",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180305_1520292201206_0.08231457455145286"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.7.1"
+		},
+		"0.15.0-dev.20181020": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.15.0-dev.20181020",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20181020.tgz",
+				"shasum": "ef6930864649eaaa4a6e6041ea68e3b9c6ba269d"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.15.0-dev.20181020",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.15.0-dev.20181020",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.15.0-dev.20181020_1539998285087_0.6841971102543343"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.12.0"
+		},
+		"0.4.0-dev.20180306": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.4.0-dev.20180306",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180306.tgz",
+				"shasum": "ccfa1ec73879c67c28e8ba2035ecdec8b1b65662"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.4.0-dev.20180306",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.4.0-dev.20180306",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.4.0-dev.20180306_1520378305455_0.9158942778410697"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.7.1"
+		},
+		"0.18.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.18.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.18.0.tgz",
+				"shasum": "f7c93e39bc435ae973b027a259b8886e731eb06c"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.18.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 3.0.1 || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.5.0-next.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.18.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.18.0_1546788042964_0.8513775579341429"
+			},
+			"_nodeVersion": "11.6.0"
+		},
+		"0.9.0-dev.20180505": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.9.0-dev.20180505",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0-dev.20180505.tgz",
+				"shasum": "8b88c37f60c6e40d71499505d778dc0594b33017"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.9.0-dev.20180505",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.9.0-dev.20180505",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.9.0-dev.20180505_1525563985061_0.9723163285377023"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.0.0"
+		},
+		"0.16.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.16.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0.tgz",
+				"shasum": "543c724cebb07bc7850a7b12e683fd8e04abd7c2"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.16.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.16.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.16.0_1543012332870_0.666266581789613"
+			},
+			"_nodeVersion": "11.2.0"
+		},
+		"0.9.0-dev.20180501": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.9.0-dev.20180501",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0-dev.20180501.tgz",
+				"shasum": "216e4819acb240a503d3b5e4800e52e396013f8b"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.9.0-dev.20180501",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.9.0-dev.20180501",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.9.0-dev.20180501_1525218329737_0.8487124485011557"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.11.1"
+		},
+		"0.18.0-dev.20190106": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.18.0-dev.20190106",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.18.0-dev.20190106.tgz",
+				"shasum": "8dcde2cf7c239f63554c31275959cc7533bed4d0"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.18.0-dev.20190106",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 3.0.1 || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.5.0-next.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.18.0-dev.20190106",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.18.0-dev.20190106_1546740154025_0.35483254104393214"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.6.0"
+		},
+		"0.6.0-dev.20180322": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.6.0-dev.20180322",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0-dev.20180322.tgz",
+				"shasum": "322e18a8694c1b5f1c0bac1a97854a4771278fa6"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.6.0-dev.20180322",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.6.0-dev.20180322",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.6.0-dev.20180322_1521761218357_0.494144156946398"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.9.0"
+		},
+		"0.6.0-dev.20180321": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.6.0-dev.20180321",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0-dev.20180321.tgz",
+				"shasum": "4e8a15388cb5c6678efa9baf707e8c3b29c2ab64"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.6.0-dev.20180321",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.6.0-dev.20180321",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.6.0-dev.20180321_1521674869998_0.44360850606416835"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.9.0"
+		},
+		"0.16.0-dev.20181115": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.16.0-dev.20181115",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181115.tgz",
+				"shasum": "a9f34a7d0091b487d109c1f2bb8dffb053fa5788"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.16.0-dev.20181115",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.16.0-dev.20181115",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.16.0-dev.20181115_1542245466478_0.009388228483784733"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.1.0"
+		},
+		"0.8.0-dev.20180411": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.8.0-dev.20180411",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.8.0-dev.20180411.tgz",
+				"shasum": "a9d48a0e10ecea38ed93e0f5b00af0c5d5a5a910"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.8.0-dev.20180411",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.8.0-dev.20180411",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.8.0-dev.20180411_1523489737101_0.5230360673930448"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.11.1"
+		},
+		"0.5.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.5.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.5.0.tgz",
+				"shasum": "60e96911fa61c5552eebfc1fbf1738e3afeecf23"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.4.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.5.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.5.0_1521149202756_0.6554284758682256"
+			},
+			"_nodeVersion": "9.8.0"
+		},
+		"0.9.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.9.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0.tgz",
+				"shasum": "75c7d7ad0c5464f22603b715324ec89c1f50138f"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.9.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.9.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.9.0_1525886541961_0.1935465226564983"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"0.13.0-dev.20180802": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.13.0-dev.20180802",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180802.tgz",
+				"shasum": "571d2ad9fec2297bee93793de125f2b32e215ed3"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.13.0-dev.20180802",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.7.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.13.0-dev.20180802",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.13.0-dev.20180802_1533170154797_0.19537777014014068"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.8.0"
+		},
+		"0.17.0-dev.20181205": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0-dev.20181205",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181205.tgz",
+				"shasum": "ad6fe6361d3f293315228173a0e777bf01511697"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.17.0-dev.20181205",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0-dev.20181205",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0-dev.20181205_1543974281799_0.9954655268886623"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.3.0"
+		},
+		"0.15.0-dev.20180913": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.15.0-dev.20180913",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20180913.tgz",
+				"shasum": "39be58009fe78badbee452249fb88193353e3ccb"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.15.0-dev.20180913",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.15.0-dev.20180913",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.15.0-dev.20180913_1536800224266_0.28078310013860786"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.10.0"
+		},
+		"0.1.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.1.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.1.0.tgz",
+				"shasum": "3fae8c9efbbd23dcc7090dcb8cc5e8b2c1042693"
+			},
+			"dependencies": {
+				"tslib": "^1.8.1"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "^0.1.0",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "ajaff",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.1.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.1.0_1518698006762_0.8677424689041098"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"0.13.0-dev.20180726": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.13.0-dev.20180726",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180726.tgz",
+				"shasum": "41bca3c77cf58fd5e69f036bd4022e3f872da113"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.13.0-dev.20180726",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.7.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.13.0-dev.20180726",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.13.0-dev.20180726_1532565436625_0.4125651779813013"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.7.0"
+		},
+		"0.16.0-dev.20181026": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.16.0-dev.20181026",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181026.tgz",
+				"shasum": "44e538ed159bd9cd66ee32eb661a32a40f15acb2"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.16.0-dev.20181026",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.16.0-dev.20181026",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.16.0-dev.20181026_1540516782166_0.40998718144799406"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.12.0"
+		},
+		"0.16.0-dev.20181107": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.16.0-dev.20181107",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181107.tgz",
+				"shasum": "070cbc7f3084443cdfc5e5b2c03e362253352c3a"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.16.0-dev.20181107",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.16.0-dev.20181107",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.16.0-dev.20181107_1541554010175_0.864003255202028"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.1.0"
+		},
+		"0.2.0-dev.20180217": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180217",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180217.tgz",
+				"shasum": "5dab019f5c4b6bbea1bf2735000092378e86a712"
+			},
+			"dependencies": {
+				"tslib": "^1.8.1"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "^0.1.0",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180217",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180217_1518908963047_0.5483539793730892"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.5.0"
+		},
+		"0.17.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0.tgz",
+				"shasum": "f0383ba7e40992e3193dc87e2ddfde2ad62a9cf4"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.17.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 3.0.1 || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0_1545423303228_0.7790767593505175"
+			},
+			"_nodeVersion": "11.5.0"
+		},
+		"0.2.0-dev.20180218": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.2.0-dev.20180218",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180218.tgz",
+				"shasum": "750377fb7f8c602ddf9e19ae0a0ee6f0f14c9ce2"
+			},
+			"dependencies": {
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"@fimbul/wotan": "0.2.0-dev.20180218",
+				"tslint": "^5.0.0",
+				"typescript": "^2.4.1 || >= 2.8.0-dev"
+			},
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.2.0-dev.20180218",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.2.0-dev.20180218_1518995421679_0.8224898820372706"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "9.5.0"
+		},
+		"0.15.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.15.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0.tgz",
+				"shasum": "f3a48dee3046681e926c1f970f0b1a67e29e088e"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.15.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.15.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.15.0_1540151608751_0.24456463607528334"
+			},
+			"_nodeVersion": "10.12.0"
+		},
+		"0.13.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.13.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0.tgz",
+				"shasum": "1efc506e5872046b93f9968fa479e682caa2220c"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.13.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.13.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.13.0_1535394582292_0.6392986089671644"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"0.11.0": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.11.0",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.11.0.tgz",
+				"shasum": "83cacc21464198b12e3cc1c2204ae6c6d7afd158"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "^0.11.0",
+				"get-caller-file": "^1.0.2",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.7.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.11.0",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.11.0_1529572496772_0.8441763867884191"
+			},
+			"_nodeVersion": "10.5.0"
+		},
+		"0.13.0-dev.20180714": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.13.0-dev.20180714",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180714.tgz",
+				"shasum": "30d5e39a4bc6219a52933888b4cea8fe14d5a168"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.11.0",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.7.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.13.0-dev.20180714",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.13.0-dev.20180714_1531527965700_0.510928587480544"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.6.0"
+		},
+		"0.17.0-dev.20181215": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0-dev.20181215",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181215.tgz",
+				"shasum": "458b7c6d5f38084e63597b00915f387b1d617924"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.17.0-dev.20181215",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0-dev.20181215",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0-dev.20181215_1544838607925_0.23054802128564988"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.4.0"
+		},
+		"0.13.0-dev.20180718": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.13.0-dev.20180718",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180718.tgz",
+				"shasum": "bb6418eaccd598963c42bca7c609a92d388888f8"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.13.0-dev.20180718",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^2.24.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.7.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.13.0-dev.20180718",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.13.0-dev.20180718_1531873719916_0.8006991911767352"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.6.0"
+		},
+		"0.17.0-dev.20181217": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0-dev.20181217",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181217.tgz",
+				"shasum": "f7add4db6a7d48bf27d65259433aa21353f3516b"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.17.0-dev.20181217",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0-dev.20181217",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0-dev.20181217_1545011486036_0.6496325207859541"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.4.0"
+		},
+		"0.17.0-dev.20181218": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.17.0-dev.20181218",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/fimbullinter/wotan/tree/master/packages/bifrost"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181218.tgz",
+				"shasum": "5a494bb52d724cf7ef4eb51aad82fce1e004a955"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.17.0-dev.20181218",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.5.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.17.0-dev.20181218",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.17.0-dev.20181218_1545097939994_0.7397247233480264"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.4.0"
+		},
+		"0.15.0-dev.20181018": {
+			"name": "@fimbul/bifrost",
+			"description": "Compatibility layer for TSLint rules",
+			"version": "0.15.0-dev.20181018",
+			"author": {
+				"name": "Klaus Meinhardt"
+			},
+			"homepage": "https://github.com/fimbullinter/wotan#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fimbullinter/wotan.git"
+			},
+			"bugs": {
+				"url": "https://github.com/fimbullinter/wotan/issues"
+			},
+			"main": "src/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20181018.tgz",
+				"shasum": "7a90392b299998b1e9c5f900fd501800525e0491"
+			},
+			"dependencies": {
+				"@fimbul/ymir": "0.15.0-dev.20181018",
+				"get-caller-file": "^2.0.0",
+				"tslib": "^1.8.1",
+				"tsutils": "^3.1.0"
+			},
+			"devDependencies": {
+				"@types/get-caller-file": "^1.0.0"
+			},
+			"peerDependencies": {
+				"tslint": "^5.0.0",
+				"typescript": ">= 2.8.1 || >= 3.0.0-dev || >= 3.0.0-insiders || 3.0.0-rc || >= 3.1.0-dev"
+			},
+			"keywords": [
+				"wotan",
+				"rules",
+				"formatters",
+				"tslint",
+				"compatibility"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "ajaff"
+				},
+				{
+					"email": "klaus.meinhardt1@gmail.com",
+					"name": "harbard"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "harbard",
+				"email": "klaus.meinhardt1@gmail.com"
+			},
+			"_id": "@fimbul/bifrost@0.15.0-dev.20181018",
+			"types": "src/index",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/bifrost_0.15.0-dev.20181018_1539825414866_0.020131126666600885"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.12.0"
+		}
+	},
+	"time": {
+		"0.6.0": "2018-03-23T21:51:32.667Z",
+		"0.4.0": "2018-03-09T21:28:10.691Z",
+		"0.2.0-dev.20180223": "2018-02-23T23:13:56.332Z",
+		"0.5.0-dev.20180313": "2018-03-13T23:22:08.587Z",
+		"0.17.0-dev.20181221": "2018-12-21T01:53:43.910Z",
+		"0.2.0-dev.20180220": "2018-02-20T23:12:07.910Z",
+		"0.2.0-dev.20180221": "2018-02-21T23:12:38.468Z",
+		"0.2.0-dev.20180222": "2018-02-22T23:13:45.307Z",
+		"0.2.0": "2018-02-24T21:50:51.175Z",
+		"0.0.1": "2018-02-01T14:10:11.070Z",
+		"0.1.0-dev.20180214": "2018-02-14T23:09:22.317Z",
+		"0.1.0-dev.20180213": "2018-02-13T13:05:59.280Z",
+		"0.4.0-dev.20180301": "2018-03-01T23:19:09.877Z",
+		"0.4.0-dev.20180302": "2018-03-02T23:22:41.871Z",
+		"0.10.0": "2018-05-18T15:53:12.141Z",
+		"modified": "2019-01-06T15:20:47.799Z",
+		"0.4.0-dev.20180227": "2018-02-27T23:15:39.277Z",
+		"0.4.0-dev.20180228": "2018-02-28T23:16:09.481Z",
+		"0.4.0-dev.20180305": "2018-03-05T23:23:21.274Z",
+		"0.15.0-dev.20181020": "2018-10-20T01:18:05.205Z",
+		"0.4.0-dev.20180306": "2018-03-06T23:18:25.496Z",
+		"0.18.0": "2019-01-06T15:20:43.105Z",
+		"0.9.0-dev.20180505": "2018-05-05T23:46:25.138Z",
+		"0.16.0": "2018-11-23T22:32:13.033Z",
+		"created": "2018-02-01T14:10:11.070Z",
+		"0.9.0-dev.20180501": "2018-05-01T23:45:29.831Z",
+		"0.18.0-dev.20190106": "2019-01-06T02:02:34.116Z",
+		"0.6.0-dev.20180322": "2018-03-22T23:26:58.416Z",
+		"0.6.0-dev.20180321": "2018-03-21T23:27:50.049Z",
+		"0.16.0-dev.20181115": "2018-11-15T01:31:06.631Z",
+		"0.8.0-dev.20180411": "2018-04-11T23:35:37.180Z",
+		"0.5.0": "2018-03-15T21:26:42.801Z",
+		"0.9.0": "2018-05-09T17:22:22.157Z",
+		"0.13.0-dev.20180802": "2018-08-02T00:35:54.873Z",
+		"0.17.0-dev.20181205": "2018-12-05T01:44:42.010Z",
+		"0.15.0-dev.20180913": "2018-09-13T00:57:04.438Z",
+		"0.1.0": "2018-02-15T12:33:27.428Z",
+		"0.13.0-dev.20180726": "2018-07-26T00:37:16.733Z",
+		"0.16.0-dev.20181026": "2018-10-26T01:19:42.321Z",
+		"0.16.0-dev.20181107": "2018-11-07T01:26:50.338Z",
+		"0.2.0-dev.20180217": "2018-02-17T23:09:23.132Z",
+		"0.17.0": "2018-12-21T20:15:03.352Z",
+		"0.2.0-dev.20180218": "2018-02-18T23:10:21.779Z",
+		"0.15.0": "2018-10-21T19:53:28.879Z",
+		"0.13.0": "2018-08-27T18:29:42.344Z",
+		"0.11.0": "2018-06-21T09:14:56.896Z",
+		"0.13.0-dev.20180714": "2018-07-14T00:26:05.770Z",
+		"0.17.0-dev.20181215": "2018-12-15T01:50:08.082Z",
+		"0.13.0-dev.20180718": "2018-07-18T00:28:39.993Z",
+		"0.17.0-dev.20181217": "2018-12-17T01:51:26.199Z",
+		"0.17.0-dev.20181218": "2018-12-18T01:52:20.104Z",
+		"0.15.0-dev.20181018": "2018-10-18T01:16:55.039Z"
+	},
+	"dist-tags": {
+		"next": "0.18.0",
+		"latest": "0.18.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749400139
+		}
+	},
+	"_distfiles": {
+		"bifrost-0.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0.tgz",
+			"sha": "5150302b63e1bd37ff95f561c3605949cb7e3770"
+		},
+		"bifrost-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0.tgz",
+			"sha": "b6d852edc3bed8442967e750fa3ce88e17397e17"
+		},
+		"bifrost-0.2.0-dev.20180223.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180223.tgz",
+			"sha": "2e1bdc8ef23d7742358c8bfcdfb20db14beba227"
+		},
+		"bifrost-0.5.0-dev.20180313.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.5.0-dev.20180313.tgz",
+			"sha": "4b1f21b54d035aa067852ebc4e10fd56528a2811"
+		},
+		"bifrost-0.17.0-dev.20181221.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181221.tgz",
+			"sha": "bc4dc0e2a7ca2d50a9b39466d1848856d0283102"
+		},
+		"bifrost-0.2.0-dev.20180220.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180220.tgz",
+			"sha": "90dde1a916f02932116eb6b31813bf6d4204da12"
+		},
+		"bifrost-0.2.0-dev.20180221.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180221.tgz",
+			"sha": "ed393d1020ad7ffa8cb3bc1e041d974e5a3d4b27"
+		},
+		"bifrost-0.2.0-dev.20180222.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180222.tgz",
+			"sha": "8033dede9374b215cf1ac40dd7505ab09c44051e"
+		},
+		"bifrost-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0.tgz",
+			"sha": "c5bfde1b5c3cf54be29a5d294029708026a3661c"
+		},
+		"bifrost-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.0.1.tgz",
+			"sha": "b4f751de5dbb657cb19e4612f3500d535f7fee74"
+		},
+		"bifrost-0.1.0-dev.20180213.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.1.0-dev.20180213.tgz",
+			"sha": "b46fe7172c6b4343773625c1ef28afe0dc06cff6"
+		},
+		"bifrost-0.4.0-dev.20180301.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180301.tgz",
+			"sha": "ab3e27132193318e624fb58425c657f5fbacf939"
+		},
+		"bifrost-0.4.0-dev.20180302.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180302.tgz",
+			"sha": "e61ab74e8739911070255b78d6cd91c24264b2ef"
+		},
+		"bifrost-0.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.10.0.tgz",
+			"sha": "0e95ce7924473864bf9830dde0a18bfa5abed984"
+		},
+		"bifrost-0.4.0-dev.20180227.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180227.tgz",
+			"sha": "a5fe828f6bdea9cec633ef811515b68682620a2c"
+		},
+		"bifrost-0.4.0-dev.20180228.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180228.tgz",
+			"sha": "72d53856b2f09d9837c6bd556ea02e4a247d0e63"
+		},
+		"bifrost-0.4.0-dev.20180305.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180305.tgz",
+			"sha": "4011b6cb99ec2e683ce8fc63e06286e87363f1f0"
+		},
+		"bifrost-0.15.0-dev.20181020.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20181020.tgz",
+			"sha": "ef6930864649eaaa4a6e6041ea68e3b9c6ba269d"
+		},
+		"bifrost-0.4.0-dev.20180306.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.4.0-dev.20180306.tgz",
+			"sha": "ccfa1ec73879c67c28e8ba2035ecdec8b1b65662"
+		},
+		"bifrost-0.18.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.18.0.tgz",
+			"sha": "f7c93e39bc435ae973b027a259b8886e731eb06c"
+		},
+		"bifrost-0.9.0-dev.20180505.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0-dev.20180505.tgz",
+			"sha": "8b88c37f60c6e40d71499505d778dc0594b33017"
+		},
+		"bifrost-0.16.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0.tgz",
+			"sha": "543c724cebb07bc7850a7b12e683fd8e04abd7c2"
+		},
+		"bifrost-0.9.0-dev.20180501.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0-dev.20180501.tgz",
+			"sha": "216e4819acb240a503d3b5e4800e52e396013f8b"
+		},
+		"bifrost-0.18.0-dev.20190106.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.18.0-dev.20190106.tgz",
+			"sha": "8dcde2cf7c239f63554c31275959cc7533bed4d0"
+		},
+		"bifrost-0.6.0-dev.20180322.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0-dev.20180322.tgz",
+			"sha": "322e18a8694c1b5f1c0bac1a97854a4771278fa6"
+		},
+		"bifrost-0.6.0-dev.20180321.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.6.0-dev.20180321.tgz",
+			"sha": "4e8a15388cb5c6678efa9baf707e8c3b29c2ab64"
+		},
+		"bifrost-0.16.0-dev.20181115.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181115.tgz",
+			"sha": "a9f34a7d0091b487d109c1f2bb8dffb053fa5788"
+		},
+		"bifrost-0.8.0-dev.20180411.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.8.0-dev.20180411.tgz",
+			"sha": "a9d48a0e10ecea38ed93e0f5b00af0c5d5a5a910"
+		},
+		"bifrost-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.5.0.tgz",
+			"sha": "60e96911fa61c5552eebfc1fbf1738e3afeecf23"
+		},
+		"bifrost-0.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.9.0.tgz",
+			"sha": "75c7d7ad0c5464f22603b715324ec89c1f50138f"
+		},
+		"bifrost-0.13.0-dev.20180802.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180802.tgz",
+			"sha": "571d2ad9fec2297bee93793de125f2b32e215ed3"
+		},
+		"bifrost-0.17.0-dev.20181205.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181205.tgz",
+			"sha": "ad6fe6361d3f293315228173a0e777bf01511697"
+		},
+		"bifrost-0.15.0-dev.20180913.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20180913.tgz",
+			"sha": "39be58009fe78badbee452249fb88193353e3ccb"
+		},
+		"bifrost-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.1.0.tgz",
+			"sha": "3fae8c9efbbd23dcc7090dcb8cc5e8b2c1042693"
+		},
+		"bifrost-0.13.0-dev.20180726.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180726.tgz",
+			"sha": "41bca3c77cf58fd5e69f036bd4022e3f872da113"
+		},
+		"bifrost-0.16.0-dev.20181026.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181026.tgz",
+			"sha": "44e538ed159bd9cd66ee32eb661a32a40f15acb2"
+		},
+		"bifrost-0.16.0-dev.20181107.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.16.0-dev.20181107.tgz",
+			"sha": "070cbc7f3084443cdfc5e5b2c03e362253352c3a"
+		},
+		"bifrost-0.2.0-dev.20180217.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180217.tgz",
+			"sha": "5dab019f5c4b6bbea1bf2735000092378e86a712"
+		},
+		"bifrost-0.17.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0.tgz",
+			"sha": "f0383ba7e40992e3193dc87e2ddfde2ad62a9cf4"
+		},
+		"bifrost-0.2.0-dev.20180218.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.2.0-dev.20180218.tgz",
+			"sha": "750377fb7f8c602ddf9e19ae0a0ee6f0f14c9ce2"
+		},
+		"bifrost-0.15.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0.tgz",
+			"sha": "f3a48dee3046681e926c1f970f0b1a67e29e088e"
+		},
+		"bifrost-0.13.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0.tgz",
+			"sha": "1efc506e5872046b93f9968fa479e682caa2220c"
+		},
+		"bifrost-0.11.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.11.0.tgz",
+			"sha": "83cacc21464198b12e3cc1c2204ae6c6d7afd158"
+		},
+		"bifrost-0.13.0-dev.20180714.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180714.tgz",
+			"sha": "30d5e39a4bc6219a52933888b4cea8fe14d5a168"
+		},
+		"bifrost-0.17.0-dev.20181215.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181215.tgz",
+			"sha": "458b7c6d5f38084e63597b00915f387b1d617924"
+		},
+		"bifrost-0.13.0-dev.20180718.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.13.0-dev.20180718.tgz",
+			"sha": "bb6418eaccd598963c42bca7c609a92d388888f8"
+		},
+		"bifrost-0.17.0-dev.20181217.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181217.tgz",
+			"sha": "f7add4db6a7d48bf27d65259433aa21353f3516b"
+		},
+		"bifrost-0.17.0-dev.20181218.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.17.0-dev.20181218.tgz",
+			"sha": "5a494bb52d724cf7ef4eb51aad82fce1e004a955"
+		},
+		"bifrost-0.15.0-dev.20181018.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@fimbul/bifrost/-/bifrost-0.15.0-dev.20181018.tgz",
+			"sha": "7a90392b299998b1e9c5f900fd501800525e0491"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-af897ba51ae2c094",
+	"readme": "# Bifröst\n\nCompatiblity layer for TSLint rules and formatters.\n\n[![npm version](https://img.shields.io/npm/v/@fimbul/bifrost.svg)](https://www.npmjs.com/package/@fimbul/bifrost)\n[![npm downloads](https://img.shields.io/npm/dm/@fimbul/bifrost.svg)](https://www.npmjs.com/package/@fimbul/bifrost)\n[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)\n[![CircleCI](https://circleci.com/gh/fimbullinter/wotan/tree/master.svg?style=shield)](https://circleci.com/gh/fimbullinter/wotan/tree/master)\n[![Build status](https://ci.appveyor.com/api/projects/status/a28dpupxvjljibq3/branch/master?svg=true)](https://ci.appveyor.com/project/ajafff/wotan/branch/master)\n[![codecov](https://codecov.io/gh/fimbullinter/wotan/branch/master/graph/badge.svg)](https://codecov.io/gh/fimbullinter/wotan)\n[![Join the chat at https://gitter.im/fimbullinter/wotan](https://badges.gitter.im/fimbullinter/wotan.svg)](https://gitter.im/fimbullinter/wotan)\n\nMake sure to also read the [full documentation of all available modules](https://github.com/fimbullinter/wotan#readme).\n\n## Purpose\n\nAllows TSLint rule authors to provide the same rules for Wotan without any refactoring.\nAlthough `@fimbul/heimdall` already allows users to use your rules and formatters in Wotan, they still need to remember to use `-m @fimbul/heimdall` when running Wotan.\nYou can help these users by providing your rules in a format that Wotan understands without any plugin.\n\nIt also provides the exact opposite functionality: using rules originally written for Fimbullinter (wotan) as TSLint rule.\n\n## Installation\n\n```sh\nnpm install --save @fimbul/bifrost\n# or\nyarn add @fimbul/bifrost\n```\n\n## Using TSLint Rules and Formatters in Wotan\n\n### Rules\n\nGiven a TSLint rule `my-foo` in a file `myFooRule.ts`, you simply create a file `my-foo.ts` with the following content:\n\n```ts\nimport {wrapTslintRule} from '@fimbul/bifrost';\nimport {Rule} from './myFooRule.ts';\n\nconst Wrapped = wrapTslintRule(Rule, 'my-foo');\nexport {Wrapped as Rule};\n```\n\nIf you want to use a different directory for your TSLint rules and their Wotan wrapper, you just need to adjust the paths in the above example.\n\n### Formatters\n\nGiven a TSLint formatter `my-foo` in a file `myFooFormatter.ts`, you simply create a file `my-foo.ts` with the following content:\n\n```ts\nimport {wrapTslintFormatter} from '@fimbul/bifrost';\nimport {Formatter} from './myFooFormatter.ts';\n\nconst Wrapped = wrapTslintFormatter(Formatter);\nexport {Wrapped as Formatter};\n```\n\nNote that findings with severity `suggestion` are reported as `warning` through TSLint formatters.\n\n## Using Fimbullinter Rules in TSLint\n\nGiven a Fimbullinter rule `my-foo` in a file `my-foo.ts`, you simply create a file `myFooRule.ts` with the following content:\n\n```ts\nimport {wrapRuleForTslint} from '@fimbul/bifrost';\nimport {Rule} from './my-foo.ts';\n\nconst Wrapped = wrapRuleForTslint(Rule);\nexport {Wrapped as Rule};\n```\n\n## License\n\nApache-2.0 © [Klaus Meinhardt](https://github.com/ajafff)"
+}

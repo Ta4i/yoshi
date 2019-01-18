@@ -1,0 +1,743 @@
+{
+	"name": "v8-profiler-node8",
+	"versions": {
+		"5.7.2": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.2",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/node-inspector/v8-profiler/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.2.tgz",
+				"shasum": "75e438ce64d07b0107725b01c002a62a47e92fca"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"preinstall": "node -e 'process.exit(0)'",
+				"install": "node-pre-gyp install --fallback-to-build",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.2",
+			"gitHead": "8de17557028d10593a658e5c3b9a64a8099418ff",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v{version}/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8-5.7.2.tgz_1497597711444_0.02143856347538531"
+			},
+			"_shasum": "75e438ce64d07b0107725b01c002a62a47e92fca",
+			"_nodeVersion": "8.1.1"
+		},
+		"5.7.3": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.3",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/node-inspector/v8-profiler/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.3.tgz",
+				"shasum": "451fa297cd2881bb38bc1f373d5171af36e8a026"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"preinstall": "node -e 'process.exit(0)'",
+				"install": "node-pre-gyp install --fallback-to-build",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.3",
+			"gitHead": "3e84091dbd6db7d29b28faede614130f14c228e2",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v{version}/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8-5.7.3.tgz_1497598009484_0.3035876944195479"
+			},
+			"_shasum": "451fa297cd2881bb38bc1f373d5171af36e8a026",
+			"_nodeVersion": "8.1.1"
+		},
+		"6.0.0": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "6.0.0",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hyj1991/v8-profiler-node8/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-6.0.0.tgz",
+				"shasum": "0826d3d50aa1f8d58668f25951136fa71d4e983d"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.10.0"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node-pre-gyp install --fallback-to-build",
+				"preinstall": "node -e 'process.exit(0)'",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@6.0.0",
+			"gitHead": "722e122ea99c73d867b485c35d00b819e1e54412",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v5.7.0/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"deprecated": false,
+			"bundleDependencies": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8_6.0.0_1528859038561_0.5945224920013941"
+			},
+			"_nodeVersion": "10.4.1"
+		},
+		"5.7.5": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.5",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/node-inspector/v8-profiler/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.5.tgz",
+				"shasum": "553eebb6ecd6018cca40f2f0aed5b094e293548e"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"preinstall": "node -e 'process.exit(0)'",
+				"install": "node-pre-gyp install --fallback-to-build",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.5",
+			"gitHead": "32c403d6a364dec4a7368032914f95a4c519e2a5",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v{version}/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8-5.7.5.tgz_1497598367607_0.8197493902407587"
+			},
+			"_shasum": "553eebb6ecd6018cca40f2f0aed5b094e293548e",
+			"_nodeVersion": "8.1.1"
+		},
+		"6.0.1": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "6.0.1",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hyj1991/v8-profiler-node8/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-6.0.1.tgz",
+				"shasum": "2558f5dab7622f2305213e6ccb4dde1f66cc631f"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.11.0"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node-pre-gyp install --fallback-to-build",
+				"preinstall": "node -e 'process.exit(0)'",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@6.0.1",
+			"gitHead": "2f39e25e3d1bc251a7d175e9368755bbac6777f2",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v5.7.0/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"deprecated": false,
+			"bundleDependencies": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8_6.0.1_1535436034027_0.6427124261456962"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"5.7.6": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.6",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/node-inspector/v8-profiler/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.6.tgz",
+				"shasum": "5e1bcae1e89dfc2c9f44e32ddd7bf70787e0ea5f"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"preinstall": "node -e 'process.exit(0)'",
+				"install": "node-pre-gyp install --fallback-to-build",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.6",
+			"gitHead": "32c403d6a364dec4a7368032914f95a4c519e2a5",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v5.7.0/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8-5.7.6.tgz_1497603155551_0.9616537638939917"
+			},
+			"_shasum": "5e1bcae1e89dfc2c9f44e32ddd7bf70787e0ea5f",
+			"_nodeVersion": "8.1.1"
+		},
+		"5.7.7": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.7",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/node-inspector/v8-profiler/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.7.tgz",
+				"shasum": "be5fe67dba50790fac164c8bfc6d37780b45f12a"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node-pre-gyp install --fallback-to-build",
+				"preinstall": "node -e 'process.exit(0)'",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.7",
+			"gitHead": "75d2ac4625d8065ea9c326aa0cf5925e227795c7",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v5.7.0/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"deprecated": false,
+			"bundleDependencies": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8_5.7.7_1519731590030_0.42654111706824893"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"5.7.8": {
+			"name": "v8-profiler-node8",
+			"description": "based on v8-profiler@5.7.0, solved the v8-profiler segment fault error in node 8.x",
+			"version": "5.7.8",
+			"author": {
+				"name": "Danny Coates",
+				"email": "dannycoates@gmail.com"
+			},
+			"homepage": "http://github.com/node-inspector/v8-profiler",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-inspector/v8-profiler.git"
+			},
+			"contributors": [
+				{
+					"name": "Miroslav Bajtoš"
+				},
+				{
+					"name": "3y3",
+					"email": "3y3@bk.ru"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hyj1991/v8-profiler-node8/issues"
+			},
+			"engines": {
+				"node": ">=0.10"
+			},
+			"main": "v8-profiler",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.8.tgz",
+				"shasum": "62cb75373d2bc2c00cbd1ff01bf802d0b6cb03c0"
+			},
+			"dependencies": {
+				"nan": "^2.5.1",
+				"node-pre-gyp": "^0.6.34"
+			},
+			"devDependencies": {
+				"aws-sdk": "^2.0.0",
+				"chai": "^1.9.1",
+				"co": "^4.6.0",
+				"mocha": "^1.20.1",
+				"rimraf": "^2.4.4"
+			},
+			"keywords": [
+				"profiler",
+				"inspector"
+			],
+			"license": "BSD-2-Clause",
+			"maintainers": [
+				{
+					"name": "hyj1991",
+					"email": "1539194907@qq.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node-pre-gyp install --fallback-to-build",
+				"preinstall": "node -e 'process.exit(0)'",
+				"rebuild": "node-pre-gyp rebuild",
+				"release": "node ./tools/release.js $@",
+				"test": "mocha --debug"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hyj1991",
+				"email": "1539194907@qq.com"
+			},
+			"_id": "v8-profiler-node8@5.7.8",
+			"gitHead": "04a9ba988e092a6142f7f47fd99647a2794e6a3a",
+			"binary": {
+				"module_name": "profiler",
+				"module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./{module_name}/v5.7.0/",
+				"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://node-inspector.s3.amazonaws.com/"
+			},
+			"deprecated": false,
+			"bundleDependencies": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/v8-profiler-node8_5.7.8_1526029267507_0.6250999522034137"
+			},
+			"_nodeVersion": "8.9.4"
+		}
+	},
+	"time": {
+		"5.7.1": "2017-06-16T07:12:21.999Z",
+		"5.7.2": "2017-06-16T07:21:51.565Z",
+		"5.7.3": "2017-06-16T07:26:49.634Z",
+		"6.0.0": "2018-06-13T03:03:58.951Z",
+		"5.7.5": "2017-06-16T07:32:47.694Z",
+		"6.0.1": "2018-08-28T06:00:34.127Z",
+		"created": "2017-06-16T07:12:21.999Z",
+		"5.7.6": "2017-06-16T08:52:35.638Z",
+		"5.7.7": "2018-02-27T11:39:50.102Z",
+		"5.7.8": "2018-05-11T09:01:07.791Z",
+		"modified": "2018-08-28T06:00:38.126Z"
+	},
+	"dist-tags": {
+		"latest": "6.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749376453
+		}
+	},
+	"_distfiles": {
+		"v8-profiler-node8-5.7.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.2.tgz",
+			"sha": "75e438ce64d07b0107725b01c002a62a47e92fca"
+		},
+		"v8-profiler-node8-5.7.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.3.tgz",
+			"sha": "451fa297cd2881bb38bc1f373d5171af36e8a026"
+		},
+		"v8-profiler-node8-6.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-6.0.0.tgz",
+			"sha": "0826d3d50aa1f8d58668f25951136fa71d4e983d"
+		},
+		"v8-profiler-node8-5.7.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.5.tgz",
+			"sha": "553eebb6ecd6018cca40f2f0aed5b094e293548e"
+		},
+		"v8-profiler-node8-6.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-6.0.1.tgz",
+			"sha": "2558f5dab7622f2305213e6ccb4dde1f66cc631f"
+		},
+		"v8-profiler-node8-5.7.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.6.tgz",
+			"sha": "5e1bcae1e89dfc2c9f44e32ddd7bf70787e0ea5f"
+		},
+		"v8-profiler-node8-5.7.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.7.tgz",
+			"sha": "be5fe67dba50790fac164c8bfc6d37780b45f12a"
+		},
+		"v8-profiler-node8-5.7.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/v8-profiler-node8/-/v8-profiler-node8-5.7.8.tgz",
+			"sha": "62cb75373d2bc2c00cbd1ff01bf802d0b6cb03c0"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-ec9b7bcf31da5a22",
+	"readme": "[![Build Status](https://secure.travis-ci.org/node-inspector/v8-profiler-node8.png?branch=master)](http://travis-ci.org/node-inspector/v8-profiler-node8)\n[![Build status](https://ci.appveyor.com/api/projects/status/hhgloy5smkl5i8fd/branch/master?svg=true)](https://ci.appveyor.com/project/3y3/v8-profiler-node8/branch/master)\n[![npm version](https://badge.fury.io/js/v8-profiler-node8-node8.svg)](http://badge.fury.io/js/v8-profiler-node8-node8)\n\n# Description\nBased on v8-profiler-node8@5.7.0, Solved the v8-profiler segment fault error in node 8.x\n\nNow also Supported node 10.x\n\nv8-profiler-node8 provides [node](http://github.com/ry/node) bindings for the v8\nprofiler and integration with [node-inspector](http://github.com/dannycoates/node-inspector)\n\n## Installation\n```sh\nnpm install v8-profiler-node8\n```\n## Usage\n```js\nvar profiler = require('v8-profiler-node8');\n```\n## API\n`takeSnapshot([name])` - returns new HEAP Snapshot instance. `name` is optional argument, by default snapshot name will be constructed from his uid.\n\n`deleteAllSnapshots()` - works as described in name.\n\n```js\nvar snapshot1 = profiler.takeSnapshot('1');\nvar snapshot2 = profiler.takeSnapshot();\nprofiler.deleteAllSnapshots();\n```\n\n`startProfiling([name], [recsamples])` - start CPU profiling. `name` is optional argument, by default profile name will be constructed from his uid. `recsamples` is true by default.\n\n`stopProfiling([name])` - returns new CPU Profile instance. There is no strictly described behavior for usage without `name` argument.\n\n`setSamplingInterval([num])` - Changes default CPU profiler sampling interval to the specified number of microseconds. Default interval is 1000us. This method must be called when there are no profiles being recorded. If called without arguments it resets interval to default.\n\n`deleteAllProfiles()` - works as described in name.\n\n```js\nprofiler.startProfiling('', true);\nsetTimeout(function() {\n  var profile = profiler.stopProfiling('');\n  profiler.deleteAllProfiles();\n}, 1000);\n```\n\n### HEAP Snapshot API\n`Snapshot.getHeader()` - provides short information about snapshot.\n\n`Snapshot.compare(snapshot)` - creates HEAP diff for two snapshots.\n\n`Snapshot.delete()` - removes snapshot from memory.\n\n`Snapshot.export([callback])` - provides simple export API for snapshot. `callback(error, data)` receives serialized snapshot as second argument. (Serialization is not equal to `JSON.stringify` result).\n\nIf callback will not be passed, `export` returns transform stream.\n\n`Snapshot.serialize` - low level serialization method. Look `Snapshot.export` source for usage example.\n\n```js\nvar fs = require('fs');\nvar profiler = require('v8-profiler-node8');\nvar snapshot1 = profiler.takeSnapshot();\nvar snapshot2 = profiler.takeSnapshot();\n\nconsole.log(snapshot1.getHeader(), snapshot2.getHeader());\n\nconsole.log(snapshot1.compare(snapshot2));\n\n// Export snapshot to file file\nsnapshot1.export(function(error, result) {\n  fs.writeFileSync('snapshot1.json', result);\n  snapshot1.delete();\n});\n\n// Export snapshot to file stream\nsnapshot2.export()\n  .pipe(fs.createWriteStream('snapshot2.json'))\n  .on('finish', snapshot2.delete);\n```\n\n## CPU Profile API\n`Profile.getHeader()` - provides short information about profile.\n\n`Profile.delete()` - removes profile from memory.\n\n`Profile.export([callback])` - provides simple export API for profile. `callback(error, data)` receives serialized profile as second argument. (Serialization is equal to `JSON.stringify` result).\n\n```js\nvar fs = require('fs');\nvar profiler = require('v8-profiler-node8');\nprofiler.startProfiling('1', true);\nvar profile1 = profiler.stopProfiling();\nprofiler.startProfiling('2', true);\nvar profile2 = profiler.stopProfiling();\n\nconsole.log(snapshot1.getHeader(), snapshot2.getHeader());\n\nprofile1.export(function(error, result) {\n  fs.writeFileSync('profile1.json', result);\n  profile1.delete();\n});\n\nprofile2.export()\n  .pipe(fs.createWriteStream('profile2.json'))\n  .on('finish', function() {\n    profile2.delete();\n  });\n```\n\n## node-inspector\n\nCpu profiles can be viewed and heap snapshots may be taken and viewed from the\nprofiles panel."
+}

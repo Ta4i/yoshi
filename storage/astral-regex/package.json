@@ -1,0 +1,89 @@
+{
+	"name": "astral-regex",
+	"versions": {
+		"1.0.0": {
+			"name": "astral-regex",
+			"description": "Regular expression for matching astral symbols",
+			"version": "1.0.0",
+			"author": {
+				"name": "Kevin Mårtensson",
+				"email": "kevinmartensson@gmail.com",
+				"url": "github.com/kevva"
+			},
+			"homepage": "https://github.com/kevva/astral-regex#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kevva/astral-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/kevva/astral-regex/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/astral-regex/-/astral-regex-1.0.0.tgz",
+				"shasum": "6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"keywords": [
+				"astral",
+				"emoji",
+				"regex",
+				"surrogate"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "kevva",
+					"email": "kevinmartensson@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "kevva",
+				"email": "kevinmartensson@gmail.com"
+			},
+			"_id": "astral-regex@1.0.0",
+			"gitHead": "20d5f406d37af3697145eb415355a89fdd4a2279",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/astral-regex-1.0.0.tgz_1500646618230_0.7161293996032327"
+			},
+			"_nodeVersion": "8.2.1"
+		}
+	},
+	"time": {
+		"created": "2017-07-21T14:16:59.241Z",
+		"modified": "2017-08-31T01:22:22.000Z",
+		"1.0.0": "2017-07-21T14:16:59.241Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749428092
+		}
+	},
+	"_distfiles": {
+		"astral-regex-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/astral-regex/-/astral-regex-1.0.0.tgz",
+			"sha": "6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ea3832e697a6bdad",
+	"readme": "# astral-regex [![Build Status](https://travis-ci.org/kevva/astral-regex.svg?branch=master)](https://travis-ci.org/kevva/astral-regex)\n\n> Regular expression for matching astral symbols\n\n\n## Install\n\n```\n$ npm install astral-regex\n```\n\n\n## Usage\n\n```js\nconst astralRegex = require('astral-regex');\n\nastralRegex({exact: true}).test('');\n//=> true\n```\n\n\n## API\n\n### astralRegex([options])\n\nReturns a `RegExp` for matching astral symbols.\n\n#### options\n\nType: `Object`\n\n##### exact\n\nType: `boolean`<br>\nDefault: `false` *(Matches any astral symbols in a string)*\n\nOnly match an exact string. Useful with `RegExp#test()` to check if a string is a astral symbol.\n\n\n## License\n\nMIT © [Kevin Mårtensson](https://github.com/kevva)"
+}

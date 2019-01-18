@@ -1,0 +1,1933 @@
+{
+	"name": "tpa-style-webpack-plugin",
+	"versions": {
+		"0.1.5": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.5",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.5.tgz",
+				"shasum": "46c94cba4c1ffbc73ff3a4ab1522ed4ad4c8e1ca"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"@types/node": "^10.7.1",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.5",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.5_1534783224249_0.5439939463374162"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.6": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.6",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.6.tgz",
+				"shasum": "fed516f199ceb9833d02f0a0ecc86740efd82b20"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"@types/node": "^10.7.1",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.1.2",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.6",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.6_1534864217599_0.11559217648747411"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.3": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.3",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.3.tgz",
+				"shasum": "10f245e7fbc5b485e07737f905f9461090fa2291"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"@types/node": "^10.7.1",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.3_1534511383207_0.9200165446142106"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.4": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.4",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.4.tgz",
+				"shasum": "f404c725de975b04090d1fda484b297b407ff7cc"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"@types/node": "^10.7.1",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.4_1534742511451_0.9350127950784941"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.0.2": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.0.2",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.0.2.tgz",
+				"shasum": "2687c42678e8e9302cd4a10940bb53003a117775"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"@types/node": "^10.7.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"css-loader": "^0.28.11",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.0.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.0.2_1534424517963_0.8027282905826054"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.1": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.1.tgz",
+				"shasum": "dcaac0e3f3244651d63ea11146b57c0c727e538e"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"@types/node": "^10.7.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"css-loader": "^0.28.11",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.1_1534433290517_0.7144906010213934"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.2": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.2.tgz",
+				"shasum": "b0af8a7c733612518b453afb5e9802d5a90f3c24"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"@types/node": "^10.7.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"css-loader": "^0.28.11",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.2_1534442114310_0.2045549685363186"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.0.1": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.0.1",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.0.1.tgz",
+				"shasum": "bdd7a74fbe6d122b8fa30fd7e1724f6045e2b9de"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"@types/node": "^10.7.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"css-loader": "^0.28.11",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.0.1_1534415989932_0.6609717739010756"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"0.1.0": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "0.1.0",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.0.tgz",
+				"shasum": "838e0a42337696e10a268be7b6de7ed04ff11b95"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"@types/node": "^10.7.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"css-loader": "^0.28.11",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "rm -rf dist && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@0.1.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_0.1.0_1534424895693_0.19570651474181733"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"1.0.3": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.3",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.3.tgz",
+				"shasum": "116edfe8a5b9739fdf34f2047474e2fd3cd744de"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.3_1541927149836_0.20684959015319593"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.1.2": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.1.2",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.2.tgz",
+				"shasum": "7f92d98b5fb64b94da52170e695b2f6d3e99a9c4"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"prettier": "^1.15.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p . --fix",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.1.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.1.2_1547644052114_0.8340684775272162"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.15.0"
+		},
+		"1.0.4": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.4",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.4.tgz",
+				"shasum": "bea57ca5b4a2c2d830926d2da83a95639d15bb33"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.4_1545396913000_0.7499707120434025"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.14.1"
+		},
+		"1.1.3": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.1.3",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.3.tgz",
+				"shasum": "a204491d89cc937a24e2aaa02b457dd42f890dfe"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"prettier": "^1.15.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p . --fix",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.1.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.1.3_1547648953296_0.17483700216076348"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.15.0"
+		},
+		"1.0.5": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.5",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.5.tgz",
+				"shasum": "d82f76b9d879d197be46941377bc7a43dbbd7a2d"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.5",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.5_1545401375694_0.8797250112330433"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.14.1"
+		},
+		"1.0.0": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.0.tgz",
+				"shasum": "6bdf42bfab73fe2e5e031169d5fa0e287b445b80"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.0",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.2",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.14.0",
+				"webpack-sources": "^1.1.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.1",
+				"@types/node": "^10.7.1",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.5.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.1",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.1.3",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.1.2",
+				"typescript": "^3.0.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.0_1534864973792_0.24435530742863554"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.11.4"
+		},
+		"1.0.1": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.1.tgz",
+				"shasum": "86ee0772f0c379c9a7c5921799faef7301513ace"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.1_1539001986263_0.9364280377696039"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.1.0": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.0.tgz",
+				"shasum": "76c931644fcdc04d06a317a9721dfcb4ce21846e"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.1.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.1.0_1547465597797_0.280994961758003"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.15.0"
+		},
+		"1.0.2": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.2.tgz",
+				"shasum": "7b68ac51c73ec3c19b6478108363014eee448083"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p .",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.0.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.0.2_1539074542835_0.5169975944955305"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.1.1": {
+			"name": "tpa-style-webpack-plugin",
+			"description": "A Webpack plugin that handles wix tpa styles, it separates static css file that injects dynamic style at runtime.",
+			"version": "1.1.1",
+			"author": {
+				"name": "Felix Mosheev"
+			},
+			"homepage": "https://github.com/wix-incubator/tpa-style-webpack-plugin",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wix-incubator/tpa-style-webpack-plugin.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-incubator/tpa-style-webpack-plugin/issues"
+			},
+			"main": "dist/lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.1.tgz",
+				"shasum": "5298f4c4ae0a781cceb1f29bc64fad7587ecc008"
+			},
+			"dependencies": {
+				"@ctrl/tinycolor": "^2.2.1",
+				"parse-css-font": "^3.0.2",
+				"postcss": "^7.0.5",
+				"postcss-extract-styles": "^1.2.0",
+				"postcss-prefix-selector": "^1.6.0",
+				"webpack": "^4.20.2",
+				"webpack-sources": "^1.3.0"
+			},
+			"devDependencies": {
+				"@types/jest": "^23.3.3",
+				"@types/node": "^10.11.4",
+				"css-loader": "^1.0.0",
+				"html-webpack-plugin": "^3.2.0",
+				"jest": "^23.6.0",
+				"jest-teamcity-reporter": "^0.9.0",
+				"mini-css-extract-plugin": "^0.4.3",
+				"prettier": "^1.15.3",
+				"rimraf": "^2.6.2",
+				"ts-jest": "^23.10.4",
+				"tslint": "^5.11.0",
+				"tslint-config-yoshi-base": "^3.12.0",
+				"typescript": "^3.1.1",
+				"webpack-merge": "^4.1.3"
+			},
+			"keywords": [
+				"Wix",
+				"TPA",
+				"style",
+				"Webpack",
+				"plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "tslint -t stylish -p . --fix",
+				"pretest": "rm -rf dist && npm run lint && tsc -b",
+				"test": "jest"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "tpa-style-webpack-plugin@1.1.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tpa-style-webpack-plugin_1.1.1_1547589145056_0.07644914918931334"
+			},
+			"jest": {
+				"transform": {
+					"^.+\\.tsx?$": "ts-jest"
+				},
+				"testEnvironment": "node",
+				"testResultsProcessor": "jest-teamcity-reporter",
+				"testRegex": "(/tests/units/.*|(\\.|/)(test|spec))\\.tsx?$",
+				"moduleFileExtensions": [
+					"js",
+					"ts",
+					"tsx",
+					"json",
+					"node"
+				]
+			},
+			"_nodeVersion": "8.15.0"
+		}
+	},
+	"time": {
+		"0.1.5": "2018-08-20T16:40:24.362Z",
+		"0.1.6": "2018-08-21T15:10:17.689Z",
+		"0.1.3": "2018-08-17T13:09:43.344Z",
+		"0.1.4": "2018-08-20T05:21:51.595Z",
+		"created": "2018-08-16T10:39:49.931Z",
+		"0.0.2": "2018-08-16T13:01:58.095Z",
+		"0.1.1": "2018-08-16T15:28:10.617Z",
+		"0.1.2": "2018-08-16T17:55:14.590Z",
+		"0.0.1": "2018-08-16T10:39:50.038Z",
+		"0.1.0": "2018-08-16T13:08:16.013Z",
+		"1.0.3": "2018-11-11T09:05:50.030Z",
+		"1.1.2": "2019-01-16T13:07:32.203Z",
+		"1.0.4": "2018-12-21T12:55:13.216Z",
+		"1.1.3": "2019-01-16T14:29:13.480Z",
+		"1.0.5": "2018-12-21T14:09:35.831Z",
+		"modified": "2019-01-16T14:29:16.029Z",
+		"1.0.0": "2018-08-21T15:22:53.866Z",
+		"1.0.1": "2018-10-08T12:33:06.400Z",
+		"1.1.0": "2019-01-14T11:33:17.909Z",
+		"1.0.2": "2018-10-09T08:42:23.039Z",
+		"1.1.1": "2019-01-15T21:52:25.243Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749337477
+		}
+	},
+	"_distfiles": {
+		"tpa-style-webpack-plugin-0.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.5.tgz",
+			"sha": "46c94cba4c1ffbc73ff3a4ab1522ed4ad4c8e1ca"
+		},
+		"tpa-style-webpack-plugin-0.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.6.tgz",
+			"sha": "fed516f199ceb9833d02f0a0ecc86740efd82b20"
+		},
+		"tpa-style-webpack-plugin-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.3.tgz",
+			"sha": "10f245e7fbc5b485e07737f905f9461090fa2291"
+		},
+		"tpa-style-webpack-plugin-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.4.tgz",
+			"sha": "f404c725de975b04090d1fda484b297b407ff7cc"
+		},
+		"tpa-style-webpack-plugin-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.0.2.tgz",
+			"sha": "2687c42678e8e9302cd4a10940bb53003a117775"
+		},
+		"tpa-style-webpack-plugin-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.1.tgz",
+			"sha": "dcaac0e3f3244651d63ea11146b57c0c727e538e"
+		},
+		"tpa-style-webpack-plugin-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.2.tgz",
+			"sha": "b0af8a7c733612518b453afb5e9802d5a90f3c24"
+		},
+		"tpa-style-webpack-plugin-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.0.1.tgz",
+			"sha": "bdd7a74fbe6d122b8fa30fd7e1724f6045e2b9de"
+		},
+		"tpa-style-webpack-plugin-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-0.1.0.tgz",
+			"sha": "838e0a42337696e10a268be7b6de7ed04ff11b95"
+		},
+		"tpa-style-webpack-plugin-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.3.tgz",
+			"sha": "116edfe8a5b9739fdf34f2047474e2fd3cd744de"
+		},
+		"tpa-style-webpack-plugin-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.2.tgz",
+			"sha": "7f92d98b5fb64b94da52170e695b2f6d3e99a9c4"
+		},
+		"tpa-style-webpack-plugin-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.4.tgz",
+			"sha": "bea57ca5b4a2c2d830926d2da83a95639d15bb33"
+		},
+		"tpa-style-webpack-plugin-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.3.tgz",
+			"sha": "a204491d89cc937a24e2aaa02b457dd42f890dfe"
+		},
+		"tpa-style-webpack-plugin-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.5.tgz",
+			"sha": "d82f76b9d879d197be46941377bc7a43dbbd7a2d"
+		},
+		"tpa-style-webpack-plugin-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.0.tgz",
+			"sha": "6bdf42bfab73fe2e5e031169d5fa0e287b445b80"
+		},
+		"tpa-style-webpack-plugin-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.1.tgz",
+			"sha": "86ee0772f0c379c9a7c5921799faef7301513ace"
+		},
+		"tpa-style-webpack-plugin-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.0.tgz",
+			"sha": "76c931644fcdc04d06a317a9721dfcb4ce21846e"
+		},
+		"tpa-style-webpack-plugin-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.0.2.tgz",
+			"sha": "7b68ac51c73ec3c19b6478108363014eee448083"
+		},
+		"tpa-style-webpack-plugin-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tpa-style-webpack-plugin/-/tpa-style-webpack-plugin-1.1.1.tgz",
+			"sha": "5298f4c4ae0a781cceb1f29bc64fad7587ecc008"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-965bafc8792c5275",
+	"readme": "# tpa-style-webpack-plugin [![Build Status][ci-img]][ci]\n[ci-img]:  https://travis-ci.org/wix-incubator/tpa-style-webpack-plugin.svg?branch=master\n[ci]:      https://travis-ci.org/wix-incubator/tpa-style-webpack-plugin\nA Webpack plugin that handles wix tpa styles, it extracts the dynamic css from the static css and injects it back to the bundle.\n\n## Requirements\n\n- Node.js v8.9.1 or above\n- Webpack 4.x\n\n## Installation\n\n```sh\n$ npm install --save-dev tpa-style-webpack-plugin\n```\n\n## Usage\nAdd the plugin to your webpack config.\n```js\n// webpack.config.js\nconst TpaStyleWebpackPlugin = require('tpa-style-webpack-plugin');\n\nmodule.exports = {\n  module: {\n  ...\n  },\n  plugins: [\n    new MiniCssExtractPlugin({filename: '[name].[chunkhash].css'}),\n    new TpaStyleWebpackPlugin()\n  ]\n};\n```\n\nimport [`getProcessedCss`](https://github.com/wix-incubator/tpa-style-webpack-plugin/blob/master/src/runtime/main.ts#L21) functions from plugins runtime in your production code.\n```js\nimport {getProcessedCss} from 'tpa-style-webpack-plugin/runtime';\nimport {addStyles} from 'tpa-style-webpack-plugin/addStyles';\n\nconst dynamicCss = getProcessedCss({styleParams, siteColors, siteTextPresets}, {isRTL: false, prefixSelector: '.style-id'});\naddStyles(dynamicCss, 'tag-id');\n```\n\n### Supported Css Functions\n```css\n.my-selector {\n    --my-font: \"font(Body-M)\";                                              /* define a custom variable with a default value */\n    --my-font2: \"font({theme: 'Body-M', size: '10px', lineHeight: '2em', weight: 'bold', style:'italic'})\"     /* will use Body-M as base font and override the given attributes */\n    --default-width: \"number(42)\";                                          /* define a numeric custom var */\n\n    font: \"font(--my-font)\";                                                /* assign a dynamic font value from a custom var */\n    width: calc(100% - \"number(--default-width)\");                          /* assign a dynamic numeric value from a custom var */\n    color: \"color(color-8)\";                                                /* assign a color from the site's palette */\n    background-color: \"join(opacity(color-1, 0.5), opacity(color-8, 0.5))\"; /* blends 2 colors */\n    color: \"opacity(color-8, 0.3)\";                                         /* add opacity to a site palette color */\n    color: \"withoutOpacity(opacity(color-8, 0.3))\";                         /* will remove the opacity of site palette color */\n    color: \"darken(color-8, 0.3)\";                                          /* make a darken version of site palette color */\n    color: \"whiten(color-8, 0.3)\";                                          /* make a whiten version of site palette color - Mix the color with pure white, from 0 to 100 */\n    color: \"lighten(color-8, 0.3)\";                                         /* make a lighten version of site palette color - from 0 to 100. Providing 100 will always return white */\n    font: \"font(--my-font2)\";                                               /* will use the overridden default unless it was defined in settings  */\n    border-width: \"unit(--var-from-settings, px)\";                          /* will produce border-width: 42px */\n    color: \"fallback(color(--var-from-settings), color(color-8))\";          /* will return the first none falsy value from left to right */\n}\n```\n\n### Direction support\nExpression | RTL | LTR\n---- | ---------- | -----------\nSTART | right | left\nEND | left | right\nSTARTSIGN | '' | '-'\nENDSIGN | '-' | ''\nDEG-START | 180 | 0\nDEG-END | 0 | 180\nDIR | rtl | ltr\n\n```css\n.my-selector {\n    padding-START: 9px;   /* START will be replaced with left / right, given rtl = false / true */\n    float: START;         /* Same as above, applied to the value */\n    padding-END: 9px;     /* END will be replaced with left / right, given rtl = true / false */\n    direction: DIR;     /* DIR will be replaced with ltr / rtl, given rtl = false / true */\n    margin: STARTSIGN5px; /* STARTSIGN will be replaced with -, given rtl = false, and will be removed for rtl = true */\n    margin: ENDSIGN5px;   /* ENDSIGN will be replaced with -, given rtl = true, and will be removed for rtl = false */\n    transform: rotate(DEG-STARTdeg);\n    transform: rotate(DEG-ENDdeg);\n}\n```\n\nYou can check out an [example project](https://github.com/felixmosh/extract-tpa-style-test). \n\n### ⚠️ Caveats\n\n- If you use [cssnano](https://cssnano.co/) to minify CSS, be aware of the following limitations:\n  - Don't mix static and dynamic values inside of `border` shorthand declaration ([see the issue](https://github.com/cssnano/cssnano/issues/402)):\n\n    ```css\n      .my-selector {\n          /* DON'T */\n          border: \"unit(--var-from-settings, px)\" solid \"color(color-1)\"; /* `cssnano` will remove the dynamic values, and it will become \"border: solid;\" */\n      \n          /* DO */\n          border-width: \"unit(--var-from-settings, px)\";\n          border-style: solid;\n          border-color: \"color(color-1)\"\n      }\n      ```\n\n  - If you use percentages and dynamic values together inside of `calc`, you need to have mixed units in order to [opt out of `calc` minification](https://github.com/MoOx/reduce-css-calc/pull/9/files#diff-168726dbe96b3ce427e7fedce31bb0bcR54):\n\n    ```css\n      .my-selector {\n          /* DON'T */\n          width: calc(100% / \"number(4)\"); /* `reduce-css-calc` (used by `cssnano`) will transform it to \"calc(1 / 4)\" */\n          \n          /* DO */\n          width: calc(100% / \"number(4)\" + 0px); /* notice 0px here */\n      }\n      ```\n\n- Currently there is no support for usage of [`style-loader`](https://github.com/webpack-contrib/style-loader), coming soon."
+}

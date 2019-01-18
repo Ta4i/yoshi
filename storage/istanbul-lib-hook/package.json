@@ -1,0 +1,1333 @@
+{
+	"name": "istanbul-lib-hook",
+	"versions": {
+		"2.0.0": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "2.0.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.0.tgz",
+				"shasum": "e3df34bb7f3d7b5c34722c7d8675dd451fabfc89"
+			},
+			"dependencies": {
+				"append-transform": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jshint": "^2.9.5",
+				"mocha": "^5.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@2.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_2.0.0_1528306233443_0.21989485859407543"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"2.0.1": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "2.0.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.1.tgz",
+				"shasum": "918a57b75a0f951d552a08487ca1fa5336433d72"
+			},
+			"dependencies": {
+				"append-transform": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jshint": "^2.9.5",
+				"mocha": "^5.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@2.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_2.0.1_1530990003513_0.8159501917657508"
+			},
+			"_nodeVersion": "10.2.1"
+		},
+		"1.0.0-alpha.0": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0-alpha.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.0.tgz",
+				"shasum": "7853ecc58b15fc64e9cfaea3d108048458fd67ae"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0-alpha.0",
+			"gitHead": "eb7582a7bb4f641fc864dabac9314b92833efd96",
+			"_shasum": "7853ecc58b15fc64e9cfaea3d108048458fd67ae",
+			"_nodeVersion": "0.10.26"
+		},
+		"1.0.0-alpha.1": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0-alpha.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.1.tgz",
+				"shasum": "b8e83627f4b8d1e39c90229f5a19f46594ec4f21"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0-alpha.1",
+			"gitHead": "efc2b6c61b4a856c7234c5ba45beef14fbf8e224",
+			"_shasum": "b8e83627f4b8d1e39c90229f5a19f46594ec4f21"
+		},
+		"1.0.0-alpha.2": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0-alpha.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.2.tgz",
+				"shasum": "b955a25fa0b230089edc5aa301c70506e069a691"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0-alpha.2",
+			"gitHead": "3be4c1ef9020ffb84ab480c62e5783509a943240",
+			"_shasum": "b955a25fa0b230089edc5aa301c70506e069a691",
+			"_nodeVersion": "0.10.26"
+		},
+		"1.0.0-alpha.3": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0-alpha.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.3.tgz",
+				"shasum": "2abdc50d31580791224af086800cf2594957c2f3"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0-alpha.3",
+			"gitHead": "51f797fcdd9d11ab30b79ab93829cf711dbd5a3a",
+			"_shasum": "2abdc50d31580791224af086800cf2594957c2f3",
+			"_nodeVersion": "0.10.26"
+		},
+		"1.0.0-alpha.4": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0-alpha.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.4.tgz",
+				"shasum": "8c5bb9f6fbd8526e0ae6cf639af28266906b938f"
+			},
+			"dependencies": {
+				"append-transform": "^0.3.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0-alpha.4",
+			"gitHead": "7850db731e24e2e21652567869a0aa822d4667de",
+			"_shasum": "8c5bb9f6fbd8526e0ae6cf639af28266906b938f",
+			"_nodeVersion": "4.2.1"
+		},
+		"2.0.2": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "2.0.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.2.tgz",
+				"shasum": "9ddd28aeac10f3bb6a4d02325e72b35044d17d3a"
+			},
+			"dependencies": {
+				"append-transform": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@2.0.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_2.0.2_1545698267120_0.49999475595546294"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.5.0"
+		},
+		"1.0.3": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.3.tgz",
+				"shasum": "3e804afdef74e386bb766f520b3f83a3a5d99085"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.3"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha -- test/"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.3",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.3.tgz_1490077602325_0.7797449841164052"
+			},
+			"_shasum": "3e804afdef74e386bb766f520b3f83a3a5d99085",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.2.1": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.2.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.1.tgz",
+				"shasum": "f614ec45287b2a8fc4f07f5660af787575601805"
+			},
+			"dependencies": {
+				"append-transform": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"jshint": "^2.9.5",
+				"mocha": "^5.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.2.1",
+			"deprecated": "1.2.0 should have been a major version bump",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_1.2.1_1528246207464_0.03227727781366729"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"1.0.4": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.4.tgz",
+				"shasum": "1919debbc195807880041971caf9c7e2be2144d6"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha -- test/"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.4",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.4.tgz_1490081550315_0.2704214667901397"
+			},
+			"_shasum": "1919debbc195807880041971caf9c7e2be2144d6",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.2.2": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.2.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.2.tgz",
+				"shasum": "bc6bf07f12a641fbf1c85391d0daa8f0aea6bf86"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"_id": "istanbul-lib-hook@1.2.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_1.2.2_1536186504779_0.9816380261906441"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.5": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.5",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.5.tgz",
+				"shasum": "6ca3d16d60c5f4082da39f7c5cd38ea8a772b88e"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.5",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.5.tgz_1490593881352_0.5593627523630857"
+			},
+			"_shasum": "6ca3d16d60c5f4082da39f7c5cd38ea8a772b88e",
+			"_nodeVersion": "6.9.5"
+		},
+		"1.0.6": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.6",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.6.tgz",
+				"shasum": "c0866d1e81cf2d5319249510131fc16dee49231f"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.6",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.6.tgz_1493442004565_0.058193605626001954"
+			},
+			"_shasum": "c0866d1e81cf2d5319249510131fc16dee49231f",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.0.7": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.7",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.7.tgz",
+				"shasum": "dd6607f03076578fe7d6f2a630cf143b49bacddc"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.0.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.7",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook-1.0.7.tgz_1495919577844_0.6097107122186571"
+			},
+			"_nodeVersion": "7.1.0"
+		},
+		"1.0.0": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0.tgz",
+				"shasum": "fc5367ee27f59268e8f060b0c7aaf051d9c425c5"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"mocha": "^2.3.3",
+				"standard-version": "^4.0.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha --  test/",
+				"posttest": "istanbul check-coverage --statements 95 --branches 80",
+				"release": "standard-version"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.0",
+			"gitHead": "5a32f6a372593a89b03881e549cd394cdcd59dc0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.0.tgz_1484613113426_0.5338622378185391"
+			},
+			"_shasum": "fc5367ee27f59268e8f060b0c7aaf051d9c425c5",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.1.0": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.1.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.1.0.tgz",
+				"shasum": "8538d970372cb3716d53e55523dd54b557a8d89b"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.1.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook-1.1.0.tgz_1508612369616_0.7053720036055893"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"1.0.2": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.0.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-lib-hook#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-lib-hook.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-lib-hook/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.2.tgz",
+				"shasum": "bb1626125183b73a0c91d21c29a5a82467e8cc68"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha -- test/"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.0.2",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-lib-hook-1.0.2.tgz_1490076915766_0.4932883819565177"
+			},
+			"_shasum": "bb1626125183b73a0c91d21c29a5a82467e8cc68",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.2.0": {
+			"name": "istanbul-lib-hook",
+			"description": "Hooks for require, vm and script used in istanbul",
+			"version": "1.2.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.0.tgz",
+				"shasum": "ae556fd5a41a6e8efa0b1002b1e416dfeaf9816c"
+			},
+			"dependencies": {
+				"append-transform": "^0.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"mocha": "^3.2.0"
+			},
+			"keywords": [
+				"istanbul",
+				"hook"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-lib-hook@1.2.0",
+			"deprecated": "1.2.0 should have been a major version bump",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-lib-hook_1.2.0_1520188975861_0.9766624598951699"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.8.1"
+		}
+	},
+	"time": {
+		"2.0.0": "2018-06-06T17:30:33.565Z",
+		"2.0.1": "2018-07-07T19:00:03.587Z",
+		"created": "2015-11-21T23:04:45.982Z",
+		"1.0.0-alpha.0": "2015-11-21T23:04:45.982Z",
+		"1.0.0-alpha.1": "2015-11-24T18:38:01.733Z",
+		"1.0.0-alpha.2": "2015-11-26T08:19:52.501Z",
+		"1.0.0-alpha.3": "2015-11-26T23:59:55.969Z",
+		"1.0.0-alpha.4": "2016-01-25T06:47:16.980Z",
+		"2.0.2": "2018-12-25T00:37:47.245Z",
+		"1.0.3": "2017-03-21T06:26:42.865Z",
+		"1.2.1": "2018-06-06T00:50:07.540Z",
+		"1.0.4": "2017-03-21T07:32:30.911Z",
+		"1.2.2": "2018-09-05T22:28:24.927Z",
+		"1.0.5": "2017-03-27T05:51:22.052Z",
+		"1.0.6": "2017-04-29T05:00:05.233Z",
+		"1.0.7": "2017-05-27T21:12:57.965Z",
+		"modified": "2019-01-04T05:45:32.465Z",
+		"1.0.0": "2017-01-17T00:31:55.177Z",
+		"1.1.0": "2017-10-21T18:59:29.708Z",
+		"1.0.2": "2017-03-21T06:15:16.010Z",
+		"1.2.0": "2018-03-04T18:42:55.950Z"
+	},
+	"dist-tags": {
+		"next": "2.0.2",
+		"latest": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749362845
+		}
+	},
+	"_distfiles": {
+		"istanbul-lib-hook-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.0.tgz",
+			"sha": "e3df34bb7f3d7b5c34722c7d8675dd451fabfc89"
+		},
+		"istanbul-lib-hook-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.1.tgz",
+			"sha": "918a57b75a0f951d552a08487ca1fa5336433d72"
+		},
+		"istanbul-lib-hook-1.0.0-alpha.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.0.tgz",
+			"sha": "7853ecc58b15fc64e9cfaea3d108048458fd67ae"
+		},
+		"istanbul-lib-hook-1.0.0-alpha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.1.tgz",
+			"sha": "b8e83627f4b8d1e39c90229f5a19f46594ec4f21"
+		},
+		"istanbul-lib-hook-1.0.0-alpha.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.2.tgz",
+			"sha": "b955a25fa0b230089edc5aa301c70506e069a691"
+		},
+		"istanbul-lib-hook-1.0.0-alpha.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.3.tgz",
+			"sha": "2abdc50d31580791224af086800cf2594957c2f3"
+		},
+		"istanbul-lib-hook-1.0.0-alpha.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0-alpha.4.tgz",
+			"sha": "8c5bb9f6fbd8526e0ae6cf639af28266906b938f"
+		},
+		"istanbul-lib-hook-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-2.0.2.tgz",
+			"sha": "9ddd28aeac10f3bb6a4d02325e72b35044d17d3a"
+		},
+		"istanbul-lib-hook-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.3.tgz",
+			"sha": "3e804afdef74e386bb766f520b3f83a3a5d99085"
+		},
+		"istanbul-lib-hook-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.1.tgz",
+			"sha": "f614ec45287b2a8fc4f07f5660af787575601805"
+		},
+		"istanbul-lib-hook-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.4.tgz",
+			"sha": "1919debbc195807880041971caf9c7e2be2144d6"
+		},
+		"istanbul-lib-hook-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.2.tgz",
+			"sha": "bc6bf07f12a641fbf1c85391d0daa8f0aea6bf86"
+		},
+		"istanbul-lib-hook-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.5.tgz",
+			"sha": "6ca3d16d60c5f4082da39f7c5cd38ea8a772b88e"
+		},
+		"istanbul-lib-hook-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.6.tgz",
+			"sha": "c0866d1e81cf2d5319249510131fc16dee49231f"
+		},
+		"istanbul-lib-hook-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.7.tgz",
+			"sha": "dd6607f03076578fe7d6f2a630cf143b49bacddc"
+		},
+		"istanbul-lib-hook-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.0.tgz",
+			"sha": "fc5367ee27f59268e8f060b0c7aaf051d9c425c5"
+		},
+		"istanbul-lib-hook-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.1.0.tgz",
+			"sha": "8538d970372cb3716d53e55523dd54b557a8d89b"
+		},
+		"istanbul-lib-hook-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.0.2.tgz",
+			"sha": "bb1626125183b73a0c91d21c29a5a82467e8cc68"
+		},
+		"istanbul-lib-hook-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-lib-hook/-/istanbul-lib-hook-1.2.0.tgz",
+			"sha": "ae556fd5a41a6e8efa0b1002b1e416dfeaf9816c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-1800d31f37fe3e8d",
+	"readme": "istanbul-lib-hook\n=================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-lib-hook.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-lib-hook.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-lib-hook)\n\nHooks for require, vm and script used in istanbul"
+}

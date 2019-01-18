@@ -1,0 +1,429 @@
+{
+	"name": "merge-source-map",
+	"versions": {
+		"1.0.3": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.0.3",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"homepage": "https://github.com/keik/merge-source-map#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/keik/merge-source-map.git"
+			},
+			"bugs": {
+				"url": "https://github.com/keik/merge-source-map/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.3.tgz",
+				"shasum": "da1415f2722a5119db07b14c4f973410863a2abf"
+			},
+			"dependencies": {
+				"source-map": "^0.5.3"
+			},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-preset-es2015": "^6.14.0",
+				"coffee-script": "^1.10.0",
+				"convert-source-map": "^1.3.0",
+				"escodegen": "^1.8.1",
+				"eslint": "^3.5.0",
+				"esprima": "^3.0.0",
+				"estraverse": "^4.1.1",
+				"nyc": "^8.3.0",
+				"tape": "^4.5.1"
+			},
+			"keywords": [
+				"sourcemap",
+				"source-map"
+			],
+			"license": "MIT",
+			"files": [],
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc tape test/*.js",
+				"lint": "eslint index.js 'test/**/*.js'",
+				"version": "npm run lint && npm run test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.0.3",
+			"gitHead": "2afecac1b701165ff7c5383a2aca08fcdc397ed6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/merge-source-map-1.0.3.tgz_1474597085545_0.4231353357899934"
+			},
+			"_shasum": "da1415f2722a5119db07b14c4f973410863a2abf",
+			"_nodeVersion": "6.6.0"
+		},
+		"1.0.4": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.0.4",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"homepage": "https://github.com/keik/merge-source-map#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/keik/merge-source-map.git"
+			},
+			"bugs": {
+				"url": "https://github.com/keik/merge-source-map/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.4.tgz",
+				"shasum": "a5de46538dae84d4114cc5ea02b4772a6346701f"
+			},
+			"dependencies": {
+				"source-map": "^0.5.6"
+			},
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-plugin-syntax-object-rest-spread": "^6.13.0",
+				"babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+				"babel-plugin-transform-es2015-spread": "^6.22.0",
+				"coffee-script": "^1.12.6",
+				"convert-source-map": "^1.5.0",
+				"escodegen": "^1.8.1",
+				"eslint": "^3.19.0",
+				"esprima": "^3.1.3",
+				"estraverse": "^4.2.0",
+				"nyc": "^8.4.0",
+				"tape": "^4.6.3"
+			},
+			"keywords": [
+				"sourcemap",
+				"source-map"
+			],
+			"license": "MIT",
+			"files": [],
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc tape test/*.js",
+				"lint": "eslint index.js 'test/**/*.js'",
+				"version": "npm run lint && npm run test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.0.4",
+			"gitHead": "81a1d2a4c2ecc6b0c34a54159df7070c51c2e154",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/merge-source-map-1.0.4.tgz_1497882010380_0.6228170243557543"
+			},
+			"_shasum": "a5de46538dae84d4114cc5ea02b4772a6346701f",
+			"_nodeVersion": "6.9.1"
+		},
+		"1.0.0": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.0.0",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.0.tgz",
+				"shasum": "fa2cde72463d4be20edc14d8377390283186ee7b"
+			},
+			"dependencies": {
+				"source-map": "^0.5.3"
+			},
+			"devDependencies": {
+				"convert-source-map": "^1.2.0",
+				"escodegen": "^1.8.0",
+				"esprima": "^2.7.2",
+				"tape": "^4.5.1"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.0.0",
+			"gitHead": "793a433b18b8e5a4a0b9917278af87e53585ee4c",
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/merge-source-map-1.0.0.tgz_1457432430177_0.8991862556431442"
+			},
+			"_shasum": "fa2cde72463d4be20edc14d8377390283186ee7b",
+			"_nodeVersion": "5.1.0"
+		},
+		"1.0.1": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.0.1",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.1.tgz",
+				"shasum": "93ac5dc871502ae1f04ab322f400bf02a34bfe6e"
+			},
+			"dependencies": {
+				"source-map": "^0.5.3"
+			},
+			"devDependencies": {
+				"coffee-script": "^1.10.0",
+				"convert-source-map": "^1.2.0",
+				"escodegen": "^1.8.0",
+				"esprima": "^2.7.2",
+				"estraverse": "^4.1.1",
+				"tape": "^4.5.1"
+			},
+			"keywords": [
+				"sourcemap",
+				"source-map"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.0.1",
+			"gitHead": "14cc6a3c189c8e8843ea4d5eb03f3ccccf0b8665",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/merge-source-map-1.0.1.tgz_1457452488922_0.34840628295205534"
+			},
+			"_shasum": "93ac5dc871502ae1f04ab322f400bf02a34bfe6e",
+			"_nodeVersion": "5.1.0"
+		},
+		"1.1.0": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.1.0",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"homepage": "https://github.com/keik/merge-source-map#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/keik/merge-source-map.git"
+			},
+			"bugs": {
+				"url": "https://github.com/keik/merge-source-map/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.1.0.tgz",
+				"shasum": "2fdde7e6020939f70906a68f2d7ae685e4c8c646"
+			},
+			"dependencies": {
+				"source-map": "^0.6.1"
+			},
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-plugin-syntax-object-rest-spread": "^6.13.0",
+				"babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+				"babel-plugin-transform-es2015-spread": "^6.22.0",
+				"coffee-script": "^1.12.6",
+				"convert-source-map": "^1.5.0",
+				"escodegen": "^1.8.1",
+				"eslint": "^3.19.0",
+				"esprima": "^3.1.3",
+				"estraverse": "^4.2.0",
+				"nyc": "^8.4.0",
+				"tape": "^4.6.3"
+			},
+			"keywords": [
+				"sourcemap",
+				"source-map"
+			],
+			"license": "MIT",
+			"files": [],
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nyc tape test/*.js",
+				"lint": "eslint index.js 'test/**/*.js'",
+				"version": "npm run lint && npm run test"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.1.0",
+			"gitHead": "987790721c7e3a36175f39de32bf060987200cc4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/merge-source-map-1.1.0.tgz_1514162242650_0.5420786468312144"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"1.0.2": {
+			"name": "merge-source-map",
+			"description": "Merge old source map and new source map in multi-transform flow",
+			"version": "1.0.2",
+			"author": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"homepage": "https://github.com/keik/merge-source-map#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/keik/merge-source-map.git"
+			},
+			"bugs": {
+				"url": "https://github.com/keik/merge-source-map/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.2.tgz",
+				"shasum": "8877013bbf7323441885aab38070d2a9361f4406"
+			},
+			"dependencies": {
+				"source-map": "^0.5.3"
+			},
+			"devDependencies": {
+				"coffee-script": "^1.10.0",
+				"convert-source-map": "^1.2.0",
+				"escodegen": "^1.8.0",
+				"eslint": "^2.3.0",
+				"esprima": "^2.7.2",
+				"estraverse": "^4.1.1",
+				"tape": "^4.5.1"
+			},
+			"keywords": [
+				"sourcemap",
+				"source-map"
+			],
+			"license": "MIT",
+			"files": [],
+			"maintainers": [
+				{
+					"name": "keik",
+					"email": "k4t0.kei@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js",
+				"lint": "eslint index.js 'test/**/*.js'",
+				"version": "npm run lint && npm run test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "keik",
+				"email": "k4t0.kei@gmail.com"
+			},
+			"_id": "merge-source-map@1.0.2",
+			"gitHead": "d77e0c8eca93bc53a8421dd556633f1247249c3d",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/merge-source-map-1.0.2.tgz_1466689056787_0.29482874763198197"
+			},
+			"_shasum": "8877013bbf7323441885aab38070d2a9361f4406",
+			"_nodeVersion": "5.10.0"
+		}
+	},
+	"time": {
+		"1.0.3": "2016-09-23T02:18:05.746Z",
+		"1.0.4": "2017-06-19T14:20:10.547Z",
+		"created": "2016-03-08T10:20:32.323Z",
+		"modified": "2017-12-25T00:37:22.877Z",
+		"1.0.0": "2016-03-08T10:20:32.323Z",
+		"1.0.1": "2016-03-08T15:54:51.259Z",
+		"1.1.0": "2017-12-25T00:37:22.877Z",
+		"1.0.2": "2016-06-23T13:37:40.163Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749363210
+		}
+	},
+	"_distfiles": {
+		"merge-source-map-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.3.tgz",
+			"sha": "da1415f2722a5119db07b14c4f973410863a2abf"
+		},
+		"merge-source-map-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.4.tgz",
+			"sha": "a5de46538dae84d4114cc5ea02b4772a6346701f"
+		},
+		"merge-source-map-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.0.tgz",
+			"sha": "fa2cde72463d4be20edc14d8377390283186ee7b"
+		},
+		"merge-source-map-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.1.tgz",
+			"sha": "93ac5dc871502ae1f04ab322f400bf02a34bfe6e"
+		},
+		"merge-source-map-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.1.0.tgz",
+			"sha": "2fdde7e6020939f70906a68f2d7ae685e4c8c646"
+		},
+		"merge-source-map-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-source-map/-/merge-source-map-1.0.2.tgz",
+			"sha": "8877013bbf7323441885aab38070d2a9361f4406"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-2b9a53785724813d",
+	"readme": "# merge-source-map\n\n[![npm-version](https://img.shields.io/npm/v/merge-source-map.svg?style=flat-square)](https://npmjs.org/package/merge-source-map)\n[![downloads](http://img.shields.io/npm/dm/merge-source-map.svg?style=flat-square)](https://npmjs.org/package/merge-source-map)\n[![travis-ci](https://img.shields.io/travis/keik/merge-source-map.svg?style=flat-square)](https://travis-ci.org/keik/merge-source-map)\n[![Coverage Status](https://img.shields.io/coveralls/keik/merge-source-map.svg?style=flat-square)](https://coveralls.io/github/keik/merge-source-map)\n\nMerge old source map and new source map in multi-transform flow\n\n\n# API\n\n```javascript\nvar merge = require('merge-source-map')\n```\n\n\n## `merge(oldMap, newMap)`\n\nMerge old source map and new source map and return merged.\nIf old or new source map value is falsy, return another one as it is.\n\n<dl>\n  <dt>\n    <code>oldMap</code> : <code>object|undefined</code>\n  </dt>\n  <dd>\n    old source map object\n  </dd>\n\n  <dt>\n    <code>newmap</code> : <code>object|undefined</code>\n  </dt>\n  <dd>\n    new source map object\n  </dd>\n</dl>\n\n\n# Example\n\n```javascript\nvar esprima    = require('esprima'),\n    estraverse = require('estraverse'),\n    escodegen  = require('escodegen'),\n    convert    = require('convert-source-map'),\n    merge      = require('merge-source-map')\n\nconst CODE = 'a = 1',\n      FILEPATH = 'a.js'\n\n// create AST of original code\nvar ast = esprima.parse(CODE, {sourceType: 'module', loc: true})\n\n// transform AST of original code\nestraverse.replace(ast, {\n  enter: function(node, parent) { /* change AST */ },\n  leave: function(node, parent) { /* change AST */ }\n})\n\n// generate code and source map from transformed AST\nvar gen = escodegen.generate(ast, {\n  sourceMap: FILEPATH,\n  sourceMapWithCode: true,\n  sourceContent: CODE\n})\n\n// merge old source map and new source map\nvar oldMap = convert.fromSource(CODE) && convert.fromSource(CODE).toObject(),\n    newMap = JSON.parse(gen.map.toString()),\n    mergedMap = merge(oldMap, newMap),\n    mapComment = convert.fromObject(mergedMap).toComment()\n\n// attach merge source map to transformed code\nvar transformed = gen.code + '\\n' + mapComment\n\nconsole.log(transformed);\n```\n\n\n# Test\n\n```\n% npm install\n% npm test\n```\n\n\n# License\n\nMIT (c) keik"
+}

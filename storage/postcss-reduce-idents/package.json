@@ -1,0 +1,1243 @@
+{
+	"name": "postcss-reduce-idents",
+	"versions": {
+		"2.0.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.0.0.tgz",
+				"shasum": "b065639abe9d0f949c80726f8d0ce01dfceeef6e"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"reduce-function-call": "^1.0.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.0.0",
+			"gitHead": "af9f27aa89fb6f8097d4b0ac80bb62176c552be3",
+			"_shasum": "b065639abe9d0f949c80726f8d0ce01dfceeef6e",
+			"_nodeVersion": "2.3.4"
+		},
+		"2.1.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.1.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.1.0.tgz",
+				"shasum": "2c06f0c8e2b7e3eca2a23e5f4b2995fcb928088a"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^2.0.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.1.0",
+			"gitHead": "a8ea8de8efebb1bb5c55b602a93d3b3f2edca30c",
+			"_shasum": "2c06f0c8e2b7e3eca2a23e5f4b2995fcb928088a",
+			"_nodeVersion": "2.3.4"
+		},
+		"4.0.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "4.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/cssnano/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/cssnano/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssnano/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0.tgz",
+				"shasum": "c8a9875ceacb4c79ca9407c575c3fa4778fe0928"
+			},
+			"dependencies": {
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^5.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "beneb.info@gmail.com",
+					"name": "beneb"
+				},
+				{
+					"email": "chris@eppsteins.net",
+					"name": "chriseppstein"
+				},
+				{
+					"email": "sheo13666q@gmail.com",
+					"name": "evilebottnawi"
+				},
+				{
+					"email": "trysound@yandex.ru",
+					"name": "trysound"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmUser": {
+				"name": "evilebottnawi",
+				"email": "sheo13666q@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@4.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-reduce-idents_4.0.0_1530702558327_0.2531603626026857"
+			}
+		},
+		"4.0.1": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "4.0.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/cssnano/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssnano/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssnano/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.1.tgz",
+				"shasum": "639115ed8014af49bb9d7d10ccb2f69167fed58a"
+			},
+			"dependencies": {
+				"postcss": "^7.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^5.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "beneb.info@gmail.com",
+					"name": "beneb"
+				},
+				{
+					"email": "chris@eppsteins.net",
+					"name": "chriseppstein"
+				},
+				{
+					"email": "sheo13666q@gmail.com",
+					"name": "evilebottnawi"
+				},
+				{
+					"email": "trysound@yandex.ru",
+					"name": "trysound"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"_id": "postcss-reduce-idents@4.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-reduce-idents_4.0.1_1537822643636_0.6549785035537832"
+			},
+			"_nodeVersion": "10.11.0"
+		},
+		"2.2.2": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.2.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.2.tgz",
+				"shasum": "09d1e92fa0fc776f51987154754abc7d929e3dcf"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"ava": "^0.11.0",
+				"babel-cli": "^6.4.0",
+				"babel-core": "^6.4.0",
+				"babel-plugin-add-module-exports": "^0.1.2",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"del-cli": "^0.1.2",
+				"eslint": "^1.10.3",
+				"eslint-config-cssnano": "^1.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "de dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.2.2",
+			"gitHead": "032e4c60f7df76c0b0021f63122f3b864f396b5a",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-reduce-idents-2.2.2.tgz_1454807225603_0.6732200260739774"
+			},
+			"_shasum": "09d1e92fa0fc776f51987154754abc7d929e3dcf",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-core/register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"2.3.1": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.3.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.3.1.tgz",
+				"shasum": "024e8e219f52773313408573db9645ba62d2d2fe"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.3.17",
+				"babel-core": "^6.3.26",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"babel-register": "^6.9.0",
+				"del-cli": "^0.2.0",
+				"eslint": "^3.0.0",
+				"eslint-config-cssnano": "^3.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-import": "^2.0.1"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "del-cli dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__/*.js",
+				"test-012": "ava src/__tests__/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.2",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.3.1",
+			"gitHead": "cbf7820565198ea7ccebd5c06e35fc96443bab50",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-reduce-idents-2.3.1.tgz_1477085404379_0.457979368744418"
+			},
+			"_shasum": "024e8e219f52773313408573db9645ba62d2d2fe",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"2.4.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.4.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.4.0.tgz",
+				"shasum": "c2c6d20cc958284f6abfbe63f7609bf409059ad3"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"all-contributors-cli": "^3.0.7",
+				"ava": "^0.17.0",
+				"babel-cli": "^6.3.17",
+				"babel-core": "^6.3.26",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"babel-register": "^6.9.0",
+				"del-cli": "^0.2.0",
+				"eslint": "^3.0.0",
+				"eslint-config-cssnano": "^3.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-import": "^2.0.1"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"contributorAdd": "all-contributors add",
+				"contributorGenerate": "all-contributors generate",
+				"pretest": "eslint src --fix",
+				"prepublish": "del-cli dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__/*.js",
+				"test-012": "ava src/__tests__/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.4.0",
+			"gitHead": "85f96b0df922b00223779d0a5dfe287a1354a2c9",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-reduce-idents-2.4.0.tgz_1483553529464_0.2251546960324049"
+			},
+			"_shasum": "c2c6d20cc958284f6abfbe63f7609bf409059ad3",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-register"
+			},
+			"_nodeVersion": "6.9.1"
+		},
+		"4.0.0-rc.2": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "4.0.0-rc.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0-rc.2.tgz",
+				"shasum": "ef322d9331b0a6e5f12034f1a1d014eed28ace57"
+			},
+			"dependencies": {
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^3.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@4.0.0-rc.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-reduce-idents-4.0.0-rc.2.tgz_1502049206538_0.7728614853695035"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"2.2.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.2.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.0.tgz",
+				"shasum": "8758942bf1c3565e6e021af2323146dcb1d9a72e"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^2.0.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.2.0",
+			"gitHead": "cadcbf0aef287fd8394a9fa988c5fe8aeea8c208",
+			"_shasum": "8758942bf1c3565e6e021af2323146dcb1d9a72e",
+			"_nodeVersion": "2.3.4"
+		},
+		"4.0.0-rc.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "4.0.0-rc.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0-rc.0.tgz",
+				"shasum": "6306abbded8bb548442ce61df92d3d00004625bc"
+			},
+			"dependencies": {
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^3.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@4.0.0-rc.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-reduce-idents-4.0.0-rc.0.tgz_1496311191752_0.17891458817757666"
+			},
+			"_shasum": "6306abbded8bb548442ce61df92d3d00004625bc",
+			"_nodeVersion": "6.9.1"
+		},
+		"2.2.1": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.2.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.1.tgz",
+				"shasum": "ecd82f719fb40eda22b0b6d41c3fc2dac6ad6a9b"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.2.1",
+			"gitHead": "6bef435acf00d697a4e8b1de08eb0ffe1fbcfdf2",
+			"_shasum": "ecd82f719fb40eda22b0b6d41c3fc2dac6ad6a9b",
+			"_nodeVersion": "2.3.4"
+		},
+		"2.3.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "2.3.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.3.0.tgz",
+				"shasum": "a697b52953ed6825ffea404e26a4f105d8b8d569"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"ava": "^0.11.0",
+				"babel-cli": "^6.4.0",
+				"babel-core": "^6.4.0",
+				"babel-plugin-add-module-exports": "^0.1.2",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"del-cli": "^0.1.2",
+				"eslint": "^1.10.3",
+				"eslint-config-cssnano": "^1.0.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "de dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@2.3.0",
+			"gitHead": "44d1efd5443ccd8e56632a503d4b87626e25972a",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-reduce-idents-2.3.0.tgz_1455275003571_0.2521292446181178"
+			},
+			"_shasum": "a697b52953ed6825ffea404e26a4f105d8b8d569",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-core/register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"1.0.3": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "1.0.3",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.3.tgz",
+				"shasum": "a79f1b2485e23d9b3cc7a81f5ec63a5c2bdec20d"
+			},
+			"dependencies": {
+				"postcss": "^4.1.2",
+				"reduce-function-call": "^1.0.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@1.0.3",
+			"gitHead": "8e4870123f3439eb2aad7c867b30de613e8dc8a1",
+			"_shasum": "a79f1b2485e23d9b3cc7a81f5ec63a5c2bdec20d",
+			"_nodeVersion": "2.3.4"
+		},
+		"1.0.0": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ben-eb/postcss-reduce-idents"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.0.tgz",
+				"shasum": "3e7c6852bd3932101c3b6e308be63a20bc2420d1"
+			},
+			"dependencies": {
+				"postcss": "^4.1.2",
+				"reduce-function-call": "^1.0.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugins"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "therealbenbriggs@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "therealbenbriggs@hotmail.com"
+			},
+			"_id": "postcss-reduce-idents@1.0.0",
+			"gitHead": "0fb1898046c1cedefbd152c82f16ae6c0cd175d8",
+			"_shasum": "3e7c6852bd3932101c3b6e308be63a20bc2420d1",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.0.1": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ben-eb/postcss-reduce-idents"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.1.tgz",
+				"shasum": "007ab453c2a8aa5b60c33b2c0b8a8517fe337215"
+			},
+			"dependencies": {
+				"postcss": "^4.1.2",
+				"reduce-function-call": "^1.0.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "therealbenbriggs@hotmail.com"
+			},
+			"_id": "postcss-reduce-idents@1.0.1",
+			"gitHead": "bb7aa7c80b83f06f8060b6afe6cf6ff6cd0adfaa",
+			"_shasum": "007ab453c2a8aa5b60c33b2c0b8a8517fe337215",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.0.2": {
+			"name": "postcss-reduce-idents",
+			"description": "Reduce custom identifiers with PostCSS.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-reduce-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-reduce-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-reduce-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.2.tgz",
+				"shasum": "22149441de246708c1db98c2e5e9a62368af1474"
+			},
+			"dependencies": {
+				"postcss": "^4.1.2",
+				"reduce-function-call": "^1.0.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-reduce-idents@1.0.2",
+			"gitHead": "f7ba8f1ebe4d1a3f55fcd7988aedaa0e6fb94ac6",
+			"_shasum": "22149441de246708c1db98c2e5e9a62368af1474",
+			"_nodeVersion": "2.3.4"
+		}
+	},
+	"time": {
+		"2.0.0": "2015-09-04T23:30:13.258Z",
+		"2.1.0": "2015-09-10T12:33:43.861Z",
+		"created": "2015-04-10T16:45:22.687Z",
+		"4.0.0": "2018-07-04T11:09:18.425Z",
+		"4.0.1": "2018-09-24T20:57:23.821Z",
+		"2.2.2": "2016-02-07T01:07:08.095Z",
+		"2.3.1": "2016-10-21T21:30:06.287Z",
+		"2.4.0": "2017-01-04T18:12:10.081Z",
+		"4.0.0-rc.2": "2017-08-06T19:53:27.455Z",
+		"2.2.0": "2015-09-16T10:52:54.773Z",
+		"4.0.0-rc.0": "2017-06-01T09:59:52.568Z",
+		"2.2.1": "2015-10-08T13:51:31.339Z",
+		"2.3.0": "2016-02-12T11:03:26.814Z",
+		"1.0.3": "2015-08-26T18:29:35.469Z",
+		"modified": "2019-01-05T04:45:01.407Z",
+		"1.0.0": "2015-04-10T16:45:22.687Z",
+		"1.0.1": "2015-05-28T19:26:06.402Z",
+		"1.0.2": "2015-08-03T09:22:12.853Z"
+	},
+	"dist-tags": {
+		"next": "4.0.0-rc.2",
+		"latest": "4.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749403721
+		}
+	},
+	"_distfiles": {
+		"postcss-reduce-idents-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.0.0.tgz",
+			"sha": "b065639abe9d0f949c80726f8d0ce01dfceeef6e"
+		},
+		"postcss-reduce-idents-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.1.0.tgz",
+			"sha": "2c06f0c8e2b7e3eca2a23e5f4b2995fcb928088a"
+		},
+		"postcss-reduce-idents-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0.tgz",
+			"sha": "c8a9875ceacb4c79ca9407c575c3fa4778fe0928"
+		},
+		"postcss-reduce-idents-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.1.tgz",
+			"sha": "639115ed8014af49bb9d7d10ccb2f69167fed58a"
+		},
+		"postcss-reduce-idents-2.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.2.tgz",
+			"sha": "09d1e92fa0fc776f51987154754abc7d929e3dcf"
+		},
+		"postcss-reduce-idents-2.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.3.1.tgz",
+			"sha": "024e8e219f52773313408573db9645ba62d2d2fe"
+		},
+		"postcss-reduce-idents-2.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.4.0.tgz",
+			"sha": "c2c6d20cc958284f6abfbe63f7609bf409059ad3"
+		},
+		"postcss-reduce-idents-4.0.0-rc.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0-rc.2.tgz",
+			"sha": "ef322d9331b0a6e5f12034f1a1d014eed28ace57"
+		},
+		"postcss-reduce-idents-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.0.tgz",
+			"sha": "8758942bf1c3565e6e021af2323146dcb1d9a72e"
+		},
+		"postcss-reduce-idents-4.0.0-rc.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-4.0.0-rc.0.tgz",
+			"sha": "6306abbded8bb548442ce61df92d3d00004625bc"
+		},
+		"postcss-reduce-idents-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.2.1.tgz",
+			"sha": "ecd82f719fb40eda22b0b6d41c3fc2dac6ad6a9b"
+		},
+		"postcss-reduce-idents-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-2.3.0.tgz",
+			"sha": "a697b52953ed6825ffea404e26a4f105d8b8d569"
+		},
+		"postcss-reduce-idents-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.3.tgz",
+			"sha": "a79f1b2485e23d9b3cc7a81f5ec63a5c2bdec20d"
+		},
+		"postcss-reduce-idents-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.0.tgz",
+			"sha": "3e7c6852bd3932101c3b6e308be63a20bc2420d1"
+		},
+		"postcss-reduce-idents-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.1.tgz",
+			"sha": "007ab453c2a8aa5b60c33b2c0b8a8517fe337215"
+		},
+		"postcss-reduce-idents-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-reduce-idents/-/postcss-reduce-idents-1.0.2.tgz",
+			"sha": "22149441de246708c1db98c2e5e9a62368af1474"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-9f0b24644be2915b",
+	"readme": "# [postcss][postcss]-reduce-idents\n\n> Reduce [custom identifiers][idents] with PostCSS.\n\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-reduce-idents) do:\n\n```\nnpm install postcss-reduce-idents --save\n```\n\n\n## Example\n\n### Input\n\nThis module will rename custom identifiers in your CSS files; it does so by\nconverting each name to a index, which is then encoded into a legal identifier.\nA legal custom identifier in CSS is case sensitive and must start with a\nletter, but can contain digits, hyphens and underscores. There are over 3,000\npossible two character identifiers, and 51 possible single character identifiers\nthat will be generated.\n\n```css\n@keyframes whiteToBlack {\n    0% {\n        color: #fff\n    }\n    to {\n        color: #000\n    }\n}\n\n.one {\n    animation-name: whiteToBlack\n}\n```\n\n### Output\n\n```css\n@keyframes a {\n    0% {\n        color: #fff\n    }\n    to {\n        color: #000\n    }\n}\n\n.one {\n    animation-name: a\n}\n```\n\nNote that this module does not handle identifiers that are not linked together.\nThe following example will not be transformed in any way:\n\n```css\n@keyframes fadeOut {\n    0% { opacity: 1 }\n    to { opacity: 0 }\n}\n\n.fadeIn {\n    animation-name: fadeIn;\n}\n```\n\nIt works for `@keyframes`, `@counter-style`, custom `counter` values and grid area definitions. See the\n[documentation][idents] for more information, or the [tests](src/__tests__) for more\nexamples.\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## API\n\n### reduceIdents([options])\n\n#### options\n\n##### counter\n\nType: `boolean`  \nDefault: `true`\n\nPass `false` to disable reducing `content`, `counter-reset` and `counter-increment` declarations.\n\n##### keyframes\n\nType: `boolean`  \nDefault: `true`\n\nPass `false` to disable reducing `keyframes` rules and `animation` declarations.\n\n##### counterStyle\n\nType: `boolean`  \nDefault: `true`\n\nPass `false` to disable reducing `counter-style` rules and `list-style` and `system` declarations.\n\n##### gridTemplate\n\nType: `boolean`  \nDefault: `true`\n\nPass `false` to disable reducing `grid-template`, `grid-area` and `grid-template-areas` declarations.\n\n##### encoder\n\nType: `function`  \nDefault: [`lib/encode.js`](https://github.com/cssnano/postcss-reduce-idents/blob/master/src/lib/encode.js)\n\nPass a custom function to encode the identifier with (e.g.: as a way of prefixing them automatically).\n\nIt receives two parameters:\n  - A `String` with the node value.\n  - A `Number` identifying the index of the occurrence.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[idents]:  https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident\n\n[postcss]: https://github.com/postcss/postcss"
+}

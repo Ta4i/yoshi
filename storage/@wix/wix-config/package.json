@@ -1,0 +1,3929 @@
+{
+	"name": "@wix/wix-config",
+	"versions": {
+		"2.0.280": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.280",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.280.tgz",
+				"shasum": "783c983c4d8564f083491842a726541ad0115ca8"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.280"
+		},
+		"2.0.281": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.281",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.281.tgz",
+				"shasum": "d871efc4eb94d19cab7e190440d51026bc5e5d59"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.281"
+		},
+		"2.0.282": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.282",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.282.tgz",
+				"shasum": "7ea6121295721faa56c0243dc2eb7fd9e9b7a0f8"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.282"
+		},
+		"2.0.283": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.283",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.283.tgz",
+				"shasum": "134ecba94ac6e58cd40812b81cf4a08ca8553d8b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.283"
+		},
+		"2.0.284": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.284",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.284.tgz",
+				"shasum": "6aa83bfa8477db0c3a230a240901f1c68b3f18bc"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.284"
+		},
+		"2.0.285": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.285",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.285.tgz",
+				"shasum": "e530ee9a34ba07d8a2f9160998211fc4495927ee"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.285"
+		},
+		"2.0.286": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.286",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.286.tgz",
+				"shasum": "57a9e2a2f048d2fdd35b576a3e2754adc97df4a4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.286"
+		},
+		"2.0.287": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.287",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.287.tgz",
+				"shasum": "4ed1cfaff56de41f3edae5cbc26d8403600dae70"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.287"
+		},
+		"2.0.320": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.320",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.320.tgz",
+				"shasum": "71740cda553753bae8e54ebe5942c101575edfdd"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.320"
+		},
+		"2.0.288": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.288",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.288.tgz",
+				"shasum": "071654904e9da1a1bcb1ddf9b9bb7a2b8901637b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.288"
+		},
+		"2.0.321": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.321",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.321.tgz",
+				"shasum": "37131bb4dd04f710ece1a37dd85dea02830552e3"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.321"
+		},
+		"2.0.289": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.289",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.289.tgz",
+				"shasum": "5e7181fc2c98853927feecbd476ecffb4e0a3bc3"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.289"
+		},
+		"2.0.322": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.322",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.322.tgz",
+				"shasum": "d954833f972c6cd5ed8f8811f7894f9ac5b83de9"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.322"
+		},
+		"2.0.323": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.323",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.323.tgz",
+				"shasum": "e80abf113eba8ae42cddeed4867c5b983be87646"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.323"
+		},
+		"2.0.324": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.324",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.324.tgz",
+				"shasum": "e7d4d5d906be9c2113d9ac52f258f0be3b3a530d"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.324"
+		},
+		"2.0.325": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.325",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.325.tgz",
+				"shasum": "616904d94a88c393be5b45b0c6a87b1830a5e8d9"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.325"
+		},
+		"2.0.326": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.326",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.326.tgz",
+				"shasum": "f90e31578ece9f9cdf03eeea1e668d0bc20e2aea"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.326"
+		},
+		"2.0.327": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.327",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.327.tgz",
+				"shasum": "260491018849e930e487f6a755202df16482d206"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.327"
+		},
+		"2.0.328": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.328",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.328.tgz",
+				"shasum": "371243001dac3b9bc8a7636bc6fccd6aeefd645c"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.328"
+		},
+		"2.0.318": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.318",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.318.tgz",
+				"shasum": "03e96e9947883c6b8b79e91d30c61253aa432c8c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.318"
+		},
+		"2.0.319": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.319",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.319.tgz",
+				"shasum": "66d336151f6b76666e33f055edca7370407f26db"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.319"
+		},
+		"2.0.270": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.270",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.270.tgz",
+				"shasum": "d6fee2e5dc5a65ff8c58b9ca3aded212eae166f9"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.270"
+		},
+		"2.0.271": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.271",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.271.tgz",
+				"shasum": "c7677588b0a7c6a72916f6fe4bc5357ddec71760"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.271"
+		},
+		"2.0.272": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.272",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.272.tgz",
+				"shasum": "e78767b56f09cb2c31cf5937b2d7b7ab2dd1e34e"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.272"
+		},
+		"2.0.273": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.273",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.273.tgz",
+				"shasum": "ba0af9175cba63495e04417b8e68a7a8282addad"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.273"
+		},
+		"2.0.274": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.274",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.274.tgz",
+				"shasum": "382c39c0a686136f975f2de314a145e03787bd16"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.274"
+		},
+		"2.0.275": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.275",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.275.tgz",
+				"shasum": "daefd32db571e5524fd48e38210a4fcc6172d07c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.275"
+		},
+		"2.0.276": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.276",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.276.tgz",
+				"shasum": "5bb9216b59b8cd81a58faee2f4fe1132735904f5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.276"
+		},
+		"2.0.277": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.277",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.277.tgz",
+				"shasum": "094d9e221f4b4dca6a71e4c14985e0eb72d10a41"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.277"
+		},
+		"2.0.310": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.310",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.310.tgz",
+				"shasum": "cc662fd4ec0556dd4fd767493890b4822f36f03d"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.310"
+		},
+		"2.0.278": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.278",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.278.tgz",
+				"shasum": "48943011c51b04e1d4993d6c86aaca0567feeeef"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.278"
+		},
+		"2.0.311": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.311",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.311.tgz",
+				"shasum": "556131cfddf8abc8b0fa53f8bb75e9818818f244"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.311"
+		},
+		"2.0.279": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.279",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.279.tgz",
+				"shasum": "0496b0ae53cc7de20820c822b47beae6e93b77a4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.279"
+		},
+		"2.0.312": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.312",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.312.tgz",
+				"shasum": "f5d13f9c642b7920451c0af8a6a89e89c56f1152"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.312"
+		},
+		"2.0.313": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.313",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.313.tgz",
+				"shasum": "57cd0e190e63a926228d5f4469910d1f33501203"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.313"
+		},
+		"2.0.314": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.314",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.314.tgz",
+				"shasum": "2a593ef4b0595fef911a5a6582f2c2c954061eae"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.314"
+		},
+		"2.0.315": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.315",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.315.tgz",
+				"shasum": "63dfd3213f11ef094366e3e3b1d3c6d17a2a33f1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.315"
+		},
+		"2.0.316": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.316",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.316.tgz",
+				"shasum": "b069b0115b1d8acc46622d8b29c94466d8840d20"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.316"
+		},
+		"2.0.317": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.317",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.317.tgz",
+				"shasum": "86ad85598bdab7ef4939d72db60e7ab00b11cc71"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.317"
+		},
+		"2.0.307": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.307",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.307.tgz",
+				"shasum": "53e71f4ac52d992f41f9902ca9c4793ed7d9cf0f"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.307"
+		},
+		"2.0.308": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.308",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.308.tgz",
+				"shasum": "f273bfec584e4dea9dc971395a7e7a60451bc6f3"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.308"
+		},
+		"2.0.309": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.309",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.309.tgz",
+				"shasum": "1d60a880bb699cd7425743e1d8b91c875b2dbbe9"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.309"
+		},
+		"2.0.260": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.260",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.260.tgz",
+				"shasum": "3b6b4534a864ba3052109d068400921c09e3666b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.260"
+		},
+		"2.0.261": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.261",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.261.tgz",
+				"shasum": "dc3411f348ce08ce1f8e3be80ef28e077fb9ddc3"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.261"
+		},
+		"2.0.262": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.262",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.262.tgz",
+				"shasum": "921e44aae4826c862becf53e6972a7e5857edc1c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.262"
+		},
+		"2.0.263": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.263",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.263.tgz",
+				"shasum": "e1382d8d09c46e0bcfc0be27a49897eec9c63745"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.263"
+		},
+		"2.0.264": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.264",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.264.tgz",
+				"shasum": "5b53ea69445ef8ca1893d0a13efa0fc6ce507b07"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.264"
+		},
+		"2.0.265": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.265",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.265.tgz",
+				"shasum": "6b91da53bfdd92e93b91e30038bc58277227a22f"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.265"
+		},
+		"2.0.266": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.266",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.266.tgz",
+				"shasum": "45e6bde60ba687c44032c65a322e757e4c78b453"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.266"
+		},
+		"2.0.267": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.267",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.267.tgz",
+				"shasum": "bba8a76ffaee980a0fc1986ee0f6276b1d29338a"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.267"
+		},
+		"2.0.300": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.300",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.300.tgz",
+				"shasum": "77190432201ebc4ddcd8d34f4ccc08ff6719ddc7"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.300"
+		},
+		"2.0.268": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.268",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.268.tgz",
+				"shasum": "71868e2530937fe98151f2a37df84e0a9916443b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.268"
+		},
+		"2.0.301": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.301",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.301.tgz",
+				"shasum": "01de369676eac61c1bd0d2f712b884e3bf1e5436"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.301"
+		},
+		"2.0.269": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.269",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.269.tgz",
+				"shasum": "77dc978c305e8e58580f051f3b9c5350fe8b558f"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.269"
+		},
+		"2.0.302": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.302",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.302.tgz",
+				"shasum": "bab6772f695112838707207e88aa686c30594c6d"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.302"
+		},
+		"2.0.303": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.303",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.303.tgz",
+				"shasum": "31bbfb6613c25e12ecf6887f4a5366f9ffe7f54e"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.303"
+		},
+		"2.0.304": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.304",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.304.tgz",
+				"shasum": "08da2b01d7e594b97ba5fbf167a6bac7cab576b7"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.304"
+		},
+		"2.0.305": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.305",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.305.tgz",
+				"shasum": "5dbacfd437e49dc5b03938030183c80c16332988"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.305"
+		},
+		"2.0.306": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.306",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.306.tgz",
+				"shasum": "0c217547485ca28dd90817a40f004df1f07e2419"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.306"
+		},
+		"2.0.291": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.291",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.291.tgz",
+				"shasum": "8b7ab107b2b3dc0ab6c5adaf8cad4a19cf22b72c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.291"
+		},
+		"2.0.292": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.292",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.292.tgz",
+				"shasum": "e53aa1ed1d52018ee58ff22aa7856e1524bf09bd"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.292"
+		},
+		"2.0.293": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.293",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.293.tgz",
+				"shasum": "771ac1706ef331e6cc089e5db12b525b43a0910f"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.293"
+		},
+		"2.0.294": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.294",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.294.tgz",
+				"shasum": "ac37fcd0a41daf804905ae767888d50b1f6f9a86"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.294"
+		},
+		"2.0.295": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.295",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.295.tgz",
+				"shasum": "27cd1fac6325ecbf93cdf7856279547ef95c897c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.295"
+		},
+		"2.0.174": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.174",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.174.tgz",
+				"shasum": "b6c893bc5d7f147528cac9c283cc069d726775e5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.174"
+		},
+		"2.0.296": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.296",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.296.tgz",
+				"shasum": "419b9cf769320574dae106a2f69516816e05eb76"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.296"
+		},
+		"2.0.253": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.253",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.253.tgz",
+				"shasum": "eb4d7ad1ed434a69e171fe5e9ccde354495245f4"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.253"
+		},
+		"2.0.297": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.297",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.297.tgz",
+				"shasum": "440aa8bb22dd56531cd32de3eb6af4dbe80d781b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.297"
+		},
+		"2.0.330": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.330",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.330.tgz",
+				"shasum": "913c7f565e9bac654562ed386eeb9df952fd3c93"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.330"
+		},
+		"2.0.254": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.254",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.254.tgz",
+				"shasum": "841d264986e510a284b57413dd23735d452cbc3e"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.254"
+		},
+		"2.0.298": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.298",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.298.tgz",
+				"shasum": "e825735ca77e0986046f10cece3ffe27e20361b2"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.298"
+		},
+		"2.0.255": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.255",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.255.tgz",
+				"shasum": "132287f60da22c8ad04b451205effd1f0358226c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.255"
+		},
+		"2.0.299": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.299",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.299.tgz",
+				"shasum": "e460d026cbce22301bab20cab7b2e6be4907ce7a"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.299"
+		},
+		"2.0.256": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.256",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.256.tgz",
+				"shasum": "dc9aa8896d89db1b10c3ab853801a0deca452afc"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.256"
+		},
+		"2.0.257": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.257",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.257.tgz",
+				"shasum": "f65107a19211dff895e0076e7330c72ecf653c69"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.257"
+		},
+		"2.0.258": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.258",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.258.tgz",
+				"shasum": "d0a39fa4c025b7184dc12bdeb49b9baa5c6d3ff5"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.258"
+		},
+		"2.0.259": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.259",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.259.tgz",
+				"shasum": "a5c337acbe23ca57af3209f20cea2d436d874452"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.259"
+		},
+		"2.0.329": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.329",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.329.tgz",
+				"shasum": "d7086d2356257dd568ba7579797382eeef61767f"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-config@2.0.329"
+		},
+		"2.0.290": {
+			"name": "@wix/wix-config",
+			"description": "config loader",
+			"version": "2.0.290",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.290.tgz",
+				"shasum": "d09a9fb829b89f71ca595bb78bd59d48d31f7d7c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"config"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-config@2.0.290"
+		}
+	},
+	"time": {
+		"2.0.280": "2017-11-09T12:02:59.061Z",
+		"2.0.281": "2017-11-09T12:04:43.222Z",
+		"2.0.282": "2017-11-09T12:20:55.685Z",
+		"2.0.283": "2017-11-10T02:01:17.077Z",
+		"2.0.284": "2017-11-11T02:39:23.176Z",
+		"2.0.285": "2017-11-11T05:48:36.739Z",
+		"2.0.286": "2017-11-12T05:49:33.252Z",
+		"2.0.287": "2017-11-13T05:50:25.637Z",
+		"2.0.320": "2018-10-03T10:57:21.402Z",
+		"2.0.288": "2017-11-14T05:51:27.602Z",
+		"2.0.321": "2018-10-24T15:36:05.135Z",
+		"2.0.289": "2017-11-14T12:18:30.386Z",
+		"2.0.322": "2018-11-04T14:49:21.109Z",
+		"2.0.323": "2018-11-08T10:13:59.091Z",
+		"2.0.324": "2018-11-14T12:23:42.300Z",
+		"2.0.325": "2018-12-05T11:46:16.151Z",
+		"2.0.326": "2018-12-12T08:48:38.020Z",
+		"2.0.327": "2018-12-13T12:02:26.623Z",
+		"2.0.328": "2018-12-13T14:26:33.704Z",
+		"2.0.318": "2018-09-13T10:59:49.922Z",
+		"2.0.319": "2018-10-02T10:37:42.695Z",
+		"modified": "2019-01-14T11:34:48.308Z",
+		"2.0.270": "2017-11-05T05:28:42.723Z",
+		"2.0.271": "2017-11-05T12:03:23.743Z",
+		"2.0.272": "2017-11-05T13:21:21.940Z",
+		"2.0.273": "2017-11-05T15:02:51.503Z",
+		"2.0.274": "2017-11-05T16:34:08.613Z",
+		"created": "2017-10-24T07:37:23.578Z",
+		"2.0.275": "2017-11-07T03:35:01.026Z",
+		"2.0.276": "2017-11-07T07:31:54.553Z",
+		"2.0.277": "2017-11-07T12:58:48.858Z",
+		"2.0.310": "2018-05-20T10:38:17.628Z",
+		"2.0.278": "2017-11-08T08:36:21.065Z",
+		"2.0.311": "2018-05-30T08:15:37.468Z",
+		"2.0.279": "2017-11-08T14:38:40.738Z",
+		"2.0.312": "2018-06-07T13:38:34.306Z",
+		"2.0.313": "2018-06-19T12:01:32.822Z",
+		"2.0.314": "2018-07-11T18:53:51.827Z",
+		"2.0.315": "2018-07-12T07:40:57.570Z",
+		"2.0.316": "2018-08-06T09:49:48.252Z",
+		"2.0.317": "2018-08-26T12:10:21.828Z",
+		"2.0.307": "2018-04-05T08:34:55.094Z",
+		"2.0.308": "2018-04-16T13:36:54.811Z",
+		"2.0.309": "2018-05-06T07:17:05.933Z",
+		"2.0.260": "2017-10-29T06:04:29.836Z",
+		"2.0.261": "2017-10-29T13:47:48.137Z",
+		"2.0.262": "2017-10-30T05:36:50.212Z",
+		"2.0.263": "2017-10-31T05:43:57.040Z",
+		"2.0.264": "2017-10-31T07:12:04.969Z",
+		"2.0.265": "2017-10-31T11:26:33.755Z",
+		"2.0.266": "2017-11-01T16:59:37.334Z",
+		"2.0.267": "2017-11-02T00:55:18.660Z",
+		"2.0.300": "2018-01-15T15:03:43.739Z",
+		"2.0.268": "2017-11-03T02:09:49.362Z",
+		"2.0.301": "2018-01-30T11:26:03.503Z",
+		"2.0.269": "2017-11-03T13:53:06.282Z",
+		"2.0.302": "2018-02-21T16:07:08.920Z",
+		"2.0.303": "2018-03-16T06:09:10.917Z",
+		"2.0.304": "2018-03-19T07:03:30.351Z",
+		"2.0.305": "2018-03-19T07:44:55.783Z",
+		"2.0.306": "2018-03-25T10:34:04.327Z",
+		"2.0.291": "2017-11-16T06:55:09.831Z",
+		"2.0.292": "2017-11-16T07:22:20.242Z",
+		"2.0.293": "2017-11-16T20:15:17.601Z",
+		"2.0.294": "2017-11-21T06:12:25.234Z",
+		"2.0.295": "2017-12-10T13:12:06.242Z",
+		"2.0.174": "2018-09-25T14:28:34.223Z",
+		"2.0.296": "2017-12-11T12:58:01.159Z",
+		"2.0.253": "2017-10-24T07:37:23.578Z",
+		"2.0.297": "2017-12-25T09:36:13.350Z",
+		"2.0.330": "2019-01-14T11:34:48.308Z",
+		"2.0.254": "2017-10-24T16:35:02.572Z",
+		"2.0.298": "2018-01-08T10:15:34.417Z",
+		"2.0.255": "2017-10-24T19:23:49.510Z",
+		"2.0.299": "2018-01-09T09:15:56.242Z",
+		"2.0.256": "2017-10-26T02:44:52.273Z",
+		"2.0.257": "2017-10-26T06:14:10.842Z",
+		"2.0.258": "2017-10-27T06:15:29.023Z",
+		"2.0.259": "2017-10-28T08:01:35.735Z",
+		"2.0.329": "2019-01-02T14:22:01.396Z",
+		"2.0.290": "2017-11-16T02:26:41.787Z"
+	},
+	"dist-tags": {
+		"old": "2.0.174",
+		"latest": "2.0.330"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749387685
+		}
+	},
+	"_distfiles": {
+		"wix-config-2.0.280.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.280.tgz",
+			"sha": "783c983c4d8564f083491842a726541ad0115ca8"
+		},
+		"wix-config-2.0.281.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.281.tgz",
+			"sha": "d871efc4eb94d19cab7e190440d51026bc5e5d59"
+		},
+		"wix-config-2.0.282.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.282.tgz",
+			"sha": "7ea6121295721faa56c0243dc2eb7fd9e9b7a0f8"
+		},
+		"wix-config-2.0.283.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.283.tgz",
+			"sha": "134ecba94ac6e58cd40812b81cf4a08ca8553d8b"
+		},
+		"wix-config-2.0.284.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.284.tgz",
+			"sha": "6aa83bfa8477db0c3a230a240901f1c68b3f18bc"
+		},
+		"wix-config-2.0.285.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.285.tgz",
+			"sha": "e530ee9a34ba07d8a2f9160998211fc4495927ee"
+		},
+		"wix-config-2.0.286.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.286.tgz",
+			"sha": "57a9e2a2f048d2fdd35b576a3e2754adc97df4a4"
+		},
+		"wix-config-2.0.287.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.287.tgz",
+			"sha": "4ed1cfaff56de41f3edae5cbc26d8403600dae70"
+		},
+		"wix-config-2.0.320.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.320.tgz",
+			"sha": "71740cda553753bae8e54ebe5942c101575edfdd"
+		},
+		"wix-config-2.0.288.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.288.tgz",
+			"sha": "071654904e9da1a1bcb1ddf9b9bb7a2b8901637b"
+		},
+		"wix-config-2.0.321.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.321.tgz",
+			"sha": "37131bb4dd04f710ece1a37dd85dea02830552e3"
+		},
+		"wix-config-2.0.289.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.289.tgz",
+			"sha": "5e7181fc2c98853927feecbd476ecffb4e0a3bc3"
+		},
+		"wix-config-2.0.322.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.322.tgz",
+			"sha": "d954833f972c6cd5ed8f8811f7894f9ac5b83de9"
+		},
+		"wix-config-2.0.323.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.323.tgz",
+			"sha": "e80abf113eba8ae42cddeed4867c5b983be87646"
+		},
+		"wix-config-2.0.324.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.324.tgz",
+			"sha": "e7d4d5d906be9c2113d9ac52f258f0be3b3a530d"
+		},
+		"wix-config-2.0.325.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.325.tgz",
+			"sha": "616904d94a88c393be5b45b0c6a87b1830a5e8d9"
+		},
+		"wix-config-2.0.326.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.326.tgz",
+			"sha": "f90e31578ece9f9cdf03eeea1e668d0bc20e2aea"
+		},
+		"wix-config-2.0.327.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.327.tgz",
+			"sha": "260491018849e930e487f6a755202df16482d206"
+		},
+		"wix-config-2.0.328.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.328.tgz",
+			"sha": "371243001dac3b9bc8a7636bc6fccd6aeefd645c"
+		},
+		"wix-config-2.0.318.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.318.tgz",
+			"sha": "03e96e9947883c6b8b79e91d30c61253aa432c8c"
+		},
+		"wix-config-2.0.319.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.319.tgz",
+			"sha": "66d336151f6b76666e33f055edca7370407f26db"
+		},
+		"wix-config-2.0.270.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.270.tgz",
+			"sha": "d6fee2e5dc5a65ff8c58b9ca3aded212eae166f9"
+		},
+		"wix-config-2.0.271.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.271.tgz",
+			"sha": "c7677588b0a7c6a72916f6fe4bc5357ddec71760"
+		},
+		"wix-config-2.0.272.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.272.tgz",
+			"sha": "e78767b56f09cb2c31cf5937b2d7b7ab2dd1e34e"
+		},
+		"wix-config-2.0.273.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.273.tgz",
+			"sha": "ba0af9175cba63495e04417b8e68a7a8282addad"
+		},
+		"wix-config-2.0.274.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.274.tgz",
+			"sha": "382c39c0a686136f975f2de314a145e03787bd16"
+		},
+		"wix-config-2.0.275.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.275.tgz",
+			"sha": "daefd32db571e5524fd48e38210a4fcc6172d07c"
+		},
+		"wix-config-2.0.276.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.276.tgz",
+			"sha": "5bb9216b59b8cd81a58faee2f4fe1132735904f5"
+		},
+		"wix-config-2.0.277.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.277.tgz",
+			"sha": "094d9e221f4b4dca6a71e4c14985e0eb72d10a41"
+		},
+		"wix-config-2.0.310.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.310.tgz",
+			"sha": "cc662fd4ec0556dd4fd767493890b4822f36f03d"
+		},
+		"wix-config-2.0.278.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.278.tgz",
+			"sha": "48943011c51b04e1d4993d6c86aaca0567feeeef"
+		},
+		"wix-config-2.0.311.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.311.tgz",
+			"sha": "556131cfddf8abc8b0fa53f8bb75e9818818f244"
+		},
+		"wix-config-2.0.279.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.279.tgz",
+			"sha": "0496b0ae53cc7de20820c822b47beae6e93b77a4"
+		},
+		"wix-config-2.0.312.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.312.tgz",
+			"sha": "f5d13f9c642b7920451c0af8a6a89e89c56f1152"
+		},
+		"wix-config-2.0.313.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.313.tgz",
+			"sha": "57cd0e190e63a926228d5f4469910d1f33501203"
+		},
+		"wix-config-2.0.314.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.314.tgz",
+			"sha": "2a593ef4b0595fef911a5a6582f2c2c954061eae"
+		},
+		"wix-config-2.0.315.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.315.tgz",
+			"sha": "63dfd3213f11ef094366e3e3b1d3c6d17a2a33f1"
+		},
+		"wix-config-2.0.316.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.316.tgz",
+			"sha": "b069b0115b1d8acc46622d8b29c94466d8840d20"
+		},
+		"wix-config-2.0.317.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.317.tgz",
+			"sha": "86ad85598bdab7ef4939d72db60e7ab00b11cc71"
+		},
+		"wix-config-2.0.307.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.307.tgz",
+			"sha": "53e71f4ac52d992f41f9902ca9c4793ed7d9cf0f"
+		},
+		"wix-config-2.0.308.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.308.tgz",
+			"sha": "f273bfec584e4dea9dc971395a7e7a60451bc6f3"
+		},
+		"wix-config-2.0.309.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.309.tgz",
+			"sha": "1d60a880bb699cd7425743e1d8b91c875b2dbbe9"
+		},
+		"wix-config-2.0.260.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.260.tgz",
+			"sha": "3b6b4534a864ba3052109d068400921c09e3666b"
+		},
+		"wix-config-2.0.261.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.261.tgz",
+			"sha": "dc3411f348ce08ce1f8e3be80ef28e077fb9ddc3"
+		},
+		"wix-config-2.0.262.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.262.tgz",
+			"sha": "921e44aae4826c862becf53e6972a7e5857edc1c"
+		},
+		"wix-config-2.0.263.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.263.tgz",
+			"sha": "e1382d8d09c46e0bcfc0be27a49897eec9c63745"
+		},
+		"wix-config-2.0.264.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.264.tgz",
+			"sha": "5b53ea69445ef8ca1893d0a13efa0fc6ce507b07"
+		},
+		"wix-config-2.0.265.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.265.tgz",
+			"sha": "6b91da53bfdd92e93b91e30038bc58277227a22f"
+		},
+		"wix-config-2.0.266.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.266.tgz",
+			"sha": "45e6bde60ba687c44032c65a322e757e4c78b453"
+		},
+		"wix-config-2.0.267.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.267.tgz",
+			"sha": "bba8a76ffaee980a0fc1986ee0f6276b1d29338a"
+		},
+		"wix-config-2.0.300.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.300.tgz",
+			"sha": "77190432201ebc4ddcd8d34f4ccc08ff6719ddc7"
+		},
+		"wix-config-2.0.268.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.268.tgz",
+			"sha": "71868e2530937fe98151f2a37df84e0a9916443b"
+		},
+		"wix-config-2.0.301.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.301.tgz",
+			"sha": "01de369676eac61c1bd0d2f712b884e3bf1e5436"
+		},
+		"wix-config-2.0.269.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.269.tgz",
+			"sha": "77dc978c305e8e58580f051f3b9c5350fe8b558f"
+		},
+		"wix-config-2.0.302.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.302.tgz",
+			"sha": "bab6772f695112838707207e88aa686c30594c6d"
+		},
+		"wix-config-2.0.303.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.303.tgz",
+			"sha": "31bbfb6613c25e12ecf6887f4a5366f9ffe7f54e"
+		},
+		"wix-config-2.0.304.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.304.tgz",
+			"sha": "08da2b01d7e594b97ba5fbf167a6bac7cab576b7"
+		},
+		"wix-config-2.0.305.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.305.tgz",
+			"sha": "5dbacfd437e49dc5b03938030183c80c16332988"
+		},
+		"wix-config-2.0.306.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.306.tgz",
+			"sha": "0c217547485ca28dd90817a40f004df1f07e2419"
+		},
+		"wix-config-2.0.291.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.291.tgz",
+			"sha": "8b7ab107b2b3dc0ab6c5adaf8cad4a19cf22b72c"
+		},
+		"wix-config-2.0.292.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.292.tgz",
+			"sha": "e53aa1ed1d52018ee58ff22aa7856e1524bf09bd"
+		},
+		"wix-config-2.0.293.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.293.tgz",
+			"sha": "771ac1706ef331e6cc089e5db12b525b43a0910f"
+		},
+		"wix-config-2.0.294.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.294.tgz",
+			"sha": "ac37fcd0a41daf804905ae767888d50b1f6f9a86"
+		},
+		"wix-config-2.0.295.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.295.tgz",
+			"sha": "27cd1fac6325ecbf93cdf7856279547ef95c897c"
+		},
+		"wix-config-2.0.174.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.174.tgz",
+			"sha": "b6c893bc5d7f147528cac9c283cc069d726775e5"
+		},
+		"wix-config-2.0.296.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.296.tgz",
+			"sha": "419b9cf769320574dae106a2f69516816e05eb76"
+		},
+		"wix-config-2.0.253.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.253.tgz",
+			"sha": "eb4d7ad1ed434a69e171fe5e9ccde354495245f4"
+		},
+		"wix-config-2.0.297.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.297.tgz",
+			"sha": "440aa8bb22dd56531cd32de3eb6af4dbe80d781b"
+		},
+		"wix-config-2.0.330.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.330.tgz",
+			"sha": "913c7f565e9bac654562ed386eeb9df952fd3c93"
+		},
+		"wix-config-2.0.254.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.254.tgz",
+			"sha": "841d264986e510a284b57413dd23735d452cbc3e"
+		},
+		"wix-config-2.0.298.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.298.tgz",
+			"sha": "e825735ca77e0986046f10cece3ffe27e20361b2"
+		},
+		"wix-config-2.0.255.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.255.tgz",
+			"sha": "132287f60da22c8ad04b451205effd1f0358226c"
+		},
+		"wix-config-2.0.299.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.299.tgz",
+			"sha": "e460d026cbce22301bab20cab7b2e6be4907ce7a"
+		},
+		"wix-config-2.0.256.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.256.tgz",
+			"sha": "dc9aa8896d89db1b10c3ab853801a0deca452afc"
+		},
+		"wix-config-2.0.257.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.257.tgz",
+			"sha": "f65107a19211dff895e0076e7330c72ecf653c69"
+		},
+		"wix-config-2.0.258.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.258.tgz",
+			"sha": "d0a39fa4c025b7184dc12bdeb49b9baa5c6d3ff5"
+		},
+		"wix-config-2.0.259.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.259.tgz",
+			"sha": "a5c337acbe23ca57af3209f20cea2d436d874452"
+		},
+		"wix-config-2.0.329.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.329.tgz",
+			"sha": "d7086d2356257dd568ba7579797382eeef61767f"
+		},
+		"wix-config-2.0.290.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-config/-/@wix/wix-config-2.0.290.tgz",
+			"sha": "d09a9fb829b89f71ca595bb78bd59d48d31f7d7c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-757f525944b1a467",
+	"readme": ""
+}

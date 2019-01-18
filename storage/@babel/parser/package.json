@@ -1,0 +1,4952 @@
+{
+	"name": "@babel/parser",
+	"versions": {
+		"7.1.0": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.0",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.0.tgz",
+				"shasum": "a7cd42cb3c12aec52e24375189a47b39759b783e"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.1.0",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.0_1537212613281_0.2420030098564825"
+			}
+		},
+		"7.1.1": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.1",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.1.tgz",
+				"shasum": "c23e1f3539047b898e471ecfbe7752082384c572"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.1.1",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.1_1538164965997_0.9740085057982457"
+			}
+		},
+		"7.2.0": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.2.0",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.0.tgz",
+				"shasum": "02d01dbc330b6cbf36b76ac93c50752c69027065"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.2.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"_id": "@babel/parser@7.2.0",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.2.0_1543863441301_0.2567904879865688"
+			}
+		},
+		"7.1.2": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.2",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.2.tgz",
+				"shasum": "85c5c47af6d244fab77bce6b9bd830e38c978409"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.1.2",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.2_1538173181144_0.6119566779112873"
+			}
+		},
+		"7.1.3": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.3",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.3.tgz",
+				"shasum": "2c92469bac2b7fbff810b67fca07bd138b48af77"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.1.3",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.3_1539273146670_0.24542036832549252"
+			}
+		},
+		"7.2.2": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.2.2",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.2.tgz",
+				"shasum": "37ebdbc88a2e1ebc6c8dd3d35ea9436e3e39e477"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.2.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"_id": "@babel/parser@7.2.2",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.2.2_1544868316380_0.5221032562533485"
+			}
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-rc.1",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.1.tgz",
+				"shasum": "d009a9bba8175d7b971e30cd03535b278c44082d"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-rc.1",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-rc.1",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-rc.1_1533845176004_0.7074827547463136"
+			}
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-rc.2",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.2.tgz",
+				"shasum": "a98c01af5834e71d48a5108e3aeeee333cdf26c4"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-rc.2",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-rc.2",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-rc.2_1534879336456_0.6255402074759919"
+			}
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-rc.0",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.0.tgz",
+				"shasum": "6ad941b6425e7f5feee909e3bc3e6e8712397541"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-rc.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-rc.0",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-rc.0_1533830172687_0.43335646761234914"
+			}
+		},
+		"7.0.0": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0.tgz",
+				"shasum": "697655183394facffb063437ddf52c0277698775"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0_1535406094393_0.9691964480234936"
+			},
+			"readmeFilename": "README.md"
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.49",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.49.tgz",
+				"shasum": "944d0c5ba2812bb159edbd226743afd265179bdc"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.49",
+				"charcodes": "0.1.0",
+				"unicode-10.0.0": "^0.7.4"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.49",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.49_1527264012017_0.5407240697297271"
+			},
+			"_shasum": "944d0c5ba2812bb159edbd226743afd265179bdc",
+			"readmeFilename": "README.md",
+			"_nodeVersion": "6.12.3"
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-rc.3",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.3.tgz",
+				"shasum": "859d7b60ef6b939aab5f6d4f4bffbb7bafdc418b"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-rc.3",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-rc.3",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-rc.3_1535133971784_0.6078029812665302"
+			}
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.48",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.48.tgz",
+				"shasum": "f93895cbacee703c0ec98e5af3901c77edd9f1d7"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.48",
+				"charcodes": "0.1.0",
+				"unicode-10.0.0": "^0.7.4"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.48",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.48_1527189637129_0.00583250000069091"
+			},
+			"_nodeVersion": "8.10.0"
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-rc.4",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.4.tgz",
+				"shasum": "c5c773df2554d76c9fc0a3711c18109fce3f54f5"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0-rc.4",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-rc.4",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-rc.4_1535388140015_0.2949932735959726"
+			}
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.54",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.54.tgz",
+				"shasum": "c01aa63b57c9c8dce8744796c81d9df121f20db4"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.54",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.54",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.54_1531763987398_0.9262821370822878"
+			}
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.53",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.53.tgz",
+				"shasum": "1f45eb617bf9463d482b2c04d349d9e4edbf4892"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.53",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.53",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.53_1531316396567_0.45536197193121386"
+			}
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.52",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.52.tgz",
+				"shasum": "4e935b62cd9bf872bd37bcf1f63d82fe7b0237a2"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.52",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.52",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.52_1530838747547_0.3496276227335484"
+			}
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.51",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.51.tgz",
+				"shasum": "27cec2df409df60af58270ed8f6aa55409ea86f6"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.51",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.51",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.51_1528838349835_0.3115893685536284"
+			}
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.56",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.56.tgz",
+				"shasum": "8638aa02e0130cd10b2ba4128e2b804112073ed3"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.56",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.56",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.56_1533344575668_0.9890174787264132"
+			}
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.55",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.55.tgz",
+				"shasum": "0a527efc148c6c8cd85d5ffddacad817a2daeeb2"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.55",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.55",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.55_1532815605751_0.17174101313315915"
+			}
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.0.0-beta.50",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.50.tgz",
+				"shasum": "9ffc59e4ca51df0a6cc8b5d1f22d7e534bb3fa5d"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.50",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"files": [
+				"bin",
+				"lib"
+			],
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.0.0-beta.50",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.0.0-beta.50_1528832802669_0.9988240036319185"
+			}
+		},
+		"7.2.3": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.2.3",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.3.tgz",
+				"shasum": "32f5df65744b70888d17872ec106b02434ba1489"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.2.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"_id": "@babel/parser@7.2.3",
+			"gitHead": "d35f2ad92b322c3bb9c6792e2683807afae0b105",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.2.3_1545304370884_0.12121109533385921"
+			}
+		},
+		"7.1.5": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.5",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.5.tgz",
+				"shasum": "20b7d5e7e1811ba996f8a868962ea7dd2bfcd2fc"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "@babel/parser@7.1.5",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.5_1541542885277_0.8922366356437124"
+			}
+		},
+		"7.1.6": {
+			"name": "@babel/parser",
+			"description": "A JavaScript parser",
+			"version": "7.1.6",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-parser"
+			},
+			"contributors": [
+				{
+					"name": "List of Acorn contributors. Updated before every release."
+				},
+				{
+					"name": "Adrian Rakovsky"
+				},
+				{
+					"name": "Alistair Braidwood"
+				},
+				{
+					"name": "Andres Suarez"
+				},
+				{
+					"name": "Aparajita Fishman"
+				},
+				{
+					"name": "Arian Stolwijk"
+				},
+				{
+					"name": "Artem Govorov"
+				},
+				{
+					"name": "Brandon Mills"
+				},
+				{
+					"name": "Charles Hughes"
+				},
+				{
+					"name": "Conrad Irwin"
+				},
+				{
+					"name": "David Bonnet"
+				},
+				{
+					"name": "Forbes Lindesay"
+				},
+				{
+					"name": "Gilad Peleg"
+				},
+				{
+					"name": "impinball"
+				},
+				{
+					"name": "Ingvar Stepanyan"
+				},
+				{
+					"name": "Jesse McCarthy"
+				},
+				{
+					"name": "Jiaxing Wang"
+				},
+				{
+					"name": "Joel Kemp"
+				},
+				{
+					"name": "Johannes Herr"
+				},
+				{
+					"name": "Jürg Lehni"
+				},
+				{
+					"name": "keeyipchan"
+				},
+				{
+					"name": "Kevin Kwok"
+				},
+				{
+					"name": "krator"
+				},
+				{
+					"name": "Marijn Haverbeke"
+				},
+				{
+					"name": "Martin Carlberg"
+				},
+				{
+					"name": "Mathias Bynens"
+				},
+				{
+					"name": "Mathieu 'p01' Henri"
+				},
+				{
+					"name": "Max Schaefer"
+				},
+				{
+					"name": "Max Zerzouri"
+				},
+				{
+					"name": "Mihai Bazon"
+				},
+				{
+					"name": "Mike Rennie"
+				},
+				{
+					"name": "Nick Fitzgerald"
+				},
+				{
+					"name": "Oskar Schöldström"
+				},
+				{
+					"name": "Paul Harper"
+				},
+				{
+					"name": "Peter Rust"
+				},
+				{
+					"name": "PlNG"
+				},
+				{
+					"name": "r-e-d"
+				},
+				{
+					"name": "Rich Harris"
+				},
+				{
+					"name": "Sebastian McKenzie"
+				},
+				{
+					"name": "zsjforcn"
+				}
+			],
+			"engines": {
+				"node": ">=6.0.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.6.tgz",
+				"shasum": "16e97aca1ec1062324a01c5a6a7d0df8dd189854"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "^7.0.0",
+				"charcodes": "0.1.0",
+				"unicode-11.0.0": "^0.7.7"
+			},
+			"keywords": [
+				"babel",
+				"javascript",
+				"parser",
+				"tc39",
+				"ecmascript",
+				"@babel/parser"
+			],
+			"license": "MIT",
+			"bin": {
+				"parser": "./bin/babel-parser.js"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"directories": {},
+			"publishConfig": {
+				"tag": "next"
+			},
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"_id": "@babel/parser@7.1.6",
+			"types": "typings/babel-parser.d.ts",
+			"licenseText": "Copyright (C) 2012-2014 by various contributors (see AUTHORS)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parser_7.1.6_1542143428615_0.4931549257100467"
+			}
+		}
+	},
+	"time": {
+		"7.0.0-rc.1": "2018-08-09T20:06:16.091Z",
+		"7.0.0-rc.2": "2018-08-21T19:22:16.552Z",
+		"7.0.0-rc.0": "2018-08-09T15:56:12.788Z",
+		"7.0.0-rc.3": "2018-08-24T18:06:11.894Z",
+		"7.0.0-rc.4": "2018-08-27T16:42:20.123Z",
+		"7.0.0-beta.54": "2018-07-16T17:59:47.524Z",
+		"7.0.0-beta.53": "2018-07-11T13:39:56.614Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:07.656Z",
+		"7.0.0-beta.51": "2018-06-12T21:19:10.384Z",
+		"7.0.0-beta.56": "2018-08-04T01:02:55.925Z",
+		"7.0.0-beta.55": "2018-07-28T22:06:45.798Z",
+		"modified": "2018-12-20T11:12:54.594Z",
+		"7.0.0-beta.50": "2018-06-12T19:46:42.798Z",
+		"7.2.3": "2018-12-20T11:12:51.059Z",
+		"7.1.5": "2018-11-06T22:21:25.453Z",
+		"7.1.6": "2018-11-13T21:10:28.790Z",
+		"7.1.0": "2018-09-17T19:30:13.445Z",
+		"7.1.1": "2018-09-28T20:02:46.201Z",
+		"7.2.0": "2018-12-03T18:57:21.475Z",
+		"7.1.2": "2018-09-28T22:19:41.296Z",
+		"7.1.3": "2018-10-11T15:52:26.875Z",
+		"7.2.2": "2018-12-15T10:05:16.592Z",
+		"created": "2018-05-24T19:20:36.538Z",
+		"7.0.0": "2018-08-27T21:41:34.522Z",
+		"7.0.0-beta.49": "2018-05-25T16:00:12.380Z",
+		"7.0.0-beta.48": "2018-05-24T19:20:37.194Z"
+	},
+	"dist-tags": {
+		"next": "7.0.0-beta.49",
+		"latest": "7.2.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749398227
+		}
+	},
+	"_distfiles": {
+		"parser-7.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.0.tgz",
+			"sha": "a7cd42cb3c12aec52e24375189a47b39759b783e"
+		},
+		"parser-7.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.1.tgz",
+			"sha": "c23e1f3539047b898e471ecfbe7752082384c572"
+		},
+		"parser-7.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.0.tgz",
+			"sha": "02d01dbc330b6cbf36b76ac93c50752c69027065"
+		},
+		"parser-7.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.2.tgz",
+			"sha": "85c5c47af6d244fab77bce6b9bd830e38c978409"
+		},
+		"parser-7.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.3.tgz",
+			"sha": "2c92469bac2b7fbff810b67fca07bd138b48af77"
+		},
+		"parser-7.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.2.tgz",
+			"sha": "37ebdbc88a2e1ebc6c8dd3d35ea9436e3e39e477"
+		},
+		"parser-7.0.0-rc.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.1.tgz",
+			"sha": "d009a9bba8175d7b971e30cd03535b278c44082d"
+		},
+		"parser-7.0.0-rc.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.2.tgz",
+			"sha": "a98c01af5834e71d48a5108e3aeeee333cdf26c4"
+		},
+		"parser-7.0.0-rc.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.0.tgz",
+			"sha": "6ad941b6425e7f5feee909e3bc3e6e8712397541"
+		},
+		"parser-7.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0.tgz",
+			"sha": "697655183394facffb063437ddf52c0277698775"
+		},
+		"parser-7.0.0-beta.49.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.49.tgz",
+			"sha": "944d0c5ba2812bb159edbd226743afd265179bdc"
+		},
+		"parser-7.0.0-rc.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.3.tgz",
+			"sha": "859d7b60ef6b939aab5f6d4f4bffbb7bafdc418b"
+		},
+		"parser-7.0.0-beta.48.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.48.tgz",
+			"sha": "f93895cbacee703c0ec98e5af3901c77edd9f1d7"
+		},
+		"parser-7.0.0-rc.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-rc.4.tgz",
+			"sha": "c5c773df2554d76c9fc0a3711c18109fce3f54f5"
+		},
+		"parser-7.0.0-beta.54.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.54.tgz",
+			"sha": "c01aa63b57c9c8dce8744796c81d9df121f20db4"
+		},
+		"parser-7.0.0-beta.53.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.53.tgz",
+			"sha": "1f45eb617bf9463d482b2c04d349d9e4edbf4892"
+		},
+		"parser-7.0.0-beta.52.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.52.tgz",
+			"sha": "4e935b62cd9bf872bd37bcf1f63d82fe7b0237a2"
+		},
+		"parser-7.0.0-beta.51.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.51.tgz",
+			"sha": "27cec2df409df60af58270ed8f6aa55409ea86f6"
+		},
+		"parser-7.0.0-beta.56.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.56.tgz",
+			"sha": "8638aa02e0130cd10b2ba4128e2b804112073ed3"
+		},
+		"parser-7.0.0-beta.55.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.55.tgz",
+			"sha": "0a527efc148c6c8cd85d5ffddacad817a2daeeb2"
+		},
+		"parser-7.0.0-beta.50.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.0.0-beta.50.tgz",
+			"sha": "9ffc59e4ca51df0a6cc8b5d1f22d7e534bb3fa5d"
+		},
+		"parser-7.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.2.3.tgz",
+			"sha": "32f5df65744b70888d17872ec106b02434ba1489"
+		},
+		"parser-7.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.5.tgz",
+			"sha": "20b7d5e7e1811ba996f8a868962ea7dd2bfcd2fc"
+		},
+		"parser-7.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.1.6.tgz",
+			"sha": "16e97aca1ec1062324a01c5a6a7d0df8dd189854"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-fc8d5fae2b8ebd56",
+	"readme": "# @babel/parser\n\n> A JavaScript parser\n\nSee our website [@babel/parser](https://babeljs.io/docs/en/next/babel-parser.html) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20babylon%22+is%3Aopen) associated with this package.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/parser\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/parser --dev\n```"
+}

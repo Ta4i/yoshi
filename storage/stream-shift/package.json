@@ -1,0 +1,80 @@
+{
+	"name": "stream-shift",
+	"versions": {
+		"1.0.0": {
+			"name": "stream-shift",
+			"description": "Returns the next buffer/object in a stream's readable queue",
+			"version": "1.0.0",
+			"author": {
+				"name": "Mathias Buus",
+				"url": "@mafintosh"
+			},
+			"homepage": "https://github.com/mafintosh/stream-shift",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mafintosh/stream-shift.git"
+			},
+			"bugs": {
+				"url": "https://github.com/mafintosh/stream-shift/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/stream-shift/-/stream-shift-1.0.0.tgz",
+				"shasum": "d5c752825e5367e786f78e18e445ea223a155952"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"standard": "^7.1.2",
+				"tape": "^4.6.0",
+				"through2": "^2.0.1"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "mathiasbuus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "standard && tape test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_npmUser": {
+				"name": "mafintosh",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"_id": "stream-shift@1.0.0",
+			"gitHead": "2ea5f7dcd8ac6babb08324e6e603a3269252a2c4",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/stream-shift-1.0.0.tgz_1468011662152_0.6510484367609024"
+			},
+			"_shasum": "d5c752825e5367e786f78e18e445ea223a155952",
+			"_nodeVersion": "4.4.3"
+		}
+	},
+	"time": {
+		"created": "2016-07-08T21:01:04.886Z",
+		"modified": "2016-07-08T21:01:04.886Z",
+		"1.0.0": "2016-07-08T21:01:04.886Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749446925
+		}
+	},
+	"_distfiles": {
+		"stream-shift-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/stream-shift/-/stream-shift-1.0.0.tgz",
+			"sha": "d5c752825e5367e786f78e18e445ea223a155952"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-c45873a5b94f81f4",
+	"readme": "# stream-shift\n\nReturns the next buffer/object in a stream's readable queue\n\n```\nnpm install stream-shift\n```\n\n[![build status](http://img.shields.io/travis/mafintosh/stream-shift.svg?style=flat)](http://travis-ci.org/mafintosh/stream-shift)\n\n## Usage\n\n``` js\nvar shift = require('stream-shift')\n\nconsole.log(shift(someStream)) // first item in its buffer\n```\n\n## Credit\n\nThanks [@dignifiedquire](https://github.com/dignifiedquire) for making this work on node 6\n\n## License\n\nMIT"
+}

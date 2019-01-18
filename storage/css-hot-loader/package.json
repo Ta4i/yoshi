@@ -1,0 +1,1940 @@
+{
+	"name": "css-hot-loader",
+	"versions": {
+		"1.2.0-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.2.0-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.2.0-beta.tgz",
+				"shasum": "c16ce9d607869b12f4ffb0e02093cc1acad3eefd"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.2.0-beta",
+			"gitHead": "05632652afe368ecb6f276caba537fec28f9bb93",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.2.0-beta.tgz_1498218276534_0.3515493895392865"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"1.3.0-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.0-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.0-beta.tgz",
+				"shasum": "ac954016cd19a0e7686384ea24ab8a4115fc8fad"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.0-beta",
+			"gitHead": "6ff5074dc22533fb5ef328c8db1fe5175d0799cc",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.0-beta.tgz_1499049544308_0.3366337001789361"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"1.4.0-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.0-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.0-beta.tgz",
+				"shasum": "dbe0a963ecdb5a50830fd7ed5e27538607ba94d6"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.0-beta",
+			"gitHead": "5a8ac3992739e90b8ec0fda575e18e5c5b28d4e7",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.0-beta_1531290609880_0.9440055342393645"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.2"
+		},
+		"1.1.0-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.0-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta.tgz",
+				"shasum": "638dcd5d6a3ee7ee862a53c4fee7861973fb7817"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.0-beta",
+			"gitHead": "ae6a3507457c136638055008fa70f0e7d56a86d9",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.0-beta.tgz_1494760695610_0.7091216808184981"
+			},
+			"_shasum": "638dcd5d6a3ee7ee862a53c4fee7861973fb7817",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.3.8": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.8",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.8.tgz",
+				"shasum": "edc17f9a24c8e2254c1c570e3779257489aa53f6"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.8",
+			"gitHead": "8461dbe5f187bca0c1a055ce9c01472319d1ce0b",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.3.8_1519881699326_0.9431414950152961"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.3.9": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.9",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.9.tgz",
+				"shasum": "ed22b41126920134a4a2246d7d32113e2425c754"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.9",
+			"gitHead": "6bc0c1df9a05db802542cbe7bdf260cd6557bc63",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.3.9_1522152524674_0.3233703245107564"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.0.4-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.4-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.4-beta.tgz",
+				"shasum": "95864d2e12be42bf68aff84c06a101c6f5bded33"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.4-beta",
+			"gitHead": "810e868a4f2dc53bbbd2bf16811901f617f6d1ab",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.4-beta.tgz_1494757893761_0.5729476304259151"
+			},
+			"_shasum": "95864d2e12be42bf68aff84c06a101c6f5bded33",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.0.2-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.2-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.2-beta.tgz",
+				"shasum": "b417c63e3f73f16341ecfe88c77a7ac86d759e36"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.2-beta",
+			"gitHead": "36fca77953f51b289fbca93d8700d5e67e803ff8",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.2-beta.tgz_1491378300696_0.1835128851234913"
+			},
+			"_shasum": "b417c63e3f73f16341ecfe88c77a7ac86d759e36",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.0.3": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.3",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.3.tgz",
+				"shasum": "d7435a3e561b508d39e9cfb1b0bed6a9a98f770c"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.3",
+			"gitHead": "93a8af6a40d6d551718472ef38647aecb016b2a5",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.3.tgz_1493973831333_0.7881658379919827"
+			},
+			"_shasum": "d7435a3e561b508d39e9cfb1b0bed6a9a98f770c",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.3.0": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.0",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.0.tgz",
+				"shasum": "728c31f11d2d783049995631c5f25325382a7116"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.0",
+			"gitHead": "6b3bc9fadc97334c783aa8bfcb8a7d40c648b7b4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.0.tgz_1499088812584_0.9991829278878868"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"1.0.4": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.4",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.4.tgz",
+				"shasum": "1f3b7f5fc8616305140690ad4673f783159343f4"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.4",
+			"gitHead": "ae6a3507457c136638055008fa70f0e7d56a86d9",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.4.tgz_1494758086176_0.6245522950775921"
+			},
+			"_shasum": "1f3b7f5fc8616305140690ad4673f783159343f4",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.3.1": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.1",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.1.tgz",
+				"shasum": "83be8f11db98f4508ce920367a67772f583cd6b4"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.1",
+			"gitHead": "cf98f563e1f74c9f37590a38016b664dd85b26c9",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.1.tgz_1504512392181_0.5175564647652209"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.4.0": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.0",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.0.tgz",
+				"shasum": "170e8b4bf0708a9f5cfc289e8ee0c268ab9a41bb"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.0",
+			"gitHead": "0a1be904c9e2d9ac23079f739606e99933539f64",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.0_1531291134207_0.8843636029878164"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"1.3.2": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.2",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.2.tgz",
+				"shasum": "c4fb0fb49a5aedba03383db1e32e776cd5ea6998"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.4.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.2",
+			"gitHead": "9e0cbb0b63d79ceba94ec4799d2a47d47fc91f2a",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.2.tgz_1507341144904_0.7992156664840877"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.4.1": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.1",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.1.tgz",
+				"shasum": "d6d4425aa7f65744f1bb60a70e6f7673dd660546"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.1",
+			"gitHead": "2dbc7cc94733f63520ddf2928d1b7bce74ba1715",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.1_1532571277127_0.21891967331591977"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"1.4.2-beta": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.2-beta",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.2-beta.tgz",
+				"shasum": "97e57091841e7dd1ca236ff8542634851f7a27fa"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.2-beta",
+			"gitHead": "2dbc7cc94733f63520ddf2928d1b7bce74ba1715",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.2-beta_1534273506481_0.9532617193338873"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.2"
+		},
+		"1.3.3": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.3",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.3.tgz",
+				"shasum": "6de14efd4a25f4b06e4ad82ae001586993eb7efa"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.3",
+			"gitHead": "aa4552e901813e161c275a6d2a50d880e6df1690",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.3.tgz_1510138947981_0.7673414305318147"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.4.2": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.2",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "https://github.com/shepherdwind/css-hot-loader",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.2.tgz",
+				"shasum": "6fa7ae7b8e309bb8be3b7b586efd702073c68611"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.2",
+			"gitHead": "72dc7fe8858ad6ad95fa2134f3c61451809220b6",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.2_1534274437631_0.9944569498702043"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"1.3.4": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.4",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.4.tgz",
+				"shasum": "cd58b9419cd7ec82350b1d60713d86e480a8b286"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.4",
+			"gitHead": "ac844eec426bdca0923bc3c9c7e50634b67eb9e1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.4.tgz_1511254538401_0.8027141613420099"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.4.3": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.4.3",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "https://github.com/shepherdwind/css-hot-loader",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.3.tgz",
+				"shasum": "69e8256ef85f2b3b3d89e37f7504c6e3431a70c9"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash": "^4.17.5",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.4.3",
+			"gitHead": "ef8506ed97f53d117cd206084cf5e7375db5aa5e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.4.3_1544586598555_0.30716306666536153"
+			},
+			"_nodeVersion": "8.11.2"
+		},
+		"1.3.5": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.5",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.5.tgz",
+				"shasum": "bc070307cc5f881dbaea12bc54d354133d08a28b"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.5",
+			"gitHead": "5ba9dfc0c5c5cddd4b0e399fb23eda44676011d6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.5.tgz_1514077903231_0.8555683782324195"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.3.6": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.6",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.6.tgz",
+				"shasum": "6da65f21ce40920ea2c46a87158c53831b83dcb8"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.6",
+			"gitHead": "fa8fb45f51b82527374d8f461543248ad039f6c5",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.3.6.tgz_1516709722026_0.996719897724688"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.3.7": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.3.7",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.7.tgz",
+				"shasum": "e08a2343d3f5e22043da50d86bbb4310f535be0e"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.1",
+				"jest": "^20.0.4",
+				"strict-uri-encode": "^2.0.0"
+			},
+			"license": "ISC",
+			"files": [
+				"loader.js",
+				"hotModuleReplacement.js",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
+				"ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+				"test": "jest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.3.7",
+			"gitHead": "bbe7ba59686f15e022958188098e28217b2c77d6",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader_1.3.7_1518312758441_0.8435777277394896"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.1.0-beta2": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.0-beta2",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta2.tgz",
+				"shasum": "fb89eaa32c450d11cc44832a07183dcf16ff1bd3"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.0-beta2",
+			"gitHead": "ae6a3507457c136638055008fa70f0e7d56a86d9",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.0-beta2.tgz_1494761877750_0.3415162651799619"
+			},
+			"_shasum": "fb89eaa32c450d11cc44832a07183dcf16ff1bd3",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.1.0-beta1": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.0-beta1",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta1.tgz",
+				"shasum": "cba2fdf84ebfeb727fbf52bf75f7d74952fb1f7d"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.0-beta1",
+			"gitHead": "ae6a3507457c136638055008fa70f0e7d56a86d9",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.0-beta1.tgz_1494760858872_0.5018342081457376"
+			},
+			"_shasum": "cba2fdf84ebfeb727fbf52bf75f7d74952fb1f7d",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.0.0": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.0",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.0.tgz",
+				"shasum": "79d7423c69e238da15e8b059281aa922d0a3255d"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.0.tgz_1485414583676_0.3172935510519892"
+			},
+			"_shasum": "79d7423c69e238da15e8b059281aa922d0a3255d",
+			"_nodeVersion": "6.7.0"
+		},
+		"1.1.0-beta3": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.0-beta3",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta3.tgz",
+				"shasum": "8ee28877a62a7def56e58c8e71fa871215472e51"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.0-beta3",
+			"gitHead": "ae6a3507457c136638055008fa70f0e7d56a86d9",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.0-beta3.tgz_1494762972156_0.701866666553542"
+			},
+			"_shasum": "8ee28877a62a7def56e58c8e71fa871215472e51",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.0.1": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.1",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.1.tgz",
+				"shasum": "1cd21130963b01715c6e9d19161458ef0338f35f"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.1",
+			"gitHead": "36fca77953f51b289fbca93d8700d5e67e803ff8",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.1.tgz_1485416300785_0.6092634482774884"
+			},
+			"_shasum": "1cd21130963b01715c6e9d19161458ef0338f35f",
+			"_nodeVersion": "6.7.0"
+		},
+		"1.1.0": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.0",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0.tgz",
+				"shasum": "10e320ca4e0a59db80ce6376bffec83b31e3a1ab"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.0",
+			"gitHead": "9c8e82ba641523293d623dafdf642181a4485174",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.0.tgz_1494763224770_0.6224727779626846"
+			},
+			"_shasum": "10e320ca4e0a59db80ce6376bffec83b31e3a1ab",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.0.2": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.0.2",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.2.tgz",
+				"shasum": "54cb5dce1da415821fc2b220ca74b1024cb10a08"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.0.2",
+			"gitHead": "36fca77953f51b289fbca93d8700d5e67e803ff8",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.0.2.tgz_1491379176616_0.48102539754472673"
+			},
+			"_shasum": "54cb5dce1da415821fc2b220ca74b1024cb10a08",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.1.1": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.1.1",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.1.tgz",
+				"shasum": "963513165d86e7dbcb928f86938bed6d7f19fc9b"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.1.1",
+			"gitHead": "65b23009bb076d9cbf6f50c553f9ebb0898aa688",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/css-hot-loader-1.1.1.tgz_1495064598219_0.036666593980044127"
+			},
+			"_shasum": "963513165d86e7dbcb928f86938bed6d7f19fc9b",
+			"_nodeVersion": "7.7.1"
+		},
+		"1.2.0": {
+			"name": "css-hot-loader",
+			"description": "css hot reload work with extract-text-webpack-plugin",
+			"version": "1.2.0",
+			"author": {
+				"name": "shepherdwind"
+			},
+			"homepage": "http://git.shepherdwind.com/css-hot-loader/",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/shepherdwind/css-hot-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/shepherdwind/css-hot-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.2.0.tgz",
+				"shasum": "760d3bd828615b893689ac5f5037599b4da30a63"
+			},
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"normalize-url": "^1.9.1"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "shepherdwind",
+					"email": "eward.song@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pub": "npm version patch && npm publish && git push origin && git push origin --tags",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "shepherdwind",
+				"email": "eward.song@gmail.com"
+			},
+			"_id": "css-hot-loader@1.2.0",
+			"gitHead": "7e67948e09283da12b50cd9a53832d1d3c685669",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-hot-loader-1.2.0.tgz_1498218542624_0.47296615480445325"
+			},
+			"_nodeVersion": "8.1.2"
+		}
+	},
+	"time": {
+		"1.2.0-beta": "2017-06-23T11:44:36.620Z",
+		"1.3.0-beta": "2017-07-03T02:39:04.401Z",
+		"1.4.0-beta": "2018-07-11T06:30:09.948Z",
+		"1.1.0-beta": "2017-05-14T11:18:15.860Z",
+		"1.3.8": "2018-03-01T05:21:39.510Z",
+		"1.3.9": "2018-03-27T12:08:44.811Z",
+		"1.0.4-beta": "2017-05-14T10:31:34.010Z",
+		"modified": "2019-01-01T19:18:49.367Z",
+		"created": "2017-01-26T07:09:45.469Z",
+		"1.0.2-beta": "2017-04-05T07:45:02.724Z",
+		"1.0.3": "2017-05-05T08:43:51.627Z",
+		"1.3.0": "2017-07-03T13:33:32.764Z",
+		"1.0.4": "2017-05-14T10:34:48.972Z",
+		"1.3.1": "2017-09-04T08:06:32.273Z",
+		"1.4.0": "2018-07-11T06:38:54.308Z",
+		"1.3.2": "2017-10-07T01:52:24.981Z",
+		"1.4.1": "2018-07-26T02:14:37.218Z",
+		"1.4.2-beta": "2018-08-14T19:05:06.612Z",
+		"1.3.3": "2017-11-08T11:02:28.044Z",
+		"1.4.2": "2018-08-14T19:20:37.690Z",
+		"1.3.4": "2017-11-21T08:55:38.487Z",
+		"1.4.3": "2018-12-12T03:49:58.721Z",
+		"1.3.5": "2017-12-24T01:11:43.296Z",
+		"1.3.6": "2018-01-23T12:15:22.089Z",
+		"1.3.7": "2018-02-11T01:32:38.499Z",
+		"1.1.0-beta2": "2017-05-14T11:38:00.386Z",
+		"1.1.0-beta1": "2017-05-14T11:21:01.289Z",
+		"1.0.0": "2017-01-26T07:09:45.469Z",
+		"1.1.0-beta3": "2017-05-14T11:56:12.402Z",
+		"1.0.1": "2017-01-26T07:38:21.022Z",
+		"1.1.0": "2017-05-14T12:00:26.776Z",
+		"1.0.2": "2017-04-05T07:59:36.856Z",
+		"1.1.1": "2017-05-17T23:43:18.456Z",
+		"1.2.0": "2017-06-23T11:49:02.724Z"
+	},
+	"dist-tags": {
+		"beta": "1.4.2-beta",
+		"latest": "1.4.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749340932
+		}
+	},
+	"_distfiles": {
+		"css-hot-loader-1.2.0-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.2.0-beta.tgz",
+			"sha": "c16ce9d607869b12f4ffb0e02093cc1acad3eefd"
+		},
+		"css-hot-loader-1.3.0-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.0-beta.tgz",
+			"sha": "ac954016cd19a0e7686384ea24ab8a4115fc8fad"
+		},
+		"css-hot-loader-1.4.0-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.0-beta.tgz",
+			"sha": "dbe0a963ecdb5a50830fd7ed5e27538607ba94d6"
+		},
+		"css-hot-loader-1.1.0-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta.tgz",
+			"sha": "638dcd5d6a3ee7ee862a53c4fee7861973fb7817"
+		},
+		"css-hot-loader-1.3.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.8.tgz",
+			"sha": "edc17f9a24c8e2254c1c570e3779257489aa53f6"
+		},
+		"css-hot-loader-1.3.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.9.tgz",
+			"sha": "ed22b41126920134a4a2246d7d32113e2425c754"
+		},
+		"css-hot-loader-1.0.4-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.4-beta.tgz",
+			"sha": "95864d2e12be42bf68aff84c06a101c6f5bded33"
+		},
+		"css-hot-loader-1.0.2-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.2-beta.tgz",
+			"sha": "b417c63e3f73f16341ecfe88c77a7ac86d759e36"
+		},
+		"css-hot-loader-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.3.tgz",
+			"sha": "d7435a3e561b508d39e9cfb1b0bed6a9a98f770c"
+		},
+		"css-hot-loader-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.0.tgz",
+			"sha": "728c31f11d2d783049995631c5f25325382a7116"
+		},
+		"css-hot-loader-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.4.tgz",
+			"sha": "1f3b7f5fc8616305140690ad4673f783159343f4"
+		},
+		"css-hot-loader-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.1.tgz",
+			"sha": "83be8f11db98f4508ce920367a67772f583cd6b4"
+		},
+		"css-hot-loader-1.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.0.tgz",
+			"sha": "170e8b4bf0708a9f5cfc289e8ee0c268ab9a41bb"
+		},
+		"css-hot-loader-1.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.2.tgz",
+			"sha": "c4fb0fb49a5aedba03383db1e32e776cd5ea6998"
+		},
+		"css-hot-loader-1.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.1.tgz",
+			"sha": "d6d4425aa7f65744f1bb60a70e6f7673dd660546"
+		},
+		"css-hot-loader-1.4.2-beta.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.2-beta.tgz",
+			"sha": "97e57091841e7dd1ca236ff8542634851f7a27fa"
+		},
+		"css-hot-loader-1.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.3.tgz",
+			"sha": "6de14efd4a25f4b06e4ad82ae001586993eb7efa"
+		},
+		"css-hot-loader-1.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.2.tgz",
+			"sha": "6fa7ae7b8e309bb8be3b7b586efd702073c68611"
+		},
+		"css-hot-loader-1.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.4.tgz",
+			"sha": "cd58b9419cd7ec82350b1d60713d86e480a8b286"
+		},
+		"css-hot-loader-1.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.4.3.tgz",
+			"sha": "69e8256ef85f2b3b3d89e37f7504c6e3431a70c9"
+		},
+		"css-hot-loader-1.3.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.5.tgz",
+			"sha": "bc070307cc5f881dbaea12bc54d354133d08a28b"
+		},
+		"css-hot-loader-1.3.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.6.tgz",
+			"sha": "6da65f21ce40920ea2c46a87158c53831b83dcb8"
+		},
+		"css-hot-loader-1.3.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.3.7.tgz",
+			"sha": "e08a2343d3f5e22043da50d86bbb4310f535be0e"
+		},
+		"css-hot-loader-1.1.0-beta2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta2.tgz",
+			"sha": "fb89eaa32c450d11cc44832a07183dcf16ff1bd3"
+		},
+		"css-hot-loader-1.1.0-beta1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta1.tgz",
+			"sha": "cba2fdf84ebfeb727fbf52bf75f7d74952fb1f7d"
+		},
+		"css-hot-loader-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.0.tgz",
+			"sha": "79d7423c69e238da15e8b059281aa922d0a3255d"
+		},
+		"css-hot-loader-1.1.0-beta3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0-beta3.tgz",
+			"sha": "8ee28877a62a7def56e58c8e71fa871215472e51"
+		},
+		"css-hot-loader-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.1.tgz",
+			"sha": "1cd21130963b01715c6e9d19161458ef0338f35f"
+		},
+		"css-hot-loader-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.0.tgz",
+			"sha": "10e320ca4e0a59db80ce6376bffec83b31e3a1ab"
+		},
+		"css-hot-loader-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.0.2.tgz",
+			"sha": "54cb5dce1da415821fc2b220ca74b1024cb10a08"
+		},
+		"css-hot-loader-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.1.1.tgz",
+			"sha": "963513165d86e7dbcb928f86938bed6d7f19fc9b"
+		},
+		"css-hot-loader-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/css-hot-loader/-/css-hot-loader-1.2.0.tgz",
+			"sha": "760d3bd828615b893689ac5f5037599b4da30a63"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-96b5bd26e89520fc",
+	"readme": "### CSS Hot Loader\n\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![NPM version][npm-image]][npm-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: http://img.shields.io/npm/v/css-hot-loader.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/css-hot-loader\n[download-image]: https://img.shields.io/npm/dm/css-hot-loader.svg?style=flat-square\n[download-url]: https://npmjs.org/package/css-hot-loader\n[travis-image]: https://img.shields.io/travis/shepherdwind/css-hot-loader.svg?style=flat-square\n[travis-url]: https://travis-ci.org/shepherdwind/css-hot-loader\n[coveralls-image]: https://img.shields.io/coveralls/shepherdwind/css-hot-loader.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/shepherdwind/css-hot-loader?branch=master\n\nThis is a css hot loader, which support hot module replacement for an extracted css file.\n\n### Why we need css hot loader\n\nIn most cases, we can realize css hot reload by [style-loader](https://github.com/webpack/style-loader) . But style-loader need inject style tag into document, Before js ready, the web page will have no any style. That is not good experience.\n\nAlso, a lots of people thought about that, How can realize hot reload with\nextract-text-webpack-plugin. For example [#30](https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/30) , [#!89](https://github.com/webpack-contrib/extract-text-webpack-plugin/pull/89).\n\nSo I wrote this loader, which supports hot module replacement for an extracted css file.\n\n### Install\n\nFirst install package from npm\n\n```sh\n$ npm install css-hot-loader --save-dev\n```\n\nThen config webpack.config.js\n\n```javascript\nmodule: {\n  rules: [\n    {\n      test: /\\.css$/,\n      use: ['css-hot-loader'].concat(ExtractTextPlugin.extract({\n        fallback: 'style-loader',\n        use: 'css-loader'\n      })),\n    },\n  ]\n}\n```\n\n`css-hot-loader` should be the first loader before `extract-text-webpack-plugin`.\n\n### Attention\n\nThis plugin require the output css file name static. If output file name depend\non css content, for example `'bundle.[name].[contenthash].css'`, HMR reload will\nfail, more detail refer to [#21](https://github.com/shepherdwind/css-hot-loader/issues/21).\n\n### webpack 4\n\nThere is an issue to work with webpack4 [#37](https://github.com/shepherdwind/css-hot-loader/issues/37).\nPlease use [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to replace extract-text-webpack-plugin.\nConfig like this:\n\n```javascript\nmodule: {\n  rules: [\n    {\n      test: /\\.css/,\n      use: [\n        'css-hot-loader',\n        MiniCssExtractPlugin.loader,\n        'css-loader',\n      ],\n    },\n  ] // end rules\n},\n```\n\n### webpack 1.x\n\nConfig file example should like this\n\n```javascript\n  module: {\n    loaders: [{\n      test: /\\.less$/,\n      loaders: [\n        'css-hot-loader',\n        'extract-text-webpack-plugin',\n        'less',\n        ...\n       ],\n      include: path.join(__dirname, 'src')\n    }]\n  }\n```\n\n### options\n\n#### fileMap\n\nOption to define you css file reload rule. Since 1.1.0 .\n\nFor example `'css-hot-loader?fileMap='../css/{fileName}'` , which mean\n\n```\njs/foo.js => css/foo.css\n```\n\nDefault value is `{fileName}`.\n\nsee [#3](https://github.com/shepherdwind/css-hot-loader/issues/3).\n\n#### reloadAll\n\nForce reload all css file.\n\n#### cssModule\n\nWhen this option is opened, every time you modify the css file, the js file will\nreload too. Default closed, this option use with css module.\n\nsee [!47](https://github.com/shepherdwind/css-hot-loader/pull/47) and [!51](https://github.com/shepherdwind/css-hot-loader/pull/51)\n\n### How\n\n\nThe realization principle of this loader is very simple. There are some assumed condition:\n\n1. css required by js , so css also be a js file\n2. The name of css file, which need hot reload , is the same as js file excuted.\n\nThe secend assumption is often established. If you use extract-text-webpack-plugin , entry `foo.js` will extract css file `foo.css`. This principle will help us to locate the url of css file extracted.\n\nBecause every css file will be a js module , every css file change can affect a module change. CSS hot loader will accept this kind change, then find extracted css file by `document.currentScript`.\n\nSo when a css file changed, We just need find which css file link element, and reload css file.\n\n### License\n\n(The MIT License)"
+}

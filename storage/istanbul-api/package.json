@@ -1,0 +1,4057 @@
+{
+	"name": "istanbul-api",
+	"versions": {
+		"1.1.0-candidate.0": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.0-candidate.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0-candidate.0.tgz",
+				"shasum": "1b4d3f12baac020f3d172bb0a89970d65794aa53"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.0-alpha.4",
+				"istanbul-lib-instrument": "^1.3.0",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3",
+				"standard-version": "^4.0.0"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both node_modules/mocha/bin/_mocha -- --slow 2000 -t 10000 test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80",
+				"release": "standard-version"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.0-candidate.0",
+			"gitHead": "fab65216f37eec3a2a84f5595b242999f3e75cbb",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.0-candidate.0.tgz_1482120933211_0.3677718909457326"
+			},
+			"_shasum": "1b4d3f12baac020f3d172bb0a89970d65794aa53",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.1.0-alpha.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.0-alpha.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0-alpha.1.tgz",
+				"shasum": "74f1e7ac07285c3d29ad97af22d9c8e337bd0ab4"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.1.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 2000 -t 5000 test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.1.0-alpha.1",
+			"gitHead": "111c18926a7f66602af0cc4f83ed582aa5da98b3",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.0-alpha.1.tgz_1466823862611_0.6183464610949159"
+			},
+			"_shasum": "74f1e7ac07285c3d29ad97af22d9c8e337bd0ab4",
+			"_nodeVersion": "0.10.45"
+		},
+		"1.0.0-alpha.13": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.13",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.13.tgz",
+				"shasum": "d4258bdfcb08d5a17baafda6d79488dd7f8dc80e"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.13",
+			"gitHead": "929abf6922e21eebcea694e9f8b0058fbfb207d7",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.0.0-alpha.13.tgz_1456418505893_0.8505814436357468"
+			},
+			"_shasum": "d4258bdfcb08d5a17baafda6d79488dd7f8dc80e",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.1.13": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.13",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.13.tgz",
+				"shasum": "7197f64413600ebdfec6347a2dc3d4e03f97ed5a"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.7.5",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.2",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.13",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.13.tgz_1503706441298_0.020627656253054738"
+			},
+			"_shasum": "7197f64413600ebdfec6347a2dc3d4e03f97ed5a",
+			"_nodeVersion": "8.3.0"
+		},
+		"2.0.0": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.0.tgz",
+				"shasum": "83de2070df9ede4dd30a8a1fd0399092e9c422f8"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.0",
+				"istanbul-lib-hook": "^1.2.1",
+				"istanbul-lib-instrument": "^2.2.0",
+				"istanbul-lib-report": "^2.0.0",
+				"istanbul-lib-source-maps": "^2.0.0",
+				"istanbul-reports": "^1.5.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.0_1528246233334_0.1707050077830803"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"1.0.0-alpha.14": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.14",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.14.tgz",
+				"shasum": "0a043601fa63fa093c4cf0e01c33f04be6a63d26"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.14",
+			"gitHead": "56d304abfb026d7c996306a610bd7fe993107aad",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.0.0-alpha.14.tgz_1466732796754_0.22952058212831616"
+			},
+			"_shasum": "0a043601fa63fa093c4cf0e01c33f04be6a63d26",
+			"_nodeVersion": "6.2.1"
+		},
+		"1.1.14": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.14",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.14.tgz",
+				"shasum": "25bc5701f7c680c0ffff913de46e3619a3a6e680"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.8.0",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.2",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.14",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.14.tgz_1504571975734_0.7523702369071543"
+			},
+			"_shasum": "25bc5701f7c680c0ffff913de46e3619a3a6e680",
+			"_nodeVersion": "7.1.0"
+		},
+		"2.0.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.1.tgz",
+				"shasum": "a05e5c8bc2a0cd4b5bf827b80cc1d055eba28740"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.0",
+				"istanbul-lib-hook": "^2.0.0",
+				"istanbul-lib-instrument": "^2.2.0",
+				"istanbul-lib-report": "^2.0.0",
+				"istanbul-lib-source-maps": "^2.0.0",
+				"istanbul-reports": "^1.5.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.1_1528306238338_0.8466245053037316"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"1.0.0-alpha.12": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.12",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.12.tgz",
+				"shasum": "986b650f656563e62828d44569b0bcd6a0cc150f"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.12",
+			"gitHead": "c261d1e28d8f2b2c4acfd196e73dbf431f4b687d",
+			"_shasum": "986b650f656563e62828d44569b0bcd6a0cc150f",
+			"_nodeVersion": "4.2.1"
+		},
+		"1.1.10": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.10",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.10.tgz",
+				"shasum": "f27e5e7125c8de13f6a80661af78f512e5439b2b"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.7.3",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.10",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.10.tgz_1498415123106_0.8078347719274461"
+			},
+			"_shasum": "f27e5e7125c8de13f6a80661af78f512e5439b2b",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.1.11": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.11",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.11.tgz",
+				"shasum": "fcc0b461e2b3bda71e305155138238768257d9de"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.7.4",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.11",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.11.tgz_1500231512803_0.14613579958677292"
+			},
+			"_shasum": "fcc0b461e2b3bda71e305155138238768257d9de",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.1.12": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.12",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.12.tgz",
+				"shasum": "92d67e9d8f9ea87349a64a70ddf5a7a8cdf97f21"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.7.5",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.12",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.12.tgz_1503511286293_0.6482374286279082"
+			},
+			"_shasum": "92d67e9d8f9ea87349a64a70ddf5a7a8cdf97f21",
+			"_nodeVersion": "8.3.0"
+		},
+		"2.0.8": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.8",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.8.tgz",
+				"shasum": "5621503c5595e5adbbacd5ce257090417c7f55da"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.2",
+				"istanbul-lib-hook": "^2.0.2",
+				"istanbul-lib-instrument": "^3.0.1",
+				"istanbul-lib-report": "^2.0.3",
+				"istanbul-lib-source-maps": "^3.0.1",
+				"istanbul-reports": "^2.0.3",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.8",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.8_1545698290500_0.51687629503229"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "11.5.0"
+		},
+		"2.0.6": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.6",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.6.tgz",
+				"shasum": "cd7b33ee678f6c01531d05f5e567ebbcd25f8ecc"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.1",
+				"istanbul-lib-hook": "^2.0.1",
+				"istanbul-lib-instrument": "^3.0.0",
+				"istanbul-lib-report": "^2.0.2",
+				"istanbul-lib-source-maps": "^2.0.1",
+				"istanbul-reports": "^2.0.1",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"_id": "istanbul-api@2.0.6",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.6_1536195457635_0.6762882781776487"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.0-alpha.3": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.3.tgz",
+				"shasum": "24716ff2f83f10698dd7282221e6e2d57ea72bfb"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.3",
+			"gitHead": "43c36b52a022947eb9bd9e7b8303e3ba3e770d02",
+			"_shasum": "24716ff2f83f10698dd7282221e6e2d57ea72bfb"
+		},
+		"2.0.7": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.7",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.7.tgz",
+				"shasum": "1a441c4fa61cd6e4291f54a38647022affea126e"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.1",
+				"istanbul-lib-hook": "^2.0.1",
+				"istanbul-lib-instrument": "^3.0.0",
+				"istanbul-lib-report": "^2.0.2",
+				"istanbul-lib-source-maps": "^3.0.0",
+				"istanbul-reports": "^2.0.2",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.7",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.7_1545192689016_0.6893286709513169"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.11.0"
+		},
+		"1.0.0-alpha.4": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.4.tgz",
+				"shasum": "7525bd7ed6afacc6ef51156a7b44365fdad454a8"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.4",
+			"gitHead": "368e2541f98501d36e7e20290f0f4d55fc34d512",
+			"_shasum": "7525bd7ed6afacc6ef51156a7b44365fdad454a8",
+			"_nodeVersion": "0.10.26"
+		},
+		"2.0.4": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.4.tgz",
+				"shasum": "b51fdee4bec0720a84447d4fae9de7f7bfdf4846"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.1",
+				"istanbul-lib-hook": "^2.0.1",
+				"istanbul-lib-instrument": "^2.3.1",
+				"istanbul-lib-report": "^2.0.1",
+				"istanbul-lib-source-maps": "^2.0.1",
+				"istanbul-reports": "^2.0.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.4_1530990029609_0.7302062363789823"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"1.0.0-alpha.5": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.5",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.5.tgz",
+				"shasum": "40d818f74a4495ca0595f2685af34e8ea9dc0300"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.5",
+			"gitHead": "8a8d32a49d4917d11afbfb06dfe3f903a8708dde",
+			"_shasum": "40d818f74a4495ca0595f2685af34e8ea9dc0300",
+			"_nodeVersion": "0.10.26"
+		},
+		"1.0.0-alpha.10": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.10",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.10.tgz",
+				"shasum": "17c4ee4cbf1c948971c1e97fef28bd8b83a2c243"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.10",
+			"gitHead": "d4062233e1750975a7eb9b0ab744dbd417e1710c",
+			"_shasum": "17c4ee4cbf1c948971c1e97fef28bd8b83a2c243",
+			"_nodeVersion": "4.2.1"
+		},
+		"2.0.5": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.5",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.5.tgz",
+				"shasum": "f1c8781d66897b54f22db3317719d11d473e7ebd"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.1",
+				"istanbul-lib-hook": "^2.0.1",
+				"istanbul-lib-instrument": "^2.3.2",
+				"istanbul-lib-report": "^2.0.1",
+				"istanbul-lib-source-maps": "^2.0.1",
+				"istanbul-reports": "^2.0.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"_id": "istanbul-api@2.0.5",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.5_1532470596392_0.38468254001230484"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.6.0"
+		},
+		"1.0.0-alpha.6": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.6",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.6.tgz",
+				"shasum": "eff027a566670a0b8f7e4f54576adc3ecac9a187"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.6",
+			"gitHead": "85685adbc6f996e1b978b9711fd3aa2c98ebe253",
+			"_shasum": "eff027a566670a0b8f7e4f54576adc3ecac9a187",
+			"_nodeVersion": "0.10.26"
+		},
+		"2.0.2": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.2.tgz",
+				"shasum": "8f89775826b7e7ed033d05abc8a59af7c088e109"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.0",
+				"istanbul-lib-hook": "^2.0.0",
+				"istanbul-lib-instrument": "^2.2.1",
+				"istanbul-lib-report": "^2.0.0",
+				"istanbul-lib-source-maps": "^2.0.0",
+				"istanbul-reports": "^1.5.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.2_1529991345662_0.5059684569887035"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"2.0.3": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "2.0.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.3.tgz",
+				"shasum": "c2dca07faa24a77fdc5cb4e665881c47b027a157"
+			},
+			"dependencies": {
+				"async": "^2.6.1",
+				"compare-versions": "^3.2.1",
+				"fileset": "^2.0.3",
+				"istanbul-lib-coverage": "^2.0.0",
+				"istanbul-lib-hook": "^2.0.0",
+				"istanbul-lib-instrument": "^2.3.0",
+				"istanbul-lib-report": "^2.0.0",
+				"istanbul-lib-source-maps": "^2.0.0",
+				"istanbul-reports": "^1.5.0",
+				"js-yaml": "^3.12.0",
+				"make-dir": "^1.3.0",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"is-windows": "^1.0.2",
+				"jshint": "^2.9.5",
+				"memory-streams": "^0.1.3",
+				"mocha": "^5.2.0",
+				"rimraf": "^2.6.2"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0-next.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@2.0.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_2.0.3_1530059225024_0.33376972031961594"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.4.0"
+		},
+		"1.0.0-alpha.8": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.8",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.8.tgz",
+				"shasum": "9c2a66faf83c2e86e5f186feae87b07e57b5c206"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.8",
+			"gitHead": "55e9cdfdf6884c98fa69cdf1c205430893adbb90",
+			"_shasum": "9c2a66faf83c2e86e5f186feae87b07e57b5c206",
+			"_nodeVersion": "4.2.1"
+		},
+		"1.2.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.2.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.1.tgz",
+				"shasum": "0c60a0515eb11c7d65c6b50bba2c6e999acd8620"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.1.0",
+				"istanbul-lib-instrument": "^1.9.1",
+				"istanbul-lib-report": "^1.1.2",
+				"istanbul-lib-source-maps": "^1.2.2",
+				"istanbul-reports": "^1.1.3",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.2.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.2.1.tgz_1508687630241_0.8798999525606632"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"1.3.0": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.0.tgz",
+				"shasum": "5018c1141bb9a2a326d1a15a089f4ef54b9c4d4a"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^1.10.0",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.4",
+				"istanbul-reports": "^1.2.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.0_1520188986246_0.42673730615178096"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.8.1"
+		},
+		"1.0.0-alpha.9": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-alpha.9",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.9.tgz",
+				"shasum": "084128933744888cef239df311f89ebc2b30f38f"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-alpha.9",
+			"gitHead": "148726aab722af9a639aa43864a2912fcbda2fe6",
+			"_shasum": "084128933744888cef239df311f89ebc2b30f38f",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.1.3": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.3.tgz",
+				"shasum": "e78b7f407613477846d81b5ea72f5a1bfe79cd28"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.2",
+				"istanbul-lib-instrument": "^1.6.0",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.3",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.3.tgz_1490076923085_0.7518928174395114"
+			},
+			"_shasum": "e78b7f407613477846d81b5ea72f5a1bfe79cd28",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.2.2": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.2.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.2.tgz",
+				"shasum": "e17cd519dd5ec4141197f246fdf380b75487f3b1"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.2",
+				"istanbul-lib-hook": "^1.1.0",
+				"istanbul-lib-instrument": "^1.9.2",
+				"istanbul-lib-report": "^1.1.3",
+				"istanbul-lib-source-maps": "^1.2.3",
+				"istanbul-reports": "^1.1.4",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.2.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.2.2_1518500926231_0.8604004715612119"
+			},
+			"_nodeVersion": "8.8.1"
+		},
+		"1.3.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.1.tgz",
+				"shasum": "4c3b05d18c0016d1022e079b98dc82c40f488954"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^1.10.1",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.4",
+				"istanbul-reports": "^1.3.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.1_1520633663398_0.5630709903434512"
+			},
+			"_nodeVersion": "8.8.1"
+		},
+		"1.1.4": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.4.tgz",
+				"shasum": "e70d288cb63a838ab768e562894562d46ff23063"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.3",
+				"istanbul-lib-instrument": "^1.6.1",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.4.tgz_1490077613212_0.10257196892052889"
+			},
+			"_shasum": "e70d288cb63a838ab768e562894562d46ff23063",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.3.2": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.2",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.2.tgz",
+				"shasum": "b2cfe6d15ae6a28ee282e7a823b8e9faa235e6cf"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^1.10.1",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.4",
+				"istanbul-reports": "^1.4.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.2_1523988251349_0.6881341352595485"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.4.0"
+		},
+		"1.1.5": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.5",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.5.tgz",
+				"shasum": "3ddb38f11183196da8f6e5c90c938cd3917b16a7"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.4",
+				"istanbul-lib-instrument": "^1.6.1",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.5",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.5.tgz_1490081552807_0.27779580373317003"
+			},
+			"_shasum": "3ddb38f11183196da8f6e5c90c938cd3917b16a7",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.3.3": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.3",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.3.tgz",
+				"shasum": "c88de4b84dd55aaff62d461e5b2d5ddca34287b2"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^2.0.0",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.5",
+				"istanbul-reports": "^1.4.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.3",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.3_1527727086437_0.9852190857810001"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.0.0"
+		},
+		"1.1.6": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.6",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.6.tgz",
+				"shasum": "23aa5b5b9b1b3bdbb786f039160e91acbe495433"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.4",
+				"istanbul-lib-instrument": "^1.6.2",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.6.tgz_1490198158217_0.7277407785877585"
+			},
+			"_shasum": "23aa5b5b9b1b3bdbb786f039160e91acbe495433",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.3.4": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.4",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.4.tgz",
+				"shasum": "ac931d435a8aff4eba24d6b66e0c54d91e0e9fd1"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^2.0.1",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.5",
+				"istanbul-reports": "^1.4.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.4",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.4_1527727351296_0.5977192234585524"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.0.0"
+		},
+		"1.1.7": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.7",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.7.tgz",
+				"shasum": "f6f37f09f8002b130f891c646b70ee4a8e7345ae"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.2",
+				"istanbul-lib-hook": "^1.0.5",
+				"istanbul-lib-instrument": "^1.7.0",
+				"istanbul-lib-report": "^1.0.0",
+				"istanbul-lib-source-maps": "^1.1.1",
+				"istanbul-reports": "^1.0.2",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.7",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.7.tgz_1490593894659_0.6091855948325247"
+			},
+			"_shasum": "f6f37f09f8002b130f891c646b70ee4a8e7345ae",
+			"_nodeVersion": "6.9.5"
+		},
+		"1.3.5": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.5",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.5.tgz",
+				"shasum": "230fd99f05bc65e5f1e31e32484bb56ea986e0b7"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^2.0.2",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.5",
+				"istanbul-reports": "^1.4.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.5",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.5_1527744764181_0.16528575087467723"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.2.1"
+		},
+		"1.1.8": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.8",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.8.tgz",
+				"shasum": "a844e55c6f9aeee292e7f42942196f60b23dc93e"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.0",
+				"istanbul-lib-hook": "^1.0.6",
+				"istanbul-lib-instrument": "^1.7.1",
+				"istanbul-lib-report": "^1.1.0",
+				"istanbul-lib-source-maps": "^1.2.0",
+				"istanbul-reports": "^1.1.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.8",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.8.tgz_1493442017507_0.2557179951108992"
+			},
+			"_shasum": "a844e55c6f9aeee292e7f42942196f60b23dc93e",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.3.6": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.6",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.6.tgz",
+				"shasum": "0c695f17e533131de8c49e0657175dcfd8af8a8f"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"compare-versions": "^3.1.0",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.0",
+				"istanbul-lib-hook": "^1.2.0",
+				"istanbul-lib-instrument": "^2.1.0",
+				"istanbul-lib-report": "^1.1.4",
+				"istanbul-lib-source-maps": "^1.2.5",
+				"istanbul-reports": "^1.4.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.1.0-next.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.3.6",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.6_1527808761640_0.08791826071417508"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.4.0"
+		},
+		"1.1.9": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.9",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.9.tgz",
+				"shasum": "2827920d380d4286d857d57a2968a841db8a7ec8"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.0.7",
+				"istanbul-lib-instrument": "^1.7.2",
+				"istanbul-lib-report": "^1.1.1",
+				"istanbul-lib-source-maps": "^1.2.1",
+				"istanbul-reports": "^1.1.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.0.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.9",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.1.9.tgz_1495919587783_0.5456648760009557"
+			},
+			"_nodeVersion": "7.1.0"
+		},
+		"1.3.7": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.3.7",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.7.tgz",
+				"shasum": "a86c770d2b03e11e3f778cd7aedd82d2722092aa"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.2.1",
+				"istanbul-lib-hook": "^1.2.2",
+				"istanbul-lib-instrument": "^1.10.2",
+				"istanbul-lib-report": "^1.1.5",
+				"istanbul-lib-source-maps": "^1.2.6",
+				"istanbul-reports": "^1.5.1",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "kananthmail-github@yahoo.com",
+					"name": "gotwarlost"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"_id": "istanbul-api@1.3.7",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api_1.3.7_1536186520105_0.588292873258379"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.0-aplha.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-aplha.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-aplha.1.tgz",
+				"shasum": "3fa47f44acd58d52c6764218f5f7ef453fc50f5c"
+			},
+			"dependencies": {
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"async": "1.x",
+				"fileset": "0.2.x",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover --include-all-sources --print=both _mocha --  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-aplha.1",
+			"gitHead": "0fdefa1c7dab9c3da4b35774d69e4d3ee5a3463e",
+			"_shasum": "3fa47f44acd58d52c6764218f5f7ef453fc50f5c",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.1.0": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0.tgz",
+				"shasum": "fb3f62edd5bfc6ae09da09453ded6e10ae7e483b"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.0-alpha.4",
+				"istanbul-lib-instrument": "^1.3.0",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3",
+				"standard-version": "^4.0.0"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both node_modules/mocha/bin/_mocha -- --slow 2000 -t 10000 test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80",
+				"release": "standard-version"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.0",
+			"gitHead": "3c6abe739c6dd32bdb3121c5213b8524cbce19aa",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.0.tgz_1482823996083_0.6799847828224301"
+			},
+			"_shasum": "fb3f62edd5bfc6ae09da09453ded6e10ae7e483b",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.0.0-aplha.10": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.0.0-aplha.10",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-aplha.10.tgz",
+				"shasum": "902edf5cf5404e0eba7e00ef46408488a0d3e337"
+			},
+			"dependencies": {
+				"async": "1.x",
+				"clone": "^1.0.2",
+				"fileset": "0.2.x",
+				"istanbul-lib-coverage": "^1.0.0-alpha",
+				"istanbul-lib-hook": "^1.0.0-alpha",
+				"istanbul-lib-instrument": "^1.0.0-alpha",
+				"istanbul-lib-report": "^1.0.0-alpha",
+				"istanbul-lib-source-maps": "^1.0.0-alpha",
+				"istanbul-reports": "^1.0.0-alpha",
+				"js-yaml": "3.x",
+				"mkdirp": "0.5.x",
+				"once": "1.x"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^2.3.3",
+				"rimraf": "^2.4.3"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both _mocha -- --slow 1000  test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_npmUser": {
+				"name": "gotwarlost",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"_id": "istanbul-api@1.0.0-aplha.10",
+			"gitHead": "d4062233e1750975a7eb9b0ab744dbd417e1710c",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.0.0-aplha.10.tgz_1466876888469_0.391846815822646"
+			},
+			"_shasum": "902edf5cf5404e0eba7e00ef46408488a0d3e337",
+			"_nodeVersion": "6.2.1"
+		},
+		"1.1.1": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.1.1",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbul-api#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbul-api.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbul-api/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.1.tgz",
+				"shasum": "d36e2f1560d1a43ce304c4ff7338182de61c8f73"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.0.0",
+				"istanbul-lib-hook": "^1.0.0",
+				"istanbul-lib-instrument": "^1.3.0",
+				"istanbul-lib-report": "^1.0.0-alpha.3",
+				"istanbul-lib-source-maps": "^1.1.0",
+				"istanbul-reports": "^1.0.0",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"coveralls": "^2.11.4",
+				"istanbul": "^0.4.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.4.3",
+				"standard-version": "^4.0.0"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000 test/",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "istanbul cover -x 'docs/**' --include-all-sources --print=both node_modules/mocha/bin/_mocha -- --slow 2000 -t 10000 test/",
+				"xposttest": "istanbul check-coverage --statements 95 --branches 80",
+				"release": "standard-version"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.1.1",
+			"gitHead": "f14f5105878509cc0b6ffce896e53c13694b5058",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/istanbul-api-1.1.1.tgz_1484629990109_0.11625517229549587"
+			},
+			"_shasum": "d36e2f1560d1a43ce304c4ff7338182de61c8f73",
+			"_nodeVersion": "7.1.0"
+		},
+		"1.2.0": {
+			"name": "istanbul-api",
+			"description": "High level API for istanbul features",
+			"version": "1.2.0",
+			"author": {
+				"name": "Krishnan Anantheswaran",
+				"email": "kananthmail-github@yahoo.com"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.0.tgz",
+				"shasum": "1d8b692d7bc98a515050d1e5278883758ca2d6ad"
+			},
+			"dependencies": {
+				"async": "^2.1.4",
+				"fileset": "^2.0.2",
+				"istanbul-lib-coverage": "^1.1.1",
+				"istanbul-lib-hook": "^1.1.0",
+				"istanbul-lib-instrument": "^1.9.0",
+				"istanbul-lib-report": "^1.1.2",
+				"istanbul-lib-source-maps": "^1.2.2",
+				"istanbul-reports": "^1.1.3",
+				"js-yaml": "^3.7.0",
+				"mkdirp": "^0.5.1",
+				"once": "^1.4.0"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"is-windows": "^1.0.0",
+				"jshint": "^2.8.0",
+				"memory-streams": "^0.1.0",
+				"mocha": "^3.1.2",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"istanbul",
+				"api"
+			],
+			"license": "BSD-3-Clause",
+			"files": [
+				"lib",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "gotwarlost",
+					"email": "kananthmail-github@yahoo.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"fast": "mocha --slow 1000",
+				"pretest": "jshint index.js lib/ test/",
+				"test": "mocha"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"_id": "istanbul-api@1.2.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/istanbul-api-1.2.0.tgz_1508612378607_0.5138360909186304"
+			},
+			"_nodeVersion": "8.7.0"
+		}
+	},
+	"time": {
+		"1.1.0-candidate.0": "2016-12-19T04:15:35.268Z",
+		"1.1.0-alpha.1": "2016-06-25T03:04:26.813Z",
+		"modified": "2019-01-04T05:45:25.274Z",
+		"1.1.13": "2017-08-26T00:14:01.497Z",
+		"1.1.14": "2017-09-05T00:39:35.840Z",
+		"1.1.10": "2017-06-25T18:25:24.113Z",
+		"created": "2015-11-22T07:36:37.368Z",
+		"1.1.11": "2017-07-16T18:58:32.905Z",
+		"1.1.12": "2017-08-23T18:01:26.378Z",
+		"1.3.0": "2018-03-04T18:43:06.298Z",
+		"1.1.3": "2017-03-21T06:15:23.310Z",
+		"1.3.1": "2018-03-09T22:14:23.497Z",
+		"1.1.4": "2017-03-21T06:26:55.018Z",
+		"1.3.2": "2018-04-17T18:04:11.483Z",
+		"1.1.5": "2017-03-21T07:32:33.373Z",
+		"1.3.3": "2018-05-31T00:38:06.567Z",
+		"1.1.6": "2017-03-22T15:55:58.447Z",
+		"1.3.4": "2018-05-31T00:42:31.549Z",
+		"1.1.7": "2017-03-27T05:51:36.432Z",
+		"1.3.5": "2018-05-31T05:32:44.284Z",
+		"1.1.8": "2017-04-29T05:00:18.086Z",
+		"1.3.6": "2018-05-31T23:19:21.732Z",
+		"1.1.9": "2017-05-27T21:13:07.954Z",
+		"1.3.7": "2018-09-05T22:28:40.284Z",
+		"1.1.0": "2016-12-27T07:33:18.562Z",
+		"1.0.0-aplha.10": "2016-06-25T17:48:12.248Z",
+		"1.1.1": "2017-01-17T05:13:11.992Z",
+		"1.0.0-alpha.13": "2016-02-25T16:41:48.372Z",
+		"2.0.0": "2018-06-06T00:50:33.457Z",
+		"1.0.0-alpha.14": "2016-06-24T01:46:37.260Z",
+		"2.0.1": "2018-06-06T17:30:38.391Z",
+		"1.0.0-alpha.12": "2016-01-25T17:11:11.314Z",
+		"2.0.8": "2018-12-25T00:38:10.633Z",
+		"2.0.6": "2018-09-06T00:57:37.822Z",
+		"1.0.0-alpha.3": "2015-11-24T21:40:35.948Z",
+		"2.0.7": "2018-12-19T04:11:29.437Z",
+		"1.0.0-alpha.4": "2015-11-26T08:23:10.849Z",
+		"2.0.4": "2018-07-07T19:00:29.695Z",
+		"1.0.0-alpha.5": "2015-11-27T00:26:31.805Z",
+		"1.0.0-alpha.10": "2016-01-25T01:58:25.917Z",
+		"2.0.5": "2018-07-24T22:16:37.062Z",
+		"1.0.0-alpha.6": "2015-11-28T08:46:38.969Z",
+		"2.0.2": "2018-06-26T05:35:46.162Z",
+		"2.0.3": "2018-06-27T00:27:05.111Z",
+		"1.0.0-alpha.8": "2015-12-03T05:46:38.913Z",
+		"1.2.1": "2017-10-22T15:53:50.327Z",
+		"1.0.0-alpha.9": "2016-01-11T07:11:35.137Z",
+		"1.2.2": "2018-02-13T05:48:46.276Z",
+		"1.0.0-aplha.1": "2015-11-22T07:36:37.368Z",
+		"1.2.0": "2017-10-21T18:59:38.714Z"
+	},
+	"dist-tags": {
+		"next": "2.0.8",
+		"latest": "2.0.6"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749396137
+		}
+	},
+	"_distfiles": {
+		"istanbul-api-1.1.0-candidate.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0-candidate.0.tgz",
+			"sha": "1b4d3f12baac020f3d172bb0a89970d65794aa53"
+		},
+		"istanbul-api-1.1.0-alpha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0-alpha.1.tgz",
+			"sha": "74f1e7ac07285c3d29ad97af22d9c8e337bd0ab4"
+		},
+		"istanbul-api-1.0.0-alpha.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.13.tgz",
+			"sha": "d4258bdfcb08d5a17baafda6d79488dd7f8dc80e"
+		},
+		"istanbul-api-1.1.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.13.tgz",
+			"sha": "7197f64413600ebdfec6347a2dc3d4e03f97ed5a"
+		},
+		"istanbul-api-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.0.tgz",
+			"sha": "83de2070df9ede4dd30a8a1fd0399092e9c422f8"
+		},
+		"istanbul-api-1.0.0-alpha.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.14.tgz",
+			"sha": "0a043601fa63fa093c4cf0e01c33f04be6a63d26"
+		},
+		"istanbul-api-1.1.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.14.tgz",
+			"sha": "25bc5701f7c680c0ffff913de46e3619a3a6e680"
+		},
+		"istanbul-api-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.1.tgz",
+			"sha": "a05e5c8bc2a0cd4b5bf827b80cc1d055eba28740"
+		},
+		"istanbul-api-1.0.0-alpha.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.12.tgz",
+			"sha": "986b650f656563e62828d44569b0bcd6a0cc150f"
+		},
+		"istanbul-api-1.1.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.10.tgz",
+			"sha": "f27e5e7125c8de13f6a80661af78f512e5439b2b"
+		},
+		"istanbul-api-1.1.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.11.tgz",
+			"sha": "fcc0b461e2b3bda71e305155138238768257d9de"
+		},
+		"istanbul-api-1.1.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.12.tgz",
+			"sha": "92d67e9d8f9ea87349a64a70ddf5a7a8cdf97f21"
+		},
+		"istanbul-api-2.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.8.tgz",
+			"sha": "5621503c5595e5adbbacd5ce257090417c7f55da"
+		},
+		"istanbul-api-2.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.6.tgz",
+			"sha": "cd7b33ee678f6c01531d05f5e567ebbcd25f8ecc"
+		},
+		"istanbul-api-1.0.0-alpha.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.3.tgz",
+			"sha": "24716ff2f83f10698dd7282221e6e2d57ea72bfb"
+		},
+		"istanbul-api-2.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.7.tgz",
+			"sha": "1a441c4fa61cd6e4291f54a38647022affea126e"
+		},
+		"istanbul-api-1.0.0-alpha.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.4.tgz",
+			"sha": "7525bd7ed6afacc6ef51156a7b44365fdad454a8"
+		},
+		"istanbul-api-2.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.4.tgz",
+			"sha": "b51fdee4bec0720a84447d4fae9de7f7bfdf4846"
+		},
+		"istanbul-api-1.0.0-alpha.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.5.tgz",
+			"sha": "40d818f74a4495ca0595f2685af34e8ea9dc0300"
+		},
+		"istanbul-api-1.0.0-alpha.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.10.tgz",
+			"sha": "17c4ee4cbf1c948971c1e97fef28bd8b83a2c243"
+		},
+		"istanbul-api-2.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.5.tgz",
+			"sha": "f1c8781d66897b54f22db3317719d11d473e7ebd"
+		},
+		"istanbul-api-1.0.0-alpha.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.6.tgz",
+			"sha": "eff027a566670a0b8f7e4f54576adc3ecac9a187"
+		},
+		"istanbul-api-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.2.tgz",
+			"sha": "8f89775826b7e7ed033d05abc8a59af7c088e109"
+		},
+		"istanbul-api-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-2.0.3.tgz",
+			"sha": "c2dca07faa24a77fdc5cb4e665881c47b027a157"
+		},
+		"istanbul-api-1.0.0-alpha.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.8.tgz",
+			"sha": "9c2a66faf83c2e86e5f186feae87b07e57b5c206"
+		},
+		"istanbul-api-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.1.tgz",
+			"sha": "0c60a0515eb11c7d65c6b50bba2c6e999acd8620"
+		},
+		"istanbul-api-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.0.tgz",
+			"sha": "5018c1141bb9a2a326d1a15a089f4ef54b9c4d4a"
+		},
+		"istanbul-api-1.0.0-alpha.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-alpha.9.tgz",
+			"sha": "084128933744888cef239df311f89ebc2b30f38f"
+		},
+		"istanbul-api-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.3.tgz",
+			"sha": "e78b7f407613477846d81b5ea72f5a1bfe79cd28"
+		},
+		"istanbul-api-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.2.tgz",
+			"sha": "e17cd519dd5ec4141197f246fdf380b75487f3b1"
+		},
+		"istanbul-api-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.1.tgz",
+			"sha": "4c3b05d18c0016d1022e079b98dc82c40f488954"
+		},
+		"istanbul-api-1.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.4.tgz",
+			"sha": "e70d288cb63a838ab768e562894562d46ff23063"
+		},
+		"istanbul-api-1.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.2.tgz",
+			"sha": "b2cfe6d15ae6a28ee282e7a823b8e9faa235e6cf"
+		},
+		"istanbul-api-1.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.5.tgz",
+			"sha": "3ddb38f11183196da8f6e5c90c938cd3917b16a7"
+		},
+		"istanbul-api-1.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.3.tgz",
+			"sha": "c88de4b84dd55aaff62d461e5b2d5ddca34287b2"
+		},
+		"istanbul-api-1.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.6.tgz",
+			"sha": "23aa5b5b9b1b3bdbb786f039160e91acbe495433"
+		},
+		"istanbul-api-1.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.4.tgz",
+			"sha": "ac931d435a8aff4eba24d6b66e0c54d91e0e9fd1"
+		},
+		"istanbul-api-1.1.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.7.tgz",
+			"sha": "f6f37f09f8002b130f891c646b70ee4a8e7345ae"
+		},
+		"istanbul-api-1.3.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.5.tgz",
+			"sha": "230fd99f05bc65e5f1e31e32484bb56ea986e0b7"
+		},
+		"istanbul-api-1.1.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.8.tgz",
+			"sha": "a844e55c6f9aeee292e7f42942196f60b23dc93e"
+		},
+		"istanbul-api-1.3.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.6.tgz",
+			"sha": "0c695f17e533131de8c49e0657175dcfd8af8a8f"
+		},
+		"istanbul-api-1.1.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.9.tgz",
+			"sha": "2827920d380d4286d857d57a2968a841db8a7ec8"
+		},
+		"istanbul-api-1.3.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.3.7.tgz",
+			"sha": "a86c770d2b03e11e3f778cd7aedd82d2722092aa"
+		},
+		"istanbul-api-1.0.0-aplha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-aplha.1.tgz",
+			"sha": "3fa47f44acd58d52c6764218f5f7ef453fc50f5c"
+		},
+		"istanbul-api-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.0.tgz",
+			"sha": "fb3f62edd5bfc6ae09da09453ded6e10ae7e483b"
+		},
+		"istanbul-api-1.0.0-aplha.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.0.0-aplha.10.tgz",
+			"sha": "902edf5cf5404e0eba7e00ef46408488a0d3e337"
+		},
+		"istanbul-api-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.1.1.tgz",
+			"sha": "d36e2f1560d1a43ce304c4ff7338182de61c8f73"
+		},
+		"istanbul-api-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/istanbul-api/-/istanbul-api-1.2.0.tgz",
+			"sha": "1d8b692d7bc98a515050d1e5278883758ca2d6ad"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-f352779780c2eb00",
+	"readme": "istanbul-api\n============\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-api.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-api.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-api)\n\nHigh-level API for istanbul."
+}

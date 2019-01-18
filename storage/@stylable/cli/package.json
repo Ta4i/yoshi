@@ -1,0 +1,1981 @@
+{
+	"name": "@stylable/cli",
+	"versions": {
+		"1.0.12": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.0.12",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.12.tgz",
+				"shasum": "ef3581e57f15646efba140cdfe2881ff9523082e"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.10",
+				"@stylable/node": "^0.1.12",
+				"yargs": "^12.0.2"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.18"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.12",
+			"gitHead": "dbb41fffb306e60269f04e2c7e78c997143977ff",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.12_1537218877776_0.01660393483565059"
+			}
+		},
+		"1.0.10": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.0.10",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.10.tgz",
+				"shasum": "08eeddeee2bc684e331457c3bc2abdcd24f08491"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.9",
+				"@stylable/node": "^0.1.10",
+				"yargs": "^12.0.1"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.16"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.10",
+			"gitHead": "76534b9769b6e0b01095dcc573b55ce1bb30c842",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.10_1535543847910_0.915792085298357"
+			}
+		},
+		"1.0.11": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.0.11",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.11.tgz",
+				"shasum": "50fad61321c803713a62cfcfaa376c673de7b7b1"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.9",
+				"@stylable/node": "^0.1.11",
+				"yargs": "^12.0.1"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.17"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.11",
+			"gitHead": "5d10a101486ba33f9d0e3bcde2810f986749ea56",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.11_1536141720198_0.579454170287881"
+			}
+		},
+		"1.1.2": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.2",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.2.tgz",
+				"shasum": "fdfbc7999c82ec83e118a906bd2966bd52d2a31e"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.12",
+				"@stylable/node": "^0.1.14",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.2"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.21"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.2",
+			"gitHead": "e2ed9510f94436fec20cccc3505e6c902546718d",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.2_1540921797506_0.08571118600132799"
+			}
+		},
+		"1.2.1": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.1",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.1.tgz",
+				"shasum": "8e356d7ce774a8d1007e527a8a1c261453effd31"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.18",
+				"@stylable/node": "^0.1.21",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.1"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.2.1",
+			"gitHead": "4de50a2e7656c4b7e3dab5619683e11e7364ebfc",
+			"types": "cjs/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.1_1545234149383_0.4518179546620005"
+			}
+		},
+		"1.1.3": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.3",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.3.tgz",
+				"shasum": "4e0d6488550185930c408ef59219c320f9addc2a"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.13",
+				"@stylable/node": "^0.1.15",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.2"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.22"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.3",
+			"gitHead": "e2230521e4531534bfa43621ba26196f338a9971",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.3_1541689535134_0.927310947948482"
+			}
+		},
+		"1.2.2": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.2",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.2.tgz",
+				"shasum": "ca7dd5fc6b7a14b3cdd4e6fe23bdb96096a88648"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.19",
+				"@stylable/node": "^0.1.22",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.2"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.2.2",
+			"gitHead": "04cf7ac8aa3ec061e938ff0b131152eda654a5dc",
+			"types": "cjs/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.2_1547375650914_0.04727204216066694"
+			},
+			"_nodeVersion": "10.15.0"
+		},
+		"1.2.3": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.3",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.3.tgz",
+				"shasum": "148998dee8f429f115fc0d406badf853e0539148"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.0",
+				"@stylable/node": "^1.0.0",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.3"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.2.3",
+			"gitHead": "7bd843581c1434621e159d6026c2c521382cf8c4",
+			"types": "cjs/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.3_1547376299316_0.9047974109792143"
+			},
+			"_nodeVersion": "10.15.0"
+		},
+		"1.0.6": {
+			"name": "@stylable/cli",
+			"description": "[![npm version](https://img.shields.io/npm/v/@stylable/cli.svg)](https://www.npmjs.com/package/@stylable/cli)",
+			"version": "1.0.6",
+			"author": {
+				"name": "Wix.com"
+			},
+			"homepage": "https://github.com/wix/stylable#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/wix/stylable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix/stylable/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.6.tgz",
+				"shasum": "9b9f2944638890a197bf4ef92a749b4b95a28db3"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.5",
+				"@stylable/node": "^0.1.5",
+				"deindent": "^0.1.0",
+				"lodash.clonedeep": "^4.5.0",
+				"react": "^16.4.1",
+				"react-dom": "^16.4.1",
+				"webpack": "^4.12.1",
+				"webpack-sources": "^1.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.6",
+			"types": "dist/build.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.6_1533657509234_0.4629636898602212"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"1.1.5": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.5",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.5.tgz",
+				"shasum": "416908af52493cfefb7402b635275b310609273e"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.15",
+				"@stylable/node": "^0.1.17",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.24"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.5",
+			"gitHead": "27d3597a45de3119c4d74e6c92822a45bd7125a7",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.5_1543254564736_0.21327723456754"
+			}
+		},
+		"1.2.4": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.4",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.4.tgz",
+				"shasum": "abf9111589e7a9b64f26ffcc39149a491a318a49"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.1",
+				"@stylable/node": "^1.0.1",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.4"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v8.12.0+x64 (win32)",
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/cli@1.2.4",
+			"gitHead": "29d2ee61af2f3b31a5f4128dd4f81be5debe9b23",
+			"types": "cjs/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.4_1547654361425_0.6619874208209433"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.0.7": {
+			"name": "@stylable/cli",
+			"description": "[![npm version](https://img.shields.io/npm/v/@stylable/cli.svg)](https://www.npmjs.com/package/@stylable/cli)",
+			"version": "1.0.7",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:wix/stylable.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.7.tgz",
+				"shasum": "6879eb141459ab2071f4f37ee8c5423e9fbf4dd7"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.7",
+				"@stylable/node": "^0.1.7",
+				"deindent": "^0.1.0",
+				"lodash.clonedeep": "^4.5.0",
+				"react": "^16.4.1",
+				"react-dom": "^16.4.1",
+				"webpack": "^4.12.1",
+				"webpack-sources": "^1.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.7",
+			"gitHead": "5dbe803f24fc6f14273ef678d0fa581a15d48469",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.7_1533669883887_0.23668207301805566"
+			}
+		},
+		"1.1.6": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.6",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.6.tgz",
+				"shasum": "b078f6a709c843e0ebe862aea96881d59f5d9637"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.15",
+				"@stylable/node": "^0.1.18",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.24"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.6",
+			"gitHead": "0b341efa8f5b52aa927d4c0434d7f2f7dc6fe4c2",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.6_1543309627732_0.38732956856016787"
+			}
+		},
+		"1.2.5": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.5",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.5.tgz",
+				"shasum": "963dd65c126cfbec871fb87181f0b5cfb1a4f31a"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.2",
+				"@stylable/node": "^1.0.2",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.5"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.2.5",
+			"gitHead": "a25e618e3e4e4c97a0a269a423a9e3008f59d7e7",
+			"types": "cjs/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.5_1547735124976_0.49714495058817554"
+			},
+			"_nodeVersion": "10.15.0"
+		},
+		"1.0.8": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.0.8",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:wix/stylable.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.8.tgz",
+				"shasum": "e799a24425b0e22bbc8a63174ece8ba9678ad4b2"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.8",
+				"@stylable/node": "^0.1.9"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.15"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.8",
+			"gitHead": "1d8950a51e77383751ecc10d9b75375a8f0817b9",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.8_1535380261439_0.39993335595132296"
+			}
+		},
+		"1.1.7": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.7",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.7.tgz",
+				"shasum": "fccdfeb7b7cbb2ab8b50d74fe2264afc5b1c3775"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.16",
+				"@stylable/node": "^0.1.19",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.25"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/cli@1.1.7",
+			"gitHead": "1126baf1321a0b5d30685a2a33395f73372ea076",
+			"types": "cjs/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.7_1543852228520_0.23496322492949218"
+			}
+		},
+		"1.0.9": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.0.9",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.9.tgz",
+				"shasum": "a035a3c7f04effa5a768ec14dc53f953d22fe9b8"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.9",
+				"@stylable/node": "^0.1.10"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.16"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.9",
+			"gitHead": "75daaf22f4d07b7b206d189706cf160f7a1feb02",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.9_1535455276505_0.991674807256965"
+			}
+		},
+		"1.0.0": {
+			"name": "@stylable/cli",
+			"description": "<!-- [![npm version](https://img.shields.io/npm/v/@stylable/cli.svg)](https://www.npmjs.com/package/@stylable/cli) -->",
+			"version": "1.0.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"homepage": "https://github.com/wix/stylable#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/wix/stylable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix/stylable/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.0.tgz",
+				"shasum": "a541e9c066028a3e2e1e0cb153d269269b443b03"
+			},
+			"dependencies": {
+				"@stylable/node": "^0.0.2",
+				"deindent": "^0.1.0",
+				"lodash.clonedeep": "^4.5.0",
+				"react": "^16.4.1",
+				"react-dom": "^16.4.1",
+				"stylable": "^5.4.11",
+				"webpack": "^4.12.1",
+				"webpack-sources": "^1.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.0",
+			"types": "dist/build.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.0_1533137087463_0.5438558120052961"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"1.1.0": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.0.tgz",
+				"shasum": "90834c957a2fa016669c1b3b08231c5934f951e4"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.11",
+				"@stylable/node": "^0.1.13",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.2"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.19"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.0",
+			"gitHead": "9f5a12e4744c079d3e0b41add9c18025a0719357",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.0_1539788325104_0.46498296259916794"
+			}
+		},
+		"1.2.2-alpha.0": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.2-alpha.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.2-alpha.0.tgz",
+				"shasum": "f50c9b2e0eb19553ccf1ffa986bc405f89f80556"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.19-alpha.0",
+				"@stylable/node": "^0.1.22-alpha.0",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.2-alpha.0"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.8.1/node@v8.12.0+x64 (win32)",
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/cli@1.2.2-alpha.0",
+			"gitHead": "9705292eb59661087c074dc973287f3898687679",
+			"types": "cjs/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.2-alpha.0_1547118051826_0.8884366271306117"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.0.2": {
+			"name": "@stylable/cli",
+			"description": "[![npm version](https://img.shields.io/npm/v/@stylable/cli.svg)](https://www.npmjs.com/package/@stylable/cli)",
+			"version": "1.0.2",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:wix/stylable.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.2.tgz",
+				"shasum": "0fc0c9642b150bde5adec232bed0ca8a71f58173"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.2",
+				"@stylable/node": "^0.1.2",
+				"deindent": "^0.1.0",
+				"lodash.clonedeep": "^4.5.0",
+				"react": "^16.4.1",
+				"react-dom": "^16.4.1",
+				"webpack": "^4.12.1",
+				"webpack-sources": "^1.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r typescript-support \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx --project \"./test/tsconfig.json\""
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/cli@1.0.2",
+			"gitHead": "86c9144b99cc8e242e93d6d8914385d33d91abab",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.0.2_1533650640262_0.5187310783385999"
+			}
+		},
+		"1.1.1": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.1.1",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/build.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.1.tgz",
+				"shasum": "78d47a067468e5725e149fb8512e505e5f00da80"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.11",
+				"@stylable/node": "^0.1.13",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.2"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.0.20"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "./dist/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./dist",
+				"build": "tsc",
+				"lint": "tslint --project .",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.1.1",
+			"gitHead": "30f5145f57f4c663c51fdfd7c16f031b2a52b720",
+			"types": "dist/build.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.1.1_1539806548739_0.6266922398667905"
+			}
+		},
+		"1.2.0": {
+			"name": "@stylable/cli",
+			"description": "A low-level utility used for working with Stylable projects",
+			"version": "1.2.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/cli"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "cjs/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.0.tgz",
+				"shasum": "cfe2cb99db5a4ac48460bc1e07450f70081826ad"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.17",
+				"@stylable/node": "^0.1.20",
+				"lodash.camelcase": "^4.3.0",
+				"lodash.upperfirst": "^4.3.1",
+				"yargs": "^12.0.5"
+			},
+			"devDependencies": {
+				"@stylable/e2e-test-kit": "^1.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"bin": {
+				"stc": "cjs/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf ./cjs",
+				"build": "ts-build src --cjs",
+				"lint": "tslint -p src",
+				"test": "mocha -r @ts-tools/node \"test/**/*.spec.ts?(x)\" --watch-extensions ts,tsx",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/cli@1.2.0",
+			"gitHead": "6e2c807b60e65cc89457cc7e60eef1b819956258",
+			"types": "cjs/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cli_1.2.0_1543913009253_0.6853522033007988"
+			}
+		}
+	},
+	"time": {
+		"1.0.12": "2018-09-17T21:14:37.967Z",
+		"1.0.10": "2018-08-29T11:57:28.199Z",
+		"1.0.11": "2018-09-05T10:02:00.325Z",
+		"modified": "2019-01-17T14:25:28.213Z",
+		"created": "2018-08-01T15:24:47.329Z",
+		"1.1.2": "2018-10-30T17:49:57.613Z",
+		"1.2.1": "2018-12-19T15:42:29.584Z",
+		"1.1.3": "2018-11-08T15:05:35.280Z",
+		"1.2.2": "2019-01-13T10:34:11.201Z",
+		"1.2.3": "2019-01-13T10:44:59.414Z",
+		"1.0.6": "2018-08-07T15:58:29.476Z",
+		"1.1.5": "2018-11-26T17:49:24.909Z",
+		"1.2.4": "2019-01-16T15:59:21.528Z",
+		"1.0.7": "2018-08-07T19:24:44.454Z",
+		"1.1.6": "2018-11-27T09:07:07.890Z",
+		"1.2.5": "2019-01-17T14:25:25.140Z",
+		"1.0.8": "2018-08-27T14:31:01.547Z",
+		"1.1.7": "2018-12-03T15:50:28.708Z",
+		"1.0.9": "2018-08-28T11:21:17.201Z",
+		"1.0.0": "2018-08-01T15:24:47.559Z",
+		"1.1.0": "2018-10-17T14:58:45.275Z",
+		"1.2.2-alpha.0": "2019-01-10T11:00:51.957Z",
+		"1.0.2": "2018-08-07T14:04:22.862Z",
+		"1.1.1": "2018-10-17T20:02:28.868Z",
+		"1.2.0": "2018-12-04T08:43:29.375Z"
+	},
+	"dist-tags": {
+		"latest": "1.2.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749329400
+		}
+	},
+	"_distfiles": {
+		"cli-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.12.tgz",
+			"sha": "ef3581e57f15646efba140cdfe2881ff9523082e"
+		},
+		"cli-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.10.tgz",
+			"sha": "08eeddeee2bc684e331457c3bc2abdcd24f08491"
+		},
+		"cli-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.11.tgz",
+			"sha": "50fad61321c803713a62cfcfaa376c673de7b7b1"
+		},
+		"cli-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.2.tgz",
+			"sha": "fdfbc7999c82ec83e118a906bd2966bd52d2a31e"
+		},
+		"cli-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.1.tgz",
+			"sha": "8e356d7ce774a8d1007e527a8a1c261453effd31"
+		},
+		"cli-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.3.tgz",
+			"sha": "4e0d6488550185930c408ef59219c320f9addc2a"
+		},
+		"cli-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.2.tgz",
+			"sha": "ca7dd5fc6b7a14b3cdd4e6fe23bdb96096a88648"
+		},
+		"cli-1.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.3.tgz",
+			"sha": "148998dee8f429f115fc0d406badf853e0539148"
+		},
+		"cli-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.6.tgz",
+			"sha": "9b9f2944638890a197bf4ef92a749b4b95a28db3"
+		},
+		"cli-1.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.5.tgz",
+			"sha": "416908af52493cfefb7402b635275b310609273e"
+		},
+		"cli-1.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.4.tgz",
+			"sha": "abf9111589e7a9b64f26ffcc39149a491a318a49"
+		},
+		"cli-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.7.tgz",
+			"sha": "6879eb141459ab2071f4f37ee8c5423e9fbf4dd7"
+		},
+		"cli-1.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.6.tgz",
+			"sha": "b078f6a709c843e0ebe862aea96881d59f5d9637"
+		},
+		"cli-1.2.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.5.tgz",
+			"sha": "963dd65c126cfbec871fb87181f0b5cfb1a4f31a"
+		},
+		"cli-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.8.tgz",
+			"sha": "e799a24425b0e22bbc8a63174ece8ba9678ad4b2"
+		},
+		"cli-1.1.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.7.tgz",
+			"sha": "fccdfeb7b7cbb2ab8b50d74fe2264afc5b1c3775"
+		},
+		"cli-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.9.tgz",
+			"sha": "a035a3c7f04effa5a768ec14dc53f953d22fe9b8"
+		},
+		"cli-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.0.tgz",
+			"sha": "a541e9c066028a3e2e1e0cb153d269269b443b03"
+		},
+		"cli-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.0.tgz",
+			"sha": "90834c957a2fa016669c1b3b08231c5934f951e4"
+		},
+		"cli-1.2.2-alpha.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.2-alpha.0.tgz",
+			"sha": "f50c9b2e0eb19553ccf1ffa986bc405f89f80556"
+		},
+		"cli-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.0.2.tgz",
+			"sha": "0fc0c9642b150bde5adec232bed0ca8a71f58173"
+		},
+		"cli-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.1.1.tgz",
+			"sha": "78d47a067468e5725e149fb8512e505e5f00da80"
+		},
+		"cli-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/cli/-/cli-1.2.0.tgz",
+			"sha": "cfe2cb99db5a4ac48460bc1e07450f70081826ad"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ad98e90c37cb5b20",
+	"readme": "# @stylable/cli\n\n[![npm version](https://img.shields.io/npm/v/@stylable/cli.svg)](https://www.npmjs.com/package/@stylable/cli)\n\n`@stylable/cli` is a low-level utility used for working with Stylable projects directly.\n\n- Build and transform stylesheets into JavaScript modules\n- Generate an entry index file to help consume a published project\n\n## Installation\nThis package is currently a work-in-progress and is set to `private`. Once it matures, it will be published externally to NPM.\n\n## Usage\n\nAfter installing `@stylable/cli`, a new `stc` command will be available, running `stc --help` will provide a brief description for the options available.\n\n|Option|Description|Default Value|\n|------|-----------|-------------|\n|version|show CLI version number|`boolean`|\n|rootDir|root directory of project|`cwd`|\n|srcDir|source directory relative to root|`./`|\n|outDir|target directory relative to root|`./`|\n|indexFile|filename of the generated index|`false`|\n|customGenerator|path of a custom index file generator|-|\n|ext|extension of stylable css files|`.st.css`|\n|log|verbose log|`false`|\n|diagnostics|verbose diagnostics|`false`|\n|help|Show help|`boolean`|\n\n### Generate an index file\nThis generates an `index.st.css` file that acts as an export entry from every stylesheet in the provided `srcDir`.\n\n```sh\n$ stc --srcDir=\"./src\" --outDir=\"./dist\" --indexFile=\"index.st.css\"\n```\n\n### Build source stylesheets to JavaScript modules\nTo transform your project stylesheets to target JavaScript modules containing the transformed source files, you must provide the `indexFile` paramter with an empty string.\n\n```sh\n$ stc --srcDir=\"./src\" --outDir=\"./dist\"\n```\n\n## License\n\nCopyright (c) 2017 Wix.com Ltd. All Rights Reserved. Use of this source code is governed by a [BSD license](./LICENSE)."
+}

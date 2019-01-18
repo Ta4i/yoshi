@@ -1,0 +1,3668 @@
+{
+	"name": "jison",
+	"versions": {
+		"0.2.4": {
+			"name": "jison",
+			"version": "0.2.4",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.4.tgz",
+				"shasum": "9ec29c68d6244346a8133936f8a56fca5da5ed69"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.3.17",
+			"_id": "jison@0.2.4",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.4.4"
+		},
+		"0.4.2": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.2",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.2.tgz",
+				"shasum": "944a8a86f5db762aeff5ad3cc77d0202d4d1665c"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"reflect": "0.0.7",
+				"jison-lex": "0.1.x",
+				"ebnf-parser": "0.1.x",
+				"lex-parser": "0.1.x",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.63",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.2"
+		},
+		"0.2.5": {
+			"name": "jison",
+			"version": "0.2.5",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.5.tgz",
+				"shasum": "ba05d4bc849484f758951398a970910ea1c82379"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.3.17",
+			"_id": "jison@0.2.5",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.4.4"
+		},
+		"0.4.3": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.3",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.3.tgz",
+				"shasum": "a15f6ec6b0c2c643336f2b36284ddf08520da9cd"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.1.x",
+				"ebnf-parser": "0.1.x",
+				"lex-parser": "0.1.x",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.3"
+		},
+		"0.2.2": {
+			"name": "jison",
+			"version": "0.2.2",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.2.tgz",
+				"shasum": "ea934142000ac6ed15f849fce3283fa0ff710efa"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.2.15",
+			"_id": "jison@0.2.2",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"modules": {
+				"jison.js": "lib/jison.js",
+				"jison/bnf.js": "lib/jison/bnf.js",
+				"jison/cli-wrapper.js": "lib/jison/cli-wrapper.js",
+				"jison/jison2json.js": "lib/jison/jison2json.js",
+				"jison/jisonlex.js": "lib/jison/jisonlex.js",
+				"jison/json2jison.js": "lib/jison/json2jison.js",
+				"jison/lexer.js": "lib/jison/lexer.js",
+				"jison/util/bnf-parser.js": "lib/jison/util/bnf-parser.js",
+				"jison/util/io.js": "lib/jison/util/io.js",
+				"jison/util/lex-parser.js": "lib/jison/util/lex-parser.js",
+				"jison/util/nomnom.js": "lib/jison/util/nomnom.js",
+				"jison/util/set.js": "lib/jison/util/set.js",
+				"jison/util/typal.js": "lib/jison/util/typal.js"
+			},
+			"_nodeVersion": "v0.2.5"
+		},
+		"0.4.0": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.0",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.0.tgz",
+				"shasum": "bb602ac0ab8df7376905196c39fd2ec7c662e6ed"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"reflect": "0.0.7",
+				"jison-lex": "0.0.1",
+				"ebnf-parser": "0.0.1",
+				"lex-parser": "0.0.1",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.3.11",
+				"uglify-js": "1.3.3",
+				"browserify": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.63",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.0"
+		},
+		"0.4.1": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.1",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.1.tgz",
+				"shasum": "f5113e38d188c8c072265ffeacf726267d4b742c"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"reflect": "0.0.7",
+				"jison-lex": "0.1.0",
+				"ebnf-parser": "0.1.0",
+				"lex-parser": "0.1.0",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.63",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.1"
+		},
+		"0.2.8": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.8",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": "0.4 || 0.5"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.8.tgz",
+				"shasum": "2d888d3df6aafda8308d896efe2b805076ec3772"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.3",
+			"_id": "jison@0.2.8",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.4.7"
+		},
+		"0.4.6": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.6",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.6.tgz",
+				"shasum": "a599df26e87ef9219a3925294451b6e0c086329e"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.5",
+				"lex-parser": "~0.1.2",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.2.10",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.6"
+		},
+		"0.2.9": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.9",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": "0.4 || 0.5"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.9.tgz",
+				"shasum": "05d4146fc33ef19f1a68c66239b17e0a54974ead"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.3",
+			"_id": "jison@0.2.9",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.4.7"
+		},
+		"0.4.7": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.7",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.7.tgz",
+				"shasum": "d5906a3137a36e686c064b6e6f41b4bdd957c69d"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.6",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.7"
+		},
+		"0.2.6": {
+			"name": "jison",
+			"version": "0.2.6",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.6.tgz",
+				"shasum": "b4da95982af2f0f04aa38962fee78a2d385c423a"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.3.18",
+			"_id": "jison@0.2.6",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.4.4"
+		},
+		"0.4.4": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.4",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.4.tgz",
+				"shasum": "86b03b65efec007a91f493eceabe56f90aa6b439"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "0.1.x",
+				"lex-parser": "0.1.x",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.4"
+		},
+		"0.2.7": {
+			"name": "jison",
+			"version": "0.2.7",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.7.tgz",
+				"shasum": "ff1966fb1a69d0ce76e36d67785016e24d7369a8"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.3.18",
+			"_id": "jison@0.2.7",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.4.6"
+		},
+		"0.4.5": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.5",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.5.tgz",
+				"shasum": "df5b2ebe155cc21b0ddd43789e82202f174c91c0"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.4",
+				"lex-parser": "~0.1.1",
+				"nomnom": "1.5.2"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.2.10",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.5"
+		},
+		"0.2.0": {
+			"name": "jison",
+			"version": "0.2.0",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.0.tgz",
+				"shasum": "19e2f7b38ac486e5c39fdb79278cfce9915e0e87"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.12-1",
+			"_id": "jison@0.2.0",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.2.5"
+		},
+		"0.2.1": {
+			"name": "jison",
+			"version": "0.2.1",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.1.tgz",
+				"shasum": "d049722e50b0af23ed5262bec3e70a913b1ededc"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"files": [
+				""
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"_npmVersion": "0.2.15",
+			"_id": "jison@0.2.1",
+			"githubName": "jison",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"modules": {
+				"jison.js": "lib/jison.js",
+				"jison/bnf.js": "lib/jison/bnf.js",
+				"jison/cli-wrapper.js": "lib/jison/cli-wrapper.js",
+				"jison/jison2json.js": "lib/jison/jison2json.js",
+				"jison/jisonlex.js": "lib/jison/jisonlex.js",
+				"jison/json2jison.js": "lib/jison/json2jison.js",
+				"jison/lexer.js": "lib/jison/lexer.js",
+				"jison/util/bnf-parser.js": "lib/jison/util/bnf-parser.js",
+				"jison/util/io.js": "lib/jison/util/io.js",
+				"jison/util/lex-parser.js": "lib/jison/util/lex-parser.js",
+				"jison/util/nomnom.js": "lib/jison/util/nomnom.js",
+				"jison/util/set.js": "lib/jison/util/set.js",
+				"jison/util/typal.js": "lib/jison/util/typal.js"
+			},
+			"_nodeVersion": "v0.2.5"
+		},
+		"0.4.11": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.11",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.11.tgz",
+				"shasum": "f9ee42a44dad9db8692fc6c0263d37eaa731bfdb"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.8",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.11"
+		},
+		"0.4.14": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.14",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.14.tgz",
+				"shasum": "eeb41cf059691b8db479b21f327e8b30e84405c3"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.1.x",
+				"escodegen": "1.3.x",
+				"jison-lex": "0.3.x",
+				"ebnf-parser": "0.1.10",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "0.3.0"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.14",
+			"gitHead": "031056f4296c3b444c28a070cd9e6d0335693f55",
+			"_shasum": "eeb41cf059691b8db479b21f327e8b30e84405c3"
+		},
+		"0.4.13": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.13",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.13.tgz",
+				"shasum": "9041707d62241367f58834532b9f19c2c36fac78"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.9",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.13"
+		},
+		"0.4.16": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.16",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.16.tgz",
+				"shasum": "1337103f5949f0ed7159399426885ce10cc160b5"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.1.x",
+				"escodegen": "1.3.x",
+				"jison-lex": "0.3.x",
+				"ebnf-parser": "0.1.10",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "0.3.0"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.16",
+			"gitHead": "6551edeec06f4c117f1ccfb5641a388ed83fedef",
+			"_shasum": "1337103f5949f0ed7159399426885ce10cc160b5",
+			"_nodeVersion": "4.2.3"
+		},
+		"0.4.15": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.15",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.15.tgz",
+				"shasum": "6c6336c43e76b13c7ce29f96898c8bdf4e1e38fa"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.1.x",
+				"escodegen": "1.3.x",
+				"jison-lex": "0.3.x",
+				"ebnf-parser": "0.1.10",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "0.3.0"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.15",
+			"gitHead": "3821a184db715b50c3f56bf2f04061fed520987c",
+			"_shasum": "6c6336c43e76b13c7ce29f96898c8bdf4e1e38fa"
+		},
+		"0.4.18": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.18",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.18.tgz",
+				"shasum": "c68a6a54bfe7028fa40bcfc6cc8bbd9ed291f502"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.1.x",
+				"escodegen": "1.3.x",
+				"jison-lex": "0.3.x",
+				"ebnf-parser": "0.1.10",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "0.3.0"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.18",
+			"gitHead": "bcf986e180359aa2404b1b73ecbfef1df4c6b011",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jison-0.4.18.tgz_1504307277172_0.1711428537964821"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"0.4.17": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.17",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.17.tgz",
+				"shasum": "bc12d46c5845e6fee89ccf35bd2a8cc73eba17f3"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.1.x",
+				"escodegen": "1.3.x",
+				"jison-lex": "0.3.x",
+				"ebnf-parser": "0.1.10",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "0.3.0"
+			},
+			"devDependencies": {
+				"test": "0.6.x",
+				"jison": "0.4.x",
+				"uglify-js": "~2.4.0",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.17",
+			"gitHead": "9f2f188419f7790a46a5e9a6c882834d0fa16314",
+			"_shasum": "bc12d46c5845e6fee89ccf35bd2a8cc73eba17f3",
+			"_nodeVersion": "4.2.3"
+		},
+		"0.1.26": {
+			"name": "jison",
+			"version": "0.1.26",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.26.tgz",
+				"shasum": "ed37d4cb47c2273b2d5a36ea2dc9519fc4d917c1"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.7-2",
+			"_id": "jison@0.1.26",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.3.1-pre"
+		},
+		"0.1.25": {
+			"name": "jison",
+			"version": "0.1.25",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.25.tgz",
+				"shasum": "02cfe5586db45f4c7667eb57728d2f566a3a0411"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.7-2",
+			"_id": "jison@0.1.25",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.3.1-pre"
+		},
+		"0.1.24": {
+			"name": "jison",
+			"version": "0.1.24",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.24.tgz",
+				"shasum": "c043616cf398fd2a31bdde161c59c0e5c4bbcf4c"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.7-2",
+			"_id": "jison@0.1.24",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.3.1-pre"
+		},
+		"0.1.21": {
+			"name": "jison",
+			"version": "0.1.21",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.21.tgz",
+				"shasum": "1579e0d2991e50a4746c56fb5d182f2bd8f03620"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.7-2",
+			"_id": "jison@0.1.21",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.3.1-pre"
+		},
+		"0.1.20": {
+			"name": "jison",
+			"version": "0.1.20",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.20.tgz",
+				"shasum": "3fb8ec010fbaecbd71efce9ed7415e00f41acd1b"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.7-2",
+			"_id": "jison@0.1.20",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.3.1-pre"
+		},
+		"0.4.10": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.10",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.10.tgz",
+				"shasum": "7eb9a9dcdcf0daf7d092350ead67beea33849aff"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.6",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.10"
+		},
+		"0.1.27": {
+			"name": "jison",
+			"version": "0.1.27",
+			"author": {
+				"name": "Zach Carter"
+			},
+			"engines": {
+				"node": ">=0.1.90"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.27.tgz",
+				"shasum": "1a68a799fa785bddbc5ea97c4c01ca210c3214bc"
+			},
+			"keywords": [
+				"jison",
+				"parser",
+				"lexer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js"
+			},
+			"directories": {
+				"lib": "lib"
+			},
+			"_npmVersion": "0.2.5-1",
+			"_id": "jison@0.1.27",
+			"githubName": "jison",
+			"_nodeSupported": true,
+			"location": "http://github.com/zaach/jison/zipball/master",
+			"type": "zip",
+			"email": "zach@carter.name",
+			"_nodeVersion": "v0.2.4"
+		},
+		"0.3.10": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.10",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.10.tgz",
+				"shasum": "21fd97ca236e9effe2231f9c78146b1eb7acafa0"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "0.0.7",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.21",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.10",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.17"
+		},
+		"0.3.11": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.11",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.11.tgz",
+				"shasum": "949a391641e3e0fd41d30773f5dc10b78b839b27"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "0.0.7",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.21",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.11",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.19"
+		},
+		"0.3.12": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.12",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.12.tgz",
+				"shasum": "20dd448eebc2c569de25d0c13062f7e1a77335a2"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"reflect": "0.0.7",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.3.11",
+				"uglify-js": "1.3.3"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_id": "jison@0.3.12"
+		},
+		"0.3.9": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.9",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.9.tgz",
+				"shasum": "951993592e356f053c43f3e741d05a2d3bb2a625"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "0.0.7",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.21",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.9",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.17"
+		},
+		"0.3.3": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.3",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.3.tgz",
+				"shasum": "d453767f02b4c0735cfa2227215aee30965ec531"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.3",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.8"
+		},
+		"0.3.4": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.4",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.4.tgz",
+				"shasum": "ae2acaab4df1b074fdfaa093bb61468db302dd48"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.4",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.8"
+		},
+		"0.3.1": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.1",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.1.tgz",
+				"shasum": "1a06827f5f4f3d12d17e8e698b341d3502ead488"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.1",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.3.2": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.2",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.2.tgz",
+				"shasum": "b9793d44d7ed440db41071612ca5e955811747db"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.2",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.3.7": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.7",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.7.tgz",
+				"shasum": "bfee4b84ccd0c337eb01fd7e21b2f4afeed38aa9"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.21",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.7",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.17"
+		},
+		"0.3.8": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.8",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.8.tgz",
+				"shasum": "c18aa5c8968d57eb5bab14ed1232171c39673245"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.21",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.8",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.17"
+		},
+		"0.3.5": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.5",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.5.tgz",
+				"shasum": "032158b7e9f3ccc82e2d2a3cc22e965eecf2b837"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.15",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.5",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.8"
+		},
+		"0.3.6": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.6",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.6.tgz",
+				"shasum": "314bbf1a408c432d15a0df6ae6dd362d0362f94c"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"optionalDependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.1.15",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.6",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.8"
+		},
+		"0.3.0": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.3.0",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.0.tgz",
+				"shasum": "cfaf12bbf2981c5e80f3b3c2059bbaf82606f071"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.3.0",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.2.10": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.10",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": "0.4 || 0.5"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.10.tgz",
+				"shasum": "59ac6bad35d7ad16c45d8717fe40fb76b4d68b19"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.3",
+			"_id": "jison@0.2.10",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.4.7"
+		},
+		"0.2.11": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.11",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": "0.4 || 0.5"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.11.tgz",
+				"shasum": "27a1744ff7df2554d46dbe771c6ac5c6605ad9de"
+			},
+			"dependencies": {
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.17",
+			"_id": "jison@0.2.11",
+			"_npmJsonOpts": {
+				"file": "/Users/zach/.npm/jison/0.2.11/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.4.10"
+		},
+		"0.2.12": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.12",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.12.tgz",
+				"shasum": "4d56cfbf5f1a36ee1102ca802eb0542480f617df"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.2.12",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.2.13": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.13",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.13.tgz",
+				"shasum": "b98ded7748391c2b059fe889258a3c761625324c"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.2.13",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.2.14": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.2.14",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"email": "jison@librelist.com",
+				"url": "http://github.com/zaach/jison/issues"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.14.tgz",
+				"shasum": "563615697529ed63eb06bd5c79817923e8544bc8"
+			},
+			"dependencies": {
+				"JSONSelect": "*",
+				"reflect": "*",
+				"nomnom": "0.4.3"
+			},
+			"devDependencies": {
+				"test": "*",
+				"jison": "*",
+				"uglify-js": "*"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/jison/cli-wrapper.js",
+				"jison2json": "lib/jison/jison2json.js",
+				"json2jison": "lib/jison/json2jison.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "lib",
+				"bin": "./bin"
+			},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_npmVersion": "1.0.105",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.2.14",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.4.8": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.8",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.8.tgz",
+				"shasum": "a160c3f629756285c0f0aa0be53e816ac2f121b3"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.6",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.8"
+		},
+		"0.4.9": {
+			"name": "jison",
+			"description": "A parser generator with Bison's API",
+			"version": "0.4.9",
+			"author": {
+				"name": "Zach Carter",
+				"email": "zach@carter.name",
+				"url": "http://zaa.ch"
+			},
+			"homepage": "http://jison.org",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/zaach/jison.git"
+			},
+			"bugs": {
+				"url": "http://github.com/zaach/jison/issues",
+				"email": "jison@librelist.com"
+			},
+			"engines": {
+				"node": ">=0.4"
+			},
+			"main": "lib/jison",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.9.tgz",
+				"shasum": "2d233cd40d572d747e22094ac4ef2558c3bbb02a"
+			},
+			"dependencies": {
+				"JSONSelect": "0.4.0",
+				"esprima": "1.0.x",
+				"escodegen": "0.0.21",
+				"jison-lex": "0.2.x",
+				"ebnf-parser": "~0.1.6",
+				"lex-parser": "~0.1.3",
+				"nomnom": "1.5.2",
+				"cjson": "~0.2.1"
+			},
+			"devDependencies": {
+				"test": "0.4.4",
+				"jison": "0.4.x",
+				"uglify-js": "1.3.3",
+				"browserify": "2.x.x"
+			},
+			"keywords": [
+				"jison",
+				"bison",
+				"yacc",
+				"parser",
+				"generator",
+				"lexer",
+				"flex",
+				"tokenizer",
+				"compiler"
+			],
+			"bin": {
+				"jison": "lib/cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "zaach",
+					"email": "zack.carter@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node tests/all-tests.js"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "zaach",
+				"email": "zack.carter@gmail.com"
+			},
+			"_id": "jison@0.4.9"
+		}
+	},
+	"time": {
+		"0.2.4": "2011-03-27T08:24:17.411Z",
+		"0.4.2": "2013-01-28T03:23:19.645Z",
+		"0.2.5": "2011-04-11T23:10:07.857Z",
+		"0.4.3": "2013-04-17T00:00:35.944Z",
+		"0.2.2": "2011-01-22T21:34:49.206Z",
+		"0.4.0": "2013-01-28T00:54:50.972Z",
+		"0.4.1": "2013-01-28T01:55:22.764Z",
+		"0.2.8": "2011-05-10T17:09:21.082Z",
+		"0.4.6": "2013-06-22T21:51:14.605Z",
+		"0.2.9": "2011-05-10T18:30:54.452Z",
+		"0.4.7": "2013-07-27T22:31:46.400Z",
+		"0.2.6": "2011-04-14T16:25:03.026Z",
+		"0.4.4": "2013-04-17T02:21:53.771Z",
+		"0.2.7": "2011-04-20T21:47:31.816Z",
+		"0.4.5": "2013-06-22T19:03:37.884Z",
+		"0.2.0": "2010-12-18T20:04:58.119Z",
+		"0.2.1": "2011-01-21T21:42:27.318Z",
+		"0.4.11": "2013-09-01T14:58:51.336Z",
+		"0.4.14": "2014-08-17T19:41:01.571Z",
+		"0.4.13": "2013-09-01T23:19:19.260Z",
+		"0.4.16": "2016-01-11T18:51:35.305Z",
+		"0.4.15": "2014-08-18T20:19:20.369Z",
+		"0.4.18": "2017-09-01T23:07:57.271Z",
+		"0.4.17": "2016-01-28T21:57:31.951Z",
+		"0.1.26": "2010-12-18T20:04:58.119Z",
+		"modified": "2018-03-06T08:26:20.691Z",
+		"0.1.25": "2010-12-18T20:04:58.119Z",
+		"0.1.24": "2010-12-18T20:04:58.119Z",
+		"0.1.21": "2010-12-18T20:04:58.119Z",
+		"0.1.20": "2010-12-18T20:04:58.119Z",
+		"0.4.10": "2013-08-03T22:29:50.469Z",
+		"created": "2010-12-18T20:04:58.119Z",
+		"0.1.27": "2010-12-18T20:04:58.119Z",
+		"0.3.10": "2012-06-18T21:29:36.081Z",
+		"0.3.11": "2012-06-28T17:04:01.365Z",
+		"0.3.12": "2012-08-29T05:24:52.201Z",
+		"0.3.9": "2012-06-15T23:17:37.762Z",
+		"0.3.3": "2012-03-02T08:07:17.852Z",
+		"0.3.4": "2012-03-08T01:14:55.531Z",
+		"0.3.1": "2012-01-22T23:03:04.936Z",
+		"0.3.2": "2012-01-23T18:04:02.206Z",
+		"0.3.7": "2012-05-16T00:54:03.666Z",
+		"0.3.8": "2012-05-27T22:18:58.047Z",
+		"0.3.5": "2012-04-03T21:08:27.793Z",
+		"0.3.6": "2012-04-24T23:00:55.546Z",
+		"0.3.0": "2012-01-20T20:55:08.243Z",
+		"0.2.10": "2011-07-06T19:43:22.797Z",
+		"0.2.11": "2011-07-06T20:04:46.670Z",
+		"0.2.12": "2011-12-03T16:13:35.326Z",
+		"0.2.13": "2011-12-03T16:55:54.324Z",
+		"0.2.14": "2012-01-15T19:51:35.377Z",
+		"0.4.8": "2013-07-30T00:54:22.177Z",
+		"0.4.9": "2013-08-02T23:25:01.740Z"
+	},
+	"dist-tags": {
+		"latest": "0.4.18"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749415007
+		}
+	},
+	"_distfiles": {
+		"jison-0.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.4.tgz",
+			"sha": "9ec29c68d6244346a8133936f8a56fca5da5ed69"
+		},
+		"jison-0.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.2.tgz",
+			"sha": "944a8a86f5db762aeff5ad3cc77d0202d4d1665c"
+		},
+		"jison-0.2.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.5.tgz",
+			"sha": "ba05d4bc849484f758951398a970910ea1c82379"
+		},
+		"jison-0.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.3.tgz",
+			"sha": "a15f6ec6b0c2c643336f2b36284ddf08520da9cd"
+		},
+		"jison-0.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.2.tgz",
+			"sha": "ea934142000ac6ed15f849fce3283fa0ff710efa"
+		},
+		"jison-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.0.tgz",
+			"sha": "bb602ac0ab8df7376905196c39fd2ec7c662e6ed"
+		},
+		"jison-0.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.1.tgz",
+			"sha": "f5113e38d188c8c072265ffeacf726267d4b742c"
+		},
+		"jison-0.2.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.8.tgz",
+			"sha": "2d888d3df6aafda8308d896efe2b805076ec3772"
+		},
+		"jison-0.4.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.6.tgz",
+			"sha": "a599df26e87ef9219a3925294451b6e0c086329e"
+		},
+		"jison-0.2.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.9.tgz",
+			"sha": "05d4146fc33ef19f1a68c66239b17e0a54974ead"
+		},
+		"jison-0.4.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.7.tgz",
+			"sha": "d5906a3137a36e686c064b6e6f41b4bdd957c69d"
+		},
+		"jison-0.2.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.6.tgz",
+			"sha": "b4da95982af2f0f04aa38962fee78a2d385c423a"
+		},
+		"jison-0.4.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.4.tgz",
+			"sha": "86b03b65efec007a91f493eceabe56f90aa6b439"
+		},
+		"jison-0.2.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.7.tgz",
+			"sha": "ff1966fb1a69d0ce76e36d67785016e24d7369a8"
+		},
+		"jison-0.4.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.5.tgz",
+			"sha": "df5b2ebe155cc21b0ddd43789e82202f174c91c0"
+		},
+		"jison-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.0.tgz",
+			"sha": "19e2f7b38ac486e5c39fdb79278cfce9915e0e87"
+		},
+		"jison-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.1.tgz",
+			"sha": "d049722e50b0af23ed5262bec3e70a913b1ededc"
+		},
+		"jison-0.4.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.11.tgz",
+			"sha": "f9ee42a44dad9db8692fc6c0263d37eaa731bfdb"
+		},
+		"jison-0.4.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.14.tgz",
+			"sha": "eeb41cf059691b8db479b21f327e8b30e84405c3"
+		},
+		"jison-0.4.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.13.tgz",
+			"sha": "9041707d62241367f58834532b9f19c2c36fac78"
+		},
+		"jison-0.4.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.16.tgz",
+			"sha": "1337103f5949f0ed7159399426885ce10cc160b5"
+		},
+		"jison-0.4.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.15.tgz",
+			"sha": "6c6336c43e76b13c7ce29f96898c8bdf4e1e38fa"
+		},
+		"jison-0.4.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.18.tgz",
+			"sha": "c68a6a54bfe7028fa40bcfc6cc8bbd9ed291f502"
+		},
+		"jison-0.4.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.17.tgz",
+			"sha": "bc12d46c5845e6fee89ccf35bd2a8cc73eba17f3"
+		},
+		"jison-0.1.26.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.26.tgz",
+			"sha": "ed37d4cb47c2273b2d5a36ea2dc9519fc4d917c1"
+		},
+		"jison-0.1.25.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.25.tgz",
+			"sha": "02cfe5586db45f4c7667eb57728d2f566a3a0411"
+		},
+		"jison-0.1.24.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.24.tgz",
+			"sha": "c043616cf398fd2a31bdde161c59c0e5c4bbcf4c"
+		},
+		"jison-0.1.21.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.21.tgz",
+			"sha": "1579e0d2991e50a4746c56fb5d182f2bd8f03620"
+		},
+		"jison-0.1.20.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.20.tgz",
+			"sha": "3fb8ec010fbaecbd71efce9ed7415e00f41acd1b"
+		},
+		"jison-0.4.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.10.tgz",
+			"sha": "7eb9a9dcdcf0daf7d092350ead67beea33849aff"
+		},
+		"jison-0.1.27.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.1.27.tgz",
+			"sha": "1a68a799fa785bddbc5ea97c4c01ca210c3214bc"
+		},
+		"jison-0.3.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.10.tgz",
+			"sha": "21fd97ca236e9effe2231f9c78146b1eb7acafa0"
+		},
+		"jison-0.3.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.11.tgz",
+			"sha": "949a391641e3e0fd41d30773f5dc10b78b839b27"
+		},
+		"jison-0.3.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.12.tgz",
+			"sha": "20dd448eebc2c569de25d0c13062f7e1a77335a2"
+		},
+		"jison-0.3.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.9.tgz",
+			"sha": "951993592e356f053c43f3e741d05a2d3bb2a625"
+		},
+		"jison-0.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.3.tgz",
+			"sha": "d453767f02b4c0735cfa2227215aee30965ec531"
+		},
+		"jison-0.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.4.tgz",
+			"sha": "ae2acaab4df1b074fdfaa093bb61468db302dd48"
+		},
+		"jison-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.1.tgz",
+			"sha": "1a06827f5f4f3d12d17e8e698b341d3502ead488"
+		},
+		"jison-0.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.2.tgz",
+			"sha": "b9793d44d7ed440db41071612ca5e955811747db"
+		},
+		"jison-0.3.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.7.tgz",
+			"sha": "bfee4b84ccd0c337eb01fd7e21b2f4afeed38aa9"
+		},
+		"jison-0.3.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.8.tgz",
+			"sha": "c18aa5c8968d57eb5bab14ed1232171c39673245"
+		},
+		"jison-0.3.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.5.tgz",
+			"sha": "032158b7e9f3ccc82e2d2a3cc22e965eecf2b837"
+		},
+		"jison-0.3.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.6.tgz",
+			"sha": "314bbf1a408c432d15a0df6ae6dd362d0362f94c"
+		},
+		"jison-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.3.0.tgz",
+			"sha": "cfaf12bbf2981c5e80f3b3c2059bbaf82606f071"
+		},
+		"jison-0.2.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.10.tgz",
+			"sha": "59ac6bad35d7ad16c45d8717fe40fb76b4d68b19"
+		},
+		"jison-0.2.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.11.tgz",
+			"sha": "27a1744ff7df2554d46dbe771c6ac5c6605ad9de"
+		},
+		"jison-0.2.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.12.tgz",
+			"sha": "4d56cfbf5f1a36ee1102ca802eb0542480f617df"
+		},
+		"jison-0.2.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.13.tgz",
+			"sha": "b98ded7748391c2b059fe889258a3c761625324c"
+		},
+		"jison-0.2.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.2.14.tgz",
+			"sha": "563615697529ed63eb06bd5c79817923e8544bc8"
+		},
+		"jison-0.4.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.8.tgz",
+			"sha": "a160c3f629756285c0f0aa0be53e816ac2f121b3"
+		},
+		"jison-0.4.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jison/-/jison-0.4.9.tgz",
+			"sha": "2d233cd40d572d747e22094ac4ef2558c3bbb02a"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-37f4f44495c5cbfe",
+	"readme": "Jison\n=====\n* [issues](http://github.com/zaach/jison/issues)\n* [discuss](mailto:jison@librelist.com)\n\n[![build status](https://secure.travis-ci.org/zaach/jison.png)](http://travis-ci.org/zaach/jison)\n\nAn API for creating parsers in JavaScript\n-----------------------------------------\n\nJison generates bottom-up parsers in JavaScript. Its API is similar to Bison's, hence the name. It supports many of Bison's major features, plus some of its own. If you are new to parser generators such as Bison, and Context-free Grammars in general, a [good introduction][1] is found in the Bison manual. If you already know Bison, Jison should be easy to pickup.\n\nBriefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a JavaScript file capable of parsing the language described by that grammar. You can then use the generated script to parse inputs and accept, reject, or perform actions based on the input.\n\nInstallation\n------------\nJison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)\n\nUsing npm:\n\n    npm install jison -g\n\nUsage from the command line\n-----------------------\n\nClone the github repository for examples:\n\n    git clone git://github.com/zaach/jison.git\n    cd jison/examples\n\nNow you're ready to generate some parsers:\n\n    jison calculator.jison\n\nThis will generate `calculator.js` in your current working directory. This file can be used to parse an input file, like so:\n\n    echo \"2^32 / 1024\" > testcalc\n    node calculator.js testcalc\n\nThis will print out `4194304`.\n\nFull cli option list:\n\n    Usage: jison [file] [lexfile] [options]\n\n    file        file containing a grammar\n    lexfile     file containing a lexical grammar\n\n    Options:\n       -j, --json                    force jison to expect a grammar in JSON format\n       -o FILE, --outfile FILE       Filename and base module name of the generated parser\n       -t, --debug                   Debug mode\n       -m TYPE, --module-type TYPE   The type of module to generate (commonjs, amd, js)\n       -p TYPE, --parser-type TYPE   The type of algorithm to use for the parser (lr0, slr, lalr, lr)\n       -V, --version                 print version and exit\n\n\nUsage from a CommonJS module\n--------------------------\n\nYou can generate parsers programatically from JavaScript as well. Assuming Jison is in your commonjs environment's load path:\n\n```javascript\n// mygenerator.js\nvar Parser = require(\"jison\").Parser;\n\n// a grammar in JSON\nvar grammar = {\n    \"lex\": {\n        \"rules\": [\n           [\"\\\\s+\", \"/* skip whitespace */\"],\n           [\"[a-f0-9]+\", \"return 'HEX';\"]\n        ]\n    },\n\n    \"bnf\": {\n        \"hex_strings\" :[ \"hex_strings HEX\",\n                         \"HEX\" ]\n    }\n};\n\n// `grammar` can also be a string that uses jison's grammar format\nvar parser = new Parser(grammar);\n\n// generate source, ready to be written to disk\nvar parserSource = parser.generate();\n\n// you can also use the parser directly from memory\n\n// returns true\nparser.parse(\"adfe34bc e82a\");\n\n// throws lexical error\nparser.parse(\"adfe34bc zxg\");\n```\n\nMore Documentation\n------------------\nFor more information on creating grammars and using the generated parsers, read the [documentation](http://jison.org/docs).\n\nHow to contribute\n-----------------\n\nSee [CONTRIBUTING.md](https://github.com/zaach/jison/blob/master/CONTRIBUTING.md) for contribution guidelines, how to run the tests, etc.\n\nProjects using Jison\n------------------\n\nView them on the [wiki](https://github.com/zaach/jison/wiki/ProjectsUsingJison), or add your own.\n\n\nContributors\n------------\n[Githubbers](http://github.com/zaach/jison/contributors)\n\nSpecial thanks to Jarred Ligatti, Manuel E. Bermúdez \n\nLicense\n-------\n\n> Copyright (c) 2009-2014 Zachary Carter\n> \n>  Permission is hereby granted, free of\n> charge, to any person  obtaining a\n> copy of this software and associated\n> documentation  files (the \"Software\"),\n> to deal in the Software without \n> restriction, including without\n> limitation the rights to use,  copy,\n> modify, merge, publish, distribute,\n> sublicense, and/or sell  copies of the\n> Software, and to permit persons to\n> whom the  Software is furnished to do\n> so, subject to the following \n> conditions:\n> \n>  The above copyright notice and this\n> permission notice shall be  included\n> in all copies or substantial portions\n> of the Software.\n> \n>  THE SOFTWARE IS PROVIDED \"AS IS\",\n> WITHOUT WARRANTY OF ANY KIND,  EXPRESS\n> OR IMPLIED, INCLUDING BUT NOT LIMITED\n> TO THE WARRANTIES  OF MERCHANTABILITY,\n> FITNESS FOR A PARTICULAR PURPOSE AND \n> NONINFRINGEMENT. IN NO EVENT SHALL THE\n> AUTHORS OR COPYRIGHT  HOLDERS BE\n> LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n> LIABILITY,  WHETHER IN AN ACTION OF\n> CONTRACT, TORT OR OTHERWISE, ARISING \n> FROM, OUT OF OR IN CONNECTION WITH THE\n> SOFTWARE OR THE USE OR  OTHER DEALINGS\n> IN THE SOFTWARE.\n\n\n  [1]: http://dinosaur.compilertools.net/bison/bison_4.html"
+}

@@ -1,0 +1,5541 @@
+{
+	"name": "@wix/wix-session-crypto",
+	"versions": {
+		"2.0.280": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.280",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.280.tgz",
+				"shasum": "db4f309aa14a4957f0180da1713b75a2c3bfc89c"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.280"
+		},
+		"2.0.281": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.281",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.281.tgz",
+				"shasum": "201efa89bedb4abeccc92944b67259394cd7f4db"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.281"
+		},
+		"2.0.282": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.282",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.282.tgz",
+				"shasum": "859e67302771d5a40ae230ed48bdfe0deff2099e"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.282"
+		},
+		"2.0.283": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.283",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.283.tgz",
+				"shasum": "dda58e995c89cbb30675f103182a7f39740dadd7"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.283"
+		},
+		"2.0.360": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.360",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.360.tgz",
+				"shasum": "3cfe32174d92377afdf3343901fa4b63b24e6993"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.360"
+		},
+		"2.0.284": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.284",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.284.tgz",
+				"shasum": "437015e8508e233a1da1be32b66462b4668679a9"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.284"
+		},
+		"2.0.361": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.361",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.361.tgz",
+				"shasum": "d6f4b68f2234d7cb4880852bb1eda4a7ce2c390a"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.361"
+		},
+		"2.0.285": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.285",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.285.tgz",
+				"shasum": "3395839fb4147367163250e5ac8a5bab8fb46a2c"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.285"
+		},
+		"2.0.362": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.362",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.362.tgz",
+				"shasum": "750ef423bd9c7a517a78d1cd492aa9c258304b68"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.362"
+		},
+		"2.0.286": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.286",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.286.tgz",
+				"shasum": "60262b3c00e5f12f9b2451426d2b0237c698102a"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.286"
+		},
+		"2.0.363": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.363",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.363.tgz",
+				"shasum": "2e9fd8c83ad99f609ff1926a108991e601bb8a98"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.363"
+		},
+		"2.0.287": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.287",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.287.tgz",
+				"shasum": "2416d72aac67c30a60531b9ecceb6fb13bfab692"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.287"
+		},
+		"2.0.320": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.320",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.320.tgz",
+				"shasum": "772bf4e0127397868d8aa6edd1cbbc96779989bc"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.320"
+		},
+		"2.0.364": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.364",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.364.tgz",
+				"shasum": "cf0aea0522dbc46117c4c1a5faf836bf00cd3792"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.364"
+		},
+		"2.0.288": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.288",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.288.tgz",
+				"shasum": "2ba090e651d454540b9c76ff262349dae5558576"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.288"
+		},
+		"2.0.321": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.321",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.321.tgz",
+				"shasum": "5a37421814a940a5fa918c471748185ba61e02e3"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.321"
+		},
+		"2.0.365": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.365",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.365.tgz",
+				"shasum": "7ebeca142293618fa5e39746a9fdfc148e9786be"
+			},
+			"dependencies": {
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.365"
+		},
+		"2.0.289": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.289",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.289.tgz",
+				"shasum": "0ef73c50dbde0717a9f5f8e16a79cd0db441d7c6"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.289"
+		},
+		"2.0.322": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.322",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.322.tgz",
+				"shasum": "537f77f47447a43f1f20da9b8b8776f169e47ab9"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.322"
+		},
+		"2.0.366": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.366",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.366.tgz",
+				"shasum": "07bb174d2aae1de68f44529d078115ff509c14b9"
+			},
+			"dependencies": {
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.366"
+		},
+		"2.0.323": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.323",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.323.tgz",
+				"shasum": "99d87b16185ccee8e652832e169e752392602847"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.323"
+		},
+		"2.0.367": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.367",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.367.tgz",
+				"shasum": "f5441a3be5612467b74de98806fae2eefd4ba17b"
+			},
+			"dependencies": {
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.367"
+		},
+		"2.0.324": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.324",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.324.tgz",
+				"shasum": "528c14f906a63634f2a34190c2b4a57bd1957fe3"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.324"
+		},
+		"2.0.368": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.368",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.368.tgz",
+				"shasum": "dffc2482a0613a5e63750e47a7aaac8ea7140552"
+			},
+			"dependencies": {
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.368"
+		},
+		"2.0.325": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.325",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.325.tgz",
+				"shasum": "e7d0ee128bbb0ad817a19ed0247a703e469ec333"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.325"
+		},
+		"2.0.369": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.369",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.369.tgz",
+				"shasum": "6b6a5f20f24d808bc24705fc7d935038587a947a"
+			},
+			"dependencies": {
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"chai": "4.2.0",
+				"chance": "1.0.18",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.369"
+		},
+		"2.0.326": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.326",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.326.tgz",
+				"shasum": "5fc80cff451fbcb1513b95261f5b85b167d17b91"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.326"
+		},
+		"2.0.327": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.327",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.327.tgz",
+				"shasum": "ae01bf60a0da096f29f57b123766867c596a1b2d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.327"
+		},
+		"2.0.328": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.328",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.328.tgz",
+				"shasum": "8428aeaf8e6acb8b16fe1886faf58ed609208fe2"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.328"
+		},
+		"2.0.318": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.318",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.318.tgz",
+				"shasum": "dea503a6677c5069d7c1770ce614bf0e916c6716"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.318"
+		},
+		"2.0.319": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.319",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.319.tgz",
+				"shasum": "2e1a94a1d53abf181a394df2d5918d878d920273"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.319"
+		},
+		"2.0.350": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.350",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.350.tgz",
+				"shasum": "f37f8f244548dfad2f22064b86ba6e6b9199c288"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.350"
+		},
+		"2.0.274": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.274",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.274.tgz",
+				"shasum": "c28300870aa0845ccc758d3a3d337d2ad91e821f"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.274"
+		},
+		"2.0.351": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.351",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.351.tgz",
+				"shasum": "ed7788079329c78a892f6e622eef0dc45f91e12a"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.351"
+		},
+		"2.0.275": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.275",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.275.tgz",
+				"shasum": "1b00b7a0df10343c59132a32411c5c2112ac7f53"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.275"
+		},
+		"2.0.352": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.352",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.352.tgz",
+				"shasum": "73d798fd67c412e19327d03d31291990ec3cde21"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.352"
+		},
+		"2.0.276": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.276",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.276.tgz",
+				"shasum": "87c679481c89f285b80da8415e239408df8b44c9"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.276"
+		},
+		"2.0.353": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.353",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.353.tgz",
+				"shasum": "f30e6fb85e1569703a10f7fbff197be6d1203a4b"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.353"
+		},
+		"2.0.277": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.277",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.277.tgz",
+				"shasum": "fc65efb3c80d75674cd74abe56f34514a3dd12e8"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.277"
+		},
+		"2.0.310": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.310",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.310.tgz",
+				"shasum": "8be5b3548f6c45792d2910b1b89875c8d42d9e92"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.310"
+		},
+		"2.0.354": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.354",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.354.tgz",
+				"shasum": "80855ca71ccc8ec6edda7c0f956a5e22eab0bd3b"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.354"
+		},
+		"2.0.278": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.278",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.278.tgz",
+				"shasum": "9f5db4c6b8e4678095f117282188c2620ecea4fb"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.278"
+		},
+		"2.0.311": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.311",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.311.tgz",
+				"shasum": "079ef85a9113cb4fe1d4156c86d408b4fc7a8380"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.311"
+		},
+		"2.0.355": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.355",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.355.tgz",
+				"shasum": "fe7ee00657dd490c9c7b1cd5721e13cb15bf24bd"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.355"
+		},
+		"2.0.279": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.279",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.279.tgz",
+				"shasum": "e8eb2d74eb57cd437934510cc483869f53fe3970"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.279"
+		},
+		"2.0.312": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.312",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.312.tgz",
+				"shasum": "6a35958c577bd3de79f6a06eb59ce67a65558d6e"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.312"
+		},
+		"2.0.356": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.356",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.356.tgz",
+				"shasum": "acad862b0f75d8a24f4a6b6ee28f8b7c287b41bd"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.356"
+		},
+		"2.0.313": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.313",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.313.tgz",
+				"shasum": "558d3cd9d7faf4380918cbbc8621da890499365d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.313"
+		},
+		"2.0.357": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.357",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.357.tgz",
+				"shasum": "414f0592b4525e8f903c991e6bcc7bb3b6ec2a2d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.357"
+		},
+		"2.0.159": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.159",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.159.tgz",
+				"shasum": "2e66933290dfd8ba63653aacdf1769bd3cac593d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.159"
+		},
+		"2.0.314": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.314",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.314.tgz",
+				"shasum": "91baeb129adf394e124640e3dc9a3decb4a603a2"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.314"
+		},
+		"2.0.358": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.358",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.358.tgz",
+				"shasum": "c693eb9c72d9c13f5f123043537f1c0b645318ee"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.358"
+		},
+		"2.0.315": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.315",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.315.tgz",
+				"shasum": "0c7eb4723f3ae6cfb626e53f843ec723f778f89d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.315"
+		},
+		"2.0.359": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.359",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.359.tgz",
+				"shasum": "23b3b5f3d3c29b960df934fc11b13cf8181ad161"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.359"
+		},
+		"2.0.316": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.316",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.316.tgz",
+				"shasum": "f8f4b472973bb4e4c7d4dae45c23e9f6dd63f592"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.316"
+		},
+		"2.0.317": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.317",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.317.tgz",
+				"shasum": "d37e78160d9f21219a12ce7dab4268a40f525bb2"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.317"
+		},
+		"2.0.307": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.307",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.307.tgz",
+				"shasum": "77088dfe05d78f5aed1acc8c56c9eefc8d372d46"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.307"
+		},
+		"2.0.308": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.308",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.308.tgz",
+				"shasum": "ec5fb9b7e55bcf61cfeb6d0d036911d88039d019"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.308"
+		},
+		"2.0.309": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.309",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.309.tgz",
+				"shasum": "0dfd611c487e957e976833b5f734da3e8efbb174"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.309"
+		},
+		"2.0.340": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.340",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.340.tgz",
+				"shasum": "a56fbfcb3ad3c8dde093b3ef4689a7b157a42c2b"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.340"
+		},
+		"2.0.341": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.341",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.341.tgz",
+				"shasum": "2428669fce401ecfd425506b3fdde028d2909013"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.341"
+		},
+		"2.0.342": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.342",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.342.tgz",
+				"shasum": "9505c5a8b0febc70e62359d1cde4d0eeb7fb8e00"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.342"
+		},
+		"2.0.343": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.343",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.343.tgz",
+				"shasum": "361da1a7bafa4bbef58497ab818f90f4488acf5a"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.343"
+		},
+		"2.0.300": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.300",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.300.tgz",
+				"shasum": "d1a0a5435bec5a8479fb634017bf775bace0ae40"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.300"
+		},
+		"2.0.301": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.301",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.301.tgz",
+				"shasum": "d8cf3382b6c506a083c884154df885b8bc2f6475"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.301"
+		},
+		"2.0.345": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.345",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.345.tgz",
+				"shasum": "28215306fd10528c0d8bb44e80688dc7b897c858"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.345"
+		},
+		"2.0.302": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.302",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.302.tgz",
+				"shasum": "1355ee97f491cb7b9f22a16aaceb1574d055b028"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.302"
+		},
+		"2.0.346": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.346",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.346.tgz",
+				"shasum": "c1003ebf6dbe81a3c364c06d044b8adb26198919"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.346"
+		},
+		"2.0.303": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.303",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.303.tgz",
+				"shasum": "c6e812a47c9c12c63cca0c1b44c5e87fb3882751"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.303"
+		},
+		"2.0.347": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.347",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.347.tgz",
+				"shasum": "52e39855dc941355a16823ff6beb000003a920be"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.347"
+		},
+		"2.0.304": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.304",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.304.tgz",
+				"shasum": "f739d9dfbca5c3fc71d22cbeab5bb8ea29d0174e"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.304"
+		},
+		"2.0.348": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.348",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.348.tgz",
+				"shasum": "d230baac39dd4a8c2f18ab331e042baa1bb82b92"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.348"
+		},
+		"2.0.305": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.305",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.305.tgz",
+				"shasum": "1770d38adaadb724b15f43eabafe4abc8b7df4ee"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.305"
+		},
+		"2.0.349": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.349",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.349.tgz",
+				"shasum": "5d5ddbc37d05ca50ae1b4ba7d5d966dbd4f9a042"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.16",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.349"
+		},
+		"2.0.306": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.306",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.306.tgz",
+				"shasum": "bd8df8a1ea220f5cdbd544b08d3214868cc7d9ff"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.306"
+		},
+		"2.0.291": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.291",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.291.tgz",
+				"shasum": "071c30f7bdc36196996c0927ed4934b613c72d0d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.291"
+		},
+		"2.0.292": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.292",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.292.tgz",
+				"shasum": "ebb96cd552146c79c8a2afed02b1ccc6656b0805"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.292"
+		},
+		"2.0.293": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.293",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.293.tgz",
+				"shasum": "71bdbbb74a38ef1d99fb5cbe2ad263a59be76fff"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.293"
+		},
+		"2.0.294": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.294",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.294.tgz",
+				"shasum": "4281b3883e95dfb26f2070db650cf03b57a9e4a1"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.294"
+		},
+		"2.0.295": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.295",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.295.tgz",
+				"shasum": "ef52562b5cde81d6d65a2c2149509d5828f9bc38"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.295"
+		},
+		"2.0.296": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.296",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.296.tgz",
+				"shasum": "218cd492a503399a44a467ec5ec383b6647d31f1"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.296"
+		},
+		"2.0.297": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.297",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.297.tgz",
+				"shasum": "b59d45557fbefbd0984e5e39aa52eec8fcd9c37f"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.297"
+		},
+		"2.0.330": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.330",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.330.tgz",
+				"shasum": "dc7d5aa162940553cc198dd8ff63e49d949f6d5d"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.330"
+		},
+		"2.0.298": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.298",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.298.tgz",
+				"shasum": "d7f6157b26197483956baba1be1d8e8766075718"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.298"
+		},
+		"2.0.331": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.331",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.331.tgz",
+				"shasum": "11b7b0957d8c7e0b91b256008f45084077933774"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.331"
+		},
+		"2.0.299": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.299",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.299.tgz",
+				"shasum": "d66d9dff2e59a10dab16a93abeb71dda6d7cf144"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.299"
+		},
+		"2.0.332": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.332",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.332.tgz",
+				"shasum": "a02366d8852a2621da70975086c3b450f54cfeab"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.332"
+		},
+		"2.0.333": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.333",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.333.tgz",
+				"shasum": "0af33c9ecfbb780a5dedf7ede8829aa40d842950"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.333"
+		},
+		"2.0.334": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.334",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.334.tgz",
+				"shasum": "6e75a7f3ccbf1fe13155193e9a32c05c2c78be92"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.334"
+		},
+		"2.0.335": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.335",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.335.tgz",
+				"shasum": "dbde82a9f24307163f049851cfd687aebc2a8ae4"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.335"
+		},
+		"2.0.336": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.336",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.336.tgz",
+				"shasum": "06b5e116bd2db23d6920334e59dd3758def1c477"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.336"
+		},
+		"2.0.337": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.337",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.337.tgz",
+				"shasum": "ac8010ddfbb0f7844f06876f900c1954573e38a7"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.337"
+		},
+		"2.0.338": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.338",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.338.tgz",
+				"shasum": "3c87fbcc7d5bad6b727fd7805669c592c2453894"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.338"
+		},
+		"2.0.339": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.339",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.339.tgz",
+				"shasum": "47cc0a888362a94857df844470b374a642310b3e"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.13",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"axios": "0.18.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.339"
+		},
+		"2.0.329": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.329",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.329.tgz",
+				"shasum": "9a574f6bc7a7ba23edc9e134c6031a13279406ea"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.12",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.329"
+		},
+		"2.0.290": {
+			"name": "@wix/wix-session-crypto",
+			"description": "wix session encrypt decryp lib",
+			"version": "2.0.290",
+			"author": "Kfir Bloch <kfirb@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wix-session-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "wix-session.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.290.tgz",
+				"shasum": "e088517d25cedab868f4455282511944d27b110a"
+			},
+			"dependencies": {
+				"wix-errors": "~1.0.171",
+				"wnp-jwt-crypto": "~0.1.482"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"chance": "1.0.11",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"wix-jvm-bootstrap-testkit": "~1.0.860",
+				"wnp-http-test-client": "0.1.485",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"session",
+				"security"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-session-crypto@2.0.290"
+		}
+	},
+	"time": {
+		"2.0.280": "2017-10-26T06:20:32.768Z",
+		"2.0.281": "2017-10-26T08:24:48.502Z",
+		"2.0.282": "2017-10-27T06:49:14.142Z",
+		"2.0.283": "2017-10-28T09:00:03.364Z",
+		"2.0.284": "2017-10-29T05:49:07.722Z",
+		"2.0.285": "2017-10-29T06:09:10.576Z",
+		"2.0.286": "2017-10-29T06:13:07.418Z",
+		"2.0.287": "2017-10-29T13:56:55.756Z",
+		"2.0.320": "2017-11-11T02:39:25.680Z",
+		"2.0.288": "2017-10-30T05:46:28.922Z",
+		"2.0.321": "2017-11-11T05:53:51.988Z",
+		"2.0.289": "2017-10-30T06:10:39.657Z",
+		"2.0.322": "2017-11-12T05:55:36.628Z",
+		"2.0.323": "2017-11-13T05:57:38.921Z",
+		"2.0.324": "2017-11-14T05:59:24.200Z",
+		"2.0.325": "2017-11-14T12:24:07.127Z",
+		"2.0.326": "2017-11-16T02:21:47.825Z",
+		"2.0.327": "2017-11-16T06:56:22.337Z",
+		"2.0.328": "2017-11-16T07:23:38.318Z",
+		"2.0.318": "2017-11-09T12:12:29.393Z",
+		"2.0.319": "2017-11-09T23:46:30.378Z",
+		"2.0.274": "2017-10-24T07:44:29.122Z",
+		"2.0.275": "2017-10-24T09:53:07.138Z",
+		"2.0.276": "2017-10-24T16:42:45.813Z",
+		"2.0.277": "2017-10-24T19:33:08.766Z",
+		"2.0.310": "2017-11-07T07:44:27.882Z",
+		"2.0.278": "2017-10-26T02:47:48.488Z",
+		"2.0.311": "2017-11-07T07:50:49.012Z",
+		"2.0.279": "2017-10-26T05:49:45.219Z",
+		"2.0.312": "2017-11-07T13:00:03.139Z",
+		"2.0.313": "2017-11-08T07:28:19.190Z",
+		"2.0.159": "2018-09-25T14:31:36.639Z",
+		"2.0.314": "2017-11-08T08:42:46.573Z",
+		"2.0.315": "2017-11-08T14:40:55.579Z",
+		"2.0.316": "2017-11-09T12:04:19.767Z",
+		"2.0.317": "2017-11-09T12:06:00.187Z",
+		"2.0.307": "2017-11-05T15:10:39.629Z",
+		"2.0.308": "2017-11-05T16:42:21.839Z",
+		"2.0.309": "2017-11-07T03:38:33.447Z",
+		"2.0.340": "2018-03-19T07:04:37.161Z",
+		"2.0.341": "2018-03-19T07:46:02.506Z",
+		"2.0.342": "2018-03-25T10:35:14.964Z",
+		"2.0.343": "2018-04-05T08:35:54.426Z",
+		"2.0.345": "2018-05-06T07:18:35.273Z",
+		"2.0.346": "2018-05-14T11:47:04.475Z",
+		"2.0.347": "2018-05-16T09:17:50.111Z",
+		"2.0.348": "2018-05-17T06:13:23.131Z",
+		"2.0.349": "2018-05-20T10:39:35.794Z",
+		"2.0.291": "2017-10-31T07:20:11.498Z",
+		"2.0.292": "2017-10-31T11:33:42.683Z",
+		"2.0.293": "2017-11-01T05:53:23.479Z",
+		"2.0.294": "2017-11-01T17:08:17.677Z",
+		"2.0.295": "2017-11-02T00:59:37.272Z",
+		"2.0.296": "2017-11-02T15:16:32.746Z",
+		"2.0.297": "2017-11-02T15:20:14.685Z",
+		"2.0.330": "2017-12-10T13:13:15.048Z",
+		"2.0.298": "2017-11-02T15:25:31.399Z",
+		"2.0.331": "2017-12-11T12:59:09.761Z",
+		"2.0.299": "2017-11-02T19:49:32.605Z",
+		"2.0.332": "2017-12-25T09:37:24.577Z",
+		"2.0.333": "2018-01-08T10:16:19.248Z",
+		"2.0.334": "2018-01-09T09:19:18.641Z",
+		"2.0.335": "2018-01-15T15:04:30.689Z",
+		"2.0.336": "2018-01-30T11:29:06.980Z",
+		"2.0.337": "2018-02-21T16:08:34.476Z",
+		"2.0.338": "2018-02-25T19:31:39.558Z",
+		"2.0.339": "2018-03-16T06:11:38.281Z",
+		"2.0.329": "2017-11-16T20:15:59.968Z",
+		"2.0.290": "2017-10-31T06:12:17.507Z",
+		"2.0.360": "2018-10-03T10:58:57.830Z",
+		"2.0.361": "2018-10-24T15:38:01.111Z",
+		"2.0.362": "2018-11-04T14:50:56.939Z",
+		"2.0.363": "2018-11-14T12:24:59.061Z",
+		"2.0.364": "2018-12-05T11:47:40.737Z",
+		"2.0.365": "2018-12-12T08:49:33.941Z",
+		"2.0.366": "2018-12-13T12:03:39.983Z",
+		"2.0.367": "2018-12-13T14:28:01.335Z",
+		"2.0.368": "2019-01-02T14:23:12.395Z",
+		"2.0.369": "2019-01-14T11:38:16.315Z",
+		"modified": "2019-01-14T11:38:16.315Z",
+		"2.0.350": "2018-05-30T08:17:18.945Z",
+		"2.0.351": "2018-06-07T13:40:29.852Z",
+		"created": "2017-10-24T07:44:29.122Z",
+		"2.0.352": "2018-06-19T12:06:51.094Z",
+		"2.0.353": "2018-06-21T13:27:48.190Z",
+		"2.0.354": "2018-07-11T18:55:52.820Z",
+		"2.0.355": "2018-07-12T07:41:42.210Z",
+		"2.0.356": "2018-08-06T09:57:01.995Z",
+		"2.0.357": "2018-08-26T12:12:14.655Z",
+		"2.0.358": "2018-09-13T11:01:07.364Z",
+		"2.0.359": "2018-10-02T10:39:28.264Z",
+		"2.0.300": "2017-11-02T19:52:24.515Z",
+		"2.0.301": "2017-11-03T04:14:52.138Z",
+		"2.0.302": "2017-11-03T08:10:31.247Z",
+		"2.0.303": "2017-11-03T14:02:06.385Z",
+		"2.0.304": "2017-11-05T05:30:02.031Z",
+		"2.0.305": "2017-11-05T06:11:16.910Z",
+		"2.0.306": "2017-11-05T13:28:27.776Z"
+	},
+	"dist-tags": {
+		"old": "2.0.159",
+		"latest": "2.0.369"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749419332
+		}
+	},
+	"_distfiles": {
+		"wix-session-crypto-2.0.280.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.280.tgz",
+			"sha": "db4f309aa14a4957f0180da1713b75a2c3bfc89c"
+		},
+		"wix-session-crypto-2.0.281.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.281.tgz",
+			"sha": "201efa89bedb4abeccc92944b67259394cd7f4db"
+		},
+		"wix-session-crypto-2.0.282.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.282.tgz",
+			"sha": "859e67302771d5a40ae230ed48bdfe0deff2099e"
+		},
+		"wix-session-crypto-2.0.283.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.283.tgz",
+			"sha": "dda58e995c89cbb30675f103182a7f39740dadd7"
+		},
+		"wix-session-crypto-2.0.360.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.360.tgz",
+			"sha": "3cfe32174d92377afdf3343901fa4b63b24e6993"
+		},
+		"wix-session-crypto-2.0.284.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.284.tgz",
+			"sha": "437015e8508e233a1da1be32b66462b4668679a9"
+		},
+		"wix-session-crypto-2.0.361.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.361.tgz",
+			"sha": "d6f4b68f2234d7cb4880852bb1eda4a7ce2c390a"
+		},
+		"wix-session-crypto-2.0.285.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.285.tgz",
+			"sha": "3395839fb4147367163250e5ac8a5bab8fb46a2c"
+		},
+		"wix-session-crypto-2.0.362.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.362.tgz",
+			"sha": "750ef423bd9c7a517a78d1cd492aa9c258304b68"
+		},
+		"wix-session-crypto-2.0.286.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.286.tgz",
+			"sha": "60262b3c00e5f12f9b2451426d2b0237c698102a"
+		},
+		"wix-session-crypto-2.0.363.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.363.tgz",
+			"sha": "2e9fd8c83ad99f609ff1926a108991e601bb8a98"
+		},
+		"wix-session-crypto-2.0.287.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.287.tgz",
+			"sha": "2416d72aac67c30a60531b9ecceb6fb13bfab692"
+		},
+		"wix-session-crypto-2.0.320.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.320.tgz",
+			"sha": "772bf4e0127397868d8aa6edd1cbbc96779989bc"
+		},
+		"wix-session-crypto-2.0.364.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.364.tgz",
+			"sha": "cf0aea0522dbc46117c4c1a5faf836bf00cd3792"
+		},
+		"wix-session-crypto-2.0.288.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.288.tgz",
+			"sha": "2ba090e651d454540b9c76ff262349dae5558576"
+		},
+		"wix-session-crypto-2.0.321.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.321.tgz",
+			"sha": "5a37421814a940a5fa918c471748185ba61e02e3"
+		},
+		"wix-session-crypto-2.0.365.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.365.tgz",
+			"sha": "7ebeca142293618fa5e39746a9fdfc148e9786be"
+		},
+		"wix-session-crypto-2.0.289.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.289.tgz",
+			"sha": "0ef73c50dbde0717a9f5f8e16a79cd0db441d7c6"
+		},
+		"wix-session-crypto-2.0.322.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.322.tgz",
+			"sha": "537f77f47447a43f1f20da9b8b8776f169e47ab9"
+		},
+		"wix-session-crypto-2.0.366.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.366.tgz",
+			"sha": "07bb174d2aae1de68f44529d078115ff509c14b9"
+		},
+		"wix-session-crypto-2.0.323.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.323.tgz",
+			"sha": "99d87b16185ccee8e652832e169e752392602847"
+		},
+		"wix-session-crypto-2.0.367.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.367.tgz",
+			"sha": "f5441a3be5612467b74de98806fae2eefd4ba17b"
+		},
+		"wix-session-crypto-2.0.324.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.324.tgz",
+			"sha": "528c14f906a63634f2a34190c2b4a57bd1957fe3"
+		},
+		"wix-session-crypto-2.0.368.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.368.tgz",
+			"sha": "dffc2482a0613a5e63750e47a7aaac8ea7140552"
+		},
+		"wix-session-crypto-2.0.325.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.325.tgz",
+			"sha": "e7d0ee128bbb0ad817a19ed0247a703e469ec333"
+		},
+		"wix-session-crypto-2.0.369.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.369.tgz",
+			"sha": "6b6a5f20f24d808bc24705fc7d935038587a947a"
+		},
+		"wix-session-crypto-2.0.326.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.326.tgz",
+			"sha": "5fc80cff451fbcb1513b95261f5b85b167d17b91"
+		},
+		"wix-session-crypto-2.0.327.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.327.tgz",
+			"sha": "ae01bf60a0da096f29f57b123766867c596a1b2d"
+		},
+		"wix-session-crypto-2.0.328.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.328.tgz",
+			"sha": "8428aeaf8e6acb8b16fe1886faf58ed609208fe2"
+		},
+		"wix-session-crypto-2.0.318.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.318.tgz",
+			"sha": "dea503a6677c5069d7c1770ce614bf0e916c6716"
+		},
+		"wix-session-crypto-2.0.319.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.319.tgz",
+			"sha": "2e1a94a1d53abf181a394df2d5918d878d920273"
+		},
+		"wix-session-crypto-2.0.350.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.350.tgz",
+			"sha": "f37f8f244548dfad2f22064b86ba6e6b9199c288"
+		},
+		"wix-session-crypto-2.0.274.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.274.tgz",
+			"sha": "c28300870aa0845ccc758d3a3d337d2ad91e821f"
+		},
+		"wix-session-crypto-2.0.351.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.351.tgz",
+			"sha": "ed7788079329c78a892f6e622eef0dc45f91e12a"
+		},
+		"wix-session-crypto-2.0.275.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.275.tgz",
+			"sha": "1b00b7a0df10343c59132a32411c5c2112ac7f53"
+		},
+		"wix-session-crypto-2.0.352.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.352.tgz",
+			"sha": "73d798fd67c412e19327d03d31291990ec3cde21"
+		},
+		"wix-session-crypto-2.0.276.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.276.tgz",
+			"sha": "87c679481c89f285b80da8415e239408df8b44c9"
+		},
+		"wix-session-crypto-2.0.353.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.353.tgz",
+			"sha": "f30e6fb85e1569703a10f7fbff197be6d1203a4b"
+		},
+		"wix-session-crypto-2.0.277.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.277.tgz",
+			"sha": "fc65efb3c80d75674cd74abe56f34514a3dd12e8"
+		},
+		"wix-session-crypto-2.0.310.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.310.tgz",
+			"sha": "8be5b3548f6c45792d2910b1b89875c8d42d9e92"
+		},
+		"wix-session-crypto-2.0.354.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.354.tgz",
+			"sha": "80855ca71ccc8ec6edda7c0f956a5e22eab0bd3b"
+		},
+		"wix-session-crypto-2.0.278.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.278.tgz",
+			"sha": "9f5db4c6b8e4678095f117282188c2620ecea4fb"
+		},
+		"wix-session-crypto-2.0.311.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.311.tgz",
+			"sha": "079ef85a9113cb4fe1d4156c86d408b4fc7a8380"
+		},
+		"wix-session-crypto-2.0.355.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.355.tgz",
+			"sha": "fe7ee00657dd490c9c7b1cd5721e13cb15bf24bd"
+		},
+		"wix-session-crypto-2.0.279.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.279.tgz",
+			"sha": "e8eb2d74eb57cd437934510cc483869f53fe3970"
+		},
+		"wix-session-crypto-2.0.312.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.312.tgz",
+			"sha": "6a35958c577bd3de79f6a06eb59ce67a65558d6e"
+		},
+		"wix-session-crypto-2.0.356.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.356.tgz",
+			"sha": "acad862b0f75d8a24f4a6b6ee28f8b7c287b41bd"
+		},
+		"wix-session-crypto-2.0.313.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.313.tgz",
+			"sha": "558d3cd9d7faf4380918cbbc8621da890499365d"
+		},
+		"wix-session-crypto-2.0.357.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.357.tgz",
+			"sha": "414f0592b4525e8f903c991e6bcc7bb3b6ec2a2d"
+		},
+		"wix-session-crypto-2.0.159.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.159.tgz",
+			"sha": "2e66933290dfd8ba63653aacdf1769bd3cac593d"
+		},
+		"wix-session-crypto-2.0.314.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.314.tgz",
+			"sha": "91baeb129adf394e124640e3dc9a3decb4a603a2"
+		},
+		"wix-session-crypto-2.0.358.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.358.tgz",
+			"sha": "c693eb9c72d9c13f5f123043537f1c0b645318ee"
+		},
+		"wix-session-crypto-2.0.315.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.315.tgz",
+			"sha": "0c7eb4723f3ae6cfb626e53f843ec723f778f89d"
+		},
+		"wix-session-crypto-2.0.359.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.359.tgz",
+			"sha": "23b3b5f3d3c29b960df934fc11b13cf8181ad161"
+		},
+		"wix-session-crypto-2.0.316.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.316.tgz",
+			"sha": "f8f4b472973bb4e4c7d4dae45c23e9f6dd63f592"
+		},
+		"wix-session-crypto-2.0.317.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.317.tgz",
+			"sha": "d37e78160d9f21219a12ce7dab4268a40f525bb2"
+		},
+		"wix-session-crypto-2.0.307.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.307.tgz",
+			"sha": "77088dfe05d78f5aed1acc8c56c9eefc8d372d46"
+		},
+		"wix-session-crypto-2.0.308.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.308.tgz",
+			"sha": "ec5fb9b7e55bcf61cfeb6d0d036911d88039d019"
+		},
+		"wix-session-crypto-2.0.309.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.309.tgz",
+			"sha": "0dfd611c487e957e976833b5f734da3e8efbb174"
+		},
+		"wix-session-crypto-2.0.340.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.340.tgz",
+			"sha": "a56fbfcb3ad3c8dde093b3ef4689a7b157a42c2b"
+		},
+		"wix-session-crypto-2.0.341.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.341.tgz",
+			"sha": "2428669fce401ecfd425506b3fdde028d2909013"
+		},
+		"wix-session-crypto-2.0.342.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.342.tgz",
+			"sha": "9505c5a8b0febc70e62359d1cde4d0eeb7fb8e00"
+		},
+		"wix-session-crypto-2.0.343.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.343.tgz",
+			"sha": "361da1a7bafa4bbef58497ab818f90f4488acf5a"
+		},
+		"wix-session-crypto-2.0.300.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.300.tgz",
+			"sha": "d1a0a5435bec5a8479fb634017bf775bace0ae40"
+		},
+		"wix-session-crypto-2.0.301.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.301.tgz",
+			"sha": "d8cf3382b6c506a083c884154df885b8bc2f6475"
+		},
+		"wix-session-crypto-2.0.345.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.345.tgz",
+			"sha": "28215306fd10528c0d8bb44e80688dc7b897c858"
+		},
+		"wix-session-crypto-2.0.302.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.302.tgz",
+			"sha": "1355ee97f491cb7b9f22a16aaceb1574d055b028"
+		},
+		"wix-session-crypto-2.0.346.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.346.tgz",
+			"sha": "c1003ebf6dbe81a3c364c06d044b8adb26198919"
+		},
+		"wix-session-crypto-2.0.303.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.303.tgz",
+			"sha": "c6e812a47c9c12c63cca0c1b44c5e87fb3882751"
+		},
+		"wix-session-crypto-2.0.347.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.347.tgz",
+			"sha": "52e39855dc941355a16823ff6beb000003a920be"
+		},
+		"wix-session-crypto-2.0.304.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.304.tgz",
+			"sha": "f739d9dfbca5c3fc71d22cbeab5bb8ea29d0174e"
+		},
+		"wix-session-crypto-2.0.348.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.348.tgz",
+			"sha": "d230baac39dd4a8c2f18ab331e042baa1bb82b92"
+		},
+		"wix-session-crypto-2.0.305.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.305.tgz",
+			"sha": "1770d38adaadb724b15f43eabafe4abc8b7df4ee"
+		},
+		"wix-session-crypto-2.0.349.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.349.tgz",
+			"sha": "5d5ddbc37d05ca50ae1b4ba7d5d966dbd4f9a042"
+		},
+		"wix-session-crypto-2.0.306.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.306.tgz",
+			"sha": "bd8df8a1ea220f5cdbd544b08d3214868cc7d9ff"
+		},
+		"wix-session-crypto-2.0.291.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.291.tgz",
+			"sha": "071c30f7bdc36196996c0927ed4934b613c72d0d"
+		},
+		"wix-session-crypto-2.0.292.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.292.tgz",
+			"sha": "ebb96cd552146c79c8a2afed02b1ccc6656b0805"
+		},
+		"wix-session-crypto-2.0.293.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.293.tgz",
+			"sha": "71bdbbb74a38ef1d99fb5cbe2ad263a59be76fff"
+		},
+		"wix-session-crypto-2.0.294.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.294.tgz",
+			"sha": "4281b3883e95dfb26f2070db650cf03b57a9e4a1"
+		},
+		"wix-session-crypto-2.0.295.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.295.tgz",
+			"sha": "ef52562b5cde81d6d65a2c2149509d5828f9bc38"
+		},
+		"wix-session-crypto-2.0.296.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.296.tgz",
+			"sha": "218cd492a503399a44a467ec5ec383b6647d31f1"
+		},
+		"wix-session-crypto-2.0.297.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.297.tgz",
+			"sha": "b59d45557fbefbd0984e5e39aa52eec8fcd9c37f"
+		},
+		"wix-session-crypto-2.0.330.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.330.tgz",
+			"sha": "dc7d5aa162940553cc198dd8ff63e49d949f6d5d"
+		},
+		"wix-session-crypto-2.0.298.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.298.tgz",
+			"sha": "d7f6157b26197483956baba1be1d8e8766075718"
+		},
+		"wix-session-crypto-2.0.331.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.331.tgz",
+			"sha": "11b7b0957d8c7e0b91b256008f45084077933774"
+		},
+		"wix-session-crypto-2.0.299.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.299.tgz",
+			"sha": "d66d9dff2e59a10dab16a93abeb71dda6d7cf144"
+		},
+		"wix-session-crypto-2.0.332.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.332.tgz",
+			"sha": "a02366d8852a2621da70975086c3b450f54cfeab"
+		},
+		"wix-session-crypto-2.0.333.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.333.tgz",
+			"sha": "0af33c9ecfbb780a5dedf7ede8829aa40d842950"
+		},
+		"wix-session-crypto-2.0.334.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.334.tgz",
+			"sha": "6e75a7f3ccbf1fe13155193e9a32c05c2c78be92"
+		},
+		"wix-session-crypto-2.0.335.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.335.tgz",
+			"sha": "dbde82a9f24307163f049851cfd687aebc2a8ae4"
+		},
+		"wix-session-crypto-2.0.336.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.336.tgz",
+			"sha": "06b5e116bd2db23d6920334e59dd3758def1c477"
+		},
+		"wix-session-crypto-2.0.337.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.337.tgz",
+			"sha": "ac8010ddfbb0f7844f06876f900c1954573e38a7"
+		},
+		"wix-session-crypto-2.0.338.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.338.tgz",
+			"sha": "3c87fbcc7d5bad6b727fd7805669c592c2453894"
+		},
+		"wix-session-crypto-2.0.339.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.339.tgz",
+			"sha": "47cc0a888362a94857df844470b374a642310b3e"
+		},
+		"wix-session-crypto-2.0.329.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.329.tgz",
+			"sha": "9a574f6bc7a7ba23edc9e134c6031a13279406ea"
+		},
+		"wix-session-crypto-2.0.290.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-session-crypto/-/@wix/wix-session-crypto-2.0.290.tgz",
+			"sha": "e088517d25cedab868f4455282511944d27b110a"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-18bbedf431cb4c29",
+	"readme": ""
+}

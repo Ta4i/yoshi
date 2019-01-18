@@ -1,0 +1,152 @@
+{
+	"name": "simple-lru-cache",
+	"versions": {
+		"0.0.2": {
+			"name": "simple-lru-cache",
+			"description": "node-simple-lru-cache =====================",
+			"version": "0.0.2",
+			"author": {
+				"name": "Gabriel Eisbruch"
+			},
+			"homepage": "https://github.com/geisbruch/node-simple-lru-cache",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/geisbruch/node-simple-lru-cache.git"
+			},
+			"bugs": {
+				"url": "https://github.com/geisbruch/node-simple-lru-cache/issues"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/simple-lru-cache/-/simple-lru-cache-0.0.2.tgz",
+				"shasum": "d59cc3a193c1a5d0320f84ee732f6e4713e511dd"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"cache",
+				"lru",
+				"simple",
+				"fast"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/geisbruch/node-simple-lru-cache/blob/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "geisbruch",
+					"email": "gabrieleisbruch@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "make test",
+				"bench": "make bench"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "geisbruch",
+				"email": "gabrieleisbruch@gmail.com"
+			},
+			"_id": "simple-lru-cache@0.0.2",
+			"repositories": [
+				{
+					"type": "git",
+					"url": "http://github.com/geisbruch/node-simple-lru-cache.git"
+				}
+			],
+			"_shasum": "d59cc3a193c1a5d0320f84ee732f6e4713e511dd"
+		},
+		"0.0.1": {
+			"name": "simple-lru-cache",
+			"description": "node-simple-lru-cache =====================",
+			"version": "0.0.1",
+			"author": {
+				"name": "Gabriel Eisbruch"
+			},
+			"main": "index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/simple-lru-cache/-/simple-lru-cache-0.0.1.tgz",
+				"shasum": "0334171e40ed4a4861ac29250eb1db23300be4f0"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"cache",
+				"lru",
+				"simple",
+				"fast"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/mercadolibre/node-simple-lru-cache/blob/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "geisbruch",
+					"email": "gabrieleisbruch@gmail.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "make test",
+				"bench": "make bench"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "geisbruch",
+				"email": "gabrieleisbruch@gmail.com"
+			},
+			"_id": "simple-lru-cache@0.0.1",
+			"repositories": [
+				{
+					"type": "git",
+					"url": "http://github.com/mercadolibre/node-simple-lru-cache.git"
+				}
+			]
+		}
+	},
+	"time": {
+		"created": "2013-01-11T15:40:44.980Z",
+		"modified": "2015-03-31T13:32:37.150Z",
+		"0.0.2": "2015-03-31T13:32:37.150Z",
+		"0.0.1": "2013-01-11T15:40:45.770Z"
+	},
+	"dist-tags": {
+		"latest": "0.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749440258
+		}
+	},
+	"_distfiles": {
+		"simple-lru-cache-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/simple-lru-cache/-/simple-lru-cache-0.0.2.tgz",
+			"sha": "d59cc3a193c1a5d0320f84ee732f6e4713e511dd"
+		},
+		"simple-lru-cache-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/simple-lru-cache/-/simple-lru-cache-0.0.1.tgz",
+			"sha": "0334171e40ed4a4861ac29250eb1db23300be4f0"
+		}
+	},
+	"_attachments": {},
+	"_rev": "2-22e1471b76834fa9",
+	"readme": "node-simple-lru-cache\n=====================\n\nIt's a very simple and extremely fast lru cache for node.js.\n\nThis cache will priorize the lastest used keys over the least used keys, \nso when a new key is added if the cache is full, the least used key will be removed\n\n## Instalation\n    \n    npm install simple-lru-cache\n\n## Usage\n    var SimpleCache = require(\"simple-lru-cache\")\n\n    var cache = new SimpleCache({\"maxSize\":1000})\n\n    //Add an Objet\n    cache.set(\"hello\",\"world\")\n\n    //Get an Object\n    cache.get(\"hello\")\n\n    //Delete an Object\n    cache.del(\"hello\")\n\n    //Reset cache\n    cache.reset()\n\n## Tests\n    \n    npm install\n    npm test\n\n## Benchmark against lru-cache\n\n      make bench"
+}

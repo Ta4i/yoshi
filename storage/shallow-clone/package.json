@@ -1,0 +1,848 @@
+{
+	"name": "shallow-clone",
+	"versions": {
+		"2.0.0": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "2.0.0",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"contributors": [
+				{
+					"name": "Brian Woodward",
+					"url": "https://twitter.com/doowb"
+				},
+				{
+					"name": "Jon Schlinkert",
+					"url": "http://twitter.com/jonschlinkert"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.0.tgz",
+				"shasum": "5d0f491e313686b2f53660b8859ca33684f18d20"
+			},
+			"dependencies": {
+				"is-extendable": "^1.0.1",
+				"kind-of": "^6.0.0",
+				"mixin-object": "^3.0.0"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^1.0.0",
+				"mocha": "^3.5.2"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@2.0.0",
+			"gitHead": "3fa8cecbf11780495ad04a253963e0a2397396f8",
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-deep",
+						"clone-deep",
+						"extend-shallow",
+						"is-plain-object",
+						"isobject",
+						"kind-of",
+						"mixin-deep",
+						"mixin-object"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/shallow-clone-2.0.0.tgz_1510895365522_0.4853158735204488"
+			},
+			"_nodeVersion": "9.1.0"
+		},
+		"2.0.1": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "2.0.1",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"contributors": [
+				{
+					"name": "Brian Woodward",
+					"url": "https://twitter.com/doowb"
+				},
+				{
+					"name": "Jon Schlinkert",
+					"url": "http://twitter.com/jonschlinkert"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.1.tgz",
+				"shasum": "8f33c2b957eb5eada9346b91883184ae1a2395cc"
+			},
+			"dependencies": {
+				"is-extendable": "^1.0.1",
+				"kind-of": "^6.0.2",
+				"mixin-object": "^3.0.0"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^1.0.0",
+				"mocha": "^3.5.3"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@2.0.1",
+			"gitHead": "bfe3ee5b1cc6cb6fc367ea963a1a483e65559e6e",
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-deep",
+						"clone-deep",
+						"extend-shallow",
+						"is-plain-object",
+						"isobject",
+						"kind-of",
+						"mixin-deep",
+						"mixin-object"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/shallow-clone-2.0.1.tgz_1514500323385_0.97433264227584"
+			},
+			"_nodeVersion": "9.1.0"
+		},
+		"3.0.0": {
+			"name": "shallow-clone",
+			"description": "Creates a shallow clone of any JavaScript value.",
+			"version": "3.0.0",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"contributors": [
+				{
+					"name": "Brian Woodward",
+					"url": "https://twitter.com/doowb"
+				},
+				{
+					"name": "Jon Schlinkert",
+					"url": "http://twitter.com/jonschlinkert"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-3.0.0.tgz",
+				"shasum": "317b701facce5e742d4c04c64e1d52f957e22b28"
+			},
+			"dependencies": {
+				"kind-of": "^6.0.2"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^1.0.0",
+				"mocha": "^3.5.3"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@3.0.0",
+			"gitHead": "fa62f9dfa131ba79bab0fe2b09d1e9a53121c48e",
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-deep",
+						"clone-deep",
+						"is-plain-object",
+						"kind-of"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/shallow-clone_3.0.0_1523342926123_0.141181021651261"
+			},
+			"_nodeVersion": "9.9.0"
+		},
+		"0.1.1": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.1.tgz",
+				"shasum": "d114e09ff7c3b198e92f764277c28444a219ea1a"
+			},
+			"dependencies": {
+				"is-extendable": "^0.1.1",
+				"kind-of": "^2.0.0",
+				"lazy-cache": "^0.1.0",
+				"mixin-object": "^2.0.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@0.1.1",
+			"verb": {
+				"related": {
+					"list": [
+						"clone-deep",
+						"is-plain-object",
+						"mixin-object",
+						"mixin-deep",
+						"extend-shallow",
+						"assign-deep"
+					]
+				}
+			},
+			"_shasum": "d114e09ff7c3b198e92f764277c28444a219ea1a",
+			"_nodeVersion": "0.12.4"
+		},
+		"0.1.2": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.2.tgz",
+				"shasum": "5909e874ba77106d73ac414cfec1ffca87d97060"
+			},
+			"dependencies": {
+				"is-extendable": "^0.1.1",
+				"kind-of": "^2.0.1",
+				"lazy-cache": "^0.2.3",
+				"mixin-object": "^2.0.1"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"utils.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_npmUser": {
+				"name": "doowb",
+				"email": "brian.woodward@gmail.com"
+			},
+			"_id": "shallow-clone@0.1.2",
+			"gitHead": "66fc602ba09fd936241c1c1ffd964274adcd98e5",
+			"verb": {
+				"related": {
+					"list": [
+						"clone-deep",
+						"is-plain-object",
+						"mixin-object",
+						"mixin-deep",
+						"extend-shallow",
+						"assign-deep"
+					]
+				}
+			},
+			"_shasum": "5909e874ba77106d73ac414cfec1ffca87d97060",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.0": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"contributors": [
+				{
+					"name": "Brian Woodward",
+					"url": "https://twitter.com/doowb"
+				},
+				{
+					"name": "Jon Schlinkert",
+					"url": "http://twitter.com/jonschlinkert"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-1.0.0.tgz",
+				"shasum": "4480cd06e882ef68b2ad88a3ea54832e2c48b571"
+			},
+			"dependencies": {
+				"is-extendable": "^0.1.1",
+				"kind-of": "^5.0.0",
+				"mixin-object": "^2.0.1"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^1.0.0",
+				"mocha": "^3.4.2",
+				"should": "^11.2.1"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@1.0.0",
+			"gitHead": "20023f3d8b672f57a59d3af9875998ddb4ebef5f",
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-deep",
+						"clone-deep",
+						"extend-shallow",
+						"is-plain-object",
+						"isobject",
+						"kind-of",
+						"mixin-deep",
+						"mixin-object"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/shallow-clone-1.0.0.tgz_1500207093497_0.3621308500878513"
+			},
+			"_nodeVersion": "7.7.3"
+		},
+		"2.0.2": {
+			"name": "shallow-clone",
+			"description": "Make a shallow clone of an object, array or primitive.",
+			"version": "2.0.2",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"contributors": [
+				{
+					"name": "Brian Woodward",
+					"url": "https://twitter.com/doowb"
+				},
+				{
+					"name": "Jon Schlinkert",
+					"url": "http://twitter.com/jonschlinkert"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.2.tgz",
+				"shasum": "7f6e9cf3b64e37d5f4afb0f648a0204da556b872"
+			},
+			"dependencies": {
+				"is-extendable": "^1.0.1",
+				"kind-of": "^6.0.2",
+				"mixin-object": "^3.0.0"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^1.0.0",
+				"mocha": "^3.5.3"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@2.0.2",
+			"gitHead": "2daa71bc08629104af94707af5effabdf5b8e215",
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-deep",
+						"clone-deep",
+						"extend-shallow",
+						"is-plain-object",
+						"isobject",
+						"kind-of",
+						"mixin-deep",
+						"mixin-object"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/shallow-clone-2.0.2.tgz_1514500386393_0.5015493901446462"
+			},
+			"_nodeVersion": "9.1.0"
+		},
+		"0.1.0": {
+			"name": "shallow-clone",
+			"description": "Make a shallow copy of an object, array or primitive.",
+			"version": "0.1.0",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"homepage": "https://github.com/jonschlinkert/shallow-clone",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/shallow-clone.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/shallow-clone/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.0.tgz",
+				"shasum": "4e03c6111a885d8611ddffa635c1ef8052527234"
+			},
+			"dependencies": {
+				"is-extendable": "^0.1.1",
+				"kind-of": "^2.0.0",
+				"lazy-cache": "^0.1.0",
+				"mixin-object": "^2.0.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"clone",
+				"copy",
+				"extend",
+				"mixin",
+				"object",
+				"primitive",
+				"shallow"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"_id": "shallow-clone@0.1.0",
+			"verb": {
+				"related": {
+					"list": [
+						"clone-deep",
+						"is-plain-object",
+						"mixin-object",
+						"mixin-deep",
+						"extend-shallow",
+						"assign-deep"
+					]
+				}
+			},
+			"_shasum": "4e03c6111a885d8611ddffa635c1ef8052527234",
+			"_nodeVersion": "0.12.4"
+		}
+	},
+	"time": {
+		"2.0.0": "2017-11-17T05:09:26.500Z",
+		"2.0.1": "2017-12-28T22:32:04.259Z",
+		"3.0.0": "2018-04-10T06:48:46.179Z",
+		"created": "2015-08-10T21:01:31.777Z",
+		"modified": "2018-04-10T06:48:47.296Z",
+		"0.1.1": "2015-08-10T21:01:54.541Z",
+		"0.1.2": "2015-10-17T18:04:20.761Z",
+		"1.0.0": "2017-07-16T12:11:34.571Z",
+		"2.0.2": "2017-12-28T22:33:07.393Z",
+		"0.1.0": "2015-08-10T21:01:31.777Z"
+	},
+	"dist-tags": {
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749404814
+		}
+	},
+	"_distfiles": {
+		"shallow-clone-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.0.tgz",
+			"sha": "5d0f491e313686b2f53660b8859ca33684f18d20"
+		},
+		"shallow-clone-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.1.tgz",
+			"sha": "8f33c2b957eb5eada9346b91883184ae1a2395cc"
+		},
+		"shallow-clone-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-3.0.0.tgz",
+			"sha": "317b701facce5e742d4c04c64e1d52f957e22b28"
+		},
+		"shallow-clone-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.1.tgz",
+			"sha": "d114e09ff7c3b198e92f764277c28444a219ea1a"
+		},
+		"shallow-clone-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.2.tgz",
+			"sha": "5909e874ba77106d73ac414cfec1ffca87d97060"
+		},
+		"shallow-clone-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-1.0.0.tgz",
+			"sha": "4480cd06e882ef68b2ad88a3ea54832e2c48b571"
+		},
+		"shallow-clone-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-2.0.2.tgz",
+			"sha": "7f6e9cf3b64e37d5f4afb0f648a0204da556b872"
+		},
+		"shallow-clone-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/shallow-clone/-/shallow-clone-0.1.0.tgz",
+			"sha": "4e03c6111a885d8611ddffa635c1ef8052527234"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-c58c1a17cec6f011",
+	"readme": "# shallow-clone [![NPM version](https://img.shields.io/npm/v/shallow-clone.svg?style=flat)](https://www.npmjs.com/package/shallow-clone) [![NPM monthly downloads](https://img.shields.io/npm/dm/shallow-clone.svg?style=flat)](https://npmjs.org/package/shallow-clone) [![NPM total downloads](https://img.shields.io/npm/dt/shallow-clone.svg?style=flat)](https://npmjs.org/package/shallow-clone) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/shallow-clone.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/shallow-clone)\n\n> Creates a shallow clone of any JavaScript value.\n\nPlease consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install --save shallow-clone\n```\n\n## Usage\n\n```js\nconst clone = require('shallow-clone');\n```\n\n**Supports**\n\n* arrays\n* objects\n* dates\n* maps\n* sets\n* buffers\n* symbols\n* array buffers\n* float32 arrays\n* float64 arrays\n* int16 arrays\n* int32 arrays\n* int8 arrays\n* uint16 arrays\n* uint32 arrays\n* uint8clamped arrays\n* uint8 arrays\n* regular expressions\n* errors\n* primitives\n\n## Arrays\n\nBy default, only the array itself is cloned, use [clone-deep](https://github.com/jonschlinkert/clone-deep) if you also need the elements in the array to be cloned.\n\n```js\nconst arr = [{ a: 0 }, { b: 1 }];\nconst foo = clone(arr);\n// foo =>  [{ 'a': 0 }, { 'b': 1 }]\n\n// array is cloned\nassert(actual === expected); // false\n\n// array elements are not\nassert.deepEqual(actual[0], expected[0]); // true\n```\n\n## Objects\n\nOnly the object is shallow cloned, use [clone-deep](https://github.com/jonschlinkert/clone-deep) if you also need the values in the object to be cloned.\n\n```js\nclone({a: 1, b: 2, c: 3 });\n//=> {a: 1, b: 2, c: 3 }\n```\n\n## RegExp\n\nClones regular expressions and flags, and preserves the `.lastIndex`.\n\n```js\nconst re = clone(/foo/g); //=> /foo/g\n// you can manually reset lastIndex if necessary\nre.lastIndex = 0;\n```\n\n## Primitives\n\nSimply returns primitives unchanged.\n\n```js\nclone(0); //=> 0\nclone('foo'); //=> 'foo'\n```\n\n## About\n\n<details>\n<summary><strong>Contributing</strong></summary>\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\n</details>\n\n<details>\n<summary><strong>Running Tests</strong></summary>\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\n$ npm install && npm test\n```\n\n</details>\n\n<details>\n<summary><strong>Building docs</strong></summary>\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\n$ npm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n</details>\n\n### Related projects\n\nYou might also be interested in these projects:\n\n* [assign-deep](https://www.npmjs.com/package/assign-deep): Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target… [more](https://github.com/jonschlinkert/assign-deep) | [homepage](https://github.com/jonschlinkert/assign-deep \"Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target (first) object.\")\n* [clone-deep](https://www.npmjs.com/package/clone-deep): Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. | [homepage](https://github.com/jonschlinkert/clone-deep \"Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.\")\n* [is-plain-object](https://www.npmjs.com/package/is-plain-object): Returns true if an object was created by the `Object` constructor. | [homepage](https://github.com/jonschlinkert/is-plain-object \"Returns true if an object was created by the `Object` constructor.\")\n* [kind-of](https://www.npmjs.com/package/kind-of): Get the native type of a value. | [homepage](https://github.com/jonschlinkert/kind-of \"Get the native type of a value.\")\n\n### Contributors\n\n| **Commits** | **Contributor** | \n| --- | --- |\n| 15 | [jonschlinkert](https://github.com/jonschlinkert) |\n| 2 | [doowb](https://github.com/doowb) |\n\n### Author\n\n**Jon Schlinkert**\n\n* [LinkedIn Profile](https://linkedin.com/in/jonschlinkert)\n* [GitHub Profile](https://github.com/jonschlinkert)\n* [Twitter Profile](https://twitter.com/jonschlinkert)\n\n### License\n\nCopyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n\n***\n\n_This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on April 10, 2018._"
+}

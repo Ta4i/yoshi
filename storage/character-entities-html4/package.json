@@ -1,0 +1,544 @@
+{
+	"name": "character-entities-html4",
+	"versions": {
+		"1.1.2": {
+			"name": "character-entities-html4",
+			"description": "HTML4 character entity information",
+			"version": "1.1.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-entities-html4#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-entities-html4.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-entities-html4/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.2.tgz",
+				"shasum": "c44fdde3ce66b52e8d321d6c1bf46101f0150610"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^16.0.0",
+				"concat-stream": "^1.5.2",
+				"esmangle": "^1.0.1",
+				"prettier": "^1.12.0",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.20.0"
+			},
+			"keywords": [
+				"html",
+				"html4",
+				"entity",
+				"entities",
+				"character",
+				"reference",
+				"name",
+				"replacement"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"generate": "node build",
+				"format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+				"build-bundle": "browserify index.json --bare -s characterEntitiesHTML4 > character-entities-html4.js",
+				"build-mangle": "esmangle character-entities-html4.js > character-entities-html4.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test": "npm run generate && npm run format && npm run build && npm run test-api"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-entities-html4@1.1.2",
+			"gitHead": "90fc1a8d33a8924d2e445b3d822042c4f49d374e",
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				},
+				"ignores": [
+					"character-entities-html4.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/character-entities-html4_1.1.2_1523906422794_0.2810843526935114"
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"1.0.0": {
+			"name": "character-entities-html4",
+			"description": "HTML4 character entity information",
+			"version": "1.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/character-entities-html4#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-entities-html4.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/character-entities-html4/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.0.0.tgz",
+				"shasum": "e201beb73567527403d7113e11c891b0e1bf33ec"
+			},
+			"devDependencies": {
+				"browserify": "^12.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mdast": "^2.0.0",
+				"mdast-comment-config": "^1.0.0",
+				"mdast-github": "^1.0.0",
+				"mdast-lint": "^1.0.0",
+				"mdast-slug": "^2.0.0",
+				"mdast-validate-links": "^1.1.1",
+				"mdast-yaml-config": "^1.0.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"html",
+				"html4",
+				"entity",
+				"entities",
+				"character",
+				"reference",
+				"name",
+				"replacement"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "mdast . --quiet --frail",
+				"build-crawl": "mkdir -p data && curl http://www.w3.org/TR/html4/sgml/entities.html > data/entities.html",
+				"build-generate": "node script/generate.js",
+				"build-bundle": "browserify index.js --bare -s characterEntities > character-entities-html4.js",
+				"build-mangle": "esmangle character-entities-html4.js > character-entities-html4.min.js",
+				"build": "npm run build-md && npm run build-crawl && npm run build-generate && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-entities-html4@1.0.0",
+			"gitHead": "6ae796ad4ee30889ac6601af008ae29855baab19",
+			"_shasum": "e201beb73567527403d7113e11c891b0e1bf33ec",
+			"_nodeVersion": "5.1.0"
+		},
+		"1.0.1": {
+			"name": "character-entities-html4",
+			"description": "HTML4 character entity information",
+			"version": "1.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-entities-html4#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-entities-html4.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-entities-html4/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.0.1.tgz",
+				"shasum": "c550d23c052574a61a8925f9d503faff6305c026"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"esmangle": "^1.0.1",
+				"nyc": "^7.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-validate-links": "^4.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.16.0"
+			},
+			"keywords": [
+				"html",
+				"html4",
+				"entity",
+				"entities",
+				"character",
+				"reference",
+				"name",
+				"replacement"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-crawl": "mkdir -p data && curl http://www.w3.org/TR/html4/sgml/entities.html > data/entities.html",
+				"build-generate": "node script/generate.js",
+				"build-bundle": "browserify index.js --bare -s characterEntitiesHTML4 > character-entities-html4.js",
+				"build-mangle": "esmangle character-entities-html4.js > character-entities-html4.min.js",
+				"build": "npm run build-md && npm run build-crawl && npm run build-generate && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-entities-html4@1.0.1",
+			"gitHead": "e14e0644c726bf464b93b3df7a8c3d9a83dafd05",
+			"xo": {
+				"space": true,
+				"ignores": [
+					"character-entities-html4.js",
+					"character-entities-html4.min.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/character-entities-html4-1.0.1.tgz_1469349246770_0.594363353215158"
+			},
+			"_shasum": "c550d23c052574a61a8925f9d503faff6305c026",
+			"remarkConfig": {
+				"output": true,
+				"plugins": [
+					"comment-config",
+					"github",
+					"lint",
+					"validate-links"
+				],
+				"settings": {
+					"bullet": "*"
+				}
+			},
+			"_nodeVersion": "5.0.0"
+		},
+		"1.1.0": {
+			"name": "character-entities-html4",
+			"description": "HTML4 character entity information",
+			"version": "1.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-entities-html4#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-entities-html4.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-entities-html4/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.0.tgz",
+				"shasum": "1ab08551d3ce1fa1df08d00fb9ca1defb147a06c"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^13.0.1",
+				"concat-stream": "^1.5.2",
+				"esmangle": "^1.0.1",
+				"nyc": "^8.0.0",
+				"remark-cli": "^2.0.0",
+				"remark-preset-wooorm": "^1.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.17.0"
+			},
+			"keywords": [
+				"html",
+				"html4",
+				"entity",
+				"entities",
+				"character",
+				"reference",
+				"name",
+				"replacement"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-generate": "node build",
+				"build-bundle": "browserify index.json --bare -s characterEntitiesHTML4 > character-entities-html4.js",
+				"build-mangle": "esmangle character-entities-html4.js > character-entities-html4.min.js",
+				"build": "npm run build-md && npm run build-generate && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-entities-html4@1.1.0",
+			"gitHead": "85835d7948614c96443f5191ea0e2265b41987da",
+			"xo": {
+				"space": true,
+				"ignores": [
+					"character-entities-html4.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/character-entities-html4-1.1.0.tgz_1478288953070_0.18045797967351973"
+			},
+			"_shasum": "1ab08551d3ce1fa1df08d00fb9ca1defb147a06c",
+			"remarkConfig": {
+				"output": true,
+				"presets": "wooorm"
+			},
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.1": {
+			"name": "character-entities-html4",
+			"description": "HTML4 character entity information",
+			"version": "1.1.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-entities-html4#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-entities-html4.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-entities-html4/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.1.tgz",
+				"shasum": "359a2a4a0f7e29d3dc2ac99bdbe21ee39438ea50"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^14.0.0",
+				"concat-stream": "^1.5.2",
+				"esmangle": "^1.0.1",
+				"remark-cli": "^3.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.18.0"
+			},
+			"keywords": [
+				"html",
+				"html4",
+				"entity",
+				"entities",
+				"character",
+				"reference",
+				"name",
+				"replacement"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . -qfo",
+				"build-generate": "node build",
+				"build-bundle": "browserify index.json --bare -s characterEntitiesHTML4 > character-entities-html4.js",
+				"build-mangle": "esmangle character-entities-html4.js > character-entities-html4.min.js",
+				"build": "npm run build-md && npm run build-generate && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test": "npm run build && npm run lint && npm run test-api"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-entities-html4@1.1.1",
+			"gitHead": "5f4898282ba7563f9aabc774005bb89dfd5a50a6",
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"ignores": [
+					"character-entities-html4.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/character-entities-html4-1.1.1.tgz_1499793624920_0.09249134175479412"
+			},
+			"_shasum": "359a2a4a0f7e29d3dc2ac99bdbe21ee39438ea50",
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"_nodeVersion": "4.0.0"
+		}
+	},
+	"time": {
+		"1.1.2": "2018-04-16T19:20:23.639Z",
+		"created": "2015-12-22T12:36:28.402Z",
+		"modified": "2018-04-16T19:20:26.127Z",
+		"1.0.0": "2015-12-22T12:36:28.402Z",
+		"1.0.1": "2016-07-24T08:34:08.776Z",
+		"1.1.0": "2016-11-04T19:49:13.612Z",
+		"1.1.1": "2017-07-11T17:20:25.823Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749461080
+		}
+	},
+	"_distfiles": {
+		"character-entities-html4-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.2.tgz",
+			"sha": "c44fdde3ce66b52e8d321d6c1bf46101f0150610"
+		},
+		"character-entities-html4-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.0.0.tgz",
+			"sha": "e201beb73567527403d7113e11c891b0e1bf33ec"
+		},
+		"character-entities-html4-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.0.1.tgz",
+			"sha": "c550d23c052574a61a8925f9d503faff6305c026"
+		},
+		"character-entities-html4-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.0.tgz",
+			"sha": "1ab08551d3ce1fa1df08d00fb9ca1defb147a06c"
+		},
+		"character-entities-html4-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-entities-html4/-/character-entities-html4-1.1.1.tgz",
+			"sha": "359a2a4a0f7e29d3dc2ac99bdbe21ee39438ea50"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-a509101d2d7f7667",
+	"readme": "# character-entities-html4 [![Build Status][travis-badge]][travis]\n\nHTML4 character entity information.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install character-entities-html4\n```\n\n## Usage\n\n```js\nvar characterEntities = require('character-entities-html4')\n\nconsole.log(characterEntities.AElig) // => 'Æ'\nconsole.log(characterEntities.aelig) // => 'æ'\nconsole.log(characterEntities.amp) // => '&'\nconsole.log(characterEntities.apos) // => undefined\n```\n\n## API\n\n### `characterEntitiesHTML4`\n\nMapping between (case-sensitive) character entity names to replacements.\n\n## Support\n\nSee [w3.org][html].\n\n## Related\n\n*   [`character-entities`](https://github.com/wooorm/character-entities)\n    — HTML character entity info\n*   [`character-entities-legacy`](https://github.com/wooorm/character-entities-legacy)\n    — Legacy character entity info\n*   [`parse-entities`](https://github.com/wooorm/parse-entities)\n    — Parse HTML character references\n*   [`stringify-entities`](https://github.com/wooorm/stringify-entities)\n    — Stringify HTML character references\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/character-entities-html4.svg\n\n[travis]: https://travis-ci.org/wooorm/character-entities-html4\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[html]: http://www.w3.org/TR/html4/sgml/entities.html"
+}

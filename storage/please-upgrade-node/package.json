@@ -1,0 +1,557 @@
+{
+	"name": "please-upgrade-node",
+	"versions": {
+		"2.0.0": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "2.0.0",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-2.0.0.tgz",
+				"shasum": "7943c577f1fd81182fa00e32039c690d7a8c3ecb"
+			},
+			"devDependencies": {
+				"mock-require": "^2.0.2",
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"precommit": "npm test",
+				"fix": "prettier --write *.js"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@2.0.0",
+			"gitHead": "6911c3f9e1c590402535f443fa0d6e0e48c4633e",
+			"deprecated": "critical bug with Node 10+ fixed in v3.0.2, please upgrade",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node-2.0.0.tgz_1500927535265_0.4033139774110168"
+			},
+			"_nodeVersion": "8.1.0"
+		},
+		"3.0.0": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "3.0.0",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.0.tgz",
+				"shasum": "4515ea23f77098a83ddd78ca2c6dd9e7c2f12d11"
+			},
+			"devDependencies": {
+				"mock-require": "^2.0.2",
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"fix": "prettier --write *.js"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@3.0.0",
+			"gitHead": "3a27857b03d2f96be7a93bb9f66d46ff15faaa9f",
+			"deprecated": "critical bug with Node 10+ fixed in v3.0.2, please upgrade",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node-3.0.0.tgz_1501533067493_0.44792803400196135"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"3.0.1": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "3.0.1",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.1.tgz",
+				"shasum": "0a681f2c18915e5433a5ca2cd94e0b8206a782db"
+			},
+			"devDependencies": {
+				"mock-require": "^2.0.2",
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"fix": "prettier --write *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@3.0.1",
+			"gitHead": "f8bf463e7d50c7a88ae2b02394cfbbd5bb75733f",
+			"deprecated": "critical bug with Node 10+ fixed in v3.0.2, please upgrade",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node-3.0.1.tgz_1501534322979_0.9684319840744138"
+			},
+			"_shasum": "0a681f2c18915e5433a5ca2cd94e0b8206a782db",
+			"_nodeVersion": "0.12.18"
+		},
+		"3.1.0": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "3.1.0",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.1.0.tgz",
+				"shasum": "a2616de1d52b851949f2ab2d89b3e0ba28a02042"
+			},
+			"dependencies": {
+				"semver-compare": "^1.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^4.19.1",
+				"eslint-plugin-prettier": "^2.6.0",
+				"pkg-ok": "^1.1.0",
+				"prettier": "1.12.1",
+				"tape": "^4.9.1"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"lint": "eslint .",
+				"fix": "npm run lint -- --fix",
+				"prepublishOnly": "npm test && npm run lint && pkg-ok"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@3.1.0",
+			"gitHead": "09cc4352d04fd202564e1ca77cd5662c191b5056",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node_3.1.0_1530569254191_0.2097485839085591"
+			},
+			"_nodeVersion": "9.8.0"
+		},
+		"1.0.0": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "1.0.0",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-1.0.0.tgz",
+				"shasum": "6de252cf9e9bf07d5378dc3919575b960bfc374e"
+			},
+			"devDependencies": {
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"precommit": "npm test",
+				"fix": "prettier --write *.js"
+			},
+			"_npmVersion": "5.1.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@1.0.0",
+			"gitHead": "75547d092c11ce78a12e9111576618ec1221f652",
+			"deprecated": "critical bug with Node 10+ fixed in v3.0.2, please upgrade",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node-1.0.0.tgz_1499523801861_0.22819634550251067"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"3.0.2": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "3.0.2",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.2.tgz",
+				"shasum": "7b9eaeca35aa4a43d6ebdfd10616c042f9a83acc"
+			},
+			"dependencies": {
+				"semver-compare": "^1.0.0"
+			},
+			"devDependencies": {
+				"mock-require": "^2.0.2",
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"fix": "prettier --write *.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@3.0.2",
+			"gitHead": "d6109c499055e0372cdf62fbdc42781958182a42",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node_3.0.2_1524695086221_0.8313554362912727"
+			},
+			"_nodeVersion": "9.11.1"
+		},
+		"3.1.1": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "3.1.1",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.1.1.tgz",
+				"shasum": "ed320051dfcc5024fae696712c8288993595e8ac"
+			},
+			"dependencies": {
+				"semver-compare": "^1.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^4.19.1",
+				"eslint-plugin-prettier": "^2.6.0",
+				"pkg-ok": "^1.1.0",
+				"prettier": "1.12.1",
+				"tape": "^4.9.1"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"lint": "eslint .",
+				"fix": "npm run lint -- --fix",
+				"prepublishOnly": "npm test && npm run lint && pkg-ok"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@3.1.1",
+			"gitHead": "416a85bbd10518732b477abf548aa7ce07e9a7f6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node_3.1.1_1530748936851_0.027606491005582656"
+			},
+			"_nodeVersion": "9.8.0"
+		},
+		"1.0.1": {
+			"name": "please-upgrade-node",
+			"description": "Displays a beginner-friendly message telling your user to upgrade their version of Node",
+			"version": "1.0.1",
+			"author": {
+				"name": "typicode"
+			},
+			"homepage": "https://github.com/typicode/please-upgrade-node#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/typicode/please-upgrade-node.git"
+			},
+			"bugs": {
+				"url": "https://github.com/typicode/please-upgrade-node/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-1.0.1.tgz",
+				"shasum": "f92dd3443d9797f5742510ea2fd205f811b3b1f7"
+			},
+			"devDependencies": {
+				"pkg-ok": "^1.1.0",
+				"prettier": "^1.5.2"
+			},
+			"keywords": [
+				"node",
+				"engines",
+				"version",
+				"check",
+				"verify",
+				"upgrade"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "typicode",
+					"email": "typicode@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"prepublishOnly": "pkg-ok",
+				"precommit": "npm test",
+				"fix": "prettier --write *.js"
+			},
+			"_npmVersion": "5.1.0",
+			"_npmUser": {
+				"name": "typicode",
+				"email": "typicode@gmail.com"
+			},
+			"_id": "please-upgrade-node@1.0.1",
+			"gitHead": "933f7a6beb7f0fb7b3b66a7ceb4a2b67003ba8bb",
+			"deprecated": "critical bug with Node 10+ fixed in v3.0.2, please upgrade",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/please-upgrade-node-1.0.1.tgz_1499684886966_0.4267589938826859"
+			},
+			"_nodeVersion": "8.1.2"
+		}
+	},
+	"time": {
+		"2.0.0": "2017-07-24T20:18:56.200Z",
+		"3.0.0": "2017-07-31T20:31:08.419Z",
+		"created": "2017-07-08T14:23:22.809Z",
+		"modified": "2018-07-05T00:02:19.378Z",
+		"3.0.1": "2017-07-31T20:52:03.914Z",
+		"3.1.0": "2018-07-02T22:07:34.250Z",
+		"1.0.0": "2017-07-08T14:23:22.809Z",
+		"3.0.2": "2018-04-25T22:24:46.352Z",
+		"3.1.1": "2018-07-05T00:02:16.928Z",
+		"1.0.1": "2017-07-10T11:08:07.928Z"
+	},
+	"dist-tags": {
+		"latest": "3.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749344341
+		}
+	},
+	"_distfiles": {
+		"please-upgrade-node-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-2.0.0.tgz",
+			"sha": "7943c577f1fd81182fa00e32039c690d7a8c3ecb"
+		},
+		"please-upgrade-node-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.0.tgz",
+			"sha": "4515ea23f77098a83ddd78ca2c6dd9e7c2f12d11"
+		},
+		"please-upgrade-node-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.1.tgz",
+			"sha": "0a681f2c18915e5433a5ca2cd94e0b8206a782db"
+		},
+		"please-upgrade-node-3.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.1.0.tgz",
+			"sha": "a2616de1d52b851949f2ab2d89b3e0ba28a02042"
+		},
+		"please-upgrade-node-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-1.0.0.tgz",
+			"sha": "6de252cf9e9bf07d5378dc3919575b960bfc374e"
+		},
+		"please-upgrade-node-3.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.0.2.tgz",
+			"sha": "7b9eaeca35aa4a43d6ebdfd10616c042f9a83acc"
+		},
+		"please-upgrade-node-3.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-3.1.1.tgz",
+			"sha": "ed320051dfcc5024fae696712c8288993595e8ac"
+		},
+		"please-upgrade-node-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/please-upgrade-node/-/please-upgrade-node-1.0.1.tgz",
+			"sha": "f92dd3443d9797f5742510ea2fd205f811b3b1f7"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-12e32c0419c5b818",
+	"readme": "# Please upgrade Node [![](http://img.shields.io/npm/dm/please-upgrade-node.svg?style=flat)](https://www.npmjs.org/package/please-upgrade-node) [![Build Status](https://travis-ci.org/typicode/please-upgrade-node.svg?branch=master)](https://travis-ci.org/typicode/please-upgrade-node) [![npm](https://img.shields.io/npm/v/please-upgrade-node.svg)](https://www.npmjs.com/package/please-upgrade-node)\r\n\r\n> :information_desk_person: show a message to your users to upgrade Node instead of a stacktrace \r\n\r\nIt's common for new Node users to miss the `npm` engines warning when installing a CLI. This package displays a beginner-friendly message if their Node version is below the one expected.\r\n\r\n```sh\r\n$ node -v\r\n0.12\r\n\r\n$ modern-cli\r\nmodern-cli requires at least version 6 of Node, please upgrade\r\n```\r\n\r\n## Install\r\n\r\n```sh\r\nnpm install please-upgrade-node\r\n```\r\n\r\n```js\r\n#!/usr/bin/env node\r\nconst pkg = require('./package.json')\r\nrequire('please-upgrade-node')(pkg)\r\n// Must run BEFORE requiring other modules\r\n```\r\n\r\n```js\r\n// package.json\r\n{\r\n  \"bin\": \"./bin.js\",\r\n  \"engines\": {\r\n    \"node\": \">=6\"\r\n  }\r\n}\r\n```\r\n\r\n__Important__: `>=` is the only operator supported by `please-upgrade-node` (e.g. `>=6`, `>=6.0`, `>=6.0.0`).\r\n\r\n## Options\r\n\r\nYou can also pass custom `exitCode` (default: `1`) or `message` function\r\n\r\n```js\r\npleaseUpgradeNode(pkg, {\r\n  exitCode: 0,\r\n  message: function(requiredVersion) {\r\n    return 'Oops, this program requires Node ' + requiredVersion\r\n  }\r\n})\r\n```\r\n\r\n__Important__: to keep `message` function compatible with older versions of Node, avoid using ES6 features like `=>` or string interpolation.\r\n\r\n## See also\r\n\r\n* [pkg-ok](https://github.com/typicode/pkg-ok) - :ok_hand: Prevents publishing a module with bad paths\r\n* [husky](https://github.com/typicode/husky) - :dog: Git hooks made easy\r\n* [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app \r\n\r\nThanks to [zeit/serve](https://github.com/zeit/serve) for the error message inspiration.\r\n\r\n## License\r\n\r\nMIT - [Typicode :cactus:](https://github.com/typicode) - [Patreon](https://patreon.com/typicode)"
+}

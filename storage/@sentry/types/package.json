@@ -1,0 +1,3540 @@
+{
+	"name": "@sentry/types",
+	"versions": {
+		"4.0.0-beta.9": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.9",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.9.tgz",
+				"shasum": "1a2f88bfcf62356372a60359b5204e94c079c27d"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.9",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.9_1531402209806_0.18130765852547115"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"0.5.4": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "0.5.4",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-0.5.4.tgz",
+				"shasum": "1cceffcd7c06eed0d34519156d83eaecc3105159"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@0.5.4",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_0.5.4_1530099104484_0.8019700164328813"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.2.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.2.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.0.tgz",
+				"shasum": "716310e9ec5c8d345a3d4422a7d19298ae57c158"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.2.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.2.0_1540234574277_0.17736114225315625"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.2.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.2.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.1.tgz",
+				"shasum": "b0b290f0021d1ce005eac864ff4740578afad379"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.2.1",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.2.1_1540293074891_0.14321516083464259"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.3.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.3.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.0.tgz",
+				"shasum": "a5cec425764a72a0817329ac212c5ce085ecdd05"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.3.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.3.0_1541602061228_0.16980909751223994"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0.tgz",
+				"shasum": "9dd46a7b05004871fe0cea0b0423098d9d91a173"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0_1537273191920_0.04294979542635535"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.1.tgz",
+				"shasum": "f9342e905ce2aee71975574589d915b6fb691fb0"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.1",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.1_1537366146090_0.7278924211571469"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.1.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.1.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.1.0.tgz",
+				"shasum": "ebffb9857abbecaad5d1c00152a50f72ac9757a5"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.1.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.1.0_1539173225717_0.9255172180741882"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-rc.2": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-rc.2",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.2.tgz",
+				"shasum": "942157ce3bf377fc04cd6056eae5c91d4d114942"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-rc.2",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-rc.2_1536823783745_0.6898721293507379"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.6": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.6",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.6.tgz",
+				"shasum": "421478df17415802baa4d5e2d3db246e559a0fad"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.6",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.6_1538124269350_0.08163955768286768"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.2.4": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.2.4",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.4.tgz",
+				"shasum": "c77f5ecdbe38cc826451b11746cde9faf50cb40f"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.2.4",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.2.4_1541145787576_0.2022666874439687"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.3.3": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.3.3",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.3.tgz",
+				"shasum": "ec692daef004d9c26c72e0f4fb63e9d96b1a29ed"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.3.3",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.3.3_1542728006574_0.9383064996697688"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.4.2": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.4.2",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.2.tgz",
+				"shasum": "f38dd3bc671cd2f5983a85553aebeac9c2286b17"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.4.2",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.4.2_1544727951019_0.6797229696162166"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.3.4": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.3.4",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.4.tgz",
+				"shasum": "563f9def51da301cfd474ecf35ae4d97847aed61"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.3.4",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.3.4_1542789445999_0.11355691566810555"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-rc.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-rc.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.0.tgz",
+				"shasum": "b13ee7eb5e75b146212cd8a36c62e82e663b1f36"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-rc.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-rc.0_1536130597779_0.18239148094561775"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.2.2": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.2.2",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.2.tgz",
+				"shasum": "a87de157a4be49d8114fb79953bc924ea93262c5"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.2.2",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.2.2_1540459003234_0.03162603278999376"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.3.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.3.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.1.tgz",
+				"shasum": "95b6dfca52f95e32389921286f8e867b56f1d0c4"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.3.1",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.3.1_1542379093519_0.15920344289266586"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.4.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.4.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.0.tgz",
+				"shasum": "99e662c1b9955f293e2673433a1c84b50db1ed64"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_from": "file:/var/folders/6q/d2dkxw8s7ldbtwfl1kdy1z0m0000gn/T/craft-ME7ZKZ/sentry-types-4.4.0.tgz",
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "kamilogorek",
+				"email": "kamil.ogorek@gmail.com"
+			},
+			"_id": "@sentry/types@4.4.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.4.0_1543333199690_0.5161727826696882"
+			},
+			"_resolved": "",
+			"_integrity": "",
+			"_nodeVersion": "8.13.0"
+		},
+		"4.0.0-rc.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-rc.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.1.tgz",
+				"shasum": "a7365c239abc380a9bdde7968767c567cf865468"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-rc.1",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-rc.1_1536230998965_0.045281682453420125"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.2.3": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.2.3",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.3.tgz",
+				"shasum": "e53df8ac5c2419d333be8671972a2db6d34de230"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.2.3",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.2.3_1540470580712_0.8204742212815563"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.3.2": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.3.2",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.2.tgz",
+				"shasum": "28b143979482fcbc9f9e520250482dde015b13fa"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.3.2",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.3.2_1542382146967_0.6331513749515032"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.4.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.4.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.1.tgz",
+				"shasum": "d19f9b0450a543aa11b136681ea19612e3cc1611"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.4.1",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.4.1_1543517615602_0.26968579141103954"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.5.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.5.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/sentry-javascript/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/sentry-javascript.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/sentry-javascript/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.5.0.tgz",
+				"shasum": "59e2a27d48b01b44e8959aa5c8a30514fe1086a9"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.14.0",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.11.0",
+				"typescript": "^3.2.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "run-p build:es5 build:esm",
+				"build:es5": "tsc -p tsconfig.build.json",
+				"build:esm": "run-s build:esm:transpile build:esm:rewrite",
+				"build:esm:transpile": "tsc -p tsconfig.esm.json",
+				"build:esm:rewrite": "node ../../scripts/esm-rewrite.js",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check \"{src,test}/**/*.ts\"",
+				"lint:tslint": "tslint -t stylish -p .",
+				"lint:tslint:json": "tslint --format json -p . | tee lint-results.json",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write \"{src,test}/**/*.ts\"",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_from": "file:/var/folders/ks/15d3z2hd5hg6b29s0zzxy6l80000gn/T/craft-uYECVU/sentry-types-4.5.0.tgz",
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.5.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.5.0_1547131127698_0.185180726611043"
+			},
+			"_resolved": "",
+			"sideEffects": false,
+			"_integrity": "",
+			"_nodeVersion": "10.15.0"
+		},
+		"4.0.0-beta.0": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.0",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.0.tgz",
+				"shasum": "cb7363f84b3376b725c2b0eadc5b743a6f250eb6"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.0",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"licenseText": "Copyright (c) 2018 Sentry (https://sentry.io) and individual contributors.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    1. Redistributions of source code must retain the above copyright notice,\nthis list of conditions and the following disclaimer.\n\n    2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other materials provided with the distribution.\n\n    3. Neither the name of the Sentry nor the names of its contributors may be\nused to endorse or promote products derived from this software without specific\nprior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.0_1530178034127_0.5929971705696393"
+			}
+		},
+		"4.0.0-beta.1": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.1",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.1.tgz",
+				"shasum": "4b2c637a7367e715902c6d2450a0b67ccb7e524e"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.1",
+			"gitHead": "20e74471f38babe61b28863c54bc315af71a1f40",
+			"types": "dist/index.d.ts",
+			"licenseText": "Copyright (c) 2018 Sentry (https://sentry.io) and individual contributors.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    1. Redistributions of source code must retain the above copyright notice,\nthis list of conditions and the following disclaimer.\n\n    2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other materials provided with the distribution.\n\n    3. Neither the name of the Sentry nor the names of its contributors may be\nused to endorse or promote products derived from this software without specific\nprior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.1_1530521074892_0.6315174589253956"
+			}
+		},
+		"4.0.0-beta.12": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.12",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.12.tgz",
+				"shasum": "0abd303692e48c0fc11afbfea8cbad87e625357a"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.12",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.12_1533047528141_0.14836744673131186"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.2": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.2",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.2.tgz",
+				"shasum": "26688dcaba4ffda3f585a9381aba788f58af9f89"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"clean": "rimraf dist",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p .",
+				"prepublish": "run-s clean build lint"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.2",
+			"gitHead": "0e9eb2e04698dcea95e9e3d7b7ebb38a159cdceb",
+			"types": "dist/index.d.ts",
+			"licenseText": "Copyright (c) 2018 Sentry (https://sentry.io) and individual contributors.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n    1. Redistributions of source code must retain the above copyright notice,\nthis list of conditions and the following disclaimer.\n\n    2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other materials provided with the distribution.\n\n    3. Neither the name of the Sentry nor the names of its contributors may be\nused to endorse or promote products derived from this software without specific\nprior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.2_1530523771554_0.9734436073553505"
+			}
+		},
+		"4.0.0-beta.3": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.3",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.3.tgz",
+				"shasum": "a42d030c53705416d553d1fdc33f1c7c1362996e"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.3",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.3_1530524764603_0.285491065090286"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.10": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.10",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.10.tgz",
+				"shasum": "42bc922f51c8aa342c37c8584c9d543f92f3f223"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.10",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.10_1532432710310_0.8472417032768402"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.4": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.4",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.4.tgz",
+				"shasum": "0f2aa99c3b5bfed674d0e5ad018383e25a6f4878"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.4",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.4_1530624646001_0.647787563573488"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.11": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.11",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.11.tgz",
+				"shasum": "ab19d22dd164b40ad7162410c15a70d56851f8c5"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "ben@benv.ca",
+					"name": "benvinegar"
+				},
+				{
+					"email": "npm@mmo.me",
+					"name": "billyvg"
+				},
+				{
+					"email": "daniel.griesser.86@gmail.com",
+					"name": "haza"
+				},
+				{
+					"email": "account@jauer.org",
+					"name": "jauer"
+				},
+				{
+					"email": "kamil.ogorek@gmail.com",
+					"name": "kamilogorek"
+				},
+				{
+					"email": "m@robenolt.com",
+					"name": "mattrobenolt"
+				},
+				{
+					"email": "armin.ronacher@active-4.com",
+					"name": "mitsuhiko"
+				},
+				{
+					"email": "accounts@sentry.io",
+					"name": "sentry-bot"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.11",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.11_1532435010788_0.7560513217588813"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.5": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.5",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.5.tgz",
+				"shasum": "78eb4eeaa13a4b25a06a96192fa5ae3f07ff320f"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.5",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.5_1530692199320_0.8006027273781637"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.6": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.6",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.6.tgz",
+				"shasum": "872f3562b1bfe0fa3ee82b2122d2c582bc542cb9"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.6",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.6_1530797792990_0.9685189331709625"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.7": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.7",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.7.tgz",
+				"shasum": "4fe8644cc44d1003ebec8bc367d82966caa04cce"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.7",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.7_1531382889677_0.8698151584961678"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.0-beta.8": {
+			"name": "@sentry/types",
+			"description": "Types for all Sentry JavaScript SDKs",
+			"version": "4.0.0-beta.8",
+			"author": {
+				"name": "Sentry"
+			},
+			"homepage": "https://github.com/getsentry/raven-js/tree/master/packages/types",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/getsentry/raven-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/getsentry/raven-js/issues"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.8.tgz",
+				"shasum": "c36c61c34879d992971c74f9fe0fece0bd4375ec"
+			},
+			"devDependencies": {
+				"npm-run-all": "^4.1.2",
+				"prettier": "^1.12.1",
+				"prettier-check": "^2.0.0",
+				"tslint": "^5.9.1",
+				"typescript": "^2.8.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "benvinegar",
+					"email": "ben@benv.ca"
+				},
+				{
+					"name": "billyvg",
+					"email": "npm@mmo.me"
+				},
+				{
+					"name": "haza",
+					"email": "daniel.griesser.86@gmail.com"
+				},
+				{
+					"name": "jauer",
+					"email": "account@jauer.org"
+				},
+				{
+					"name": "kamilogorek",
+					"email": "kamil.ogorek@gmail.com"
+				},
+				{
+					"name": "mattrobenolt",
+					"email": "m@robenolt.com"
+				},
+				{
+					"name": "maxbittker",
+					"email": "maxbittker@gmail.com"
+				},
+				{
+					"name": "mitsuhiko",
+					"email": "armin.ronacher@active-4.com"
+				},
+				{
+					"name": "sentry-bot",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc -p tsconfig.build.json",
+				"build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
+				"lint": "run-s lint:prettier lint:tslint",
+				"lint:prettier": "prettier-check '{src,test}/**/*.ts'",
+				"lint:tslint": "tslint -t stylish -p .",
+				"fix": "run-s fix:tslint fix:prettier",
+				"fix:prettier": "prettier --write '{src,test}/**/*.ts'",
+				"fix:tslint": "tslint --fix -t stylish -p ."
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "haza",
+				"email": "daniel.griesser.86@gmail.com"
+			},
+			"_id": "@sentry/types@4.0.0-beta.8",
+			"gitHead": "a91da22f8bd3bddb38fab7f868326e376da82d4d",
+			"types": "dist/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_4.0.0-beta.8_1531385796584_0.2555191943341557"
+			},
+			"_nodeVersion": "8.11.3"
+		}
+	},
+	"time": {
+		"4.0.0-beta.9": "2018-07-12T13:30:09.931Z",
+		"0.5.4": "2018-06-27T11:31:45.150Z",
+		"4.2.0": "2018-10-22T18:56:14.447Z",
+		"4.2.1": "2018-10-23T11:11:15.014Z",
+		"4.3.0": "2018-11-07T14:47:41.341Z",
+		"4.0.0": "2018-09-18T12:19:52.086Z",
+		"4.0.1": "2018-09-19T14:09:06.257Z",
+		"4.1.0": "2018-10-10T12:07:05.858Z",
+		"4.0.0-rc.2": "2018-09-13T07:29:43.827Z",
+		"4.0.6": "2018-09-28T08:44:29.700Z",
+		"4.2.4": "2018-11-02T08:03:07.729Z",
+		"4.3.3": "2018-11-20T15:33:26.709Z",
+		"4.4.2": "2018-12-13T19:05:51.102Z",
+		"4.3.4": "2018-11-21T08:37:26.115Z",
+		"4.0.0-rc.0": "2018-09-05T06:56:37.969Z",
+		"4.2.2": "2018-10-25T09:16:43.415Z",
+		"4.3.1": "2018-11-16T14:38:13.660Z",
+		"4.4.0": "2018-11-27T15:39:59.777Z",
+		"4.0.0-rc.1": "2018-09-06T10:49:59.098Z",
+		"4.2.3": "2018-10-25T12:29:40.925Z",
+		"4.3.2": "2018-11-16T15:29:07.120Z",
+		"4.4.1": "2018-11-29T18:53:35.780Z",
+		"4.5.0": "2019-01-10T14:38:47.823Z",
+		"4.0.0-beta.0": "2018-06-28T09:27:14.968Z",
+		"4.0.0-beta.1": "2018-07-02T08:44:34.942Z",
+		"4.0.0-beta.12": "2018-07-31T14:32:08.196Z",
+		"modified": "2019-01-10T14:38:55.171Z",
+		"4.0.0-beta.2": "2018-07-02T09:29:31.626Z",
+		"4.0.0-beta.3": "2018-07-02T09:46:04.691Z",
+		"4.0.0-beta.10": "2018-07-24T11:45:10.481Z",
+		"4.0.0-beta.4": "2018-07-03T13:30:46.068Z",
+		"4.0.0-beta.11": "2018-07-24T12:23:30.866Z",
+		"4.0.0-beta.5": "2018-07-04T08:16:39.421Z",
+		"4.0.0-beta.6": "2018-07-05T13:36:33.040Z",
+		"4.0.0-beta.7": "2018-07-12T08:08:09.770Z",
+		"4.0.0-beta.8": "2018-07-12T08:56:36.745Z",
+		"created": "2018-06-27T11:31:44.423Z"
+	},
+	"dist-tags": {
+		"latest": "4.5.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749349596
+		}
+	},
+	"_distfiles": {
+		"types-4.0.0-beta.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.9.tgz",
+			"sha": "1a2f88bfcf62356372a60359b5204e94c079c27d"
+		},
+		"types-0.5.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-0.5.4.tgz",
+			"sha": "1cceffcd7c06eed0d34519156d83eaecc3105159"
+		},
+		"types-4.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.0.tgz",
+			"sha": "716310e9ec5c8d345a3d4422a7d19298ae57c158"
+		},
+		"types-4.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.1.tgz",
+			"sha": "b0b290f0021d1ce005eac864ff4740578afad379"
+		},
+		"types-4.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.0.tgz",
+			"sha": "a5cec425764a72a0817329ac212c5ce085ecdd05"
+		},
+		"types-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0.tgz",
+			"sha": "9dd46a7b05004871fe0cea0b0423098d9d91a173"
+		},
+		"types-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.1.tgz",
+			"sha": "f9342e905ce2aee71975574589d915b6fb691fb0"
+		},
+		"types-4.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.1.0.tgz",
+			"sha": "ebffb9857abbecaad5d1c00152a50f72ac9757a5"
+		},
+		"types-4.0.0-rc.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.2.tgz",
+			"sha": "942157ce3bf377fc04cd6056eae5c91d4d114942"
+		},
+		"types-4.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.6.tgz",
+			"sha": "421478df17415802baa4d5e2d3db246e559a0fad"
+		},
+		"types-4.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.4.tgz",
+			"sha": "c77f5ecdbe38cc826451b11746cde9faf50cb40f"
+		},
+		"types-4.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.3.tgz",
+			"sha": "ec692daef004d9c26c72e0f4fb63e9d96b1a29ed"
+		},
+		"types-4.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.2.tgz",
+			"sha": "f38dd3bc671cd2f5983a85553aebeac9c2286b17"
+		},
+		"types-4.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.4.tgz",
+			"sha": "563f9def51da301cfd474ecf35ae4d97847aed61"
+		},
+		"types-4.0.0-rc.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.0.tgz",
+			"sha": "b13ee7eb5e75b146212cd8a36c62e82e663b1f36"
+		},
+		"types-4.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.2.tgz",
+			"sha": "a87de157a4be49d8114fb79953bc924ea93262c5"
+		},
+		"types-4.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.1.tgz",
+			"sha": "95b6dfca52f95e32389921286f8e867b56f1d0c4"
+		},
+		"types-4.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.0.tgz",
+			"sha": "99e662c1b9955f293e2673433a1c84b50db1ed64"
+		},
+		"types-4.0.0-rc.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-rc.1.tgz",
+			"sha": "a7365c239abc380a9bdde7968767c567cf865468"
+		},
+		"types-4.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.2.3.tgz",
+			"sha": "e53df8ac5c2419d333be8671972a2db6d34de230"
+		},
+		"types-4.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.3.2.tgz",
+			"sha": "28b143979482fcbc9f9e520250482dde015b13fa"
+		},
+		"types-4.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.4.1.tgz",
+			"sha": "d19f9b0450a543aa11b136681ea19612e3cc1611"
+		},
+		"types-4.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.5.0.tgz",
+			"sha": "59e2a27d48b01b44e8959aa5c8a30514fe1086a9"
+		},
+		"types-4.0.0-beta.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.0.tgz",
+			"sha": "cb7363f84b3376b725c2b0eadc5b743a6f250eb6"
+		},
+		"types-4.0.0-beta.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.1.tgz",
+			"sha": "4b2c637a7367e715902c6d2450a0b67ccb7e524e"
+		},
+		"types-4.0.0-beta.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.12.tgz",
+			"sha": "0abd303692e48c0fc11afbfea8cbad87e625357a"
+		},
+		"types-4.0.0-beta.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.2.tgz",
+			"sha": "26688dcaba4ffda3f585a9381aba788f58af9f89"
+		},
+		"types-4.0.0-beta.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.3.tgz",
+			"sha": "a42d030c53705416d553d1fdc33f1c7c1362996e"
+		},
+		"types-4.0.0-beta.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.10.tgz",
+			"sha": "42bc922f51c8aa342c37c8584c9d543f92f3f223"
+		},
+		"types-4.0.0-beta.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.4.tgz",
+			"sha": "0f2aa99c3b5bfed674d0e5ad018383e25a6f4878"
+		},
+		"types-4.0.0-beta.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.11.tgz",
+			"sha": "ab19d22dd164b40ad7162410c15a70d56851f8c5"
+		},
+		"types-4.0.0-beta.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.5.tgz",
+			"sha": "78eb4eeaa13a4b25a06a96192fa5ae3f07ff320f"
+		},
+		"types-4.0.0-beta.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.6.tgz",
+			"sha": "872f3562b1bfe0fa3ee82b2122d2c582bc542cb9"
+		},
+		"types-4.0.0-beta.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.7.tgz",
+			"sha": "4fe8644cc44d1003ebec8bc367d82966caa04cce"
+		},
+		"types-4.0.0-beta.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@sentry/types/-/types-4.0.0-beta.8.tgz",
+			"sha": "c36c61c34879d992971c74f9fe0fece0bd4375ec"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-10e5b3baa227c33f",
+	"readme": "<p align=\"center\">\n  <a href=\"https://sentry.io\" target=\"_blank\" align=\"center\">\n    <img src=\"https://sentry-brand.storage.googleapis.com/sentry-logo-black.png\" width=\"280\">\n  </a>\n  <br />\n</p>\n\n# Sentry JavaScript SDK Types\n\n[![npm version](https://img.shields.io/npm/v/@sentry/types.svg)](https://www.npmjs.com/package/@sentry/types)\n[![npm dm](https://img.shields.io/npm/dm/@sentry/types.svg)](https://www.npmjs.com/package/@sentry/types)\n[![npm dt](https://img.shields.io/npm/dt/@sentry/types.svg)](https://www.npmjs.com/package/@sentry/types)\n[![typedoc](https://img.shields.io/badge/docs-typedoc-blue.svg)](http://getsentry.github.io/sentry-javascript/)\n\n## Links\n\n- [Official SDK Docs](https://docs.sentry.io/quickstart/)\n- [TypeDoc](http://getsentry.github.io/sentry-javascript/)\n\n## General\n\nCommon types used by the Sentry JavaScript SDKs."
+}

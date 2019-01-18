@@ -1,0 +1,1454 @@
+{
+	"name": "unbzip2-stream",
+	"versions": {
+		"1.0.10": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.10",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.10.tgz",
+				"shasum": "b21f7555f9bb1055891f35a61b8af8c377ff51bc"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "rm test/fixtures/vmlinux.bin* ||  exit 0",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=5m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.10",
+			"gitHead": "8e3d9b3028fb572dff8c947ea631f03da8f42628",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/unbzip2-stream-1.0.10.tgz_1473686186497_0.7629698594100773"
+			},
+			"_shasum": "b21f7555f9bb1055891f35a61b8af8c377ff51bc",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.11": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.0.11",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.11.tgz",
+				"shasum": "204f55549cd1dd800fdd835b86676830e7492d8f"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "rm test/fixtures/vmlinux.bin* || exit 0",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.11",
+			"gitHead": "f3a1896873b43de947f4245c3c5281a4dca43409",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/unbzip2-stream-1.0.11.tgz_1490104029379_0.06775127863511443"
+			},
+			"_shasum": "204f55549cd1dd800fdd835b86676830e7492d8f",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.3": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.3",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.3.tgz",
+				"shasum": "27f39a86dce83a5c6a149540615638ebe70eaa16"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1",
+				"bzip2": "^0.1.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"test": "node test/simple.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.3"
+		},
+		"1.2.1": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.1",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.1.tgz",
+				"shasum": "b9b43e00362610244747c0c85d716bb81e375537"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.1",
+			"gitHead": "fdc29f6023825ebfa4b395f20e2dfa76968d8ca3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.1.tgz_1495539466287_0.6169676759745926"
+			},
+			"_shasum": "b9b43e00362610244747c0c85d716bb81e375537",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.3.0": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.3.0",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.3.0.tgz",
+				"shasum": "745ad5745bc4d8f1ac2eb6fc707cfa51d52ab215"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "mkdir dist && browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50x1024x1024 count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.3.0",
+			"gitHead": "618b52caf2bc40e17a109e4c974e6c8062997b1f",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream_1.3.0_1537180614358_0.8789378841087656"
+			},
+			"_shasum": "745ad5745bc4d8f1ac2eb6fc707cfa51d52ab215",
+			"_nodeVersion": "6.11.4"
+		},
+		"1.0.4": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.4",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.4.tgz",
+				"shasum": "13b3f8411122dc088010f29a4c60a0877502ca94"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.4"
+		},
+		"1.2.2": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.2",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.2.tgz",
+				"shasum": "c00a729d6d9000d12c8d539adbf70e9bdfc98393"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.2",
+			"gitHead": "f7557584beb17e2d3c7eb6474a94568c300efe14",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.2.tgz_1495540137087_0.7669219523668289"
+			},
+			"_shasum": "c00a729d6d9000d12c8d539adbf70e9bdfc98393",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.3.1": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.3.1",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.3.1.tgz",
+				"shasum": "7854da51622a7e63624221196357803b552966a1"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"stream-equal": "^1.1.1",
+				"tape": "^3.4.0",
+				"tape-run": "^4.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "mkdir -p dist && browserify -s unbzip2Stream index.js | uglifyjs > dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run",
+				"prepare-long-test": "head -c 104857600 < /dev/urandom | tee test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.3.1",
+			"gitHead": "3418ba832fde8cc6e25a500413e7481c9f557f75",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream_1.3.1_1539070754042_0.22924225667215037"
+			},
+			"_shasum": "7854da51622a7e63624221196357803b552966a1",
+			"_nodeVersion": "6.11.4"
+		},
+		"1.2.3": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.3",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.3.tgz",
+				"shasum": "1f17f3ddabbfc56ab07e202f139132c4132632bd"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.3",
+			"gitHead": "3234b64e65d353a4b4ea2f435153d184fb8b086e",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.3.tgz_1495540554341_0.9393388025928289"
+			},
+			"_shasum": "1f17f3ddabbfc56ab07e202f139132c4132632bd",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.2.4": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.4",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.4.tgz",
+				"shasum": "8c84c84d5b4cc28fc1f9f577203bbd3cb860a16a"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.4",
+			"gitHead": "1eeb575f0d8ad45a4629a9e156d244974cf07069",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.4.tgz_1495540739262_0.8169819081667811"
+			},
+			"_shasum": "8c84c84d5b4cc28fc1f9f577203bbd3cb860a16a",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.7": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.7",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.7.tgz",
+				"shasum": "cbb674620ab0bee34650b61cf3d095d6531465c3"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pre-publish": "rm test/fixtures/vmlinux.bin*",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.7"
+		},
+		"1.2.5": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.5",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.5.tgz",
+				"shasum": "73a033a567bbbde59654b193c44d48a7e4f43c47"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50x1024x1024 count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.5",
+			"gitHead": "63b88aed2f6a49fd41489c42a3f3a07b83767b17",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.5.tgz_1500882882911_0.9839747166261077"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"1.0.8": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.8",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.8.tgz",
+				"shasum": "c6d44d6a026470a11396384c4886cfda05687eda"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "rm test/fixtures/vmlinux.bin* ||  exit 0",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.8"
+		},
+		"1.0.9": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.9",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.9.tgz",
+				"shasum": "9d107697a8d539d7bfdb9378a1cd832836bb7f8f"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0",
+				"throughout": "0.0.0",
+				"beefy": "^2.1.2"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "rm test/fixtures/vmlinux.bin* ||  exit 0",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.9",
+			"gitHead": "d5664b8a4458f7fe491dff4e492df7f0de26b7ab",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/unbzip2-stream-1.0.9.tgz_1458592067337_0.7788606509566307"
+			},
+			"_shasum": "9d107697a8d539d7bfdb9378a1cd832836bb7f8f",
+			"_nodeVersion": "1.8.1"
+		},
+		"1.0.0": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.0",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "git@github.com:regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.0.tgz",
+				"shasum": "4e5a0b58d457bbc1a6df041d977dc64911ee5226"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1",
+				"bzip2": "^0.1.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0"
+			},
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"test": "node test/simple.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.0"
+		},
+		"1.0.1": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.1",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "git@github.com:regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.1.tgz",
+				"shasum": "760a98f67dd0019838b9286433672fbaa8f3f842"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1",
+				"bzip2": "^0.1.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0"
+			},
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"test": "node test/simple.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.1"
+		},
+		"1.1.0": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.1.0",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.1.0.tgz",
+				"shasum": "e6f901094bd496fdf87d4ffa09d35b85d34e2bee"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"publish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"prepublish": "rm test/fixtures/vmlinux.bin* || exit 0",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.1.0",
+			"gitHead": "4fd9c81c971ff7a1a76f4fd51e1706953f0ee6a8",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.1.0.tgz_1495537954766_0.3757480389904231"
+			},
+			"_shasum": "e6f901094bd496fdf87d4ffa09d35b85d34e2bee",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.2": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementatio in pure javascript for node and browsers",
+			"version": "1.0.2",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream",
+			"repository": {
+				"url": "https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.2.tgz",
+				"shasum": "e8920443d518b1abc8511baf6abecb3f0061076b"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1",
+				"bzip2": "^0.1.1"
+			},
+			"devDependencies": {
+				"browserify": "^8.1.0",
+				"tape": "^3.4.0",
+				"concat-stream": "^1.4.7",
+				"tape-run2": "^1.0.3",
+				"brfs": "^1.2.0"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"test": "node test/simple.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.0.2"
+		},
+		"1.2.0": {
+			"name": "unbzip2-stream",
+			"description": "streaming unbzip2 implementation in pure javascript for node and browsers",
+			"version": "1.2.0",
+			"author": {
+				"name": "Jan Bölsche",
+				"email": "jan@lagomorph.de"
+			},
+			"homepage": "https://github.com/regular/unbzip2-stream#readme",
+			"repository": {
+				"url": "git+https://github.com/regular/unbzip2-stream.git",
+				"type": "git"
+			},
+			"bugs": {
+				"url": "https://github.com/regular/unbzip2-stream/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.0.tgz",
+				"shasum": "0ccff0a7f94bc3959abf9ee472bc8c627a2a33d5"
+			},
+			"dependencies": {
+				"through": "^2.3.6",
+				"buffer": "^3.0.1"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.2",
+				"brfs": "^1.2.0",
+				"browserify": "^8.1.0",
+				"concat-stream": "^1.4.7",
+				"tape": "^3.4.0",
+				"tape-run2": "^1.0.3",
+				"throughout": "0.0.0",
+				"uglify-js": "^3.0.10"
+			},
+			"keywords": [
+				"bzip",
+				"bzip2",
+				"bz2",
+				"stream",
+				"streaming",
+				"decompress",
+				"through"
+			],
+			"license": "MIT",
+			"files": [
+				"dist/unbzip2-stream.min.js"
+			],
+			"maintainers": [
+				{
+					"name": "regular",
+					"email": "jan@lagomorph.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "browserify -s unbzip2Stream index.js | uglifyjs >> dist/unbzip2-stream.min.js",
+				"browser-test": "browserify -t brfs test/simple.js | tape-run2 -b phantomjs",
+				"prepare-long-test": "dd if=/dev/urandom of=test/fixtures/vmlinux.bin bs=50m count=2 && cat test/fixtures/vmlinux.bin | bzip2 > test/fixtures/vmlinux.bin.bz2",
+				"long-test": "tape test/extra/long.js",
+				"download-test": "beefy test/browser/long.js --open -- -t brfs",
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "regular",
+				"email": "jan@lagomorph.de"
+			},
+			"_id": "unbzip2-stream@1.2.0",
+			"gitHead": "e6193920888d163e009b40ae32ab3b1574565f92",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unbzip2-stream-1.2.0.tgz_1495538799405_0.13518141419626772"
+			},
+			"_shasum": "0ccff0a7f94bc3959abf9ee472bc8c627a2a33d5",
+			"_nodeVersion": "6.3.1"
+		}
+	},
+	"time": {
+		"created": "2015-01-28T12:22:12.102Z",
+		"1.0.10": "2016-09-12T13:16:28.494Z",
+		"1.0.11": "2017-03-21T13:47:09.992Z",
+		"1.0.3": "2015-01-28T12:34:29.895Z",
+		"1.2.1": "2017-05-23T11:37:47.511Z",
+		"1.3.0": "2018-09-17T10:36:54.551Z",
+		"1.0.4": "2015-01-29T22:19:54.500Z",
+		"1.2.2": "2017-05-23T11:48:58.221Z",
+		"1.3.1": "2018-10-09T07:39:14.157Z",
+		"1.2.3": "2017-05-23T11:55:55.721Z",
+		"1.0.6": "2015-01-29T22:52:53.669Z",
+		"1.2.4": "2017-05-23T11:59:00.576Z",
+		"1.0.7": "2015-01-29T22:58:12.708Z",
+		"1.2.5": "2017-07-24T07:54:44.558Z",
+		"1.0.8": "2015-01-29T23:10:07.741Z",
+		"1.0.9": "2016-03-21T20:27:49.828Z",
+		"modified": "2019-01-05T17:11:20.517Z",
+		"1.0.0": "2015-01-28T12:22:12.102Z",
+		"1.0.1": "2015-01-28T12:23:41.026Z",
+		"1.1.0": "2017-05-23T11:12:35.674Z",
+		"1.0.2": "2015-01-28T12:31:47.417Z",
+		"1.2.0": "2017-05-23T11:26:40.503Z"
+	},
+	"dist-tags": {
+		"latest": "1.3.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749410114
+		}
+	},
+	"_distfiles": {
+		"unbzip2-stream-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.10.tgz",
+			"sha": "b21f7555f9bb1055891f35a61b8af8c377ff51bc"
+		},
+		"unbzip2-stream-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.11.tgz",
+			"sha": "204f55549cd1dd800fdd835b86676830e7492d8f"
+		},
+		"unbzip2-stream-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.3.tgz",
+			"sha": "27f39a86dce83a5c6a149540615638ebe70eaa16"
+		},
+		"unbzip2-stream-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.1.tgz",
+			"sha": "b9b43e00362610244747c0c85d716bb81e375537"
+		},
+		"unbzip2-stream-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.3.0.tgz",
+			"sha": "745ad5745bc4d8f1ac2eb6fc707cfa51d52ab215"
+		},
+		"unbzip2-stream-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.4.tgz",
+			"sha": "13b3f8411122dc088010f29a4c60a0877502ca94"
+		},
+		"unbzip2-stream-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.2.tgz",
+			"sha": "c00a729d6d9000d12c8d539adbf70e9bdfc98393"
+		},
+		"unbzip2-stream-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.3.1.tgz",
+			"sha": "7854da51622a7e63624221196357803b552966a1"
+		},
+		"unbzip2-stream-1.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.3.tgz",
+			"sha": "1f17f3ddabbfc56ab07e202f139132c4132632bd"
+		},
+		"unbzip2-stream-1.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.4.tgz",
+			"sha": "8c84c84d5b4cc28fc1f9f577203bbd3cb860a16a"
+		},
+		"unbzip2-stream-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.7.tgz",
+			"sha": "cbb674620ab0bee34650b61cf3d095d6531465c3"
+		},
+		"unbzip2-stream-1.2.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.5.tgz",
+			"sha": "73a033a567bbbde59654b193c44d48a7e4f43c47"
+		},
+		"unbzip2-stream-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.8.tgz",
+			"sha": "c6d44d6a026470a11396384c4886cfda05687eda"
+		},
+		"unbzip2-stream-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.9.tgz",
+			"sha": "9d107697a8d539d7bfdb9378a1cd832836bb7f8f"
+		},
+		"unbzip2-stream-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.0.tgz",
+			"sha": "4e5a0b58d457bbc1a6df041d977dc64911ee5226"
+		},
+		"unbzip2-stream-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.1.tgz",
+			"sha": "760a98f67dd0019838b9286433672fbaa8f3f842"
+		},
+		"unbzip2-stream-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.1.0.tgz",
+			"sha": "e6f901094bd496fdf87d4ffa09d35b85d34e2bee"
+		},
+		"unbzip2-stream-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.0.2.tgz",
+			"sha": "e8920443d518b1abc8511baf6abecb3f0061076b"
+		},
+		"unbzip2-stream-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.2.0.tgz",
+			"sha": "0ccff0a7f94bc3959abf9ee472bc8c627a2a33d5"
+		}
+	},
+	"_attachments": {},
+	"_rev": "2-e1e19b76bde00406",
+	"readme": "[![npm version](https://badge.fury.io/js/unbzip2-stream.svg)](http://badge.fury.io/js/unbzip2-stream)\n\nunbzip2-stream\n===\nstreaming bzip2 decompressor in pure JS for Node and browserify.\n\nBuffers\n---\nWhen browserified, the stream emits instances of [feross/buffer](https://github.com/feross/buffer) instead of raw Uint8Arrays to have a consistant API across browsers and Node.\n\nUsage\n---\n``` js\nvar bz2 = require('unbzip2-stream');\nvar fs = require('fs');\n\n// decompress test.bz2 and output the result\nfs.createReadStream('./test.bz2').pipe(bz2()).pipe(process.stdout);\n```\n\nAlso see [test/browser/download.js](https://github.com/regular/unbzip2-stream/blob/master/test/browser/download.js) for an example of decompressing a file while downloading.\n\nOr, using a <script> tag\n---\n\n```\n<script src=\"https://npm-cdn.info/unbzip2-stream/dist/unbzip2-stream.min.js\"></script>\n<script>\n    var myStream = window.unbzip2Stream();\n    // now pipe stuff through it (see above)\n</script>\n```\n\nTests\n---\nTo run tests in Node:\n\n    npm run test\n\nTo run tests in PhantomJS\n\n    npm run browser-test\n\nAdditional Tests\n----------------\nThere are two more tests that specifically test decompression of a very large file. Because I don't want to include large binary files in this repository, the files are created by running an npm script.\n\n    npm run prepare-long-test\n\nYou can now\n\n    npm run long-test\n\nAnd to run a test in chrome that downloads and decompresses a large binary file\n\n    npm run download-test\n\nOpen the browser's console to see the output."
+}

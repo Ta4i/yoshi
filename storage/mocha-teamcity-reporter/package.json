@@ -1,0 +1,998 @@
+{
+	"name": "mocha-teamcity-reporter",
+	"versions": {
+		"0.0.4": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "0.0.4",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.4.tgz",
+				"shasum": "777875e4b55e8ddb1582b5e3cca4d0e151a1292c"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@0.0.4",
+			"_shasum": "777875e4b55e8ddb1582b5e3cca4d0e151a1292c"
+		},
+		"2.5.1": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.5.1",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.5.1.tgz",
+				"shasum": "0fb104f9028c3f94c3bef77850e4af041fd2e5db"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity": "mocha test/functional test/programmatic --reporter lib/teamcity.js",
+				"test-teamcity-example": "mocha test/example/exampleSimple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.5.1",
+			"gitHead": "78db72769e0fb82f178e3279a0c57c3ac69df979",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter_2.5.1_1538039011873_0.6417660095279489"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"0.0.2": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "0.0.2",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.2.tgz",
+				"shasum": "bc3be41cefc1429dcbda9413025960d78a6bcd1c"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@0.0.2"
+		},
+		"2.2.2": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.2.2",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.2.tgz",
+				"shasum": "46cd67efc72e712787a8545319c3ef2c0f2bd233"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity": "mocha test/functional test/programmatic --reporter lib/teamcity.js",
+				"test-teamcity-example": "mocha test/example/exampleSimple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.2.2",
+			"gitHead": "3d9995ef433588bea1dd82d41402befcda5ed2df",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter_2.2.2_1519714788578_0.9894621001313924"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"2.4.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.4.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.4.0.tgz",
+				"shasum": "2f46e0e71950f051638f4df663641394c31c9cad"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity": "mocha test/functional test/programmatic --reporter lib/teamcity.js",
+				"test-teamcity-example": "mocha test/example/exampleSimple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.4.0",
+			"gitHead": "02c409e02ecf6be6293b5a9a29eaf2c2fb77df84",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter_2.4.0_1525480505549_0.24077465875528636"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"0.0.3": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "0.0.3",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.3.tgz",
+				"shasum": "ac9243c5993324bf0583d877629addfd59b2086a"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@0.0.3",
+			"_shasum": "ac9243c5993324bf0583d877629addfd59b2086a"
+		},
+		"2.5.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.5.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.5.0.tgz",
+				"shasum": "1fc77857c21b29266ccf33f5301d3edc1648cb1e"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity": "mocha test/functional test/programmatic --reporter lib/teamcity.js",
+				"test-teamcity-example": "mocha test/example/exampleSimple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.5.0",
+			"gitHead": "bae5e8c9e81c2e838ebbc9c62c3f190e38b51382",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter_2.5.0_1537258140862_0.581746843795873"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"2.2.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.2.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.0.tgz",
+				"shasum": "88fd7cbe35a741fe21f99c17951d919a3519e6d5"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional",
+				"test-teamcity-example": "mocha test/test_data/simple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.2.0",
+			"gitHead": "e047c789eb632abdd9acb80e899f623be0f7f7e6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter-2.2.0.tgz_1517819775596_0.9139398401603103"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"0.0.1": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "0.0.1",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.1.tgz",
+				"shasum": "5627efa3afe999f358ca87096cfd6785c6803bef"
+			},
+			"dependencies": {
+				"mocha": "1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.11",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@0.0.1"
+		},
+		"2.2.1": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.2.1",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.1.tgz",
+				"shasum": "acc019e82af1eca546d5a62c8e28bfa807ae2e77"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity-example": "mocha test/test_data/simple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.2.1",
+			"gitHead": "df012a22a34d61b9d4588840f1197fce0cd0725c",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter-2.2.1.tgz_1517882711995_0.43824673164635897"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"2.3.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "2.3.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.3.0.tgz",
+				"shasum": "a73fa1f178f676a0b22aed90c5b72af07afa4420"
+			},
+			"dependencies": {
+				"mocha": ">=3.5.0"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"eslint": "^4.4.1"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jsherriff",
+					"email": "sherriffjamienz@gmail.com"
+				},
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"scripts": {
+				"test": "mocha test/functional test/programmatic",
+				"test-teamcity": "mocha test/functional test/programmatic --reporter lib/teamcity.js",
+				"test-teamcity-example": "mocha test/example/exampleSimple.js --reporter lib/teamcity.js",
+				"lint": "eslint lib/*.js test/**/*.js",
+				"lint-fix": "eslint --fix lib/*.js test/**/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "jsherriff",
+				"email": "sherriffjamienz@gmail.com"
+			},
+			"_id": "mocha-teamcity-reporter@2.3.0",
+			"gitHead": "cafeee005e49b2a7df20613cd871814f1dc43832",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mocha-teamcity-reporter_2.3.0_1524041918080_0.1977903061930748"
+			},
+			"_nodeVersion": "8.9.3"
+		},
+		"1.0.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "1.0.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.0.0.tgz",
+				"shasum": "b712dd667c127cbab71ab446d9d37948585e0e29"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@1.0.0",
+			"gitHead": "c7a15584d2c0de9966cf2cf17c60b4b3b1661a8d",
+			"_shasum": "b712dd667c127cbab71ab446d9d37948585e0e29",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.1.0": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "1.1.0",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.1.0.tgz",
+				"shasum": "5776674f00d2f44b7ae91a5da1b3ee97ce6b725b"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@1.1.0",
+			"gitHead": "27e499fc5aa10926cccb2b607159deb2e50f1ad1",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mocha-teamcity-reporter-1.1.0.tgz_1472097819650_0.31918731587938964"
+			},
+			"_shasum": "5776674f00d2f44b7ae91a5da1b3ee97ce6b725b",
+			"_nodeVersion": "5.9.1"
+		},
+		"1.0.2": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "1.0.2",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.0.2.tgz",
+				"shasum": "a9a419c379aedcea78b748c2ff31edc3e156aba1"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@1.0.2",
+			"gitHead": "d4d14791b19c1f869d0ca16f83f776729004d6f6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/mocha-teamcity-reporter-1.0.2.tgz_1468901220753_0.42010553437285125"
+			},
+			"_shasum": "a9a419c379aedcea78b748c2ff31edc3e156aba1",
+			"_nodeVersion": "5.9.1"
+		},
+		"1.1.1": {
+			"name": "mocha-teamcity-reporter",
+			"description": "teamcity reporter for mocha",
+			"version": "1.1.1",
+			"author": {
+				"name": "travis jeffery"
+			},
+			"homepage": "https://github.com/travisjeffery/mocha-teamcity-reporter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+			},
+			"main": "./lib/teamcity.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.1.1.tgz",
+				"shasum": "696e67b3d3d3bf7222c3608f3523537f85411439"
+			},
+			"dependencies": {
+				"mocha": ">=1.13.0"
+			},
+			"keywords": [
+				"mocha",
+				"teamcity",
+				"reporter",
+				"jetbrains"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "travisjeffery",
+					"email": "tj@travisjeffery.com"
+				}
+			],
+			"directories": "./lib",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "travisjeffery",
+				"email": "tj@travisjeffery.com"
+			},
+			"_id": "mocha-teamcity-reporter@1.1.1",
+			"gitHead": "8f248d7be57e5bb9d398811e3224bc12cbabeacc",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mocha-teamcity-reporter-1.1.1.tgz_1472113878089_0.7607996368315071"
+			},
+			"_shasum": "696e67b3d3d3bf7222c3608f3523537f85411439",
+			"_nodeVersion": "5.9.1"
+		}
+	},
+	"time": {
+		"0.0.4": "2014-08-05T00:51:35.580Z",
+		"created": "2013-09-27T23:44:51.860Z",
+		"2.5.1": "2018-09-27T09:03:32.160Z",
+		"0.0.2": "2013-11-18T12:14:07.261Z",
+		"2.2.2": "2018-02-27T06:59:48.699Z",
+		"2.4.0": "2018-05-05T00:35:05.658Z",
+		"0.0.3": "2014-07-02T16:52:54.844Z",
+		"2.5.0": "2018-09-18T08:09:00.987Z",
+		"2.2.0": "2018-02-05T08:36:15.693Z",
+		"0.0.1": "2013-09-27T23:44:53.008Z",
+		"2.2.1": "2018-02-06T02:05:12.070Z",
+		"2.3.0": "2018-04-18T08:58:38.222Z",
+		"modified": "2019-01-04T19:59:36.428Z",
+		"1.0.0": "2015-09-30T22:55:29.613Z",
+		"1.1.0": "2016-08-25T04:03:42.381Z",
+		"1.0.2": "2016-07-19T04:07:02.420Z",
+		"1.1.1": "2016-08-25T08:31:20.875Z"
+	},
+	"dist-tags": {
+		"latest": "2.5.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749335705
+		}
+	},
+	"_distfiles": {
+		"mocha-teamcity-reporter-0.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.4.tgz",
+			"sha": "777875e4b55e8ddb1582b5e3cca4d0e151a1292c"
+		},
+		"mocha-teamcity-reporter-2.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.5.1.tgz",
+			"sha": "0fb104f9028c3f94c3bef77850e4af041fd2e5db"
+		},
+		"mocha-teamcity-reporter-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.2.tgz",
+			"sha": "bc3be41cefc1429dcbda9413025960d78a6bcd1c"
+		},
+		"mocha-teamcity-reporter-2.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.2.tgz",
+			"sha": "46cd67efc72e712787a8545319c3ef2c0f2bd233"
+		},
+		"mocha-teamcity-reporter-2.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.4.0.tgz",
+			"sha": "2f46e0e71950f051638f4df663641394c31c9cad"
+		},
+		"mocha-teamcity-reporter-0.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.3.tgz",
+			"sha": "ac9243c5993324bf0583d877629addfd59b2086a"
+		},
+		"mocha-teamcity-reporter-2.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.5.0.tgz",
+			"sha": "1fc77857c21b29266ccf33f5301d3edc1648cb1e"
+		},
+		"mocha-teamcity-reporter-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.0.tgz",
+			"sha": "88fd7cbe35a741fe21f99c17951d919a3519e6d5"
+		},
+		"mocha-teamcity-reporter-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-0.0.1.tgz",
+			"sha": "5627efa3afe999f358ca87096cfd6785c6803bef"
+		},
+		"mocha-teamcity-reporter-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.2.1.tgz",
+			"sha": "acc019e82af1eca546d5a62c8e28bfa807ae2e77"
+		},
+		"mocha-teamcity-reporter-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-2.3.0.tgz",
+			"sha": "a73fa1f178f676a0b22aed90c5b72af07afa4420"
+		},
+		"mocha-teamcity-reporter-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.0.0.tgz",
+			"sha": "b712dd667c127cbab71ab446d9d37948585e0e29"
+		},
+		"mocha-teamcity-reporter-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.1.0.tgz",
+			"sha": "5776674f00d2f44b7ae91a5da1b3ee97ce6b725b"
+		},
+		"mocha-teamcity-reporter-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.0.2.tgz",
+			"sha": "a9a419c379aedcea78b748c2ff31edc3e156aba1"
+		},
+		"mocha-teamcity-reporter-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mocha-teamcity-reporter/-/mocha-teamcity-reporter-1.1.1.tgz",
+			"sha": "696e67b3d3d3bf7222c3608f3523537f85411439"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-8264bc55bf2db651",
+	"readme": "[![NPM version](https://badge.fury.io/js/mocha-teamcity-reporter.svg)](http://badge.fury.io/js/mocha-teamcity-reporter)\r\n[![Build Status](https://travis-ci.org/travisjeffery/mocha-teamcity-reporter.svg?branch=master)](https://travis-ci.org/travisjeffery/mocha-teamcity-reporter)\r\n[![TeamCity Build Status](https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:(id:TeamCityThirdPartyPlugins_MochaTeamcityReporter_Build)/statusIcon.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityThirdPartyPlugins_MochaTeamcityReporter_Build&branch_TeamCityThirdPartyPlugins_MochaTeamcityReporter=%3Cdefault%3E&tab=buildTypeStatusDiv)\r\n\r\n# mocha-teamcity-reporter #\r\n\r\nmocha-teamcity-reporter Teamcity reporter which makes it possible to display test results in real-time, makes test information \r\navailable on the Tests tab of the Build Results page.\r\n\r\n## Version 2.x changes\r\n* Breaking change, support node4.x+ only \r\n* Support flowId's\r\n    * Why use flowIds? Flow tracking is necessary, for example, to distinguish separate processes running in parallel\r\n    * This defaults to process.pid, so it works with concurrent task runners (Gulp/Grunt etc)\r\n* other small bug fixes\r\n* Functional tests\r\n\r\n## Requirements\r\n* NodeJs 4+\r\n* Web Browser supporting ES5\r\n\r\n## To Install\r\n\r\nIn your project run a npm install command:\r\n\r\n``` npm install mocha-teamcity-reporter --save-dev ```\r\n\r\nBasically, have your project's package.json be like:\r\n\r\n``` js\r\n{\r\n  \"devDependencies\": {\r\n    \"mocha-teamcity-reporter\": \">=2.0.0\"\r\n  }\r\n}\r\n```\r\n\r\n## Usage\r\n\r\nhttps://github.com/visionmedia/mocha/wiki/Third-party-reporters describes using third party reporters in mocha.\r\n\r\nThen call mocha with:\r\n\r\n`mocha --reporter mocha-teamcity-reporter test`\r\n\r\n## Running In Browser\r\n* Use `lib/teamcityBrowser`\r\n* Has option parsing stripped out for the moment\r\n* Example use can be found in `test\\browser`\r\n* Custom log function can be set with window.customLogFunction\r\n\r\n## Customisation:\r\n\r\n### TeamCity flowId\r\n\r\nCan set flowId like:\r\n`mocha test --reporter mocha-teamcity-reporter --reporter-options flowId=gobbledygook`\r\n\r\n### Top-level suite name\r\n\r\nCan set a top-level suite name, which will wrap all other suites.  \r\nThis is useful for reading test output when running multiple suites in a single build\r\n\r\n* Environment variable: MOCHA_TEAMCITY_TOP_LEVEL_SUITE=<suiteName>\r\n* Reporter option: topLevelSuite=<suiteName>\r\n\r\n### log test failures with std error\r\nTo enable this please\r\nPlease note this will probaly be made default in the next major version\r\n\r\n* Environment variable: USE_STD_ERROR=true  \r\n* Reporter option: useStdError=true\r\n\r\n### Record hook failures\r\nRecord failures for hooks such as before/after etc\r\nPlease note this will probably be made default in the next major version\r\n\r\n* Environment variable: RECORD_HOOK_FAILURES=true  \r\n* Reporter option: recordHookFailures=true\r\n\r\n\r\n### Setting options\r\n\r\n* Set with reporter-options:\r\n\r\n`mocha test --reporter mocha-teamcity-reporter --reporter-options topLevelSuite=top-level-suite-name`\r\n`mocha test --reporter mocha-teamcity-reporter --reporter-options useStdError=true`\r\n`mocha test --reporter mocha-teamcity-reporter --reporter-options useStdError=true`\r\n\r\n* Set with environment variable\r\n\r\n`MOCHA_TEAMCITY_TOP_LEVEL_SUITE='top-level-suite-name' mocha test --reporter mocha-teamcity-reporter`\r\n\r\n## View on live Teamcity\r\n* Project can be viewed at\r\n[Pubic Teamcity at Jetbrains mocha reporter](https://teamcity.jetbrains.com/project.html?projectId=TeamCityThirdPartyPlugins_MochaTeamcityReporter) \r\n* Thanks to JetBrains for hosting\r\n\r\n## Contributions\r\n* Always Welcome\r\n* Would prefer if customisation is added it is controlled via mocha options or environment variables\r\n* Only requirement is for code to pass linting and functional tests\r\n\r\n## Run example test in project:\r\n`mocha test/test_data/simple.js --reporter mocha-teamcity-reporter` or `npm run test-teamcity-example`\r\n\r\n## Reference Information\r\nhttps://confluence.jetbrains.com/display/TCD10/Build+Script+Interaction+with+TeamCity"
+}

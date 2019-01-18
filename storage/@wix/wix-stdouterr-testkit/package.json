@@ -1,0 +1,4030 @@
+{
+	"name": "@wix/wix-stdouterr-testkit",
+	"versions": {
+		"1.0.827": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.827",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.827.tgz",
+				"shasum": "4d1042a735a5618022bc4ac698e67febcdbffae7"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.827"
+		},
+		"1.0.828": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.828",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.828.tgz",
+				"shasum": "2e43ea4aa5e83c458d399c1313b01cc3d99dce98"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.828"
+		},
+		"1.0.825": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.825",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.825.tgz",
+				"shasum": "ecd3289760497a7471d3a45ca32723e1deaeb39c"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.825"
+		},
+		"1.0.826": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.826",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.826.tgz",
+				"shasum": "fccfd4c24202f370c9c00bb4657e3c418d31a055"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.826"
+		},
+		"1.0.829": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.829",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.829.tgz",
+				"shasum": "212267471b5434137145439e2dd7e816c59d88bd"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.829"
+		},
+		"1.0.797": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.797",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.797.tgz",
+				"shasum": "3a5b341320dff6f7cb41290df3a2077eb57f909b"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.797"
+		},
+		"1.0.830": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.830",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.830.tgz",
+				"shasum": "38e97875461aa8c5e8b3f03692eee6928b467e04"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.830"
+		},
+		"1.0.798": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.798",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.798.tgz",
+				"shasum": "b68bd29417b519bface05e83472dcec62bffd4da"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.798"
+		},
+		"1.0.831": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.831",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.831.tgz",
+				"shasum": "b91ad10a5b21c5a43566f2fd2a02222026991cae"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.831"
+		},
+		"1.0.795": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.795",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.795.tgz",
+				"shasum": "3272f472f8e03aba0b9439f9e90f513981c9b79f"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.795"
+		},
+		"1.0.796": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.796",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.796.tgz",
+				"shasum": "03a0e9049d3e0632535955eca773e6009994ad44"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.796"
+		},
+		"1.0.834": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.834",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.834.tgz",
+				"shasum": "98900330ef1c0d35b5e942bb63ff8ff3eedbc9f6"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.834"
+		},
+		"1.0.835": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.835",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.835.tgz",
+				"shasum": "6b2bbe2d6552df9ddee68c0620a5c0d2f5dac726"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.835"
+		},
+		"1.0.799": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.799",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.799.tgz",
+				"shasum": "9e217f286c50138314a008f8ead5ddfd4b72d823"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.799"
+		},
+		"1.0.832": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.832",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.832.tgz",
+				"shasum": "aa7012916b7892070810b5cce277bd6db83bc075"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.832"
+		},
+		"1.0.833": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.833",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.833.tgz",
+				"shasum": "f438565a18f121b5a16f0a7282587a9462ec780b"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.833"
+		},
+		"1.0.790": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.790",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.790.tgz",
+				"shasum": "5dd203c1bb1ed331efb9dde25d0ba2210a8eb4c9"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.790"
+		},
+		"1.0.793": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.793",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.793.tgz",
+				"shasum": "2edd526fff96500ec0cfd30e2c250f4d07477f8a"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.793"
+		},
+		"1.0.794": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.794",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.794.tgz",
+				"shasum": "186e96112d7742356e81194c338838d61b007524"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.794"
+		},
+		"1.0.791": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.791",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.791.tgz",
+				"shasum": "3045c70d5c4415424d46bf194252f70817f8a15d"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.791"
+		},
+		"1.0.792": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.792",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.792.tgz",
+				"shasum": "0482c94d860251a7c08730810e6725bdf1675e8f"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.792"
+		},
+		"1.0.838": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.838",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.838.tgz",
+				"shasum": "16e1e80fd11c4cadb2c4bf214808f1ed6d0558e6"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.838"
+		},
+		"1.0.839": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.839",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.839.tgz",
+				"shasum": "fb667c953b03ec6e383dfeb8b2986629328eb4ad"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.839"
+		},
+		"1.0.836": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.836",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.836.tgz",
+				"shasum": "9481c7b85a6cc46e21b99c02c80a9e3bd0f6f4c7"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.836"
+		},
+		"1.0.837": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.837",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.837.tgz",
+				"shasum": "a516bb74634464b2d94ab2ecd604d2f025b2a7ce"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.837"
+		},
+		"1.0.764": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.764",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.764.tgz",
+				"shasum": "ba4fc99d79dd297a7f36b0bc0367f4a6c98fa125"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.764"
+		},
+		"1.0.841": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.841",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.841.tgz",
+				"shasum": "22725cc03d1ed1815350c852d62e789f0d534cda"
+			},
+			"dependencies": {
+				"@wix/wix-testkit-base": "~1.0.641",
+				"intercept-stdout": "0.1.2"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.841"
+		},
+		"1.0.765": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.765",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.765.tgz",
+				"shasum": "8f2c977ac2ac22fa1dce692477c486f2867722fc"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.765"
+		},
+		"1.0.842": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.842",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.842.tgz",
+				"shasum": "8e816340394b42396ad77917b165186f9e5cecf8"
+			},
+			"dependencies": {
+				"@wix/wix-testkit-base": "~1.0.641",
+				"intercept-stdout": "0.1.2"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.842"
+		},
+		"1.0.763": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.763",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.763.tgz",
+				"shasum": "3dbe45c9fe289522648b43cddb18fd00f1e8e452"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.763"
+		},
+		"1.0.840": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.840",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.840.tgz",
+				"shasum": "56518080b5b920175f0878e429ca525dc4b5df21"
+			},
+			"dependencies": {
+				"@wix/wix-testkit-base": "~1.0.641",
+				"intercept-stdout": "0.1.2"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.840"
+		},
+		"1.0.768": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.768",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.768.tgz",
+				"shasum": "bff87cf59d5a6d4768fe1edeeedff68f2cb366ed"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.768"
+		},
+		"1.0.801": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.801",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.801.tgz",
+				"shasum": "e3392234845c2c7004617985aad0dab05c2185b0"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.801"
+		},
+		"1.0.769": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.769",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.769.tgz",
+				"shasum": "4adf61ce45665e0309e66da276cbda4a7a2f73c0"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.769"
+		},
+		"1.0.802": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.802",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.802.tgz",
+				"shasum": "da16c4f95c3cc4ae786fae8d03219eac63f82309"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.802"
+		},
+		"1.0.766": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.766",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.766.tgz",
+				"shasum": "6102c37ccba138b65888861609c1be9fe8080ccd"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.766"
+		},
+		"1.0.843": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.843",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.843.tgz",
+				"shasum": "d3a46adf8a0738c52408a683adedb1187023a57b"
+			},
+			"dependencies": {
+				"@wix/wix-testkit-base": "~1.0.641",
+				"intercept-stdout": "0.1.2"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.843"
+		},
+		"1.0.767": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.767",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.767.tgz",
+				"shasum": "c25b842d9818795a5522dc5edc2b06d0659a0813"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.767"
+		},
+		"1.0.800": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.800",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.800.tgz",
+				"shasum": "31ea990298f94824580abc924e59df031bfde816"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.800"
+		},
+		"1.0.844": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.844",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.844.tgz",
+				"shasum": "0b0ea1dcfa26ddd1e3ceb9894e29f0c0f94c6991"
+			},
+			"dependencies": {
+				"@wix/wix-testkit-base": "~1.0.641",
+				"intercept-stdout": "0.1.2"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.844"
+		},
+		"1.0.805": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.805",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.805.tgz",
+				"shasum": "46101cdef2be7a898912ab450330c9d91a9b97a6"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.805"
+		},
+		"1.0.806": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.806",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.806.tgz",
+				"shasum": "1bf5fb488e9e55133781901ea40d87d1417a2c33"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.806"
+		},
+		"1.0.803": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.803",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.803.tgz",
+				"shasum": "e6ae11a8ee8a4664eb57696e3fd9d04489f07243"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.803"
+		},
+		"1.0.804": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.804",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.804.tgz",
+				"shasum": "38b8d80b61c776bf10f6429725549a24115fbaf0"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.804"
+		},
+		"1.0.809": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.809",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.809.tgz",
+				"shasum": "d6386ce1869be594ffa9b8c100fd33dfefa6df3f"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.809"
+		},
+		"1.0.807": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.807",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.807.tgz",
+				"shasum": "b2fcb0de0b05200b50235024663f08f29d4a2825"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.807"
+		},
+		"1.0.808": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.808",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.808.tgz",
+				"shasum": "33b8e251ac4d36c67ac72a4e30ded70845101bac"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.808"
+		},
+		"1.0.775": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.775",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.775.tgz",
+				"shasum": "d87499c3f387391b0579639c4e487bb150d2f897"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.775"
+		},
+		"1.0.776": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.776",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.776.tgz",
+				"shasum": "a99a7879e53e52557773b6537d6cac032e763f3b"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.776"
+		},
+		"1.0.773": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.773",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.773.tgz",
+				"shasum": "9302c8026e7ea9a050c99c14481648cce963f4d9"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.773"
+		},
+		"1.0.774": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.774",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.774.tgz",
+				"shasum": "765fdf1e4f9ecc6e6946c5be82837e769e4cf57c"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.774"
+		},
+		"1.0.779": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.779",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.779.tgz",
+				"shasum": "09259a4f95c23c94b8e3c7c8b910cf5d6d7b3d7e"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.779"
+		},
+		"1.0.812": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.812",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.812.tgz",
+				"shasum": "7f7e27e0842c53789bf9ef4b0860ac0e69c14c5d"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.812"
+		},
+		"1.0.813": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.813",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.813.tgz",
+				"shasum": "2b20372d86f8a7a57945203124a26e9894c821e4"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.813"
+		},
+		"1.0.777": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.777",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.777.tgz",
+				"shasum": "18b4c9f71c130d4c1c5a16958eac07784e45bf1a"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.777"
+		},
+		"1.0.810": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.810",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.810.tgz",
+				"shasum": "b0d868dca4d2eded783e9d6ce81dc676d1c389e9"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.810"
+		},
+		"1.0.778": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.778",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.778.tgz",
+				"shasum": "59f9b8adf8b4869ce526bb378a106fe14e89a8ee"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.778"
+		},
+		"1.0.811": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.811",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.811.tgz",
+				"shasum": "3cfaf02a81023db0dfa5f861bcd9728d04cbc519"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.811"
+		},
+		"1.0.771": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.771",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.771.tgz",
+				"shasum": "3d5c65ae94d7c16b5e3d91079fd7f702c4ee074b"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.771"
+		},
+		"1.0.772": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.772",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.772.tgz",
+				"shasum": "65bf6c60a907410d2c362b8de4be473fa48bb601"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.772"
+		},
+		"1.0.770": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.770",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.770.tgz",
+				"shasum": "baa38f8334c7c301f94e99645c91351fd642cc75"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.770"
+		},
+		"1.0.816": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.816",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.816.tgz",
+				"shasum": "115bcbb86675562c73bfe1d676855d0d4429c32f"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.816"
+		},
+		"1.0.817": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.817",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.817.tgz",
+				"shasum": "d52270fbea7cfd2751bd9a0330d9b687b5cea1e0"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.817"
+		},
+		"1.0.814": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.814",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.814.tgz",
+				"shasum": "2d11c56e42b6ccf10a41ad93182a5f48e29d383f"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.814"
+		},
+		"1.0.815": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.815",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.815.tgz",
+				"shasum": "e0154189425ec154b22345eebde716db52cebfa9"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.815"
+		},
+		"1.0.818": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.818",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.818.tgz",
+				"shasum": "4a3a37ee21d0ff4fda50a9999fc13e80d57c3035"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.818"
+		},
+		"1.0.819": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.819",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.819.tgz",
+				"shasum": "47daf37d61eb16280ebfc69a12f286c0eee8305c"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.819"
+		},
+		"1.0.786": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.786",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.786.tgz",
+				"shasum": "4abb20b52c584eaf1ec9d683f955a7a70528c457"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.786"
+		},
+		"1.0.787": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.787",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.787.tgz",
+				"shasum": "71b42bea17b992e20156a2bc2cbfa499ddb2311c"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.787"
+		},
+		"1.0.820": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.820",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.820.tgz",
+				"shasum": "dccfed3e43b87d1e6261afbbf48dc1202be380bd"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.820"
+		},
+		"1.0.784": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.784",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.784.tgz",
+				"shasum": "ee796e1dcb7295a9212621c6b880b7a2a1e020c2"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.784"
+		},
+		"1.0.785": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.785",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.785.tgz",
+				"shasum": "7ab49e866f7825409191178f8c42b4a9e0a543d0"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.785"
+		},
+		"1.0.823": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.823",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.823.tgz",
+				"shasum": "44d305e0c954e521caf53912e13ba92857946473"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.823"
+		},
+		"1.0.824": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.824",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.824.tgz",
+				"shasum": "488bef4f76d7e7c6e7a58a9d18c4c8d3f3b4cfc3"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.824"
+		},
+		"1.0.788": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.788",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.788.tgz",
+				"shasum": "5c650b66ae802333713cbf14c7ad6963fdf5ac3b"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.788"
+		},
+		"1.0.821": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.821",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.821.tgz",
+				"shasum": "f0d0ea0e36ad679db003404b894e995411d2f873"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.821"
+		},
+		"1.0.789": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.789",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.789.tgz",
+				"shasum": "4da92ce961d1510e92ea4328eef159a4fc9f30c4"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.789"
+		},
+		"1.0.782": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.782",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.782.tgz",
+				"shasum": "5d5a5e787f2cb39c85f7f42623120b7cc5511353"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.782"
+		},
+		"1.0.783": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.783",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.783.tgz",
+				"shasum": "166e9209fc24cb6e90c2b0504f20c5ce1b4cc544"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.783"
+		},
+		"1.0.780": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.780",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.780.tgz",
+				"shasum": "d457fa045796a49c4a6435f05c5bf3a06134944a"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.780"
+		},
+		"1.0.781": {
+			"name": "@wix/wix-stdouterr-testkit",
+			"description": "Test kit grabbing and asserting on stderr/stdout",
+			"version": "1.0.781",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/wix-stdouterr-testkit"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.781.tgz",
+				"shasum": "c9f2a4343080c3adc9d881940532dda6d82b4c34"
+			},
+			"dependencies": {
+				"intercept-stdout": "0.1.2",
+				"wix-testkit-base": "~1.0.641"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-stdouterr-testkit@1.0.781"
+		}
+	},
+	"time": {
+		"1.0.827": "2018-06-19T12:16:19.363Z",
+		"1.0.828": "2018-07-11T20:10:01.473Z",
+		"1.0.825": "2018-05-30T08:16:53.712Z",
+		"1.0.826": "2018-06-07T13:40:14.174Z",
+		"1.0.829": "2018-07-12T07:53:12.691Z",
+		"1.0.797": "2017-11-09T12:04:20.567Z",
+		"1.0.830": "2018-08-06T10:03:33.417Z",
+		"1.0.798": "2017-11-09T12:08:38.893Z",
+		"1.0.831": "2018-08-26T12:11:45.401Z",
+		"1.0.795": "2017-11-08T14:35:55.643Z",
+		"1.0.796": "2017-11-08T14:39:51.286Z",
+		"1.0.834": "2018-10-02T10:38:58.673Z",
+		"1.0.835": "2018-10-03T10:58:46.420Z",
+		"1.0.799": "2017-11-09T12:12:32.962Z",
+		"1.0.832": "2018-09-13T11:00:54.753Z",
+		"1.0.833": "2018-09-25T14:32:22.220Z",
+		"modified": "2019-01-14T11:38:13.532Z",
+		"1.0.790": "2017-11-05T16:35:20.354Z",
+		"1.0.793": "2017-11-07T13:00:04.717Z",
+		"1.0.794": "2017-11-08T08:37:37.101Z",
+		"1.0.791": "2017-11-07T03:57:23.162Z",
+		"1.0.792": "2017-11-07T07:33:13.831Z",
+		"created": "2017-10-24T07:38:16.764Z",
+		"1.0.838": "2018-11-14T12:25:37.368Z",
+		"1.0.839": "2018-12-05T11:47:10.627Z",
+		"1.0.836": "2018-10-24T15:37:50.713Z",
+		"1.0.837": "2018-11-04T14:50:49.368Z",
+		"1.0.764": "2017-10-24T16:36:11.938Z",
+		"1.0.841": "2018-12-13T12:04:30.321Z",
+		"1.0.765": "2017-10-24T19:25:09.854Z",
+		"1.0.842": "2018-12-13T14:27:34.646Z",
+		"1.0.763": "2017-10-24T07:38:16.764Z",
+		"1.0.840": "2018-12-12T08:49:46.777Z",
+		"1.0.768": "2017-10-27T06:17:05.692Z",
+		"1.0.801": "2017-11-11T02:40:07.707Z",
+		"1.0.769": "2017-10-28T08:20:29.180Z",
+		"1.0.802": "2017-11-11T05:49:57.810Z",
+		"1.0.766": "2017-10-26T02:48:35.710Z",
+		"1.0.843": "2019-01-02T14:23:26.878Z",
+		"1.0.767": "2017-10-26T06:15:31.585Z",
+		"1.0.800": "2017-11-09T23:46:03.318Z",
+		"1.0.844": "2019-01-14T11:38:13.532Z",
+		"1.0.805": "2017-11-14T05:55:17.703Z",
+		"1.0.806": "2017-11-14T12:19:45.527Z",
+		"1.0.803": "2017-11-12T05:51:40.143Z",
+		"1.0.804": "2017-11-13T05:53:27.503Z",
+		"1.0.809": "2017-11-16T07:23:18.818Z",
+		"1.0.807": "2017-11-16T02:17:39.127Z",
+		"1.0.808": "2017-11-16T06:56:08.630Z",
+		"1.0.775": "2017-10-31T10:32:38.637Z",
+		"1.0.776": "2017-11-01T05:48:00.197Z",
+		"1.0.773": "2017-10-30T13:42:17.329Z",
+		"1.0.774": "2017-10-31T07:13:25.594Z",
+		"1.0.779": "2017-11-02T15:10:38.270Z",
+		"1.0.812": "2017-12-11T12:59:11.850Z",
+		"1.0.813": "2017-12-25T09:37:23.878Z",
+		"1.0.777": "2017-11-01T17:00:58.905Z",
+		"1.0.810": "2017-11-16T20:15:59.895Z",
+		"1.0.778": "2017-11-02T00:51:08.078Z",
+		"1.0.811": "2017-12-10T13:12:58.533Z",
+		"1.0.771": "2017-10-29T06:05:39.504Z",
+		"1.0.772": "2017-10-29T13:49:10.361Z",
+		"1.0.770": "2017-10-29T06:04:15.782Z",
+		"1.0.816": "2018-01-15T15:04:36.883Z",
+		"1.0.817": "2018-01-30T11:27:35.478Z",
+		"1.0.814": "2018-01-08T10:16:41.585Z",
+		"1.0.815": "2018-01-09T09:17:02.745Z",
+		"1.0.818": "2018-02-21T16:08:10.350Z",
+		"1.0.819": "2018-03-16T06:10:02.486Z",
+		"1.0.786": "2017-11-05T05:30:48.194Z",
+		"1.0.787": "2017-11-05T06:05:29.696Z",
+		"1.0.820": "2018-03-25T10:35:01.955Z",
+		"1.0.784": "2017-11-03T04:06:23.276Z",
+		"1.0.785": "2017-11-03T13:54:30.894Z",
+		"1.0.823": "2018-05-06T07:21:05.701Z",
+		"1.0.824": "2018-05-20T10:39:20.576Z",
+		"1.0.788": "2017-11-05T13:22:44.279Z",
+		"1.0.821": "2018-04-05T08:36:15.951Z",
+		"1.0.789": "2017-11-05T15:04:01.750Z",
+		"1.0.782": "2017-11-02T19:44:26.541Z",
+		"1.0.783": "2017-11-02T19:46:29.973Z",
+		"1.0.780": "2017-11-02T15:11:54.534Z",
+		"1.0.781": "2017-11-02T15:19:51.651Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.844"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749348794
+		}
+	},
+	"_distfiles": {
+		"wix-stdouterr-testkit-1.0.827.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.827.tgz",
+			"sha": "4d1042a735a5618022bc4ac698e67febcdbffae7"
+		},
+		"wix-stdouterr-testkit-1.0.828.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.828.tgz",
+			"sha": "2e43ea4aa5e83c458d399c1313b01cc3d99dce98"
+		},
+		"wix-stdouterr-testkit-1.0.825.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.825.tgz",
+			"sha": "ecd3289760497a7471d3a45ca32723e1deaeb39c"
+		},
+		"wix-stdouterr-testkit-1.0.826.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.826.tgz",
+			"sha": "fccfd4c24202f370c9c00bb4657e3c418d31a055"
+		},
+		"wix-stdouterr-testkit-1.0.829.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.829.tgz",
+			"sha": "212267471b5434137145439e2dd7e816c59d88bd"
+		},
+		"wix-stdouterr-testkit-1.0.797.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.797.tgz",
+			"sha": "3a5b341320dff6f7cb41290df3a2077eb57f909b"
+		},
+		"wix-stdouterr-testkit-1.0.830.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.830.tgz",
+			"sha": "38e97875461aa8c5e8b3f03692eee6928b467e04"
+		},
+		"wix-stdouterr-testkit-1.0.798.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.798.tgz",
+			"sha": "b68bd29417b519bface05e83472dcec62bffd4da"
+		},
+		"wix-stdouterr-testkit-1.0.831.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.831.tgz",
+			"sha": "b91ad10a5b21c5a43566f2fd2a02222026991cae"
+		},
+		"wix-stdouterr-testkit-1.0.795.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.795.tgz",
+			"sha": "3272f472f8e03aba0b9439f9e90f513981c9b79f"
+		},
+		"wix-stdouterr-testkit-1.0.796.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.796.tgz",
+			"sha": "03a0e9049d3e0632535955eca773e6009994ad44"
+		},
+		"wix-stdouterr-testkit-1.0.834.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.834.tgz",
+			"sha": "98900330ef1c0d35b5e942bb63ff8ff3eedbc9f6"
+		},
+		"wix-stdouterr-testkit-1.0.835.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.835.tgz",
+			"sha": "6b2bbe2d6552df9ddee68c0620a5c0d2f5dac726"
+		},
+		"wix-stdouterr-testkit-1.0.799.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.799.tgz",
+			"sha": "9e217f286c50138314a008f8ead5ddfd4b72d823"
+		},
+		"wix-stdouterr-testkit-1.0.832.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.832.tgz",
+			"sha": "aa7012916b7892070810b5cce277bd6db83bc075"
+		},
+		"wix-stdouterr-testkit-1.0.833.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.833.tgz",
+			"sha": "f438565a18f121b5a16f0a7282587a9462ec780b"
+		},
+		"wix-stdouterr-testkit-1.0.790.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.790.tgz",
+			"sha": "5dd203c1bb1ed331efb9dde25d0ba2210a8eb4c9"
+		},
+		"wix-stdouterr-testkit-1.0.793.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.793.tgz",
+			"sha": "2edd526fff96500ec0cfd30e2c250f4d07477f8a"
+		},
+		"wix-stdouterr-testkit-1.0.794.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.794.tgz",
+			"sha": "186e96112d7742356e81194c338838d61b007524"
+		},
+		"wix-stdouterr-testkit-1.0.791.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.791.tgz",
+			"sha": "3045c70d5c4415424d46bf194252f70817f8a15d"
+		},
+		"wix-stdouterr-testkit-1.0.792.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.792.tgz",
+			"sha": "0482c94d860251a7c08730810e6725bdf1675e8f"
+		},
+		"wix-stdouterr-testkit-1.0.838.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.838.tgz",
+			"sha": "16e1e80fd11c4cadb2c4bf214808f1ed6d0558e6"
+		},
+		"wix-stdouterr-testkit-1.0.839.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.839.tgz",
+			"sha": "fb667c953b03ec6e383dfeb8b2986629328eb4ad"
+		},
+		"wix-stdouterr-testkit-1.0.836.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.836.tgz",
+			"sha": "9481c7b85a6cc46e21b99c02c80a9e3bd0f6f4c7"
+		},
+		"wix-stdouterr-testkit-1.0.837.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.837.tgz",
+			"sha": "a516bb74634464b2d94ab2ecd604d2f025b2a7ce"
+		},
+		"wix-stdouterr-testkit-1.0.764.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.764.tgz",
+			"sha": "ba4fc99d79dd297a7f36b0bc0367f4a6c98fa125"
+		},
+		"wix-stdouterr-testkit-1.0.841.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.841.tgz",
+			"sha": "22725cc03d1ed1815350c852d62e789f0d534cda"
+		},
+		"wix-stdouterr-testkit-1.0.765.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.765.tgz",
+			"sha": "8f2c977ac2ac22fa1dce692477c486f2867722fc"
+		},
+		"wix-stdouterr-testkit-1.0.842.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.842.tgz",
+			"sha": "8e816340394b42396ad77917b165186f9e5cecf8"
+		},
+		"wix-stdouterr-testkit-1.0.763.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.763.tgz",
+			"sha": "3dbe45c9fe289522648b43cddb18fd00f1e8e452"
+		},
+		"wix-stdouterr-testkit-1.0.840.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.840.tgz",
+			"sha": "56518080b5b920175f0878e429ca525dc4b5df21"
+		},
+		"wix-stdouterr-testkit-1.0.768.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.768.tgz",
+			"sha": "bff87cf59d5a6d4768fe1edeeedff68f2cb366ed"
+		},
+		"wix-stdouterr-testkit-1.0.801.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.801.tgz",
+			"sha": "e3392234845c2c7004617985aad0dab05c2185b0"
+		},
+		"wix-stdouterr-testkit-1.0.769.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.769.tgz",
+			"sha": "4adf61ce45665e0309e66da276cbda4a7a2f73c0"
+		},
+		"wix-stdouterr-testkit-1.0.802.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.802.tgz",
+			"sha": "da16c4f95c3cc4ae786fae8d03219eac63f82309"
+		},
+		"wix-stdouterr-testkit-1.0.766.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.766.tgz",
+			"sha": "6102c37ccba138b65888861609c1be9fe8080ccd"
+		},
+		"wix-stdouterr-testkit-1.0.843.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.843.tgz",
+			"sha": "d3a46adf8a0738c52408a683adedb1187023a57b"
+		},
+		"wix-stdouterr-testkit-1.0.767.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.767.tgz",
+			"sha": "c25b842d9818795a5522dc5edc2b06d0659a0813"
+		},
+		"wix-stdouterr-testkit-1.0.800.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.800.tgz",
+			"sha": "31ea990298f94824580abc924e59df031bfde816"
+		},
+		"wix-stdouterr-testkit-1.0.844.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.844.tgz",
+			"sha": "0b0ea1dcfa26ddd1e3ceb9894e29f0c0f94c6991"
+		},
+		"wix-stdouterr-testkit-1.0.805.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.805.tgz",
+			"sha": "46101cdef2be7a898912ab450330c9d91a9b97a6"
+		},
+		"wix-stdouterr-testkit-1.0.806.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.806.tgz",
+			"sha": "1bf5fb488e9e55133781901ea40d87d1417a2c33"
+		},
+		"wix-stdouterr-testkit-1.0.803.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.803.tgz",
+			"sha": "e6ae11a8ee8a4664eb57696e3fd9d04489f07243"
+		},
+		"wix-stdouterr-testkit-1.0.804.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.804.tgz",
+			"sha": "38b8d80b61c776bf10f6429725549a24115fbaf0"
+		},
+		"wix-stdouterr-testkit-1.0.809.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.809.tgz",
+			"sha": "d6386ce1869be594ffa9b8c100fd33dfefa6df3f"
+		},
+		"wix-stdouterr-testkit-1.0.807.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.807.tgz",
+			"sha": "b2fcb0de0b05200b50235024663f08f29d4a2825"
+		},
+		"wix-stdouterr-testkit-1.0.808.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.808.tgz",
+			"sha": "33b8e251ac4d36c67ac72a4e30ded70845101bac"
+		},
+		"wix-stdouterr-testkit-1.0.775.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.775.tgz",
+			"sha": "d87499c3f387391b0579639c4e487bb150d2f897"
+		},
+		"wix-stdouterr-testkit-1.0.776.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.776.tgz",
+			"sha": "a99a7879e53e52557773b6537d6cac032e763f3b"
+		},
+		"wix-stdouterr-testkit-1.0.773.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.773.tgz",
+			"sha": "9302c8026e7ea9a050c99c14481648cce963f4d9"
+		},
+		"wix-stdouterr-testkit-1.0.774.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.774.tgz",
+			"sha": "765fdf1e4f9ecc6e6946c5be82837e769e4cf57c"
+		},
+		"wix-stdouterr-testkit-1.0.779.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.779.tgz",
+			"sha": "09259a4f95c23c94b8e3c7c8b910cf5d6d7b3d7e"
+		},
+		"wix-stdouterr-testkit-1.0.812.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.812.tgz",
+			"sha": "7f7e27e0842c53789bf9ef4b0860ac0e69c14c5d"
+		},
+		"wix-stdouterr-testkit-1.0.813.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.813.tgz",
+			"sha": "2b20372d86f8a7a57945203124a26e9894c821e4"
+		},
+		"wix-stdouterr-testkit-1.0.777.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.777.tgz",
+			"sha": "18b4c9f71c130d4c1c5a16958eac07784e45bf1a"
+		},
+		"wix-stdouterr-testkit-1.0.810.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.810.tgz",
+			"sha": "b0d868dca4d2eded783e9d6ce81dc676d1c389e9"
+		},
+		"wix-stdouterr-testkit-1.0.778.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.778.tgz",
+			"sha": "59f9b8adf8b4869ce526bb378a106fe14e89a8ee"
+		},
+		"wix-stdouterr-testkit-1.0.811.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.811.tgz",
+			"sha": "3cfaf02a81023db0dfa5f861bcd9728d04cbc519"
+		},
+		"wix-stdouterr-testkit-1.0.771.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.771.tgz",
+			"sha": "3d5c65ae94d7c16b5e3d91079fd7f702c4ee074b"
+		},
+		"wix-stdouterr-testkit-1.0.772.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.772.tgz",
+			"sha": "65bf6c60a907410d2c362b8de4be473fa48bb601"
+		},
+		"wix-stdouterr-testkit-1.0.770.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.770.tgz",
+			"sha": "baa38f8334c7c301f94e99645c91351fd642cc75"
+		},
+		"wix-stdouterr-testkit-1.0.816.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.816.tgz",
+			"sha": "115bcbb86675562c73bfe1d676855d0d4429c32f"
+		},
+		"wix-stdouterr-testkit-1.0.817.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.817.tgz",
+			"sha": "d52270fbea7cfd2751bd9a0330d9b687b5cea1e0"
+		},
+		"wix-stdouterr-testkit-1.0.814.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.814.tgz",
+			"sha": "2d11c56e42b6ccf10a41ad93182a5f48e29d383f"
+		},
+		"wix-stdouterr-testkit-1.0.815.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.815.tgz",
+			"sha": "e0154189425ec154b22345eebde716db52cebfa9"
+		},
+		"wix-stdouterr-testkit-1.0.818.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.818.tgz",
+			"sha": "4a3a37ee21d0ff4fda50a9999fc13e80d57c3035"
+		},
+		"wix-stdouterr-testkit-1.0.819.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.819.tgz",
+			"sha": "47daf37d61eb16280ebfc69a12f286c0eee8305c"
+		},
+		"wix-stdouterr-testkit-1.0.786.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.786.tgz",
+			"sha": "4abb20b52c584eaf1ec9d683f955a7a70528c457"
+		},
+		"wix-stdouterr-testkit-1.0.787.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.787.tgz",
+			"sha": "71b42bea17b992e20156a2bc2cbfa499ddb2311c"
+		},
+		"wix-stdouterr-testkit-1.0.820.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.820.tgz",
+			"sha": "dccfed3e43b87d1e6261afbbf48dc1202be380bd"
+		},
+		"wix-stdouterr-testkit-1.0.784.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.784.tgz",
+			"sha": "ee796e1dcb7295a9212621c6b880b7a2a1e020c2"
+		},
+		"wix-stdouterr-testkit-1.0.785.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.785.tgz",
+			"sha": "7ab49e866f7825409191178f8c42b4a9e0a543d0"
+		},
+		"wix-stdouterr-testkit-1.0.823.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.823.tgz",
+			"sha": "44d305e0c954e521caf53912e13ba92857946473"
+		},
+		"wix-stdouterr-testkit-1.0.824.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.824.tgz",
+			"sha": "488bef4f76d7e7c6e7a58a9d18c4c8d3f3b4cfc3"
+		},
+		"wix-stdouterr-testkit-1.0.788.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.788.tgz",
+			"sha": "5c650b66ae802333713cbf14c7ad6963fdf5ac3b"
+		},
+		"wix-stdouterr-testkit-1.0.821.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.821.tgz",
+			"sha": "f0d0ea0e36ad679db003404b894e995411d2f873"
+		},
+		"wix-stdouterr-testkit-1.0.789.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.789.tgz",
+			"sha": "4da92ce961d1510e92ea4328eef159a4fc9f30c4"
+		},
+		"wix-stdouterr-testkit-1.0.782.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.782.tgz",
+			"sha": "5d5a5e787f2cb39c85f7f42623120b7cc5511353"
+		},
+		"wix-stdouterr-testkit-1.0.783.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.783.tgz",
+			"sha": "166e9209fc24cb6e90c2b0504f20c5ce1b4cc544"
+		},
+		"wix-stdouterr-testkit-1.0.780.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.780.tgz",
+			"sha": "d457fa045796a49c4a6435f05c5bf3a06134944a"
+		},
+		"wix-stdouterr-testkit-1.0.781.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-stdouterr-testkit/-/@wix/wix-stdouterr-testkit-1.0.781.tgz",
+			"sha": "c9f2a4343080c3adc9d881940532dda6d82b4c34"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-fe5fe71e86877554",
+	"readme": ""
+}

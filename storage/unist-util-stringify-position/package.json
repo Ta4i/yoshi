@@ -1,0 +1,573 @@
+{
+	"name": "unist-util-stringify-position",
+	"versions": {
+		"1.1.2": {
+			"name": "unist-util-stringify-position",
+			"description": "Stringify a Unist node, position, or point",
+			"version": "1.1.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/syntax-tree/unist-util-stringify-position#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/unist-util-stringify-position.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/syntax-tree/unist-util-stringify-position/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.2.tgz",
+				"shasum": "3f37fcf351279dcbca7480ab5889bb8a832ee1c6"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^11.0.0",
+				"prettier": "^1.12.1",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.5.1",
+				"xo": "^0.20.0"
+			},
+			"keywords": [
+				"unist",
+				"position",
+				"location",
+				"point",
+				"node",
+				"stringify",
+				"tostring",
+				"util",
+				"utility"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+				"build-bundle": "browserify index.js --no-builtins -s unistUtilStringifyPosition > unist-util-stringify-position.js",
+				"build-mangle": "esmangle unist-util-stringify-position.js > unist-util-stringify-position.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "unist-util-stringify-position@1.1.2",
+			"gitHead": "9a20ab40be4981b0b9ceec762a6f100fb276939c",
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"guard-for-in": "off",
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				},
+				"ignores": [
+					"unist-util-stringify-position.js"
+				]
+			},
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unist-util-stringify-position_1.1.2_1525112085340_0.5417628379826267"
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"2.0.0": {
+			"name": "unist-util-stringify-position",
+			"description": "Stringify a Unist node, position, or point",
+			"version": "2.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"homepage": "https://github.com/syntax-tree/unist-util-stringify-position#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/unist-util-stringify-position.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/syntax-tree/unist-util-stringify-position/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-2.0.0.tgz",
+				"shasum": "4c452c0dbcbc509f7bcd366e9a8afd646f9d51ae"
+			},
+			"dependencies": {
+				"@types/unist": "^2.0.2"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"dtslint": "^0.4.2",
+				"nyc": "^13.0.0",
+				"prettier": "^1.12.1",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.5.1",
+				"tinyify": "^2.4.3",
+				"typescript": "^3.2.2",
+				"xo": "^0.23.0"
+			},
+			"keywords": [
+				"unist",
+				"position",
+				"location",
+				"point",
+				"node",
+				"stringify",
+				"tostring",
+				"util",
+				"utility"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.{js,ts}\" && xo --fix",
+				"build-bundle": "browserify . -s unistUtilStringifyPosition > unist-util-stringify-position.js",
+				"build-mangle": "browserify . -s unistUtilStringifyPosition -p tinyify > unist-util-stringify-position.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test-types": "dtslint types",
+				"test": "npm run format && npm run build && npm run test-coverage && npm run test-types"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "unist-util-stringify-position@2.0.0",
+			"gitHead": "87690dfea12596c856ad1ca5190d613ab66cb4e1",
+			"types": "types/index.d.ts",
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"guard-for-in": "off",
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				},
+				"ignores": [
+					"unist-util-stringify-position.js"
+				]
+			},
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unist-util-stringify-position_2.0.0_1546770472677_0.18530006819309675"
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"_nodeVersion": "11.0.0"
+		},
+		"1.0.0": {
+			"name": "unist-util-stringify-position",
+			"description": "Stringify a Unist node, location, or position",
+			"version": "1.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/unist-util-stringify-position#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/unist-util-stringify-position.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/unist-util-stringify-position/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.0.0.tgz",
+				"shasum": "8401ec843c08bfc484820920a6c9663505c75a31"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^3.0.0",
+				"jscs-jsdoc": "^2.0.0",
+				"remark": "^4.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"tape": "^4.5.1"
+			},
+			"keywords": [
+				"unist",
+				"position",
+				"location",
+				"node",
+				"stringify",
+				"tostring",
+				"util",
+				"utility"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-bundle": "browserify index.js --no-builtins -s unistUtilStringifyPosition > unist-util-stringify-position.js",
+				"build-mangle": "esmangle unist-util-stringify-position.js > unist-util-stringify-position.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "unist-util-stringify-position@1.0.0",
+			"gitHead": "fe9064fd92a40a51acd2561542d2d230fa874e97",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/unist-util-stringify-position-1.0.0.tgz_1460802048626_0.273888231953606"
+			},
+			"_shasum": "8401ec843c08bfc484820920a6c9663505c75a31",
+			"_nodeVersion": "5.0.0"
+		},
+		"1.1.0": {
+			"name": "unist-util-stringify-position",
+			"description": "Stringify a Unist node, location, or position",
+			"version": "1.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/unist-util-stringify-position#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/unist-util-stringify-position.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/unist-util-stringify-position/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.0.tgz",
+				"shasum": "e8ba9d6b6af891b5f8336b3a31c63a9dc85c2af0"
+			},
+			"dependencies": {
+				"has": "^1.0.1"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^9.0.1",
+				"remark-cli": "^2.0.0",
+				"remark-preset-wooorm": "^1.0.0",
+				"tape": "^4.5.1",
+				"xo": "^0.17.1"
+			},
+			"keywords": [
+				"unist",
+				"position",
+				"location",
+				"node",
+				"stringify",
+				"tostring",
+				"util",
+				"utility"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail --output",
+				"build-bundle": "browserify index.js --no-builtins -s unistUtilStringifyPosition > unist-util-stringify-position.js",
+				"build-mangle": "esmangle unist-util-stringify-position.js > unist-util-stringify-position.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "unist-util-stringify-position@1.1.0",
+			"gitHead": "9b505fa894978188e1e60ad47eb3e9ca5e6c02cf",
+			"xo": {
+				"space": true,
+				"ignores": [
+					"unist-util-stringify-position.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/unist-util-stringify-position-1.1.0.tgz_1479638654519_0.21076367772184312"
+			},
+			"_shasum": "e8ba9d6b6af891b5f8336b3a31c63a9dc85c2af0",
+			"remarkConfig": {
+				"presets": "wooorm"
+			},
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.1": {
+			"name": "unist-util-stringify-position",
+			"description": "Stringify a Unist node, location, or position",
+			"version": "1.1.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/syntax-tree/unist-util-stringify-position#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/unist-util-stringify-position.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/syntax-tree/unist-util-stringify-position/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.1.tgz",
+				"shasum": "3ccbdc53679eed6ecf3777dd7f5e3229c1b6aa3c"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^14.1.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^10.0.0",
+				"remark-cli": "^3.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.5.1",
+				"xo": "^0.18.1"
+			},
+			"keywords": [
+				"unist",
+				"position",
+				"location",
+				"node",
+				"stringify",
+				"tostring",
+				"util",
+				"utility"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail --output",
+				"build-bundle": "browserify index.js --no-builtins -s unistUtilStringifyPosition > unist-util-stringify-position.js",
+				"build-mangle": "esmangle unist-util-stringify-position.js > unist-util-stringify-position.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "unist-util-stringify-position@1.1.1",
+			"gitHead": "c8fc76234ec6e3c4386ca4b11eeda9670598e369",
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"ignores": [
+					"unist-util-stringify-position.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/unist-util-stringify-position-1.1.1.tgz_1496160036837_0.12884755921550095"
+			},
+			"_shasum": "3ccbdc53679eed6ecf3777dd7f5e3229c1b6aa3c",
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"_nodeVersion": "4.0.0"
+		}
+	},
+	"time": {
+		"1.1.2": "2018-04-30T18:14:45.491Z",
+		"2.0.0": "2019-01-06T10:27:52.877Z",
+		"created": "2016-04-16T10:20:49.740Z",
+		"modified": "2019-01-06T10:27:55.578Z",
+		"1.0.0": "2016-04-16T10:20:49.740Z",
+		"1.1.0": "2016-11-20T10:44:15.081Z",
+		"1.1.1": "2017-05-30T16:00:38.167Z"
+	},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749461736
+		}
+	},
+	"_distfiles": {
+		"unist-util-stringify-position-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.2.tgz",
+			"sha": "3f37fcf351279dcbca7480ab5889bb8a832ee1c6"
+		},
+		"unist-util-stringify-position-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-2.0.0.tgz",
+			"sha": "4c452c0dbcbc509f7bcd366e9a8afd646f9d51ae"
+		},
+		"unist-util-stringify-position-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.0.0.tgz",
+			"sha": "8401ec843c08bfc484820920a6c9663505c75a31"
+		},
+		"unist-util-stringify-position-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.0.tgz",
+			"sha": "e8ba9d6b6af891b5f8336b3a31c63a9dc85c2af0"
+		},
+		"unist-util-stringify-position-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unist-util-stringify-position/-/unist-util-stringify-position-1.1.1.tgz",
+			"sha": "3ccbdc53679eed6ecf3777dd7f5e3229c1b6aa3c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-3da5635f7de9fe82",
+	"readme": "# unist-util-stringify-position [![Build Status][build-badge]][build-page] [![Coverage Status][coverage-badge]][coverage-page]\n\nStringify [unist\\*\\*][unist] [`Position`][position]s or [`Point`][point]s.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install unist-util-stringify-position\n```\n\n## Usage\n\n```javascript\nvar stringify = require('unist-util-stringify-position')\n\n// Point\nstringify({line: 2, column: 3}) // => '2:3'\n\n// Position\nstringify({\n  start: {line: 2},\n  end: {line: 3}\n}) // => '2:1-3:1'\n\n// Node\nstringify({\n  type: 'text',\n  value: '!',\n  position: {\n    start: {line: 5, column: 11},\n    end: {line: 5, column: 12}\n  }\n}) // => '5:11-5:12'\n```\n\n## API\n\n### `stringifyPosition(node|position|point)`\n\nStringify one point, a position (start and end points), or a node’s position.\n\n###### Parameters\n\n*   `node` ([`Node`][node])\n    — Node whose `'position'` property to stringify\n*   `position` ([`Position`][position])\n    — Position whose `'start'` and `'end'` points to stringify\n*   `point` ([`Point`][point])\n    — Point whose `'line'` and `'column'` to stringify\n\n###### Returns\n\n`string?` — A range `ls:cs-le:ce` (when given `node` or `position`) or a point\n`l:c` (when given `point`), where `l` stands for line, `c` for column, `s` for\n`start`, and `e` for end.\nAn empty string (`''`) is returned if the given value is neither `node`,\n`position`, nor `point`.\n\n## Contribute\n\nSee [`contributing.md` in `syntax-tree/unist`][contributing] for ways to get\nstarted.\n\nThis organisation has a [Code of Conduct][coc].  By interacting with this\nrepository, organisation, or community you agree to abide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definition -->\n\n[build-badge]: https://img.shields.io/travis/syntax-tree/unist-util-stringify-position.svg\n\n[build-page]: https://travis-ci.org/syntax-tree/unist-util-stringify-position\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/syntax-tree/unist-util-stringify-position.svg\n\n[coverage-page]: https://codecov.io/github/syntax-tree/unist-util-stringify-position?branch=master\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: license\n\n[author]: https://wooorm.com\n\n[unist]: https://github.com/syntax-tree/unist\n\n[node]: https://github.com/syntax-tree/unist#node\n\n[position]: https://github.com/syntax-tree/unist#position\n\n[point]: https://github.com/syntax-tree/unist#point\n\n[contributing]: https://github.com/syntax-tree/unist/blob/master/contributing.md\n\n[coc]: https://github.com/syntax-tree/unist/blob/master/code-of-conduct.md"
+}

@@ -1,0 +1,2237 @@
+{
+	"name": "resolve-url-loader",
+	"versions": {
+		"3.0.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "3.0.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0.tgz",
+				"shasum": "c47eeca1fc8d62b08dc2eef12b3af5af3e775c74"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"compose-function": "^3.0.3",
+				"convert-source-map": "^1.5.1",
+				"es6-iterator": "^2.0.3",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"postcss": "^7.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint --exclude **/node_modules index.js lib"
+			},
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@3.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_3.0.0_1536893634988_0.03408414356838052"
+			}
+		},
+		"0.0.1-experiment-postcss": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "0.0.1-experiment-postcss",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-0.0.1-experiment-postcss.tgz",
+				"shasum": "18d806a57230afa6e2dd73ed23d044ce84d6f928"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"convert-source-map": "^1.5.1",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"postcss": "^6.0.17",
+				"source-map": "^0.5.7",
+				"urix": "^0.1.0"
+			},
+			"devDependencies": {
+				"jshint": "^2.9.5"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint index.js lib"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@0.0.1-experiment-postcss",
+			"gitHead": "3b7163c5cffe7044db147facbf80695c049973ae",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_0.0.1-experiment-postcss_1526374884560_0.6611610182132399"
+			},
+			"readmeFilename": "readme.md",
+			"_nodeVersion": "8.7.0"
+		},
+		"2.0.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.0.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.0.tgz",
+				"shasum": "69028a8a1e8e4ed7e632d6d6f1f19bc2c486ef69"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.0.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.0.0",
+			"gitHead": "0e9e57b6b753e051688829b7c47f8fdd3ba9c4da",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-2.0.0.tgz_1487227944248_0.4007962851319462"
+			},
+			"_shasum": "69028a8a1e8e4ed7e632d6d6f1f19bc2c486ef69",
+			"_nodeVersion": "7.4.0"
+		},
+		"2.0.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.0.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.1.tgz",
+				"shasum": "49f65c409fcaf0b17ae71fe3199b46caa664982b"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.0.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.0.1",
+			"gitHead": "b6a48a749c72400e1f7d037a80c9398c57908121",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-2.0.1.tgz_1488402412615_0.21751249814406037"
+			},
+			"_shasum": "49f65c409fcaf0b17ae71fe3199b46caa664982b",
+			"_nodeVersion": "4.4.7"
+		},
+		"2.1.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.1.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.1.0.tgz",
+				"shasum": "27c95cc16a4353923fdbdc2dbaf5eef22232c477"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.1.0",
+			"gitHead": "ad93a588e246cacd15c652f7d0bb299ed779d826",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader-2.1.0.tgz_1498306253463_0.17361780512146652"
+			},
+			"_shasum": "27c95cc16a4353923fdbdc2dbaf5eef22232c477",
+			"_nodeVersion": "7.4.0"
+		},
+		"3.0.0-alpha.2": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "3.0.0-alpha.2",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-alpha.2.tgz",
+				"shasum": "6b98afc305a72a410a9c894fe3f75627bc87ffc9"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"compose-function": "^3.0.3",
+				"convert-source-map": "^1.5.1",
+				"es6-iterator": "^2.0.3",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"postcss": "^7.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint --exclude **/node_modules index.js lib"
+			},
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@3.0.0-alpha.2",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_3.0.0-alpha.2_1535590449103_0.36192083953597765"
+			},
+			"readmeFilename": "README.md"
+		},
+		"2.3.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.3.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.3.1.tgz",
+				"shasum": "b462fc7a78a22baf3ee462568d8ff5d766f7f1da"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"convert-source-map": "^1.5.1",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7",
+				"urix": "^0.1.0"
+			},
+			"devDependencies": {
+				"jshint": "^2.9.5"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint index.js lib"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.3.1",
+			"gitHead": "f1dfda76a153679f0898ae1682416b3f757ee2be",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_2.3.1_1536391547664_0.42444543664848355"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"3.0.0-alpha.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "3.0.0-alpha.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-alpha.1.tgz",
+				"shasum": "1506fbe22d7a141a6c731aee2246e6183f6e8f02"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"compose-function": "^3.0.3",
+				"convert-source-map": "^1.5.1",
+				"es6-iterator": "^2.0.3",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"postcss": "^7.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint --exclude **/node_modules index.js lib"
+			},
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@3.0.0-alpha.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_3.0.0-alpha.1_1534642656407_0.7031825723651881"
+			},
+			"readmeFilename": "README.md"
+		},
+		"2.0.2": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.0.2",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.2.tgz",
+				"shasum": "c465e97ea0a4791f3961f766cea775ff2e3ceb8c"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.0.2",
+			"gitHead": "4d8df6d250ef870b70fdf125d041eaa95f597db1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-2.0.2.tgz_1488522212241_0.2058443962596357"
+			},
+			"_shasum": "c465e97ea0a4791f3961f766cea775ff2e3ceb8c",
+			"_nodeVersion": "4.4.7"
+		},
+		"2.1.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.1.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.1.1.tgz",
+				"shasum": "5354e87381aae348371e555172c50816708e6c1c"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.1.1",
+			"gitHead": "ec4725d315f6940eab66803592d95d09c16445f2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader-2.1.1.tgz_1507581757176_0.6051958235912025"
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"2.2.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.2.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.2.0.tgz",
+				"shasum": "9662feaa11debf7cf8e3feb91dae9544aa7dee88"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.2.0",
+			"gitHead": "0ed4f10b554a96d6cef24196812d548d2ff7fc62",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader-2.2.0.tgz_1509313318981_0.41878102673217654"
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"2.0.3": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.0.3",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.3.tgz",
+				"shasum": "f54cd1b040e8f0ab72b2cb32c9fbb8544152d9e9"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.0.3",
+			"gitHead": "00fe51b9e42f5b1044abaf66c5bd4a1d10ec6750",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader-2.0.3.tgz_1497603384110_0.6417078943923116"
+			},
+			"_shasum": "f54cd1b040e8f0ab72b2cb32c9fbb8544152d9e9",
+			"_nodeVersion": "7.4.0"
+		},
+		"2.2.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.2.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.2.1.tgz",
+				"shasum": "13a1396fb773edf959550e400e688f5ed32548bf"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.0.0",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^1.0.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.6",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.2.1",
+			"gitHead": "b56f1887fa9d45edd31cafd01e0370ae58ad2733",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader-2.2.1.tgz_1512941005594_0.5993196796625853"
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"2.3.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "2.3.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.3.0.tgz",
+				"shasum": "e1b37034d48f22f8cfb9f04c026faaa070fdaf26"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"convert-source-map": "^1.5.1",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7",
+				"urix": "^0.1.0"
+			},
+			"devDependencies": {
+				"jshint": "^2.9.5"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint index.js lib"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@2.3.0",
+			"gitHead": "7105d8a005231bb480cfde082b969d795e36da5e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_2.3.0_1520156669936_0.980878408731976"
+			},
+			"_nodeVersion": "9.3.0"
+		},
+		"1.0.3": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.0.3",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.3.tgz",
+				"shasum": "8995884c574361204b45a06ebfe4e6b37e161fc9"
+			},
+			"dependencies": {
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.0.3",
+			"gitHead": "a23a66ff6c5e0ec9055544d1d8d5a23488d42721",
+			"_shasum": "8995884c574361204b45a06ebfe4e6b37e161fc9",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.3.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.3.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.0.tgz",
+				"shasum": "5b374dae38939d6ed52630a940f86ef7291d16f3"
+			},
+			"dependencies": {
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.3.0",
+			"gitHead": "1b286b8b80b5de54b0b7a5ea95575a1814e7c821",
+			"_shasum": "5b374dae38939d6ed52630a940f86ef7291d16f3",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.3.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.3.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.1.tgz",
+				"shasum": "c50e4f9d980a96b0d9c4f141a2ed9051f377b95a"
+			},
+			"dependencies": {
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.3.1",
+			"gitHead": "e691d3ebe523d5c7473b4df21cdf6ebaadf96ade",
+			"_shasum": "c50e4f9d980a96b0d9c4f141a2ed9051f377b95a",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.4.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.4.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.0.tgz",
+				"shasum": "d6ef46c586c0ea48789760f5c30461980a4e49cf"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.4.0",
+			"gitHead": "1913c891d6fd05ec7cc6d94378d8d099ac2bd00b",
+			"_shasum": "d6ef46c586c0ea48789760f5c30461980a4e49cf",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.3.2": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.3.2",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.2.tgz",
+				"shasum": "4bb550a4263bf35c46dd48f62431dc2342177c32"
+			},
+			"dependencies": {
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.3.2",
+			"gitHead": "06e5e757d2242717f0a37016c01d420d143b23e9",
+			"_shasum": "4bb550a4263bf35c46dd48f62431dc2342177c32",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.4.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.4.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.1.tgz",
+				"shasum": "68a07969960dbc0c61aa15a211f30753e2e2a15b"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.4.1",
+			"gitHead": "2e8589c26308f7768bb69fe89ead9cbd245f764f",
+			"_shasum": "68a07969960dbc0c61aa15a211f30753e2e2a15b",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.5.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.5.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.5.0.tgz",
+				"shasum": "c3a68177d07a4cc338f6e8b97d5fb8f79777e97b"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.5.0",
+			"gitHead": "b9ee541eebe58a70eca3045df4ea96cf12dd1a23",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-1.5.0.tgz_1467633279281_0.4812818157952279"
+			},
+			"_shasum": "c3a68177d07a4cc338f6e8b97d5fb8f79777e97b",
+			"_nodeVersion": "4.4.7"
+		},
+		"1.4.2": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.4.2",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.2.tgz",
+				"shasum": "6a42a5c965da6d6325c377eebd3aeedb61cd147a"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.4.2",
+			"gitHead": "a8839876a61163d29883efa4d0536239c4e3a129",
+			"_shasum": "6a42a5c965da6d6325c377eebd3aeedb61cd147a",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.6.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.6.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.6.0.tgz",
+				"shasum": "5444d804557d2daa5510224842e5b10ee7f83791"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.6.0",
+			"gitHead": "89d27660bcb3240f5bef5339189d626ba11b4257",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-1.6.0.tgz_1467767744024_0.1863004353363067"
+			},
+			"_shasum": "5444d804557d2daa5510224842e5b10ee7f83791",
+			"_nodeVersion": "4.4.7"
+		},
+		"1.4.3": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.4.3",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.3.tgz",
+				"shasum": "c2d3877e10a0f890a6a3f5a00c32f8507ddfba15"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.4.3",
+			"gitHead": "c195da9e1c36c3e70f5b39f355da3828f63cf383",
+			"_shasum": "c2d3877e10a0f890a6a3f5a00c32f8507ddfba15",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.6.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.6.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.6.1.tgz",
+				"shasum": "4a6e03c74dd38d5dfddf0f404b475d6e90025635"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43",
+				"urix": "^0.1.0"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.6.1",
+			"gitHead": "84f148f37cb6e5adbe82913267816a935e3a96b6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-1.6.1.tgz_1481241063389_0.830287478165701"
+			},
+			"_shasum": "4a6e03c74dd38d5dfddf0f404b475d6e90025635",
+			"_nodeVersion": "4.4.7"
+		},
+		"1.4.4": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.4.4",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.4.tgz",
+				"shasum": "10ace36d3ec2605d1fc435f4d8651030a4ced5fa"
+			},
+			"dependencies": {
+				"camelcase": "^1.2.1",
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"lodash.defaults": "^3.1.2",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.4.4",
+			"gitHead": "5fdfd8c37c4e94797589e03371019918b6a9d2b0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/resolve-url-loader-1.4.4.tgz_1466569392272_0.2346764167305082"
+			},
+			"_shasum": "10ace36d3ec2605d1fc435f4d8651030a4ced5fa",
+			"_nodeVersion": "4.4.0"
+		},
+		"3.0.0-beta.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "3.0.0-beta.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-beta.1.tgz",
+				"shasum": "132e4209e326105ba98060211703db45384ea899"
+			},
+			"dependencies": {
+				"adjust-sourcemap-loader": "^1.1.0",
+				"camelcase": "^4.1.0",
+				"compose-function": "^3.0.3",
+				"convert-source-map": "^1.5.1",
+				"es6-iterator": "^2.0.3",
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.0.0",
+				"postcss": "^7.0.0",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.5.7"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "jshint --exclude **/node_modules index.js lib"
+			},
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@3.0.0-beta.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/resolve-url-loader_3.0.0-beta.1_1536330025412_0.579932614761757"
+			},
+			"readmeFilename": "README.md"
+		},
+		"1.0.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves an absolute path of url() statements based on the original file",
+			"version": "1.0.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.0.tgz",
+				"shasum": "3ab47e8d753f2900691042d1e40a366df140b60e"
+			},
+			"dependencies": {
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.0.0",
+			"gitHead": "4539e3243c4db0aeab8eebf882abadfdb1da8dd4",
+			"_shasum": "3ab47e8d753f2900691042d1e40a366df140b60e",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.0.1": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.0.1",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.1.tgz",
+				"shasum": "6d68404177ad21db29273fd42e515a3406241ee6"
+			},
+			"dependencies": {
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.0.1",
+			"gitHead": "3901c4d903e9d3f9c8793540b8a070186638d909",
+			"_shasum": "6d68404177ad21db29273fd42e515a3406241ee6",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.1.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.1.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.1.0.tgz",
+				"shasum": "3276cc6fb5f76e3e838c58560bd2a7ae2d88f824"
+			},
+			"dependencies": {
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.1.0",
+			"gitHead": "408c8a189ca8823a181d8b79ea37a37904fd7618",
+			"_shasum": "3276cc6fb5f76e3e838c58560bd2a7ae2d88f824",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.0.2": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.0.2",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.2.tgz",
+				"shasum": "5a45db5b0c72d666cf5b127b2e668b6244d51a2b"
+			},
+			"dependencies": {
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.0.2",
+			"gitHead": "e8687d1891d7070e9724277b9977d73c62515dcf",
+			"_shasum": "5a45db5b0c72d666cf5b127b2e668b6244d51a2b",
+			"_nodeVersion": "0.10.36"
+		},
+		"1.2.0": {
+			"name": "resolve-url-loader",
+			"description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+			"version": "1.2.0",
+			"author": {
+				"name": "bholloway"
+			},
+			"homepage": "https://github.com/bholloway/resolve-url-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bholloway/resolve-url-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/bholloway/resolve-url-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.2.0.tgz",
+				"shasum": "38b779937ea5c54a843d1024bcfbdb4c0d29c7f9"
+			},
+			"dependencies": {
+				"convert-source-map": "^1.1.1",
+				"loader-utils": "^0.2.11",
+				"rework": "^1.0.1",
+				"rework-visit": "^1.0.0",
+				"source-map": "^0.1.43"
+			},
+			"keywords": [
+				"webpack",
+				"loader",
+				"css",
+				"normalize",
+				"rewrite",
+				"resolve",
+				"url",
+				"sass",
+				"relative",
+				"file"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "bholloway",
+					"email": "npm@bholloway.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_npmUser": {
+				"name": "bholloway",
+				"email": "npm@bholloway.com"
+			},
+			"_id": "resolve-url-loader@1.2.0",
+			"gitHead": "3fd7cfd899d3e8ac52ede78dd42abd465b9fcee2",
+			"_shasum": "38b779937ea5c54a843d1024bcfbdb4c0d29c7f9",
+			"_nodeVersion": "0.10.36"
+		}
+	},
+	"time": {
+		"3.0.0": "2018-09-14T02:53:55.263Z",
+		"modified": "2019-01-16T11:18:50.463Z",
+		"0.0.1-experiment-postcss": "2018-05-15T09:01:24.747Z",
+		"2.0.0": "2017-02-16T06:52:24.469Z",
+		"2.0.1": "2017-03-01T21:06:52.838Z",
+		"2.1.0": "2017-06-24T12:10:53.591Z",
+		"created": "2015-08-13T06:34:07.386Z",
+		"3.0.0-alpha.2": "2018-08-30T00:54:09.262Z",
+		"2.3.1": "2018-09-08T07:25:48.203Z",
+		"3.0.0-alpha.1": "2018-08-19T01:37:36.515Z",
+		"2.0.2": "2017-03-03T06:23:32.472Z",
+		"2.1.1": "2017-10-09T20:42:37.281Z",
+		"2.2.0": "2017-10-29T21:41:59.091Z",
+		"2.0.3": "2017-06-16T08:56:24.224Z",
+		"2.2.1": "2017-12-10T21:23:25.702Z",
+		"2.3.0": "2018-03-04T09:44:30.078Z",
+		"1.0.3": "2015-08-20T21:27:21.566Z",
+		"1.3.0": "2015-10-19T10:24:35.873Z",
+		"1.3.1": "2015-10-28T23:46:24.902Z",
+		"1.4.0": "2015-11-04T09:34:46.091Z",
+		"1.3.2": "2015-10-29T23:02:11.822Z",
+		"1.4.1": "2015-11-06T12:23:13.009Z",
+		"1.5.0": "2016-07-04T11:54:39.765Z",
+		"1.4.2": "2015-11-06T12:48:34.581Z",
+		"1.6.0": "2016-07-06T01:15:47.604Z",
+		"1.4.3": "2015-12-09T10:29:52.621Z",
+		"1.6.1": "2016-12-08T23:51:03.616Z",
+		"1.4.4": "2016-06-22T04:23:12.837Z",
+		"3.0.0-beta.1": "2018-09-07T14:20:25.547Z",
+		"1.0.0": "2015-08-13T06:34:07.386Z",
+		"1.0.1": "2015-08-13T07:21:53.742Z",
+		"1.1.0": "2015-08-24T02:00:18.273Z",
+		"1.0.2": "2015-08-13T07:46:16.126Z",
+		"1.2.0": "2015-09-15T23:53:52.671Z"
+	},
+	"dist-tags": {
+		"experiment-postcss": "0.0.1-experiment-postcss",
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749341563
+		}
+	},
+	"_distfiles": {
+		"resolve-url-loader-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0.tgz",
+			"sha": "c47eeca1fc8d62b08dc2eef12b3af5af3e775c74"
+		},
+		"resolve-url-loader-0.0.1-experiment-postcss.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-0.0.1-experiment-postcss.tgz",
+			"sha": "18d806a57230afa6e2dd73ed23d044ce84d6f928"
+		},
+		"resolve-url-loader-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.0.tgz",
+			"sha": "69028a8a1e8e4ed7e632d6d6f1f19bc2c486ef69"
+		},
+		"resolve-url-loader-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.1.tgz",
+			"sha": "49f65c409fcaf0b17ae71fe3199b46caa664982b"
+		},
+		"resolve-url-loader-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.1.0.tgz",
+			"sha": "27c95cc16a4353923fdbdc2dbaf5eef22232c477"
+		},
+		"resolve-url-loader-3.0.0-alpha.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-alpha.2.tgz",
+			"sha": "6b98afc305a72a410a9c894fe3f75627bc87ffc9"
+		},
+		"resolve-url-loader-2.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.3.1.tgz",
+			"sha": "b462fc7a78a22baf3ee462568d8ff5d766f7f1da"
+		},
+		"resolve-url-loader-3.0.0-alpha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-alpha.1.tgz",
+			"sha": "1506fbe22d7a141a6c731aee2246e6183f6e8f02"
+		},
+		"resolve-url-loader-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.2.tgz",
+			"sha": "c465e97ea0a4791f3961f766cea775ff2e3ceb8c"
+		},
+		"resolve-url-loader-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.1.1.tgz",
+			"sha": "5354e87381aae348371e555172c50816708e6c1c"
+		},
+		"resolve-url-loader-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.2.0.tgz",
+			"sha": "9662feaa11debf7cf8e3feb91dae9544aa7dee88"
+		},
+		"resolve-url-loader-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.0.3.tgz",
+			"sha": "f54cd1b040e8f0ab72b2cb32c9fbb8544152d9e9"
+		},
+		"resolve-url-loader-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.2.1.tgz",
+			"sha": "13a1396fb773edf959550e400e688f5ed32548bf"
+		},
+		"resolve-url-loader-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-2.3.0.tgz",
+			"sha": "e1b37034d48f22f8cfb9f04c026faaa070fdaf26"
+		},
+		"resolve-url-loader-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.3.tgz",
+			"sha": "8995884c574361204b45a06ebfe4e6b37e161fc9"
+		},
+		"resolve-url-loader-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.0.tgz",
+			"sha": "5b374dae38939d6ed52630a940f86ef7291d16f3"
+		},
+		"resolve-url-loader-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.1.tgz",
+			"sha": "c50e4f9d980a96b0d9c4f141a2ed9051f377b95a"
+		},
+		"resolve-url-loader-1.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.0.tgz",
+			"sha": "d6ef46c586c0ea48789760f5c30461980a4e49cf"
+		},
+		"resolve-url-loader-1.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.3.2.tgz",
+			"sha": "4bb550a4263bf35c46dd48f62431dc2342177c32"
+		},
+		"resolve-url-loader-1.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.1.tgz",
+			"sha": "68a07969960dbc0c61aa15a211f30753e2e2a15b"
+		},
+		"resolve-url-loader-1.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.5.0.tgz",
+			"sha": "c3a68177d07a4cc338f6e8b97d5fb8f79777e97b"
+		},
+		"resolve-url-loader-1.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.2.tgz",
+			"sha": "6a42a5c965da6d6325c377eebd3aeedb61cd147a"
+		},
+		"resolve-url-loader-1.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.6.0.tgz",
+			"sha": "5444d804557d2daa5510224842e5b10ee7f83791"
+		},
+		"resolve-url-loader-1.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.3.tgz",
+			"sha": "c2d3877e10a0f890a6a3f5a00c32f8507ddfba15"
+		},
+		"resolve-url-loader-1.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.6.1.tgz",
+			"sha": "4a6e03c74dd38d5dfddf0f404b475d6e90025635"
+		},
+		"resolve-url-loader-1.4.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.4.4.tgz",
+			"sha": "10ace36d3ec2605d1fc435f4d8651030a4ced5fa"
+		},
+		"resolve-url-loader-3.0.0-beta.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-3.0.0-beta.1.tgz",
+			"sha": "132e4209e326105ba98060211703db45384ea899"
+		},
+		"resolve-url-loader-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.0.tgz",
+			"sha": "3ab47e8d753f2900691042d1e40a366df140b60e"
+		},
+		"resolve-url-loader-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.1.tgz",
+			"sha": "6d68404177ad21db29273fd42e515a3406241ee6"
+		},
+		"resolve-url-loader-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.1.0.tgz",
+			"sha": "3276cc6fb5f76e3e838c58560bd2a7ae2d88f824"
+		},
+		"resolve-url-loader-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.0.2.tgz",
+			"sha": "5a45db5b0c72d666cf5b127b2e668b6244d51a2b"
+		},
+		"resolve-url-loader-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve-url-loader/-/resolve-url-loader-1.2.0.tgz",
+			"sha": "38b779937ea5c54a843d1024bcfbdb4c0d29c7f9"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-13462237e955d165",
+	"readme": "# Resolve URL Loader\n\n[![NPM](https://nodei.co/npm/resolve-url-loader.png)](https://www.npmjs.com/package/resolve-url-loader)\n\nA **webpack loader** that rewrites relative paths in url() statements based on the original source file.\n\n## Why?\n\n> **TL;DR** Making Sass work with a feature based project structure\n\nWith webpack you can import a `.scss` file (or some other compile-to-css file) and have a loader take care of the transpilation. With **Sass** (at least) this file can include a whole tree of source files into a single output.\n\nWe can imagine a virtual `.css` file at the location the original `.scss` import. Webpack expects any **assets** found in this CSS to be relative to the original imported file.\n\nFor projects with a **feature based structure** this will be a problem, since you will want to **co-locate** your assets with your `.scss` partials.\n\n**Example** - webpack imports `index.scss` which includes feature `foo`.\n\n| files                              | content                |\n|------------------------------------|------------------------|\n|src /                               |                        |\n|&nbsp;&nbsp;index.scss              | `@import features/foo` |\n|&nbsp;&nbsp;features /              |                        |\n|&nbsp;&nbsp;&nbsp;&nbsp;_foo.scss   | `url(bar.png)`         |\n|&nbsp;&nbsp;&nbsp;&nbsp;bar.png     |                        |\n\nIntuatively we want the assets in partial `_foo.scss` relative to the partial, meaning `url(bar.png)`.\n\nHowever webpack's `css-loader` will encounter `url(bar.png)` and expect to find `src/bar.png`. This is **not** the correct location and the build will fail.\n\nThankfully `resolve-url-loader` provides the \"url rewriting\" that Sass is missing. Use it _after_ the transpiler (such as [sass-loader](https://www.npmjs.com/package/sass-loader)). It makes use of the [source-map](http://www.mattzeunert.com/2016/02/14/how-do-source-maps-work.html) to find the original source file and rewrite `url()` statements.\n\nIn our example it rewrites `url(bar.png)` to `url(features/bar.png)` as required.\n\n## Version 3\n\n**Features**\n\n* Use `postcss` parser by default. This is long overdue as the old `rework` parser doesn't cope with modern css.\n\n* Lots of automated tests running actual webpack builds. If you have an interesting use-case let me know.\n\n**Breaking Changes**\n* Multiple options changed or deprecated.\n* Removed file search \"magic\" in favour of `join` option.\n* Errors always fail and are no longer swallowed.\n* Processing absolute asset paths requires `root` option to be set.\n\n**Migrating**\n\nInitially set option `engine: 'rework'` for parity with your existing build. Once working you can remove this option **or** set `engine: 'postcss'` explicitly.\n\nRetain `keepQuery` option if you are already using it.\n\nThe `root` option now has a different meaning. Previously it limited file search. Now it is the base path for absolute or root-relative URIs, consistent with `css-loader`. If you are already using it you can probably remove it.\n\nIf you build on Windows platform **and** your content contains absolute asset paths, then `css-loader` could fail. The `root` option here may fix the URIs before they get to `css-loader`. Try to leave it unspecified, otherwise (windows only) set to empty string `root: ''`.\n\n## Getting started\n\n### Install\n\nvia npm\n\n```bash\nnpm install resolve-url-loader --save-dev\n```\n\nvia yarn\n\n```bash\nyarn add resolve-url-loader --dev\n```\n\n### Configure Webpack\n\nThe typical use case is `resolve-url-loader` between `sass-loader` and `css-loader`.\n\n**:warning: IMPORTANT**\n* **source-maps required** for loaders preceding `resolve-url-loader` (regardless of `devtool`).\n* Always use **full loader package name** (don't omit `-loader`) otherwise you can get errors that are hard to debug.\n\n\n``` javascript\nrules: [\n  {\n    test: /\\.scss$/,\n    use: [\n      ...\n      {\n        loader: 'css-loader',\n        options: {...}\n      }, {\n        loader: 'resolve-url-loader',\n        options: {...}\n      }, {\n        loader: 'sass-loader',\n        options: {\n          sourceMap: true,\n          sourceMapContents: false\n        }\n      }\n    ]\n  },\n  ...\n]\n```\n\nRefer to `test` directory for full webpack configurations (as used in automated tests).\n\n## Options\n\n| option     | type                       | default     |          |  description                                                                                                                                                                     |\n|------------|----------------------------|-------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|`engine`    | `'rework'`<br/>`'postcss'` | `'postcss'` |          | The css parser engine.                                                                                                                                                           |\n|`sourceMap` | boolean                    | `false`     |          | Generate a source-map.                                                                                                                                                           |\n|`keepQuery` | boolean                    | `false`     |          | Keep query-string and/or hash suffixes.<br/>e.g. `url('./MyFont.eot?#iefix')`<br/>Be aware downstream loaders may remove query-string or hash.                                   |\n|`debug`     | boolean                    | `false`     |          | Display debug information.                                                                                                                                                       |\n|`silent`    | boolean                    | `false`     |          | Do **not** display warnings.                                                                                                                                                     |\n|`root`      | string                     | _unset_     |          | Similar to the (now defunct) option in `css-loader`.<br/>This string, possibly empty, is prepended to absolute URIs.<br/>Absolute URIs are only processed if this option is set. |\n|`join`      | function                   | _inbuilt_   | advanced | Custom join function.<br/>Use custom javascript to fix asset paths on a per-case basis.<br/>Refer to the default implementation for more information.                            |\n|`absolute`  | boolean                    | `false`     | useless  | Forces URIs to be output as absolute file paths.<br/>This is retained for historical compatibility but is likely to be removed in the future, so let me know if you use it.      |\n\n## How it works\n\nA [rework](https://github.com/reworkcss/rework) or [postcss](https://postcss.org/) process is run on incoming CSS.\n\nEach `url()` statement may imply an asset or may not. Generally only relative URIs are considered. However if `root` is specified then absolute or root-relative URIs are considered.\n\nFor each URI considered, the incomming source-map is consulted to determine the original file where the `url()` was specified. This becomes the `base` argument to the `join` function, whose default implementation is something like the following pseudocode.\n\n```javascript\njoin(uri, base?) =>\n  compose(path.normalize, path.join)(base || options.join, uri);\n```\n\nNote that for absolute `uri` then the `base` is absent. In the default implementation the `root` option is used instead.\n\nFull file search has been discontinued in version 3, however it is possible to specify a custom `join` function.\n\nThere is the added complexity that `base` may be an iterator. However `resolve-url-loader` exports some useful functions that makes a custom `join` easier.\n\nFollowing `join` the URI has become an absolute path. Back-slashes are then converted to forward-slashes and the path is made relative to the initial resource being considered.\n\nUse the `debug` option to see verbose information from the `join` function.\n\n## Limitations / Known-issues\n\n### Mixins\n\nWhere `url()` statements are created in a mixin the source file may then be the mixin file, and not the file calling the mixin. Obviously this is **not** the desired behaviour.\n\nEnsure this is indeed the problem as there are many ways to misconfigure webpack. Try inlining the mixin and check that everything works correctly. However ultimately you will need to work around this.\n\n### Compatiblity\n\nTested `macOS` and `Windows` for `node 6.x`.\n\nAll `webpack1`-`webpack4` with contemporaneous loaders/plugins.\n\nRefer to `test` directory for full webpack configurations (as used in automated tests).\n\n### Engines\n\nThe `engine:postcss` is by far the more reliable option.\n\nThe `engine:rework` option is retained for historical compatibility but is likely to be removed in the future, so let me know if you use it.\n\nIf you need production css source-map it is best to avoid the combination `webpack4` with `engine:rework`. Tests show a systematic flaw in the outgoing source-map mappings.\n\n### Absolute URIs\n\nBy \"absolute URIs\" we more correctly mean assets with root-relative URLs or absolute file paths.\n\n> Absolute paths are **not** processed by default\n\nThese are **not** processed unless a `root` is specified.\n\nHowever recall that any paths that _are_ processed will have windows back-slash converted to posix forward-slash. This can be useful since some webpack loaders can choke on windows paths. By using `root: ''` then `resolve-url-loader` effectively does nothing to absolute paths except change the back-slash.\n\nIt can also be useful to process absolute URIs if you have a custom `join` function and want to process all paths. However this is perhaps better done with some separate `postcss` plugin.\n\n## Getting help\n\nWebpack is difficult to configure but extremely rewarding.\n\n> Remove this loader and make sure it is not a problem with a different loader in your config (most often the case)\n\nI am happy for you to **raise an issue** to ask a question regarding this package. However ensure you follow the check-list first.\n\nCurrently I am **not** [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) this loader in my own work. I may rely on you being able to isolate the problem in a simple example project and to help debug.\n\nI am happy this loader helps so many people. Open-source is provided as-is so please try not project your frustrations. There are some really great people who follow this project who can help.\n\n### Issues\n\nBefore raising a new issue:\n\n* Remove this loader and make sure it is not a problem with a different loader in your config (most often the case).\n* Check [stack overflow](http://stackoverflow.com/search?q=resolve-url-loader) for an answer.\n* Review [previous issues](/issues?utf8=%E2%9C%93&q=is%3Aissue) that may be similar.\n* Be prepared to create a **simple open-source project** that exhibits your problem, should the solution not be immediately obvious to us.\n* (ideally) Debug some code and let me know where the problem sits.\n\n### Pull requests\n\nI am happy to take **pull requests**, however:\n\n* Ensure your change is **backwards compatible** - not all users will be using the same version of Webpack or SASS that you do.\n* Follow the **existing code style**. I know it is old but it maintains backwards compatibility.\n* Uncomon use-cases/fixes should be opt-in per a new **option**.\n* Do **not** overwrite existing variables with new values. I would prefer your change variable names elsewhere if necessary.\n* Add **comments** that describe why the code is necessary - i.e. what edge case are we solving. Otherwise we may rewrite later and break your use-case."
+}

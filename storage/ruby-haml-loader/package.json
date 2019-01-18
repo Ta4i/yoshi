@@ -1,0 +1,67 @@
+{
+	"name": "ruby-haml-loader",
+	"versions": {
+		"1.0.0": {
+			"name": "ruby-haml-loader",
+			"description": "Webpack Haml loader using actual Ruby `haml`",
+			"version": "1.0.0",
+			"homepage": "https://github.com/adamdicarlo/ruby-haml-loader",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adamdicarlo/ruby-haml-loader.git"
+			},
+			"bugs": {
+				"url": "https://github.com/adamdicarlo/ruby-haml-loader/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ruby-haml-loader/-/ruby-haml-loader-1.0.0.tgz",
+				"shasum": "f632590225a2c9a7ecd563cb9158a13999a4b965"
+			},
+			"dependencies": {
+				"loader-utils": "0.2.x"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "adamdicarlo",
+					"email": "adam.dicarlo@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_npmUser": {
+				"name": "adamdicarlo",
+				"email": "adam.dicarlo@gmail.com"
+			},
+			"_id": "ruby-haml-loader@1.0.0",
+			"gitHead": "dfc3fb51256066a73fe2291f187fea8ee18aeafa",
+			"_shasum": "f632590225a2c9a7ecd563cb9158a13999a4b965",
+			"_nodeVersion": "0.12.4"
+		}
+	},
+	"time": {
+		"created": "2015-06-24T18:15:07.874Z",
+		"modified": "2015-06-24T18:15:07.874Z",
+		"1.0.0": "2015-06-24T18:15:07.874Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749336347
+		}
+	},
+	"_distfiles": {
+		"ruby-haml-loader-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ruby-haml-loader/-/ruby-haml-loader-1.0.0.tgz",
+			"sha": "f632590225a2c9a7ecd563cb9158a13999a4b965"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-fbd7e72fd01a6c77",
+	"readme": "# Ruby Haml Loader for Webpack\n\nImport Haml files as modules in your webpack project. Returns a rendered template.\n\n**This is very slow.** It was created for temporary use until converting to Jade.\n\nThis README is based on the one from [haml-loader](npm.im/haml-loader).\n\n## Setup\n\nAdd to your webpack config module.loaders:\n\n```\n{ test: /\\.html\\.haml$/, loader: \"ruby-haml\" }\n```\n\n## Rendering templates\n\n### webpack/assets/javascripts/templates/my_template.html.haml\n\n```javascript\n.template\n  %h1 {{ title }}\n```\n\n### webpack/assets/javascripts/modules/my_module.js\n\n```javascript\nrequire(\"templates/my_template.html.haml\")\n```\n\nwill return the HTML:\n\n```html\n<div class=\"template\">\n  <h1></h1>\n</div>\n```\n\n```javascript\nrequire(\"!haml?title=test!templates/my_template.html.haml\")\n```\n\nwill return the HTML:\n\n```html\n<div class=\"template\">\n  <h1>test</h1>\n</div>\n```\n\n## AngularJS\n\n`ruby-haml-loader` can be nicely chained with `ngtemplate-loader`\n\n```\n{ test: /\\.html\\.haml$/, loaders: ['ngtemplate?relativeTo=assets/javascripts', 'ruby-haml'] },\n```\n\n## License\n\nMIT ([http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))"
+}

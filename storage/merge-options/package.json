@@ -1,0 +1,333 @@
+{
+	"name": "merge-options",
+	"versions": {
+		"0.0.42": {
+			"name": "merge-options",
+			"description": "Merge Option Objects",
+			"version": "0.0.42",
+			"author": {
+				"name": "Michael Mayer",
+				"email": "michael@schnittstabil.de",
+				"url": "schnittstabil.de"
+			},
+			"homepage": "https://github.com/schnittstabil/merge-options",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/schnittstabil/merge-options"
+			},
+			"bugs": {
+				"url": "https://github.com/schnittstabil/merge-options/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-0.0.42.tgz",
+				"shasum": "1ab32675f64600479253739cb521783ef54403db"
+			},
+			"dependencies": {
+				"is-plain-obj": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"coveralls": "^2.11.4",
+				"nyc": "^3.2.2",
+				"rimraf": "^2.4.3",
+				"xo": "*"
+			},
+			"keywords": [
+				"merge",
+				"options",
+				"deep",
+				"plain",
+				"object",
+				"extend",
+				"clone"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "schnittstabil",
+					"email": "michael@schnittstabil.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && nyc ava && nyc report --reporter=text",
+				"clean": "rimraf .nyc_output/ coverage/",
+				"coverage-html": "nyc ava && nyc report --reporter=html",
+				"coveralls": "nyc report --reporter=text-lcov | coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_npmUser": {
+				"name": "schnittstabil",
+				"email": "michael@schnittstabil.de"
+			},
+			"_id": "merge-options@0.0.42",
+			"gitHead": "975733f50af38638206f9d56f9c65a5f79681c6a",
+			"_shasum": "1ab32675f64600479253739cb521783ef54403db",
+			"_nodeVersion": "4.1.1"
+		},
+		"0.0.64": {
+			"name": "merge-options",
+			"description": "Merge Option Objects",
+			"version": "0.0.64",
+			"author": {
+				"name": "Michael Mayer",
+				"email": "michael@schnittstabil.de",
+				"url": "schnittstabil.de"
+			},
+			"homepage": "https://github.com/schnittstabil/merge-options#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/schnittstabil/merge-options.git"
+			},
+			"bugs": {
+				"url": "https://github.com/schnittstabil/merge-options/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-0.0.64.tgz",
+				"shasum": "cbe04f594a6985eaf27f7f8f0b2a3acf6f9d562d"
+			},
+			"dependencies": {
+				"is-plain-obj": "^1.1.0"
+			},
+			"devDependencies": {
+				"ava": "^0.12.0",
+				"coveralls": "^2.11.6",
+				"nyc": "^6.0.0",
+				"rimraf": "^2.5.2",
+				"xo": "^0.12.1"
+			},
+			"keywords": [
+				"merge",
+				"options",
+				"deep",
+				"plain",
+				"object",
+				"extend",
+				"clone"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "schnittstabil",
+					"email": "michael@schnittstabil.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && nyc ava",
+				"clean": "rimraf .nyc_output/ coverage/",
+				"coverage-html": "nyc ava && nyc report --reporter=html"
+			},
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_npmUser": {
+				"name": "schnittstabil",
+				"email": "michael@schnittstabil.de"
+			},
+			"_id": "merge-options@0.0.64",
+			"gitHead": "4d04377685b0289f038c0ea9fe7f9a6e99eefec2",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/merge-options-0.0.64.tgz_1456392470365_0.4214684891048819"
+			},
+			"_shasum": "cbe04f594a6985eaf27f7f8f0b2a3acf6f9d562d",
+			"_nodeVersion": "5.5.0"
+		},
+		"1.0.0": {
+			"name": "merge-options",
+			"description": "Merge Option Objects",
+			"version": "1.0.0",
+			"author": {
+				"name": "Michael Mayer",
+				"email": "michael@schnittstabil.de",
+				"url": "schnittstabil.de"
+			},
+			"homepage": "https://github.com/schnittstabil/merge-options#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/schnittstabil/merge-options.git"
+			},
+			"bugs": {
+				"url": "https://github.com/schnittstabil/merge-options/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-1.0.0.tgz",
+				"shasum": "5b4f339a957192b5b98994a3ac5c95d2ca651b94"
+			},
+			"dependencies": {
+				"is-plain-obj": "^1.1"
+			},
+			"devDependencies": {
+				"ava": "^0.19",
+				"coveralls": "^2.13",
+				"nyc": "^10.3",
+				"rimraf": "^2.5",
+				"xo": "^0.18"
+			},
+			"keywords": [
+				"merge",
+				"options",
+				"deep",
+				"plain",
+				"object",
+				"extend",
+				"clone"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "schnittstabil",
+					"email": "michael@schnittstabil.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && nyc ava",
+				"clean": "rimraf .nyc_output/ coverage/",
+				"coverage-html": "nyc ava && nyc report --reporter=html"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_npmUser": {
+				"name": "schnittstabil",
+				"email": "michael@schnittstabil.de"
+			},
+			"_id": "merge-options@1.0.0",
+			"gitHead": "d562042c9195160731f9ad77bd122f8a3991caa4",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/merge-options-1.0.0.tgz_1494049017548_0.7837934528943151"
+			},
+			"_shasum": "5b4f339a957192b5b98994a3ac5c95d2ca651b94",
+			"_nodeVersion": "4.6.0"
+		},
+		"1.0.1": {
+			"name": "merge-options",
+			"description": "Merge Option Objects",
+			"version": "1.0.1",
+			"author": {
+				"name": "Michael Mayer",
+				"email": "michael@schnittstabil.de",
+				"url": "schnittstabil.de"
+			},
+			"homepage": "https://github.com/schnittstabil/merge-options#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/schnittstabil/merge-options.git"
+			},
+			"bugs": {
+				"url": "https://github.com/schnittstabil/merge-options/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-1.0.1.tgz",
+				"shasum": "2a64b24457becd4e4dc608283247e94ce589aa32"
+			},
+			"dependencies": {
+				"is-plain-obj": "^1.1"
+			},
+			"devDependencies": {
+				"ava": "^0.25",
+				"coveralls": "^3.0",
+				"nyc": "^11.7",
+				"rimraf": "^2.5",
+				"xo": "^0.20"
+			},
+			"keywords": [
+				"merge",
+				"options",
+				"deep",
+				"plain",
+				"object",
+				"extend",
+				"clone"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "schnittstabil",
+					"email": "michael@schnittstabil.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && nyc ava",
+				"clean": "rimraf .nyc_output/ coverage/",
+				"coverage-html": "nyc ava && nyc report --reporter=html"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "schnittstabil",
+				"email": "michael@schnittstabil.de"
+			},
+			"_id": "merge-options@1.0.1",
+			"gitHead": "342993f9e3a93bf17179b33711054a7c9efbad8f",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/merge-options_1.0.1_1525080161386_0.6992930103252353"
+			},
+			"_nodeVersion": "9.11.1"
+		}
+	},
+	"time": {
+		"created": "2015-11-06T18:54:32.561Z",
+		"modified": "2018-04-30T09:22:46.756Z",
+		"0.0.42": "2015-11-06T18:54:32.561Z",
+		"0.0.64": "2016-02-25T09:27:52.857Z",
+		"1.0.0": "2017-05-06T05:36:58.332Z",
+		"1.0.1": "2018-04-30T09:22:41.458Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749367619
+		}
+	},
+	"_distfiles": {
+		"merge-options-0.0.42.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-0.0.42.tgz",
+			"sha": "1ab32675f64600479253739cb521783ef54403db"
+		},
+		"merge-options-0.0.64.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-0.0.64.tgz",
+			"sha": "cbe04f594a6985eaf27f7f8f0b2a3acf6f9d562d"
+		},
+		"merge-options-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-1.0.0.tgz",
+			"sha": "5b4f339a957192b5b98994a3ac5c95d2ca651b94"
+		},
+		"merge-options-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/merge-options/-/merge-options-1.0.1.tgz",
+			"sha": "2a64b24457becd4e4dc608283247e94ce589aa32"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-5788538fcbfd785e",
+	"readme": "# merge-options [![Build Status](https://travis-ci.org/schnittstabil/merge-options.svg?branch=master)](https://travis-ci.org/schnittstabil/merge-options) [![Coverage Status](https://coveralls.io/repos/schnittstabil/merge-options/badge.svg?branch=master&service=github)](https://coveralls.io/github/schnittstabil/merge-options?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)\n\n\n> Merge Option Objects\n\n`merge-options` considers [plain objects](https://github.com/sindresorhus/is-plain-obj) as *Option Objects*, everything else as *Option Values*.\n\n## Install\n\n```\n$ npm install --save merge-options\n```\n\n## Usage\n\n```js\nconst mergeOptions = require('merge-options');\n\nmergeOptions({foo: 0}, {bar: 1}, {baz: 2}, {bar: 3})\n//=> {foo: 0, bar: 3, baz: 2}\n\nmergeOptions({nested: {unicorns: 'none'}}, {nested: {unicorns: 'many'}})\n//=> {nested: {unicorns: 'many'}}\n\nmergeOptions({[Symbol.for('key')]: 0}, {[Symbol.for('key')]: 42})\n//=> {Symbol(key): 42}\n```\n\n## API\n\n### mergeOptions(option1, ...options)<br/>mergeOptions.call(config, option1, ...options)<br/>mergeOptions.apply(config, [option1, ...options])\n\n`mergeOptions` recursively merges one or more *Option Objects* into a new one and returns that. The `options` are merged in order, thus *Option Values* of additional `options` take precedence over previous ones.\n\nThe merging does not alter the passed `option` arguments, taking roughly the following steps:\n* recursively cloning<sup><a href=\"#note1\">[1]</a></sup> *Option Objects* and [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) until reaching *Option Values*\n* copying<sup><a href=\"#note1\">[1]</a></sup> references to *Option Values* to the result object\n\n\n```js\nconst defaultOpts = {\n\tfn:      () => false,                  // functions are Option Values\n\tpromise: Promise.reject(new Error()),  // all non-plain objects are Option Values\n\tarray:   ['foo'],                      // arrays are Option Values\n\tnested:  {unicorns: 'none'}            // {…} is plain, therefore an Option Object\n};\n\nconst opts = {\n\tfn:      () => true,                   // [1]\n\tpromise: Promise.resolve('bar'),       // [2]\n\tarray:   ['baz'],                      // [3]\n\tnested:  {unicorns: 'many'}            // [4]\n};\n\nmergeOptions(defaultOpts, opts)\n//=>\n{\n\tfn:      [Function],                   // === [1]\n\tpromise: Promise { 'bar' },            // === [2]\n\tarray:   ['baz'],                      // !== [3] (arrays are cloned)\n\tnested:  {unicorns: 'many'}            // !== [4] (Option Objects are cloned)\n}\n```\n\n#### config\n\nType: `object`\n\n##### config.concatArrays\n\nType: `boolean`<br/>Default: `false`\n\nConcatenate arrays:\n\n```js\nmergeOptions({src: ['src/**']}, {src: ['test/**']})\n//=> {src: ['test/**']}\n\n// Via call\nmergeOptions.call({concatArrays: true}, {src: ['src/**']}, {src: ['test/**']})\n//=> {src: ['src/**', 'test/**']}\n\n// Via apply\nmergeOptions.apply({concatArrays: true}, [{src: ['src/**']}, {src: ['test/**']}])\n//=> {src: ['src/**', 'test/**']}\n```\n\n\n## Related\n\n* See [object-assign](https://github.com/sindresorhus/object-assign) if you need a ES2015 Object.assign() ponyfill\n* See [deep-assign](https://github.com/sindresorhus/deep-assign) if you need to do Object.assign() recursively\n\n## Notes\n\n<ol>\n\t<li id=\"note1\">copying and cloning take only enumerable own properties into account</li>\n</ol>\n\n## License\n\nMIT © [Michael Mayer](http://schnittstabil.de)"
+}

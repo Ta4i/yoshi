@@ -1,0 +1,3926 @@
+{
+	"name": "@wix/env-support",
+	"versions": {
+		"1.0.827": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.827",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.827.tgz",
+				"shasum": "8230d4be37755137b5df0cec6d9f0b579339d1bc"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.827"
+		},
+		"1.0.828": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.828",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.828.tgz",
+				"shasum": "8e04ade6fd0db535fa4ee72b3f59dcf6fc91d003"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.828"
+		},
+		"1.0.825": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.825",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.825.tgz",
+				"shasum": "af972433e2f85385b463580e187f05202b6d5ccb"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.825"
+		},
+		"1.0.826": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.826",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.826.tgz",
+				"shasum": "f49e142cc443e90dcc963f466101804907778e3f"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.826"
+		},
+		"1.0.829": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.829",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.829.tgz",
+				"shasum": "5bc8cdd68928fa795e0017334eb8e264ca67b7d4"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.829"
+		},
+		"1.0.797": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.797",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.797.tgz",
+				"shasum": "45edc0a7c82af40f7a89b455ef6c02681a55d0a7"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.797"
+		},
+		"1.0.830": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.830",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.830.tgz",
+				"shasum": "3e899e923ead7ce46b6c75fac5d26c0d2f5d13d4"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.830"
+		},
+		"1.0.798": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.798",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.798.tgz",
+				"shasum": "158e1111e461137b42cf9ccc1fbe9f6270fa778b"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.798"
+		},
+		"1.0.831": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.831",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.831.tgz",
+				"shasum": "366741abe2a185ed00414c0a2c46954f8c0f01c8"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.831"
+		},
+		"1.0.795": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.795",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.795.tgz",
+				"shasum": "caf1717f9b76d68b5f7778b56ea288e7bd2200aa"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.795"
+		},
+		"1.0.796": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.796",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.796.tgz",
+				"shasum": "537e18f7e6daf512eee3066adee5a9db4af0dc7c"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.796"
+		},
+		"1.0.834": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.834",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.834.tgz",
+				"shasum": "3f07cb25084e1bd15a73577ca1983d7a6671ba24"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.834"
+		},
+		"1.0.835": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.835",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.835.tgz",
+				"shasum": "e1358f9a9fa4460918205b86e9a3566dbae8005b"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.835"
+		},
+		"1.0.799": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.799",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.799.tgz",
+				"shasum": "4cb4560965b898ab684a28420993e26af5f991f2"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.799"
+		},
+		"1.0.832": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.832",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.832.tgz",
+				"shasum": "76365d1c30113e02bcb3a6aaa42c16305dba47ec"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.832"
+		},
+		"1.0.833": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.833",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.833.tgz",
+				"shasum": "1a3f6796e94efe5e535cf8d8d4daeab81b274000"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.833"
+		},
+		"1.0.790": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.790",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.790.tgz",
+				"shasum": "324e513c28b8704fcb49e661465f0013796660ee"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.790"
+		},
+		"1.0.793": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.793",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.793.tgz",
+				"shasum": "8d66724546cdc5cda4957593959c6a893d9db824"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.793"
+		},
+		"1.0.794": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.794",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.794.tgz",
+				"shasum": "5b7412d8f804e8c416cdc649f8c6fa22a8600499"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.794"
+		},
+		"1.0.791": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.791",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.791.tgz",
+				"shasum": "d408121e6c2d64cf0de4459235ffbd8d9db3a8c1"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.791"
+		},
+		"1.0.792": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.792",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.792.tgz",
+				"shasum": "792822c062c835daf45319cc133f12b61d577318"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.792"
+		},
+		"1.0.838": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.838",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.838.tgz",
+				"shasum": "684e831cc5dd61878ce65446f91453b55df82271"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.838"
+		},
+		"1.0.839": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.839",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.839.tgz",
+				"shasum": "6677a577fae0660b5ccd138943f79a55e999d223"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.839"
+		},
+		"1.0.836": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.836",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.836.tgz",
+				"shasum": "d956889525bf695161bc140ba778db6cd2d08cba"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.836"
+		},
+		"1.0.837": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.837",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.837.tgz",
+				"shasum": "ad171ca039e9ff03ef9a58e7ba1d461d3aa0d433"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.837"
+		},
+		"1.0.841": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.841",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.841.tgz",
+				"shasum": "fb82982f45668c7fd3edea3847ce2195a723cc8c"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.841"
+		},
+		"1.0.842": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.842",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.842.tgz",
+				"shasum": "9a760f3ecf1f0250615fe4bb3d62a3fbd343f31f"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.842"
+		},
+		"1.0.840": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.840",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.840.tgz",
+				"shasum": "6ad0abf0d2221ef5ea4fcd971001a900c7ba3b77"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.840"
+		},
+		"1.0.801": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.801",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.801.tgz",
+				"shasum": "ba6936a121655bd6db1252c7d52f2eb7f94fc2ae"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.801"
+		},
+		"1.0.845": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.845",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.845.tgz",
+				"shasum": "ede0882549d1c95173c669ceb1a186f88a308213"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.845"
+		},
+		"1.0.802": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.802",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.802.tgz",
+				"shasum": "82b7e97c4655a3c97566584590e9f2be2f80af90"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.802"
+		},
+		"1.0.846": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.846",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.846.tgz",
+				"shasum": "81033a0d6028c67fdd2b274210ff418a5941b920"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.846"
+		},
+		"1.0.843": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.843",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.843.tgz",
+				"shasum": "aed0d7337de846af4b671a08a3e7c69fd42043df"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.843"
+		},
+		"1.0.800": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.800",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.800.tgz",
+				"shasum": "e0bfa5988a6941e2bd3225964c084f9544f18182"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.800"
+		},
+		"1.0.844": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.844",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.844.tgz",
+				"shasum": "e25e5bebb4f71aa631d6901732768e295f93e39b"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.844"
+		},
+		"1.0.805": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.805",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.805.tgz",
+				"shasum": "2d27c66f784a5e3167f01a3758756b76283ca020"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.805"
+		},
+		"1.0.849": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.849",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.849.tgz",
+				"shasum": "84e879fe9fad0cff0dee0df112be649ab897d462"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.849"
+		},
+		"1.0.806": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.806",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.806.tgz",
+				"shasum": "0f2a5a0bb379ea3ee22df8537c23554cd0610b8b"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.806"
+		},
+		"1.0.803": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.803",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.803.tgz",
+				"shasum": "d4d6f32586974cde65a4fa67a3f0691d3dd112d6"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.803"
+		},
+		"1.0.847": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.847",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.847.tgz",
+				"shasum": "11f5febee65192fe7983aefae4bdbfd063f3c98e"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.847"
+		},
+		"1.0.804": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.804",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.804.tgz",
+				"shasum": "711e132b37fa631372a118d8e5c9530073ebeb13"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.804"
+		},
+		"1.0.848": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.848",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.848.tgz",
+				"shasum": "5613f40e821bc96b5c8ab468b7d715bdb07b37bc"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.848"
+		},
+		"1.0.809": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.809",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.809.tgz",
+				"shasum": "2721b3d1a6447e6f2d8844eae728cf42b10b0be9"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.809"
+		},
+		"1.0.807": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.807",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.807.tgz",
+				"shasum": "e07dfead3e233bf828d35581d9a740158b3e80fa"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.807"
+		},
+		"1.0.808": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.808",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.808.tgz",
+				"shasum": "4cae5aa0b23793c340677186a3d096a4ba04494c"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.808"
+		},
+		"1.0.852": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.852",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.852.tgz",
+				"shasum": "e7dab00fcbb1b18175e79c3624f4fdc8264f4ec5"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.852"
+		},
+		"1.0.853": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.853",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.853.tgz",
+				"shasum": "990ac08833bc5eb56309cf55d87c9f8f9136dcbb"
+			},
+			"dependencies": {
+				"@wix/wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.853"
+		},
+		"1.0.850": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.850",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.850.tgz",
+				"shasum": "250418d33f62b54dd0060923d56eb2276d964203"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.850"
+		},
+		"1.0.851": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.851",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.851.tgz",
+				"shasum": "05bb92fa2de0e389a6a8ae371f5b0aa383cc8991"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.851"
+		},
+		"1.0.812": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.812",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.812.tgz",
+				"shasum": "582e5b57b12efaa3237e2f360cdf65d6fbb59875"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.812"
+		},
+		"1.0.856": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.856",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.856.tgz",
+				"shasum": "788dcfbb18fa20a76f74261a73562b62f4108ed8"
+			},
+			"dependencies": {
+				"@wix/wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.856"
+		},
+		"1.0.813": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.813",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.813.tgz",
+				"shasum": "770028a27cf873f540e585d8811c7954a275ea55"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.813"
+		},
+		"1.0.857": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.857",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.857.tgz",
+				"shasum": "d3a76dc22b5452299b02410a71c4873604fccdae"
+			},
+			"dependencies": {
+				"@wix/wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.857"
+		},
+		"1.0.810": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.810",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.810.tgz",
+				"shasum": "ab4cc707ce59422818dedaac0b8922d1cd0f926c"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.810"
+		},
+		"1.0.854": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.854",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.854.tgz",
+				"shasum": "e1c8f07be65875e9a94feec55fcd7f7d9ee8c4aa"
+			},
+			"dependencies": {
+				"@wix/wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.854"
+		},
+		"1.0.811": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.811",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.811.tgz",
+				"shasum": "dc92d1bc6c871e4da3dd303a9b703eedbcb6a6b2"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.811"
+		},
+		"1.0.855": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.855",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.855.tgz",
+				"shasum": "4dcb364e134dbbf5dc5dde36926d108a78541635"
+			},
+			"dependencies": {
+				"@wix/wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/env-support@1.0.855"
+		},
+		"1.0.816": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.816",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.816.tgz",
+				"shasum": "0d2f6825dcefe67d991e4a8cef2ab617b542165e"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.816"
+		},
+		"1.0.817": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.817",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.817.tgz",
+				"shasum": "bb02ad7146eadb7d1c40548d170e5bf43cc61814"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.817"
+		},
+		"1.0.814": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.814",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.814.tgz",
+				"shasum": "7547edc911438a44b4e19d6b4d14cd85715b726c"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.814"
+		},
+		"1.0.815": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.815",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.815.tgz",
+				"shasum": "62981cedd14357617c65c27af5a2448da33cfc11"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.815"
+		},
+		"1.0.818": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.818",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.818.tgz",
+				"shasum": "4b863fc21aa78057d4928af12a861c881209e0c5"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.818"
+		},
+		"1.0.819": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.819",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.819.tgz",
+				"shasum": "ad144ddec100c195f5d762b1925d8ecbc6c0f1af"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.819"
+		},
+		"1.0.786": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.786",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.786.tgz",
+				"shasum": "870236ab528fc9356f80007d2dbc674f90f954f0"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.786"
+		},
+		"1.0.787": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.787",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.787.tgz",
+				"shasum": "c00dd8d580625adfaab4446d211065c849c6d2d1"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.787"
+		},
+		"1.0.820": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.820",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.820.tgz",
+				"shasum": "66e387f3c50e7aeb686907c0aca3c52c32d17bd2"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.820"
+		},
+		"1.0.784": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.784",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.784.tgz",
+				"shasum": "b1c37686757df4900971539e5c9ad39d3704bc07"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.784"
+		},
+		"1.0.785": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.785",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.785.tgz",
+				"shasum": "5e9fb70dbbc9c15b7efb11fac5ef2cdda949590f"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.785"
+		},
+		"1.0.823": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.823",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.823.tgz",
+				"shasum": "ecd4fd31982a0e90d8bdabe576aca9eef3441c7a"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.823"
+		},
+		"1.0.824": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.824",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.824.tgz",
+				"shasum": "968c227b4441ad56880b977ab2e992c57363e886"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.824"
+		},
+		"1.0.788": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.788",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.788.tgz",
+				"shasum": "d1ba675fba808ba5d91997205de0c54731f4f37d"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.788"
+		},
+		"1.0.821": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.821",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.821.tgz",
+				"shasum": "1488fa96d4687343631c304c0beb0e5ac1125d1d"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.821"
+		},
+		"1.0.789": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.789",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.789.tgz",
+				"shasum": "c404af250a637aa1232fc0be367ea2362e6bf8fe"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.789"
+		},
+		"1.0.822": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.822",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.822.tgz",
+				"shasum": "bfe166512f79a87a4c431869718fe63f305fa80b"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.822"
+		},
+		"1.0.782": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.782",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.782.tgz",
+				"shasum": "c255f403ae05c574876962bd98d97dfda7118806"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.782"
+		},
+		"1.0.783": {
+			"name": "@wix/env-support",
+			"description": "support for creating/setting-up environment",
+			"version": "1.0.783",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/testing/env-support"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.783.tgz",
+				"shasum": "a5a13ab2a1a6ac2d808d4b182fb55bf0f11e7291"
+			},
+			"dependencies": {
+				"wix-test-ports": "~1.0.66"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"env"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/env-support@1.0.783"
+		}
+	},
+	"time": {
+		"1.0.827": "2018-01-30T11:27:35.450Z",
+		"1.0.828": "2018-02-21T16:07:39.425Z",
+		"1.0.825": "2018-01-09T09:16:31.779Z",
+		"1.0.826": "2018-01-15T15:04:06.093Z",
+		"1.0.829": "2018-03-16T06:09:53.337Z",
+		"1.0.797": "2017-11-03T02:12:49.662Z",
+		"1.0.830": "2018-03-25T10:34:29.657Z",
+		"1.0.798": "2017-11-03T13:53:57.087Z",
+		"1.0.831": "2018-04-05T08:35:30.045Z",
+		"1.0.795": "2017-11-01T17:00:50.729Z",
+		"1.0.796": "2017-11-02T00:50:37.190Z",
+		"1.0.834": "2018-05-20T10:38:55.538Z",
+		"1.0.835": "2018-05-22T12:24:37.237Z",
+		"1.0.799": "2017-11-05T05:30:28.467Z",
+		"1.0.832": "2018-04-16T13:37:10.691Z",
+		"1.0.833": "2018-05-06T07:17:32.722Z",
+		"modified": "2019-01-14T11:38:01.131Z",
+		"1.0.790": "2017-10-29T13:49:01.224Z",
+		"1.0.793": "2017-10-31T07:12:53.801Z",
+		"1.0.794": "2017-10-31T11:27:23.482Z",
+		"1.0.791": "2017-10-30T05:36:20.701Z",
+		"1.0.792": "2017-10-31T05:43:45.919Z",
+		"created": "2017-10-24T07:38:18.979Z",
+		"1.0.838": "2018-06-07T13:39:55.465Z",
+		"1.0.839": "2018-06-19T12:02:20.533Z",
+		"1.0.836": "2018-05-23T11:41:40.226Z",
+		"1.0.837": "2018-05-30T08:16:41.667Z",
+		"1.0.841": "2018-07-11T20:09:26.091Z",
+		"1.0.842": "2018-07-12T07:53:10.038Z",
+		"1.0.840": "2018-07-10T10:32:12.600Z",
+		"1.0.801": "2017-11-05T15:03:38.750Z",
+		"1.0.845": "2018-09-13T11:00:51.676Z",
+		"1.0.802": "2017-11-05T16:34:57.186Z",
+		"1.0.846": "2018-09-25T14:29:55.182Z",
+		"1.0.843": "2018-08-06T09:51:00.132Z",
+		"1.0.800": "2017-11-05T13:22:11.686Z",
+		"1.0.844": "2018-08-26T12:11:22.717Z",
+		"1.0.805": "2017-11-07T12:59:39.073Z",
+		"1.0.849": "2018-10-24T15:37:42.231Z",
+		"1.0.806": "2017-11-08T08:37:01.489Z",
+		"1.0.803": "2017-11-07T03:57:46.866Z",
+		"1.0.847": "2018-10-02T10:38:37.980Z",
+		"1.0.804": "2017-11-07T07:32:42.816Z",
+		"1.0.848": "2018-10-03T10:58:06.694Z",
+		"1.0.809": "2017-11-09T12:20:54.706Z",
+		"1.0.807": "2017-11-08T14:39:37.113Z",
+		"1.0.808": "2017-11-09T12:05:34.473Z",
+		"1.0.852": "2018-12-05T11:46:19.785Z",
+		"1.0.853": "2018-12-12T08:48:56.649Z",
+		"1.0.850": "2018-11-04T14:50:47.185Z",
+		"1.0.851": "2018-11-14T12:24:44.494Z",
+		"1.0.812": "2017-11-11T05:55:01.280Z",
+		"1.0.856": "2019-01-02T14:23:15.264Z",
+		"1.0.813": "2017-11-12T05:55:53.797Z",
+		"1.0.857": "2019-01-14T11:38:01.131Z",
+		"1.0.810": "2017-11-09T23:45:33.404Z",
+		"1.0.854": "2018-12-13T12:03:18.927Z",
+		"1.0.811": "2017-11-11T02:38:03.863Z",
+		"1.0.855": "2018-12-13T14:27:19.177Z",
+		"1.0.816": "2017-11-14T12:19:14.196Z",
+		"1.0.817": "2017-11-16T02:17:37.770Z",
+		"1.0.814": "2017-11-13T05:56:57.491Z",
+		"1.0.815": "2017-11-14T05:57:49.227Z",
+		"1.0.818": "2017-11-16T06:55:49.795Z",
+		"1.0.819": "2017-11-16T07:22:47.350Z",
+		"1.0.786": "2017-10-26T06:14:55.064Z",
+		"1.0.787": "2017-10-27T06:16:33.185Z",
+		"1.0.820": "2017-11-16T20:15:23.477Z",
+		"1.0.784": "2017-10-24T19:24:39.960Z",
+		"1.0.785": "2017-10-26T02:48:54.667Z",
+		"1.0.823": "2017-12-25T09:36:55.308Z",
+		"1.0.824": "2018-01-08T10:15:49.127Z",
+		"1.0.788": "2017-10-28T08:06:30.724Z",
+		"1.0.821": "2017-12-10T13:12:40.698Z",
+		"1.0.789": "2017-10-29T06:05:15.555Z",
+		"1.0.822": "2017-12-11T12:58:32.873Z",
+		"1.0.782": "2017-10-24T07:38:18.979Z",
+		"1.0.783": "2017-10-24T16:35:47.779Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.857"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749348920
+		}
+	},
+	"_distfiles": {
+		"env-support-1.0.827.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.827.tgz",
+			"sha": "8230d4be37755137b5df0cec6d9f0b579339d1bc"
+		},
+		"env-support-1.0.828.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.828.tgz",
+			"sha": "8e04ade6fd0db535fa4ee72b3f59dcf6fc91d003"
+		},
+		"env-support-1.0.825.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.825.tgz",
+			"sha": "af972433e2f85385b463580e187f05202b6d5ccb"
+		},
+		"env-support-1.0.826.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.826.tgz",
+			"sha": "f49e142cc443e90dcc963f466101804907778e3f"
+		},
+		"env-support-1.0.829.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.829.tgz",
+			"sha": "5bc8cdd68928fa795e0017334eb8e264ca67b7d4"
+		},
+		"env-support-1.0.797.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.797.tgz",
+			"sha": "45edc0a7c82af40f7a89b455ef6c02681a55d0a7"
+		},
+		"env-support-1.0.830.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.830.tgz",
+			"sha": "3e899e923ead7ce46b6c75fac5d26c0d2f5d13d4"
+		},
+		"env-support-1.0.798.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.798.tgz",
+			"sha": "158e1111e461137b42cf9ccc1fbe9f6270fa778b"
+		},
+		"env-support-1.0.831.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.831.tgz",
+			"sha": "366741abe2a185ed00414c0a2c46954f8c0f01c8"
+		},
+		"env-support-1.0.795.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.795.tgz",
+			"sha": "caf1717f9b76d68b5f7778b56ea288e7bd2200aa"
+		},
+		"env-support-1.0.796.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.796.tgz",
+			"sha": "537e18f7e6daf512eee3066adee5a9db4af0dc7c"
+		},
+		"env-support-1.0.834.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.834.tgz",
+			"sha": "3f07cb25084e1bd15a73577ca1983d7a6671ba24"
+		},
+		"env-support-1.0.835.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.835.tgz",
+			"sha": "e1358f9a9fa4460918205b86e9a3566dbae8005b"
+		},
+		"env-support-1.0.799.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.799.tgz",
+			"sha": "4cb4560965b898ab684a28420993e26af5f991f2"
+		},
+		"env-support-1.0.832.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.832.tgz",
+			"sha": "76365d1c30113e02bcb3a6aaa42c16305dba47ec"
+		},
+		"env-support-1.0.833.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.833.tgz",
+			"sha": "1a3f6796e94efe5e535cf8d8d4daeab81b274000"
+		},
+		"env-support-1.0.790.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.790.tgz",
+			"sha": "324e513c28b8704fcb49e661465f0013796660ee"
+		},
+		"env-support-1.0.793.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.793.tgz",
+			"sha": "8d66724546cdc5cda4957593959c6a893d9db824"
+		},
+		"env-support-1.0.794.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.794.tgz",
+			"sha": "5b7412d8f804e8c416cdc649f8c6fa22a8600499"
+		},
+		"env-support-1.0.791.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.791.tgz",
+			"sha": "d408121e6c2d64cf0de4459235ffbd8d9db3a8c1"
+		},
+		"env-support-1.0.792.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.792.tgz",
+			"sha": "792822c062c835daf45319cc133f12b61d577318"
+		},
+		"env-support-1.0.838.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.838.tgz",
+			"sha": "684e831cc5dd61878ce65446f91453b55df82271"
+		},
+		"env-support-1.0.839.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.839.tgz",
+			"sha": "6677a577fae0660b5ccd138943f79a55e999d223"
+		},
+		"env-support-1.0.836.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.836.tgz",
+			"sha": "d956889525bf695161bc140ba778db6cd2d08cba"
+		},
+		"env-support-1.0.837.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.837.tgz",
+			"sha": "ad171ca039e9ff03ef9a58e7ba1d461d3aa0d433"
+		},
+		"env-support-1.0.841.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.841.tgz",
+			"sha": "fb82982f45668c7fd3edea3847ce2195a723cc8c"
+		},
+		"env-support-1.0.842.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.842.tgz",
+			"sha": "9a760f3ecf1f0250615fe4bb3d62a3fbd343f31f"
+		},
+		"env-support-1.0.840.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.840.tgz",
+			"sha": "6ad0abf0d2221ef5ea4fcd971001a900c7ba3b77"
+		},
+		"env-support-1.0.801.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.801.tgz",
+			"sha": "ba6936a121655bd6db1252c7d52f2eb7f94fc2ae"
+		},
+		"env-support-1.0.845.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.845.tgz",
+			"sha": "ede0882549d1c95173c669ceb1a186f88a308213"
+		},
+		"env-support-1.0.802.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.802.tgz",
+			"sha": "82b7e97c4655a3c97566584590e9f2be2f80af90"
+		},
+		"env-support-1.0.846.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.846.tgz",
+			"sha": "81033a0d6028c67fdd2b274210ff418a5941b920"
+		},
+		"env-support-1.0.843.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.843.tgz",
+			"sha": "aed0d7337de846af4b671a08a3e7c69fd42043df"
+		},
+		"env-support-1.0.800.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.800.tgz",
+			"sha": "e0bfa5988a6941e2bd3225964c084f9544f18182"
+		},
+		"env-support-1.0.844.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.844.tgz",
+			"sha": "e25e5bebb4f71aa631d6901732768e295f93e39b"
+		},
+		"env-support-1.0.805.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.805.tgz",
+			"sha": "2d27c66f784a5e3167f01a3758756b76283ca020"
+		},
+		"env-support-1.0.849.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.849.tgz",
+			"sha": "84e879fe9fad0cff0dee0df112be649ab897d462"
+		},
+		"env-support-1.0.806.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.806.tgz",
+			"sha": "0f2a5a0bb379ea3ee22df8537c23554cd0610b8b"
+		},
+		"env-support-1.0.803.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.803.tgz",
+			"sha": "d4d6f32586974cde65a4fa67a3f0691d3dd112d6"
+		},
+		"env-support-1.0.847.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.847.tgz",
+			"sha": "11f5febee65192fe7983aefae4bdbfd063f3c98e"
+		},
+		"env-support-1.0.804.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.804.tgz",
+			"sha": "711e132b37fa631372a118d8e5c9530073ebeb13"
+		},
+		"env-support-1.0.848.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.848.tgz",
+			"sha": "5613f40e821bc96b5c8ab468b7d715bdb07b37bc"
+		},
+		"env-support-1.0.809.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.809.tgz",
+			"sha": "2721b3d1a6447e6f2d8844eae728cf42b10b0be9"
+		},
+		"env-support-1.0.807.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.807.tgz",
+			"sha": "e07dfead3e233bf828d35581d9a740158b3e80fa"
+		},
+		"env-support-1.0.808.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.808.tgz",
+			"sha": "4cae5aa0b23793c340677186a3d096a4ba04494c"
+		},
+		"env-support-1.0.852.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.852.tgz",
+			"sha": "e7dab00fcbb1b18175e79c3624f4fdc8264f4ec5"
+		},
+		"env-support-1.0.853.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.853.tgz",
+			"sha": "990ac08833bc5eb56309cf55d87c9f8f9136dcbb"
+		},
+		"env-support-1.0.850.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.850.tgz",
+			"sha": "250418d33f62b54dd0060923d56eb2276d964203"
+		},
+		"env-support-1.0.851.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.851.tgz",
+			"sha": "05bb92fa2de0e389a6a8ae371f5b0aa383cc8991"
+		},
+		"env-support-1.0.812.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.812.tgz",
+			"sha": "582e5b57b12efaa3237e2f360cdf65d6fbb59875"
+		},
+		"env-support-1.0.856.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.856.tgz",
+			"sha": "788dcfbb18fa20a76f74261a73562b62f4108ed8"
+		},
+		"env-support-1.0.813.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.813.tgz",
+			"sha": "770028a27cf873f540e585d8811c7954a275ea55"
+		},
+		"env-support-1.0.857.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.857.tgz",
+			"sha": "d3a76dc22b5452299b02410a71c4873604fccdae"
+		},
+		"env-support-1.0.810.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.810.tgz",
+			"sha": "ab4cc707ce59422818dedaac0b8922d1cd0f926c"
+		},
+		"env-support-1.0.854.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.854.tgz",
+			"sha": "e1c8f07be65875e9a94feec55fcd7f7d9ee8c4aa"
+		},
+		"env-support-1.0.811.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.811.tgz",
+			"sha": "dc92d1bc6c871e4da3dd303a9b703eedbcb6a6b2"
+		},
+		"env-support-1.0.855.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.855.tgz",
+			"sha": "4dcb364e134dbbf5dc5dde36926d108a78541635"
+		},
+		"env-support-1.0.816.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.816.tgz",
+			"sha": "0d2f6825dcefe67d991e4a8cef2ab617b542165e"
+		},
+		"env-support-1.0.817.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.817.tgz",
+			"sha": "bb02ad7146eadb7d1c40548d170e5bf43cc61814"
+		},
+		"env-support-1.0.814.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.814.tgz",
+			"sha": "7547edc911438a44b4e19d6b4d14cd85715b726c"
+		},
+		"env-support-1.0.815.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.815.tgz",
+			"sha": "62981cedd14357617c65c27af5a2448da33cfc11"
+		},
+		"env-support-1.0.818.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.818.tgz",
+			"sha": "4b863fc21aa78057d4928af12a861c881209e0c5"
+		},
+		"env-support-1.0.819.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.819.tgz",
+			"sha": "ad144ddec100c195f5d762b1925d8ecbc6c0f1af"
+		},
+		"env-support-1.0.786.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.786.tgz",
+			"sha": "870236ab528fc9356f80007d2dbc674f90f954f0"
+		},
+		"env-support-1.0.787.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.787.tgz",
+			"sha": "c00dd8d580625adfaab4446d211065c849c6d2d1"
+		},
+		"env-support-1.0.820.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.820.tgz",
+			"sha": "66e387f3c50e7aeb686907c0aca3c52c32d17bd2"
+		},
+		"env-support-1.0.784.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.784.tgz",
+			"sha": "b1c37686757df4900971539e5c9ad39d3704bc07"
+		},
+		"env-support-1.0.785.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.785.tgz",
+			"sha": "5e9fb70dbbc9c15b7efb11fac5ef2cdda949590f"
+		},
+		"env-support-1.0.823.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.823.tgz",
+			"sha": "ecd4fd31982a0e90d8bdabe576aca9eef3441c7a"
+		},
+		"env-support-1.0.824.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.824.tgz",
+			"sha": "968c227b4441ad56880b977ab2e992c57363e886"
+		},
+		"env-support-1.0.788.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.788.tgz",
+			"sha": "d1ba675fba808ba5d91997205de0c54731f4f37d"
+		},
+		"env-support-1.0.821.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.821.tgz",
+			"sha": "1488fa96d4687343631c304c0beb0e5ac1125d1d"
+		},
+		"env-support-1.0.789.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.789.tgz",
+			"sha": "c404af250a637aa1232fc0be367ea2362e6bf8fe"
+		},
+		"env-support-1.0.822.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.822.tgz",
+			"sha": "bfe166512f79a87a4c431869718fe63f305fa80b"
+		},
+		"env-support-1.0.782.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.782.tgz",
+			"sha": "c255f403ae05c574876962bd98d97dfda7118806"
+		},
+		"env-support-1.0.783.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/env-support/-/@wix/env-support-1.0.783.tgz",
+			"sha": "a5a13ab2a1a6ac2d808d4b182fb55bf0f11e7291"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-a92e1747c5ae7071",
+	"readme": ""
+}

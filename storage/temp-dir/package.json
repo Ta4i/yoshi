@@ -1,0 +1,97 @@
+{
+	"name": "temp-dir",
+	"versions": {
+		"1.0.0": {
+			"name": "temp-dir",
+			"description": "Get the real path of the system temp directory",
+			"version": "1.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/temp-dir#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/temp-dir.git"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/temp-dir/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/temp-dir/-/temp-dir-1.0.0.tgz",
+				"shasum": "0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"proxyquire": "^1.7.11",
+				"xo": "*"
+			},
+			"keywords": [
+				"temp",
+				"tmp",
+				"dir",
+				"tmpdir",
+				"os",
+				"system",
+				"real",
+				"path",
+				"realpath",
+				"resolved"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "temp-dir@1.0.0",
+			"gitHead": "9569a24ba9e5be1bf0eba644f748b9bebbcb083b",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/temp-dir-1.0.0.tgz_1490689216746_0.8579589340370148"
+			},
+			"_shasum": "0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d",
+			"_nodeVersion": "4.7.3"
+		}
+	},
+	"time": {
+		"created": "2017-03-28T08:20:16.976Z",
+		"modified": "2017-03-28T08:20:16.976Z",
+		"1.0.0": "2017-03-28T08:20:16.976Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749421748
+		}
+	},
+	"_distfiles": {
+		"temp-dir-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/temp-dir/-/temp-dir-1.0.0.tgz",
+			"sha": "0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-17b33f83711389e3",
+	"readme": "# temp-dir [![Build Status](https://travis-ci.org/sindresorhus/temp-dir.svg?branch=master)](https://travis-ci.org/sindresorhus/temp-dir)\n\n> Get the real path of the system temp directory\n\n[The `os.tmpdir()` built-in doesn't return the real path.](https://github.com/nodejs/node/issues/11422) That can cause problems when the returned path is a symlink, which is the case on macOS. Use this module to get the resolved path.\n\n\n## Install\n\n```\n$ npm install --save temp-dir\n```\n\n\n## Usage\n\n```js\nconst tempDir = require('temp-dir');\n\nconsole.log(tempDir);\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T'\n\nconsole.log(require('os').tmpdir());\n//=> '/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T' // <= Symlink\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}

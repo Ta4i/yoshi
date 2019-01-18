@@ -1,0 +1,982 @@
+{
+	"name": "@wix/wnp-petri-overrides",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.12",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.12.tgz",
+				"shasum": "dec7aacbce74d1d3ec1d50bddf7e7ec8cdb8898d"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.12"
+		},
+		"1.0.13": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.13",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.13.tgz",
+				"shasum": "7f937c3d47b5cae5bfab3e15ad7b19218c339f9c"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.13"
+		},
+		"1.0.14": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.14",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.14.tgz",
+				"shasum": "8cbee32567e13f8f74520660e364c914ecb1c4af"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.14"
+		},
+		"1.0.15": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.15",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.15.tgz",
+				"shasum": "c0db0b53861263f4f337df065397ff676298e60c"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.15"
+		},
+		"1.0.10": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.10",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.10.tgz",
+				"shasum": "871bf21ea18dbbcad7c854a8891579211d47f868"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.10"
+		},
+		"1.0.11": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.11",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.11.tgz",
+				"shasum": "f2b9c45a2ff7eedfe56612034f3a3b865bf323d6"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.11"
+		},
+		"1.0.3": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.3",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.3.tgz",
+				"shasum": "2be85172684dde06b58c4678621062142837cd52"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.3"
+		},
+		"1.0.4": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.4",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.4.tgz",
+				"shasum": "3518426b1e5da40837f036a5cc1e5cb68130735d"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.4"
+		},
+		"1.0.5": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.5",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.5.tgz",
+				"shasum": "29caedf0fd1dd339d2697ab9110321e70461661b"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.5"
+		},
+		"1.0.6": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.6",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.6.tgz",
+				"shasum": "b9099e4c46b037611a7592882fdaded0a694430c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.6"
+		},
+		"1.0.7": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.7",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.7.tgz",
+				"shasum": "598fa82dd466428db46836874f282867682cea56"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.7"
+		},
+		"1.0.8": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.8",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.8.tgz",
+				"shasum": "40646bd8d3b6a68adb9b4e2bb24f2ad43946b778"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.8"
+		},
+		"1.0.9": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.9",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.9.tgz",
+				"shasum": "364d91ba94d1a2fbd021b97b9b1cf1094e6b86ca"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.9"
+		},
+		"1.0.16": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.16",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.16.tgz",
+				"shasum": "df2b3a2e36269c51c61e9c269df2b0e26b6d896a"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.16"
+		},
+		"1.0.0": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.0",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.0.tgz",
+				"shasum": "796122bd381fb7132b9e1e119b31a2de075be6a3"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.0"
+		},
+		"1.0.17": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.17",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.17.tgz",
+				"shasum": "934838aef9e6b26cde086706bd41c71ab67c47bc"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.17"
+		},
+		"1.0.1": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.1",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.1.tgz",
+				"shasum": "26ba90c7ab0dfe85a73910b2bb1cbf6f6c84e35c"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.1"
+		},
+		"1.0.18": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.18",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.18.tgz",
+				"shasum": "ee08acb37d54fc29eeef2c475361ac30ab1dd73e"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.18"
+		},
+		"1.0.2": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.2",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.2.tgz",
+				"shasum": "924f07771e8b79e7aa49969c7cf3e1ae56f82efa"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.2"
+		},
+		"1.0.19": {
+			"name": "@wix/wnp-petri-overrides",
+			"description": "wix petri override parser",
+			"version": "1.0.19",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/petri/wnp-petri-overrides"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.19.tgz",
+				"shasum": "20753aac411a81e9e022932d5723d793b4bfdade"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"petri"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-petri-overrides@1.0.19"
+		}
+	},
+	"time": {
+		"1.0.12": "2018-11-04T14:49:14.507Z",
+		"1.0.13": "2018-11-14T12:23:44.978Z",
+		"1.0.14": "2018-12-05T11:45:20.510Z",
+		"1.0.15": "2018-12-12T08:48:22.294Z",
+		"created": "2018-06-07T08:16:23.639Z",
+		"1.0.10": "2018-10-03T10:57:14.107Z",
+		"1.0.11": "2018-10-24T15:36:06.098Z",
+		"1.0.3": "2018-07-11T18:53:47.854Z",
+		"1.0.4": "2018-07-12T07:40:55.715Z",
+		"1.0.5": "2018-08-06T09:49:46.725Z",
+		"1.0.6": "2018-08-26T12:09:59.502Z",
+		"1.0.7": "2018-09-13T10:59:50.789Z",
+		"1.0.8": "2018-09-25T14:28:33.607Z",
+		"1.0.9": "2018-10-02T10:37:45.539Z",
+		"modified": "2019-01-14T11:34:45.758Z",
+		"1.0.16": "2018-12-13T12:02:33.860Z",
+		"1.0.0": "2018-06-07T08:16:23.639Z",
+		"1.0.17": "2018-12-13T14:26:37.830Z",
+		"1.0.1": "2018-06-08T14:55:32.445Z",
+		"1.0.18": "2019-01-02T14:22:03.340Z",
+		"1.0.2": "2018-06-19T12:01:34.281Z",
+		"1.0.19": "2019-01-14T11:34:45.758Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.19"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749453443
+		}
+	},
+	"_distfiles": {
+		"wnp-petri-overrides-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.12.tgz",
+			"sha": "dec7aacbce74d1d3ec1d50bddf7e7ec8cdb8898d"
+		},
+		"wnp-petri-overrides-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.13.tgz",
+			"sha": "7f937c3d47b5cae5bfab3e15ad7b19218c339f9c"
+		},
+		"wnp-petri-overrides-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.14.tgz",
+			"sha": "8cbee32567e13f8f74520660e364c914ecb1c4af"
+		},
+		"wnp-petri-overrides-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.15.tgz",
+			"sha": "c0db0b53861263f4f337df065397ff676298e60c"
+		},
+		"wnp-petri-overrides-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.10.tgz",
+			"sha": "871bf21ea18dbbcad7c854a8891579211d47f868"
+		},
+		"wnp-petri-overrides-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.11.tgz",
+			"sha": "f2b9c45a2ff7eedfe56612034f3a3b865bf323d6"
+		},
+		"wnp-petri-overrides-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.3.tgz",
+			"sha": "2be85172684dde06b58c4678621062142837cd52"
+		},
+		"wnp-petri-overrides-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.4.tgz",
+			"sha": "3518426b1e5da40837f036a5cc1e5cb68130735d"
+		},
+		"wnp-petri-overrides-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.5.tgz",
+			"sha": "29caedf0fd1dd339d2697ab9110321e70461661b"
+		},
+		"wnp-petri-overrides-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.6.tgz",
+			"sha": "b9099e4c46b037611a7592882fdaded0a694430c"
+		},
+		"wnp-petri-overrides-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.7.tgz",
+			"sha": "598fa82dd466428db46836874f282867682cea56"
+		},
+		"wnp-petri-overrides-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.8.tgz",
+			"sha": "40646bd8d3b6a68adb9b4e2bb24f2ad43946b778"
+		},
+		"wnp-petri-overrides-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.9.tgz",
+			"sha": "364d91ba94d1a2fbd021b97b9b1cf1094e6b86ca"
+		},
+		"wnp-petri-overrides-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.16.tgz",
+			"sha": "df2b3a2e36269c51c61e9c269df2b0e26b6d896a"
+		},
+		"wnp-petri-overrides-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.0.tgz",
+			"sha": "796122bd381fb7132b9e1e119b31a2de075be6a3"
+		},
+		"wnp-petri-overrides-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.17.tgz",
+			"sha": "934838aef9e6b26cde086706bd41c71ab67c47bc"
+		},
+		"wnp-petri-overrides-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.1.tgz",
+			"sha": "26ba90c7ab0dfe85a73910b2bb1cbf6f6c84e35c"
+		},
+		"wnp-petri-overrides-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.18.tgz",
+			"sha": "ee08acb37d54fc29eeef2c475361ac30ab1dd73e"
+		},
+		"wnp-petri-overrides-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.2.tgz",
+			"sha": "924f07771e8b79e7aa49969c7cf3e1ae56f82efa"
+		},
+		"wnp-petri-overrides-1.0.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-petri-overrides/-/@wix/wnp-petri-overrides-1.0.19.tgz",
+			"sha": "20753aac411a81e9e022932d5723d793b4bfdade"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-4ab7d369dcc9fd25",
+	"readme": ""
+}

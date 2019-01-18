@@ -1,0 +1,92 @@
+{
+	"name": "@gerhobbelt/ast-util",
+	"versions": {
+		"0.6.1-4": {
+			"name": "@gerhobbelt/ast-util",
+			"description": "Utilities for AST transformers.",
+			"version": "0.6.1-4",
+			"author": {
+				"name": "Brian Donovan"
+			},
+			"homepage": "https://github.com/eventualbuddha/ast-util",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/GerHobbelt/ast-util.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eventualbuddha/ast-util/issues"
+			},
+			"engines": {
+				"node": ">= 4.0"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@gerhobbelt/ast-util/-/ast-util-0.6.1-4.tgz",
+				"shasum": "a746b4dbea5c4a45ad17abca96b0af0f7937bb8a"
+			},
+			"dependencies": {
+				"@gerhobbelt/ast-types": "0.9.13-4",
+				"private": "0.1.7"
+			},
+			"devDependencies": {
+				"esprima-fb": "15001.1001.0-dev-harmony-fb",
+				"mocha": "3.5.0",
+				"@gerhobbelt/recast": "0.12.7-7"
+			},
+			"keywords": [
+				"ast",
+				"transform",
+				"esnext",
+				"es6",
+				"macros"
+			],
+			"license": "Apache-2.0",
+			"maintainers": [
+				{
+					"name": "gerhobbelt",
+					"email": "ger@hobbelt.com"
+				}
+			],
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "mocha -R spec",
+				"pub": "npm publish --access public"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "gerhobbelt",
+				"email": "ger@hobbelt.com"
+			},
+			"_id": "@gerhobbelt/ast-util@0.6.1-4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ast-util-0.6.1-4.tgz_1503842110149_0.7405938340816647"
+			},
+			"_nodeVersion": "8.1.2"
+		}
+	},
+	"time": {
+		"created": "2017-08-27T13:55:11.305Z",
+		"modified": "2017-08-27T13:55:11.305Z",
+		"0.6.1-4": "2017-08-27T13:55:11.305Z"
+	},
+	"dist-tags": {
+		"latest": "0.6.1-4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749422184
+		}
+	},
+	"_distfiles": {
+		"ast-util-0.6.1-4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@gerhobbelt/ast-util/-/ast-util-0.6.1-4.tgz",
+			"sha": "a746b4dbea5c4a45ad17abca96b0af0f7937bb8a"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-4cae14df13e60029",
+	"readme": "# ast-util\r\n\r\nUtilities for AST transformers.\r\n\r\n## Install\r\n\r\n```\r\n$ npm install [--save] ast-util\r\n```\r\n\r\n## API\r\n\r\n<a name=\"callArraySlice\" href=\"#user-content-callArraySlice\">#</a> <b>callArraySlice</b>(<i>scope</i>, <i>node</i>[, <i>begin</i>, <i>end</i>])\r\n\r\nReturns a call to `Array.prototype.slice` with `node` as the context and\r\n`begin` and `end` as the arguments to `slice`.\r\n\r\n\r\n<a name=\"callFunctionBind\" href=\"#user-content-callFunctionBind\">#</a> <b>callFunctionBind</b>(<i>scope</i>, <i>fn</i>, <i>context</i>[, <i>args</i>])\r\n\r\nReturns a call to `Function.prototype.bind` using either `call` or `apply`\r\ndepending on what the value of `args` is. If `args` is an expression then\r\n`apply` is used. If `args` is an array of expressions, then `call`.\r\n\r\n\r\n<a name=\"callGet\" href=\"#user-content-callGet\">#</a> <b>callGet</b>(<i>scope</i>, <i>object</i>, <i>property</i>, <i>receiver</i>)\r\n\r\nThe [[Get]] internal method on objects would look something like\r\n[helpers/get.js](helpers/get.js).\r\n\r\n\r\n<a name=\"callGetOwnPropertyDescriptor\" href=\"#user-content-callGetOwnPropertyDescriptor\">#</a> <b>callGetOwnPropertyDescriptor</b>(<i>scope</i>, <i>object</i>, <i>property</i>)\r\n\r\nReturns a call to `Object.getOwnPropertyDescriptor` with the given `object` and\r\n`property`.\r\n\r\n\r\n<a name=\"callGetPrototypeOf\" href=\"#user-content-callGetPrototypeOf\">#</a> <b>callGetPrototypeOf</b>(<i>scope</i>, <i>object</i>)\r\n\r\nReturns a call to `Object.getPrototypeOf` with the given `object`.\r\n\r\n\r\n<a name=\"callHasOwnProperty\" href=\"#user-content-callHasOwnProperty\">#</a> <b>callHasOwnProperty</b>(<i>scope</i>, <i>node</i>, <i>property</i>)\r\n\r\nReturns a call to `hasOwnProperty` with `node` as the context and `property` as\r\nthe property to check.\r\n\r\n\r\n<a name=\"callSharedMethod\" href=\"#user-content-callSharedMethod\">#</a> <b>callSharedMethod</b>(<i>scope</i>, <i>callee</i>, <i>args</i>)\r\n\r\nReturns a call to the given `callee` with `args` as the arguments. If `callee`\r\nis a string then it is treated as a globally-accessible function such as\r\n`Object.defineProperty` which will be stored in a unique temporary variable.\r\nSubsequent calls to this function will re-use the same temporary variable.\r\n\r\n\r\n<a name=\"callSharedMethodWithContext\" href=\"#user-content-callSharedMethodWithContext\">#</a> <b>callSharedMethodWithContext</b>(<i>scope</i>, <i>callee</i>, <i>context</i>, <i>args</i>)\r\n\r\nReturns a call to the given `callee` with `context` as the method context and\r\n`args` as the arguments. If `callee` is a string then it is treated as a\r\nglobally-accessible function such as `Array.prototype.slice` which will be\r\nstored in a unique temporary variable. Subsequent calls to this function will\r\nre-use the same temporary variable.\r\n\r\n\r\n<a name=\"getGlobals\" href=\"#user-content-getGlobals\">#</a> <b>getGlobals</b>(<i>ast</i>)\r\n\r\nGets a list of identifiers referencing global variables anywhere within the\r\ngiven `ast`. Assuming the ast is for this code:\r\n\r\n```js\r\nvar a;\r\nfunction b(){ return c; }\r\nb(d);\r\n```\r\n\r\nThen `getGlobals` will return two identifiers, `c` and `d`.\r\n\r\n\r\n<a name=\"identifierForString\" href=\"#user-content-identifierForString\">#</a> <b>identifierForString</b>(<i>string</i>)\r\n\r\nGenerate a safe JavaScript identifier for the given string.\r\n\r\n\r\n<a name=\"injectShared\" href=\"#user-content-injectShared\">#</a> <b>injectShared</b>(<i>scope</i>, <i>name</i>, <i>expression</i>)\r\n\r\nInjects a shared variable with a unique identifier. Only the first call with\r\nthe same `scope` and `name` will result in a variable declaration being\r\ncreated. The `expression` passed in can either be an AST node or a function to\r\ngenerate one. This function is generally used to inject repeatedly-used values\r\nand prevent repeated execution.\r\n\r\n\r\n<a name=\"injectVariable\" href=\"#user-content-injectVariable\">#</a> <b>injectVariable</b>(<i>scope</i>, <i>identifier</i>[, <i>init</i>])\r\n\r\nInjects a variable with the given `identifier` into the given `scope` as a\r\n`var` declaration with an optional initial value.\r\n\r\n\r\n<a name=\"isReference\" href=\"#user-content-isReference\">#</a> <b>isReference</b>(<i>path</i>)\r\n\r\nDetermines whether the given `path` is a value reference. For example, `a` and\r\n`b` are references, but `c` is not:\r\n\r\n```js\r\na(b.c);\r\n```\r\n\r\nOnly identifiers count as references.\r\n\r\n\r\n<a name=\"isUsed\" href=\"#user-content-isUsed\">#</a> <b>isUsed</b>(<i>scope</i>, <i>name</i>)\r\n\r\nDetermines whether the given `name` should be considered \"used\" in the given\r\n`scope`. For a name to be used, it should either:\r\n\r\n  1. Be declared in this scope or a parent scope.\r\n  2. Be referenced in this scope, a parent scope, or any child scopes.\r\n\r\nFor example, `a`, `b`, and `d` are used in the global scope of this example\r\nwhile `c` is not:\r\n\r\n```js\r\nvar a;\r\nfunction b() {}\r\n\r\ntry {\r\n  a = b(d);\r\n} catch (c) {\r\n}\r\n```\r\n\r\n\r\n<a name=\"sharedFor\" href=\"#user-content-sharedFor\">#</a> <b>sharedFor</b>(<i>scope</i>, <i>name</i>)\r\n\r\nInjects a shared variable by getting the named value from a dotted path. For\r\nexample, this will return an identifier that can be used in place of the named\r\nexpression:\r\n\r\n```js\r\nsharedFor(scope, 'Object.defineProperty')\r\n```\r\n\r\nSubsequent calls to `sharedFor` in the same scope will return the same\r\nidentifier.\r\n\r\n\r\n<a name=\"uniqueIdentifier\" href=\"#user-content-uniqueIdentifier\">#</a> <b>uniqueIdentifier</b>(<i>scope</i>[, <i>name</i>])\r\n\r\nGenerates an identifier guaranteed not to collide with any others in the given\r\n`scope`. This function will also never generate the same identifier twice for\r\nany `scope` whose global scope already got that identifier.\r\n\r\nCalled in a scope with no global references and no variables, the first time\r\nthis function is called it will return an identifier named `$__0`.\r\n\r\nWhen called with a name that name will be used with a prefix, \"$\\_\\_\", if\r\npossible. If that name is already used then it will append incrementing numbers\r\nuntil it finds a name that isn't used.\r\n\r\n\r\n## Usage\r\n\r\nThese methods are useful to source transforms, such as transpilers or macros.\r\nSuch transforms often have to insert variables into scopes and replace\r\nexpressions. Using `injectVariable` and `injectShared` are specifically for\r\nthat purpose. In conjunction with `ast-types`, here's how you'd write a simple\r\nversion of a `swap` macro:\r\n\r\n```js\r\n// var tmp;\r\nvar tmp = util.injectVariable(\r\n  this.scope,\r\n  util.uniqueIdentifier(this.scope)\r\n);\r\n\r\nthis.replace(\r\n  b.sequenceExpression([\r\n    // tmp = left\r\n    b.assignmentExpression(\r\n      '=',\r\n      tmp,\r\n      left\r\n    ),\r\n    // left = right\r\n    b.assignmentExpression(\r\n      '=',\r\n      left,\r\n      right\r\n    ),\r\n    // right = tmp\r\n    b.assignmentExpression(\r\n      '=',\r\n      right,\r\n      tmp\r\n    )\r\n  ])\r\n);\r\n```\r\n\r\nSee [examples/swap-macro.js](examples/swap-macro.js) for a more complete\r\nexample.\r\n\r\n## Contributing\r\n\r\n[![Build Status](https://travis-ci.org/eventualbuddha/ast-util.png?branch=master)](https://travis-ci.org/eventualbuddha/ast-util)\r\n\r\n\r\n### Setup\r\n\r\nFirst, install the development dependencies:\r\n\r\n```\r\n$ npm install\r\n```\r\n\r\nThen, try running the tests:\r\n\r\n```\r\n$ make test\r\n```\r\n\r\nIf you're adding or editing code that injects helpers into a scope, you'll need\r\nto edit and run the Makefile to have it generate the files in lib/helpers from\r\nthe files in helpers.\r\n\r\n\r\n### Pull Requests\r\n\r\n1. Fork it\r\n2. Create your feature branch (`git checkout -b my-new-feature`)\r\n3. Commit your changes (`git commit -am 'Add some feature'`)\r\n4. Push to the branch (`git push origin my-new-feature`)\r\n5. Create new Pull Request\r\n\r\n\r\n## Acknowledgements\r\n\r\nHuge thanks to [Ben Newman][benjamn] for [ast-types][ast-types], on which much\r\nof this library depends.\r\n\r\n[benjamn]: https://github.com/benjamn\r\n[ast-types]: https://github.com/benjamn/ast-types"
+}

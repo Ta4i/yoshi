@@ -1,0 +1,146 @@
+{
+	"name": "trier-promise",
+	"versions": {
+		"1.0.0": {
+			"name": "trier-promise",
+			"description": "A promise based trier",
+			"version": "1.0.0",
+			"author": {
+				"name": "Guyon Roche"
+			},
+			"engines": {
+				"node": ">= 0.1.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/trier-promise/-/trier-promise-1.0.0.tgz",
+				"shasum": "858a6d26df985b864d849984db2a1ce4262e7832"
+			},
+			"devDependencies": {
+				"chai": "*",
+				"mocha": "*",
+				"sinon": "*",
+				"sinon-chai": "*"
+			},
+			"keywords": [
+				"trier",
+				"retry",
+				"promise",
+				"timeout"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE",
+				"README.md"
+			],
+			"maintainers": [
+				{
+					"name": "guyonroche",
+					"email": "cyber.sapiens@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha spec/unit --recursive"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "guyonroche",
+				"email": "cyber.sapiens@hotmail.com"
+			},
+			"_id": "trier-promise@1.0.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/trier-promise-1.0.0.tgz_1476431352373_0.847573125269264"
+			},
+			"_shasum": "858a6d26df985b864d849984db2a1ce4262e7832",
+			"_nodeVersion": "4.4.3"
+		},
+		"1.0.1": {
+			"name": "trier-promise",
+			"description": "A promise based trier",
+			"version": "1.0.1",
+			"author": {
+				"name": "Guyon Roche"
+			},
+			"engines": {
+				"node": ">= 0.1.0"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/trier-promise/-/trier-promise-1.0.1.tgz",
+				"shasum": "a51bc4e819a78142b377106488f4552aa83c0159"
+			},
+			"devDependencies": {
+				"chai": "*",
+				"mocha": "*",
+				"sinon": "*",
+				"sinon-chai": "*"
+			},
+			"keywords": [
+				"trier",
+				"retry",
+				"promise",
+				"timeout"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE",
+				"README.md"
+			],
+			"maintainers": [
+				{
+					"name": "guyonroche",
+					"email": "cyber.sapiens@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha spec/unit --recursive"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_npmUser": {
+				"name": "guyonroche",
+				"email": "cyber.sapiens@hotmail.com"
+			},
+			"_id": "trier-promise@1.0.1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/trier-promise-1.0.1.tgz_1476431413799_0.15788136795163155"
+			},
+			"_shasum": "a51bc4e819a78142b377106488f4552aa83c0159",
+			"_nodeVersion": "4.4.3"
+		}
+	},
+	"time": {
+		"created": "2016-10-14T07:49:13.994Z",
+		"modified": "2016-10-14T07:50:15.568Z",
+		"1.0.0": "2016-10-14T07:49:13.994Z",
+		"1.0.1": "2016-10-14T07:50:15.568Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749377616
+		}
+	},
+	"_distfiles": {
+		"trier-promise-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/trier-promise/-/trier-promise-1.0.0.tgz",
+			"sha": "858a6d26df985b864d849984db2a1ce4262e7832"
+		},
+		"trier-promise-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/trier-promise/-/trier-promise-1.0.1.tgz",
+			"sha": "a51bc4e819a78142b377106488f4552aa83c0159"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-061f4cc6416423a0",
+	"readme": "# trier-promise\r\n\r\nA promise based trier\r\n\r\nDo one thing and do it well many times.\r\n\r\n# Installation\r\n\r\nnpm install trier-promise\r\n\r\n# Interface\r\n\r\n## Require\r\n\r\n```javascript\r\nvar tp = require('trier-promise');\r\n\r\n```\r\n\r\n## Try something for 10 seconds at 1 second intervals\r\n\r\n```javascript\r\ntp({\r\n    action: someFunctionThatReturnsAPromise,\r\n    timeout: 10000,\r\n    interval: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```\r\n\r\n## Try something for 10 seconds but guarantee 1 second sleep time between calls\r\n\r\nIf the asynchronous function takes a while, you may not want overlapping calls. \r\n\r\n```javascript\r\ntp({\r\n    action: aFunctionWithStdAsyncSignature,\r\n    timeout: 10000,\r\n    sleep: 1000,\r\n    async: true   // note: this is needed so that tp knows to call with callback and wait\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```\r\n\r\n## Try something 10 times, no matter the time\r\n\r\n```javascript\r\ntp({\r\n    action: aFunctionThatReturnsImmediately,\r\n    limit: 10,\r\n    sleep: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'LIMIT'\r\n  });\r\n```\r\n\r\n## Try something until some condition\r\n\r\n```javascript\r\ntp({\r\n    action: someFunctionThatReturnsAPromise,\r\n    until: function() { return Math.random() < 0.1 },\r\n    sleep: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'UNTIL'\r\n  });\r\n```\r\n\r\n\r\n## Exponentially growing interval\r\n\r\nSometimes you want to start polling rapidly but slow down for subsequent calls.\r\n\r\nSo instead of using a Number value as the interval (or sleep), specify a function that returns a Number.\r\n\r\n```javascript\r\nvar interval = 10;\r\ntp({\r\n    action: aFunctionWithStdAsyncSignature,\r\n    timeout: 600000, // 10 minutes\r\n    interval: function() { return interval *= 2; },\r\n    async: true   // note: this is needed so that tp knows to call with callback and wait\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```"
+}

@@ -1,0 +1,1455 @@
+{
+	"name": "crc",
+	"versions": {
+		"2.0.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "2.0.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.0.0.tgz",
+				"shasum": "b6115bbae81f4465b9a226307657f44d9e380df6"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*",
+				"coffee-script": "~1.7.1",
+				"coffee-errors": "~0.8.6",
+				"chai": "~1.9.1"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@2.0.0"
+		},
+		"2.1.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "2.1.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.1.0.tgz",
+				"shasum": "e3fe4797f3f063bce73e45073d38dbfa9315fdce"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*",
+				"coffee-script": "~1.7.1",
+				"coffee-errors": "~0.8.6",
+				"chai": "~1.9.1"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@2.1.0",
+			"_shasum": "e3fe4797f3f063bce73e45073d38dbfa9315fdce"
+		},
+		"0.2.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "0.2.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"contributors": [],
+			"engines": {
+				"node": "*"
+			},
+			"main": "./lib/crc.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.2.0.tgz",
+				"shasum": "f4486b9bf0a12df83c3fca14e31e030fdabd9454"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_npmVersion": "1.0.106",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@0.2.0",
+			"_engineSupported": true,
+			"_defaultsLoaded": true,
+			"_nodeVersion": "v0.6.1"
+		},
+		"0.2.1": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "0.2.1",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"contributors": [],
+			"main": "./lib/crc.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.2.1.tgz",
+				"shasum": "b1f111fc3abb9b83d3a291a6820cf6e8c7ef32d7"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@0.2.1"
+		},
+		"0.3.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "0.3.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"contributors": [
+				{
+					"name": "Dean Kusler",
+					"email": "deankus@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/crc.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.3.0.tgz",
+				"shasum": "6848d1e2634dae9f7233b23d8ce637257406908e"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha --require should --reporter spec"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@0.3.0"
+		},
+		"2.1.1": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "2.1.1",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.1.1.tgz",
+				"shasum": "18ebc6327af56b594b1fbf93677dd083807d7803"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*",
+				"coffee-script": "~1.7.1",
+				"coffee-errors": "~0.8.6",
+				"chai": "~1.9.1"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@2.1.1",
+			"_shasum": "18ebc6327af56b594b1fbf93677dd083807d7803"
+		},
+		"0.1.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "0.1.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"contributors": [],
+			"engines": {
+				"node": "*"
+			},
+			"main": "./lib/crc",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc@0.1.0.tgz",
+				"shasum": "4ec3121944e24ee901fd52a6ea4a12718bee8695"
+			},
+			"directories": {},
+			"scripts": {},
+			"_id": "crc@0.1.0",
+			"_nodeSupported": true
+		},
+		"3.0.0": {
+			"name": "crc",
+			"description": "Various CRC JavaScript implementations",
+			"version": "3.0.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.0.0.tgz",
+				"shasum": "d11e97ec44a844e5eb15a74fa2c7875d0aac4b22"
+			},
+			"devDependencies": {
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "~1.9.1",
+				"coffee-errors": "~0.8.6",
+				"coffee-script": "~1.7.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-beta.0",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.0.0",
+			"gitHead": "16dbe7ca019d73be10e99c2f5fa690dcbfc0dd40",
+			"_shasum": "d11e97ec44a844e5eb15a74fa2c7875d0aac4b22"
+		},
+		"3.4.1": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.4.1",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.1.tgz",
+				"shasum": "65d5830b1a2569557cfb324c0e679998521473ee"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.3.15",
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.4.1",
+			"gitHead": "ad6a566e578a5c4c9c0d05d57576dbeb788fe696",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/crc-3.4.1.tgz_1477680338196_0.20758443232625723"
+			},
+			"_shasum": "65d5830b1a2569557cfb324c0e679998521473ee",
+			"_nodeVersion": "6.2.2"
+		},
+		"3.5.0": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.5.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.5.0.tgz",
+				"shasum": "98b8ba7d489665ba3979f59b21381374101a1964"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.3.15",
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.5.0",
+			"gitHead": "9b1dc9d471ecc8690c792bcc586113710f161c45",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crc-3.5.0.tgz_1506361366566_0.9638618873432279"
+			},
+			"_shasum": "98b8ba7d489665ba3979f59b21381374101a1964",
+			"_nodeVersion": "7.10.0"
+		},
+		"3.4.2": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.4.2",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.2.tgz",
+				"shasum": "67da2a6723a9a69deebf839a29539e2fea52592e"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.3.15",
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.4.2",
+			"gitHead": "85f206e903ff464c7b60060c56bd49129a0e48a6",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/crc-3.4.2.tgz_1479764279668_0.9695344720967114"
+			},
+			"_shasum": "67da2a6723a9a69deebf839a29539e2fea52592e",
+			"_nodeVersion": "6.9.1"
+		},
+		"3.6.0": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.6.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.6.0.tgz",
+				"shasum": "50cf87e2601f9bf5e482a1575f006a1138a3ad37"
+			},
+			"dependencies": {
+				"buffer": "^5.1.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.3",
+				"babel-preset-es2015": "^6.24.1",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^2.1.4",
+				"buffer-crc32": "^0.2.13",
+				"chai": "^4.1.2",
+				"eslint": "^5.1.0",
+				"eslint-config-airbnb": "^17.0.0",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-import": "^2.13.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-prettier": "^2.6.2",
+				"eslint-plugin-react": "^7.10.0",
+				"mocha": "^5.2.0",
+				"prettier": "^1.13.7",
+				"seedrandom": "^2.4.3"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib",
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint {test,src}/{,**/}*.js",
+				"test": "npm run lint && mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js **/*.js"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.6.0",
+			"gitHead": "0baedb542bfb0cb89a938647fd05a4f35115f5aa",
+			"module": "./src/es6/index.js",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crc_3.6.0_1531507138221_0.9861505959666048"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"3.4.3": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.4.3",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.3.tgz",
+				"shasum": "05ba61b6c0471007dd0d4bcddd2ba96ceab08a86"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.3.15",
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.4.3",
+			"gitHead": "141d9298974725f8520b6872e27d26b6e2ebe280",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/crc-3.4.3.tgz_1479772908844_0.7031410404015332"
+			},
+			"_shasum": "05ba61b6c0471007dd0d4bcddd2ba96ceab08a86",
+			"_nodeVersion": "4.0.0"
+		},
+		"3.7.0": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.7.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.7.0.tgz",
+				"shasum": "58b7083e32ba4b276e1f4cbce1a78b39a6ab63f9"
+			},
+			"dependencies": {
+				"buffer": "^5.1.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.3",
+				"babel-preset-es2015": "^6.24.1",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^2.1.4",
+				"buffer-crc32": "^0.2.13",
+				"chai": "^4.1.2",
+				"eslint": "^5.1.0",
+				"eslint-config-airbnb": "^17.0.0",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-import": "^2.13.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-prettier": "^2.6.2",
+				"eslint-plugin-react": "^7.10.0",
+				"mocha": "^5.2.0",
+				"prettier": "^1.13.7",
+				"seedrandom": "^2.4.3"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint *.js test/{,**/}*.js",
+				"test": "npm run lint && mocha test/*.test.js && ./webpack-test/test.sh",
+				"build": "rm -fr lib; babel --out-dir ./lib/es6 *.js; cd commonjs; babel --out-dir ../lib *.js",
+				"pretest": "npm run build"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.7.0",
+			"gitHead": "06bdfd3e4202923a972c0dfdd4db4c4c0c3717b1",
+			"module": "./index.js",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crc_3.7.0_1531614366219_0.2338231963216686"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"3.4.4": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.4.4",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.4.tgz",
+				"shasum": "9da1e980e3bd44fc5c93bf5ab3da3378d85e466b"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.3.15",
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.4.4",
+			"gitHead": "360367e1ae930d8663679aff89bb79705947c08c",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/crc-3.4.4.tgz_1481570747807_0.07623594417236745"
+			},
+			"_shasum": "9da1e980e3bd44fc5c93bf5ab3da3378d85e466b",
+			"_nodeVersion": "6.9.2"
+		},
+		"3.8.0": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.8.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.8.0.tgz",
+				"shasum": "ad60269c2c856f8c299e2c4cc0de4556914056c6"
+			},
+			"dependencies": {
+				"buffer": "^5.1.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.3",
+				"babel-preset-es2015": "^6.24.1",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^2.1.4",
+				"buffer-crc32": "^0.2.13",
+				"chai": "^4.1.2",
+				"eslint": "^5.1.0",
+				"eslint-config-airbnb": "^17.0.0",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-import": "^2.13.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-prettier": "^2.6.2",
+				"eslint-plugin-react": "^7.10.0",
+				"mocha": "^5.2.0",
+				"prettier": "^1.13.7",
+				"seedrandom": "^2.4.3"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib",
+				"*.js"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint *.js test/{,**/}*.js",
+				"test": "npm run lint && mocha test/*.test.js && ./webpack-test/test.sh",
+				"build": "rm -fr lib; babel --out-dir ./lib/es6 *.js; cd commonjs; babel --out-dir ../lib *.js",
+				"pretest": "npm run build"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.8.0",
+			"gitHead": "a16b8a670381de4ca713ff0fddd2a51bb3b206e3",
+			"module": "./index.js",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crc_3.8.0_1532567395546_0.2689495741905876"
+			},
+			"_nodeVersion": "10.1.0"
+		},
+		"3.1.0": {
+			"name": "crc",
+			"description": "Various CRC JavaScript implementations",
+			"version": "3.1.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.1.0.tgz",
+				"shasum": "83d57a6e049c40808450a35874a6bb0aa289024c"
+			},
+			"devDependencies": {
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "~1.9.1",
+				"coffee-errors": "~0.8.6",
+				"coffee-script": "~1.7.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.1.0",
+			"gitHead": "d5dab983923c6dc94dd9f586228f35972048dd4f",
+			"_shasum": "83d57a6e049c40808450a35874a6bb0aa289024c"
+		},
+		"1.0.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "1.0.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-1.0.0.tgz",
+				"shasum": "c346ac26c63cd7f37b7d1f1959ac9c0b5136c445"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*",
+				"coffee-script": "~1.7.1",
+				"coffee-errors": "~0.8.6",
+				"chai": "~1.9.1"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@1.0.0"
+		},
+		"3.2.0": {
+			"name": "crc",
+			"description": "Various CRC JavaScript implementations",
+			"version": "3.2.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.2.0.tgz",
+				"shasum": "9da5dd86d5803f2ef1f77d2284d2d44a450d749a"
+			},
+			"devDependencies": {
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "~1.9.1",
+				"coffee-errors": "~0.8.6",
+				"coffee-script": "~1.7.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.2.0",
+			"gitHead": "d4efc96dc69600d69310269307c52d607dadc588",
+			"_shasum": "9da5dd86d5803f2ef1f77d2284d2d44a450d749a"
+		},
+		"1.1.0": {
+			"name": "crc",
+			"description": "CRC JavaScript implementation",
+			"version": "1.1.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-1.1.0.tgz",
+				"shasum": "70aeaa350e1b7dabea9db76919f280f2661b6950"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*",
+				"coffee-script": "~1.7.1",
+				"coffee-errors": "~0.8.6",
+				"chai": "~1.9.1"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@1.1.0"
+		},
+		"3.2.1": {
+			"name": "crc",
+			"description": "Various CRC JavaScript implementations",
+			"version": "3.2.1",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.2.1.tgz",
+				"shasum": "5d9c8fb77a245cd5eca291e5d2d005334bab0082"
+			},
+			"devDependencies": {
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "~1.9.1",
+				"coffee-errors": "~0.8.6",
+				"coffee-script": "~1.7.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.2.1",
+			"gitHead": "71caf362b061992bfe4ca8706ee264e764d2e88e",
+			"_shasum": "5d9c8fb77a245cd5eca291e5d2d005334bab0082"
+		},
+		"3.3.0": {
+			"name": "crc",
+			"description": "Various CRC JavaScript implementations",
+			"version": "3.3.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.3.0.tgz",
+				"shasum": "fa622e1bc388bf257309082d6b65200ce67090ba"
+			},
+			"devDependencies": {
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "~1.9.1",
+				"coffee-errors": "~0.8.6",
+				"coffee-script": "~1.7.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.spec.coffee",
+				"pretest": "coffee --bare --output ./lib --compile ./src/*.coffee"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.3.0",
+			"gitHead": "5ec5f3c74cd5a0315ac428af695743ff447a6723",
+			"_shasum": "fa622e1bc388bf257309082d6b65200ce67090ba",
+			"_nodeVersion": "0.12.2"
+		},
+		"3.4.0": {
+			"name": "crc",
+			"description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
+			"version": "3.4.0",
+			"author": {
+				"name": "Alex Gorbatchev",
+				"url": "https://github.com/alexgorbatchev"
+			},
+			"homepage": "https://github.com/alexgorbatchev/node-crc",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/alexgorbatchev/node-crc.git"
+			},
+			"bugs": {
+				"url": "https://github.com/alexgorbatchev/node-crc/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.0.tgz",
+				"shasum": "4258e351613a74ef1153dfcb05e820c3e9715d7f"
+			},
+			"devDependencies": {
+				"babel-core": "^6.1.21",
+				"babel-preset-es2015": "^6.1.18",
+				"beautify-benchmark": "^0.2.4",
+				"benchmark": "^1.0.0",
+				"buffer-crc32": "^0.2.3",
+				"chai": "^3.4.1",
+				"mocha": "*",
+				"seedrandom": "^2.3.6"
+			},
+			"keywords": [
+				"crc"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "alexgorbatchev",
+					"email": "alex.gorbatchev@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test/*.test.js",
+				"pretest": "cd src && babel --out-dir ../lib *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_npmUser": {
+				"name": "alexgorbatchev",
+				"email": "alex.gorbatchev@gmail.com"
+			},
+			"_id": "crc@3.4.0",
+			"gitHead": "3726e792cb4a328ef2d935cfd896e54fa9529aaf",
+			"babel": {
+				"presets": [
+					"es2015"
+				]
+			},
+			"_shasum": "4258e351613a74ef1153dfcb05e820c3e9715d7f",
+			"_nodeVersion": "0.12.7"
+		}
+	},
+	"time": {
+		"0.2.0": "2012-04-29T01:55:36.317Z",
+		"0.2.1": "2013-09-06T17:49:07.811Z",
+		"0.3.0": "2014-03-24T18:31:04.347Z",
+		"0.1.0": "2010-12-19T22:22:43.690Z",
+		"3.0.0": "2014-09-13T02:26:13.392Z",
+		"3.4.1": "2016-10-28T18:45:42.205Z",
+		"3.5.0": "2017-09-25T17:42:46.628Z",
+		"modified": "2018-07-26T01:09:58.114Z",
+		"3.4.2": "2016-11-21T21:38:01.630Z",
+		"3.6.0": "2018-07-13T18:38:58.348Z",
+		"3.4.3": "2016-11-22T00:01:49.066Z",
+		"3.7.0": "2018-07-15T00:26:06.378Z",
+		"3.4.4": "2016-12-12T19:25:49.678Z",
+		"3.8.0": "2018-07-26T01:09:55.675Z",
+		"3.1.0": "2014-11-12T19:15:36.950Z",
+		"3.2.0": "2014-11-12T21:31:46.636Z",
+		"3.2.1": "2014-11-12T21:32:25.322Z",
+		"3.3.0": "2015-06-06T05:55:40.656Z",
+		"3.4.0": "2015-12-08T00:31:51.565Z",
+		"2.0.0": "2014-05-22T00:49:18.429Z",
+		"2.1.0": "2014-06-14T20:13:13.863Z",
+		"created": "2010-12-19T22:22:42.664Z",
+		"2.1.1": "2014-06-14T20:16:26.367Z",
+		"1.0.0": "2014-03-25T02:35:43.651Z",
+		"1.1.0": "2014-05-22T00:43:16.601Z"
+	},
+	"dist-tags": {
+		"latest": "3.8.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749451242
+		}
+	},
+	"_distfiles": {
+		"crc-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.0.0.tgz",
+			"sha": "b6115bbae81f4465b9a226307657f44d9e380df6"
+		},
+		"crc-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.1.0.tgz",
+			"sha": "e3fe4797f3f063bce73e45073d38dbfa9315fdce"
+		},
+		"crc-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.2.0.tgz",
+			"sha": "f4486b9bf0a12df83c3fca14e31e030fdabd9454"
+		},
+		"crc-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.2.1.tgz",
+			"sha": "b1f111fc3abb9b83d3a291a6820cf6e8c7ef32d7"
+		},
+		"crc-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-0.3.0.tgz",
+			"sha": "6848d1e2634dae9f7233b23d8ce637257406908e"
+		},
+		"crc-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-2.1.1.tgz",
+			"sha": "18ebc6327af56b594b1fbf93677dd083807d7803"
+		},
+		"crc@0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc@0.1.0.tgz",
+			"sha": "4ec3121944e24ee901fd52a6ea4a12718bee8695"
+		},
+		"crc-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.0.0.tgz",
+			"sha": "d11e97ec44a844e5eb15a74fa2c7875d0aac4b22"
+		},
+		"crc-3.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.1.tgz",
+			"sha": "65d5830b1a2569557cfb324c0e679998521473ee"
+		},
+		"crc-3.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.5.0.tgz",
+			"sha": "98b8ba7d489665ba3979f59b21381374101a1964"
+		},
+		"crc-3.4.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.2.tgz",
+			"sha": "67da2a6723a9a69deebf839a29539e2fea52592e"
+		},
+		"crc-3.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.6.0.tgz",
+			"sha": "50cf87e2601f9bf5e482a1575f006a1138a3ad37"
+		},
+		"crc-3.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.3.tgz",
+			"sha": "05ba61b6c0471007dd0d4bcddd2ba96ceab08a86"
+		},
+		"crc-3.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.7.0.tgz",
+			"sha": "58b7083e32ba4b276e1f4cbce1a78b39a6ab63f9"
+		},
+		"crc-3.4.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.4.tgz",
+			"sha": "9da1e980e3bd44fc5c93bf5ab3da3378d85e466b"
+		},
+		"crc-3.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.8.0.tgz",
+			"sha": "ad60269c2c856f8c299e2c4cc0de4556914056c6"
+		},
+		"crc-3.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.1.0.tgz",
+			"sha": "83d57a6e049c40808450a35874a6bb0aa289024c"
+		},
+		"crc-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-1.0.0.tgz",
+			"sha": "c346ac26c63cd7f37b7d1f1959ac9c0b5136c445"
+		},
+		"crc-3.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.2.0.tgz",
+			"sha": "9da5dd86d5803f2ef1f77d2284d2d44a450d749a"
+		},
+		"crc-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-1.1.0.tgz",
+			"sha": "70aeaa350e1b7dabea9db76919f280f2661b6950"
+		},
+		"crc-3.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.2.1.tgz",
+			"sha": "5d9c8fb77a245cd5eca291e5d2d005334bab0082"
+		},
+		"crc-3.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.3.0.tgz",
+			"sha": "fa622e1bc388bf257309082d6b65200ce67090ba"
+		},
+		"crc-3.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/crc/-/crc-3.4.0.tgz",
+			"sha": "4258e351613a74ef1153dfcb05e820c3e9715d7f"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-4123989f5284a5c0",
+	"readme": "# crc\n\nThe module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.\n\n## Features\n\n- Full test suite comparing values against reference `pycrc` implementation.\n- Pure JavaScript implementation, no dependencies.\n- ES6 modules.\n- Provides CRC tables for optimized calculations.\n- Provides support for the following CRC algorithms:\n  - CRC1 (`crc1`)\n  - CRC8 (`crc8`)\n  - CRC8 1-Wire (`crc81wire`)\n  - CRC16 (`crc16`)\n  - CRC16 CCITT (`crc16ccitt`)\n  - CRC16 Modbus (`crc16modbus`)\n  - CRC16 Kermit (`crc16kermit`)\n  - CRC16 XModem (`crc16xmodem`)\n  - CRC24 (`crc24`)\n  - CRC32 (`crc32`)\n  - CRCJAM (`crcjam`)\n\n## Installation\n\n```\nnpm install crc\n```\n\n## Usage\n\nCalculate a CRC32 (recommended way):\n\n```js\nimport crc32 from 'crc/crc32';\ncrc32('hello').toString(16);\n// \"3610a686\"\n```\n\nImport everything (this may bloat bundle size):\n\n```js\nimport crc from 'crc';\ncrc.crc32('hello').toString(16);\n// \"3610a686\"\n```\n\nOr use CommonJS (compatability mode, no longer recommended):\n\n```js\nconst { crc32 } = require('crc');\ncrc32('hello').toString(16);\n// \"3610a686\"\n```\n\nCalculate a CRC32 of a file:\n\n```js\ncrc32(fs.readFileSync('README.md', 'utf8')).toString(16);\n// \"127ad531\"\n```\n\nOr using a `Buffer`:\n\n```js\ncrc32(fs.readFileSync('README.md', 'utf8')).toString(16);\n// \"127ad531\"\n```\n\nIncrementally calculate a CRC32:\n\n```js\nvalue = crc.crc32('one');\nvalue = crc.crc32('two', value);\nvalue = crc.crc32('three', value);\nvalue.toString(16);\n// \"9e1c092\"\n```\n\n# Important: Node >= 6.3.0 < 6.9.2\n\nThere's was a bug in Node [#9342](https://github.com/nodejs/node/issues/9342) that affected CRC calculation if `Buffer.split()` is used (see issue discussion for details). This affected all version starting from `6.3.0` up to but not including `6.9.2`. The patch [#9341](https://github.com/nodejs/node/pull/9341) was released in `6.9.2`. If you are upgrading and seeing odd CRC calculation mismatches, this might be the reason.\n\n## Running tests\n\n```\nnpm test\n```\n\n## Thanks!\n\n[pycrc](http://www.tty1.net/pycrc/) library is which the source of all of the CRC tables.\n\n# License\n\nThe MIT License (MIT)\n\nCopyright (c) 2014 Alex Gorbatchev\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+}

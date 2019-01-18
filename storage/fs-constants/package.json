@@ -1,0 +1,72 @@
+{
+	"name": "fs-constants",
+	"versions": {
+		"1.0.0": {
+			"name": "fs-constants",
+			"description": "Require constants across node and the browser",
+			"version": "1.0.0",
+			"author": {
+				"name": "Mathias Buus",
+				"url": "@mafintosh"
+			},
+			"homepage": "https://github.com/mafintosh/fs-constants",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mafintosh/fs-constants.git"
+			},
+			"bugs": {
+				"url": "https://github.com/mafintosh/fs-constants/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fs-constants/-/fs-constants-1.0.0.tgz",
+				"shasum": "6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mafintosh",
+					"email": "mathiasbuus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "mafintosh",
+				"email": "mathiasbuus@gmail.com"
+			},
+			"_id": "fs-constants@1.0.0",
+			"gitHead": "3636fd76cf948ebfc143c1913af6d3c4450b1c46",
+			"browser": "browser.js",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/fs-constants_1.0.0_1524753752667_0.578647269374104"
+			},
+			"_nodeVersion": "9.11.1"
+		}
+	},
+	"time": {
+		"created": "2018-04-26T14:42:32.667Z",
+		"modified": "2018-04-26T14:42:35.842Z",
+		"1.0.0": "2018-04-26T14:42:32.817Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749438174
+		}
+	},
+	"_distfiles": {
+		"fs-constants-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fs-constants/-/fs-constants-1.0.0.tgz",
+			"sha": "6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
+		}
+	},
+	"_attachments": {},
+	"_rev": "2-09ae5d0b5b483a27",
+	"readme": "# fs-constants\n\nSmall module that allows you to get the fs constants across\nNode and the browser. \n\n```\nnpm install fs-constants\n```\n\nPreviously you would use `require('constants')` for this in node but that has been\ndeprecated and changed to `require('fs').constants` which does not browserify.\n\nThis module uses `require('constants')` in the browser and `require('fs').constants` in node to work around this\n\n\n## Usage\n\n``` js\nvar constants = require('fs-constants')\n\nconsole.log('constants:', constants)\n```\n\n## License\n\nMIT"
+}

@@ -1,0 +1,529 @@
+{
+	"name": "wait-port",
+	"versions": {
+		"0.1.3": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.1.3",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.3.tgz",
+				"shasum": "d67206d159537fa36b1c02fdfebfc9227032396f"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha -t 10000 lib/**/*.spec.js",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --inspect --debug-brk lib/**/*.spec.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.1.3",
+			"gitHead": "babda60e413acf657b36d1be6c3a2fc0a14cb299",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/wait-port-0.1.3.tgz_1494763457552_0.6462075388990343"
+			},
+			"_shasum": "d67206d159537fa36b1c02fdfebfc9227032396f",
+			"_nodeVersion": "7.5.0"
+		},
+		"0.2.2": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.2.2",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.2.tgz",
+				"shasum": "d51a491e484a17bf75a947e711a2f012b4e6f2e3"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2",
+				"sinon": "^2.3.1"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha --recursive -t 10000 'lib/**/*.spec.js'",
+				"test:watch": "DEBUG=wait-port mocha --watch --recursive -t 10000 'lib/**/*.spec.js'",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --recursive --inspect --debug-brk 'lib/**/*.spec.js'"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.2.2",
+			"gitHead": "5537ab0f236e3933405f2ed87577437a81bbdd3b",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/wait-port-0.2.2.tgz_1505375661120_0.6271125564817339"
+			},
+			"_shasum": "d51a491e484a17bf75a947e711a2f012b4e6f2e3",
+			"_nodeVersion": "6.11.1"
+		},
+		"0.1.4": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.1.4",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.4.tgz",
+				"shasum": "797b1008d54e64a20292e3f2e625da46325653f6"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2",
+				"sinon": "^2.3.1"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha --recursive -t 10000 'lib/**/*.spec.js'",
+				"test:watch": "DEBUG=wait-port mocha --watch --recursive -t 10000 'lib/**/*.spec.js'",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --recursive --inspect --debug-brk 'lib/**/*.spec.js'"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.1.4",
+			"gitHead": "1b12247ebc5c8e256ae8553342de4c95b5675516",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/wait-port-0.1.4.tgz_1495728314765_0.1076088105328381"
+			},
+			"_shasum": "797b1008d54e64a20292e3f2e625da46325653f6",
+			"_nodeVersion": "7.5.0"
+		},
+		"0.1.1": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.1.tgz",
+				"shasum": "6987ea8fcf29b8796cd3e519fa7a4feaba61534d"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha -t 10000 lib/**/*.spec.js",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --inspect --debug-brk lib/**/*.spec.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.1.1",
+			"gitHead": "cb876fb1f0aa4c2f7103e76598e029c0a27f4cdb",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/wait-port-0.1.1.tgz_1494762236961_0.5176351028494537"
+			},
+			"_shasum": "6987ea8fcf29b8796cd3e519fa7a4feaba61534d",
+			"_nodeVersion": "7.5.0"
+		},
+		"0.2.0": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.2.0",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.0.tgz",
+				"shasum": "4cdf780ae1dfe6a95af042f4e5f87170d71778df"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2",
+				"sinon": "^2.3.1"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha --recursive -t 10000 'lib/**/*.spec.js'",
+				"test:watch": "DEBUG=wait-port mocha --watch --recursive -t 10000 'lib/**/*.spec.js'",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --recursive --inspect --debug-brk 'lib/**/*.spec.js'"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.2.0",
+			"gitHead": "01c9ee2d37830f330ad8b5884f4030521985cc8b",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/wait-port-0.2.0.tgz_1505360083896_0.7302902624942362"
+			},
+			"_shasum": "4cdf780ae1dfe6a95af042f4e5f87170d71778df",
+			"_nodeVersion": "6.11.1"
+		},
+		"0.1.2": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.2.tgz",
+				"shasum": "823749da3836b6ebc5f4404ce65149379c445206"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha -t 10000 lib/**/*.spec.js",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --inspect --debug-brk lib/**/*.spec.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.1.2",
+			"gitHead": "af42104a0fdc2d6227962c753749ed83367cf403",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/wait-port-0.1.2.tgz_1494762716211_0.8922680884134024"
+			},
+			"_shasum": "823749da3836b6ebc5f4404ce65149379c445206",
+			"_nodeVersion": "7.5.0"
+		},
+		"0.2.1": {
+			"name": "wait-port",
+			"description": "Utility to wait for a TCP port to open.",
+			"version": "0.2.1",
+			"author": {
+				"name": "Dave Kerr"
+			},
+			"homepage": "https://github.com/dwmkerr/wait-port#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dwmkerr/wait-port.git"
+			},
+			"bugs": {
+				"url": "https://github.com/dwmkerr/wait-port/issues"
+			},
+			"main": "./lib/wait-port.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.1.tgz",
+				"shasum": "b93d2b318cba6aa1ff29b4966fde9d6d75511e85"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"commander": "^2.9.0",
+				"debug": "^2.6.6"
+			},
+			"devDependencies": {
+				"codecov": "^2.2.0",
+				"eslint": "^3.19.0",
+				"istanbul": "^0.4.5",
+				"mocha": "^3.3.0",
+				"nyc": "^10.3.2",
+				"sinon": "^2.3.1"
+			},
+			"license": "MIT",
+			"bin": {
+				"wait-port": "./bin/wait-port.js"
+			},
+			"man": [
+				"./man/wait-port.1"
+			],
+			"maintainers": [
+				{
+					"name": "dwmkerr",
+					"email": "dwmkerr@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "DEBUG=wait-port nyc --report-dir 'artifacts/coverage' -x 'lib/**/*.spec.js' --reporter=html --reporter=text mocha --recursive -t 10000 'lib/**/*.spec.js'",
+				"test:watch": "DEBUG=wait-port mocha --watch --recursive -t 10000 'lib/**/*.spec.js'",
+				"report-coverage": "nyc report --reporter=text-lcov > ./artifacts/coverage/coverage.lcov && codecov",
+				"debug": "DEBUG=wait-port mocha --recursive --inspect --debug-brk 'lib/**/*.spec.js'"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "dwmkerr",
+				"email": "dwmkerr@gmail.com"
+			},
+			"_id": "wait-port@0.2.1",
+			"gitHead": "524fafb6c9aa5cf509b8d833f00088dce50884d0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/wait-port-0.2.1.tgz_1505365151640_0.7801237341482192"
+			},
+			"_shasum": "b93d2b318cba6aa1ff29b4966fde9d6d75511e85",
+			"_nodeVersion": "6.11.1"
+		}
+	},
+	"time": {
+		"0.1.3": "2017-05-14T12:04:17.807Z",
+		"0.2.2": "2017-09-14T07:54:21.236Z",
+		"0.1.4": "2017-05-25T16:05:15.209Z",
+		"created": "2017-05-14T11:42:21.495Z",
+		"modified": "2017-09-14T07:54:21.236Z",
+		"0.1.1": "2017-05-14T11:43:57.195Z",
+		"0.2.0": "2017-09-14T03:34:44.001Z",
+		"0.1.2": "2017-05-14T11:51:59.291Z",
+		"0.2.1": "2017-09-14T04:59:11.782Z",
+		"0.1.0": "2017-05-14T11:42:21.495Z"
+	},
+	"dist-tags": {
+		"latest": "0.2.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749338595
+		}
+	},
+	"_distfiles": {
+		"wait-port-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.3.tgz",
+			"sha": "d67206d159537fa36b1c02fdfebfc9227032396f"
+		},
+		"wait-port-0.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.2.tgz",
+			"sha": "d51a491e484a17bf75a947e711a2f012b4e6f2e3"
+		},
+		"wait-port-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.4.tgz",
+			"sha": "797b1008d54e64a20292e3f2e625da46325653f6"
+		},
+		"wait-port-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.1.tgz",
+			"sha": "6987ea8fcf29b8796cd3e519fa7a4feaba61534d"
+		},
+		"wait-port-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.0.tgz",
+			"sha": "4cdf780ae1dfe6a95af042f4e5f87170d71778df"
+		},
+		"wait-port-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.1.2.tgz",
+			"sha": "823749da3836b6ebc5f4404ce65149379c445206"
+		},
+		"wait-port-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wait-port/-/wait-port-0.2.1.tgz",
+			"sha": "b93d2b318cba6aa1ff29b4966fde9d6d75511e85"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-a446ca6372e6cc06",
+	"readme": "# wait-port [![CircleCI](https://circleci.com/gh/dwmkerr/wait-port.svg?style=shield)](https://circleci.com/gh/dwmkerr/wait-port) [![codecov](https://codecov.io/gh/dwmkerr/wait-port/branch/master/graph/badge.svg)](https://codecov.io/gh/dwmkerr/wait-port) [![npm version](https://badge.fury.io/js/wait-port.svg)](https://badge.fury.io/js/wait-port)\n\nSimple binary to wait for a port to open. Useful when writing scripts which need to wait for a server to be availble, creating `docker-compose` commands which wait for servers to start and general server-side shenanigans. Can also wait for an HTTP endpoint to successfully respond.\n\n<img src=\"https://github.com/dwmkerr/wait-port/raw/master/docs/wait-port.gif\" alt=\"wait-port screenshot\" width=\"520px\" />\n\n- [Installation](#installation)\n- [Usage](#usage)\n  - [Parameters](#parameters)\n  - [Error Codes](#error-codes)\n- [API](#api)\n- [Developer Guide](#developer-guide)\n  - [Debugging](#debugging)\n  - [Testing](#testing)\n  - [Testing the CLI](#testing-the-cli)\n  - [Manpage](#manpage)\n  - [Releasing](#releasing)\n  - [Timeouts](#timeouts)\n\n# Installation\n\nInstall globally with `npm`:\n\n```\n$ npm install -g wait-port\n```\n\nIf installing locally, run the binary from the local node modules binary folder:\n\n```\n$ npm install wait-port\nwait-port@0.1.3\n\n$ ./node_modules/.bin/wait-port 8080\nWaiting for localhost:8080.....\nConnected!\n```\n\n# Usage\n\nTo wait indefinitely for a port to open, just use:\n\n```bash\n$ wait-port localhost:3000\n```\n\nTo wait for a port to open, but limit to a certain timeout, use:\n\n```bash\n$ wait-port -t 10000 localhost:3000\n```\n\nTo wait for an HTTP endpoint to respond with a 200 class status code, include the `http://` protocol:\n\n```bash\n$ wait-port http://:3000/healthcheck\n```\n\n### Parameters\n\nThe following parameters are accepted:\n\n| Parameter | Usage |\n|-----------|-------|\n| `<target>` | Required. The target to test for. Can be just a port, a colon and port (as one would use with [httpie](https://httpie.org/) or host and port. Examples: `8080`, `:3000`, `127.0.0.1:443`. |\n| `--output, -o`  | Optional. Output style to use. Can be `dots` (default) or `silent` (no output). |\n| `--timeout, -t` | Optional. Timeout (in milliseconds). |\n\n### Error Codes\n\nThe following error codes are returned:\n\n| Code | Meaning |\n|------|---------|\n| `0`  | The specified port on the host is accepting connections. |\n| `1`  | A timeout occured waiting for the port to open. |\n| `2`  | Un unknown error occured waiting for the port to open. The program cannot establish whether the port is open or not. |\n\n# API\n\nYou can use `wait-port` programmatically:\n\n```\nconst waitPort = require('wait-port');\n\nconst params = {\n  host: 'google.com',\n  port: 443,\n};\n\nwaitPort(params)\n  .then((open) => {\n    if (open) console.log('The port is now open!');\n    else console.log('The port did not open before the timeout...');\n  })\n  .catch((err) => {\n    console.err(`An unknown error occured while waiting for the port: ${err}`);\n  });\n```\n\nThe CLI is a very shallow wrapper around this function. The `params` object takes the following parameters:\n\n| CLI Parameter | API Parameter | Notes |\n|---------------|---------------|-------|\n| `<target>`      | `host`        | Optional. Defaults to `localhost`. |\n| `<target>`      | `port`        | Required. Port to wait for. |\n| `--output`      | `output`      | Optional. Defaults to `dots`. Output style to use. `silent` also accepted. |\n| `--timeout, -t` | `timeout` | Optional. Defaults to `0`. Timeout (in milliseconds). If `0`, then the operation will never timeout. |\n\n# Developer Guide\n\nThis module uses:\n\n| Name | Usage |\n| [`chalk`](https://github.com/chalk/chalk) | Terminal output styling. |\n| [`commander.js`](https://github.com/tj/commander.js) | Utility for building commandline apps. |\n| [`debug`](https://github.com/visionmedia/debug) | Utility for debug output. |\nR [`mocha`](https://mochajs.org/) / [`nyc`](https://github.com/istanbuljs/nyc) | Test runner / coverage. |\n\n## Debugging\n\nThis module use [`debug`](https://github.com/visionmedia/debug) for debug output. Set `DEBUG=wait-port` to see detailed diagnostic information:\n\n```bash\nDEBUG=wait-port wait-for -t 10000 localhost:6234\n```\n\nThis will also work for any code which uses the API.\n\n## Testing\n\nRun unit tests with `npm test`. Coverage is reported to `artifacts/coverage`.\n\nDebug unit tests with `npm run debug`. Add a `debugger` statement to the line you are interested in, and consider limiting scope with [`.only`](https://mochajs.org/#exclusive-tests).\n\nRun tests continuously, watching source with `npm run test:watch`.\n\n## Testing the CLI\n\nDon't install the package to test the CLI. Instead, in the project folder run `npm link`. Now go to whatever folder you want to use the module in and run `npm link wait-port`. It will symlink the package and binary. See [`npm link`](https://docs.npmjs.com/cli/link) for more details.\n\n### Manpage\n\nInstalling the CLI will install the manpage. The manpage is at [`./man/wait-port.1`](./man/wait-port.1). After updating the page, test it with `man ./man/wait-port.1` before publishing, as the format can be tricky to work with.\n\n## Releasing\n\nKick out a new release with:\n\n```bash\nnpm version patch # or minor/major\ngit push --tags\nnpm publish\n```\n\n## Timeouts\n\nThe timeout option for `waitPort` is used terminate attempts to open the socket *after* a certain amount of time has passed. Please note that operations can take significantly longer than the timeout. For example:\n\n```js\nconst promise = waitPort({ port: 9000, interval: 10000 }, 2000);\n```\n\nIn this case, the socket will only attempt to connect every ten seconds. So on the first iteration, the timeout is not reached, then another iteration will be scheduled for after ten seconds, meaning the timeout will happen eight seconds later than one might expect.\n\nThe `waitPort` promise may take up to `interval` milliseconds greater than `timeout` to resolve."
+}

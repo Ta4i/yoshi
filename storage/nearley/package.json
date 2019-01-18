@@ -1,0 +1,6579 @@
+{
+	"name": "nearley",
+	"versions": {
+		"0.0.6": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.6",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.6.tgz",
+				"shasum": "97cf0c5e98deb80a6984f5be8797aa5a99abad8f"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "bin/compile.js examples/arithmetic.ne > /dev/null"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.6"
+		},
+		"2.7.12": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.12",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.12.tgz",
+				"shasum": "20f2dc4a46455056edbd5f98e1b292d560e8540b"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.12",
+			"gitHead": "f4810daa95e337b2bfe2a2d55cf4de8ec3b2914e",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.12.tgz_1486861457128_0.7394035940524191"
+			},
+			"_shasum": "20f2dc4a46455056edbd5f98e1b292d560e8540b",
+			"_nodeVersion": "7.4.0"
+		},
+		"0.0.7": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.7",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.7.tgz",
+				"shasum": "5ae83023cfbc0676acc554a50e60760672ff2b56"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "bin/compile.js examples/arithmetic.ne > /dev/null"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.7"
+		},
+		"2.7.13": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.13",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.13.tgz",
+				"shasum": "ae19927cc821a4b517de91962db9ed0e90d991fa"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.13",
+			"gitHead": "1679c91c38fe93254beab6dd352d720a9540776f",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.13.tgz_1487442290662_0.001943634357303381"
+			},
+			"_shasum": "ae19927cc821a4b517de91962db9ed0e90d991fa",
+			"_nodeVersion": "7.4.0"
+		},
+		"0.0.4": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.4",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.4.tgz",
+				"shasum": "fe65d5183551f395d60c4d9c8621b7b50e51bd9c"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"files": [
+				"lib/nearley.js",
+				"bin/compile.js",
+				"lib/nearley.min.js"
+			],
+			"bin": {
+				"nearleyc": "bin/compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.4"
+		},
+		"0.2.2": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.2.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.2.tgz",
+				"shasum": "3d06d400c87a51ceae59f27327fde9627505e7d9"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.2.2"
+		},
+		"0.4.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.4.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.4.0.tgz",
+				"shasum": "2f97c3d43274df3cf158bf11fea112f195153cd4"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.4.0",
+			"gitHead": "7760e1d6e5e62f2b676e564333d5a8c1101a9e69",
+			"_shasum": "2f97c3d43274df3cf158bf11fea112f195153cd4"
+		},
+		"2.7.14": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.14",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.14.tgz",
+				"shasum": "085f7b5d071de73926167bde8627c5b0190cde11"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.14",
+			"gitHead": "8408313b4f8b15bd2e708acce7ec0d043bcc407f",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.14.tgz_1488207803580_0.8206507437862456"
+			},
+			"_shasum": "085f7b5d071de73926167bde8627c5b0190cde11",
+			"_nodeVersion": "7.5.0"
+		},
+		"0.0.5": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.5",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.5.tgz",
+				"shasum": "d2a858744985bd719b5e4e1fdd81c9386b62efc3"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.5"
+		},
+		"0.2.3": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.2.3",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.3.tgz",
+				"shasum": "523760be119c8506e566810b6585d4177fda21b6"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.2.3",
+			"gitHead": "40916f90a2acd3b0d0c3b0d59e4c8ef4c980c8b4",
+			"_shasum": "523760be119c8506e566810b6585d4177fda21b6"
+		},
+		"2.7.15": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.15",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.15.tgz",
+				"shasum": "cdd147a548ee4d508f56dfec8fae8380078fc845"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.15",
+			"gitHead": "60d5340e3e7828224fd9c4d1b0070f8995559ec7",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.15.tgz_1489076947774_0.08397522568702698"
+			},
+			"_shasum": "cdd147a548ee4d508f56dfec8fae8380078fc845",
+			"_nodeVersion": "7.5.0"
+		},
+		"2.7.10": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.10",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.10.tgz",
+				"shasum": "06f9531e06a1730244635acd7dd005485550a623"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.10",
+			"gitHead": "85ac77c98cca420cced0b440bf5cfa819bf24bbf",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.10.tgz_1481072683785_0.8827592567540705"
+			},
+			"_shasum": "06f9531e06a1730244635acd7dd005485550a623",
+			"_nodeVersion": "7.1.0"
+		},
+		"2.7.11": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.11",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.11.tgz",
+				"shasum": "826d928d93c078e5e2a12ebc269842ba5fe64086"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.11",
+			"gitHead": "cc0358508918f525fab8bf52d674cd56e6816c9b",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.11.tgz_1485027599987_0.0948471981100738"
+			},
+			"_shasum": "826d928d93c078e5e2a12ebc269842ba5fe64086",
+			"_nodeVersion": "7.4.0"
+		},
+		"0.0.2": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.2.tgz",
+				"shasum": "f930c196efd91afafad995d283b7c73761d3d509"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "./compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.2"
+		},
+		"0.2.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.2.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.0.tgz",
+				"shasum": "c47df45d7539ad6200c01381808d151c84b7ef07"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.2.0"
+		},
+		"0.0.3": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.3",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.3.tgz",
+				"shasum": "9ca8c48c52c057fa33858ae385fbad50f0caac50"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"files": [
+				"lib/nearley.js",
+				"bin/compile.js",
+				"lib/nearley.min.js"
+			],
+			"bin": {
+				"nearleyc": "bin/compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.3"
+		},
+		"0.2.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.2.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.1.tgz",
+				"shasum": "f7e9bf74697cdfacbc49f3c1c390d2b19b9fe297"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.2.1"
+		},
+		"0.0.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.0.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/Hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/Hardmath123/nearley"
+			},
+			"bugs": {
+				"url": "https://github.com/Hardmath123/nearley/issues"
+			},
+			"main": "nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.1.tgz",
+				"shasum": "ad78a092db291e5ad833b116c535c1b2051e715e"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "./compile.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.0.1"
+		},
+		"2.10.4": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.4",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.4.tgz",
+				"shasum": "effa61c2ad07e65c5311e4bec9248fb298b2755c"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js",
+				"doctoc": "doctoc --notitle README.md"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.10.4",
+			"gitHead": "f0a9cfd5644084a23f36ae0ee9f314f4109c7ae1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.4.tgz_1502834551909_0.3050091865006834"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"2.12.2": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.12.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.2.tgz",
+				"shasum": "3e91bbfab0a78e8c0837ea83b073887b37c61b4c"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/bootstrap.test.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.12.2",
+			"gitHead": "ab86e65cfb44576626855c7070b6fb0d7783719e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.12.2_1532019788302_0.49347444697953513"
+			},
+			"_nodeVersion": "10.6.0"
+		},
+		"2.14.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.14.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.14.0.tgz",
+				"shasum": "ee323ee47c8e4707202e57ce6a8e8cd726161d67"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/bootstrap.test.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.14.0",
+			"gitHead": "e83442b645f5355370739096bb3c5c7158ad869c",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.14.0_1532020026758_0.24013352937996024"
+			},
+			"_nodeVersion": "10.6.0"
+		},
+		"2.10.3": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.3",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.3.tgz",
+				"shasum": "624cafc015558388bf8539b389dc31e04459e460"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js",
+				"doctoc": "doctoc --notitle README.md"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.10.3",
+			"gitHead": "571ffa9b248048770306fa4490ab1237c4754a77",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.3.tgz_1502304665428_0.6622026972472668"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"2.12.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.12.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.1.tgz",
+				"shasum": "589cc3f883f5f873902b719838abd45af57b2d69"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/pre-bootstrap.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.12.1",
+			"gitHead": "5d085acf25c699a738704ed805b0302e0ce02ee0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.12.1_1520188018819_0.6305906881897052"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"2.16.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.16.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.16.0.tgz",
+				"shasum": "77c297d041941d268290ec84b739d0ee297e83a7"
+			},
+			"dependencies": {
+				"commander": "^2.19.0",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/bootstrap.test.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.16.0",
+			"gitHead": "f2250f777c2c80dd90a74df5ad75c71c0200484e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.16.0_1545417866733_0.21677266543591633"
+			},
+			"_nodeVersion": "11.2.0"
+		},
+		"2.10.5": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.5",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.5.tgz",
+				"shasum": "57b655ffa0013ce72591be2f5a0f55097807f34a"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/test.js",
+				"doctoc": "doctoc --notitle README.md"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.10.5",
+			"gitHead": "78667c072d655a8a9234bd9ce13e62b2f54b3f4e",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.5.tgz_1503341390363_0.9711170485243201"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"2.7.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.1.tgz",
+				"shasum": "8b4aaf4b9e1a82f62e2e6501058e3a84363fa591"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.1",
+			"gitHead": "10cedf0c8b5e553f4bdc7f216c6848c157274c8c",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.1.tgz_1469552754866_0.17511938558891416"
+			},
+			"_shasum": "8b4aaf4b9e1a82f62e2e6501058e3a84363fa591",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.7.2": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.2.tgz",
+				"shasum": "54894534c82bf68735dfe2a65348ed6e6efa936a"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.2",
+			"gitHead": "e20e3d7ce0f29d10f6f5b66a6f488c15f48729c5",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.2.tgz_1470171055747_0.11453543859533966"
+			},
+			"_shasum": "54894534c82bf68735dfe2a65348ed6e6efa936a",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.9.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.9.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.0.tgz",
+				"shasum": "496dfae56b256241e4329a76d32453fdcc74b22d"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.9.0",
+			"gitHead": "fafd74a8e1ae1ea25e566890ed0b1ea545b7c1f7",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.9.0.tgz_1493986652868_0.7559583080001175"
+			},
+			"_shasum": "496dfae56b256241e4329a76d32453fdcc74b22d",
+			"_nodeVersion": "7.4.0"
+		},
+		"2.7.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.0.tgz",
+				"shasum": "34a63bdcc8940d8b28f6899872bd794c579ad6ab"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.0",
+			"gitHead": "7d9564d99317d3500ddfb4e6f00c124925728a13",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.0.tgz_1469420504266_0.6257545351982117"
+			},
+			"_shasum": "34a63bdcc8940d8b28f6899872bd794c579ad6ab",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.10.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.0.tgz",
+				"shasum": "3ca2f086ea9e0477734e7801b015c51127df23cc"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.10.0",
+			"gitHead": "3395fe9f10d99e29529d5a348928cc271f01236c",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.0.tgz_1496798049354_0.8378930087201297"
+			},
+			"_shasum": "3ca2f086ea9e0477734e7801b015c51127df23cc",
+			"_nodeVersion": "7.7.2"
+		},
+		"2.5.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.5.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.5.0.tgz",
+				"shasum": "94838920a465304fab2d3d887387f4ab488e4682"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.5.0",
+			"gitHead": "fc78052eee7387ef48fd11be4b285e99c13b422f",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.5.0.tgz_1463846283724_0.1910843795631081"
+			},
+			"_shasum": "94838920a465304fab2d3d887387f4ab488e4682",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.1.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.1.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.1.1.tgz",
+				"shasum": "c9f9a6392683cb08d3322c0a3efdd9668ef25dbb"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.1.1",
+			"gitHead": "316b06680fd6c185eeddb2e0a8243f73b0c0ac54",
+			"_shasum": "c9f9a6392683cb08d3322c0a3efdd9668ef25dbb",
+			"_nodeVersion": "0.12.7"
+		},
+		"2.10.2": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.2.tgz",
+				"shasum": "a9f58efd219b2d23f2d377772e14883292233980"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.10.2",
+			"gitHead": "2f5fb52a902298cb1623cc0ccb61aa1b9b74eab3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.2.tgz_1500145235041_0.08355910377576947"
+			},
+			"_shasum": "a9f58efd219b2d23f2d377772e14883292233980",
+			"_nodeVersion": "7.7.2"
+		},
+		"2.12.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.12.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.0.tgz",
+				"shasum": "8538f7e06147ccf630236ec90a6a3e4c8b0e382f"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/pre-bootstrap.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.12.0",
+			"gitHead": "69845bdab7de4a1f5278d4754a60ec45ad25438e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.12.0_1520186066816_0.08301801847950241"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"2.3.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.3.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.3.0.tgz",
+				"shasum": "0bc106bc640eb1a5bb61531be72d0ebc70603b34"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.3.0",
+			"gitHead": "0329b04bd004596be0a2b4be3b409d18e677fe7f",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.3.0.tgz_1455231277982_0.8494237575214356"
+			},
+			"_shasum": "0bc106bc640eb1a5bb61531be72d0ebc70603b34",
+			"_nodeVersion": "5.4.0"
+		},
+		"2.10.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.10.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.1.tgz",
+				"shasum": "5cce43c956d55d77a9deb5cf30d2eab6597c1a51"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.10.1",
+			"gitHead": "34d3d04e7ab0ea2da3be40cd0658f6ca34290e54",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.10.1.tgz_1497705153508_0.013745167292654514"
+			},
+			"_shasum": "5cce43c956d55d77a9deb5cf30d2eab6597c1a51",
+			"_nodeVersion": "7.10.0"
+		},
+		"1.3.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.3.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.3.0.tgz",
+				"shasum": "ca6bb2233b6da6371addf9c2031ef5f253eae782"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.3.0",
+			"gitHead": "835ff5c5dea09670d5fff4fa25af5eaadb63859d",
+			"_shasum": "ca6bb2233b6da6371addf9c2031ef5f253eae782",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.3.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.3.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.3.1.tgz",
+				"shasum": "17e84c236ac39073822f361cb5d4b0d4dec43aab"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.3.1",
+			"gitHead": "08fc888af2d2c8c82ecde71ee1d3fbbe68e9260b",
+			"_shasum": "17e84c236ac39073822f361cb5d4b0d4dec43aab",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.5.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.5.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.5.0.tgz",
+				"shasum": "2d332e16e77d9dcf658091610eac25434cb2cf02"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.5.0",
+			"gitHead": "a4632dfbbc261b676c7af44f6bda2ec2b4841e50",
+			"_shasum": "2d332e16e77d9dcf658091610eac25434cb2cf02",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.7.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.7.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.7.0.tgz",
+				"shasum": "f1d4191387021edc5984802d3ec1d533527a88d2"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.7.0",
+			"gitHead": "217c4e1f9d8bc0b499a61177f81c524acc07832f",
+			"_shasum": "f1d4191387021edc5984802d3ec1d533527a88d2",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.9.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.9.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.9.0.tgz",
+				"shasum": "7d4711f2e996a6aa331232b924298e5798f02c58"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.9.0",
+			"gitHead": "04fc23e8b319686cb57c0185b7e0a81d4b5101c9",
+			"_shasum": "7d4711f2e996a6aa331232b924298e5798f02c58",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.1.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.1.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.1.0.tgz",
+				"shasum": "e8be3a9d01a23891f1efcefb0caeb4072eb81bb7"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.1.0",
+			"gitHead": "08904d4392cb0b0405df4012125ae89a67239072",
+			"_shasum": "e8be3a9d01a23891f1efcefb0caeb4072eb81bb7"
+		},
+		"0.1.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.1.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.1.1.tgz",
+				"shasum": "94df32e4b64f1f0736a4b86b73c7974f248b607f"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {
+				"tape": "~2.12.0"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "bin/nearleyc.js examples/arithmetic.ne > test/arithmetic.js && tape test/test-arithmetic.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.1.1"
+		},
+		"0.3.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.3.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.3.0.tgz",
+				"shasum": "239aee6905ffba0d3293dcea64dbb4cb850728fd"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "sh test/launch.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.3.0",
+			"gitHead": "ee827aae5eb5b9a9083d9990d3a728dd5c9e7df8",
+			"_shasum": "239aee6905ffba0d3293dcea64dbb4cb850728fd"
+		},
+		"0.1.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "0.1.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.1.0.tgz",
+				"shasum": "10d6bc9f27b48143df9f1a45e732be95893f714f"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"devDependencies": {
+				"tape": "~2.12.0"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "bin/nearleyc.js examples/arithmetic.ne > test/arithmetic.js && tape test/test-arithmetic.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@0.1.0"
+		},
+		"2.7.9": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.9",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.9.tgz",
+				"shasum": "df26be2bc3922239fca4f4fb5b8e4d2c7eeab3c7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.9",
+			"gitHead": "3b0d0c6c2feee66d19114f8820420b27ca505903",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.9.tgz_1481040958599_0.45534938760101795"
+			},
+			"_shasum": "df26be2bc3922239fca4f4fb5b8e4d2c7eeab3c7",
+			"_nodeVersion": "7.1.0"
+		},
+		"2.11.2": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.11.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.2.tgz",
+				"shasum": "0a292806750a6138410990f25dc7cc17711e079a"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.11.2",
+			"gitHead": "e6f89219ba0247a7480e77c25d5c8be4bca9719c",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.11.2_1520185802411_0.8797686284360131"
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"2.13.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.13.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.13.0.tgz",
+				"shasum": "6e7b0f4e68bfc3e74c99eaef2eda39e513143439"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.13.0",
+			"gitHead": "8b255eeb4896fe0c130af5a341746d284e262acf",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.13.0_1520384205795_0.07105442907812165"
+			},
+			"_nodeVersion": "9.6.1"
+		},
+		"2.7.7": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.7",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.7.tgz",
+				"shasum": "c575037a539befda4456be290502e5d06f98dbb7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.7",
+			"gitHead": "747779b7b5deb3c2cc50914043745973419d8a85",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.7.tgz_1476833271070_0.17631026380695403"
+			},
+			"_shasum": "c575037a539befda4456be290502e5d06f98dbb7",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.15.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.15.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.15.1.tgz",
+				"shasum": "965e4e6ec9ed6b80fc81453e161efbcebb36d247"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/bootstrap.test.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.15.1",
+			"gitHead": "5be0b87e90078ed8d9839680472e39ecbe10412d",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.15.1_1533753089737_0.2702702529481895"
+			},
+			"_nodeVersion": "10.7.0"
+		},
+		"2.7.8": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.8",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.8.tgz",
+				"shasum": "ab967bbd50429b3f7f7957fcf2f6055b7434fdd7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.8",
+			"gitHead": "d1550cb12cf1810973e064907dfb60644b428a12",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.8.tgz_1479873892639_0.0792255203705281"
+			},
+			"_shasum": "ab967bbd50429b3f7f7957fcf2f6055b7434fdd7",
+			"_nodeVersion": "7.1.0"
+		},
+		"2.15.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.15.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.15.0.tgz",
+				"shasum": "d1ff5406a58064615fe6eafb429cf06fbb1b7eab"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1",
+				"moo": "^0.4.3"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "mocha test/bootstrap.test.js && bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js && echo bootstrapped ok",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.15.0",
+			"gitHead": "4154fd2bdf575361c4ad9034c7ac8b8606ee0344",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.15.0_1532022950314_0.468691413552923"
+			},
+			"_nodeVersion": "10.6.0"
+		},
+		"2.7.5": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.5",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.5.tgz",
+				"shasum": "c049d619a8525f8c4d666e6946dd0f1b9d050588"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.5",
+			"gitHead": "929fd0b5cb9638c5cf43b1845a8a18b817fc3c05",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.5.tgz_1475592468178_0.9416823089122772"
+			},
+			"_shasum": "c049d619a8525f8c4d666e6946dd0f1b9d050588",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.9.3": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.9.3",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.3.tgz",
+				"shasum": "3d62bca08b2efd7fdf1f4cb59f6e7080e24fb288"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.2"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.9.3",
+			"gitHead": "898d1b3688a6855314a5b4a7beed5f17c4944d60",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.9.3.tgz_1496437675350_0.037101294146850705"
+			},
+			"_shasum": "3d62bca08b2efd7fdf1f4cb59f6e7080e24fb288",
+			"_nodeVersion": "7.7.2"
+		},
+		"2.7.6": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.6",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.6.tgz",
+				"shasum": "210bcd63d76babd7439e970423b2f530cb3d122c"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.6",
+			"gitHead": "8b23b89b41e4a77b47f80e5f9c38c42d6fae311b",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.6.tgz_1476832278808_0.4479364736471325"
+			},
+			"_shasum": "210bcd63d76babd7439e970423b2f530cb3d122c",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.7.3": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.3",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.3.tgz",
+				"shasum": "9f753ce1e821de900e6735bf904b5f20896b3337"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.3",
+			"gitHead": "df5ebe7b3c8e0472fdebe6d5a6bf315f1fcb545c",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.3.tgz_1470171195771_0.053004927234724164"
+			},
+			"_shasum": "9f753ce1e821de900e6735bf904b5f20896b3337",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.9.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.9.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.1.tgz",
+				"shasum": "d1bd58e01ca7db1b033bbc088470ecfa54f8f3f1"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.9.1",
+			"gitHead": "116614690801ca1df0d621c7f8ef7a9771e300c9",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.9.1.tgz_1494585593593_0.8176590935327113"
+			},
+			"_shasum": "d1bd58e01ca7db1b033bbc088470ecfa54f8f3f1",
+			"_nodeVersion": "7.9.0"
+		},
+		"2.7.4": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.7.4",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.4.tgz",
+				"shasum": "22cbc28c63b24d10f3622f4b6b3016b523da9f08"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"optionalDependencies": {
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"toolkit",
+				"generator",
+				"compiler",
+				"compile"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.7.4",
+			"gitHead": "3a55a4ac71ddfba12ec31b7a4542ef8033d9c08f",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.7.4.tgz_1475444643605_0.327792149502784"
+			},
+			"_shasum": "22cbc28c63b24d10f3622f4b6b3016b523da9f08",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.9.2": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.9.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.2.tgz",
+				"shasum": "b06e36b2341403a43e20b7da1f1d6a553f7389ea"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4",
+				"moo": "^0.3.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "tjvr",
+				"email": "tim@tjvr.org"
+			},
+			"_id": "nearley@2.9.2",
+			"gitHead": "448971eb4bc10ac17a5d55c30900d6ed4ea5e401",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.9.2.tgz_1494590798270_0.9507938856258988"
+			},
+			"_shasum": "b06e36b2341403a43e20b7da1f1d6a553f7389ea",
+			"_nodeVersion": "7.9.0"
+		},
+		"2.0.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.0.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.0.0.tgz",
+				"shasum": "2f401fcbec4bfb20e18fa884ef560bba3ea46f64"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.0.0",
+			"gitHead": "39cb55f66a17409a0d698f91b8a191aef7cb92cb",
+			"_shasum": "2f401fcbec4bfb20e18fa884ef560bba3ea46f64",
+			"_nodeVersion": "0.12.7"
+		},
+		"2.0.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.0.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.0.1.tgz",
+				"shasum": "e89489f5a29e624fb539edf243aac0d2b27a08aa"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.0.1",
+			"gitHead": "ffebb6f2cab5e8c622b8b34b9f8a79f7f9758919",
+			"_shasum": "e89489f5a29e624fb539edf243aac0d2b27a08aa",
+			"_nodeVersion": "0.12.7"
+		},
+		"2.8.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.8.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.8.0.tgz",
+				"shasum": "7f88b503e3b373503f5c7e5b3b52bf134c86145b"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"benchmark": "^2.1.3",
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"microtime": "^2.1.2",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "mocha test/launch.js",
+				"benchmark": "node test/benchmark.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.8.0",
+			"gitHead": "cbd2a7bfe7319ac3a1818ec07b56a2991306197d",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.8.0.tgz_1489077345531_0.13300915714353323"
+			},
+			"_shasum": "7f88b503e3b373503f5c7e5b3b52bf134c86145b",
+			"_nodeVersion": "7.5.0"
+		},
+		"2.6.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.6.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.6.0.tgz",
+				"shasum": "4b6a770564a9f62756f89e57a51639d85f5db0b3"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.6.0",
+			"gitHead": "e9e596762f827555a64dfff3e6a59c0006f86764",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.6.0.tgz_1465841038762_0.06359849777072668"
+			},
+			"_shasum": "4b6a770564a9f62756f89e57a51639d85f5db0b3",
+			"_nodeVersion": "5.10.1"
+		},
+		"2.4.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.4.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.4.0.tgz",
+				"shasum": "0d3bc54e2f3eed7fa24adbbb4be387b08aaf25ce"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.4.0",
+			"gitHead": "5f0860eb689bc281c843dc0678a85b7399803997",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.4.0.tgz_1455231379485_0.40419346396811306"
+			},
+			"_shasum": "0d3bc54e2f3eed7fa24adbbb4be387b08aaf25ce",
+			"_nodeVersion": "5.4.0"
+		},
+		"2.4.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.4.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.4.1.tgz",
+				"shasum": "b66a2bc148db0833f54ca89e4834d32b226577d7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "git://github.com/tabatkins/railroad-diagrams.git#c36d1a7d0cf5ee2fdd33fcdc849d91f99ee459b9",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"coffee-script": "^1.10.0",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js.new lib/nearley-language-bootstrapped.js",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.4.1",
+			"gitHead": "b3296b31864f60b26237fddae522d18cac7cadc0",
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/nearley-2.4.1.tgz_1458404515121_0.34832209697924554"
+			},
+			"_shasum": "b66a2bc148db0833f54ca89e4834d32b226577d7",
+			"_nodeVersion": "5.7.0"
+		},
+		"2.2.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "2.2.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.2.0.tgz",
+				"shasum": "d8985dc4ec35f009231ddc9bfdbc1b63a202d6d8"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"chai": "^3.4.1",
+				"mocha": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && mocha test/launch.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.2.0",
+			"gitHead": "4f09ac7fae455ce078971cd3b7c772dd44c65657",
+			"_shasum": "d8985dc4ec35f009231ddc9bfdbc1b63a202d6d8",
+			"_nodeVersion": "5.4.0"
+		},
+		"2.11.1": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.11.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.1.tgz",
+				"shasum": "a9c0a5fa942998db5ad18b14fbc8e9fc49672f16"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "0.4.6",
+				"semver": "^5.4.1"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.6.0",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.6.1"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/*.test.js",
+				"doctoc": "doctoc --notitle README.md",
+				"profile": "bin/nearleyc.js test/grammars/parens.ne > test/grammars/parens.js && node test/profile.js"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.11.1",
+			"gitHead": "dbb0d2612e69e86a2d64fa682ee3663f51728d81",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley_2.11.1_1518366252046_0.14685405751672853"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"2.11.0": {
+			"name": "nearley",
+			"description": "Simple, fast, powerful parser toolkit for JavaScript.",
+			"version": "2.11.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				"https://github.com/Hardmath123/nearley/graphs/contributors"
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.0.tgz",
+				"shasum": "5e626c79a6cd2f6ab9e7e5d5805e7668967757ae"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2",
+				"railroad-diagrams": "^1.0.0",
+				"randexp": "^0.4.2"
+			},
+			"devDependencies": {
+				"@types/moo": "^0.3.0",
+				"@types/node": "^7.0.27",
+				"benchr": "^3.2.0",
+				"coffee-script": "^1.10.0",
+				"doctoc": "^1.3.0",
+				"expect": "^1.20.2",
+				"microtime": "^2.1.2",
+				"mocha": "^2.5.3",
+				"moo": "^0.3.2",
+				"typescript": "^2.3.4"
+			},
+			"keywords": [
+				"parser",
+				"parse",
+				"generator",
+				"compiler",
+				"compile",
+				"grammar",
+				"language"
+			],
+			"license": "MIT",
+			"files": [
+				"bin/",
+				"lib/",
+				"builtin/"
+			],
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js",
+				"nearley-unparse": "bin/nearley-unparse.js",
+				"nearley-railroad": "bin/nearley-railroad.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				},
+				{
+					"name": "tjvr",
+					"email": "tim@tjvr.org"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "bin/nearleyc.js lib/nearley-language-bootstrapped.ne > tmp && mv tmp lib/nearley-language-bootstrapped.js",
+				"benchmark": "benchr test/benchmark.js",
+				"test": "mocha test/test.js",
+				"doctoc": "doctoc --notitle README.md"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@2.11.0",
+			"gitHead": "599f71f65c9151c8ade71ba215197ed9a4749b1d",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nearley-2.11.0.tgz_1503589342668_0.4594755263533443"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.2.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.2.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.1.tgz",
+				"shasum": "2b6ac0e39d41969fdad2bd160a6afb63087fb34f"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.2.1",
+			"gitHead": "77dbe95e7f3fefc15ca17640c7368a99a640e730",
+			"_shasum": "2b6ac0e39d41969fdad2bd160a6afb63087fb34f"
+		},
+		"1.2.2": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.2.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.2.tgz",
+				"shasum": "29996329308b82840f7fed3aeaf28847c42486b7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.2.2",
+			"gitHead": "38880bcfa669800626ba6722c3d927b6f79e77db",
+			"_shasum": "29996329308b82840f7fed3aeaf28847c42486b7",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.4.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.4.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.4.0.tgz",
+				"shasum": "1ac2a88268c95709b8fcf89129fd70ad1cb7901b"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.6",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.4.0",
+			"gitHead": "1e8d799812b3ea7b8a49cf77226fa15d73264efb",
+			"_shasum": "1ac2a88268c95709b8fcf89129fd70ad1cb7901b",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.6.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.6.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.0.tgz",
+				"shasum": "6406d57b9dd20b05826d6a09e8ed4fe227dbd7a7"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.6.0",
+			"gitHead": "0c3d14e6ece720b58efa9403dc632a985a9cc55a",
+			"_shasum": "6406d57b9dd20b05826d6a09e8ed4fe227dbd7a7",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.6.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.6.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.1.tgz",
+				"shasum": "9e54cb0c94b468dd4042856dc0c262cb88aff910"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.6.1",
+			"gitHead": "4d7683423125fa386e12619557875d0a7953a1dd",
+			"_shasum": "9e54cb0c94b468dd4042856dc0c262cb88aff910",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.6.2": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.6.2",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.2.tgz",
+				"shasum": "2c5cf3d503cfb2bbdeea96c5cd7b2569d5311be0"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.6.2",
+			"gitHead": "5a95c105a9ab6e7a22e006787dd2ad03870ee1b9",
+			"_shasum": "2c5cf3d503cfb2bbdeea96c5cd7b2569d5311be0",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.8.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.8.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				},
+				{
+					"name": "Joshua T. Corbin"
+				},
+				{
+					"name": "Bojidar Marinov"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.8.0.tgz",
+				"shasum": "cf9dd6f74d3743237b0bc3899f95d3c25e79dbab"
+			},
+			"dependencies": {
+				"cli-color": "^1.0.0",
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js",
+				"nearley-test": "bin/nearley-test.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"bootstrap": "node bin/nearleyc.js lib/nearley-language-bootstrapped.ne >lib/nearley-language-bootstrapped.js.new && mv lib/nearley-language-bootstrapped.js{.new,}",
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.8.0",
+			"gitHead": "f35535ff13595e892480cdc6fc1ab660875662a0",
+			"_shasum": "cf9dd6f74d3743237b0bc3899f95d3c25e79dbab",
+			"_nodeVersion": "0.12.7"
+		},
+		"1.0.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.0.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.0.0.tgz",
+				"shasum": "6da04873ab478a4d58b1eb069812c7ac03c19ac0"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.0.0",
+			"gitHead": "53b821f4c688fb7bafd29a3bd37c18c868fc5951",
+			"_shasum": "6da04873ab478a4d58b1eb069812c7ac03c19ac0"
+		},
+		"1.0.1": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.0.1",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.0.1.tgz",
+				"shasum": "548c7ef097a639849c0f5141c42a69a2b7024f25"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.0.1",
+			"gitHead": "743d804e76193bb2f0b35a7d18fdbb47fb3959ff",
+			"_shasum": "548c7ef097a639849c0f5141c42a69a2b7024f25"
+		},
+		"1.2.0": {
+			"name": "nearley",
+			"description": "Simple Earley parsing for JS",
+			"version": "1.2.0",
+			"author": {
+				"name": "Hardmath123"
+			},
+			"homepage": "https://github.com/hardmath123/nearley",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hardmath123/nearley.git"
+			},
+			"contributors": [
+				{
+					"name": "Nathan Dinsmore"
+				},
+				{
+					"name": "Aria Stewart",
+					"email": "aredridel@nbtsc.org"
+				},
+				{
+					"name": "Robin Windels"
+				},
+				{
+					"name": "Jacob Edelman"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/hardmath123/nearley/issues"
+			},
+			"main": "lib/nearley.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.0.tgz",
+				"shasum": "e00fc74007685d49af2289906f7bd3e69b015467"
+			},
+			"dependencies": {
+				"nomnom": "~1.6.2"
+			},
+			"keywords": [
+				"parser",
+				"generator",
+				"compiler"
+			],
+			"license": "MIT",
+			"bin": {
+				"nearleyc": "bin/nearleyc.js"
+			},
+			"maintainers": [
+				{
+					"name": "hardmath123",
+					"email": "hardmath123@comfortablynumbered.appspotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm install && sh build.sh"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "hardmath123",
+				"email": "hardmath123@comfortablynumbered.appspotmail.com"
+			},
+			"_id": "nearley@1.2.0",
+			"gitHead": "3d97e7a62db592107c7a8c9ccb2da59a783bf599",
+			"_shasum": "e00fc74007685d49af2289906f7bd3e69b015467"
+		}
+	},
+	"time": {
+		"0.0.6": "2014-03-19T00:51:49.533Z",
+		"2.7.12": "2017-02-12T01:04:19.253Z",
+		"0.0.7": "2014-03-19T00:55:41.437Z",
+		"2.7.13": "2017-02-18T18:24:50.916Z",
+		"0.0.4": "2014-03-03T04:32:04.982Z",
+		"0.2.2": "2014-05-26T01:05:32.169Z",
+		"0.4.0": "2014-10-10T20:07:22.968Z",
+		"2.7.14": "2017-02-27T15:03:23.816Z",
+		"0.0.5": "2014-03-11T00:54:31.934Z",
+		"0.2.3": "2014-10-07T22:36:33.378Z",
+		"2.7.15": "2017-03-09T16:29:10.059Z",
+		"2.7.10": "2016-12-07T01:04:46.051Z",
+		"2.7.11": "2017-01-21T19:40:00.267Z",
+		"0.0.2": "2014-02-24T00:07:25.866Z",
+		"0.2.0": "2014-04-12T09:17:45.029Z",
+		"0.0.3": "2014-02-25T05:10:30.626Z",
+		"0.2.1": "2014-04-20T04:55:54.149Z",
+		"0.0.1": "2014-02-23T22:55:44.804Z",
+		"2.10.4": "2017-08-15T22:02:32.091Z",
+		"2.12.2": "2018-07-19T17:03:08.374Z",
+		"2.14.0": "2018-07-19T17:07:06.855Z",
+		"2.10.3": "2017-08-09T18:51:05.586Z",
+		"2.12.1": "2018-03-04T18:26:59.035Z",
+		"2.16.0": "2018-12-21T18:44:29.334Z",
+		"2.10.5": "2017-08-21T18:49:50.534Z",
+		"modified": "2019-01-04T21:33:00.746Z",
+		"created": "2014-02-23T22:55:44.804Z",
+		"2.7.1": "2016-07-26T17:05:58.656Z",
+		"2.7.2": "2016-08-02T20:50:58.061Z",
+		"2.9.0": "2017-05-05T12:17:34.297Z",
+		"2.7.0": "2016-07-25T04:21:47.791Z",
+		"2.10.0": "2017-06-07T01:14:09.548Z",
+		"2.5.0": "2016-05-21T15:58:04.113Z",
+		"2.1.1": "2016-01-04T19:50:03.363Z",
+		"2.10.2": "2017-07-15T19:00:35.323Z",
+		"2.12.0": "2018-03-04T17:54:26.982Z",
+		"2.3.0": "2016-02-11T22:54:39.522Z",
+		"2.10.1": "2017-06-17T13:12:35.274Z",
+		"1.3.0": "2015-05-12T02:05:01.528Z",
+		"1.3.1": "2015-05-12T02:31:05.507Z",
+		"1.5.0": "2015-07-28T15:25:55.178Z",
+		"1.7.0": "2015-09-27T01:36:07.363Z",
+		"1.9.0": "2015-12-18T00:39:46.890Z",
+		"1.1.0": "2014-11-10T01:04:45.778Z",
+		"0.1.1": "2014-03-29T05:52:25.660Z",
+		"0.3.0": "2014-10-09T23:26:56.030Z",
+		"0.1.0": "2014-03-29T05:45:56.709Z",
+		"2.7.9": "2016-12-06T16:15:58.851Z",
+		"2.11.2": "2018-03-04T17:50:02.457Z",
+		"2.13.0": "2018-03-07T00:56:45.889Z",
+		"2.7.7": "2016-10-18T23:27:51.290Z",
+		"2.15.1": "2018-08-08T18:31:29.878Z",
+		"2.7.8": "2016-11-23T04:04:52.888Z",
+		"2.15.0": "2018-07-19T17:55:50.383Z",
+		"2.7.5": "2016-10-04T14:47:51.382Z",
+		"2.9.3": "2017-06-02T21:07:55.505Z",
+		"2.7.6": "2016-10-18T23:11:19.043Z",
+		"2.7.3": "2016-08-02T20:53:18.237Z",
+		"2.9.1": "2017-05-12T10:39:56.339Z",
+		"2.7.4": "2016-10-02T21:44:06.489Z",
+		"2.9.2": "2017-05-12T12:06:40.988Z",
+		"2.0.0": "2015-12-28T06:12:46.396Z",
+		"2.0.1": "2016-01-02T08:13:32.052Z",
+		"2.8.0": "2017-03-09T16:35:47.846Z",
+		"2.6.0": "2016-06-13T18:04:03.333Z",
+		"2.4.0": "2016-02-11T22:56:22.839Z",
+		"2.4.1": "2016-03-19T16:21:55.534Z",
+		"2.2.0": "2016-01-24T04:51:09.364Z",
+		"2.11.1": "2018-02-11T16:24:12.204Z",
+		"2.11.0": "2017-08-24T15:42:22.790Z",
+		"1.2.1": "2014-12-27T21:09:43.061Z",
+		"1.2.2": "2015-05-02T20:15:55.255Z",
+		"1.4.0": "2015-05-12T05:09:48.702Z",
+		"1.6.0": "2015-09-20T16:52:37.636Z",
+		"1.6.1": "2015-09-21T04:32:35.714Z",
+		"1.6.2": "2015-09-21T14:10:47.357Z",
+		"1.8.0": "2015-09-30T22:34:25.158Z",
+		"1.0.0": "2014-10-16T02:15:23.968Z",
+		"1.0.1": "2014-10-25T21:20:22.454Z",
+		"1.2.0": "2014-11-16T03:10:21.923Z"
+	},
+	"dist-tags": {
+		"latest": "2.16.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749372245
+		}
+	},
+	"_distfiles": {
+		"nearley-0.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.6.tgz",
+			"sha": "97cf0c5e98deb80a6984f5be8797aa5a99abad8f"
+		},
+		"nearley-2.7.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.12.tgz",
+			"sha": "20f2dc4a46455056edbd5f98e1b292d560e8540b"
+		},
+		"nearley-0.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.7.tgz",
+			"sha": "5ae83023cfbc0676acc554a50e60760672ff2b56"
+		},
+		"nearley-2.7.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.13.tgz",
+			"sha": "ae19927cc821a4b517de91962db9ed0e90d991fa"
+		},
+		"nearley-0.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.4.tgz",
+			"sha": "fe65d5183551f395d60c4d9c8621b7b50e51bd9c"
+		},
+		"nearley-0.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.2.tgz",
+			"sha": "3d06d400c87a51ceae59f27327fde9627505e7d9"
+		},
+		"nearley-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.4.0.tgz",
+			"sha": "2f97c3d43274df3cf158bf11fea112f195153cd4"
+		},
+		"nearley-2.7.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.14.tgz",
+			"sha": "085f7b5d071de73926167bde8627c5b0190cde11"
+		},
+		"nearley-0.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.5.tgz",
+			"sha": "d2a858744985bd719b5e4e1fdd81c9386b62efc3"
+		},
+		"nearley-0.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.3.tgz",
+			"sha": "523760be119c8506e566810b6585d4177fda21b6"
+		},
+		"nearley-2.7.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.15.tgz",
+			"sha": "cdd147a548ee4d508f56dfec8fae8380078fc845"
+		},
+		"nearley-2.7.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.10.tgz",
+			"sha": "06f9531e06a1730244635acd7dd005485550a623"
+		},
+		"nearley-2.7.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.11.tgz",
+			"sha": "826d928d93c078e5e2a12ebc269842ba5fe64086"
+		},
+		"nearley-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.2.tgz",
+			"sha": "f930c196efd91afafad995d283b7c73761d3d509"
+		},
+		"nearley-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.0.tgz",
+			"sha": "c47df45d7539ad6200c01381808d151c84b7ef07"
+		},
+		"nearley-0.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.3.tgz",
+			"sha": "9ca8c48c52c057fa33858ae385fbad50f0caac50"
+		},
+		"nearley-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.2.1.tgz",
+			"sha": "f7e9bf74697cdfacbc49f3c1c390d2b19b9fe297"
+		},
+		"nearley-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.0.1.tgz",
+			"sha": "ad78a092db291e5ad833b116c535c1b2051e715e"
+		},
+		"nearley-2.10.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.4.tgz",
+			"sha": "effa61c2ad07e65c5311e4bec9248fb298b2755c"
+		},
+		"nearley-2.12.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.2.tgz",
+			"sha": "3e91bbfab0a78e8c0837ea83b073887b37c61b4c"
+		},
+		"nearley-2.14.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.14.0.tgz",
+			"sha": "ee323ee47c8e4707202e57ce6a8e8cd726161d67"
+		},
+		"nearley-2.10.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.3.tgz",
+			"sha": "624cafc015558388bf8539b389dc31e04459e460"
+		},
+		"nearley-2.12.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.1.tgz",
+			"sha": "589cc3f883f5f873902b719838abd45af57b2d69"
+		},
+		"nearley-2.16.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.16.0.tgz",
+			"sha": "77c297d041941d268290ec84b739d0ee297e83a7"
+		},
+		"nearley-2.10.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.5.tgz",
+			"sha": "57b655ffa0013ce72591be2f5a0f55097807f34a"
+		},
+		"nearley-2.7.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.1.tgz",
+			"sha": "8b4aaf4b9e1a82f62e2e6501058e3a84363fa591"
+		},
+		"nearley-2.7.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.2.tgz",
+			"sha": "54894534c82bf68735dfe2a65348ed6e6efa936a"
+		},
+		"nearley-2.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.0.tgz",
+			"sha": "496dfae56b256241e4329a76d32453fdcc74b22d"
+		},
+		"nearley-2.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.0.tgz",
+			"sha": "34a63bdcc8940d8b28f6899872bd794c579ad6ab"
+		},
+		"nearley-2.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.0.tgz",
+			"sha": "3ca2f086ea9e0477734e7801b015c51127df23cc"
+		},
+		"nearley-2.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.5.0.tgz",
+			"sha": "94838920a465304fab2d3d887387f4ab488e4682"
+		},
+		"nearley-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.1.1.tgz",
+			"sha": "c9f9a6392683cb08d3322c0a3efdd9668ef25dbb"
+		},
+		"nearley-2.10.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.2.tgz",
+			"sha": "a9f58efd219b2d23f2d377772e14883292233980"
+		},
+		"nearley-2.12.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.12.0.tgz",
+			"sha": "8538f7e06147ccf630236ec90a6a3e4c8b0e382f"
+		},
+		"nearley-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.3.0.tgz",
+			"sha": "0bc106bc640eb1a5bb61531be72d0ebc70603b34"
+		},
+		"nearley-2.10.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.10.1.tgz",
+			"sha": "5cce43c956d55d77a9deb5cf30d2eab6597c1a51"
+		},
+		"nearley-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.3.0.tgz",
+			"sha": "ca6bb2233b6da6371addf9c2031ef5f253eae782"
+		},
+		"nearley-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.3.1.tgz",
+			"sha": "17e84c236ac39073822f361cb5d4b0d4dec43aab"
+		},
+		"nearley-1.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.5.0.tgz",
+			"sha": "2d332e16e77d9dcf658091610eac25434cb2cf02"
+		},
+		"nearley-1.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.7.0.tgz",
+			"sha": "f1d4191387021edc5984802d3ec1d533527a88d2"
+		},
+		"nearley-1.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.9.0.tgz",
+			"sha": "7d4711f2e996a6aa331232b924298e5798f02c58"
+		},
+		"nearley-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.1.0.tgz",
+			"sha": "e8be3a9d01a23891f1efcefb0caeb4072eb81bb7"
+		},
+		"nearley-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.1.1.tgz",
+			"sha": "94df32e4b64f1f0736a4b86b73c7974f248b607f"
+		},
+		"nearley-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.3.0.tgz",
+			"sha": "239aee6905ffba0d3293dcea64dbb4cb850728fd"
+		},
+		"nearley-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-0.1.0.tgz",
+			"sha": "10d6bc9f27b48143df9f1a45e732be95893f714f"
+		},
+		"nearley-2.7.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.9.tgz",
+			"sha": "df26be2bc3922239fca4f4fb5b8e4d2c7eeab3c7"
+		},
+		"nearley-2.11.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.2.tgz",
+			"sha": "0a292806750a6138410990f25dc7cc17711e079a"
+		},
+		"nearley-2.13.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.13.0.tgz",
+			"sha": "6e7b0f4e68bfc3e74c99eaef2eda39e513143439"
+		},
+		"nearley-2.7.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.7.tgz",
+			"sha": "c575037a539befda4456be290502e5d06f98dbb7"
+		},
+		"nearley-2.15.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.15.1.tgz",
+			"sha": "965e4e6ec9ed6b80fc81453e161efbcebb36d247"
+		},
+		"nearley-2.7.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.8.tgz",
+			"sha": "ab967bbd50429b3f7f7957fcf2f6055b7434fdd7"
+		},
+		"nearley-2.15.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.15.0.tgz",
+			"sha": "d1ff5406a58064615fe6eafb429cf06fbb1b7eab"
+		},
+		"nearley-2.7.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.5.tgz",
+			"sha": "c049d619a8525f8c4d666e6946dd0f1b9d050588"
+		},
+		"nearley-2.9.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.3.tgz",
+			"sha": "3d62bca08b2efd7fdf1f4cb59f6e7080e24fb288"
+		},
+		"nearley-2.7.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.6.tgz",
+			"sha": "210bcd63d76babd7439e970423b2f530cb3d122c"
+		},
+		"nearley-2.7.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.3.tgz",
+			"sha": "9f753ce1e821de900e6735bf904b5f20896b3337"
+		},
+		"nearley-2.9.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.1.tgz",
+			"sha": "d1bd58e01ca7db1b033bbc088470ecfa54f8f3f1"
+		},
+		"nearley-2.7.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.7.4.tgz",
+			"sha": "22cbc28c63b24d10f3622f4b6b3016b523da9f08"
+		},
+		"nearley-2.9.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.9.2.tgz",
+			"sha": "b06e36b2341403a43e20b7da1f1d6a553f7389ea"
+		},
+		"nearley-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.0.0.tgz",
+			"sha": "2f401fcbec4bfb20e18fa884ef560bba3ea46f64"
+		},
+		"nearley-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.0.1.tgz",
+			"sha": "e89489f5a29e624fb539edf243aac0d2b27a08aa"
+		},
+		"nearley-2.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.8.0.tgz",
+			"sha": "7f88b503e3b373503f5c7e5b3b52bf134c86145b"
+		},
+		"nearley-2.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.6.0.tgz",
+			"sha": "4b6a770564a9f62756f89e57a51639d85f5db0b3"
+		},
+		"nearley-2.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.4.0.tgz",
+			"sha": "0d3bc54e2f3eed7fa24adbbb4be387b08aaf25ce"
+		},
+		"nearley-2.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.4.1.tgz",
+			"sha": "b66a2bc148db0833f54ca89e4834d32b226577d7"
+		},
+		"nearley-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.2.0.tgz",
+			"sha": "d8985dc4ec35f009231ddc9bfdbc1b63a202d6d8"
+		},
+		"nearley-2.11.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.1.tgz",
+			"sha": "a9c0a5fa942998db5ad18b14fbc8e9fc49672f16"
+		},
+		"nearley-2.11.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-2.11.0.tgz",
+			"sha": "5e626c79a6cd2f6ab9e7e5d5805e7668967757ae"
+		},
+		"nearley-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.1.tgz",
+			"sha": "2b6ac0e39d41969fdad2bd160a6afb63087fb34f"
+		},
+		"nearley-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.2.tgz",
+			"sha": "29996329308b82840f7fed3aeaf28847c42486b7"
+		},
+		"nearley-1.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.4.0.tgz",
+			"sha": "1ac2a88268c95709b8fcf89129fd70ad1cb7901b"
+		},
+		"nearley-1.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.0.tgz",
+			"sha": "6406d57b9dd20b05826d6a09e8ed4fe227dbd7a7"
+		},
+		"nearley-1.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.1.tgz",
+			"sha": "9e54cb0c94b468dd4042856dc0c262cb88aff910"
+		},
+		"nearley-1.6.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.6.2.tgz",
+			"sha": "2c5cf3d503cfb2bbdeea96c5cd7b2569d5311be0"
+		},
+		"nearley-1.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.8.0.tgz",
+			"sha": "cf9dd6f74d3743237b0bc3899f95d3c25e79dbab"
+		},
+		"nearley-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.0.0.tgz",
+			"sha": "6da04873ab478a4d58b1eb069812c7ac03c19ac0"
+		},
+		"nearley-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.0.1.tgz",
+			"sha": "548c7ef097a639849c0f5141c42a69a2b7024f25"
+		},
+		"nearley-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nearley/-/nearley-1.2.0.tgz",
+			"sha": "e00fc74007685d49af2289906f7bd3e69b015467"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-0e9c4a1966115137",
+	"readme": "# [nearley](http://nearley.js.org) ↗️\n[![JS.ORG](https://img.shields.io/badge/js.org-nearley-ffb400.svg?style=flat-square)](http://js.org)\n[![npm version](https://badge.fury.io/js/nearley.svg)](https://badge.fury.io/js/nearley)\n\nnearley is a simple, fast and powerful parsing toolkit. It consists of:\n1. [A powerful, modular DSL for describing\n   languages](https://nearley.js.org/docs/grammar)\n2. [An efficient, lightweight Earley\n   parser](https://nearley.js.org/docs/parser)\n3. [Loads of tools, editor plug-ins, and other\n   goodies!](https://nearley.js.org/docs/tooling)\n\nnearley is a **streaming** parser with support for catching **errors**\ngracefully and providing _all_ parsings for **ambiguous** grammars. It is\ncompatible with a variety of **lexers** (we recommend\n[moo](http://github.com/tjvr/moo)). It comes with tools for creating **tests**,\n**railroad diagrams** and **fuzzers** from your grammars, and has support for a\nvariety of editors and platforms. It works in both node and the browser.\n\nUnlike most other parser generators, nearley can handle *any* grammar you can\ndefine in BNF (and more!). In particular, while most existing JS parsers such\nas PEGjs and Jison choke on certain grammars (e.g. [left recursive\nones](http://en.wikipedia.org/wiki/Left_recursion)), nearley handles them\neasily and efficiently by using the [Earley parsing\nalgorithm](https://en.wikipedia.org/wiki/Earley_parser).\n\nnearley is used by a wide variety of projects:\n\n- [artificial\n  intelligence](https://github.com/ChalmersGU-AI-course/shrdlite-course-project)\n  and\n- [computational\n  linguistics](https://wiki.eecs.yorku.ca/course_archive/2014-15/W/6339/useful_handouts)\n  classes at universities;\n- [file format parsers](https://github.com/raymond-h/node-dmi);\n- [data-driven markup languages](https://github.com/idyll-lang/idyll-compiler);\n- [compilers for real-world programming\n  languages](https://github.com/sizigi/lp5562);\n- and nearley itself! The nearley compiler is bootstrapped.\n\nnearley is an npm [staff\npick](https://www.npmjs.com/package/npm-collection-staff-picks).\n\n## Documentation\n\nPlease visit our website https://nearley.js.org to get started! You will find a\ntutorial, detailed reference documents, and links to several real-world\nexamples to get inspired.\n\n## Contributing\n\nPlease read [this document](.github/CONTRIBUTING.md) *before* working on\nnearley. If you are interested in contributing but unsure where to start, take\na look at the issues labeled \"up for grabs\" on the issue tracker, or message a\nmaintainer (@kach or @tjvr on Github).\n\nnearley is MIT licensed.\n\nA big thanks to Nathan Dinsmore for teaching me how to Earley, Aria Stewart for\nhelping structure nearley into a mature module, and Robin Windels for\nbootstrapping the grammar. Additionally, Jacob Edelman wrote an experimental\nJavaScript parser with nearley and contributed ideas for EBNF support. Joshua\nT. Corbin refactored the compiler to be much, much prettier. Bojidar Marinov\nimplemented postprocessors-in-other-languages. Shachar Itzhaky fixed a subtle\nbug with nullables."
+}

@@ -1,0 +1,1448 @@
+{
+	"name": "circular-json",
+	"versions": {
+		"0.1.5": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.5",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.5.tgz",
+				"shasum": "5864524f0a8e638253d090757663bc82c79e21a3"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.5",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.3.3": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.3.3",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.3.tgz",
+				"shasum": "815c99ea84f6809529d2f45791bdf82711352d66"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.3.3",
+			"gitHead": "28b3b0440554f81f3c6e7b10f7dcec9af9588756",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json-0.3.3.tgz_1500879385194_0.5629333322867751"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"0.5.1": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.1",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.1.tgz",
+				"shasum": "b8942a09e535863dc21b04417a91971e1d9cd91f"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.1",
+			"gitHead": "b52a4d641fe6d1b157eeb6debbb26099696bc43e",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json-0.5.1.tgz_1513341750721_0.9952618184033781"
+			},
+			"_nodeVersion": "9.3.0"
+		},
+		"0.1.6": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.6",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.6.tgz",
+				"shasum": "fd692b65f8bce4f2900bea14f74ad681ab294c7f"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.6",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.5.2": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.2",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.2.tgz",
+				"shasum": "01c2d23fbf78e955d14d5626fb6d2fe0957b2c6e"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.2",
+			"gitHead": "19fd152ef84d9c5f8b69cbe8f1393fb309e17615",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.2_1523519941101_0.3939614602617656"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"0.1.3": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.3",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.3.tgz",
+				"shasum": "d0464a3fdccd102bf58ffd1eeb0610b87a89e1f9"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.25",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.3",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.3.1": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.3.1",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.1.tgz",
+				"shasum": "be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
+			},
+			"devDependencies": {
+				"wru": "*"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.3.1",
+			"gitHead": "54e5be62cf7f8b761ad120ea7a986da7fbffa5b9",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/circular-json-0.3.1.tgz_1470074424027_0.9458420514129102"
+			},
+			"_shasum": "be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d",
+			"_nodeVersion": "6.3.1"
+		},
+		"0.4.0": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.4.0",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.4.0.tgz",
+				"shasum": "c448ea998b7fe31ecf472ec29c6b608e2e2a62fd"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.4.0",
+			"gitHead": "1fffc0c533bf1be535e2be4ee587d7d1ff5ada18",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json-0.4.0.tgz_1508503898467_0.17012084182351828"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"0.1.4": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.4",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.4.tgz",
+				"shasum": "e02c8482b0e05562758d4ab9f6aaac645369bc8f"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.4",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.3.2": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.3.2",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.2.tgz",
+				"shasum": "c001b59d86aeffeabf9b5e96ebc71685e15df5d5"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.3.2",
+			"gitHead": "86105e9c008618e2c419d714c00d732d9e46febd",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json-0.3.2.tgz_1500843444675_0.9537317580543458"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"0.5.0": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.0",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.0.tgz",
+				"shasum": "c9f6b63079706eaada8f1aca47e7edea37088a36"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.0",
+			"gitHead": "8972d52903d95b8d15ae96a6dc11e5d2e3650501",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json-0.5.0.tgz_1513341459248_0.9899818864651024"
+			},
+			"_nodeVersion": "9.3.0"
+		},
+		"0.5.5": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.5",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.5.tgz",
+				"shasum": "64182ef359042d37cd8e767fc9de878b1e9447d3"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.5",
+			"gitHead": "ef593771120f0dc4df42240f20878667d9da4f69",
+			"unpkg": "build/circular-json.js",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.5_1530638018244_0.8133397636167949"
+			},
+			"_nodeVersion": "9.11.1"
+		},
+		"0.5.3": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.3",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.3.tgz",
+				"shasum": "eb1b783333bb125784647d1a76377caf1499efb1"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.3",
+			"gitHead": "7529cf7a3c99372fac83df45259f2ae92f56b0e3",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.3_1523522106168_0.7874994509266855"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"0.5.4": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.4",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.4.tgz",
+				"shasum": "ff1ad2f2e392eeb8a5172d4d985fa846ed8ad656"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.4",
+			"gitHead": "32aadcaa5a774b8613e905c2dbf4283e6c67ee07",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.4_1525954205101_0.8827114545987289"
+			},
+			"_nodeVersion": "9.11.1"
+		},
+		"0.1.1": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.1",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.1.tgz",
+				"shasum": "8aa563b904f5b07c865e450b7d0e35b5c7e88b27"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.1",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.2.0": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.2.0",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.2.0.tgz",
+				"shasum": "5670c9f4c6cfa340ee0c462a794184db51ba5c90"
+			},
+			"devDependencies": {
+				"wru": "*"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.3",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.2.0",
+			"gitHead": "d8aaf4496abb8d88198e6fd1b5274067bca84ca7",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_shasum": "5670c9f4c6cfa340ee0c462a794184db51ba5c90",
+			"_nodeVersion": "4.1.0"
+		},
+		"0.1.2": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.2",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.2.tgz",
+				"shasum": "575f851b6e0bf52f54674b54e70daaedae7c0b55"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.2",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.3.0": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.3.0",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.0.tgz",
+				"shasum": "8d80d3488fbf20c343bdc3534e60d94535721f70"
+			},
+			"devDependencies": {
+				"wru": "*"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.3.0",
+			"gitHead": "8e4b7eb44892a415541748398efe9ce2aa68ad42",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_shasum": "8d80d3488fbf20c343bdc3534e60d94535721f70",
+			"_nodeVersion": "5.0.0"
+		},
+		"0.1.0": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.1.0",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.0.tgz",
+				"shasum": "8a9c2eb2bd34323985cc594faa345310b3587d5e"
+			},
+			"dependencies": {
+				"wru": ">= 0.0.0"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test/.test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.1.0",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"generator": "https://github.com/WebReflection/gitstrap"
+		},
+		"0.5.9": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.9",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.9.tgz",
+				"shasum": "932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.9",
+			"gitHead": "ceab9c16070d3fc63f193bc10124eccb20424990",
+			"unpkg": "build/circular-json.js",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.9_1540325095720_0.16760917845332957"
+			},
+			"_nodeVersion": "9.11.1"
+		},
+		"0.5.7": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.7",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.7.tgz",
+				"shasum": "b8be478d72ea58c7eeda26bf1cf1fba43d188842"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./",
+				"postinstall": "echo ''; echo \"\\x1B[1mCircularJSON\\x1B[0m is in \\x1B[4mmaintenance only\\x1B[0m, \\x1B[1mflatted\\x1B[0m is its successor.\"; echo ''"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.7",
+			"gitHead": "0dbeb09ad97189488cab9e98ddb7565211bc3af8",
+			"unpkg": "build/circular-json.js",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.7_1537341956673_0.7875892417502544"
+			},
+			"_nodeVersion": "9.11.1"
+		},
+		"0.5.8": {
+			"name": "circular-json",
+			"description": "JSON does not handle circular references. This version does",
+			"version": "0.5.8",
+			"author": {
+				"name": "Andrea Giammarchi",
+				"url": "http://webreflection.blogspot.com/"
+			},
+			"homepage": "https://github.com/WebReflection/circular-json",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/WebReflection/circular-json.git"
+			},
+			"bugs": {
+				"url": "https://github.com/WebReflection/circular-json/issues"
+			},
+			"main": "./build/circular-json.node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.8.tgz",
+				"shasum": "40d2ff3aadee99871ebd19b41af3c9f113490003"
+			},
+			"devDependencies": {
+				"coveralls": "^2.13.0",
+				"istanbul": "^0.4.5",
+				"tiny-cdn": "^0.7.0",
+				"tressa": "^0.3.1"
+			},
+			"keywords": [
+				"JSON",
+				"circular",
+				"reference",
+				"recursive",
+				"recursion",
+				"parse",
+				"stringify"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "webreflection",
+					"email": "andrea.giammarchi@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "istanbul cover test/circular-json.js",
+				"coveralls": "cat ./coverage/lcov.info | coveralls",
+				"web": "$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./",
+				"postinstall": "echo ''; echo -e \"\\x1B[1mCircularJSON\\x1B[0m is in \\x1B[4mmaintenance only\\x1B[0m, \\x1B[1mflatted\\x1B[0m is its successor.\"; echo ''"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "webreflection",
+				"email": "andrea.giammarchi@gmail.com"
+			},
+			"_id": "circular-json@0.5.8",
+			"gitHead": "f9338e4a16dcb46a3fbb0a4fe3f0b42f09224807",
+			"unpkg": "build/circular-json.js",
+			"deprecated": "CircularJSON is in maintenance only, flatted is its successor.",
+			"_hasShrinkwrap": false,
+			"generator": "https://github.com/WebReflection/gitstrap",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/circular-json_0.5.8_1540063582240_0.9898673396281841"
+			},
+			"_nodeVersion": "9.11.1"
+		}
+	},
+	"time": {
+		"0.1.5": "2013-10-01T16:15:04.110Z",
+		"0.3.3": "2017-07-24T06:56:26.197Z",
+		"0.5.1": "2017-12-15T12:42:30.824Z",
+		"0.1.6": "2014-02-25T18:38:26.252Z",
+		"0.5.2": "2018-04-12T07:59:01.194Z",
+		"0.1.3": "2013-07-09T22:32:42.249Z",
+		"0.3.1": "2016-08-01T18:00:25.875Z",
+		"0.4.0": "2017-10-20T12:51:38.628Z",
+		"0.1.4": "2013-10-01T16:10:32.543Z",
+		"0.3.2": "2017-07-23T20:57:25.694Z",
+		"0.5.0": "2017-12-15T12:37:39.380Z",
+		"0.5.5": "2018-07-03T17:13:38.311Z",
+		"created": "2013-03-13T14:59:23.212Z",
+		"0.5.3": "2018-04-12T08:35:06.245Z",
+		"0.5.4": "2018-05-10T12:10:05.230Z",
+		"0.1.1": "2013-03-13T20:55:00.920Z",
+		"0.2.0": "2015-09-24T17:37:03.701Z",
+		"0.1.2": "2013-03-17T01:02:59.508Z",
+		"0.3.0": "2015-11-05T10:07:39.855Z",
+		"0.1.0": "2013-03-13T14:59:24.779Z",
+		"0.5.9": "2018-10-23T20:04:56.147Z",
+		"modified": "2019-01-01T13:27:49.722Z",
+		"0.5.7": "2018-09-19T07:25:56.815Z",
+		"0.5.8": "2018-10-20T19:26:22.333Z"
+	},
+	"dist-tags": {
+		"latest": "0.5.9"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749415223
+		}
+	},
+	"_distfiles": {
+		"circular-json-0.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.5.tgz",
+			"sha": "5864524f0a8e638253d090757663bc82c79e21a3"
+		},
+		"circular-json-0.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.3.tgz",
+			"sha": "815c99ea84f6809529d2f45791bdf82711352d66"
+		},
+		"circular-json-0.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.1.tgz",
+			"sha": "b8942a09e535863dc21b04417a91971e1d9cd91f"
+		},
+		"circular-json-0.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.6.tgz",
+			"sha": "fd692b65f8bce4f2900bea14f74ad681ab294c7f"
+		},
+		"circular-json-0.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.2.tgz",
+			"sha": "01c2d23fbf78e955d14d5626fb6d2fe0957b2c6e"
+		},
+		"circular-json-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.3.tgz",
+			"sha": "d0464a3fdccd102bf58ffd1eeb0610b87a89e1f9"
+		},
+		"circular-json-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.1.tgz",
+			"sha": "be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
+		},
+		"circular-json-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.4.0.tgz",
+			"sha": "c448ea998b7fe31ecf472ec29c6b608e2e2a62fd"
+		},
+		"circular-json-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.4.tgz",
+			"sha": "e02c8482b0e05562758d4ab9f6aaac645369bc8f"
+		},
+		"circular-json-0.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.2.tgz",
+			"sha": "c001b59d86aeffeabf9b5e96ebc71685e15df5d5"
+		},
+		"circular-json-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.0.tgz",
+			"sha": "c9f6b63079706eaada8f1aca47e7edea37088a36"
+		},
+		"circular-json-0.5.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.5.tgz",
+			"sha": "64182ef359042d37cd8e767fc9de878b1e9447d3"
+		},
+		"circular-json-0.5.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.3.tgz",
+			"sha": "eb1b783333bb125784647d1a76377caf1499efb1"
+		},
+		"circular-json-0.5.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.4.tgz",
+			"sha": "ff1ad2f2e392eeb8a5172d4d985fa846ed8ad656"
+		},
+		"circular-json-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.1.tgz",
+			"sha": "8aa563b904f5b07c865e450b7d0e35b5c7e88b27"
+		},
+		"circular-json-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.2.0.tgz",
+			"sha": "5670c9f4c6cfa340ee0c462a794184db51ba5c90"
+		},
+		"circular-json-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.2.tgz",
+			"sha": "575f851b6e0bf52f54674b54e70daaedae7c0b55"
+		},
+		"circular-json-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.3.0.tgz",
+			"sha": "8d80d3488fbf20c343bdc3534e60d94535721f70"
+		},
+		"circular-json-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.1.0.tgz",
+			"sha": "8a9c2eb2bd34323985cc594faa345310b3587d5e"
+		},
+		"circular-json-0.5.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.9.tgz",
+			"sha": "932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
+		},
+		"circular-json-0.5.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.7.tgz",
+			"sha": "b8be478d72ea58c7eeda26bf1cf1fba43d188842"
+		},
+		"circular-json-0.5.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/circular-json/-/circular-json-0.5.8.tgz",
+			"sha": "40d2ff3aadee99871ebd19b41af3c9f113490003"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-8c94b865e4171cc3",
+	"readme": "CircularJSON\n============\n\n[![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/WebReflection/donate) ![Downloads](https://img.shields.io/npm/dm/circular-json.svg) [![Build Status](https://travis-ci.org/WebReflection/circular-json.svg?branch=master)](https://travis-ci.org/WebReflection/circular-json) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/circular-json/badge.svg?branch=master)](https://coveralls.io/github/WebReflection/circular-json?branch=master)\n\nSerializes and deserializes otherwise valid JSON objects containing circular references into and from a specialized JSON format.\n\n- - -\n\n## The future of this module is called [flatted](https://github.com/WebReflection/flatted#flatted)\n\nSmaller, faster, and able to produce on average a reduced output too, [flatted](https://github.com/WebReflection/flatted#flatted) is the new, bloatless, ESM and CJS compatible, circular JSON parser.\n\nIt has now reached V1 and it implements the exact same JSON API.\n\nPlease note **CircularJSON is in maintenance only** and **[flatted](https://github.com/WebReflection/flatted#flatted) is its successor**.\n\n- - -\n\n### A Working Solution To A Common Problem\nA usage example:\n\n```JavaScript\nvar object = {};\nobject.arr = [\n  object, object\n];\nobject.arr.push(object.arr);\nobject.obj = object;\n\nvar serialized = CircularJSON.stringify(object);\n// '{\"arr\":[\"~\",\"~\",\"~arr\"],\"obj\":\"~\"}'\n// NOTE: CircularJSON DOES NOT parse JS\n// it handles receiver and reviver callbacks\n\nvar unserialized = CircularJSON.parse(serialized);\n// { arr: [ [Circular], [Circular] ],\n// obj: [Circular] }\n\nunserialized.obj === unserialized;\nunserialized.arr[0] === unserialized;\nunserialized.arr.pop() === unserialized.arr;\n```\n\nA quick summary:\n\n  * **new** in version `0.5`, you can specify a JSON parser different from JSON itself. `CircularJSON.parser = ABetterJSON;` is all you need.\n  * uses `~` as a special prefix symbol to denote which parent the reference belongs to (i.e. `~root~child1~child2`)\n  * reasonably fast in both serialization and deserialization\n  * compact serialization for easier and slimmer transportation across environments\n  * [tested and covered](test/circular-json.js) over nasty structures too\n  * compatible with all JavaScript engines\n\nNode Installation & Usage\n============\n\n```bash\nnpm install --save circular-json\n```\n\n```javascript\n'use strict';\n\nvar\n  CircularJSON = require('circular-json'),\n  obj = { foo: 'bar' },\n  str\n;\n  \nobj.self = obj;\nstr = CircularJSON.stringify(obj);\n```\n\nThere are no dependencies.\n\nBrowser Installation & Usage\n================\n\n* Global: <build/circular-json.js>\n* AMD: <build/circular-json.amd.js>\n* CommonJS: <build/circular-json.node.js>\n\n(generated via [gitstrap](https://github.com/WebReflection/gitstrap))\n\n```html\n<script src=\"build/circular-json.js\"></script>\n```\n\n```javascript\n'use strict';\n\nvar CircularJSON = window.CircularJSON\n  , obj = { foo: 'bar' }\n  , str\n  ;\n  \nobj.self = obj;\nstr = CircularJSON.stringify(obj);\n```\n\nNOTE: Platforms without native JSON (i.e. MSIE <= 8) requires `json3.js` or similar.\n\nIt is also *a bad idea* to `CircularJSON.parse(JSON.stringify(object))` because of those manipulation used in `CircularJSON.stringify()` able to make parsing safe and secure.\n\nAs summary: `CircularJSON.parse(CircularJSON.stringify(object))` is the way to go, same is for `JSON.parse(JSON.stringify(object))`.\n\nAPI\n===\n\nIt's the same as native JSON, except the fourth parameter `placeholder`, which circular references to be replaced with `\"[Circular]\"` (i.e. for logging).\n\n* CircularJSON.stringify(object, replacer, spacer, placeholder)\n* CircularJSON.parse(string, reviver)\n\nBear in mind `JSON.parse(CircularJSON.stringify(object))` will work but not produce the expected output.\n\nSimilar Libraries\n=======\n\n### Why Not the [@izs](https://twitter.com/izs) One\nThe module [json-stringify-safe](https://github.com/isaacs/json-stringify-safe) seems to be for `console.log()`  but it's completely pointless for `JSON.parse()`, being latter one unable to retrieve back the initial structure. Here an example:\n\n```JavaScript\n// a logged object with circular references\n{\n  \"circularRef\": \"[Circular]\",\n  \"list\": [\n    \"[Circular]\",\n    \"[Circular]\"\n  ]\n}\n// what do we do with above output ?\n```\n\nJust type this in your `node` console: `var o = {}; o.a = o; console.log(o);`. The output will be `{ a: [Circular] }` ... good, but that ain't really solving the problem.\n\nHowever, if that's all you need, the function used to create that kind of output is probably faster than `CircularJSON` and surely fits in less lines of code.\n\n\n### Why Not {{put random name}} Solution\nSo here the thing: circular references can be wrong but, if there is a need for them, any attempt to ignore them or remove them can be considered just a failure.\n\nNot because the method is bad or it's not working, simply because the circular info, the one we needed and used in the first place, is lost!\n\nIn this case, `CircularJSON` does even more than just solve circular and recursions: it maps all same objects so that less memory is used as well on deserialization as less bandwidth too!\nIt's able to redefine those references back later on so the way we store is the way we retrieve and in a reasonably performant way, also trusting the snappy and native `JSON` methods to iterate."
+}

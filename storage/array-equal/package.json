@@ -1,0 +1,64 @@
+{
+	"name": "array-equal",
+	"versions": {
+		"1.0.0": {
+			"name": "array-equal",
+			"description": "check if two arrays are equal",
+			"version": "1.0.0",
+			"author": {
+				"name": "Jonathan Ong",
+				"email": "me@jongleberry.com",
+				"url": "http://jongleberry.com"
+			},
+			"homepage": "https://github.com/component/array-equal",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/component/array-equal"
+			},
+			"bugs": {
+				"url": "https://github.com/component/array-equal/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/array-equal/-/array-equal-1.0.0.tgz",
+				"shasum": "8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "jongleberry",
+				"email": "jonathanrichardong@gmail.com"
+			},
+			"_id": "array-equal@1.0.0"
+		}
+	},
+	"time": {
+		"created": "2014-04-29T09:17:37.982Z",
+		"modified": "2019-01-01T05:44:30.547Z",
+		"1.0.0": "2014-04-29T09:17:37.982Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749445816
+		}
+	},
+	"_distfiles": {
+		"array-equal-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/array-equal/-/array-equal-1.0.0.tgz",
+			"sha": "8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ae530f7bffd21aaa",
+	"readme": "# Array Equal\n\nCheck if two arrays are equal:\n\n```js\nvar equals = require('array-equal')\n\nassert(equals([1, 2, 3], [1, 2, 3])) // => true\nassert(equals([1, 2, 3], [1, 2, 3, 4])) // => false\n```"
+}

@@ -1,0 +1,620 @@
+{
+	"name": "parse-css-font",
+	"versions": {
+		"2.0.0": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "2.0.0",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.0.tgz",
+				"shasum": "8369991e1a564d111d0e80728fa47bd399b621f2"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretches": "^1.0.1",
+				"css-font-styles": "^1.0.0",
+				"css-font-weights": "^1.0.0",
+				"css-global-values": "^1.0.0",
+				"css-list-helpers": "^1.0.0",
+				"css-system-fonts": "0.0.1",
+				"tcomb": "^2.5.0",
+				"unquote": "^1.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "^0.3.21",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run cover && npm run check-coverage",
+				"cover": "istanbul cover test/index.js",
+				"check-coverage": "istanbul check-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@2.0.0",
+			"gitHead": "0870aeebaca6b092d2ed7af5530af622c0a60116",
+			"_shasum": "8369991e1a564d111d0e80728fa47bd399b621f2",
+			"_nodeVersion": "4.1.0"
+		},
+		"2.0.1": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "2.0.1",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.1.tgz",
+				"shasum": "904bc4224d2dc96f6e79c89eaaeaf0ed2374bc51"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretches": "^1.0.1",
+				"css-font-styles": "^1.0.0",
+				"css-font-weights": "^1.0.0",
+				"css-global-values": "^1.0.0",
+				"css-list-helpers": "^1.0.1",
+				"css-system-fonts": "0.0.1",
+				"tcomb": "^2.5.0",
+				"unquote": "^1.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "^0.3.21",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run cover && npm run check-coverage",
+				"cover": "istanbul cover test/index.js",
+				"check-coverage": "istanbul check-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@2.0.1",
+			"gitHead": "e43f84a99f1e62bf8da4235d9a777df059f34d77",
+			"_shasum": "904bc4224d2dc96f6e79c89eaaeaf0ed2374bc51",
+			"_nodeVersion": "4.1.0"
+		},
+		"3.0.0": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "3.0.0",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.0.tgz",
+				"shasum": "3da6663a334fabc1683970198e33f96142c5b3a7"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretch-keywords": "^1.0.1",
+				"css-font-style-keywords": "^1.0.1",
+				"css-font-weight-keywords": "^1.0.0",
+				"css-global-keywords": "^1.0.1",
+				"css-list-helpers": "^2.0.0",
+				"css-system-font-keywords": "^1.0.0",
+				"unquote": "^1.1.1"
+			},
+			"devDependencies": {
+				"@types/node": "^10.0.3",
+				"ava": "^0.25.0",
+				"concurrently": "^3.5.1",
+				"nyc": "^11.7.1",
+				"rimraf": "^2.6.2",
+				"tslint": "^5.10.0",
+				"typescript": "^2.8.3"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf coverage dist *.log css-list-helpers-*",
+				"codecov": "codecov -f coverage/lcov.info",
+				"prebuild": "npm run clean && npm run lint",
+				"build": "tsc",
+				"prebuild:watch": "npm run prebuild",
+				"build:watch": "tsc --watch",
+				"lint": "tslint --project tsconfig.test.json",
+				"pretest": "npm run build -- --project tsconfig.test.json",
+				"test": "nyc ava --verbose",
+				"watch": "concurrently \"npm run build:watch\" \"npm test -- --watch\"",
+				"prepack": "npm test && npm run build"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@3.0.0",
+			"gitHead": "9cb335f4c86b2c7ab3dfc3816c3359a03e4f2686",
+			"types": "dist/index.d.ts",
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"include": [
+					"dist/**/*.js"
+				],
+				"exclude": [
+					"dist/**/*.test.js"
+				],
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"cache": true,
+				"all": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-css-font_3.0.0_1525458533884_0.7494652716965051"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"3.0.1": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "3.0.1",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.1.tgz",
+				"shasum": "d95669530789edce11b38cce3313427ea739b8ab"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretch-keywords": "^1.0.1",
+				"css-font-style-keywords": "^1.0.1",
+				"css-font-weight-keywords": "^1.0.0",
+				"css-global-keywords": "^1.0.1",
+				"css-list-helpers": "^2.0.0",
+				"css-system-font-keywords": "^1.0.0",
+				"unquote": "^1.1.1"
+			},
+			"devDependencies": {
+				"@types/node": "^10.0.3",
+				"ava": "^0.25.0",
+				"concurrently": "^3.5.1",
+				"nyc": "^11.7.1",
+				"rimraf": "^2.6.2",
+				"tslint": "^5.10.0",
+				"typescript": "^2.8.3"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf coverage dist *.log css-list-helpers-*",
+				"codecov": "codecov -f coverage/lcov.info",
+				"prebuild": "npm run clean && npm run lint",
+				"build": "tsc",
+				"prebuild:watch": "npm run prebuild",
+				"build:watch": "tsc --watch",
+				"lint": "tslint --project tsconfig.test.json",
+				"pretest": "npm run build -- --project tsconfig.test.json",
+				"test": "nyc ava --verbose",
+				"watch": "concurrently \"npm run build:watch\" \"npm test -- --watch\"",
+				"prepack": "npm test && npm run build"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@3.0.1",
+			"gitHead": "f3d11406959b75adb5d0d0be3ce3607da8c262e0",
+			"types": "dist/index.d.ts",
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"include": [
+					"dist/**/*.js"
+				],
+				"exclude": [
+					"dist/**/*.test.js"
+				],
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"cache": true,
+				"all": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-css-font_3.0.1_1525466034854_0.14375047849598532"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"1.0.0": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-1.0.0.tgz",
+				"shasum": "ab8b090e98900dee04acff85e8de1975787e5884"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretches": "^1.0.1",
+				"css-font-styles": "^1.0.0",
+				"css-font-weights": "^1.0.0",
+				"css-global-values": "^1.0.0",
+				"css-system-fonts": "0.0.1",
+				"tcomb": "^2.5.0",
+				"unquote": "^1.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "^0.3.21",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run cover && npm run check-coverage",
+				"cover": "istanbul cover test/index.js",
+				"check-coverage": "istanbul check-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@1.0.0",
+			"gitHead": "8df7fc650eb66013eb337251d3c4becc801b9fcf",
+			"_shasum": "ab8b090e98900dee04acff85e8de1975787e5884",
+			"_nodeVersion": "4.1.0"
+		},
+		"3.0.2": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "3.0.2",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.2.tgz",
+				"shasum": "126c089de7de30feb6b43d16e4288af79fdbc2dc"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretch-keywords": "^1.0.1",
+				"css-font-style-keywords": "^1.0.1",
+				"css-font-weight-keywords": "^1.0.0",
+				"css-global-keywords": "^1.0.1",
+				"css-list-helpers": "^2.0.0",
+				"css-system-font-keywords": "^1.0.0",
+				"unquote": "^1.1.1"
+			},
+			"devDependencies": {
+				"@types/node": "^10.1.2",
+				"ava": "^0.25.0",
+				"concurrently": "^3.5.1",
+				"nyc": "^11.8.0",
+				"rimraf": "^2.6.2",
+				"tslint": "^5.10.0",
+				"typescript": "^2.8.3"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf coverage dist *.log css-list-helpers-*",
+				"codecov": "codecov -f coverage/lcov.info",
+				"prebuild": "npm run clean && npm run lint",
+				"build": "tsc",
+				"prebuild:watch": "npm run prebuild",
+				"build:watch": "tsc --watch",
+				"lint": "tslint --project tsconfig.test.json",
+				"pretest": "npm run build -- --project tsconfig.test.json",
+				"test": "nyc ava --verbose",
+				"watch": "concurrently \"npm run build:watch\" \"npm test -- --watch\"",
+				"prepack": "npm test && npm run build"
+			},
+			"_npmVersion": "6.0.0",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@3.0.2",
+			"gitHead": "6be37acbf3dfd7ccac4b9dd74945770b0221d149",
+			"types": "dist/index.d.ts",
+			"nyc": {
+				"lines": 100,
+				"statements": 100,
+				"functions": 100,
+				"branches": 100,
+				"include": [
+					"dist/**/*.js"
+				],
+				"exclude": [
+					"dist/**/*.test.js"
+				],
+				"reporter": [
+					"lcov",
+					"text"
+				],
+				"cache": true,
+				"all": true,
+				"check-coverage": true
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-css-font_3.0.2_1526926196878_0.536544403090641"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"2.0.2": {
+			"name": "parse-css-font",
+			"description": "Parse the CSS font property value.",
+			"version": "2.0.2",
+			"author": {
+				"name": "Jed Mao",
+				"email": "jedmao@outlook.com"
+			},
+			"homepage": "https://github.com/jedmao/parse-css-font#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jedmao/parse-css-font.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jedmao/parse-css-font/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.2.tgz",
+				"shasum": "7b60b060705a25a9b90b7f0ed493e5823248a652"
+			},
+			"dependencies": {
+				"css-font-size-keywords": "^1.0.0",
+				"css-font-stretch-keywords": "^1.0.1",
+				"css-font-style-keywords": "^1.0.1",
+				"css-font-weight-keywords": "^1.0.0",
+				"css-global-keywords": "^1.0.1",
+				"css-list-helpers": "^1.0.1",
+				"css-system-font-keywords": "^1.0.0",
+				"tcomb": "^2.5.0",
+				"unquote": "^1.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "^0.3.21",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"parse",
+				"font",
+				"shorthand"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jedmao",
+					"email": "jedmao@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "npm run cover && npm run check-coverage",
+				"cover": "istanbul cover test/index.js",
+				"check-coverage": "istanbul check-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "jedmao",
+				"email": "jedmao@outlook.com"
+			},
+			"_id": "parse-css-font@2.0.2",
+			"gitHead": "09530328e762ce40a1732d1c3555e2f48975e6ff",
+			"_shasum": "7b60b060705a25a9b90b7f0ed493e5823248a652",
+			"_nodeVersion": "4.1.0"
+		}
+	},
+	"time": {
+		"2.0.0": "2015-10-02T03:03:46.442Z",
+		"2.0.1": "2015-10-02T05:42:10.781Z",
+		"3.0.0": "2018-05-04T18:28:53.956Z",
+		"created": "2015-09-27T18:24:10.144Z",
+		"modified": "2018-05-21T18:09:59.841Z",
+		"3.0.1": "2018-05-04T20:33:54.911Z",
+		"1.0.0": "2015-09-27T18:24:10.144Z",
+		"3.0.2": "2018-05-21T18:09:56.934Z",
+		"2.0.2": "2015-10-02T23:26:27.365Z"
+	},
+	"dist-tags": {
+		"latest": "3.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749364692
+		}
+	},
+	"_distfiles": {
+		"parse-css-font-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.0.tgz",
+			"sha": "8369991e1a564d111d0e80728fa47bd399b621f2"
+		},
+		"parse-css-font-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.1.tgz",
+			"sha": "904bc4224d2dc96f6e79c89eaaeaf0ed2374bc51"
+		},
+		"parse-css-font-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.0.tgz",
+			"sha": "3da6663a334fabc1683970198e33f96142c5b3a7"
+		},
+		"parse-css-font-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.1.tgz",
+			"sha": "d95669530789edce11b38cce3313427ea739b8ab"
+		},
+		"parse-css-font-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-1.0.0.tgz",
+			"sha": "ab8b090e98900dee04acff85e8de1975787e5884"
+		},
+		"parse-css-font-3.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-3.0.2.tgz",
+			"sha": "126c089de7de30feb6b43d16e4288af79fdbc2dc"
+		},
+		"parse-css-font-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/parse-css-font/-/parse-css-font-2.0.2.tgz",
+			"sha": "7b60b060705a25a9b90b7f0ed493e5823248a652"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-a86337de50d0ded5",
+	"readme": "# parse-css-font\n\n[![NPM version](http://img.shields.io/npm/v/parse-css-font.svg?style=flat)](https://www.npmjs.org/package/parse-css-font)\n[![npm license](http://img.shields.io/npm/l/parse-css-font.svg?style=flat-square)](https://www.npmjs.org/package/parse-css-font)\n[![Travis Build Status](https://img.shields.io/travis/jedmao/parse-css-font.svg?label=unix)](https://travis-ci.org/jedmao/parse-css-font)\n\n[![npm](https://nodei.co/npm/parse-css-font.svg?downloads=true)](https://nodei.co/npm/parse-css-font/)\n\nParses the CSS [font property](https://developer.mozilla.org/en-US/docs/Web/CSS/font#font-variant-css21).\n\n## Installation\n\n```\n$ npm install parse-css-font [--save[-dev]]\n```\n\n## Usage\n\n```js\nvar parseCSSFont = require('parse-css-font');\nparseCSSFont('1rem \"Roboto Condensed\", sans-serif;');\n/*\n{\n\tsize: '1rem',\n\tfamily: ['Roboto Condensed', 'sans-serif'],\n\tstyle: 'normal',\n\tvariant: 'normal',\n\tweight: 'normal',\n\tstretch: 'normal',\n\tlineHeight: 'normal'\n}\n*/\n```\n\nSee [the tests](https://github.com/jedmao/parse-css-font/blob/master/src/index.test.ts) for more scenarios.\n\n### ES6/2015 import\n\n```ts\nimport parseCSSFont from 'parse-css-font';\n```\n\n## Testing\n\n```\n$ npm test\n```\n\nThis will run tests and generate a code coverage report. Anything less than 100% coverage will throw an error."
+}

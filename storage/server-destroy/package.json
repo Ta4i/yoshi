@@ -1,0 +1,114 @@
+{
+	"name": "server-destroy",
+	"versions": {
+		"1.0.0": {
+			"name": "server-destroy",
+			"description": "Enable destroying a server, and all currently open connections.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/isaacs/server-destroy"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/server-destroy/-/server-destroy-1.0.0.tgz",
+				"shasum": "5fc2dfc9eb9a2bbf27ba49b2092c84bfa9daa430"
+			},
+			"license": "BSD",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.17",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "i@izs.me"
+			},
+			"_id": "server-destroy@1.0.0",
+			"gitHead": "71e22162bacb9368de045db4283f95f02194479b"
+		},
+		"1.0.1": {
+			"name": "server-destroy",
+			"description": "Enable destroying a server, and all currently open connections.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Isaac Z. Schlueter",
+				"email": "i@izs.me",
+				"url": "http://blog.izs.me"
+			},
+			"homepage": "https://github.com/isaacs/server-destroy#readme",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/isaacs/server-destroy.git"
+			},
+			"bugs": {
+				"url": "https://github.com/isaacs/server-destroy/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/server-destroy/-/server-destroy-1.0.1.tgz",
+				"shasum": "f13bf928e42b9c3e79383e61cc3998b5d14e6cdd"
+			},
+			"license": "ISC",
+			"maintainers": [
+				{
+					"name": "isaacs",
+					"email": "i@izs.me"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.10.0",
+			"_npmUser": {
+				"name": "isaacs",
+				"email": "isaacs@npmjs.com"
+			},
+			"_id": "server-destroy@1.0.1",
+			"gitHead": "71e22162bacb9368de045db4283f95f02194479b",
+			"_shasum": "f13bf928e42b9c3e79383e61cc3998b5d14e6cdd",
+			"_nodeVersion": "2.0.1"
+		}
+	},
+	"time": {
+		"created": "2013-04-04T20:03:36.655Z",
+		"modified": "2018-02-24T08:41:14.935Z",
+		"1.0.0": "2013-04-04T20:03:37.983Z",
+		"1.0.1": "2015-05-20T07:16:41.655Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749368961
+		}
+	},
+	"_distfiles": {
+		"server-destroy-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/server-destroy/-/server-destroy-1.0.0.tgz",
+			"sha": "5fc2dfc9eb9a2bbf27ba49b2092c84bfa9daa430"
+		},
+		"server-destroy-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/server-destroy/-/server-destroy-1.0.1.tgz",
+			"sha": "f13bf928e42b9c3e79383e61cc3998b5d14e6cdd"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-0ae2d12411714b52",
+	"readme": "# server-destroy\n\nEnable destroying a server, and all currently open connections.\n\n## Usage\n\n```javascript\nvar enableDestroy = require('server-destroy');\n\nvar server = http.createServer(function(req, res) {\n  // do stuff, blah blah blah\n});\n\nserver.listen(PORT);\n\n// enhance with a 'destroy' function\nenableDestroy(server);\n\n// some time later...\nserver.destroy();\n```"
+}

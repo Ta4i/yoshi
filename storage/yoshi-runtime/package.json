@@ -1,0 +1,2847 @@
+{
+	"name": "yoshi-runtime",
+	"versions": {
+		"1.0.12": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.12",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.12.tgz",
+				"shasum": "e4e9d8f718979f7d9e9b3b277468f6e2fa1ccffe"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.12",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.12.tgz_1500409809113_0.35100247664377093"
+			},
+			"_shasum": "e4e9d8f718979f7d9e9b3b277468f6e2fa1ccffe",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.34": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.34",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.34.tgz",
+				"shasum": "baccea7351574a3abf733b44e10c64a02496b614"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.34",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.34.tgz_1512374778795_0.06397865945473313"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.13": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.13",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.13.tgz",
+				"shasum": "521b6326cf38a4a239103ca334b9f1b4f53fa2f6"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.13",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.13.tgz_1500472457653_0.6320415430236608"
+			},
+			"_shasum": "521b6326cf38a4a239103ca334b9f1b4f53fa2f6",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.35": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.35",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.35.tgz",
+				"shasum": "1ad43a08f0c6e95c166b7d248002427c3bc1eb00"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.35",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.35.tgz_1515762960678_0.9861054038628936"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.14": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.14",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.14.tgz",
+				"shasum": "b7656a2b31be6ffb20eee5fb520218d99be0b709"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.14",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.14.tgz_1500746161525_0.5964348695706576"
+			},
+			"_shasum": "b7656a2b31be6ffb20eee5fb520218d99be0b709",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.36": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.36",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.36.tgz",
+				"shasum": "47c4d1622073698b664e6e791acfa4f5131ba3c1"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.36",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.36.tgz_1516002849902_0.6864749703090638"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.15": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.15",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.15.tgz",
+				"shasum": "ff135a8515f7f41d87e48f3d7c61655e2e7b7f42"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.15",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.15.tgz_1500746640196_0.8542634497862309"
+			},
+			"_shasum": "ff135a8515f7f41d87e48f3d7c61655e2e7b7f42",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.37": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.37",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.37.tgz",
+				"shasum": "0591017c46e25af8eee19b011b660b85f0ab6b13"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.37",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.37_1521542093339_0.990990663284895"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.30": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.30",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.30.tgz",
+				"shasum": "19debfff1870d236cdeaf3576b5f54f10439e4b6"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.30",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.30.tgz_1507272026824_0.15793662355281413"
+			},
+			"_shasum": "19debfff1870d236cdeaf3576b5f54f10439e4b6",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.31": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.31",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.31.tgz",
+				"shasum": "92e079fbc27a254a1d64d0076ed4ce70d098923b"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.31",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.31.tgz_1507442617028_0.46543383225798607"
+			},
+			"_shasum": "92e079fbc27a254a1d64d0076ed4ce70d098923b",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.10": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.10",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.10.tgz",
+				"shasum": "260c2b95e91be49674c91f8c63d84f3bb6f2d492"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.10",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.10.tgz_1500377150512_0.5603067411575466"
+			},
+			"_shasum": "260c2b95e91be49674c91f8c63d84f3bb6f2d492",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.32": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.32",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.32.tgz",
+				"shasum": "e3c3906c25b24eaa4ea3be983d83150ff1f3e432"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.32",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.32.tgz_1507562041140_0.9386200169101357"
+			},
+			"_shasum": "e3c3906c25b24eaa4ea3be983d83150ff1f3e432",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.11": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.11",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.11.tgz",
+				"shasum": "7f9ee7e0f149a7c853ba3d76951414feb98774d4"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.11",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.11.tgz_1500381864756_0.7662091013044119"
+			},
+			"_shasum": "7f9ee7e0f149a7c853ba3d76951414feb98774d4",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.33": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.33",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.33.tgz",
+				"shasum": "aa1ad8745fe87e8d19870ecb898334e12bf4adfd"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.33",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.33.tgz_1510320609258_0.1406724622938782"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.27": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.27",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.27.tgz",
+				"shasum": "a59bc57b689fbc0fbaf5cc3f5f2ff885530c64ed"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.27",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.27.tgz_1507025696969_0.547617580043152"
+			},
+			"_shasum": "a59bc57b689fbc0fbaf5cc3f5f2ff885530c64ed",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.28": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.28",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.28.tgz",
+				"shasum": "5771b0958babc6b59fc8f2953b4642f9cb388334"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.28",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.28.tgz_1507126335551_0.6816686557140201"
+			},
+			"_shasum": "5771b0958babc6b59fc8f2953b4642f9cb388334",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.29": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.29",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.29.tgz",
+				"shasum": "b4798ee9d1da1276d8476dddfc6df642c6bd6ba4"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.29",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.29.tgz_1507264965504_0.08827399229630828"
+			},
+			"_shasum": "b4798ee9d1da1276d8476dddfc6df642c6bd6ba4",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.23": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.23",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.23.tgz",
+				"shasum": "4ca46e1d6a1cee1bf419b9eed8c9cf955147d416"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.23",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.23.tgz_1506954980336_0.07482668408192694"
+			},
+			"_shasum": "4ca46e1d6a1cee1bf419b9eed8c9cf955147d416",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.24": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.24",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.24.tgz",
+				"shasum": "8f8e35d0eca3bed8b302d7d6eafe451ce0a31825"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.24",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.24.tgz_1506955015115_0.8949210501741618"
+			},
+			"_shasum": "8f8e35d0eca3bed8b302d7d6eafe451ce0a31825",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.25": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.25",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.25.tgz",
+				"shasum": "fad0474e4f5dbac4be55a2c03b167c95bbe78e60"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.25",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.25.tgz_1506973773257_0.35415365803055465"
+			},
+			"_shasum": "fad0474e4f5dbac4be55a2c03b167c95bbe78e60",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.26": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.26",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.26.tgz",
+				"shasum": "0cb2aa08a39d7d8a6a0524b8087381601a0f5248"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.26",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.26.tgz_1507017844502_0.9729987846221775"
+			},
+			"_shasum": "0cb2aa08a39d7d8a6a0524b8087381601a0f5248",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.41": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.41",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.41.tgz",
+				"shasum": "4661ac9cb4c00ba0d7e7f47763c6d82bbe6aa80f"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.2.3",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.41",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.41_1533724401748_0.6739384866298421"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.20": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.20",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.20.tgz",
+				"shasum": "105eb55c3760b1ad75812d414905d407c4ecb61a"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.20",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.20.tgz_1503419404125_0.7244409068953246"
+			},
+			"_shasum": "105eb55c3760b1ad75812d414905d407c4ecb61a",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.42": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.42",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.42.tgz",
+				"shasum": "13dffde05db71c3b329b9c12e9062912f9e62e2f"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.2.3",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.42",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.42_1547562265179_0.7865165850821814"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.21": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.21",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.21.tgz",
+				"shasum": "9d7a08ecf51dbc32ac4e13f4ac0aae4f6fe64622"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.21",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.21.tgz_1503872744223_0.3827746941242367"
+			},
+			"_shasum": "9d7a08ecf51dbc32ac4e13f4ac0aae4f6fe64622",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.22": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.22",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.22.tgz",
+				"shasum": "19aea272c350b98cae9bbbf980aabdcc8dbf8039"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.22",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.22.tgz_1505379045505_0.4858649361412972"
+			},
+			"_shasum": "19aea272c350b98cae9bbbf980aabdcc8dbf8039",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.11.3"
+		},
+		"1.0.40": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.40",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.40.tgz",
+				"shasum": "5d9c5d430654aa932b13f16b2c2160f7980eed7e"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.2.3",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.40",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.40_1531377189661_0.5274648902915542"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.3": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.3",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.3.tgz",
+				"shasum": "35ac1f0d2b856b179a89a7083f3f45a8391fa022"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.16.1",
+				"eslint-config-wix": "^1.1.4",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.3.tgz_1499676368823_0.00997807364910841"
+			},
+			"_shasum": "35ac1f0d2b856b179a89a7083f3f45a8391fa022",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.4": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.4",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.4.tgz",
+				"shasum": "026edf873e9c41d66930a50a15e7f3169a71dcf1"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.16.1",
+				"eslint-config-wix": "^1.1.4",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.4.tgz_1499755351823_0.21919566579163074"
+			},
+			"_shasum": "026edf873e9c41d66930a50a15e7f3169a71dcf1",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.5": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.5",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.5.tgz",
+				"shasum": "68e7708352e98ff4efbe607554cfee6483a605cc"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.5",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.5.tgz_1499846960708_0.37886928231455386"
+			},
+			"_shasum": "68e7708352e98ff4efbe607554cfee6483a605cc",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.6": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.6",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.6.tgz",
+				"shasum": "922e5be77ce785286f35562d15f1f9ef7cb20097"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.6.tgz_1499849654634_0.42902777902781963"
+			},
+			"_shasum": "922e5be77ce785286f35562d15f1f9ef7cb20097",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.7": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.7",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.7.tgz",
+				"shasum": "4a6576e20b647852cdc644158648e311030ec413"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.7",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.7.tgz_1499893863219_0.3265405725687742"
+			},
+			"_shasum": "4a6576e20b647852cdc644158648e311030ec413",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.8": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.8",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.8.tgz",
+				"shasum": "aae13419cb67d777be3e4946871f96fae96ad3d8"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.8",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.8.tgz_1499943438419_0.854724582284689"
+			},
+			"_shasum": "aae13419cb67d777be3e4946871f96fae96ad3d8",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.9": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.9",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.9.tgz",
+				"shasum": "129b138c1b18d8395e38a40dfd5aeb4c1882e308"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.18.0",
+				"eslint-config-wix": "^1.1.14",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.9",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.9.tgz_1500281850397_0.25184712861664593"
+			},
+			"_shasum": "129b138c1b18d8395e38a40dfd5aeb4c1882e308",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.16": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.16",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.16.tgz",
+				"shasum": "9e39f3c92fe4f548439f472c866b68b70180d752"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.16",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.16.tgz_1500810232463_0.8115386988501996"
+			},
+			"_shasum": "9e39f3c92fe4f548439f472c866b68b70180d752",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.38": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.38",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.38.tgz",
+				"shasum": "5cde002142e6e4b651d2b2fe92b79ba1031a6eee"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.2.3",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.38",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.38_1529479042563_0.31891558004320775"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.0": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.0",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.0.tgz",
+				"shasum": "db6b3c0ddabee4767b273d9370399cf652e8e79f"
+			},
+			"dependencies": {
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.16.1",
+				"eslint-config-wix": "^1.1.4",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.0.tgz_1499272667341_0.2917625675909221"
+			},
+			"_shasum": "db6b3c0ddabee4767b273d9370399cf652e8e79f",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.17": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.17",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.17.tgz",
+				"shasum": "fae254b79edb74015a9a44d68f1a8928e1e35239"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.17",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.17.tgz_1500913443722_0.8723337694536895"
+			},
+			"_shasum": "fae254b79edb74015a9a44d68f1a8928e1e35239",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.39": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.39",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"homepage": "https://github.com/wix/yoshi/tree/master/yoshi-runtime",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/yoshi/tree/master/yoshi-runtime"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.39.tgz",
+				"shasum": "6e5ab18712d56d83e19768a19a3710297f0b9330"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"shelljs": "~0.8.1",
+				"strip-ansi": "~4.0.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.39",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime_1.0.39_1531334739730_0.8911289245775551"
+			},
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.0.1": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.1",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.1.tgz",
+				"shasum": "9cb86f6399ce0081e33c5b67250d5d3e7fd5fd5e"
+			},
+			"dependencies": {
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.16.1",
+				"eslint-config-wix": "^1.1.4",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.1.tgz_1499591624861_0.5661287463735789"
+			},
+			"_shasum": "9cb86f6399ce0081e33c5b67250d5d3e7fd5fd5e",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.18": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.18",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.18.tgz",
+				"shasum": "927861b71627ed78420cbe8a6ff32470fadee599"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.18",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.18.tgz_1501083603249_0.3966920836828649"
+			},
+			"_shasum": "927861b71627ed78420cbe8a6ff32470fadee599",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.2": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.2",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.2.tgz",
+				"shasum": "98f845d639b52c8cb7c7b69e4d1a69c368b9fbf7"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "^4.0.6",
+				"generic-names": "^1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"eslint": "^3.16.1",
+				"eslint-config-wix": "^1.1.4",
+				"mocha": "^3.2.0",
+				"mocha-env-reporter": "^2.0.4",
+				"mockery": "^2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.2.tgz_1499613665179_0.09690012806095183"
+			},
+			"_shasum": "98f845d639b52c8cb7c7b69e4d1a69c368b9fbf7",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"1.0.19": {
+			"name": "yoshi-runtime",
+			"description": "Yoshi Runtime library",
+			"version": "1.0.19",
+			"author": {
+				"name": "Yaniv Efraim"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.19.tgz",
+				"shasum": "9cf0cfbde38c6ba07e94dc5e36c8229665914cc5"
+			},
+			"dependencies": {
+				"css-modules-require-hook": "~4.0.6",
+				"generic-names": "~1.0.2",
+				"yoshi-utils": "^1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"eslint": "~3.19.0",
+				"eslint-config-wix": "~1.1.14",
+				"mocha": "~3.4.2",
+				"mocha-env-reporter": "~2.0.4",
+				"mockery": "~2.1.0",
+				"test-phases": "^1.0.9",
+				"wnpm-ci": "latest"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha './test/{,!(fixtures)/**/}/*.spec.js' --timeout 2000 --reporter mocha-env-reporter",
+				"build": "eslint .",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "yoshi-runtime@1.0.19",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yoshi-runtime-1.0.19.tgz_1503419364466_0.5688630712684244"
+			},
+			"_shasum": "9cf0cfbde38c6ba07e94dc5e36c8229665914cc5",
+			"eslintConfig": {
+				"extends": "wix"
+			},
+			"_nodeVersion": "6.10.0"
+		}
+	},
+	"time": {
+		"1.0.12": "2017-07-18T20:30:10.065Z",
+		"1.0.34": "2017-12-04T08:06:19.639Z",
+		"1.0.13": "2017-07-19T13:54:18.580Z",
+		"1.0.35": "2018-01-12T13:16:01.690Z",
+		"1.0.14": "2017-07-22T17:56:02.446Z",
+		"1.0.36": "2018-01-15T07:54:10.809Z",
+		"1.0.15": "2017-07-22T18:04:01.399Z",
+		"1.0.37": "2018-03-20T10:34:53.417Z",
+		"1.0.30": "2017-10-06T06:40:27.903Z",
+		"1.0.31": "2017-10-08T06:03:38.119Z",
+		"1.0.10": "2017-07-18T11:25:51.519Z",
+		"1.0.32": "2017-10-09T15:14:02.228Z",
+		"1.0.11": "2017-07-18T12:44:25.746Z",
+		"1.0.33": "2017-11-10T13:30:09.420Z",
+		"modified": "2019-01-15T14:24:29.206Z",
+		"1.0.27": "2017-10-03T10:14:58.010Z",
+		"1.0.28": "2017-10-04T14:12:16.575Z",
+		"1.0.29": "2017-10-06T04:42:48.669Z",
+		"1.0.23": "2017-10-02T14:36:21.711Z",
+		"1.0.24": "2017-10-02T14:36:56.097Z",
+		"1.0.25": "2017-10-02T19:49:34.159Z",
+		"1.0.26": "2017-10-03T08:04:05.546Z",
+		"1.0.41": "2018-08-08T10:33:21.805Z",
+		"1.0.20": "2017-08-22T16:30:05.061Z",
+		"1.0.42": "2019-01-15T14:24:25.309Z",
+		"created": "2017-07-05T16:37:48.340Z",
+		"1.0.21": "2017-08-27T22:25:45.211Z",
+		"1.0.22": "2017-09-14T08:50:46.419Z",
+		"1.0.40": "2018-07-12T06:33:09.829Z",
+		"1.0.3": "2017-07-10T08:46:09.801Z",
+		"1.0.4": "2017-07-11T06:42:32.764Z",
+		"1.0.5": "2017-07-12T08:09:21.635Z",
+		"1.0.6": "2017-07-12T08:54:15.572Z",
+		"1.0.7": "2017-07-12T21:11:04.169Z",
+		"1.0.8": "2017-07-13T10:57:19.359Z",
+		"1.0.9": "2017-07-17T08:57:31.318Z",
+		"1.0.16": "2017-07-23T11:43:53.472Z",
+		"1.0.38": "2018-06-20T07:17:22.663Z",
+		"1.0.0": "2017-07-05T16:37:48.340Z",
+		"1.0.17": "2017-07-24T16:24:04.686Z",
+		"1.0.39": "2018-07-11T18:45:39.801Z",
+		"1.0.1": "2017-07-09T09:13:45.785Z",
+		"1.0.18": "2017-07-26T15:40:04.208Z",
+		"1.0.2": "2017-07-09T15:21:06.165Z",
+		"1.0.19": "2017-08-22T16:29:25.407Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.42"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749340270
+		}
+	},
+	"_distfiles": {
+		"yoshi-runtime-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.12.tgz",
+			"sha": "e4e9d8f718979f7d9e9b3b277468f6e2fa1ccffe"
+		},
+		"yoshi-runtime-1.0.34.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.34.tgz",
+			"sha": "baccea7351574a3abf733b44e10c64a02496b614"
+		},
+		"yoshi-runtime-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.13.tgz",
+			"sha": "521b6326cf38a4a239103ca334b9f1b4f53fa2f6"
+		},
+		"yoshi-runtime-1.0.35.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.35.tgz",
+			"sha": "1ad43a08f0c6e95c166b7d248002427c3bc1eb00"
+		},
+		"yoshi-runtime-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.14.tgz",
+			"sha": "b7656a2b31be6ffb20eee5fb520218d99be0b709"
+		},
+		"yoshi-runtime-1.0.36.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.36.tgz",
+			"sha": "47c4d1622073698b664e6e791acfa4f5131ba3c1"
+		},
+		"yoshi-runtime-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.15.tgz",
+			"sha": "ff135a8515f7f41d87e48f3d7c61655e2e7b7f42"
+		},
+		"yoshi-runtime-1.0.37.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.37.tgz",
+			"sha": "0591017c46e25af8eee19b011b660b85f0ab6b13"
+		},
+		"yoshi-runtime-1.0.30.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.30.tgz",
+			"sha": "19debfff1870d236cdeaf3576b5f54f10439e4b6"
+		},
+		"yoshi-runtime-1.0.31.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.31.tgz",
+			"sha": "92e079fbc27a254a1d64d0076ed4ce70d098923b"
+		},
+		"yoshi-runtime-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.10.tgz",
+			"sha": "260c2b95e91be49674c91f8c63d84f3bb6f2d492"
+		},
+		"yoshi-runtime-1.0.32.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.32.tgz",
+			"sha": "e3c3906c25b24eaa4ea3be983d83150ff1f3e432"
+		},
+		"yoshi-runtime-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.11.tgz",
+			"sha": "7f9ee7e0f149a7c853ba3d76951414feb98774d4"
+		},
+		"yoshi-runtime-1.0.33.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.33.tgz",
+			"sha": "aa1ad8745fe87e8d19870ecb898334e12bf4adfd"
+		},
+		"yoshi-runtime-1.0.27.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.27.tgz",
+			"sha": "a59bc57b689fbc0fbaf5cc3f5f2ff885530c64ed"
+		},
+		"yoshi-runtime-1.0.28.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.28.tgz",
+			"sha": "5771b0958babc6b59fc8f2953b4642f9cb388334"
+		},
+		"yoshi-runtime-1.0.29.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.29.tgz",
+			"sha": "b4798ee9d1da1276d8476dddfc6df642c6bd6ba4"
+		},
+		"yoshi-runtime-1.0.23.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.23.tgz",
+			"sha": "4ca46e1d6a1cee1bf419b9eed8c9cf955147d416"
+		},
+		"yoshi-runtime-1.0.24.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.24.tgz",
+			"sha": "8f8e35d0eca3bed8b302d7d6eafe451ce0a31825"
+		},
+		"yoshi-runtime-1.0.25.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.25.tgz",
+			"sha": "fad0474e4f5dbac4be55a2c03b167c95bbe78e60"
+		},
+		"yoshi-runtime-1.0.26.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.26.tgz",
+			"sha": "0cb2aa08a39d7d8a6a0524b8087381601a0f5248"
+		},
+		"yoshi-runtime-1.0.41.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.41.tgz",
+			"sha": "4661ac9cb4c00ba0d7e7f47763c6d82bbe6aa80f"
+		},
+		"yoshi-runtime-1.0.20.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.20.tgz",
+			"sha": "105eb55c3760b1ad75812d414905d407c4ecb61a"
+		},
+		"yoshi-runtime-1.0.42.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.42.tgz",
+			"sha": "13dffde05db71c3b329b9c12e9062912f9e62e2f"
+		},
+		"yoshi-runtime-1.0.21.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.21.tgz",
+			"sha": "9d7a08ecf51dbc32ac4e13f4ac0aae4f6fe64622"
+		},
+		"yoshi-runtime-1.0.22.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.22.tgz",
+			"sha": "19aea272c350b98cae9bbbf980aabdcc8dbf8039"
+		},
+		"yoshi-runtime-1.0.40.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.40.tgz",
+			"sha": "5d9c5d430654aa932b13f16b2c2160f7980eed7e"
+		},
+		"yoshi-runtime-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.3.tgz",
+			"sha": "35ac1f0d2b856b179a89a7083f3f45a8391fa022"
+		},
+		"yoshi-runtime-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.4.tgz",
+			"sha": "026edf873e9c41d66930a50a15e7f3169a71dcf1"
+		},
+		"yoshi-runtime-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.5.tgz",
+			"sha": "68e7708352e98ff4efbe607554cfee6483a605cc"
+		},
+		"yoshi-runtime-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.6.tgz",
+			"sha": "922e5be77ce785286f35562d15f1f9ef7cb20097"
+		},
+		"yoshi-runtime-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.7.tgz",
+			"sha": "4a6576e20b647852cdc644158648e311030ec413"
+		},
+		"yoshi-runtime-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.8.tgz",
+			"sha": "aae13419cb67d777be3e4946871f96fae96ad3d8"
+		},
+		"yoshi-runtime-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.9.tgz",
+			"sha": "129b138c1b18d8395e38a40dfd5aeb4c1882e308"
+		},
+		"yoshi-runtime-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.16.tgz",
+			"sha": "9e39f3c92fe4f548439f472c866b68b70180d752"
+		},
+		"yoshi-runtime-1.0.38.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.38.tgz",
+			"sha": "5cde002142e6e4b651d2b2fe92b79ba1031a6eee"
+		},
+		"yoshi-runtime-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.0.tgz",
+			"sha": "db6b3c0ddabee4767b273d9370399cf652e8e79f"
+		},
+		"yoshi-runtime-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.17.tgz",
+			"sha": "fae254b79edb74015a9a44d68f1a8928e1e35239"
+		},
+		"yoshi-runtime-1.0.39.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.39.tgz",
+			"sha": "6e5ab18712d56d83e19768a19a3710297f0b9330"
+		},
+		"yoshi-runtime-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.1.tgz",
+			"sha": "9cb86f6399ce0081e33c5b67250d5d3e7fd5fd5e"
+		},
+		"yoshi-runtime-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.18.tgz",
+			"sha": "927861b71627ed78420cbe8a6ff32470fadee599"
+		},
+		"yoshi-runtime-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.2.tgz",
+			"sha": "98f845d639b52c8cb7c7b69e4d1a69c368b9fbf7"
+		},
+		"yoshi-runtime-1.0.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yoshi-runtime/-/yoshi-runtime-1.0.19.tgz",
+			"sha": "9cf0cfbde38c6ba07e94dc5e36c8229665914cc5"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-6495a5e0cc321827",
+	"readme": "# Yoshi Runtime"
+}

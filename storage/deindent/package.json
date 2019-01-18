@@ -1,0 +1,77 @@
+{
+	"name": "deindent",
+	"versions": {
+		"0.1.0": {
+			"name": "deindent",
+			"description": "ES6 template string helper for deindentation",
+			"version": "0.1.0",
+			"author": {
+				"name": "Dean Landolt",
+				"email": "dean@deanlandolt.com"
+			},
+			"homepage": "https://github.com/deanlandolt/deindent",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/deanlandolt/deindent.git"
+			},
+			"bugs": {
+				"url": "https://github.com/deanlandolt/deindent/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/deindent/-/deindent-0.1.0.tgz",
+				"shasum": "62e1dcdd1d849709e5c7403c890e47e3cebe399d"
+			},
+			"keywords": [
+				"es6",
+				"template",
+				"strings",
+				"indendation",
+				"dedent"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "deanlandolt",
+					"email": "dean@deanlandolt.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.0",
+			"_npmUser": {
+				"name": "deanlandolt",
+				"email": "dean@deanlandolt.com"
+			},
+			"_id": "deindent@0.1.0",
+			"gitHead": "47d1f9b23647177e58468d3fc9d5fa5f3e6a4c4f",
+			"_shasum": "62e1dcdd1d849709e5c7403c890e47e3cebe399d",
+			"_nodeVersion": "0.10.35"
+		}
+	},
+	"time": {
+		"created": "2015-03-21T02:36:48.794Z",
+		"modified": "2015-03-21T02:36:48.794Z",
+		"0.1.0": "2015-03-21T02:36:48.794Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749350533
+		}
+	},
+	"_distfiles": {
+		"deindent-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/deindent/-/deindent-0.1.0.tgz",
+			"sha": "62e1dcdd1d849709e5c7403c890e47e3cebe399d"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-f72e8154717bd5e2",
+	"readme": "# deindent\n\nES6 template string helper for deindentation (adapted from https://gist.github.com/zenparsing/5dffde82d9acef19e43c).\n\n```js\nvar deindent = require('deindent')\n\n// as a string function\ndeindent(`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`);\n\n// as a template tag\ndeindent`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`;\n\n\n// as a higher-order template tag\ndeindent(String.raw)`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`;\n\n// all three should output the same deindented string\n'\\nthis\\nis\\nthe end\\n  my only\\n  friend\\nthe end\\n'\n```"
+}

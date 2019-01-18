@@ -1,0 +1,3447 @@
+{
+	"name": "babel-plugin-transform-es2015-block-scoping",
+	"versions": {
+		"7.0.0-beta.1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-beta.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.1.tgz",
+				"shasum": "838fd49120cecdfd4d8fba9b656ea6c75290a17f"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-beta.1",
+				"babel-traverse": "7.0.0-beta.1",
+				"babel-types": "7.0.0-beta.1",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-beta.1"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.4.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-beta.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.1.tgz_1505852691040_0.6315145823173225"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"7.0.0-beta.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-beta.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.0.tgz",
+				"shasum": "accf9f713f72385e739d66ec792076b0243e6d26"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-beta.0",
+				"babel-traverse": "7.0.0-beta.0",
+				"babel-types": "7.0.0-beta.0",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-beta.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-beta.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.0.tgz_1505185382556_0.2577789940405637"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"7.0.0-beta.3": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-beta.3",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.3.tgz",
+				"shasum": "240eaee5484e3b8f204d493c88754aeb7f86eb19"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-beta.3",
+				"babel-traverse": "7.0.0-beta.3",
+				"babel-types": "7.0.0-beta.3",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-beta.3"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-beta.3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.3.tgz_1508073150895_0.3110828516073525"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"7.0.0-beta.2": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-beta.2",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.2.tgz",
+				"shasum": "10c3558253fe7ac693814d7676ef7fc50af001a1"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-beta.2",
+				"babel-traverse": "7.0.0-beta.2",
+				"babel-types": "7.0.0-beta.2",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-beta.2"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.4.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-beta.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.2.tgz_1506438964769_0.017768119694665074"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"6.7.1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.7.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.7.1.tgz",
+				"shasum": "a5786b0671ceb6d48e44e74b45d00fce42922ba6"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.7.0",
+				"babel-types": "^6.7.0",
+				"babel-template": "^6.7.0",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "amasad",
+				"email": "amjad.masad@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.7.1",
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.7.1.tgz_1457561030513_0.903439304092899"
+			},
+			"_shasum": "a5786b0671ceb6d48e44e74b45d00fce42922ba6",
+			"_nodeVersion": "5.5.0"
+		},
+		"6.9.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.9.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.9.0.tgz",
+				"shasum": "e480825e5ea6afb50769eb4f85024f7e54e6d2b7"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.9.0",
+				"babel-types": "^6.9.0",
+				"babel-template": "^6.9.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.9.0",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.9.0.tgz_1463510970658_0.8713133702985942"
+			},
+			"_shasum": "e480825e5ea6afb50769eb4f85024f7e54e6d2b7",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.1.5": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.1.5",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.5.tgz",
+				"shasum": "5bad8cd92a728e77ab9488f4c99aa66cc433c259"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.1.5",
+				"babel-types": "^6.1.5",
+				"babel-template": "^6.1.5",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.5"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.1.5",
+			"_shasum": "5bad8cd92a728e77ab9488f4c99aa66cc433c259",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.7.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.7.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.7.0.tgz",
+				"shasum": "7004cc081b49ef6b3b1e5151e610f58e061a11cf"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.7.0",
+				"babel-types": "^6.7.0",
+				"babel-template": "^6.7.0",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "amasad",
+				"email": "amjad.masad@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.7.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.7.0.tgz_1457484777701_0.33257681876420975"
+			},
+			"_shasum": "7004cc081b49ef6b3b1e5151e610f58e061a11cf",
+			"_nodeVersion": "5.5.0"
+		},
+		"6.0.18": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.0.18",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.18.tgz",
+				"shasum": "2569bc878b52efee6c5d7c619dd8105cc51e5394"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.0.18",
+				"babel-types": "^6.0.18",
+				"babel-template": "^6.0.14",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.0.18",
+			"_shasum": "2569bc878b52efee6c5d7c619dd8105cc51e5394",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.14.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.14.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.14.0.tgz",
+				"shasum": "e22ac0c54c26c2637f76a76c6f9c75fd3869bd9c"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.14.0",
+				"babel-types": "^6.14.0",
+				"babel-template": "^6.14.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.14.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.14.0.tgz_1472082051436_0.7030912865884602"
+			},
+			"_shasum": "e22ac0c54c26c2637f76a76c6f9c75fd3869bd9c",
+			"_nodeVersion": "5.11.1"
+		},
+		"6.0.14": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.0.14",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.14.tgz",
+				"shasum": "d347b80b260f2765d9b83e1042fcc8617e97408c"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.0.14",
+				"babel-types": "^6.0.14",
+				"babel-template": "^6.0.14",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.0.14",
+			"_shasum": "d347b80b260f2765d9b83e1042fcc8617e97408c",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.10.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.10.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.10.0.tgz",
+				"shasum": "9f35806c2ab85f9b952ddb759ebc47be42db89e8"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.9.0",
+				"babel-types": "^6.10.0",
+				"babel-template": "^6.9.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.10.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.10.0.tgz_1465617923517_0.9536747713573277"
+			},
+			"_shasum": "9f35806c2ab85f9b952ddb759ebc47be42db89e8",
+			"_nodeVersion": "6.2.0"
+		},
+		"6.10.1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.10.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.10.1.tgz",
+				"shasum": "6ffbe42d08ed14cf889d06e27dc408080f9d5424"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.9.0",
+				"babel-types": "^6.10.0",
+				"babel-template": "^6.9.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.10.1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.10.1.tgz_1465630571294_0.939472597790882"
+			},
+			"_shasum": "6ffbe42d08ed14cf889d06e27dc408080f9d5424",
+			"_nodeVersion": "6.2.0"
+		},
+		"6.18.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.18.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz",
+				"shasum": "3bfdcfec318d46df22525cdea88f1978813653af"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.18.0",
+				"babel-types": "^6.18.0",
+				"babel-template": "^6.15.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.18.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.18.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz_1477343939322_0.37236395198851824"
+			},
+			"_shasum": "3bfdcfec318d46df22525cdea88f1978813653af",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.3.13": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.3.13",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.3.13.tgz",
+				"shasum": "3e88252b31e4f8a20601a6f395f7476542ec09f8"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.3.13",
+				"babel-types": "^6.3.13",
+				"babel-template": "^6.3.13",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.3.13",
+			"_shasum": "3e88252b31e4f8a20601a6f395f7476542ec09f8",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.4.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.4.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.4.0.tgz",
+				"shasum": "2014307d445be60d5e91ce837d883ed66486c753"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.3.13",
+				"babel-types": "^6.4.0",
+				"babel-template": "^6.3.13",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.5.2",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.4.0",
+			"_shasum": "2014307d445be60d5e91ce837d883ed66486c753",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.0.2": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.0.2",
+			"homepage": "https://github.com/babel/babel#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/babel/babel.git"
+			},
+			"bugs": {
+				"url": "https://github.com/babel/babel/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.2.tgz",
+				"shasum": "67f258a7f6bb5a1df11b423c50e5cf000c3ad52b"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.0.2",
+				"babel-types": "^6.0.2",
+				"babel-template": "^6.0.2",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^6.0.2"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.0.2",
+			"_shasum": "67f258a7f6bb5a1df11b423c50e5cf000c3ad52b",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.21.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.21.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.21.0.tgz",
+				"shasum": "e840687f922e70fb2c42bb13501838c174a115ed"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.21.0",
+				"babel-types": "^6.21.0",
+				"babel-template": "^6.15.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.20.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.18.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.21.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.21.0.tgz_1481925356835_0.8560412030201405"
+			},
+			"_shasum": "e840687f922e70fb2c42bb13501838c174a115ed",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.23.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.23.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.23.0.tgz",
+				"shasum": "e48895cf0b375be148cd7c8879b422707a053b51"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.23.0",
+				"babel-types": "^6.23.0",
+				"babel-template": "^6.23.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.22.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.23.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.23.0.tgz_1487034863541_0.8913760075811297"
+			},
+			"_shasum": "e48895cf0b375be148cd7c8879b422707a053b51",
+			"_nodeVersion": "6.9.1"
+		},
+		"6.6.4": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.6.4",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.4.tgz",
+				"shasum": "e2742d5ed1d5ee069e947fab97bd380f9b4459fc"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.6.4",
+				"babel-types": "^6.6.4",
+				"babel-template": "^6.6.4",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.6.4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.6.4.tgz_1456954178750_0.11968528223223984"
+			},
+			"_shasum": "e2742d5ed1d5ee069e947fab97bd380f9b4459fc",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.6.5": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.6.5",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.5.tgz",
+				"shasum": "d6a8c2077358a66c6bee38cfb08b9c9a9d975189"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.6.5",
+				"babel-types": "^6.6.5",
+				"babel-template": "^6.6.5",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.6.5",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.6.5.tgz_1457133408415_0.4791145701892674"
+			},
+			"_shasum": "d6a8c2077358a66c6bee38cfb08b9c9a9d975189",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.8.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.8.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.8.0.tgz",
+				"shasum": "fb1210bf3bf2ca3b3c5e5383531e98e2dec49042"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.8.0",
+				"babel-types": "^6.8.0",
+				"babel-template": "^6.8.0",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^6.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.8.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.8.0.tgz_1462232674616_0.3456071042455733"
+			},
+			"_shasum": "fb1210bf3bf2ca3b3c5e5383531e98e2dec49042",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.0.9": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.0.9",
+			"homepage": "https://github.com/babel/babel#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/babel/babel.git"
+			},
+			"bugs": {
+				"url": "https://github.com/babel/babel/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.9.tgz",
+				"shasum": "030398c9c9f3faf2ee27ad4dd7be20cd89054229"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.0.2",
+				"babel-types": "^6.0.2",
+				"babel-template": "^6.0.2",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^6.0.2"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.0.9",
+			"_shasum": "030398c9c9f3faf2ee27ad4dd7be20cd89054229",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.2.4": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.2.4",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.2.4.tgz",
+				"shasum": "cfe11a24c3a290a07ab9b65f98e47cfb956c9a0f"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.2.4",
+				"babel-types": "^6.2.4",
+				"babel-template": "^6.2.4",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.2.4"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.2.4",
+			"_shasum": "cfe11a24c3a290a07ab9b65f98e47cfb956c9a0f",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.6.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.6.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.0.tgz",
+				"shasum": "d40664f17a16a5c6c4711c420c2654b427b09e15"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.6.0",
+				"babel-types": "^6.6.0",
+				"babel-template": "^6.6.0",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.6.0",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.6.0.tgz_1456780357668_0.3266797058749944"
+			},
+			"_shasum": "d40664f17a16a5c6c4711c420c2654b427b09e15",
+			"_nodeVersion": "5.1.0"
+		},
+		"7.0.0-alpha.18": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.18",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.18.tgz",
+				"shasum": "882ea1f28affd03cc6ba485e0d65b93167009ff8"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.18",
+				"babel-traverse": "7.0.0-alpha.18",
+				"babel-types": "7.0.0-alpha.18",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.18"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.18",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.18.tgz_1501798893197_0.04110203217715025"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"7.0.0-alpha.17": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.17",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.17.tgz",
+				"shasum": "bfac9153b92ed052686c45a3a5242a50741c4742"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.17",
+				"babel-traverse": "7.0.0-alpha.17",
+				"babel-types": "7.0.0-alpha.17",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.17"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.17",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.17.tgz_1501072801782_0.06727157207205892"
+			},
+			"_shasum": "bfac9153b92ed052686c45a3a5242a50741c4742",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.19": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.19",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.19.tgz",
+				"shasum": "b0c962f6d80228c34f6d99885bd80b5ec5cb4126"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.19",
+				"babel-traverse": "7.0.0-alpha.19",
+				"babel-types": "7.0.0-alpha.19",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.19"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.19",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.19.tgz_1502144536344_0.10063421609811485"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"7.0.0-alpha.14": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.14",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.14.tgz",
+				"shasum": "eea9284978c4c44bcc04c616b0af89a67c4427af"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.14",
+				"babel-traverse": "7.0.0-alpha.14",
+				"babel-types": "7.0.0-alpha.14",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.14"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.14",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.14.tgz_1499828059615_0.03412850201129913"
+			},
+			"_shasum": "eea9284978c4c44bcc04c616b0af89a67c4427af",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.15.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.15.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.15.0.tgz",
+				"shasum": "5b443ca142be8d1db6a8c2ae42f51958b66b70f6"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.15.0",
+				"babel-types": "^6.15.0",
+				"babel-template": "^6.15.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.9.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.15.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.15.0.tgz_1472742188022_0.2690774283837527"
+			},
+			"_shasum": "5b443ca142be8d1db6a8c2ae42f51958b66b70f6",
+			"_nodeVersion": "5.11.1"
+		},
+		"7.0.0-alpha.16": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.16",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.16.tgz",
+				"shasum": "2f5cc22f2c948a2be46d954a6db95025753b50b8"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.16",
+				"babel-traverse": "7.0.0-alpha.16",
+				"babel-types": "7.0.0-alpha.16",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.16"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.16",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.16.tgz_1501017509154_0.18680129363201559"
+			},
+			"_shasum": "2f5cc22f2c948a2be46d954a6db95025753b50b8",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.15": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.15",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.15.tgz",
+				"shasum": "c30d7678d9ae3e547e5a769e53f8ffd30f22e80c"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.15",
+				"babel-traverse": "7.0.0-alpha.15",
+				"babel-types": "7.0.0-alpha.15",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.15"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.15",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.15.tgz_1499830596657_0.8012251278851181"
+			},
+			"_shasum": "c30d7678d9ae3e547e5a769e53f8ffd30f22e80c",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.10": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.10",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.10.tgz",
+				"shasum": "71cee0778a91791b648aab7175781ca82b8830c8"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.10",
+				"babel-types": "7.0.0-alpha.10",
+				"babel-template": "7.0.0-alpha.10",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.10"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.10",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.10.tgz_1495739863282_0.5672903333324939"
+			},
+			"_shasum": "71cee0778a91791b648aab7175781ca82b8830c8",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.12": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.12",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.12.tgz",
+				"shasum": "70626c492a88a52d3238d74c5bc002f359cb90c5"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.12",
+				"babel-traverse": "7.0.0-alpha.12",
+				"babel-types": "7.0.0-alpha.12",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.12"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.0.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.12",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.12.tgz_1496265130077_0.15750827477313578"
+			},
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.11": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.11",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.11.tgz",
+				"shasum": "c6d16700231e9fefb48bec4e94739d2dea5a8ce5"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.11",
+				"babel-traverse": "7.0.0-alpha.11",
+				"babel-types": "7.0.0-alpha.11",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.11"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.0.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.11",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.11.tgz_1496263434072_0.3291583328973502"
+			},
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.3": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.3",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.3.tgz",
+				"shasum": "8c939676d0be68ef55500455b785ed1b4c0160bd"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.3",
+				"babel-types": "7.0.0-alpha.3",
+				"babel-template": "7.0.0-alpha.3",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.3"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.3",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.3.tgz_1490298586415_0.5682166172191501"
+			},
+			"_shasum": "8c939676d0be68ef55500455b785ed1b4c0160bd",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.8": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.8",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.8.tgz",
+				"shasum": "f40b12787629e5bb5fd131b8105c1d19a955d2ae"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.8",
+				"babel-types": "7.0.0-alpha.7",
+				"babel-template": "7.0.0-alpha.8",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.8"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.8",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.8.tgz_1492456392307_0.7007484820205718"
+			},
+			"_shasum": "f40b12787629e5bb5fd131b8105c1d19a955d2ae",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.9": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.9",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.9.tgz",
+				"shasum": "a33aa7b5d977e8aa62f1643decaa9ebf6480dafd"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.9",
+				"babel-types": "7.0.0-alpha.9",
+				"babel-template": "7.0.0-alpha.9",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.9"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.9",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.9.tgz_1492526539339_0.7805981547571719"
+			},
+			"_shasum": "a33aa7b5d977e8aa62f1643decaa9ebf6480dafd",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.7": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.7",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.7.tgz",
+				"shasum": "b82115907057c2edcc379ee0b647f99afc73e36f"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.7",
+				"babel-types": "7.0.0-alpha.7",
+				"babel-template": "7.0.0-alpha.7",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.7"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.7",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.7.tgz_1491426857442_0.666290492285043"
+			},
+			"_shasum": "b82115907057c2edcc379ee0b647f99afc73e36f",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.5.0-1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.5.0-1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.5.0-1.tgz",
+				"shasum": "9cfe53ff59a41930a85f5e716a1b7a3473577d3d"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.5.0-1",
+				"babel-types": "^6.5.0-1",
+				"babel-template": "^6.5.0-1",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.5.0-1"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.5.0-1",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.5.0-1.tgz_1454812829374_0.24193360516801476"
+			},
+			"_shasum": "9cfe53ff59a41930a85f5e716a1b7a3473577d3d",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.1.10": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.1.10",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.10.tgz",
+				"shasum": "4b9e26ae80347a2137fa6b1a87542bce41088f0d"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.1.10",
+				"babel-types": "^6.1.10",
+				"babel-template": "^6.1.10",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.10"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.1.10",
+			"_shasum": "4b9e26ae80347a2137fa6b1a87542bce41088f0d",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.1.4": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.1.4",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.4.tgz",
+				"shasum": "1798ea4abda65f8e5cb2f7b3b1963a113bd923d2"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.1.4",
+				"babel-types": "^6.1.4",
+				"babel-template": "^6.0.14",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.4"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.1.4",
+			"_shasum": "1798ea4abda65f8e5cb2f7b3b1963a113bd923d2",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.5.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.5.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.5.0.tgz",
+				"shasum": "67a706abf1fbdc4bf23bc7185d8c4fd4a224624b"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.3.13",
+				"babel-types": "^6.4.0",
+				"babel-template": "^6.3.13",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.5.0",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.5.0.tgz_1454803650877_0.13792137894779444"
+			},
+			"_shasum": "67a706abf1fbdc4bf23bc7185d8c4fd4a224624b",
+			"_nodeVersion": "5.1.0"
+		},
+		"6.1.18": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.1.18",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.18.tgz",
+				"shasum": "acc0f0be98612676788d01eb375f4c4f6bcff5db"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.1.18",
+				"babel-types": "^6.1.18",
+				"babel-template": "^6.1.18",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.18"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.1.18",
+			"_shasum": "acc0f0be98612676788d01eb375f4c4f6bcff5db",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.24.1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.24.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz",
+				"shasum": "76c295dc3a4741b1665adfd3167215dcff32a576"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.24.1",
+				"babel-types": "^6.24.1",
+				"babel-template": "^6.24.1",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.24.1"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.24.1",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz_1491578361103_0.9910478659439832"
+			},
+			"_shasum": "76c295dc3a4741b1665adfd3167215dcff32a576",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.26.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.26.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.26.0.tgz",
+				"shasum": "d70f5299c1308d05c12f463813b0a09e73b1895f"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"babel-template": "^6.26.0",
+				"babel-traverse": "^6.26.0",
+				"babel-types": "^6.26.0",
+				"lodash": "^4.17.4"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.24.1"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.26.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.26.0.tgz_1502898859327_0.8509586888831109"
+			},
+			"_shasum": "d70f5299c1308d05c12f463813b0a09e73b1895f",
+			"_nodeVersion": "6.9.0"
+		},
+		"6.20.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.20.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.20.0.tgz",
+				"shasum": "5d8f3e83b1a1ae1064e64a9e5bb83108d8e73be3"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.20.0",
+				"babel-template": "^6.15.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.20.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.18.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.20.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.20.0.tgz_1481239543972_0.2299257677514106"
+			},
+			"_shasum": "5d8f3e83b1a1ae1064e64a9e5bb83108d8e73be3",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.1": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.1.tgz",
+				"shasum": "b51551c362e5cafa6f03868d2abb09f2d63e8241"
+			},
+			"dependencies": {
+				"babel-traverse": "7.0.0-alpha.1",
+				"babel-types": "7.0.0-alpha.1",
+				"babel-template": "7.0.0-alpha.1",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.1"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.1",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.1.tgz_1488488745569_0.8590733837336302"
+			},
+			"_shasum": "b51551c362e5cafa6f03868d2abb09f2d63e8241",
+			"_nodeVersion": "6.9.0"
+		},
+		"7.0.0-alpha.20": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "7.0.0-alpha.20",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.20.tgz",
+				"shasum": "c1fbcec7708dfe087ece56649b353fdd1909a33c"
+			},
+			"dependencies": {
+				"babel-template": "7.0.0-alpha.20",
+				"babel-traverse": "7.0.0-alpha.20",
+				"babel-types": "7.0.0-alpha.20",
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "7.0.0-alpha.20"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@7.0.0-alpha.20",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.20.tgz_1504119878286_0.5915079328697175"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"6.1.17": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.1.17",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.17.tgz",
+				"shasum": "827643a34875edd4c481cde07b915ff164c0208f"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.1.17",
+				"babel-types": "^6.1.17",
+				"babel-template": "^6.1.17",
+				"lodash": "^3.10.0",
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.17"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.1.17",
+			"_shasum": "827643a34875edd4c481cde07b915ff164c0208f",
+			"_nodeVersion": "4.1.0"
+		},
+		"6.22.0": {
+			"name": "babel-plugin-transform-es2015-block-scoping",
+			"description": "Compile ES2015 block scoping (const and let) to ES5",
+			"version": "6.22.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.22.0.tgz",
+				"shasum": "00d6e3a0bebdcfe7536b9d653b44a9141e63e47e"
+			},
+			"dependencies": {
+				"babel-traverse": "^6.22.0",
+				"babel-types": "^6.22.0",
+				"babel-template": "^6.22.0",
+				"lodash": "^4.2.0",
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.22.0"
+			},
+			"keywords": [
+				"babel-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"_id": "babel-plugin-transform-es2015-block-scoping@6.22.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-transform-es2015-block-scoping-6.22.0.tgz_1484872429587_0.16249357629567385"
+			},
+			"_shasum": "00d6e3a0bebdcfe7536b9d653b44a9141e63e47e",
+			"_nodeVersion": "6.9.0"
+		}
+	},
+	"time": {
+		"7.0.0-beta.1": "2017-09-19T20:24:51.110Z",
+		"7.0.0-beta.0": "2017-09-12T03:03:03.461Z",
+		"7.0.0-beta.3": "2017-10-15T13:12:31.791Z",
+		"7.0.0-beta.2": "2017-09-26T15:16:05.757Z",
+		"6.7.1": "2016-03-09T22:03:51.251Z",
+		"6.9.0": "2016-05-17T18:49:34.792Z",
+		"6.1.5": "2015-11-12T06:55:28.033Z",
+		"6.7.0": "2016-03-09T00:53:00.197Z",
+		"modified": "2019-01-01T07:34:51.451Z",
+		"6.0.18": "2015-11-03T01:24:25.098Z",
+		"6.14.0": "2016-08-24T23:40:53.001Z",
+		"6.0.14": "2015-10-30T23:36:52.124Z",
+		"6.10.0": "2016-06-11T04:05:25.974Z",
+		"6.10.1": "2016-06-11T07:36:11.996Z",
+		"6.18.0": "2016-10-24T21:19:00.956Z",
+		"created": "2015-10-29T18:13:24.342Z",
+		"6.3.13": "2015-12-04T11:59:57.241Z",
+		"6.4.0": "2016-01-06T20:34:38.917Z",
+		"6.0.2": "2015-10-29T18:13:24.342Z",
+		"6.21.0": "2016-12-16T21:55:57.472Z",
+		"6.23.0": "2017-02-14T01:14:23.755Z",
+		"6.6.4": "2016-03-02T21:29:41.577Z",
+		"6.6.5": "2016-03-04T23:16:51.669Z",
+		"6.8.0": "2016-05-02T23:44:37.258Z",
+		"6.0.9": "2015-10-29T18:50:51.915Z",
+		"6.2.4": "2015-11-25T03:14:14.289Z",
+		"6.6.0": "2016-02-29T21:12:39.419Z",
+		"7.0.0-alpha.18": "2017-08-03T22:21:33.547Z",
+		"7.0.0-alpha.17": "2017-07-26T12:40:02.769Z",
+		"7.0.0-alpha.19": "2017-08-07T22:22:16.411Z",
+		"7.0.0-alpha.14": "2017-07-12T02:54:20.504Z",
+		"6.15.0": "2016-09-01T15:03:09.623Z",
+		"7.0.0-alpha.16": "2017-07-25T21:18:30.050Z",
+		"7.0.0-alpha.15": "2017-07-12T03:36:37.656Z",
+		"7.0.0-alpha.10": "2017-05-25T19:17:44.747Z",
+		"7.0.0-alpha.12": "2017-05-31T21:12:10.207Z",
+		"7.0.0-alpha.11": "2017-05-31T20:43:55.064Z",
+		"7.0.0-alpha.3": "2017-03-23T19:49:48.404Z",
+		"7.0.0-alpha.8": "2017-04-17T19:13:14.091Z",
+		"7.0.0-alpha.9": "2017-04-18T14:42:19.576Z",
+		"7.0.0-alpha.7": "2017-04-05T21:14:19.358Z",
+		"6.5.0-1": "2016-02-07T02:40:30.525Z",
+		"6.1.10": "2015-11-12T07:54:56.428Z",
+		"6.1.4": "2015-11-11T10:20:00.301Z",
+		"6.5.0": "2016-02-07T00:07:33.740Z",
+		"6.1.18": "2015-11-12T21:49:35.809Z",
+		"6.24.1": "2017-04-07T15:19:22.979Z",
+		"6.26.0": "2017-08-16T15:54:19.422Z",
+		"6.20.0": "2016-12-08T23:25:45.997Z",
+		"7.0.0-alpha.1": "2017-03-02T21:05:46.260Z",
+		"7.0.0-alpha.20": "2017-08-30T19:04:38.449Z",
+		"6.1.17": "2015-11-12T21:42:00.445Z",
+		"6.22.0": "2017-01-20T00:33:50.235Z"
+	},
+	"dist-tags": {
+		"next": "7.0.0-beta.3",
+		"latest": "6.26.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749380770
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-beta.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.1.tgz",
+			"sha": "838fd49120cecdfd4d8fba9b656ea6c75290a17f"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-beta.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.0.tgz",
+			"sha": "accf9f713f72385e739d66ec792076b0243e6d26"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-beta.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.3.tgz",
+			"sha": "240eaee5484e3b8f204d493c88754aeb7f86eb19"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-beta.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-beta.2.tgz",
+			"sha": "10c3558253fe7ac693814d7676ef7fc50af001a1"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.7.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.7.1.tgz",
+			"sha": "a5786b0671ceb6d48e44e74b45d00fce42922ba6"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.9.0.tgz",
+			"sha": "e480825e5ea6afb50769eb4f85024f7e54e6d2b7"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.5.tgz",
+			"sha": "5bad8cd92a728e77ab9488f4c99aa66cc433c259"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.7.0.tgz",
+			"sha": "7004cc081b49ef6b3b1e5151e610f58e061a11cf"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.18.tgz",
+			"sha": "2569bc878b52efee6c5d7c619dd8105cc51e5394"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.14.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.14.0.tgz",
+			"sha": "e22ac0c54c26c2637f76a76c6f9c75fd3869bd9c"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.14.tgz",
+			"sha": "d347b80b260f2765d9b83e1042fcc8617e97408c"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.10.0.tgz",
+			"sha": "9f35806c2ab85f9b952ddb759ebc47be42db89e8"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.10.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.10.1.tgz",
+			"sha": "6ffbe42d08ed14cf889d06e27dc408080f9d5424"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.18.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.18.0.tgz",
+			"sha": "3bfdcfec318d46df22525cdea88f1978813653af"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.3.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.3.13.tgz",
+			"sha": "3e88252b31e4f8a20601a6f395f7476542ec09f8"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.4.0.tgz",
+			"sha": "2014307d445be60d5e91ce837d883ed66486c753"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.2.tgz",
+			"sha": "67f258a7f6bb5a1df11b423c50e5cf000c3ad52b"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.21.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.21.0.tgz",
+			"sha": "e840687f922e70fb2c42bb13501838c174a115ed"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.23.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.23.0.tgz",
+			"sha": "e48895cf0b375be148cd7c8879b422707a053b51"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.6.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.4.tgz",
+			"sha": "e2742d5ed1d5ee069e947fab97bd380f9b4459fc"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.6.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.5.tgz",
+			"sha": "d6a8c2077358a66c6bee38cfb08b9c9a9d975189"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.8.0.tgz",
+			"sha": "fb1210bf3bf2ca3b3c5e5383531e98e2dec49042"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.0.9.tgz",
+			"sha": "030398c9c9f3faf2ee27ad4dd7be20cd89054229"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.2.4.tgz",
+			"sha": "cfe11a24c3a290a07ab9b65f98e47cfb956c9a0f"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.6.0.tgz",
+			"sha": "d40664f17a16a5c6c4711c420c2654b427b09e15"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.18.tgz",
+			"sha": "882ea1f28affd03cc6ba485e0d65b93167009ff8"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.17.tgz",
+			"sha": "bfac9153b92ed052686c45a3a5242a50741c4742"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.19.tgz",
+			"sha": "b0c962f6d80228c34f6d99885bd80b5ec5cb4126"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.14.tgz",
+			"sha": "eea9284978c4c44bcc04c616b0af89a67c4427af"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.15.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.15.0.tgz",
+			"sha": "5b443ca142be8d1db6a8c2ae42f51958b66b70f6"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.16.tgz",
+			"sha": "2f5cc22f2c948a2be46d954a6db95025753b50b8"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.15.tgz",
+			"sha": "c30d7678d9ae3e547e5a769e53f8ffd30f22e80c"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.10.tgz",
+			"sha": "71cee0778a91791b648aab7175781ca82b8830c8"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.12.tgz",
+			"sha": "70626c492a88a52d3238d74c5bc002f359cb90c5"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.11.tgz",
+			"sha": "c6d16700231e9fefb48bec4e94739d2dea5a8ce5"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.3.tgz",
+			"sha": "8c939676d0be68ef55500455b785ed1b4c0160bd"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.8.tgz",
+			"sha": "f40b12787629e5bb5fd131b8105c1d19a955d2ae"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.9.tgz",
+			"sha": "a33aa7b5d977e8aa62f1643decaa9ebf6480dafd"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.7.tgz",
+			"sha": "b82115907057c2edcc379ee0b647f99afc73e36f"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.5.0-1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.5.0-1.tgz",
+			"sha": "9cfe53ff59a41930a85f5e716a1b7a3473577d3d"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.1.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.10.tgz",
+			"sha": "4b9e26ae80347a2137fa6b1a87542bce41088f0d"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.4.tgz",
+			"sha": "1798ea4abda65f8e5cb2f7b3b1963a113bd923d2"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.5.0.tgz",
+			"sha": "67a706abf1fbdc4bf23bc7185d8c4fd4a224624b"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.1.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.18.tgz",
+			"sha": "acc0f0be98612676788d01eb375f4c4f6bcff5db"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.24.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.24.1.tgz",
+			"sha": "76c295dc3a4741b1665adfd3167215dcff32a576"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.26.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.26.0.tgz",
+			"sha": "d70f5299c1308d05c12f463813b0a09e73b1895f"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.20.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.20.0.tgz",
+			"sha": "5d8f3e83b1a1ae1064e64a9e5bb83108d8e73be3"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.1.tgz",
+			"sha": "b51551c362e5cafa6f03868d2abb09f2d63e8241"
+		},
+		"babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.20.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.0.0-alpha.20.tgz",
+			"sha": "c1fbcec7708dfe087ece56649b353fdd1909a33c"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.1.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.1.17.tgz",
+			"sha": "827643a34875edd4c481cde07b915ff164c0208f"
+		},
+		"babel-plugin-transform-es2015-block-scoping-6.22.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.22.0.tgz",
+			"sha": "00d6e3a0bebdcfe7536b9d653b44a9141e63e47e"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-e0800ae0501db029",
+	"readme": "# babel-plugin-transform-es2015-block-scoping\n\n> Compile ES2015 block scoping (const and let) to ES5\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-block-scoping\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\nWithout options:\n\n```json\n{\n  \"plugins\": [\"transform-es2015-block-scoping\"]\n}\n```\n\nWith options:\n\n```json\n{\n  \"plugins\": [\n    [\"transform-es2015-block-scoping\", {\n      \"throwIfClosureRequired\": true\n    }]\n  ]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-block-scoping script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-block-scoping\"]\n});\n```\n\n## Options `throwIfClosureRequired`\n\nIn cases such as the following it's impossible to rewrite let/const without adding an additional function and closure while transforming:\n\n```javascript\nfor (let i = 0; i < 5; i++) {\n  setTimeout(() => console.log(i), 1);\n}\n```\n\nIn extremely performance-sensitive code, this can be undesirable. If `\"throwIfClosureRequired\": true` is set, Babel throws when transforming these patterns instead of automatically adding an additional function."
+}

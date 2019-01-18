@@ -1,0 +1,562 @@
+{
+	"name": "character-reference-invalid",
+	"versions": {
+		"1.1.2": {
+			"name": "character-reference-invalid",
+			"description": "HTML invalid numeric character reference information",
+			"version": "1.1.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-reference-invalid#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-reference-invalid.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-reference-invalid/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.2.tgz",
+				"shasum": "21e421ad3d84055952dab4a43a04e73cd425d3ed"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^16.0.0",
+				"concat-stream": "^1.6.0",
+				"esmangle": "^1.0.1",
+				"hast-util-select": "^1.0.1",
+				"hast-util-to-string": "^1.0.0",
+				"rehype-parse": "^4.0.0",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"unified": "^6.1.5",
+				"xo": "^0.20.0"
+			},
+			"keywords": [
+				"html",
+				"entity",
+				"numeric",
+				"character",
+				"reference",
+				"replacement",
+				"invalid",
+				"name"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"generate": "node build",
+				"format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+				"build-bundle": "browserify index.json --bare -s characterReferenceInvalid > character-reference-invalid.js",
+				"build-mangle": "esmangle character-reference-invalid.js > character-reference-invalid.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test": "npm run generate && npm run format && npm run build && npm run test-api"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-reference-invalid@1.1.2",
+			"gitHead": "477e77f3f2f1b4128513f1affa65edcd5d48e3cf",
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"guard-for-in": "off",
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				},
+				"ignores": [
+					"character-reference-invalid.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/character-reference-invalid_1.1.2_1524063471244_0.4760851781293134"
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"_nodeVersion": "9.5.0"
+		},
+		"1.0.0": {
+			"name": "character-reference-invalid",
+			"description": "HTML invalid numeric character reference information",
+			"version": "1.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/character-reference-invalid#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-reference-invalid.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/character-reference-invalid/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.0.0.tgz",
+				"shasum": "86345377de252a65553585a1ed3196550884bcb8"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^11.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.3.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"jsdom": "^6.5.1",
+				"mdast": "^2.0.0",
+				"mdast-comment-config": "^1.0.0",
+				"mdast-github": "^1.0.0",
+				"mdast-lint": "^1.0.0",
+				"mdast-slug": "^2.0.0",
+				"mdast-validate-links": "^1.1.1",
+				"mdast-yaml-config": "^1.0.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"html",
+				"entity",
+				"numeric",
+				"character",
+				"reference",
+				"replacement",
+				"invalid",
+				"name"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "mdast . --quiet --frail",
+				"build-generate": "node script/generate.js",
+				"build-bundle": "browserify index.js --bare -s characterReferenceInvalid > character-reference-invalid.js",
+				"build-mangle": "esmangle character-reference-invalid.js > character-reference-invalid.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-reference-invalid@1.0.0",
+			"gitHead": "c326fe60a4784a5281ff738007e1417dc62671d7",
+			"_shasum": "86345377de252a65553585a1ed3196550884bcb8",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.0.1": {
+			"name": "character-reference-invalid",
+			"description": "HTML invalid numeric character reference information",
+			"version": "1.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-reference-invalid#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-reference-invalid.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-reference-invalid/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.0.1.tgz",
+				"shasum": "cc413afbedb03554c2321fbff9356ec937505eaf"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^13.0.1",
+				"esmangle": "^1.0.1",
+				"jsdom": "^9.4.1",
+				"nyc": "^7.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-validate-links": "^4.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.16.0"
+			},
+			"keywords": [
+				"html",
+				"entity",
+				"numeric",
+				"character",
+				"reference",
+				"replacement",
+				"invalid",
+				"name"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-generate": "node script/generate.js",
+				"build-bundle": "browserify index.js --bare -s characterEntitiesHTML4 > character-reference-invalid.js",
+				"build-mangle": "esmangle character-reference-invalid.js > character-reference-invalid.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-reference-invalid@1.0.1",
+			"gitHead": "9738e34e60ffde166f504cc3083933f27d406ef2",
+			"xo": {
+				"space": true,
+				"rules": {
+					"guard-for-in": "off"
+				},
+				"ignores": [
+					"character-reference-invalid.js",
+					"character-reference-invalid.min.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/character-reference-invalid-1.0.1.tgz_1469352223529_0.347870790399611"
+			},
+			"_shasum": "cc413afbedb03554c2321fbff9356ec937505eaf",
+			"remarkConfig": {
+				"output": true,
+				"plugins": [
+					"comment-config",
+					"github",
+					"lint",
+					"validate-links"
+				],
+				"settings": {
+					"bullet": "*"
+				}
+			},
+			"_nodeVersion": "5.0.0"
+		},
+		"1.1.0": {
+			"name": "character-reference-invalid",
+			"description": "HTML invalid numeric character reference information",
+			"version": "1.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-reference-invalid#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-reference-invalid.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-reference-invalid/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.0.tgz",
+				"shasum": "dec9ad1dfb9f8d06b4fcdaa2adc3c4fd97af1e68"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^13.0.1",
+				"esmangle": "^1.0.1",
+				"jsdom": "^9.4.1",
+				"nyc": "^8.0.0",
+				"remark-cli": "^2.0.0",
+				"remark-preset-wooorm": "^1.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.17.0"
+			},
+			"keywords": [
+				"html",
+				"entity",
+				"numeric",
+				"character",
+				"reference",
+				"replacement",
+				"invalid",
+				"name"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-generate": "node build",
+				"build-bundle": "browserify index.json --bare -s characterReferenceInvalid > character-reference-invalid.js",
+				"build-mangle": "esmangle character-reference-invalid.js > character-reference-invalid.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-reference-invalid@1.1.0",
+			"gitHead": "66104251bb83f85958dcb9328a5873003fea27a2",
+			"xo": {
+				"space": true,
+				"rules": {
+					"guard-for-in": "off"
+				},
+				"ignores": [
+					"character-reference-invalid.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/character-reference-invalid-1.1.0.tgz_1478290328584_0.23455824935808778"
+			},
+			"_shasum": "dec9ad1dfb9f8d06b4fcdaa2adc3c4fd97af1e68",
+			"remarkConfig": {
+				"output": true,
+				"presets": "wooorm"
+			},
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.1": {
+			"name": "character-reference-invalid",
+			"description": "HTML invalid numeric character reference information",
+			"version": "1.1.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "https://github.com/wooorm/character-reference-invalid#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/character-reference-invalid.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/character-reference-invalid/issues"
+			},
+			"main": "index.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.1.tgz",
+				"shasum": "942835f750e4ec61a308e60c2ef8cc1011202efc"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"bail": "^1.0.1",
+				"browserify": "^14.0.0",
+				"concat-stream": "^1.6.0",
+				"esmangle": "^1.0.1",
+				"hast-util-select": "^1.0.1",
+				"hast-util-to-string": "^1.0.0",
+				"rehype-parse": "^4.0.0",
+				"remark-cli": "^3.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.0.0",
+				"unified": "^6.1.5",
+				"xo": "^0.18.0"
+			},
+			"keywords": [
+				"html",
+				"entity",
+				"numeric",
+				"character",
+				"reference",
+				"replacement",
+				"invalid",
+				"name"
+			],
+			"license": "MIT",
+			"files": [
+				"index.json"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build-md": "remark . -qfo",
+				"build-generate": "node build",
+				"build-bundle": "browserify index.json --bare -s characterReferenceInvalid > character-reference-invalid.js",
+				"build-mangle": "esmangle character-reference-invalid.js > character-reference-invalid.min.js",
+				"build": "npm run build-generate && npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test": "npm run build && npm run lint && npm run test-api"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "character-reference-invalid@1.1.1",
+			"gitHead": "88cf0385e636e3f7fc70204598ecbd3b2284e3e3",
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"rules": {
+					"guard-for-in": "off"
+				},
+				"ignores": [
+					"character-reference-invalid.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/character-reference-invalid-1.1.1.tgz_1499795720148_0.25451743556186557"
+			},
+			"_shasum": "942835f750e4ec61a308e60c2ef8cc1011202efc",
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"_nodeVersion": "4.0.0"
+		}
+	},
+	"time": {
+		"1.1.2": "2018-04-18T14:57:51.335Z",
+		"created": "2015-09-27T17:46:37.533Z",
+		"modified": "2018-04-18T14:57:54.117Z",
+		"1.0.0": "2015-09-27T17:46:37.533Z",
+		"1.0.1": "2016-07-24T09:23:45.682Z",
+		"1.1.0": "2016-11-04T20:12:09.100Z",
+		"1.1.1": "2017-07-11T17:55:21.134Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749461339
+		}
+	},
+	"_distfiles": {
+		"character-reference-invalid-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.2.tgz",
+			"sha": "21e421ad3d84055952dab4a43a04e73cd425d3ed"
+		},
+		"character-reference-invalid-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.0.0.tgz",
+			"sha": "86345377de252a65553585a1ed3196550884bcb8"
+		},
+		"character-reference-invalid-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.0.1.tgz",
+			"sha": "cc413afbedb03554c2321fbff9356ec937505eaf"
+		},
+		"character-reference-invalid-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.0.tgz",
+			"sha": "dec9ad1dfb9f8d06b4fcdaa2adc3c4fd97af1e68"
+		},
+		"character-reference-invalid-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/character-reference-invalid/-/character-reference-invalid-1.1.1.tgz",
+			"sha": "942835f750e4ec61a308e60c2ef8cc1011202efc"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-0aa6228ff7fa5c89",
+	"readme": "# character-reference-invalid [![Build Status][travis-badge]][travis]\n\nHTML invalid numeric character reference information.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install character-reference-invalid\n```\n\n## Usage\n\n```js\nvar characterReferenceInvalid = require('character-reference-invalid')\n\nconsole.log(characterReferenceInvalid[0x80]) // => '€'\nconsole.log(characterReferenceInvalid[0x89]) // => '‰'\nconsole.log(characterReferenceInvalid[0x99]) // => '™'\n```\n\n## API\n\n### `characterReferenceInvalid`\n\nMapping between invalid numeric character reference to replacements.\n\n## Support\n\nSee [html.spec.whatwg.org][html].\n\n## Related\n\n*   [`character-entities`](https://github.com/wooorm/character-entities)\n    — HTML character entity info\n*   [`character-entities-html4`](https://github.com/wooorm/character-entities-html4)\n    — HTML 4 character entity info\n*   [`character-entities-legacy`](https://github.com/wooorm/character-entities-legacy)\n    — Legacy character entity info\n*   [`parse-entities`](https://github.com/wooorm/parse-entities)\n    — Parse HTML character references\n*   [`stringify-entities`](https://github.com/wooorm/stringify-entities)\n    — Stringify HTML character references\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/character-reference-invalid.svg\n\n[travis]: https://travis-ci.org/wooorm/character-reference-invalid\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[html]: https://html.spec.whatwg.org/multipage/syntax.html#table-charref-overrides"
+}

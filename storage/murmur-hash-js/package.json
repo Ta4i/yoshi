@@ -1,0 +1,86 @@
+{
+	"name": "murmur-hash-js",
+	"versions": {
+		"1.0.0": {
+			"name": "murmur-hash-js",
+			"description": "JS murmur hash implementation",
+			"version": "1.0.0",
+			"author": {
+				"name": "Ben Robbins",
+				"email": "ben.robbins@gmail.com"
+			},
+			"homepage": "https://github.com/b3nj4m/murmurhash-js#readme",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/b3nj4m/murmurhash-js.git"
+			},
+			"contributors": [
+				{
+					"name": "Gary Court"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/b3nj4m/murmurhash-js/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/murmur-hash-js/-/murmur-hash-js-1.0.0.tgz",
+				"shasum": "5041049269c96633c866386960b2f4289e75e5b0"
+			},
+			"devDependencies": {
+				"chai": "^2.3.0",
+				"lodash": "^3.8.0",
+				"mocha": "^2.2.4"
+			},
+			"keywords": [
+				"murmur",
+				"hash",
+				"murmur2",
+				"murmur3"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "b3nj4m",
+					"email": "ben.robbins@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha test.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_npmUser": {
+				"name": "b3nj4m",
+				"email": "ben.robbins@gmail.com"
+			},
+			"_id": "murmur-hash-js@1.0.0",
+			"gitHead": "72aabce3f52cb8f16245692a69fd35951e165af0",
+			"_shasum": "5041049269c96633c866386960b2f4289e75e5b0",
+			"_nodeVersion": "2.0.1"
+		}
+	},
+	"time": {
+		"created": "2015-05-10T16:55:38.091Z",
+		"modified": "2015-05-10T16:55:38.091Z",
+		"1.0.0": "2015-05-10T16:55:38.091Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749415519
+		}
+	},
+	"_distfiles": {
+		"murmur-hash-js-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/murmur-hash-js/-/murmur-hash-js-1.0.0.tgz",
+			"sha": "5041049269c96633c866386960b2f4289e75e5b0"
+		}
+	},
+	"_attachments": {},
+	"_rev": "2-3ffcb57141528400",
+	"readme": "# MurmurHash.js\n\nAn optimized JavaScript implementation of the MurmurHash algorithms.\n\nThese algorithms take a JavaScript string or Buffer (and a seed), and quickly create a non-cryptographic 32-bit hash from it.\n\nMore information about these algorithms can be found at:\n\n*\t[MurmurHash Homepage](http://sites.google.com/site/murmurhash/)\n*\t[Wikipedia Entry on MurmurHash](http://en.wikipedia.org/wiki/MurmurHash) \n\n## API\n\n### Methods\n\n#### `murmur.murmur2(key, seed)`\nRuns the murmur2 hash algorithm on the string `key` with initial seed `seed`.\n\n#### `murmur(key, seed)`, `murmur.murmur3(key, seed)`\nRuns the murmur3 hash algorithm on the string `key` with initial seed `seed`.\n\n## Original License (MIT)\n\nCopyright (c) 2011 Gary Court\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+}

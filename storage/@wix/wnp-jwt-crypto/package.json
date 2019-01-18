@@ -1,0 +1,4454 @@
+{
+	"name": "@wix/wnp-jwt-crypto",
+	"versions": {
+		"0.1.580": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.580",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.580.tgz",
+				"shasum": "317ef4a02b03346be5432c806ffae52ec7988135"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.580"
+		},
+		"0.1.581": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.581",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.581.tgz",
+				"shasum": "a220ecb5c04c6e3ef3ef9369e3cc96fea39a8a72"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.581"
+		},
+		"0.1.584": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.584",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.584.tgz",
+				"shasum": "1d09c286406721c07efa4f1384858d62a377afc3"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.584"
+		},
+		"0.1.585": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.585",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.585.tgz",
+				"shasum": "117162f575887a2cfab0ed9b954dc0574a649274"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.585"
+		},
+		"0.1.582": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.582",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.582.tgz",
+				"shasum": "6b607d7efb624f4df30e51ca4e2fc15bd494a884"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.582"
+		},
+		"0.1.583": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.583",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.583.tgz",
+				"shasum": "4cd27575a1f5c997cabe5a3d30eb3cad1eb32a93"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.583"
+		},
+		"0.1.588": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.588",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.588.tgz",
+				"shasum": "3d3a5fba7c81da6b115d426d9e7e255cc0c7a7ea"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.588"
+		},
+		"0.1.621": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.621",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.621.tgz",
+				"shasum": "48368989b78a5be035e3a3dd9d8aeaea9eb3d749"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.621"
+		},
+		"0.1.589": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.589",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.589.tgz",
+				"shasum": "c74b8f4e43e7564bc6f9fbb181bbe412fd134c9e"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.589"
+		},
+		"0.1.622": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.622",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.622.tgz",
+				"shasum": "c9c2e9153927c5c02d97fac603563369232aec64"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.2"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.622"
+		},
+		"0.1.586": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.586",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.586.tgz",
+				"shasum": "ed85eb6bd8fa0e41903f0ec7d019dd4f52fa737d"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.586"
+		},
+		"0.1.587": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.587",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.587.tgz",
+				"shasum": "7e70785a7237da2192dce862b52eed53183faa70"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.9.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.587"
+		},
+		"0.1.620": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.620",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.620.tgz",
+				"shasum": "ff2e6f99a85b97b8347380aaaa876cdd460df29f"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.1.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.620"
+		},
+		"0.1.625": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.625",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.625.tgz",
+				"shasum": "f7b304f2c24959a495bc80577a9070a14d7d488f"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.625"
+		},
+		"0.1.626": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.626",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.626.tgz",
+				"shasum": "3b55b4c8011fc6b88924542e07d20d362af7819a"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.626"
+		},
+		"0.1.623": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.623",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.623.tgz",
+				"shasum": "24b889e7657a0921b6e533e02864f16d9c4ae09c"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.2"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.623"
+		},
+		"0.1.624": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.624",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.624.tgz",
+				"shasum": "3621a664be77301ca603a3fe28876074b17b3133"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.624"
+		},
+		"0.1.618": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.618",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.618.tgz",
+				"shasum": "ab6561db3a8f22af70c680d38d73bb7b8e3bacb6"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.618"
+		},
+		"0.1.619": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.619",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.619.tgz",
+				"shasum": "bd359c7b43d73c0b361d2746745ff9d890667f3f"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.619"
+		},
+		"0.1.616": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.616",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.616.tgz",
+				"shasum": "8d2e27fef522bd65f1e6f4235794e3fb347f699d"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.616"
+		},
+		"0.1.617": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.617",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.617.tgz",
+				"shasum": "be84fec68dd8e5b661a60ef39d9e7f96bfce4f4d"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.617"
+		},
+		"0.1.570": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.570",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.570.tgz",
+				"shasum": "38b6cee96d0e42a287ec98e4278d6bd442fc9bec"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.570"
+		},
+		"0.1.573": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.573",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.573.tgz",
+				"shasum": "dd8acd61f4de6f887ace4d3d1b6aacfacb611fd8"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.573"
+		},
+		"0.1.574": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.574",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.574.tgz",
+				"shasum": "c74e42caa3d669494888904f7500b29f4dba0014"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.574"
+		},
+		"0.1.571": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.571",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.571.tgz",
+				"shasum": "b2fdb55843511e16c6cc65f112306772c3aa93e3"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.571"
+		},
+		"0.1.572": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.572",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.572.tgz",
+				"shasum": "3aa92712f925994c2f5d953e0169345da6ebde71"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.572"
+		},
+		"0.1.577": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.577",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.577.tgz",
+				"shasum": "320632ab3e7261e1dd6db5e26c9d841141e10307"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.577"
+		},
+		"0.1.610": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.610",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.610.tgz",
+				"shasum": "1489635c392380e4f49fc86d9dd69c4606e7b623"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.16.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.610"
+		},
+		"0.1.578": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.578",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.578.tgz",
+				"shasum": "73ead3c47b6a1bb3ad694645afe39db29e2c9651"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.578"
+		},
+		"0.1.611": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.611",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.611.tgz",
+				"shasum": "8da01a654625da6f044e7e40bffd1f76f1c15d40"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.611"
+		},
+		"0.1.575": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.575",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.575.tgz",
+				"shasum": "31da23c8927a1953d3a3d4b24dda052c6f1a35d4"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.575"
+		},
+		"0.1.576": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.576",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.576.tgz",
+				"shasum": "a7b149372adbab14ff1b0b697c690f3c923dbfef"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.576"
+		},
+		"0.1.614": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.614",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.614.tgz",
+				"shasum": "dfc07d34ffec1b90b4b46c3962b8635340deb305"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.614"
+		},
+		"0.1.615": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.615",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.615.tgz",
+				"shasum": "b5dd053b79e95f75f0f5e9b8a8011736c77c91fb"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.2.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.19.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "5.0.0",
+				"mocha": "5.0.5",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.615"
+		},
+		"0.1.579": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.579",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.579.tgz",
+				"shasum": "fbd9bf33da31bcab38209728847c347d454f86a9"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.579"
+		},
+		"0.1.612": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.612",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.612.tgz",
+				"shasum": "a5fdc1eebfcebfbd8a74231bb29f8549627999ad"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.612"
+		},
+		"0.1.613": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.613",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.613.tgz",
+				"shasum": "8ba72890394a926305204b029a6d9c882002fc18"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.18.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "5.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.613"
+		},
+		"0.1.607": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.607",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.607.tgz",
+				"shasum": "23a812ef669379fa4309e96f56b8b7d693a77e17"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.607"
+		},
+		"0.1.608": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.608",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.608.tgz",
+				"shasum": "df438f9edd76229b88b856fe258f00762cdc5786"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.608"
+		},
+		"0.1.605": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.605",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.605.tgz",
+				"shasum": "e9056da5be4ebb98328c65b4fa25070e09158340"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.605"
+		},
+		"0.1.606": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.606",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.606.tgz",
+				"shasum": "9ad419d26e6b54b497cfb201a535d0ec3633704c"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.1",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.606"
+		},
+		"0.1.609": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.609",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.609.tgz",
+				"shasum": "3dd076ff0dd889382489d38284ac16007c586067"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.15.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.1.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.609"
+		},
+		"0.1.640": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.640",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.640.tgz",
+				"shasum": "1035bcf38c18d4aebeb421762f5d8f58cba9f102"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.2",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.640"
+		},
+		"0.1.566": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.566",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.566.tgz",
+				"shasum": "857a57e9b6696e94dab13f81f32ffdf109411d5a"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.566"
+		},
+		"0.1.643": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.643",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.643.tgz",
+				"shasum": "7b7ad7fb750454405f1a7385d8a8d830263c5ac2"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.2",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.643"
+		},
+		"0.1.567": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.567",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.567.tgz",
+				"shasum": "4fbb68fafe85e76d6e8cd6b1320cb9da384c6193"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.567"
+		},
+		"0.1.600": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.600",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.600.tgz",
+				"shasum": "25da29d29aec867f08c6b17de81af59c063bd895"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.600"
+		},
+		"0.1.564": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.564",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.564.tgz",
+				"shasum": "3396a0c36f5d8bf04c69e8b0fbc70db25076caf5"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.564"
+		},
+		"0.1.641": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.641",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.641.tgz",
+				"shasum": "18bd8e9b3c91d889d3e85268e5ed013602a88dc4"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.2",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.641"
+		},
+		"0.1.565": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.565",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.565.tgz",
+				"shasum": "740bd01b65bb08e9da0d4c0fca250bb2f7a67a7e"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.565"
+		},
+		"0.1.642": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.642",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.642.tgz",
+				"shasum": "59cb19e0a9895fa545f5764622c1b5531be6e7b8"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.2",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.642"
+		},
+		"0.1.603": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.603",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.603.tgz",
+				"shasum": "d166909a43b086379f4b8f217580a3304a3dca2c"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.603"
+		},
+		"0.1.604": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.604",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.604.tgz",
+				"shasum": "fc8e3bd62e3cf036b43c29dc6533450ab1c63941"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.13.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.604"
+		},
+		"0.1.568": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.568",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.568.tgz",
+				"shasum": "9abeb108fda7bfba090c7da852fbe6d066ff99b0"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.568"
+		},
+		"0.1.601": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.601",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.601.tgz",
+				"shasum": "84270530fa46cc2b26f07420e2cbb68d5cc1df03"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.601"
+		},
+		"0.1.569": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.569",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.569.tgz",
+				"shasum": "31ec8964d09bdee9a11776a872202cc48ee43c21"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.0.1"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.8.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "3.5.3",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.569"
+		},
+		"0.1.602": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.602",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.602.tgz",
+				"shasum": "2a7e8e4ac89a7f19ae3b5e823cbad11da354e3bc"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.602"
+		},
+		"0.1.638": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.638",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.638.tgz",
+				"shasum": "5e2d500237c0b704a0a885e1c77d14e337e25305"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.638"
+		},
+		"0.1.639": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.639",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.639.tgz",
+				"shasum": "5faf89e33fd758506b19aac2c9adf312e8b7f12f"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.4.0"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"chai": "4.2.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.639"
+		},
+		"0.1.591": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.591",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.591.tgz",
+				"shasum": "6a47699d7c7bf2227b80717a3bc4eea9eab33b44"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.591"
+		},
+		"0.1.592": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.592",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.592.tgz",
+				"shasum": "67ecaffc72dd6a100cff8018fdda1b19080b4282"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.592"
+		},
+		"0.1.590": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.590",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.590.tgz",
+				"shasum": "0d180697a21c1e2e3f32ff28abe7e57193854063"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.590"
+		},
+		"0.1.595": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.595",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.595.tgz",
+				"shasum": "9ff534bc779fbedf6bdca3e3cff92cf00ee4d6fb"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.595"
+		},
+		"0.1.596": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.596",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.596.tgz",
+				"shasum": "670e798d92e019c66d151a9d59b26d60f5c65512"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.596"
+		},
+		"0.1.593": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.593",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.593.tgz",
+				"shasum": "2d00fa5a23774ddf54f093037833a9c7e7cdd036"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.593"
+		},
+		"0.1.594": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.594",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.594.tgz",
+				"shasum": "533c8f85eeba7f4888704fb5a59f988b6900d2db"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.594"
+		},
+		"0.1.599": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.599",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.599.tgz",
+				"shasum": "06b1c7751486cf85c826c1f55fecce50737d069b"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.11.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.599"
+		},
+		"0.1.632": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.632",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.632.tgz",
+				"shasum": "8ec26c4337d0e6a1cf32e9a09e4835b86df6ea47"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"npm-version-up": "0.1.6"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.632"
+		},
+		"0.1.633": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.633",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.633.tgz",
+				"shasum": "17f54c88bcd5b32794681f0bb70df135b97390e3"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.633"
+		},
+		"0.1.597": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.597",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.597.tgz",
+				"shasum": "b41c560ecd4ad5c1f7589895a9110cb9a3e1a7f3"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.597"
+		},
+		"0.1.630": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.630",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.630.tgz",
+				"shasum": "9417f48e65b33b12797ba675d64fde9ea9e34a43"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.630"
+		},
+		"0.1.598": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.598",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.598.tgz",
+				"shasum": "ef553c974a4a273a2a0cfa3ba87e8a4f53da65cf"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.1.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint": "4.10.0",
+				"eslint-config-spjs": "~1.0.596",
+				"eslint-plugin-mocha": "4.11.0",
+				"mocha": "4.0.1",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "0.4.2",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wixpress.com/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.598"
+		},
+		"0.1.631": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.631",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.631.tgz",
+				"shasum": "3a4acdf390c54550f9a43b781f1d25e00f4d4cc2"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.631"
+		},
+		"0.1.636": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.636",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.636.tgz",
+				"shasum": "5ac752a0a12d8747a8ecb09acb605e4127fd69ba"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.2"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.636"
+		},
+		"0.1.637": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.637",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.637.tgz",
+				"shasum": "f14263cd5f533c85bd80b9344cf1a251329cad2e"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.637"
+		},
+		"0.1.634": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.634",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.634.tgz",
+				"shasum": "6dbf1ead823d1125f3244ea16c5ae62862485216"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.634"
+		},
+		"0.1.635": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.635",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.635.tgz",
+				"shasum": "d6945420c46d3ceb65f3b57758bbbf6d484ca85e"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"wnpm-ci": "7.0.1"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.635"
+		},
+		"0.1.629": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.629",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.629.tgz",
+				"shasum": "bd098df7248867528994b096f2b72469e7f9f8a1"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.1",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.629"
+		},
+		"0.1.627": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.627",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.627.tgz",
+				"shasum": "256f5a9cb9a3e911a3959e64bb95c4380457e3fb"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.627"
+		},
+		"0.1.628": {
+			"name": "@wix/wnp-jwt-crypto",
+			"description": "wix crypto lib using jwt",
+			"version": "0.1.628",
+			"author": "Vilius Lukosius <vilius@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/security/wnp-jwt-crypto"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.628.tgz",
+				"shasum": "dbf0475b8e771180e4f881f2d2eb9735c29b1940"
+			},
+			"dependencies": {
+				"jsonwebtoken": "8.3.0"
+			},
+			"devDependencies": {
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"node-rsa": "1.0.0",
+				"npm-version-up": "0.1.5"
+			},
+			"keywords": [
+				"wix",
+				"crypto",
+				"security",
+				"jwt"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-jwt-crypto@0.1.628"
+		}
+	},
+	"time": {
+		"0.1.580": "2017-11-03T13:53:09.838Z",
+		"0.1.581": "2017-11-05T05:29:32.064Z",
+		"0.1.584": "2017-11-05T16:33:55.344Z",
+		"0.1.585": "2017-11-07T03:50:37.873Z",
+		"0.1.582": "2017-11-05T13:21:19.590Z",
+		"0.1.583": "2017-11-05T15:02:48.901Z",
+		"0.1.588": "2017-11-08T08:36:21.497Z",
+		"0.1.621": "2018-05-30T08:15:31.131Z",
+		"0.1.589": "2017-11-08T14:38:40.924Z",
+		"0.1.622": "2018-06-04T07:32:26.594Z",
+		"0.1.586": "2017-11-07T07:31:57.246Z",
+		"0.1.587": "2017-11-07T12:58:50.101Z",
+		"0.1.620": "2018-05-20T10:38:08.910Z",
+		"0.1.625": "2018-06-19T12:01:33.873Z",
+		"0.1.626": "2018-07-11T18:53:55.952Z",
+		"0.1.623": "2018-06-07T13:38:29.925Z",
+		"0.1.624": "2018-06-14T08:18:57.657Z",
+		"0.1.618": "2018-04-16T13:36:03.737Z",
+		"0.1.619": "2018-05-06T07:17:04.041Z",
+		"0.1.616": "2018-04-05T08:34:51.167Z",
+		"0.1.617": "2018-04-12T09:18:51.939Z",
+		"modified": "2019-01-14T11:34:48.041Z",
+		"0.1.570": "2017-10-28T08:02:24.366Z",
+		"0.1.573": "2017-10-30T05:36:38.765Z",
+		"0.1.574": "2017-10-31T05:43:51.691Z",
+		"created": "2017-10-24T07:37:24.788Z",
+		"0.1.571": "2017-10-29T06:04:29.116Z",
+		"0.1.572": "2017-10-29T13:47:45.332Z",
+		"0.1.577": "2017-11-01T16:59:39.203Z",
+		"0.1.610": "2018-01-30T11:27:42.534Z",
+		"0.1.578": "2017-11-02T00:50:20.637Z",
+		"0.1.611": "2018-02-21T16:07:08.929Z",
+		"0.1.575": "2017-10-31T07:12:03.850Z",
+		"0.1.576": "2017-10-31T11:26:27.961Z",
+		"0.1.614": "2018-03-19T07:45:00.111Z",
+		"0.1.615": "2018-03-25T10:33:57.709Z",
+		"0.1.579": "2017-11-03T02:11:49.225Z",
+		"0.1.612": "2018-03-16T06:09:27.273Z",
+		"0.1.613": "2018-03-19T07:03:34.828Z",
+		"0.1.607": "2018-01-08T10:15:14.371Z",
+		"0.1.608": "2018-01-09T09:15:49.517Z",
+		"0.1.605": "2017-12-11T12:58:01.292Z",
+		"0.1.606": "2017-12-25T09:36:13.921Z",
+		"0.1.609": "2018-01-15T15:03:37.675Z",
+		"0.1.640": "2018-12-13T12:02:27.422Z",
+		"0.1.566": "2017-10-24T19:23:54.481Z",
+		"0.1.643": "2019-01-14T11:34:48.041Z",
+		"0.1.567": "2017-10-26T02:48:07.893Z",
+		"0.1.600": "2017-11-16T02:26:38.844Z",
+		"0.1.564": "2017-10-24T07:37:24.788Z",
+		"0.1.641": "2018-12-13T14:26:44.813Z",
+		"0.1.565": "2017-10-24T16:35:03.666Z",
+		"0.1.642": "2019-01-02T14:22:08.782Z",
+		"0.1.603": "2017-11-16T20:14:57.526Z",
+		"0.1.604": "2017-12-10T13:12:06.077Z",
+		"0.1.568": "2017-10-26T06:14:17.691Z",
+		"0.1.601": "2017-11-16T06:55:13.563Z",
+		"0.1.569": "2017-10-27T06:15:29.002Z",
+		"0.1.602": "2017-11-16T07:21:54.621Z",
+		"0.1.638": "2018-12-05T11:45:34.780Z",
+		"0.1.639": "2018-12-12T08:48:23.657Z",
+		"0.1.591": "2017-11-09T12:04:44.337Z",
+		"0.1.592": "2017-11-09T12:11:18.457Z",
+		"0.1.590": "2017-11-09T12:03:02.488Z",
+		"0.1.595": "2017-11-11T05:48:47.871Z",
+		"0.1.596": "2017-11-12T05:50:12.929Z",
+		"0.1.593": "2017-11-09T23:44:52.582Z",
+		"0.1.594": "2017-11-11T02:40:09.416Z",
+		"0.1.599": "2017-11-14T12:18:28.379Z",
+		"0.1.632": "2018-09-25T14:28:38.134Z",
+		"0.1.633": "2018-10-02T10:37:45.795Z",
+		"0.1.597": "2017-11-13T05:51:49.099Z",
+		"0.1.630": "2018-08-26T12:10:05.451Z",
+		"0.1.598": "2017-11-14T05:53:09.508Z",
+		"0.1.631": "2018-09-13T10:59:43.167Z",
+		"0.1.636": "2018-11-04T14:49:22.533Z",
+		"0.1.637": "2018-11-14T12:23:43.464Z",
+		"0.1.634": "2018-10-03T10:57:22.024Z",
+		"0.1.635": "2018-10-24T15:36:07.233Z",
+		"0.1.629": "2018-08-06T18:55:05.040Z",
+		"0.1.627": "2018-07-12T07:40:11.359Z",
+		"0.1.628": "2018-08-06T09:49:47.834Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.643"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749441844
+		}
+	},
+	"_distfiles": {
+		"wnp-jwt-crypto-0.1.580.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.580.tgz",
+			"sha": "317ef4a02b03346be5432c806ffae52ec7988135"
+		},
+		"wnp-jwt-crypto-0.1.581.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.581.tgz",
+			"sha": "a220ecb5c04c6e3ef3ef9369e3cc96fea39a8a72"
+		},
+		"wnp-jwt-crypto-0.1.584.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.584.tgz",
+			"sha": "1d09c286406721c07efa4f1384858d62a377afc3"
+		},
+		"wnp-jwt-crypto-0.1.585.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.585.tgz",
+			"sha": "117162f575887a2cfab0ed9b954dc0574a649274"
+		},
+		"wnp-jwt-crypto-0.1.582.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.582.tgz",
+			"sha": "6b607d7efb624f4df30e51ca4e2fc15bd494a884"
+		},
+		"wnp-jwt-crypto-0.1.583.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.583.tgz",
+			"sha": "4cd27575a1f5c997cabe5a3d30eb3cad1eb32a93"
+		},
+		"wnp-jwt-crypto-0.1.588.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.588.tgz",
+			"sha": "3d3a5fba7c81da6b115d426d9e7e255cc0c7a7ea"
+		},
+		"wnp-jwt-crypto-0.1.621.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.621.tgz",
+			"sha": "48368989b78a5be035e3a3dd9d8aeaea9eb3d749"
+		},
+		"wnp-jwt-crypto-0.1.589.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.589.tgz",
+			"sha": "c74b8f4e43e7564bc6f9fbb181bbe412fd134c9e"
+		},
+		"wnp-jwt-crypto-0.1.622.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.622.tgz",
+			"sha": "c9c2e9153927c5c02d97fac603563369232aec64"
+		},
+		"wnp-jwt-crypto-0.1.586.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.586.tgz",
+			"sha": "ed85eb6bd8fa0e41903f0ec7d019dd4f52fa737d"
+		},
+		"wnp-jwt-crypto-0.1.587.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.587.tgz",
+			"sha": "7e70785a7237da2192dce862b52eed53183faa70"
+		},
+		"wnp-jwt-crypto-0.1.620.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.620.tgz",
+			"sha": "ff2e6f99a85b97b8347380aaaa876cdd460df29f"
+		},
+		"wnp-jwt-crypto-0.1.625.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.625.tgz",
+			"sha": "f7b304f2c24959a495bc80577a9070a14d7d488f"
+		},
+		"wnp-jwt-crypto-0.1.626.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.626.tgz",
+			"sha": "3b55b4c8011fc6b88924542e07d20d362af7819a"
+		},
+		"wnp-jwt-crypto-0.1.623.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.623.tgz",
+			"sha": "24b889e7657a0921b6e533e02864f16d9c4ae09c"
+		},
+		"wnp-jwt-crypto-0.1.624.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.624.tgz",
+			"sha": "3621a664be77301ca603a3fe28876074b17b3133"
+		},
+		"wnp-jwt-crypto-0.1.618.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.618.tgz",
+			"sha": "ab6561db3a8f22af70c680d38d73bb7b8e3bacb6"
+		},
+		"wnp-jwt-crypto-0.1.619.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.619.tgz",
+			"sha": "bd359c7b43d73c0b361d2746745ff9d890667f3f"
+		},
+		"wnp-jwt-crypto-0.1.616.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.616.tgz",
+			"sha": "8d2e27fef522bd65f1e6f4235794e3fb347f699d"
+		},
+		"wnp-jwt-crypto-0.1.617.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.617.tgz",
+			"sha": "be84fec68dd8e5b661a60ef39d9e7f96bfce4f4d"
+		},
+		"wnp-jwt-crypto-0.1.570.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.570.tgz",
+			"sha": "38b6cee96d0e42a287ec98e4278d6bd442fc9bec"
+		},
+		"wnp-jwt-crypto-0.1.573.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.573.tgz",
+			"sha": "dd8acd61f4de6f887ace4d3d1b6aacfacb611fd8"
+		},
+		"wnp-jwt-crypto-0.1.574.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.574.tgz",
+			"sha": "c74e42caa3d669494888904f7500b29f4dba0014"
+		},
+		"wnp-jwt-crypto-0.1.571.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.571.tgz",
+			"sha": "b2fdb55843511e16c6cc65f112306772c3aa93e3"
+		},
+		"wnp-jwt-crypto-0.1.572.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.572.tgz",
+			"sha": "3aa92712f925994c2f5d953e0169345da6ebde71"
+		},
+		"wnp-jwt-crypto-0.1.577.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.577.tgz",
+			"sha": "320632ab3e7261e1dd6db5e26c9d841141e10307"
+		},
+		"wnp-jwt-crypto-0.1.610.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.610.tgz",
+			"sha": "1489635c392380e4f49fc86d9dd69c4606e7b623"
+		},
+		"wnp-jwt-crypto-0.1.578.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.578.tgz",
+			"sha": "73ead3c47b6a1bb3ad694645afe39db29e2c9651"
+		},
+		"wnp-jwt-crypto-0.1.611.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.611.tgz",
+			"sha": "8da01a654625da6f044e7e40bffd1f76f1c15d40"
+		},
+		"wnp-jwt-crypto-0.1.575.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.575.tgz",
+			"sha": "31da23c8927a1953d3a3d4b24dda052c6f1a35d4"
+		},
+		"wnp-jwt-crypto-0.1.576.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.576.tgz",
+			"sha": "a7b149372adbab14ff1b0b697c690f3c923dbfef"
+		},
+		"wnp-jwt-crypto-0.1.614.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.614.tgz",
+			"sha": "dfc07d34ffec1b90b4b46c3962b8635340deb305"
+		},
+		"wnp-jwt-crypto-0.1.615.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.615.tgz",
+			"sha": "b5dd053b79e95f75f0f5e9b8a8011736c77c91fb"
+		},
+		"wnp-jwt-crypto-0.1.579.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.579.tgz",
+			"sha": "fbd9bf33da31bcab38209728847c347d454f86a9"
+		},
+		"wnp-jwt-crypto-0.1.612.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.612.tgz",
+			"sha": "a5fdc1eebfcebfbd8a74231bb29f8549627999ad"
+		},
+		"wnp-jwt-crypto-0.1.613.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.613.tgz",
+			"sha": "8ba72890394a926305204b029a6d9c882002fc18"
+		},
+		"wnp-jwt-crypto-0.1.607.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.607.tgz",
+			"sha": "23a812ef669379fa4309e96f56b8b7d693a77e17"
+		},
+		"wnp-jwt-crypto-0.1.608.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.608.tgz",
+			"sha": "df438f9edd76229b88b856fe258f00762cdc5786"
+		},
+		"wnp-jwt-crypto-0.1.605.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.605.tgz",
+			"sha": "e9056da5be4ebb98328c65b4fa25070e09158340"
+		},
+		"wnp-jwt-crypto-0.1.606.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.606.tgz",
+			"sha": "9ad419d26e6b54b497cfb201a535d0ec3633704c"
+		},
+		"wnp-jwt-crypto-0.1.609.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.609.tgz",
+			"sha": "3dd076ff0dd889382489d38284ac16007c586067"
+		},
+		"wnp-jwt-crypto-0.1.640.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.640.tgz",
+			"sha": "1035bcf38c18d4aebeb421762f5d8f58cba9f102"
+		},
+		"wnp-jwt-crypto-0.1.566.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.566.tgz",
+			"sha": "857a57e9b6696e94dab13f81f32ffdf109411d5a"
+		},
+		"wnp-jwt-crypto-0.1.643.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.643.tgz",
+			"sha": "7b7ad7fb750454405f1a7385d8a8d830263c5ac2"
+		},
+		"wnp-jwt-crypto-0.1.567.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.567.tgz",
+			"sha": "4fbb68fafe85e76d6e8cd6b1320cb9da384c6193"
+		},
+		"wnp-jwt-crypto-0.1.600.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.600.tgz",
+			"sha": "25da29d29aec867f08c6b17de81af59c063bd895"
+		},
+		"wnp-jwt-crypto-0.1.564.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.564.tgz",
+			"sha": "3396a0c36f5d8bf04c69e8b0fbc70db25076caf5"
+		},
+		"wnp-jwt-crypto-0.1.641.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.641.tgz",
+			"sha": "18bd8e9b3c91d889d3e85268e5ed013602a88dc4"
+		},
+		"wnp-jwt-crypto-0.1.565.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.565.tgz",
+			"sha": "740bd01b65bb08e9da0d4c0fca250bb2f7a67a7e"
+		},
+		"wnp-jwt-crypto-0.1.642.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.642.tgz",
+			"sha": "59cb19e0a9895fa545f5764622c1b5531be6e7b8"
+		},
+		"wnp-jwt-crypto-0.1.603.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.603.tgz",
+			"sha": "d166909a43b086379f4b8f217580a3304a3dca2c"
+		},
+		"wnp-jwt-crypto-0.1.604.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.604.tgz",
+			"sha": "fc8e3bd62e3cf036b43c29dc6533450ab1c63941"
+		},
+		"wnp-jwt-crypto-0.1.568.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.568.tgz",
+			"sha": "9abeb108fda7bfba090c7da852fbe6d066ff99b0"
+		},
+		"wnp-jwt-crypto-0.1.601.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.601.tgz",
+			"sha": "84270530fa46cc2b26f07420e2cbb68d5cc1df03"
+		},
+		"wnp-jwt-crypto-0.1.569.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.569.tgz",
+			"sha": "31ec8964d09bdee9a11776a872202cc48ee43c21"
+		},
+		"wnp-jwt-crypto-0.1.602.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.602.tgz",
+			"sha": "2a7e8e4ac89a7f19ae3b5e823cbad11da354e3bc"
+		},
+		"wnp-jwt-crypto-0.1.638.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.638.tgz",
+			"sha": "5e2d500237c0b704a0a885e1c77d14e337e25305"
+		},
+		"wnp-jwt-crypto-0.1.639.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.639.tgz",
+			"sha": "5faf89e33fd758506b19aac2c9adf312e8b7f12f"
+		},
+		"wnp-jwt-crypto-0.1.591.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.591.tgz",
+			"sha": "6a47699d7c7bf2227b80717a3bc4eea9eab33b44"
+		},
+		"wnp-jwt-crypto-0.1.592.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.592.tgz",
+			"sha": "67ecaffc72dd6a100cff8018fdda1b19080b4282"
+		},
+		"wnp-jwt-crypto-0.1.590.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.590.tgz",
+			"sha": "0d180697a21c1e2e3f32ff28abe7e57193854063"
+		},
+		"wnp-jwt-crypto-0.1.595.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.595.tgz",
+			"sha": "9ff534bc779fbedf6bdca3e3cff92cf00ee4d6fb"
+		},
+		"wnp-jwt-crypto-0.1.596.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.596.tgz",
+			"sha": "670e798d92e019c66d151a9d59b26d60f5c65512"
+		},
+		"wnp-jwt-crypto-0.1.593.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.593.tgz",
+			"sha": "2d00fa5a23774ddf54f093037833a9c7e7cdd036"
+		},
+		"wnp-jwt-crypto-0.1.594.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.594.tgz",
+			"sha": "533c8f85eeba7f4888704fb5a59f988b6900d2db"
+		},
+		"wnp-jwt-crypto-0.1.599.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.599.tgz",
+			"sha": "06b1c7751486cf85c826c1f55fecce50737d069b"
+		},
+		"wnp-jwt-crypto-0.1.632.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.632.tgz",
+			"sha": "8ec26c4337d0e6a1cf32e9a09e4835b86df6ea47"
+		},
+		"wnp-jwt-crypto-0.1.633.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.633.tgz",
+			"sha": "17f54c88bcd5b32794681f0bb70df135b97390e3"
+		},
+		"wnp-jwt-crypto-0.1.597.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.597.tgz",
+			"sha": "b41c560ecd4ad5c1f7589895a9110cb9a3e1a7f3"
+		},
+		"wnp-jwt-crypto-0.1.630.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.630.tgz",
+			"sha": "9417f48e65b33b12797ba675d64fde9ea9e34a43"
+		},
+		"wnp-jwt-crypto-0.1.598.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.598.tgz",
+			"sha": "ef553c974a4a273a2a0cfa3ba87e8a4f53da65cf"
+		},
+		"wnp-jwt-crypto-0.1.631.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.631.tgz",
+			"sha": "3a4acdf390c54550f9a43b781f1d25e00f4d4cc2"
+		},
+		"wnp-jwt-crypto-0.1.636.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.636.tgz",
+			"sha": "5ac752a0a12d8747a8ecb09acb605e4127fd69ba"
+		},
+		"wnp-jwt-crypto-0.1.637.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.637.tgz",
+			"sha": "f14263cd5f533c85bd80b9344cf1a251329cad2e"
+		},
+		"wnp-jwt-crypto-0.1.634.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.634.tgz",
+			"sha": "6dbf1ead823d1125f3244ea16c5ae62862485216"
+		},
+		"wnp-jwt-crypto-0.1.635.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.635.tgz",
+			"sha": "d6945420c46d3ceb65f3b57758bbbf6d484ca85e"
+		},
+		"wnp-jwt-crypto-0.1.629.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.629.tgz",
+			"sha": "bd098df7248867528994b096f2b72469e7f9f8a1"
+		},
+		"wnp-jwt-crypto-0.1.627.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.627.tgz",
+			"sha": "256f5a9cb9a3e911a3959e64bb95c4380457e3fb"
+		},
+		"wnp-jwt-crypto-0.1.628.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-jwt-crypto/-/@wix/wnp-jwt-crypto-0.1.628.tgz",
+			"sha": "dbf0475b8e771180e4f881f2d2eb9735c29b1940"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-8e55e69f851d5eae",
+	"readme": ""
+}

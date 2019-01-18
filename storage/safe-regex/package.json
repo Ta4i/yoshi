@@ -1,0 +1,466 @@
+{
+	"name": "safe-regex",
+	"versions": {
+		"2.0.0": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "2.0.0",
+			"author": {
+				"name": "James C.",
+				"email": "davisjam@vt.edu",
+				"url": "Jamie"
+			},
+			"homepage": "https://github.com/davisjam/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/davisjam/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/davisjam/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-2.0.0.tgz",
+				"shasum": "1c021d0d55ee116bf6caeeb1d7d0a388509f7112"
+			},
+			"dependencies": {
+				"regexp-tree": "~0.0.85"
+			},
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "davisjam@vt.edu",
+					"name": "davisjam"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "davisjam",
+				"email": "davisjam@vt.edu"
+			},
+			"_id": "safe-regex@2.0.0",
+			"gitHead": "cd95cff13de26a3065a97eeb90dba360a95790d8",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/safe-regex_2.0.0_1540576786474_0.40345973051344486"
+			},
+			"_nodeVersion": "8.2.1"
+		},
+		"2.0.1": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "2.0.1",
+			"author": {
+				"name": "James C.",
+				"email": "davisjam@vt.edu",
+				"url": "Jamie"
+			},
+			"homepage": "https://github.com/davisjam/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/davisjam/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/davisjam/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-2.0.1.tgz",
+				"shasum": "676c791d97f31fadb8958d64300f7760606fa0a1"
+			},
+			"dependencies": {
+				"regexp-tree": "~0.0.85"
+			},
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "davisjam@vt.edu",
+					"name": "davisjam"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "davisjam",
+				"email": "davisjam@vt.edu"
+			},
+			"_id": "safe-regex@2.0.1",
+			"gitHead": "db1568fee2072aa532919b0899490b4a4492efd4",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/safe-regex_2.0.1_1541172865225_0.8604165785745475"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.0": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "1.0.0",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/substack/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-1.0.0.tgz",
+				"shasum": "2a88b57eb36396bb4c69218a3acd3334c5570123"
+			},
+			"dependencies": {
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "safe-regex@1.0.0",
+			"gitHead": "4ffa3f1b0ffe993ecaee97a622fb17469db2c2c6",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			},
+			"_shasum": "2a88b57eb36396bb4c69218a3acd3334c5570123",
+			"_nodeVersion": "0.10.35"
+		},
+		"0.0.0": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "0.0.0",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/substack/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-0.0.0.tgz",
+				"shasum": "9a9ae1f35a6ea8047b6ea6ecf9c05143e1efc3ab"
+			},
+			"dependencies": {
+				"ret": "~0.1.6"
+			},
+			"devDependencies": {
+				"tape": "~1.0.4"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.0",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "safe-regex@0.0.0",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			}
+		},
+		"1.1.0": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "1.1.0",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/substack/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-1.1.0.tgz",
+				"shasum": "40a3669f3b077d1e943d44629e157dd48023bf2e"
+			},
+			"dependencies": {
+				"ret": "~0.1.10"
+			},
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "safe-regex@1.1.0",
+			"gitHead": "d2570f31bd9d779515015917bb8297c753e46572",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			},
+			"_shasum": "40a3669f3b077d1e943d44629e157dd48023bf2e",
+			"_nodeVersion": "0.12.0"
+		},
+		"0.0.1": {
+			"name": "safe-regex",
+			"description": "detect possibly catastrophic, exponential-time regular expressions",
+			"version": "0.0.1",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"homepage": "https://github.com/substack/safe-regex",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/safe-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/substack/safe-regex/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-0.0.1.tgz",
+				"shasum": "350ae32b49b7dc75d1cac3a18cb8b375a94ef15c"
+			},
+			"dependencies": {
+				"ret": "~0.1.6"
+			},
+			"devDependencies": {
+				"tape": "~1.0.4"
+			},
+			"keywords": [
+				"catastrophic",
+				"exponential",
+				"regex",
+				"safe",
+				"sandbox"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "safe-regex@0.0.1",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8",
+					"ie/9",
+					"ie/10",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				]
+			}
+		}
+	},
+	"time": {
+		"2.0.0": "2018-10-26T17:59:46.642Z",
+		"2.0.1": "2018-11-02T15:34:25.412Z",
+		"created": "2013-07-13T02:56:00.967Z",
+		"modified": "2019-01-05T10:32:56.751Z",
+		"1.0.0": "2015-02-06T16:36:31.893Z",
+		"0.0.0": "2013-07-13T02:56:02.406Z",
+		"1.1.0": "2015-03-19T00:30:21.780Z",
+		"0.0.1": "2013-11-22T08:44:01.232Z"
+	},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749409414
+		}
+	},
+	"_distfiles": {
+		"safe-regex-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-2.0.0.tgz",
+			"sha": "1c021d0d55ee116bf6caeeb1d7d0a388509f7112"
+		},
+		"safe-regex-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-2.0.1.tgz",
+			"sha": "676c791d97f31fadb8958d64300f7760606fa0a1"
+		},
+		"safe-regex-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-1.0.0.tgz",
+			"sha": "2a88b57eb36396bb4c69218a3acd3334c5570123"
+		},
+		"safe-regex-0.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-0.0.0.tgz",
+			"sha": "9a9ae1f35a6ea8047b6ea6ecf9c05143e1efc3ab"
+		},
+		"safe-regex-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-1.1.0.tgz",
+			"sha": "40a3669f3b077d1e943d44629e157dd48023bf2e"
+		},
+		"safe-regex-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/safe-regex/-/safe-regex-0.0.1.tgz",
+			"sha": "350ae32b49b7dc75d1cac3a18cb8b375a94ef15c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ac62b0fd90a14bfc",
+	"readme": "# safe-regex\n\nDetect potentially\n[catastrophic](http://regular-expressions.mobi/catastrophic.html)\n[exponential-time](http://perlgeek.de/blog-en/perl-tips/in-search-of-an-exponetial-regexp.html)\nregular expressions by limiting the\n[star height](https://en.wikipedia.org/wiki/Star_height) to 1.\n\nWARNING: This module has both false positives and false negatives.\nUse [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) for improved accuracy.\n\n[![browser support](https://ci.testling.com/substack/safe-regex.png)](https://ci.testling.com/substack/safe-regex)\n\n[![build status](https://secure.travis-ci.org/substack/safe-regex.png)](http://travis-ci.org/substack/safe-regex)\n\n# Example\n\n``` js\nvar safe = require('safe-regex');\nvar regex = process.argv.slice(2).join(' ');\nconsole.log(safe(regex));\n```\n\n```\n$ node safe.js '(x+x+)+y'\nfalse\n$ node safe.js '(beep|boop)*'\ntrue\n$ node safe.js '(a+){10}'\nfalse\n$ node safe.js '\\blocation\\s*:[^:\\n]+\\b(Oakland|San Francisco)\\b'\ntrue\n```\n\n# Methods\n\n``` js\nconst safe = require('safe-regex')\n```\n\n## const ok = safe(re, opts={})\n\nReturn a boolean `ok` whether or not the regex `re` is safe and not possibly\ncatastrophic.\n\n`re` can be a `RegExp` object or just a string.\n\nIf the `re` is a string and is an invalid regex, returns `false`.\n\n* `opts.limit` - maximum number of allowed repetitions in the entire regex.\nDefault: `25`.\n\n# Install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install safe-regex\n```\n\n# License\n\nMIT"
+}

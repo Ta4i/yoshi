@@ -1,0 +1,186 @@
+{
+	"name": "replace-ext",
+	"versions": {
+		"1.0.0": {
+			"name": "replace-ext",
+			"description": "Replaces a file extension with another one",
+			"version": "1.0.0",
+			"author": {
+				"name": "Gulp Team",
+				"email": "team@gulpjs.com",
+				"url": "http://gulpjs.com/"
+			},
+			"homepage": "https://github.com/gulpjs/replace-ext#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gulpjs/replace-ext.git"
+			},
+			"contributors": [
+				{
+					"name": "Eric Schoffstall",
+					"email": "yo@contra.io"
+				},
+				{
+					"name": "Blaine Bublitz",
+					"email": "blaine.bublitz@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/gulpjs/replace-ext/issues"
+			},
+			"engines": {
+				"node": ">= 0.10"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/replace-ext/-/replace-ext-1.0.0.tgz",
+				"shasum": "de63128373fcbf7c3ccfa4de5a480c45a67958eb"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"eslint": "^1.10.3",
+				"eslint-config-gulp": "^2.0.0",
+				"expect": "^1.16.0",
+				"istanbul": "^0.4.3",
+				"istanbul-coveralls": "^1.0.3",
+				"jscs": "^2.3.5",
+				"jscs-preset-gulp": "^1.0.0",
+				"mocha": "^2.4.5"
+			},
+			"keywords": [
+				"gulp",
+				"extensions",
+				"filepath",
+				"basename"
+			],
+			"license": "MIT",
+			"files": [
+				"LICENSE",
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "contra",
+					"email": "contra@wearefractal.com"
+				},
+				{
+					"name": "fractal",
+					"email": "contact@wearefractal.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint . && jscs index.js test/",
+				"pretest": "npm run lint",
+				"test": "mocha --async-only",
+				"cover": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly",
+				"coveralls": "npm run cover && istanbul-coveralls"
+			},
+			"_from": ".",
+			"_npmVersion": "2.15.2",
+			"_npmUser": {
+				"name": "phated",
+				"email": "blaine.bublitz@gmail.com"
+			},
+			"_id": "replace-ext@1.0.0",
+			"gitHead": "adaec75e316f1c375dc7a2cb51c7b762b135cc0e",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/replace-ext-1.0.0.tgz_1471316327349_0.09214890468865633"
+			},
+			"_shasum": "de63128373fcbf7c3ccfa4de5a480c45a67958eb",
+			"_nodeVersion": "0.10.41"
+		},
+		"0.0.1": {
+			"name": "replace-ext",
+			"description": "Replaces a file extension with another one",
+			"version": "0.0.1",
+			"author": {
+				"name": "Fractal",
+				"email": "contact@wearefractal.com",
+				"url": "http://wearefractal.com/"
+			},
+			"homepage": "http://github.com/wearefractal/replace-ext",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/wearefractal/replace-ext.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wearefractal/replace-ext/issues"
+			},
+			"engines": {
+				"node": ">= 0.4"
+			},
+			"main": "./index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/replace-ext/-/replace-ext-0.0.1.tgz",
+				"shasum": "29bbd92078a739f0bcce2b4ee41e837953522924"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"mocha": "~1.17.0",
+				"should": "~3.1.0",
+				"mocha-lcov-reporter": "~0.0.1",
+				"coveralls": "~2.6.1",
+				"istanbul": "~0.2.3",
+				"rimraf": "~2.2.5",
+				"jshint": "~2.4.1"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/wearefractal/replace-ext/raw/master/LICENSE"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "fractal",
+					"email": "contact@wearefractal.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha --reporter spec && jshint",
+				"coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.4",
+			"_npmUser": {
+				"name": "fractal",
+				"email": "contact@wearefractal.com"
+			},
+			"_id": "replace-ext@0.0.1"
+		}
+	},
+	"time": {
+		"created": "2014-02-25T21:34:14.210Z",
+		"modified": "2018-02-26T08:50:26.448Z",
+		"1.0.0": "2016-08-16T02:58:47.596Z",
+		"0.0.1": "2014-02-25T21:34:14.210Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749461718
+		}
+	},
+	"_distfiles": {
+		"replace-ext-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/replace-ext/-/replace-ext-1.0.0.tgz",
+			"sha": "de63128373fcbf7c3ccfa4de5a480c45a67958eb"
+		},
+		"replace-ext-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/replace-ext/-/replace-ext-0.0.1.tgz",
+			"sha": "29bbd92078a739f0bcce2b4ee41e837953522924"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-4e4815fcaf6e3190",
+	"readme": "<p align=\"center\">\n  <a href=\"http://gulpjs.com\">\n    <img height=\"257\" width=\"114\" src=\"https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png\">\n  </a>\n</p>\n\n# replace-ext\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![AppVeyor Build Status][appveyor-image]][appveyor-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Gitter chat][gitter-image]][gitter-url]\n\nReplaces a file extension with another one.\n\n## Usage\n\n```js\nvar replaceExt = require('replace-ext');\n\nvar path = '/some/dir/file.js';\nvar newPath = replaceExt(path, '.coffee');\n\nconsole.log(newPath); // /some/dir/file.coffee\n```\n\n## API\n\n### `replaceExt(path, extension)`\n\nReplaces the extension from `path` with `extension` and returns the updated path string.\n\nDoes not replace the extension if `path` is not a string or is empty.\n\n## License\n\nMIT\n\n[downloads-image]: http://img.shields.io/npm/dm/replace-ext.svg\n[npm-url]: https://www.npmjs.com/package/replace-ext\n[npm-image]: http://img.shields.io/npm/v/replace-ext.svg\n\n[travis-url]: https://travis-ci.org/gulpjs/replace-ext\n[travis-image]: http://img.shields.io/travis/gulpjs/replace-ext.svg?label=travis-ci\n\n[appveyor-url]: https://ci.appveyor.com/project/gulpjs/replace-ext\n[appveyor-image]: https://img.shields.io/appveyor/ci/gulpjs/replace-ext.svg?label=appveyor\n\n[coveralls-url]: https://coveralls.io/r/gulpjs/replace-ext\n[coveralls-image]: http://img.shields.io/coveralls/gulpjs/replace-ext/master.svg\n\n[gitter-url]: https://gitter.im/gulpjs/gulp\n[gitter-image]: https://badges.gitter.im/gulpjs/gulp.svg"
+}

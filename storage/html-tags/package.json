@@ -1,0 +1,736 @@
+{
+	"name": "html-tags",
+	"versions": {
+		"2.0.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "2.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/html-tags.git"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-2.0.0.tgz",
+				"shasum": "10b30a386085f43cede353cc8fa7cb0deeea668b"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"whatwg",
+				"w3c",
+				"void",
+				"self-closing"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"void.js",
+				"html-tags.json",
+				"html-tags-void.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@2.0.0",
+			"gitHead": "cb1d76e7cfa5e667e0ca46d244548eb14863c0b3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/html-tags-2.0.0.tgz_1497717342591_0.779887119308114"
+			},
+			"_shasum": "10b30a386085f43cede353cc8fa7cb0deeea668b",
+			"_nodeVersion": "6.9.1"
+		},
+		"0.3.1": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.3.1",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.1.tgz",
+				"shasum": "433fe3f0122b4212f1a5eb517ad411b61a2ec7be"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"browserify": "^3.0.0"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha",
+				"browser": "browserify -s $npm_package_name -o browser.js ."
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.3.1"
+		},
+		"0.3.2": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.3.2",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.2.tgz",
+				"shasum": "92daf64c6f99ec6ea76c8c8f88d16b926ed11637"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"browserify": "^3.0.0"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha",
+				"browser": "browserify -s $npm_package_name -o browser.js ."
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.3.2"
+		},
+		"0.1.1": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.1.1",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"main": "html-tags.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.1.1.tgz",
+				"shasum": "452f8e1efc25774d367ccf6bd264918643223c2b"
+			},
+			"devDependencies": {
+				"mocha": "~1.x"
+			},
+			"keywords": [
+				"html",
+				"tags",
+				"elements"
+			],
+			"license": "MIT",
+			"files": [
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.17",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.1.1"
+		},
+		"0.2.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.2.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"main": "html-tags.json",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.2.0.tgz",
+				"shasum": "8ddd0317f1b122134a9c62756ac0673bfc18f4f7"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"keywords": [
+				"html",
+				"tags",
+				"elements"
+			],
+			"license": "MIT",
+			"files": [
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.25",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.2.0"
+		},
+		"0.3.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.3.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.0.tgz",
+				"shasum": "a183b1b77cf9f51e689e118fabcb842df9203305"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"browserify": "^3.0.0"
+			},
+			"keywords": [
+				"html",
+				"tags",
+				"elements"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha",
+				"browser": "a=$npm_package_name; browserify -r ./index:$a -s $a index.js -o browser.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.3.0"
+		},
+		"1.0.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "1.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.0.0.tgz",
+				"shasum": "b53688e6d906713b1a5e223d958bcb23fef273e7"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@1.0.0",
+			"gitHead": "9cd81ed2b560b6b5cb1bce403e5e632ea44cf5b2",
+			"_shasum": "b53688e6d906713b1a5e223d958bcb23fef273e7"
+		},
+		"1.1.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "1.1.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.1.0.tgz",
+				"shasum": "6cf946e686c1aacb4c9ff3189dcf9a94006f628d"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@1.1.0",
+			"gitHead": "f0e51e9961b8ce02b9cf2434bc328b2c721452d4",
+			"_shasum": "6cf946e686c1aacb4c9ff3189dcf9a94006f628d"
+		},
+		"0.1.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "0.1.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"main": "html-tags.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.1.0.tgz",
+				"shasum": "881570618dc0a30813965a409560145906c23245"
+			},
+			"devDependencies": {
+				"mocha": "~1.x"
+			},
+			"keywords": [
+				"html",
+				"tags",
+				"elements"
+			],
+			"license": "MIT",
+			"files": [
+				"html-tags.js"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.17",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@0.1.0"
+		},
+		"1.1.1": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "1.1.1",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/html-tags"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.1.1.tgz",
+				"shasum": "869f43859f12d9bdc3892419e494a628aa1b204e"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@1.1.1",
+			"gitHead": "5e068ca84a8c0b4ba5debe616d92c28c9e9a0a59",
+			"_shasum": "869f43859f12d9bdc3892419e494a628aa1b204e",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.2.0": {
+			"name": "html-tags",
+			"description": "List of standard HTML tags",
+			"version": "1.2.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/html-tags#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/html-tags.git"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/html-tags/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.2.0.tgz",
+				"shasum": "c78de65b5663aa597989dd2b7ab49200d7e4db98"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"keywords": [
+				"html",
+				"html5",
+				"tags",
+				"elements",
+				"list",
+				"w3c"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"html-tags.json"
+			],
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "html-tags@1.2.0",
+			"gitHead": "3f6f393daebc823c87099011166bc937638b81a1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/html-tags-1.2.0.tgz_1497712293401_0.28161724423989654"
+			},
+			"_shasum": "c78de65b5663aa597989dd2b7ab49200d7e4db98",
+			"_nodeVersion": "6.9.1"
+		}
+	},
+	"time": {
+		"2.0.0": "2017-06-17T16:35:43.615Z",
+		"0.3.1": "2014-04-16T20:42:41.716Z",
+		"0.3.2": "2014-04-30T22:24:22.352Z",
+		"created": "2013-12-13T14:57:01.511Z",
+		"0.1.1": "2013-12-14T17:37:48.411Z",
+		"0.2.0": "2014-01-31T18:05:47.535Z",
+		"0.3.0": "2014-03-22T11:00:28.812Z",
+		"0.1.0": "2013-12-13T14:57:04.449Z",
+		"modified": "2017-10-26T16:31:45.947Z",
+		"1.0.0": "2014-08-14T09:50:05.955Z",
+		"1.1.0": "2014-08-17T13:46:18.801Z",
+		"1.1.1": "2015-04-22T04:55:55.399Z",
+		"1.2.0": "2017-06-17T15:11:34.396Z"
+	},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749392552
+		}
+	},
+	"_distfiles": {
+		"html-tags-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-2.0.0.tgz",
+			"sha": "10b30a386085f43cede353cc8fa7cb0deeea668b"
+		},
+		"html-tags-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.1.tgz",
+			"sha": "433fe3f0122b4212f1a5eb517ad411b61a2ec7be"
+		},
+		"html-tags-0.3.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.2.tgz",
+			"sha": "92daf64c6f99ec6ea76c8c8f88d16b926ed11637"
+		},
+		"html-tags-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.1.1.tgz",
+			"sha": "452f8e1efc25774d367ccf6bd264918643223c2b"
+		},
+		"html-tags-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.2.0.tgz",
+			"sha": "8ddd0317f1b122134a9c62756ac0673bfc18f4f7"
+		},
+		"html-tags-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.3.0.tgz",
+			"sha": "a183b1b77cf9f51e689e118fabcb842df9203305"
+		},
+		"html-tags-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.0.0.tgz",
+			"sha": "b53688e6d906713b1a5e223d958bcb23fef273e7"
+		},
+		"html-tags-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.1.0.tgz",
+			"sha": "6cf946e686c1aacb4c9ff3189dcf9a94006f628d"
+		},
+		"html-tags-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-0.1.0.tgz",
+			"sha": "881570618dc0a30813965a409560145906c23245"
+		},
+		"html-tags-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.1.1.tgz",
+			"sha": "869f43859f12d9bdc3892419e494a628aa1b204e"
+		},
+		"html-tags-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/html-tags/-/html-tags-1.2.0.tgz",
+			"sha": "c78de65b5663aa597989dd2b7ab49200d7e4db98"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-11acd4769040bdaf",
+	"readme": "# html-tags [![Build Status](https://travis-ci.org/sindresorhus/html-tags.svg?branch=master)](https://travis-ci.org/sindresorhus/html-tags)\n\n> List of standard HTML tags\n\nIt's just a couple of JSON files that can be used in any environment.\n\nIt intentionally leaves out obsolete tags.\n\n\n## Install\n\n```\n$ npm install html-tags\n```\n\n\n## Usage\n\n```js\nconst htmlTags = require('html-tags');\n\nconsole.log(htmlTags);\n//=> ['a', 'abbr', 'acronym', ...]\n```\n\nAnd void (self-closing) tags:\n\n```js\nconst voidHtmlTags = require('html-tags/void');\n\nconsole.log(voidHtmlTags);\n//=> ['area', 'base', 'br', ...]\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}

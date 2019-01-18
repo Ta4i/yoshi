@@ -1,0 +1,904 @@
+{
+	"name": "@wix/wix-express-tracing",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.12",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.12.tgz",
+				"shasum": "8da1826abdf4b053c33f0985ee468d070e55f6d4"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.12"
+		},
+		"1.0.13": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.13",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.13.tgz",
+				"shasum": "69d05a40f47f4df61ed4d8c69d77c6dcc6a1a541"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.13"
+		},
+		"1.0.10": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.10",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.10.tgz",
+				"shasum": "183739d4752f1367f2049d75332e8fde8760f297"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.10"
+		},
+		"1.0.11": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.11",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.11.tgz",
+				"shasum": "71437923ea53e1829c0d2813c0835ab8632ceec6"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.11"
+		},
+		"1.0.3": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.3",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.3.tgz",
+				"shasum": "7c40098b0e24ed61f2f6187d19c1a9dba85ec24d"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.2",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.3"
+		},
+		"1.0.4": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.4",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.4.tgz",
+				"shasum": "daf455221253987d0b332df4f4b9d76896cc6e55"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.2",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.4"
+		},
+		"1.0.5": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.5",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.5.tgz",
+				"shasum": "7d5eefc746b5d1fa28aadc9535bbf00da6380c04"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.2",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.5"
+		},
+		"1.0.6": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.6",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.6.tgz",
+				"shasum": "3c97b7bcc23eef85ddf0fb9e1b0e4feeb396f012"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.6"
+		},
+		"1.0.7": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.7",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.7.tgz",
+				"shasum": "e6dee71c2d08242bf16178e9f4f537ddd497e9e7"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.7"
+		},
+		"1.0.8": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.8",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.8.tgz",
+				"shasum": "114121811a6f73338b4999581c643c00958c627c"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.8"
+		},
+		"1.0.9": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.9",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.9.tgz",
+				"shasum": "604321d79728286fb8dbad55bd05a68049d415e0"
+			},
+			"dependencies": {
+				"@wix/wix-tracing": "~1.0.0",
+				"opentracing": "0.14.3"
+			},
+			"devDependencies": {
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-errors": "~1.0.171",
+				"@wix/wix-express-aspects-testkit": "~1.0.0",
+				"@wix/wix-express-error-handler": "~1.0.1083",
+				"@wix/wix-http-testkit": "~1.0.784",
+				"@wix/wix-jaeger-testkit": "~1.0.0",
+				"axios": "0.18.0",
+				"bluebird": "3.5.3",
+				"chai": "4.2.0",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wix-eventually": "2.2.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.9"
+		},
+		"1.0.0": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.0",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.0.tgz",
+				"shasum": "9e438b01a44adbff52bc601c8a20508e9e27e44e"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.1",
+				"chai": "4.1.2",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.0"
+		},
+		"1.0.1": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.1",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.1.tgz",
+				"shasum": "c62a8f468d8e59c7d9459849b5749f7f3896d8e3"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.2",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.1"
+		},
+		"1.0.2": {
+			"name": "@wix/wix-express-tracing",
+			"description": "express.js middleware for OpenTracing",
+			"version": "1.0.2",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/tracing/wix-express-tracing"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.2.tgz",
+				"shasum": "29e61313bd1f6d0581289c44728d35bc964557ef"
+			},
+			"dependencies": {
+				"opentracing": "0.14.3",
+				"wix-tracing": "~1.0.0"
+			},
+			"devDependencies": {
+				"axios": "0.18.0",
+				"bluebird": "3.5.2",
+				"chai": "4.2.0",
+				"eslint-config-spjs": "~1.0.596",
+				"express": ">=4.16.3",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"wix-eventually": "2.2.0",
+				"wix-errors": "~1.0.171",
+				"wix-express-aspects-testkit": "~1.0.0",
+				"wix-express-error-handler": "~1.0.1083",
+				"wix-http-testkit": "~1.0.784",
+				"wix-jaeger-testkit": "~1.0.0"
+			},
+			"keywords": [
+				"wix",
+				"tracing",
+				"opentracing",
+				"express"
+			],
+			"license": "ISC",
+			"scripts": {
+				"build": ":",
+				"lint": "eslint --fix .",
+				"test": "DEBUG='wix:*' mocha --exit --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js'",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-express-tracing@1.0.2"
+		}
+	},
+	"time": {
+		"1.0.12": "2019-01-02T14:23:17.896Z",
+		"1.0.13": "2019-01-14T11:37:54.740Z",
+		"created": "2018-10-09T08:41:45.250Z",
+		"1.0.10": "2018-12-13T14:27:44.443Z",
+		"1.0.11": "2018-12-14T08:11:05.180Z",
+		"1.0.3": "2018-10-24T15:37:45.328Z",
+		"1.0.4": "2018-10-31T13:14:28.223Z",
+		"1.0.5": "2018-11-04T14:50:20.672Z",
+		"1.0.6": "2018-11-14T12:24:41.995Z",
+		"1.0.7": "2018-12-05T11:47:13.682Z",
+		"1.0.8": "2018-12-12T08:50:03.198Z",
+		"1.0.9": "2018-12-13T12:03:17.531Z",
+		"modified": "2019-01-14T11:37:54.740Z",
+		"1.0.0": "2018-10-09T08:41:45.250Z",
+		"1.0.1": "2018-10-09T09:13:06.820Z",
+		"1.0.2": "2018-10-22T11:13:43.105Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.13"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749420893
+		}
+	},
+	"_distfiles": {
+		"wix-express-tracing-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.12.tgz",
+			"sha": "8da1826abdf4b053c33f0985ee468d070e55f6d4"
+		},
+		"wix-express-tracing-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.13.tgz",
+			"sha": "69d05a40f47f4df61ed4d8c69d77c6dcc6a1a541"
+		},
+		"wix-express-tracing-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.10.tgz",
+			"sha": "183739d4752f1367f2049d75332e8fde8760f297"
+		},
+		"wix-express-tracing-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.11.tgz",
+			"sha": "71437923ea53e1829c0d2813c0835ab8632ceec6"
+		},
+		"wix-express-tracing-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.3.tgz",
+			"sha": "7c40098b0e24ed61f2f6187d19c1a9dba85ec24d"
+		},
+		"wix-express-tracing-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.4.tgz",
+			"sha": "daf455221253987d0b332df4f4b9d76896cc6e55"
+		},
+		"wix-express-tracing-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.5.tgz",
+			"sha": "7d5eefc746b5d1fa28aadc9535bbf00da6380c04"
+		},
+		"wix-express-tracing-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.6.tgz",
+			"sha": "3c97b7bcc23eef85ddf0fb9e1b0e4feeb396f012"
+		},
+		"wix-express-tracing-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.7.tgz",
+			"sha": "e6dee71c2d08242bf16178e9f4f537ddd497e9e7"
+		},
+		"wix-express-tracing-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.8.tgz",
+			"sha": "114121811a6f73338b4999581c643c00958c627c"
+		},
+		"wix-express-tracing-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.9.tgz",
+			"sha": "604321d79728286fb8dbad55bd05a68049d415e0"
+		},
+		"wix-express-tracing-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.0.tgz",
+			"sha": "9e438b01a44adbff52bc601c8a20508e9e27e44e"
+		},
+		"wix-express-tracing-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.1.tgz",
+			"sha": "c62a8f468d8e59c7d9459849b5749f7f3896d8e3"
+		},
+		"wix-express-tracing-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-express-tracing/-/@wix/wix-express-tracing-1.0.2.tgz",
+			"sha": "29e61313bd1f6d0581289c44728d35bc964557ef"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-9bdc5be2769b4966",
+	"readme": ""
+}

@@ -1,0 +1,1245 @@
+{
+	"name": "postcss-merge-idents",
+	"versions": {
+		"2.0.0": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.0.0.tgz",
+				"shasum": "aa03910508a396752ae314ccc4cf86a631eb25d9"
+			},
+			"dependencies": {
+				"css-list": "^0.1.2",
+				"postcss": "^5.0.4"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.0.0",
+			"gitHead": "863e59461ff44d8b70e85cb8af36f7b37f592cef",
+			"_shasum": "aa03910508a396752ae314ccc4cf86a631eb25d9",
+			"_nodeVersion": "2.3.4"
+		},
+		"2.1.0": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.0.tgz",
+				"shasum": "d7fa21a8f924b6a8d5f4358ab3669d217d14c063"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^2.0.4"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.0",
+			"gitHead": "9a8303d9411f7f5ffc5a4bf3febe4b6bffeef3c9",
+			"_shasum": "d7fa21a8f924b6a8d5f4358ab3669d217d14c063",
+			"_nodeVersion": "2.3.4"
+		},
+		"2.1.7": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.7",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.7.tgz",
+				"shasum": "4c5530313c08e1d5b3bbf3d2bbc747e278eea270"
+			},
+			"dependencies": {
+				"has": "^1.0.1",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.3.17",
+				"babel-core": "^6.3.26",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"babel-register": "^6.9.0",
+				"del-cli": "^0.2.0",
+				"eslint": "^3.0.0",
+				"eslint-config-cssnano": "^3.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-import": "^1.10.2"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "del-cli dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__",
+				"test-012": "ava src/__tests__"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.2",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.7",
+			"gitHead": "effb47da352a11daa7be7ae68ed435bc13cd03a2",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-merge-idents-2.1.7.tgz_1471377358300_0.6255734651349485"
+			},
+			"_shasum": "4c5530313c08e1d5b3bbf3d2bbc747e278eea270",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"2.1.5": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.5",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.5.tgz",
+				"shasum": "9bbab62a698b731add80ddf90af8eca6d03ddd98"
+			},
+			"dependencies": {
+				"has-own": "^1.0.0",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"ava": "^0.11.0",
+				"babel-cli": "^6.3.17",
+				"babel-core": "^6.3.26",
+				"babel-plugin-add-module-exports": "^0.1.2",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"del-cli": "^0.1.2",
+				"eslint": "^1.10.3",
+				"eslint-config-cssnano": "^1.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "de dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.5",
+			"gitHead": "eeba455e82be077c1999d8c722f430acf2bba206",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-merge-idents-2.1.5.tgz_1454806198113_0.7078870369587094"
+			},
+			"_shasum": "9bbab62a698b731add80ddf90af8eca6d03ddd98",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-core/register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"4.0.0": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "4.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/cssnano/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/cssnano/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssnano/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0.tgz",
+				"shasum": "bd20b925d927368302460aa67b305c7a393537e1"
+			},
+			"dependencies": {
+				"cssnano-util-same-parent": "^4.0.0",
+				"has": "^1.0.0",
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^5.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "beneb.info@gmail.com",
+					"name": "beneb"
+				},
+				{
+					"email": "chris@eppsteins.net",
+					"name": "chriseppstein"
+				},
+				{
+					"email": "sheo13666q@gmail.com",
+					"name": "evilebottnawi"
+				},
+				{
+					"email": "trysound@yandex.ru",
+					"name": "trysound"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmUser": {
+				"name": "evilebottnawi",
+				"email": "sheo13666q@gmail.com"
+			},
+			"_id": "postcss-merge-idents@4.0.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-merge-idents_4.0.0_1530702793735_0.880706671505699"
+			}
+		},
+		"2.1.6": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.6",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.6.tgz",
+				"shasum": "52ff64b18e58bcb96d7602e65c5c78ed17cdaaa3"
+			},
+			"dependencies": {
+				"has-own": "^1.0.0",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"ava": "^0.11.0",
+				"babel-cli": "^6.3.17",
+				"babel-core": "^6.3.26",
+				"babel-plugin-add-module-exports": "^0.1.2",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-es2015-loose": "^7.0.0",
+				"babel-preset-stage-0": "^6.3.13",
+				"del-cli": "^0.1.2",
+				"eslint": "^1.10.3",
+				"eslint-config-cssnano": "^1.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "eslint src",
+				"prepublish": "de dist && BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/",
+				"test": "ava src/__tests__"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.6",
+			"gitHead": "7668083c98242a5b3f417a75ad37ba7a9bb5e140",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-merge-idents-2.1.6.tgz_1462922201876_0.10512267472222447"
+			},
+			"_shasum": "52ff64b18e58bcb96d7602e65c5c78ed17cdaaa3",
+			"eslintConfig": {
+				"extends": "cssnano"
+			},
+			"ava": {
+				"require": "babel-core/register"
+			},
+			"_nodeVersion": "5.4.1"
+		},
+		"4.0.1": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "4.0.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/cssnano/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssnano/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssnano/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.1.tgz",
+				"shasum": "b7df282a92f052ea0a66c62d8f8812e6d2cbed23"
+			},
+			"dependencies": {
+				"cssnano-util-same-parent": "^4.0.0",
+				"has": "^1.0.0",
+				"postcss": "^7.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^5.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "andrey@sitnik.ru",
+					"name": "ai"
+				},
+				{
+					"email": "beneb.info@gmail.com",
+					"name": "beneb"
+				},
+				{
+					"email": "chris@eppsteins.net",
+					"name": "chriseppstein"
+				},
+				{
+					"email": "sheo13666q@gmail.com",
+					"name": "evilebottnawi"
+				},
+				{
+					"email": "trysound@yandex.ru",
+					"name": "trysound"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"_id": "postcss-merge-idents@4.0.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-merge-idents_4.0.1_1537822216845_0.317217089077779"
+			},
+			"_nodeVersion": "10.11.0"
+		},
+		"2.1.3": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.3",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.3.tgz",
+				"shasum": "462d5ccfb7a7dfefdbd629edd67dd3001094a90d"
+			},
+			"dependencies": {
+				"has-own": "^1.0.0",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.2"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.3",
+			"gitHead": "6e8ce737b2ac3bc75657317ffe63ab3732192a02",
+			"_shasum": "462d5ccfb7a7dfefdbd629edd67dd3001094a90d",
+			"_nodeVersion": "2.3.4"
+		},
+		"4.0.0-rc.2": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "4.0.0-rc.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0-rc.2.tgz",
+				"shasum": "b71643ce38e27587fd5ece4b0d38ce1be553800a"
+			},
+			"dependencies": {
+				"cssnano-util-same-parent": "^4.0.0-rc.2",
+				"has": "^1.0.0",
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^3.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@4.0.0-rc.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-merge-idents-4.0.0-rc.2.tgz_1502049216817_0.26530322013422847"
+			},
+			"_nodeVersion": "8.1.4"
+		},
+		"2.1.4": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.4",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.4.tgz",
+				"shasum": "270d1e9eae275f107a7ba76da130374de32d7ac1"
+			},
+			"dependencies": {
+				"has-own": "^1.0.0",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.2"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.4",
+			"gitHead": "a388c1b8bcfe0957d9dcc7f97ddf20f2aa3f7e60",
+			"_shasum": "270d1e9eae275f107a7ba76da130374de32d7ac1",
+			"_nodeVersion": "5.4.1"
+		},
+		"2.1.1": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.1.tgz",
+				"shasum": "52aa80fd035a837bb10c0fa46e218444766e8b48"
+			},
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"postcss-value-parser": "^3.0.2"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.1",
+			"gitHead": "2b7e323c6b2d6c78901685ca587f0877ac669260",
+			"_shasum": "52aa80fd035a837bb10c0fa46e218444766e8b48",
+			"_nodeVersion": "2.3.4"
+		},
+		"4.0.0-rc.0": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "4.0.0-rc.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/cssnano",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/cssnano.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/cssnano/issues"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0-rc.0.tgz",
+				"shasum": "993cd6b06a16c7b62f3e4d8517b1e49d530eafda"
+			},
+			"dependencies": {
+				"cssnano-util-same-parent": "^4.0.0-rc.0",
+				"has": "^1.0.0",
+				"postcss": "^6.0.0",
+				"postcss-value-parser": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"cross-env": "^3.0.0"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"dist",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepublish": "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@4.0.0-rc.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-merge-idents-4.0.0-rc.0.tgz_1496311200764_0.4175123004242778"
+			},
+			"_shasum": "993cd6b06a16c7b62f3e4d8517b1e49d530eafda",
+			"_nodeVersion": "6.9.1"
+		},
+		"2.1.2": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "2.1.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.2.tgz",
+				"shasum": "a3effe8be22d47b6a12759eab51c2f8e696db802"
+			},
+			"dependencies": {
+				"has-own": "^1.0.0",
+				"postcss": "^5.0.10",
+				"postcss-value-parser": "^3.1.1"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.0",
+				"tape": "^4.2.2"
+			},
+			"keywords": [
+				"css",
+				"merge",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"LICENSE-MIT"
+			],
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@2.1.2",
+			"gitHead": "46fa519accdff3dd369d1370eddca4c12c40c186",
+			"_shasum": "a3effe8be22d47b6a12759eab51c2f8e696db802",
+			"_nodeVersion": "2.3.4"
+		},
+		"1.0.0": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ben-eb/postcss-merge-idents"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.0.tgz",
+				"shasum": "a2e6077bba4dab9917c3be1e102f532ae9bc361e"
+			},
+			"dependencies": {
+				"css-list": "^0.1.0",
+				"postcss": "^4.1.9"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "therealbenbriggs@hotmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "therealbenbriggs@hotmail.com"
+			},
+			"_id": "postcss-merge-idents@1.0.0",
+			"gitHead": "36c84b6750c34a321ac1621595a787a52eccd195",
+			"_shasum": "a2e6077bba4dab9917c3be1e102f532ae9bc361e",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.0.1": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ben-eb/postcss-merge-idents"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.1.tgz",
+				"shasum": "d57881ac5a1dffe226631738a19d2274182308d5"
+			},
+			"dependencies": {
+				"css-list": "^0.1.0",
+				"postcss": "^4.1.9"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "therealbenbriggs@hotmail.com"
+			},
+			"_id": "postcss-merge-idents@1.0.1",
+			"gitHead": "2b8d65c7e7827cedf20f2571fa073a9fba870e49",
+			"_shasum": "d57881ac5a1dffe226631738a19d2274182308d5",
+			"_nodeVersion": "0.12.2"
+		},
+		"1.0.2": {
+			"name": "postcss-merge-idents",
+			"description": "Merge keyframe and counter style identifiers.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"homepage": "https://github.com/ben-eb/postcss-merge-idents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ben-eb/postcss-merge-idents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ben-eb/postcss-merge-idents/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.2.tgz",
+				"shasum": "a93a0dad78f652e8237d9adec342e41d2c1dd35b"
+			},
+			"dependencies": {
+				"css-list": "^0.1.0",
+				"postcss": "^4.1.9"
+			},
+			"devDependencies": {
+				"tap-spec": "^2.2.2",
+				"tape": "^3.5.0"
+			},
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "trysound",
+					"email": "trysound@yandex.ru"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js | tap-spec"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "beneb",
+				"email": "beneb.info@gmail.com"
+			},
+			"_id": "postcss-merge-idents@1.0.2",
+			"gitHead": "f02e6975eb1ca91055e054c9ba9e976c1b16d201",
+			"_shasum": "a93a0dad78f652e8237d9adec342e41d2c1dd35b",
+			"_nodeVersion": "2.3.4"
+		}
+	},
+	"time": {
+		"2.0.0": "2015-09-04T23:06:58.667Z",
+		"2.1.0": "2015-09-10T14:30:34.264Z",
+		"created": "2015-05-10T21:43:33.669Z",
+		"2.1.7": "2016-08-16T19:56:01.014Z",
+		"2.1.5": "2016-02-07T00:49:59.266Z",
+		"4.0.0": "2018-07-04T11:13:13.783Z",
+		"2.1.6": "2016-05-10T23:16:44.421Z",
+		"4.0.1": "2018-09-24T20:50:17.092Z",
+		"2.1.3": "2015-10-26T21:23:49.337Z",
+		"4.0.0-rc.2": "2017-08-06T19:53:37.632Z",
+		"2.1.4": "2016-01-24T23:45:15.132Z",
+		"2.1.1": "2015-10-08T13:53:43.627Z",
+		"4.0.0-rc.0": "2017-06-01T10:00:02.041Z",
+		"2.1.2": "2015-10-26T21:17:39.294Z",
+		"modified": "2019-01-05T04:44:02.473Z",
+		"1.0.0": "2015-05-10T21:43:33.669Z",
+		"1.0.1": "2015-05-13T13:36:54.871Z",
+		"1.0.2": "2015-09-01T10:31:20.187Z"
+	},
+	"dist-tags": {
+		"next": "4.0.0-rc.2",
+		"latest": "4.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749403216
+		}
+	},
+	"_distfiles": {
+		"postcss-merge-idents-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.0.0.tgz",
+			"sha": "aa03910508a396752ae314ccc4cf86a631eb25d9"
+		},
+		"postcss-merge-idents-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.0.tgz",
+			"sha": "d7fa21a8f924b6a8d5f4358ab3669d217d14c063"
+		},
+		"postcss-merge-idents-2.1.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.7.tgz",
+			"sha": "4c5530313c08e1d5b3bbf3d2bbc747e278eea270"
+		},
+		"postcss-merge-idents-2.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.5.tgz",
+			"sha": "9bbab62a698b731add80ddf90af8eca6d03ddd98"
+		},
+		"postcss-merge-idents-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0.tgz",
+			"sha": "bd20b925d927368302460aa67b305c7a393537e1"
+		},
+		"postcss-merge-idents-2.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.6.tgz",
+			"sha": "52ff64b18e58bcb96d7602e65c5c78ed17cdaaa3"
+		},
+		"postcss-merge-idents-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.1.tgz",
+			"sha": "b7df282a92f052ea0a66c62d8f8812e6d2cbed23"
+		},
+		"postcss-merge-idents-2.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.3.tgz",
+			"sha": "462d5ccfb7a7dfefdbd629edd67dd3001094a90d"
+		},
+		"postcss-merge-idents-4.0.0-rc.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0-rc.2.tgz",
+			"sha": "b71643ce38e27587fd5ece4b0d38ce1be553800a"
+		},
+		"postcss-merge-idents-2.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.4.tgz",
+			"sha": "270d1e9eae275f107a7ba76da130374de32d7ac1"
+		},
+		"postcss-merge-idents-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.1.tgz",
+			"sha": "52aa80fd035a837bb10c0fa46e218444766e8b48"
+		},
+		"postcss-merge-idents-4.0.0-rc.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-4.0.0-rc.0.tgz",
+			"sha": "993cd6b06a16c7b62f3e4d8517b1e49d530eafda"
+		},
+		"postcss-merge-idents-2.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-2.1.2.tgz",
+			"sha": "a3effe8be22d47b6a12759eab51c2f8e696db802"
+		},
+		"postcss-merge-idents-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.0.tgz",
+			"sha": "a2e6077bba4dab9917c3be1e102f532ae9bc361e"
+		},
+		"postcss-merge-idents-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.1.tgz",
+			"sha": "d57881ac5a1dffe226631738a19d2274182308d5"
+		},
+		"postcss-merge-idents-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-merge-idents/-/postcss-merge-idents-1.0.2.tgz",
+			"sha": "a93a0dad78f652e8237d9adec342e41d2c1dd35b"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-d98214d882e7b49a",
+	"readme": "# [postcss][postcss]-merge-idents\n\n> Merge keyframe and counter style identifiers.\n\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-merge-idents) do:\n\n```\nnpm install postcss-merge-idents --save\n```\n\n\n## Example\n\nThis module will merge identifiers such as `@keyframes` and `@counter-style`,\nif their properties are identical. Then, it will update those declarations that\ndepend on the duplicated property.\n\n### Input\n\n```css\n@keyframes rotate {\n    from { transform: rotate(0) }\n    to { transform: rotate(360deg) }\n}\n\n@keyframes flip {\n    from { transform: rotate(0) }\n    to { transform: rotate(360deg) }\n}\n\n.rotate {\n    animation-name: rotate\n}\n\n.flip {\n    animation-name: flip\n}\n```\n\n### Output\n\n```css\n@keyframes flip {\n    from { transform: rotate(0) }\n    to { transform: rotate(360deg) }\n}\n\n.rotate {\n    animation-name: flip\n}\n\n.flip {\n    animation-name: flip\n}\n```\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]: https://github.com/postcss/postcss"
+}

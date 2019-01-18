@@ -1,0 +1,4774 @@
+{
+	"name": "remark",
+	"versions": {
+		"9.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "9.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/remarkjs/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-9.0.0.tgz",
+				"shasum": "c5cfa8ec535c73a67c4b0f12bfdbd3a67d8b2f60"
+			},
+			"dependencies": {
+				"remark-parse": "^5.0.0",
+				"remark-stringify": "^5.0.0",
+				"unified": "^6.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@9.0.0",
+			"xo": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-9.0.0.tgz_1516454837068_0.808386200806126"
+			},
+			"_nodeVersion": "9.4.0"
+		},
+		"4.1.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.1.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.1.tgz",
+				"shasum": "25ef1e78f540bf8db57a9ab670550827c92951ad"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.1.1",
+			"gitHead": "b14c83f93f38d474dda6bf226a62ea8b9e8988b2",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.1.1.tgz_1455725292117_0.82650839490816"
+			},
+			"_shasum": "25ef1e78f540bf8db57a9ab670550827c92951ad",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.2.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.2.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.0.tgz",
+				"shasum": "4003f40fa5f449d0339bcd8e03bc564030768dbd"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^2.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.2.0",
+			"gitHead": "73cb1eac85143dfe7388b7af3ff5f460dd6c4ea6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.2.0.tgz_1459371745187_0.14999637519940734"
+			},
+			"_shasum": "4003f40fa5f449d0339bcd8e03bc564030768dbd",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.1.2": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.1.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.2.tgz",
+				"shasum": "68fe51526c5ea4e73c2cf99fd8e0ccdad5e7ce31"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^2.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.1.2",
+			"gitHead": "fc35d11fc0e5086b7f461ff6c63761574d4137be",
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.1.2.tgz_1457358859294_0.4983993254136294"
+			},
+			"_shasum": "68fe51526c5ea4e73c2cf99fd8e0ccdad5e7ce31",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.2.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.2.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.1.tgz",
+				"shasum": "386d2fd48b3d869c1dfd04479bfb906996b43bbd"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^2.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.2.1",
+			"gitHead": "9e18c08b03fa702018d82cf7d35515d84b383532",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/remark-4.2.1.tgz_1460473767003_0.17533751646988094"
+			},
+			"_shasum": "386d2fd48b3d869c1dfd04479bfb906996b43bbd",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0.tgz",
+				"shasum": "b416bf7c717668eaad676e526d4b6a5ea2117ad4"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.0.0",
+			"gitHead": "3802139667b336bdcbcfdc7f7859391456ab0d37",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.0.0.tgz_1455458560547_0.1701329443603754"
+			},
+			"_shasum": "b416bf7c717668eaad676e526d4b6a5ea2117ad4",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.1.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.0.tgz",
+				"shasum": "9c124c6e965972a0bdda7bd8370e7ebe6a9bb896"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.1.0",
+			"gitHead": "c8f47b276e98e35b29e98107cd3926c241474d48",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/remark-4.1.0.tgz_1455625694688_0.01099966187030077"
+			},
+			"_shasum": "9c124c6e965972a0bdda7bd8370e7ebe6a9bb896",
+			"_nodeVersion": "5.0.0"
+		},
+		"4.2.2": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.2.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "YJ Yang",
+					"email": "chcokr@gmail.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.2.tgz",
+				"shasum": "42dc5d0b3a6a2d5443e7cbdbb2a3202854be698f"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend": "^3.0.0",
+				"glob": "^7.0.0",
+				"globby": "^4.0.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^3.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-license": "^2.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-man": "^3.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0",
+				"remark-usage": "^3.0.0",
+				"remark-validate-links": "^3.0.0",
+				"remark-yaml-config": "^3.0.0",
+				"retext": "^2.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-profanities": "^1.1.0",
+				"retext-readability": "^1.0.0",
+				"retext-simplify": "^1.1.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.2.2",
+			"gitHead": "fc5e502cfc908db401394337548131cc739e777f",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.2.2.tgz_1461321251732_0.6673849069047719"
+			},
+			"_shasum": "42dc5d0b3a6a2d5443e7cbdbb2a3202854be698f",
+			"_nodeVersion": "5.0.0"
+		},
+		"0.0.1": {
+			"name": "remark",
+			"description": "A markdown parser built for speed",
+			"tags": [
+				"markdown",
+				"markup",
+				"html"
+			],
+			"version": "0.0.1",
+			"author": {
+				"name": "Christopher Jeffrey"
+			},
+			"homepage": "https://github.com/jonathanong/remark",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonathanong/remark.git"
+			},
+			"bugs": {
+				"url": "http://github.com/jonathanong/remark/issues"
+			},
+			"main": "./lib/marked.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-0.0.1.tgz",
+				"shasum": "37706df079ba05cd8d3212802d48b306f3b0220c"
+			},
+			"devDependencies": {
+				"markdown": "*",
+				"showdown": "*",
+				"robotskirt": "*"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"html"
+			],
+			"bin": {
+				"remark": "./bin/marked"
+			},
+			"man": [
+				"./man/marked.1"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "node test",
+				"bench": "node test --bench"
+			},
+			"preferGlobal": true,
+			"_from": ".",
+			"_npmVersion": "1.3.13",
+			"_npmUser": {
+				"name": "jongleberry",
+				"email": "jonathanrichardong@gmail.com"
+			},
+			"_id": "remark@0.0.1"
+		},
+		"0.1.0": {
+			"name": "remark",
+			"description": "Forward-looking Markdown editor built in React",
+			"version": "0.1.0",
+			"author": {
+				"name": "Blaine Bublitz",
+				"email": "blaine@iceddev.com",
+				"url": "http://iceddev.com/"
+			},
+			"homepage": "https://github.com/iceddev/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/iceddev/remark"
+			},
+			"bugs": {
+				"url": "https://github.com/iceddev/remark/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-0.1.0.tgz",
+				"shasum": "3aaaa9cc290d742b8d9201670ae1f6bb7e2bce73"
+			},
+			"dependencies": {
+				"envify": "^1.2.1",
+				"fluxxor": "^1.2.0",
+				"insert-css": "^0.1.1",
+				"lodash": "git+ssh://git@github.com:lodash/lodash#79829aec234e9a5deb04616dd228f710ac2b08f7",
+				"marked": "^0.3.2",
+				"react": "^0.10.0"
+			},
+			"devDependencies": {
+				"brfs": "^1.1.1",
+				"browserify": "^4.1.8",
+				"chai": "^1.9.1",
+				"mocha": "^1.20.1",
+				"uglify-js": "^2.4.13",
+				"watchify": "^0.10.2"
+			},
+			"keywords": [
+				"react",
+				"component",
+				"markdown",
+				"editor",
+				"blog",
+				"post"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "browserify -s Remark -t brfs index.js > dist/remark.js",
+				"component": "browserify -x react -s Remark -t brfs component.js > dist/component.js",
+				"minify": "uglifyjs dist/remark.js > dist/remark.min.js && uglifyjs dist/component.js > dist/component.min.js",
+				"test": "mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "phated",
+				"email": "blaine@iceddev.com"
+			},
+			"_id": "remark@0.1.0",
+			"browserify": {
+				"transform": [
+					"brfs"
+				]
+			},
+			"_shasum": "3aaaa9cc290d742b8d9201670ae1f6bb7e2bce73"
+		},
+		"3.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.0.0.tgz",
+				"shasum": "9a08c1eedc70e9962d4da35a21e51352e5e1b16e"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.0.0",
+			"gitHead": "e256e34a2dffc7e19fee00745e8637c3b9f2db92",
+			"_shasum": "9a08c1eedc70e9962d4da35a21e51352e5e1b16e",
+			"_nodeVersion": "5.1.0"
+		},
+		"8.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "8.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-8.0.0.tgz",
+				"shasum": "287b6df2fe1190e263c1d15e486d3fa835594d6d"
+			},
+			"dependencies": {
+				"remark-parse": "^4.0.0",
+				"remark-stringify": "^4.0.0",
+				"unified": "^6.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_npmVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@8.0.0",
+			"xo": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-8.0.0.tgz_1500580559646_0.8621836004313082"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"3.2.3": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.2.3",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.3.tgz",
+				"shasum": "802a38c3aa98c9e1e3ea015eeba211d27cb65e1f"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^1.6.4",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.2.3",
+			"gitHead": "603e463dbcb659256b99553d724a0f6e1d463743",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/remark-3.2.3.tgz_1454846344031_0.4758372993674129"
+			},
+			"_shasum": "802a38c3aa98c9e1e3ea015eeba211d27cb65e1f",
+			"_nodeVersion": "0.12.9"
+		},
+		"3.0.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.0.1.tgz",
+				"shasum": "ec6cd754023eb9212d4f8c0fc3d7f47eb0bb7acb"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.0.1",
+			"gitHead": "5a96751edabf2c0654c33611b87eb047a779ca6d",
+			"_shasum": "ec6cd754023eb9212d4f8c0fc3d7f47eb0bb7acb",
+			"_nodeVersion": "5.1.0"
+		},
+		"3.1.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.0.tgz",
+				"shasum": "9f00f0769bed19407d13937a4b8f108ce39aa7d3"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.1.0",
+			"gitHead": "a3dfc415314e988ee51e2b5f5cb142ac9a6514b7",
+			"_shasum": "9f00f0769bed19407d13937a4b8f108ce39aa7d3",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.1.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.1.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.1.tgz",
+				"shasum": "070f6d68e29bcabcc98481be20719869d97aa90c"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.1.1",
+			"gitHead": "15b246a25ac768b311252cd7fb8509df9808b9c6",
+			"_shasum": "070f6d68e29bcabcc98481be20719869d97aa90c",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.2.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.2.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.0.tgz",
+				"shasum": "68d255d33cf4f3fb068bf1e243235390771b9a7b"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.2.0",
+			"gitHead": "48708d9b508baaf6d422d4a3d2afbadfd850f15e",
+			"_shasum": "68d255d33cf4f3fb068bf1e243235390771b9a7b",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.1.2": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.1.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.2.tgz",
+				"shasum": "daf4c8ecbc653a0d10d74cb1d1b9386b5d849f0d"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.1.2",
+			"gitHead": "fa1f0c1098e9f20f2c877e62a43c807813454076",
+			"_shasum": "daf4c8ecbc653a0d10d74cb1d1b9386b5d849f0d",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.2.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.2.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.1.tgz",
+				"shasum": "6900ac48e68d827fb2c6384601bb0ae87d4bd1be"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^1.6.4",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.2.1",
+			"gitHead": "d4f0c67019c4b28164d41d7b0c07806968d9df0f",
+			"_shasum": "6900ac48e68d827fb2c6384601bb0ae87d4bd1be",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.1.3": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.1.3",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.3.tgz",
+				"shasum": "31f8ab28dad5e51e33606d49498d01b71c883cdc"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"text-table": "^0.2.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^12.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"mocha": "^2.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine@iceddev.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.1.3",
+			"gitHead": "8e83bbd2d206414be808d5ed572999cac506dfc9",
+			"_shasum": "31f8ab28dad5e51e33606d49498d01b71c883cdc",
+			"_nodeVersion": "0.11.16"
+		},
+		"3.2.2": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "3.2.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.2.tgz",
+				"shasum": "28a59c2a8308b3b08ad7d68a3745cdaf44a004cb"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^1.6.4",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/home/travis/build/wooorm/remark/man/remark.1",
+				"/home/travis/build/wooorm/remark/man/remark.3",
+				"/home/travis/build/wooorm/remark/man/remarkconfig.7",
+				"/home/travis/build/wooorm/remark/man/remarkignore.5",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.3",
+				"/home/travis/build/wooorm/remark/man/remarkplugin.7",
+				"/home/travis/build/wooorm/remark/man/remarkrc.5",
+				"/home/travis/build/wooorm/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@3.2.2",
+			"gitHead": "6c38cc7ff0260bcceea106ad54474e0eb8966159",
+			"_shasum": "28a59c2a8308b3b08ad7d68a3745cdaf44a004cb",
+			"_nodeVersion": "0.11.16"
+		},
+		"7.0.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "7.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-7.0.1.tgz",
+				"shasum": "a5de4dacfabf0f60a49826ef24c479807f904bfb"
+			},
+			"dependencies": {
+				"remark-parse": "^3.0.0",
+				"remark-stringify": "^3.0.0",
+				"unified": "^6.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@7.0.1",
+			"xo": false,
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-7.0.1.tgz_1493468017528_0.24604851426556706"
+			},
+			"_shasum": "a5de4dacfabf0f60a49826ef24c479807f904bfb",
+			"_nodeVersion": "7.0.0"
+		},
+		"4.0.0-alpha.2": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.0.0-alpha.2",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.2.tgz",
+				"shasum": "53361823fdc1668842a92eff06fd53e8d4889a0e"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0-alpha.1",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^3.0.0-alpha.1",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0-alpha.1",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.0.0-alpha.2",
+			"gitHead": "fc7265a3122154e12920a6446508a39e0ff5f2c1",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.0.0-alpha.2.tgz_1454867205574_0.8440111165400594"
+			},
+			"_shasum": "53361823fdc1668842a92eff06fd53e8d4889a0e",
+			"_nodeVersion": "5.1.0"
+		},
+		"4.0.0-alpha.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.0.0-alpha.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.1.tgz",
+				"shasum": "ca67a9ba66164005394f2cd4e29e184c5bf36299"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^2.0.0",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^2.0.0",
+				"retext": "^1.0.0",
+				"retext-equality": "^1.6.4",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.0.0-alpha.1",
+			"gitHead": "93772b5cf4219cfd29d854c73c556a42f29eef0f",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.0.0-alpha.1.tgz_1454853365457_0.060964916134253144"
+			},
+			"_shasum": "ca67a9ba66164005394f2cd4e29e184c5bf36299",
+			"_nodeVersion": "5.1.0"
+		},
+		"4.0.0-alpha.4": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.0.0-alpha.4",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.4.tgz",
+				"shasum": "ba3d4d95df4dc81e3b79ce8f4f35956e7271b354"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-location": "^2.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0-alpha.1",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0-alpha.1",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^3.0.0-alpha.1",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0-alpha.1",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^3.0.0-alpha.1",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.0.0-alpha.4",
+			"gitHead": "8ed488474fb479d1d78f206725307e6e543f1713",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.0.0-alpha.4.tgz_1455106837392_0.3492750839795917"
+			},
+			"_shasum": "ba3d4d95df4dc81e3b79ce8f4f35956e7271b354",
+			"_nodeVersion": "5.1.0"
+		},
+		"4.0.0-alpha.3": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "4.0.0-alpha.3",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"homepage": "https://github.com/wooorm/remark#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark.git"
+			},
+			"contributors": [
+				{
+					"name": "Christopher Jeffrey"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.3.tgz",
+				"shasum": "309631dd46dcd4ad693e714acd19373ad412814d"
+			},
+			"dependencies": {
+				"camelcase": "^2.0.0",
+				"ccount": "^1.0.0",
+				"chalk": "^1.0.0",
+				"chokidar": "^1.0.5",
+				"collapse-white-space": "^1.0.0",
+				"commander": "^2.0.0",
+				"concat-stream": "^1.0.0",
+				"debug": "^2.0.0",
+				"elegant-spinner": "^1.0.0",
+				"extend.js": "0.0.2",
+				"glob": "^6.0.1",
+				"globby": "^4.0.0",
+				"he": "^0.5.0",
+				"log-update": "^1.0.1",
+				"longest-streak": "^1.0.0",
+				"markdown-table": "^0.4.0",
+				"minimatch": "^3.0.0",
+				"npm-prefix": "^1.0.1",
+				"parse-entities": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"stringify-entities": "^1.0.0",
+				"to-vfile": "^1.0.0",
+				"trim": "^0.0.1",
+				"trim-trailing-lines": "^1.0.0",
+				"unified": "^2.0.0",
+				"user-home": "^2.0.0",
+				"vfile": "^1.1.0",
+				"vfile-find-down": "^1.0.0",
+				"vfile-find-up": "^1.0.0",
+				"vfile-reporter": "^1.5.0",
+				"ware": "^1.3.0"
+			},
+			"devDependencies": {
+				"bail": "^1.0.0",
+				"browserify": "^13.0.0",
+				"clone": "^1.0.1",
+				"escodegen": "^1.7.0",
+				"eslint": "^1.1.0",
+				"esmangle": "^1.0.0",
+				"esprima": "^2.6.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mocha": "^2.0.0",
+				"remark-comment-config": "^3.0.0-alpha.1",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0-alpha.1",
+				"remark-lint": "^2.0.0",
+				"remark-man": "^3.0.0-alpha.1",
+				"remark-retext": "^1.0.1",
+				"remark-toc": "^3.0.0-alpha.1",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"remark-yaml-config": "^3.0.0-alpha.1",
+				"retext": "^1.0.0",
+				"retext-equality": "^2.2.1",
+				"retext-readability": "^1.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"markup",
+				"abstract",
+				"syntax",
+				"tree",
+				"json",
+				"ast",
+				"parse",
+				"stringify",
+				"bin",
+				"cli"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"lib",
+				"man",
+				"bin"
+			],
+			"bin": {
+				"remark": "bin/remark"
+			},
+			"man": [
+				"/Users/tilde/projects/oss/remark/man/remark.1",
+				"/Users/tilde/projects/oss/remark/man/remark.3",
+				"/Users/tilde/projects/oss/remark/man/remarkconfig.7",
+				"/Users/tilde/projects/oss/remark/man/remarkignore.5",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.3",
+				"/Users/tilde/projects/oss/remark/man/remarkplugin.7",
+				"/Users/tilde/projects/oss/remark/man/remarkrc.5",
+				"/Users/tilde/projects/oss/remark/man/remarksetting.7"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {
+				"man": "./man"
+			},
+			"scripts": {
+				"build-man": "bin/remark doc/*.?.md --config-path .remarkrc-man --quiet",
+				"build-md": "bin/remark . --quiet --frail",
+				"build-version": "node script/build-version.js",
+				"build-options": "node script/build-options.js",
+				"build-bundle": "node script/build-bundle.js",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"build": "npm run build-version && npm run build-md && npm run build-options && npm run build-man && npm run build-bundle",
+				"test-api": "mocha --check-leaks test/index.js",
+				"test-api-extensive": "TEST_EXTENDED=true npm run test-api",
+				"test-cli": "bash test/cli.sh",
+				"test-coverage": "istanbul cover _mocha -- -- test/index.js",
+				"test-travis": "npm run build-md && npm run build-bundle && npm run lint && npm run test-coverage && npm run test-cli",
+				"test": "npm run build && npm run lint && npm run test-coverage && npm run test-cli"
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@4.0.0-alpha.3",
+			"gitHead": "6794a654d4b676f6246fcd8b601d5936d3652dc0",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/remark-4.0.0-alpha.3.tgz_1455106384130_0.515765429707244"
+			},
+			"_shasum": "309631dd46dcd4ad693e714acd19373ad412814d",
+			"_nodeVersion": "5.1.0"
+		},
+		"7.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "7.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-7.0.0.tgz",
+				"shasum": "ce9c788c390d98d9a67cb7738e98246732e79144"
+			},
+			"dependencies": {
+				"remark-parse": "^3.0.0",
+				"remark-stringify": "^3.0.0",
+				"unified": "^6.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@7.0.0",
+			"xo": false,
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/remark-7.0.0.tgz_1487859891840_0.35191416204907"
+			},
+			"_shasum": "ce9c788c390d98d9a67cb7738e98246732e79144",
+			"_nodeVersion": "7.0.0"
+		},
+		"6.2.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "6.2.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.2.0.tgz",
+				"shasum": "0c72614a095c7665494611f9472c32b9e032dcf9"
+			},
+			"dependencies": {
+				"load-plugin": "^2.0.0",
+				"remark-parse": "^2.2.0",
+				"remark-stringify": "^2.2.0",
+				"unified": "^5.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "4.0.1",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@6.2.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-6.2.0.tgz_1477604715596_0.24753068550489843"
+			},
+			"_shasum": "0c72614a095c7665494611f9472c32b9e032dcf9",
+			"_nodeVersion": "7.0.0"
+		},
+		"10.0.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "10.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"homepage": "https://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/remarkjs/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-10.0.1.tgz",
+				"shasum": "3058076dc41781bf505d8978c291485fe47667df"
+			},
+			"dependencies": {
+				"remark-parse": "^6.0.0",
+				"remark-stringify": "^6.0.0",
+				"unified": "^7.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.9.1"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@10.0.1",
+			"xo": false,
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark_10.0.1_1542292222174_0.91295093161634"
+			},
+			"_nodeVersion": "11.0.0"
+		},
+		"6.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "6.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.0.0.tgz",
+				"shasum": "899b8e61bc69138625c2847251ab92401a13d81d"
+			},
+			"dependencies": {
+				"remark-parse": "^2.0.0",
+				"remark-stringify": "^2.0.0",
+				"unified": "^5.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@6.0.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-6.0.0.tgz_1471804613826_0.1891818968579173"
+			},
+			"_shasum": "899b8e61bc69138625c2847251ab92401a13d81d",
+			"_nodeVersion": "6.3.0"
+		},
+		"10.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "10.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/remarkjs/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-10.0.0.tgz",
+				"shasum": "4d94ae09d0e81e52fe40a31e89a0103c553f509e"
+			},
+			"dependencies": {
+				"remark-parse": "^6.0.0",
+				"remark-stringify": "^6.0.0",
+				"unified": "^7.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.9.1"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@10.0.0",
+			"xo": false,
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark_10.0.0_1540155463643_0.4711035275460096"
+			},
+			"_nodeVersion": "10.0.0"
+		},
+		"6.0.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "6.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.0.1.tgz",
+				"shasum": "6bf09587a9436b76fc4c210582544bd8f8b02a94"
+			},
+			"dependencies": {
+				"load-plugin": "^2.0.0",
+				"remark-parse": "^2.0.0",
+				"remark-stringify": "^2.0.0",
+				"unified": "^5.0.0"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@6.0.1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-6.0.1.tgz_1472930278190_0.09580574021674693"
+			},
+			"_shasum": "6bf09587a9436b76fc4c210582544bd8f8b02a94",
+			"_nodeVersion": "6.3.0"
+		},
+		"5.0.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "5.0.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.0.0.tgz",
+				"shasum": "8119f7cc36ac6d870f48508a8f789936b115dea3"
+			},
+			"dependencies": {
+				"remark-parse": "^1.0.0",
+				"remark-stringify": "^1.0.0",
+				"unified": "^4.1.1"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@5.0.0",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-5.0.0.tgz_1465767512078_0.9021470178849995"
+			},
+			"_shasum": "8119f7cc36ac6d870f48508a8f789936b115dea3",
+			"_nodeVersion": "6.1.0"
+		},
+		"5.0.1": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "5.0.1",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.0.1.tgz",
+				"shasum": "e577e62c6cbc40466d5a79af50ffdd804e3079e9"
+			},
+			"dependencies": {
+				"remark-parse": "^1.0.0",
+				"remark-stringify": "^1.0.0",
+				"unified": "^4.1.1"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@5.0.1",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/remark-5.0.1.tgz_1465768168129_0.5444600498303771"
+			},
+			"_shasum": "e577e62c6cbc40466d5a79af50ffdd804e3079e9",
+			"_nodeVersion": "6.1.0"
+		},
+		"5.1.0": {
+			"name": "remark",
+			"description": "Markdown processor powered by plugins",
+			"version": "5.1.0",
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"homepage": "http://remark.js.org",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark/tree/master/packages/remark"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/wooorm/remark/issues"
+			},
+			"engines": {
+				"node": ">=0.11.0"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.1.0.tgz",
+				"shasum": "cb463bd3dbcb4b99794935eee1cf71d7a8e3068c"
+			},
+			"dependencies": {
+				"remark-parse": "^1.1.0",
+				"remark-stringify": "^1.1.0",
+				"unified": "^4.1.1"
+			},
+			"keywords": [
+				"markdown",
+				"abstract",
+				"syntax",
+				"tree",
+				"ast",
+				"parse",
+				"stringify",
+				"process"
+			],
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"cli.js"
+			],
+			"bin": {
+				"remark": "cli.js"
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"_id": "remark@5.1.0",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/remark-5.1.0.tgz_1470758345873_0.9820503767114133"
+			},
+			"_shasum": "cb463bd3dbcb4b99794935eee1cf71d7a8e3068c",
+			"_nodeVersion": "5.9.1"
+		}
+	},
+	"time": {
+		"9.0.0": "2018-01-20T13:27:17.165Z",
+		"4.1.1": "2016-02-17T16:08:16.707Z",
+		"4.2.0": "2016-03-30T21:02:27.585Z",
+		"4.1.2": "2016-03-07T13:54:22.950Z",
+		"4.2.1": "2016-04-12T15:09:28.606Z",
+		"4.0.0": "2016-02-14T14:02:44.023Z",
+		"4.1.0": "2016-02-16T12:28:16.972Z",
+		"4.2.2": "2016-04-22T10:34:14.506Z",
+		"0.0.1": "2013-11-03T04:05:59.545Z",
+		"0.1.0": "2014-06-08T00:01:06.534Z",
+		"3.0.0": "2015-12-24T23:10:18.170Z",
+		"8.0.0": "2017-07-20T19:56:00.612Z",
+		"3.2.3": "2016-02-07T11:59:05.183Z",
+		"modified": "2019-01-05T09:17:47.011Z",
+		"3.0.1": "2015-12-27T19:13:34.746Z",
+		"3.1.0": "2015-12-31T12:30:47.843Z",
+		"3.1.1": "2016-01-02T21:51:17.593Z",
+		"3.2.0": "2016-01-10T10:50:27.869Z",
+		"3.1.2": "2016-01-04T09:29:43.722Z",
+		"3.2.1": "2016-01-19T17:44:41.161Z",
+		"3.1.3": "2016-01-04T09:32:33.120Z",
+		"3.2.2": "2016-01-21T13:33:39.513Z",
+		"7.0.1": "2017-04-29T12:13:39.262Z",
+		"4.0.0-alpha.2": "2016-02-07T17:46:48.764Z",
+		"4.0.0-alpha.1": "2016-02-07T13:56:08.031Z",
+		"created": "2013-11-03T04:05:58.558Z",
+		"4.0.0-alpha.4": "2016-02-10T12:20:40.735Z",
+		"4.0.0-alpha.3": "2016-02-10T12:13:07.514Z",
+		"7.0.0": "2017-02-23T14:24:52.527Z",
+		"6.2.0": "2016-10-27T21:45:17.572Z",
+		"10.0.1": "2018-11-15T14:30:22.291Z",
+		"6.0.0": "2016-08-21T18:36:55.615Z",
+		"10.0.0": "2018-10-21T20:57:43.804Z",
+		"6.0.1": "2016-09-03T19:18:00.121Z",
+		"5.0.0": "2016-06-12T21:38:34.615Z",
+		"5.0.1": "2016-06-12T21:49:31.218Z",
+		"5.1.0": "2016-08-09T15:59:08.509Z"
+	},
+	"dist-tags": {
+		"next": "4.0.0-alpha.4",
+		"latest": "10.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749423310
+		}
+	},
+	"_distfiles": {
+		"remark-9.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-9.0.0.tgz",
+			"sha": "c5cfa8ec535c73a67c4b0f12bfdbd3a67d8b2f60"
+		},
+		"remark-4.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.1.tgz",
+			"sha": "25ef1e78f540bf8db57a9ab670550827c92951ad"
+		},
+		"remark-4.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.0.tgz",
+			"sha": "4003f40fa5f449d0339bcd8e03bc564030768dbd"
+		},
+		"remark-4.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.2.tgz",
+			"sha": "68fe51526c5ea4e73c2cf99fd8e0ccdad5e7ce31"
+		},
+		"remark-4.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.1.tgz",
+			"sha": "386d2fd48b3d869c1dfd04479bfb906996b43bbd"
+		},
+		"remark-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0.tgz",
+			"sha": "b416bf7c717668eaad676e526d4b6a5ea2117ad4"
+		},
+		"remark-4.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.1.0.tgz",
+			"sha": "9c124c6e965972a0bdda7bd8370e7ebe6a9bb896"
+		},
+		"remark-4.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.2.2.tgz",
+			"sha": "42dc5d0b3a6a2d5443e7cbdbb2a3202854be698f"
+		},
+		"remark-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-0.0.1.tgz",
+			"sha": "37706df079ba05cd8d3212802d48b306f3b0220c"
+		},
+		"remark-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-0.1.0.tgz",
+			"sha": "3aaaa9cc290d742b8d9201670ae1f6bb7e2bce73"
+		},
+		"remark-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.0.0.tgz",
+			"sha": "9a08c1eedc70e9962d4da35a21e51352e5e1b16e"
+		},
+		"remark-8.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-8.0.0.tgz",
+			"sha": "287b6df2fe1190e263c1d15e486d3fa835594d6d"
+		},
+		"remark-3.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.3.tgz",
+			"sha": "802a38c3aa98c9e1e3ea015eeba211d27cb65e1f"
+		},
+		"remark-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.0.1.tgz",
+			"sha": "ec6cd754023eb9212d4f8c0fc3d7f47eb0bb7acb"
+		},
+		"remark-3.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.0.tgz",
+			"sha": "9f00f0769bed19407d13937a4b8f108ce39aa7d3"
+		},
+		"remark-3.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.1.tgz",
+			"sha": "070f6d68e29bcabcc98481be20719869d97aa90c"
+		},
+		"remark-3.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.0.tgz",
+			"sha": "68d255d33cf4f3fb068bf1e243235390771b9a7b"
+		},
+		"remark-3.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.2.tgz",
+			"sha": "daf4c8ecbc653a0d10d74cb1d1b9386b5d849f0d"
+		},
+		"remark-3.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.1.tgz",
+			"sha": "6900ac48e68d827fb2c6384601bb0ae87d4bd1be"
+		},
+		"remark-3.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.1.3.tgz",
+			"sha": "31f8ab28dad5e51e33606d49498d01b71c883cdc"
+		},
+		"remark-3.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-3.2.2.tgz",
+			"sha": "28a59c2a8308b3b08ad7d68a3745cdaf44a004cb"
+		},
+		"remark-7.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-7.0.1.tgz",
+			"sha": "a5de4dacfabf0f60a49826ef24c479807f904bfb"
+		},
+		"remark-4.0.0-alpha.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.2.tgz",
+			"sha": "53361823fdc1668842a92eff06fd53e8d4889a0e"
+		},
+		"remark-4.0.0-alpha.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.1.tgz",
+			"sha": "ca67a9ba66164005394f2cd4e29e184c5bf36299"
+		},
+		"remark-4.0.0-alpha.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.4.tgz",
+			"sha": "ba3d4d95df4dc81e3b79ce8f4f35956e7271b354"
+		},
+		"remark-4.0.0-alpha.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-4.0.0-alpha.3.tgz",
+			"sha": "309631dd46dcd4ad693e714acd19373ad412814d"
+		},
+		"remark-7.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-7.0.0.tgz",
+			"sha": "ce9c788c390d98d9a67cb7738e98246732e79144"
+		},
+		"remark-6.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.2.0.tgz",
+			"sha": "0c72614a095c7665494611f9472c32b9e032dcf9"
+		},
+		"remark-10.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-10.0.1.tgz",
+			"sha": "3058076dc41781bf505d8978c291485fe47667df"
+		},
+		"remark-6.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.0.0.tgz",
+			"sha": "899b8e61bc69138625c2847251ab92401a13d81d"
+		},
+		"remark-10.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-10.0.0.tgz",
+			"sha": "4d94ae09d0e81e52fe40a31e89a0103c553f509e"
+		},
+		"remark-6.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-6.0.1.tgz",
+			"sha": "6bf09587a9436b76fc4c210582544bd8f8b02a94"
+		},
+		"remark-5.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.0.0.tgz",
+			"sha": "8119f7cc36ac6d870f48508a8f789936b115dea3"
+		},
+		"remark-5.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.0.1.tgz",
+			"sha": "e577e62c6cbc40466d5a79af50ffdd804e3079e9"
+		},
+		"remark-5.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remark/-/remark-5.1.0.tgz",
+			"sha": "cb463bd3dbcb4b99794935eee1cf71d7a8e3068c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ba5e1497fb9065c2",
+	"readme": "# remark [![Travis][build-badge]][build-status] [![Coverage][coverage-badge]][coverage-status] [![Downloads][dl-badge]][dl] [![Size][size-badge]][size] [![Chat][chat-badge]][chat]\n\n[**remark**][remark] is a markdown processor powered by [plugins][] part of the\n[unified][] [collective][].\n\n*   API by [`unified`][unified]\n*   Parses markdown to the tree with [`remark-parse`][parse]\n*   [**mdast**][mdast] syntax tree\n*   [Plugins][] transform the tree\n*   Compiles the tree to markdown using [`remark-stringify`][stringify]\n\nDon’t need the parser?  Or the compiler?  [That’s OK][unified-usage].\n\n* * *\n\n**Announcing the unified collective!  🎉\n[Read more about it on Medium »][announcement]**\n\n## Sponsors\n\n<!--lint ignore no-html maximum-line-length-->\n\n<table>\n  <tr valign=\"top\">\n    <td width=\"20%\" align=\"center\">\n      <a href=\"https://zeit.co\"><img src=\"https://avatars1.githubusercontent.com/u/14985020?s=400&v=4\"></a>\n      <br><br>🥇\n      <a href=\"https://zeit.co\">ZEIT</a>\n    </td>\n    <td width=\"20%\" align=\"center\">\n      <a href=\"https://www.gatsbyjs.org\"><img src=\"https://avatars1.githubusercontent.com/u/12551863?s=400&v=4\"></a>\n      <br><br>🥇\n      <a href=\"https://www.gatsbyjs.org\">Gatsby</a></td>\n    <td width=\"20%\" align=\"center\">\n      <a href=\"https://compositor.io\"><img src=\"https://avatars1.githubusercontent.com/u/19245838?s=400&v=4\"></a>\n      <br><br>🥉\n      <a href=\"https://compositor.io\">Compositor</a>\n    </td>\n    <td width=\"20%\" align=\"center\">\n      <a href=\"https://www.holloway.com\"><img src=\"https://avatars1.githubusercontent.com/u/35904294?s=400&v=4\"></a>\n      <br><br>\n      <a href=\"https://www.holloway.com\">Holloway</a>\n    </td>\n    <td width=\"20%\" align=\"center\">\n      <br><br><br><br>\n      <a href=\"https://opencollective.com/unified\"><strong>You?</strong>\n    </td>\n  </tr>\n</table>\n\n## Installation\n\n[npm][]:\n\n```sh\nnpm install remark\n```\n\n## Usage\n\n###### Common example\n\nThis example lints markdown and turns it into HTML.\n\n```js\nvar remark = require('remark')\nvar recommended = require('remark-preset-lint-recommended')\nvar html = require('remark-html')\nvar report = require('vfile-reporter')\n\nremark()\n  .use(recommended)\n  .use(html)\n  .process('## Hello world!', function(err, file) {\n    console.error(report(err || file))\n    console.log(String(file))\n  })\n```\n\nYields:\n\n```txt\n1:1  warning  Missing newline character at end of file  final-newline  remark-lint\n\n⚠ 1 warning\n```\n\n```html\n<h2>Hello world!</h2>\n```\n\n###### Settings through data\n\nThis example prettifies markdown and configures [`remark-parse`][parse] and\n[`remark-stringify`][stringify] through [data][].\n\n```js\nvar remark = require('remark')\n\nremark()\n  .data('settings', {commonmark: true, emphasis: '*', strong: '*'})\n  .process('_Emphasis_ and __importance__', function(err, file) {\n    if (err) throw err\n    console.log(String(file))\n  })\n```\n\nYields:\n\n```markdown\n*Emphasis* and **importance**\n```\n\n###### Settings through a preset\n\nThis example prettifies markdown and configures [`remark-parse`][parse] and\n[`remark-stringify`][stringify] through a [preset][].\n\n```js\nvar remark = require('remark')\n\nremark()\n  .use({\n    settings: {commonmark: true, emphasis: '*', strong: '*'}\n  })\n  .process('_Emphasis_ and __importance__', function(err, file) {\n    if (err) throw err\n    console.log(String(file))\n  })\n```\n\nYields:\n\n```markdown\n*Emphasis* and **importance**\n```\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://img.shields.io/travis/remarkjs/remark/master.svg\n\n[build-status]: https://travis-ci.org/remarkjs/remark\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/remarkjs/remark.svg\n\n[coverage-status]: https://codecov.io/github/remarkjs/remark\n\n[dl-badge]: https://img.shields.io/npm/dm/remark.svg\n\n[dl]: https://www.npmjs.com/package/remark\n\n[size-badge]: https://img.shields.io/bundlephobia/minzip/remark.svg\n\n[size]: https://bundlephobia.com/result?p=remark\n\n[chat-badge]: https://img.shields.io/badge/join%20the%20community-on%20spectrum-7b16ff.svg\n\n[chat]: https://spectrum.chat/unified/remark\n\n[license]: https://github.com/remarkjs/remark/blob/master/license\n\n[author]: https://wooorm.com\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[remark]: https://github.com/remarkjs/remark\n\n[unified]: https://github.com/unifiedjs/unified\n\n[mdast]: https://github.com/syntax-tree/mdast\n\n[parse]: https://github.com/remarkjs/remark/blob/master/packages/remark-parse\n\n[stringify]: https://github.com/remarkjs/remark/blob/master/packages/remark-stringify\n\n[plugins]: https://github.com/remarkjs/remark/blob/master/doc/plugins.md\n\n[unified-usage]: https://github.com/unifiedjs/unified#usage\n\n[preset]: https://github.com/unifiedjs/unified#preset\n\n[data]: https://github.com/unifiedjs/unified#processordatakey-value\n\n[collective]: https://opencollective.com/unified\n\n[announcement]: https://medium.com/unifiedjs/collectively-evolving-through-crowdsourcing-22c359ea95cc"
+}

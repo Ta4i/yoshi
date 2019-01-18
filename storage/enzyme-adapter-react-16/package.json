@@ -1,0 +1,2099 @@
+{
+	"name": "enzyme-adapter-react-16",
+	"versions": {
+		"1.0.0-beta.7": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.7",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.7.tgz",
+				"shasum": "66d03f871253dabeb678e8c1eba916f848edd4c8"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.7",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.7",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.7",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.7",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.7.tgz_1506366788006_0.016471785958856344"
+			},
+			"_shasum": "66d03f871253dabeb678e8c1eba916f848edd4c8",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.0.0-beta.6": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.6",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.6.tgz",
+				"shasum": "299dfe94df573659906fac94a50c58d6a38a178a"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.6",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.6",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.6",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.6.tgz_1505846026689_0.3135567994322628"
+			},
+			"_shasum": "299dfe94df573659906fac94a50c58d6a38a178a",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.0.3": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.3",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.3.tgz",
+				"shasum": "f40e654f850b62e3ff71639141685e0bb129be34"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.1.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				},
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.3.tgz_1509595250768_0.43197786645032465"
+			},
+			"_nodeVersion": "8.8.1"
+		},
+		"1.3.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.3.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.3.0.tgz",
+				"shasum": "4cfba44f8c27256d28e171bdf7a5b5aebce6041b"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.6.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.4.2",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.5.3",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.4.0",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.3.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.3.0_1535183145907_0.1386330017291595"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.0.4": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.4",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.4.tgz",
+				"shasum": "67f898cc053452f5c786424e395fe0c63a0607fe"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.1.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.10.0",
+				"eslint-config-airbnb": "^16.1.0",
+				"eslint-plugin-import": "^2.8.0",
+				"eslint-plugin-jsx-a11y": "^6.0.2",
+				"eslint-plugin-react": "^7.4.0",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				},
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.4.tgz_1509866478557_0.13855444453656673"
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"1.3.1": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.3.1",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.3.1.tgz",
+				"shasum": "a0f04273aee62c47521da7a2f6c7134182bd7f73"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.6.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.4.2",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.5.3",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.4.0",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.3.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.3.1_1535676924195_0.21423992844589423"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.4.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.4.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.4.0.tgz",
+				"shasum": "c70aa6d085c5a6708b032406f5c73280d3f6a34b"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.6.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.4.2",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.5.3",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.4.0",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.4.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.4.0_1536045489876_0.9790967423359869"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.5.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.5.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.5.0.tgz",
+				"shasum": "50af8d76a45fe0915de932bd95d34cdca75c0be3"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.8.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.4.2",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.5.3",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.4.0",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.5.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.5.0_1536187053887_0.11221726879216609"
+			},
+			"_nodeVersion": "10.9.0"
+		},
+		"1.6.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.6.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.6.0.tgz",
+				"shasum": "3fca28d3c32f3ff427495380fe2dd51494689073"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.8.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.5.2",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.6.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.6.1",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.6.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.6.0_1538706397780_0.4356877791108831"
+			},
+			"_nodeVersion": "10.11.0"
+		},
+		"1.0.0-beta.5": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.5",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.5.tgz",
+				"shasum": "8e07e5baa63b0931e1d4ce40a27d48f82ad900fa"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.5",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.5",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.5",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.5",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.5.tgz_1505695175208_0.2845288401003927"
+			},
+			"_shasum": "8e07e5baa63b0931e1d4ce40a27d48f82ad900fa",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.7.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.7.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.7.0.tgz",
+				"shasum": "90344395a89624edbe7f0e443bc19fef62bf1f9f"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.9.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.6.1",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.6.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.6.1",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.7.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.7.0_1541660866222_0.6141292685753563"
+			},
+			"_nodeVersion": "11.0.0"
+		},
+		"1.0.0-beta.4": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.4",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.4.tgz",
+				"shasum": "1c48c1cde4229d2f1fb61f5cdd9a0c5eb80cb350"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.4",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.4",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.4",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.4.tgz_1505669212366_0.7535815339069813"
+			},
+			"_shasum": "1c48c1cde4229d2f1fb61f5cdd9a0c5eb80cb350",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.7.1": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.7.1",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.7.1.tgz",
+				"shasum": "c37c4cb0fd75e88a063154a7a88096474914496a"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.9.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.6.1",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.6.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^5.10.0",
+				"eslint-config-airbnb": "^17.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"eslint-plugin-jsx-a11y": "^6.1.2",
+				"eslint-plugin-react": "^7.11.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.7.1",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.7.1_1544432776666_0.8601224569796788"
+			},
+			"_nodeVersion": "11.2.0"
+		},
+		"1.0.0-beta.3": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.3",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.3.tgz",
+				"shasum": "516ca4dea77553d983cecdf5a1453492c44883d7"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.3",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.3",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.3",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "intelligibabble",
+					"email": "leland.m.richardson@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.3.tgz_1505590798156_0.7033650416415185"
+			},
+			"_shasum": "516ca4dea77553d983cecdf5a1453492c44883d7",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.0.0-beta.2": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0-beta.2",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.2.tgz",
+				"shasum": "33157e5915ce43287150e9df0bea00ce3628f862"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0-beta.2",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0-beta.2",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0-beta.2",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "intelligibabble",
+					"email": "leland.m.richardson@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0-beta.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0-beta.2.tgz_1505582166937_0.44549191859550774"
+			},
+			"_shasum": "33157e5915ce43287150e9df0bea00ce3628f862",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.0.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0.tgz",
+				"shasum": "e7edd5536743818dcbef336d40d7da59b3a7db8e"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.0.tgz_1506410434527_0.42092853831127286"
+			},
+			"_shasum": "e7edd5536743818dcbef336d40d7da59b3a7db8e",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.0.1": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.1",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.1.tgz",
+				"shasum": "066cb1735e65d8d95841a023f94dab3ce6109e17"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "intelligibabble",
+				"email": "leland.m.richardson@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.1.tgz_1507009404791_0.18361321138218045"
+			},
+			"_shasum": "066cb1735e65d8d95841a023f94dab3ce6109e17",
+			"_nodeVersion": "6.11.2"
+		},
+		"1.1.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.1.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.1.0.tgz",
+				"shasum": "86c5db7c10f0be6ec25d54ca41b59f2abb397cf4"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.1.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.11.0",
+				"eslint-config-airbnb": "^16.1.0",
+				"eslint-plugin-import": "^2.8.0",
+				"eslint-plugin-jsx-a11y": "^6.0.2",
+				"eslint-plugin-react": "^7.4.0",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				},
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.1.0",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.1.0.tgz_1510736749007_0.04272893536835909"
+			},
+			"_nodeVersion": "9.2.0"
+		},
+		"1.0.2": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.0.2",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.2.tgz",
+				"shasum": "8c6f431f17c69e1e9eeb25ca4bd92f31971eb2dd"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.0.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.5.10",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.4.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				},
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx src test",
+				"build": "babel src --out-dir build",
+				"watch": "babel src --out-dir build -w"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.0.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.0.2.tgz_1508224353602_0.1344284655060619"
+			},
+			"_nodeVersion": "8.7.0"
+		},
+		"1.1.1": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.1.1",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.1.1.tgz",
+				"shasum": "a8f4278b47e082fbca14f5bfb1ee50ee650717b4"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.3.0",
+				"lodash": "^4.17.4",
+				"object.assign": "^4.0.4",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.0",
+				"react-reconciler": "^0.7.0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.13.1",
+				"eslint-config-airbnb": "^16.1.0",
+				"eslint-plugin-import": "^2.8.0",
+				"eslint-plugin-jsx-a11y": "^6.0.3",
+				"eslint-plugin-react": "^7.5.1",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				},
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.1.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16-1.1.1.tgz_1513636073884_0.7303841069806367"
+			},
+			"_nodeVersion": "9.3.0"
+		},
+		"1.2.0": {
+			"name": "enzyme-adapter-react-16",
+			"description": "JavaScript Testing utilities for React",
+			"version": "1.2.0",
+			"author": {
+				"name": "Leland Richardson",
+				"email": "leland.richardson@airbnb.com"
+			},
+			"homepage": "http://airbnb.io/enzyme/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/enzyme.git"
+			},
+			"bugs": {
+				"url": "https://github.com/airbnb/enzyme/issues"
+			},
+			"main": "build",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.2.0.tgz",
+				"shasum": "c6e80f334e0a817873262d7d01ee9e4747e3c97e"
+			},
+			"dependencies": {
+				"enzyme-adapter-utils": "^1.5.0",
+				"function.prototype.name": "^1.1.0",
+				"object.assign": "^4.1.0",
+				"object.values": "^1.0.4",
+				"prop-types": "^15.6.2",
+				"react-is": "^16.4.2",
+				"react-reconciler": "^0.7.0",
+				"react-test-renderer": "^16.0.0-0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.5.3",
+				"enzyme": "^3.0.0",
+				"eslint": "^4.19.1",
+				"eslint-config-airbnb": "^17.0.0",
+				"eslint-plugin-import": "^2.13.0",
+				"eslint-plugin-jsx-a11y": "^6.1.1",
+				"eslint-plugin-react": "^7.10.0",
+				"in-publish": "^2.0.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.2"
+			},
+			"peerDependencies": {
+				"enzyme": "^3.0.0",
+				"react": "^16.0.0-0",
+				"react-dom": "^16.0.0-0"
+			},
+			"keywords": [
+				"javascript",
+				"shallow rendering",
+				"shallowRender",
+				"test",
+				"reactjs",
+				"react",
+				"flux",
+				"testing",
+				"test utils",
+				"assertion helpers",
+				"tdd",
+				"mocha"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "jordan.harband+npm@airbnb.com",
+					"name": "airbnb"
+				},
+				{
+					"email": "leland.m.richardson@gmail.com",
+					"name": "intelligibabble"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf build",
+				"lint": "eslint --ext js,jsx .",
+				"pretest": "npm run lint",
+				"prebuild": "npm run clean",
+				"build": "babel src --out-dir build",
+				"watch": "npm run build -- -w",
+				"prepublish": "npm run build && safe-publish-latest && (not-in-publish || cp ../../{LICENSE,README}.md ./)"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"_id": "enzyme-adapter-react-16@1.2.0",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/enzyme-adapter-react-16_1.2.0_1533705604383_0.18141948124832075"
+			},
+			"_nodeVersion": "10.8.0"
+		}
+	},
+	"time": {
+		"created": "2017-09-16T17:16:07.084Z",
+		"1.0.0-beta.7": "2017-09-25T19:13:08.122Z",
+		"1.0.0-beta.6": "2017-09-19T18:33:47.674Z",
+		"1.0.3": "2017-11-02T04:00:51.781Z",
+		"1.3.0": "2018-08-25T07:45:46.102Z",
+		"1.0.4": "2017-11-05T07:21:18.649Z",
+		"1.3.1": "2018-08-31T00:55:24.378Z",
+		"1.4.0": "2018-09-04T07:18:10.003Z",
+		"1.5.0": "2018-09-05T22:37:34.001Z",
+		"1.6.0": "2018-10-05T02:26:37.919Z",
+		"1.0.0-beta.5": "2017-09-18T00:39:36.197Z",
+		"1.7.0": "2018-11-08T07:07:46.385Z",
+		"1.0.0-beta.4": "2017-09-17T17:26:52.430Z",
+		"1.7.1": "2018-12-10T09:06:16.786Z",
+		"1.0.0-beta.3": "2017-09-16T19:39:59.131Z",
+		"1.0.0-beta.2": "2017-09-16T17:16:07.084Z",
+		"modified": "2018-12-10T09:06:20.001Z",
+		"1.0.0": "2017-09-26T07:20:34.628Z",
+		"1.0.1": "2017-10-03T05:43:26.346Z",
+		"1.1.0": "2017-11-15T09:05:49.109Z",
+		"1.0.2": "2017-10-17T07:12:34.630Z",
+		"1.1.1": "2017-12-18T22:27:54.005Z",
+		"1.2.0": "2018-08-08T05:20:04.462Z"
+	},
+	"dist-tags": {
+		"next": "1.2.0",
+		"latest": "1.7.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547749325470
+		}
+	},
+	"_distfiles": {
+		"enzyme-adapter-react-16-1.0.0-beta.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.7.tgz",
+			"sha": "66d03f871253dabeb678e8c1eba916f848edd4c8"
+		},
+		"enzyme-adapter-react-16-1.0.0-beta.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.6.tgz",
+			"sha": "299dfe94df573659906fac94a50c58d6a38a178a"
+		},
+		"enzyme-adapter-react-16-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.3.tgz",
+			"sha": "f40e654f850b62e3ff71639141685e0bb129be34"
+		},
+		"enzyme-adapter-react-16-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.3.0.tgz",
+			"sha": "4cfba44f8c27256d28e171bdf7a5b5aebce6041b"
+		},
+		"enzyme-adapter-react-16-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.4.tgz",
+			"sha": "67f898cc053452f5c786424e395fe0c63a0607fe"
+		},
+		"enzyme-adapter-react-16-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.3.1.tgz",
+			"sha": "a0f04273aee62c47521da7a2f6c7134182bd7f73"
+		},
+		"enzyme-adapter-react-16-1.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.4.0.tgz",
+			"sha": "c70aa6d085c5a6708b032406f5c73280d3f6a34b"
+		},
+		"enzyme-adapter-react-16-1.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.5.0.tgz",
+			"sha": "50af8d76a45fe0915de932bd95d34cdca75c0be3"
+		},
+		"enzyme-adapter-react-16-1.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.6.0.tgz",
+			"sha": "3fca28d3c32f3ff427495380fe2dd51494689073"
+		},
+		"enzyme-adapter-react-16-1.0.0-beta.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.5.tgz",
+			"sha": "8e07e5baa63b0931e1d4ce40a27d48f82ad900fa"
+		},
+		"enzyme-adapter-react-16-1.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.7.0.tgz",
+			"sha": "90344395a89624edbe7f0e443bc19fef62bf1f9f"
+		},
+		"enzyme-adapter-react-16-1.0.0-beta.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.4.tgz",
+			"sha": "1c48c1cde4229d2f1fb61f5cdd9a0c5eb80cb350"
+		},
+		"enzyme-adapter-react-16-1.7.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.7.1.tgz",
+			"sha": "c37c4cb0fd75e88a063154a7a88096474914496a"
+		},
+		"enzyme-adapter-react-16-1.0.0-beta.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.3.tgz",
+			"sha": "516ca4dea77553d983cecdf5a1453492c44883d7"
+		},
+		"enzyme-adapter-react-16-1.0.0-beta.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0-beta.2.tgz",
+			"sha": "33157e5915ce43287150e9df0bea00ce3628f862"
+		},
+		"enzyme-adapter-react-16-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.0.tgz",
+			"sha": "e7edd5536743818dcbef336d40d7da59b3a7db8e"
+		},
+		"enzyme-adapter-react-16-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.1.tgz",
+			"sha": "066cb1735e65d8d95841a023f94dab3ce6109e17"
+		},
+		"enzyme-adapter-react-16-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.1.0.tgz",
+			"sha": "86c5db7c10f0be6ec25d54ca41b59f2abb397cf4"
+		},
+		"enzyme-adapter-react-16-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.2.tgz",
+			"sha": "8c6f431f17c69e1e9eeb25ca4bd92f31971eb2dd"
+		},
+		"enzyme-adapter-react-16-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.1.1.tgz",
+			"sha": "a8f4278b47e082fbca14f5bfb1ee50ee650717b4"
+		},
+		"enzyme-adapter-react-16-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.2.0.tgz",
+			"sha": "c6e80f334e0a817873262d7d01ee9e4747e3c97e"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-e096e9a8ee480694",
+	"readme": "Enzyme\n=======\n\n[![Join the chat at https://gitter.im/airbnb/enzyme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/airbnb/enzyme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n[![npm Version](https://img.shields.io/npm/v/enzyme.svg)](https://www.npmjs.com/package/enzyme) [![License](https://img.shields.io/npm/l/enzyme.svg)](https://www.npmjs.com/package/enzyme) [![Build Status](https://travis-ci.org/airbnb/enzyme.svg)](https://travis-ci.org/airbnb/enzyme) [![Coverage Status](https://coveralls.io/repos/airbnb/enzyme/badge.svg?branch=master&service=github)](https://coveralls.io/github/airbnb/enzyme?branch=master)\n\n\nEnzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate,\nand traverse your React Components' output.\n\nEnzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation\nand traversal.\n\nUpgrading from Enzyme 2.x or React < 16\n===========\n\nAre you here to check whether or not Enzyme is compatible with React 16? Are you currently using\nEnzyme 2.x? Great! Check out our [migration guide](/docs/guides/migration-from-2-to-3.md) for help\nmoving on to Enzyme v3 where React 16 is supported.\n\n### [Installation](/docs/installation/README.md)\n\nTo get started with enzyme, you can simply install it via npm. You will need to install enzyme\nalong with an Adapter corresponding to the version of react (or other UI Component library) you\nare using. For instance, if you are using enzyme with React 16, you can run:\n\n```bash\nnpm i --save-dev enzyme enzyme-adapter-react-16\n```\n\nEach adapter may have additional peer dependencies which you will need to install as well. For instance,\n`enzyme-adapter-react-16` has peer dependencies on `react` and `react-dom`.\n\nAt the moment, Enzyme has adapters that provide compatibility with `React 16.x`, `React 15.x`,\n`React 0.14.x` and `React 0.13.x`.\n\nThe following adapters are officially provided by enzyme, and have the following compatibility with\nReact:\n\n| Enzyme Adapter Package | React semver compatibility |\n| --- | --- |\n| `enzyme-adapter-react-16` | `^16.4.0-0` |\n| `enzyme-adapter-react-16.3` | `~16.3.0-0` |\n| `enzyme-adapter-react-16.2` | `~16.2` |\n| `enzyme-adapter-react-16.1` | `~16.0.0-0 \\|\\| ~16.1` |\n| `enzyme-adapter-react-15` | `^15.5.0` |\n| `enzyme-adapter-react-15.4` | `15.0.0-0 - 15.4.x` |\n| `enzyme-adapter-react-14` | `^0.14.0` |\n| `enzyme-adapter-react-13` | `^0.13.0` |\n\nFinally, you need to configure enzyme to use the adapter you want it to use. To do this, you can use\nthe top level `configure(...)` API.\n\n```js\nimport Enzyme from 'enzyme';\nimport Adapter from 'enzyme-adapter-react-16';\n\nEnzyme.configure({ adapter: new Adapter() });\n```\n\n3rd Party Adapters\n=============\n\nIt is possible for the community to create additional (non-official) adapters that will make enzyme\nwork with other libraries. If you have made one and it's not included in the list below, feel free\nto make a PR to this README and add a link to it! The known 3rd party adapters are:\n\n| Adapter Package | For Library | Status |\n| --- | --- | --- |\n| [`preact-enzyme-adapter`](https://github.com/aweary/preact-enzyme-adapater) | [`preact`](https://github.com/developit/preact) | (work in progress) |\n|[`enzyme-adapter-inferno`](https://github.com/bbc/enzyme-adapter-inferno)|[`inferno`](https://github.com/infernojs/inferno)|(work in progress)|\n\nRunning Enzyme Tests\n===========\n\nEnzyme is unopinionated regarding which test runner or assertion library you use, and should be\ncompatible with all major test runners and assertion libraries out there. The documentation and\nexamples for enzyme use [mocha](https://mochajs.org/) and [chai](http://chaijs.com/), but you\nshould be able to extrapolate to your framework of choice.\n\nIf you are interested in using enzyme with custom assertions and convenience functions for\ntesting your React components, you can consider using:\n\n* [`chai-enzyme`](https://github.com/producthunt/chai-enzyme) with Mocha/Chai.\n* [`jasmine-enzyme`](https://github.com/FormidableLabs/enzyme-matchers/tree/master/packages/jasmine-enzyme) with Jasmine.\n* [`jest-enzyme`](https://github.com/FormidableLabs/enzyme-matchers/tree/master/packages/jest-enzyme) with Jest.\n* [`should-enzyme`](https://github.com/rkotze/should-enzyme) for should.js.\n* [`expect-enzyme`](https://github.com/PsychoLlama/expect-enzyme) for expect.\n\n\n[Using Enzyme with Mocha](/docs/guides/mocha.md)\n\n[Using Enzyme with Karma](/docs/guides/karma.md)\n\n[Using Enzyme with Browserify](/docs/guides/browserify.md)\n\n[Using Enzyme with SystemJS](/docs/guides/systemjs.md)\n\n[Using Enzyme with Webpack](/docs/guides/webpack.md)\n\n[Using Enzyme with JSDOM](/docs/guides/jsdom.md)\n\n[Using Enzyme with React Native](/docs/guides/react-native.md)\n\n[Using Enzyme with Jest](/docs/guides/jest.md)\n\n[Using Enzyme with Lab](/docs/guides/lab.md)\n\n[Using Enzyme with Tape and AVA](/docs/guides/tape-ava.md)\n\nBasic Usage\n===========\n\n## [Shallow Rendering](/docs/api/shallow.md)\n\n```javascript\nimport React from 'react';\nimport { expect } from 'chai';\nimport { shallow } from 'enzyme';\nimport sinon from 'sinon';\n\nimport MyComponent from './MyComponent';\nimport Foo from './Foo';\n\ndescribe('<MyComponent />', () => {\n  it('renders three <Foo /> components', () => {\n    const wrapper = shallow(<MyComponent />);\n    expect(wrapper.find(Foo)).to.have.lengthOf(3);\n  });\n\n  it('renders an `.icon-star`', () => {\n    const wrapper = shallow(<MyComponent />);\n    expect(wrapper.find('.icon-star')).to.have.lengthOf(1);\n  });\n\n  it('renders children when passed in', () => {\n    const wrapper = shallow((\n      <MyComponent>\n        <div className=\"unique\" />\n      </MyComponent>\n    ));\n    expect(wrapper.contains(<div className=\"unique\" />)).to.equal(true);\n  });\n\n  it('simulates click events', () => {\n    const onButtonClick = sinon.spy();\n    const wrapper = shallow(<Foo onButtonClick={onButtonClick} />);\n    wrapper.find('button').simulate('click');\n    expect(onButtonClick).to.have.property('callCount', 1);\n  });\n});\n```\n\nRead the full [API Documentation](/docs/api/shallow.md)\n\n\n\n## [Full DOM Rendering](/docs/api/mount.md)\n\n```javascript\nimport React from 'react';\nimport sinon from 'sinon';\nimport { expect } from 'chai';\nimport { mount } from 'enzyme';\n\nimport Foo from './Foo';\n\ndescribe('<Foo />', () => {\n  it('allows us to set props', () => {\n    const wrapper = mount(<Foo bar=\"baz\" />);\n    expect(wrapper.props().bar).to.equal('baz');\n    wrapper.setProps({ bar: 'foo' });\n    expect(wrapper.props().bar).to.equal('foo');\n  });\n\n  it('simulates click events', () => {\n    const onButtonClick = sinon.spy();\n    const wrapper = mount((\n      <Foo onButtonClick={onButtonClick} />\n    ));\n    wrapper.find('button').simulate('click');\n    expect(onButtonClick).to.have.property('callCount', 1);\n  });\n\n  it('calls componentDidMount', () => {\n    sinon.spy(Foo.prototype, 'componentDidMount');\n    const wrapper = mount(<Foo />);\n    expect(Foo.prototype.componentDidMount).to.have.property('callCount', 1);\n    Foo.prototype.componentDidMount.restore();\n  });\n});\n```\n\nRead the full [API Documentation](/docs/api/mount.md)\n\n\n## [Static Rendered Markup](/docs/api/render.md)\n\n```javascript\nimport React from 'react';\nimport { expect } from 'chai';\nimport { render } from 'enzyme';\n\nimport Foo from './Foo';\n\ndescribe('<Foo />', () => {\n  it('renders three `.foo-bar`s', () => {\n    const wrapper = render(<Foo />);\n    expect(wrapper.find('.foo-bar')).to.have.lengthOf(3);\n  });\n\n  it('renders the title', () => {\n    const wrapper = render(<Foo title=\"unique\" />);\n    expect(wrapper.text()).to.contain('unique');\n  });\n});\n```\n\nRead the full [API Documentation](/docs/api/render.md)\n\n\n### Future\n\n[Enzyme Future](/docs/future.md)\n\n\n### Contributing\n\nSee the [Contributors Guide](/CONTRIBUTING.md)\n\n### In the wild\n\nOrganizations and projects using `enzyme` can list themselves [here](INTHEWILD.md).\n\n### License\n\n[MIT](/LICENSE.md)"
+}
