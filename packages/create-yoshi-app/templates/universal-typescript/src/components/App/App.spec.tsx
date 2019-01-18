@@ -1,8 +1,8 @@
 import 'jsdom-global/register';
-import * as React from 'react';
+import React from 'react';
 import {expect} from 'chai';
 import {mount} from 'enzyme';
-import * as i18next from 'i18next';
+import i18next from 'i18next';
 import {I18nextProvider} from 'react-i18next';
 import App from './App';
 import * as translation from '../../assets/locale/messages_en.json';
@@ -20,9 +20,11 @@ describe('App', () => {
 
   afterEach(() => wrapper.detach());
 
-  it('renders a title correctly', () => {
+  it('renders a title correctly', async () => {
+    const i18n = i18next.createInstance();
+    await i18n.init(i18nData);
     wrapper = mount(
-      <I18nextProvider i18n={i18next.createInstance().init(i18nData)}>
+      <I18nextProvider i18n={i18n}>
         <App/>
       </I18nextProvider>,
       {attachTo: document.createElement('div')}

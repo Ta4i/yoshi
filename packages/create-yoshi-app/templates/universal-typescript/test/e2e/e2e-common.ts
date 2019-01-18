@@ -1,4 +1,4 @@
-import * as puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer';
 
 before(async () => {
   global.browser = await puppeteer.launch({
