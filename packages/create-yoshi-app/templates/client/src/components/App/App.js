@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import { withNamespaces } from 'react-i18next';
 import s from './App.scss';
 
 class App extends React.Component {
@@ -22,4 +22,4 @@ class App extends React.Component {
   }
 }
 
-export default translate()(App);
+export default withNamespaces()(App);
