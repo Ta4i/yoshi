@@ -432,7 +432,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749411149
+			"fetched": 1547828439589
 		}
 	},
 	"_distfiles": {
@@ -466,6 +466,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-653019735af4d81e",
+	"_rev": "10-33bb8d35c5b364e7",
 	"readme": "# regjsgen [![Build status](https://travis-ci.org/bnjmnt4n/regjsgen.svg?branch=master)](https://travis-ci.org/bnjmnt4n/regjsgen) [![Code coverage status](https://codecov.io/gh/bnjmnt4n/regjsgen/branch/master/graph/badge.svg)](https://codecov.io/gh/bnjmnt4n/regjsgen)\n\nGenerate regular expressions from [regjsparser](https://github.com/jviereck/regjsparser)’s AST.\n\n## Installation\n\n```bash\nnpm install --save regjsgen\n```\n\n## API\n\n### `regjsgen.generate(ast)`\n\nThis function accepts an abstract syntax tree representing a regular expression, and returns the generated regular expression string.\n\n```js\nvar regjsparser = require('regjsparser');\nvar regjsgen = require('regjsgen');\n\n// Generate an AST with `regjsparser`.\nvar ast = regjsparser.parse(regex);\n\n// Modify AST\n// …\n\n// Generate `RegExp` string with `regjsgen`.\nregex = regjsgen.generate(ast);\n```\n\n## Support\n\nTested in Node.js 0.10, 0.12, 4, 6 and 8."
 }

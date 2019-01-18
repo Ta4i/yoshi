@@ -236,7 +236,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749343746
+			"fetched": 1547828356483
 		}
 	},
 	"_distfiles": {
@@ -258,6 +258,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-c47a0fec0454deb7",
+	"_rev": "10-f5918511fa30eea3",
 	"readme": "# find-parent-dir [![build status](https://secure.travis-ci.org/thlorenz/find-parent-dir.png)](http://travis-ci.org/thlorenz/find-parent-dir)\n\nFinds the first parent directory that contains a given file or directory.\n\n    npm install find-parent-dir\n\n```js\n// assuming this is called from a file in a subdirectory of /myprojects/foo which contains .git directory\nvar findParentDir = require('find-parent-dir');\n\nfindParentDir(__dirname, '.git', function (err, dir) {\n  // has err if some file access error occurred\n  console.log(dir); // => /myprojects/foo/\n  \n  // if parent dir wasn't found, dir is null\n})\n\n// Same using `sync` method\nvar dir;\ntry { \n  dir = findParentDir.sync(__dirname, '.git');\n  console.log(dir); // => /myprojects/foo/\n  // if parent dir wasn't found, dir is null\n} catch(err) {\n  console.error('error', err); \n}\n```"
 }

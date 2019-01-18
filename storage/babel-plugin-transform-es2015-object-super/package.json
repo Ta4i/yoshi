@@ -2077,7 +2077,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749381614
+			"fetched": 1547828421626
 		}
 	},
 	"_distfiles": {
@@ -2223,6 +2223,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-bd4e57c294603b3a",
+	"_rev": "10-a1b956cf629c14e8",
 	"readme": "# babel-plugin-transform-es2015-object-super\n\n> Compile ES2015 object super to ES5\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-object-super\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-object-super\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-object-super script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-object-super\"]\n});\n```"
 }

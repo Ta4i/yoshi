@@ -301,7 +301,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749435269
+			"fetched": 1547828438035
 		}
 	},
 	"_distfiles": {
@@ -323,6 +323,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-7561e8c93118d41f",
+	"_rev": "10-d98db5062985f40c",
 	"readme": "# caller-callsite [![Build Status](https://travis-ci.org/sindresorhus/caller-callsite.svg?branch=master)](https://travis-ci.org/sindresorhus/caller-callsite)\n\n> Get the [callsite](https://github.com/sindresorhus/callsites#api) of the caller function\n\n\n## Install\n\n```\n$ npm install caller-callsite\n```\n\n\n## Usage\n\n```js\n// foo.js\nconst callerCallsite = require('caller-callsite');\n\nmodule.exports = () => {\n\tconsole.log(callerCallsite().getFileName());\n\t//=> '/Users/sindresorhus/dev/unicorn/bar.js'\n}\n```\n\n```js\n// bar.js\nconst foo = require('./foo');\nfoo();\n```\n\n\n## API\n\n### callerCallsite()\n\nReturns a [`callsite`](https://github.com/sindresorhus/callsites#api) object.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

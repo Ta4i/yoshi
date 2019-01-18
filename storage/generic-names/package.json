@@ -407,7 +407,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749369140
+			"fetched": 1547828403077
 		}
 	},
 	"_distfiles": {
@@ -441,6 +441,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-7ca23f2532faaff3",
+	"_rev": "10-5fc6303fa153ad2b",
 	"readme": "generic-names\n=============\n\nHelper for building generic names, similar to webpack. Designed to be used with [postcss&#x2011;modules&#x2011;scope](https://github.com/css-modules/postcss-modules-scope).\n\nUses [interpolateName](https://github.com/webpack/loader-utils#interpolatename) from the webpack/loader-utils.\n\n## API\n\n```javascript\nvar genericNames = require('generic-names');\nvar generate = genericNames('[name]__[local]___[hash:base64:5]', {\n  context: process.cwd()\n});\n\ngenerate('foo', '/case/source.css'); // 'source__foo___3mRq8'\n```"
 }

@@ -191,7 +191,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749434166
+			"fetched": 1547828440231
 		}
 	},
 	"_distfiles": {
@@ -209,6 +209,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "7-4163c3175f6ac6eb",
+	"_rev": "17-b533069f5f954621",
 	"readme": "# alphanum-sort\r\n[![Build Status](https://travis-ci.org/TrySound/alphanum-sort.svg?branch=master)](https://travis-ci.org/TrySound/alphanum-sort)\r\n\r\n> Alphanumeric sorting algorithm\r\n\r\n## Install\r\n\r\nWith [npm](https://npmjs.org/package/alphanum-sort) do:\r\n\r\n```\r\nnpm i alphanum-sort -S\r\n```\r\n\r\n## Example\r\n\r\n```js\r\nvar sort = require('alphanum-sort');\r\n\r\nvar result = sort(['item20', 'item19', 'item1', 'item10', 'item2']);\r\n// ['item1', 'item2', 'item10', 'item19', 'item20']\r\n```\r\n\r\n## API\r\n\r\n### alphanumSort(array, options)\r\n\r\n#### options\r\n\r\n##### insensitive\r\n\r\nType: `Boolean`\r\nDefault: `false`\r\n\r\nCompares items case insensitively\r\n\r\n##### sign\r\n\r\nType: `Boolean`\r\nDefault: `false`\r\n\r\nAllows `+` and `-` characters before numbers\r\n\r\n## License\r\n\r\nMIT © [Bogdan Chadkin](https://github.com/trysound)"
 }

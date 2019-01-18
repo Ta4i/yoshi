@@ -410,7 +410,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749343153
+			"fetched": 1547828354959
 		}
 	},
 	"_distfiles": {
@@ -432,6 +432,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-8f07cd784612f367",
+	"_rev": "10-4c5d707186aab585",
 	"readme": "String.prototype.trim <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![Build Status][travis-svg]][travis-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\n[![browser support][testling-svg]][testling-url]\n\nAn ES5 spec-compliant `String.prototype.trim` shim. Invoke its \"shim\" method to shim `String.prototype.trim` if it is unavailable.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](http://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.20).\n\nMost common usage:\n\n```js\nvar assert = require('assert');\nvar trim = require('string.prototype.trim');\n\nassert(trim(' \\t\\na \\t\\n') === 'a');\n\ntrim.shim(); // will be a no-op if not needed\n\nassert(trim(' \\t\\na \\t\\n') === ' \\t\\na \\t\\n'.trim());\n```\n\n## Engine Bugs\nSome implementations of `String#trim` incorrectly trim zero-width spaces. This shim detects and corrects this behavior.\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.com/package/string.prototype.trim\n[npm-version-svg]: http://versionbadg.es/es-shims/String.prototype.trim.svg\n[travis-svg]: https://travis-ci.org/es-shims/String.prototype.trim.svg\n[travis-url]: https://travis-ci.org/es-shims/String.prototype.trim\n[deps-svg]: https://david-dm.org/es-shims/String.prototype.trim.svg\n[deps-url]: https://david-dm.org/es-shims/String.prototype.trim\n[dev-deps-svg]: https://david-dm.org/es-shims/String.prototype.trim/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/String.prototype.trim#info=devDependencies\n[testling-svg]: https://ci.testling.com/es-shims/String.prototype.trim.png\n[testling-url]: https://ci.testling.com/es-shims/String.prototype.trim\n[npm-badge-png]: https://nodei.co/npm/string.prototype.trim.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/string.prototype.trim.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/string.prototype.trim.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=string.prototype.trim"
 }

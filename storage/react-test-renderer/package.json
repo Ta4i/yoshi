@@ -8746,7 +8746,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749325758
+			"fetched": 1547828351546
 		}
 	},
 	"_distfiles": {
@@ -9132,6 +9132,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-50faaaf666eedc40",
+	"_rev": "10-541023b35635c9af",
 	"readme": "# `react-test-renderer`\n\nThis package provides an experimental React renderer that can be used to render React components to pure JavaScript objects, without depending on the DOM or a native mobile environment.\n\nEssentially, this package makes it easy to grab a snapshot of the \"DOM tree\" rendered by a React DOM or React Native component without using a browser or jsdom.\n\nDocumentation:\n\n[https://reactjs.org/docs/test-renderer.html](https://reactjs.org/docs/test-renderer.html)\n\nUsage:\n\n```jsx\nconst ReactTestRenderer = require('react-test-renderer');\n\nconst renderer = ReactTestRenderer.create(\n  <Link page=\"https://www.facebook.com/\">Facebook</Link>\n);\n\nconsole.log(renderer.toJSON());\n// { type: 'a',\n//   props: { href: 'https://www.facebook.com/' },\n//   children: [ 'Facebook' ] }\n```\n\nYou can also use Jest's snapshot testing feature to automatically save a copy of the JSON tree to a file and check in your tests that it hasn't changed: https://facebook.github.io/jest/blog/2016/07/27/jest-14.html."
 }

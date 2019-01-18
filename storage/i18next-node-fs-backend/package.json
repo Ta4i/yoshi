@@ -1216,7 +1216,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547744888728
+			"fetched": 1547828381709
 		}
 	},
 	"_distfiles": {
@@ -1286,6 +1286,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-d835a9fc2f6d77ad",
+	"_rev": "6-ef18dd06e2a30c7c",
 	"readme": "# Introduction\n\n[![Travis](https://img.shields.io/travis/i18next/i18next-node-fs-backend/master.svg?style=flat-square)](https://travis-ci.org/i18next/i18next-node-fs-backend)\n[![Coveralls](https://img.shields.io/coveralls/i18next/i18next-node-fs-backend/master.svg?style=flat-square)](https://coveralls.io/github/i18next/i18next-node-fs-backend)\n[![npm version](https://img.shields.io/npm/v/i18next-node-fs-backend.svg?style=flat-square)](https://www.npmjs.com/package/i18next-node-fs-backend)\n[![David](https://img.shields.io/david/i18next/i18next-node-fs-backend.svg?style=flat-square)](https://david-dm.org/i18next/i18next-node-fs-backend)\n\nThis is a i18next backend to be used node.js. It will load resources from filesystem. Right now it supports following filetypes:\n\n- .json\n- .json5\n- .yml\n- .cson\n\n# Getting started\n\nSource can be loaded via [npm](https://www.npmjs.com/package/i18next-node-fs-backend).\n\n```\n$ npm install i18next-node-fs-backend\n```\n\nWiring up:\n\n```js\nvar i18next = require(\"i18next\");\nvar Backend = require(\"i18next-node-fs-backend\");\n\ni18next.use(Backend).init(i18nextOptions);\n```\n\nAs with all modules you can either pass the constructor function (class) to the i18next.use or a concrete instance.\n\n## Backend Options\n\n```js\n{\n  // path where resources get loaded from\n  loadPath: '/locales/{{lng}}/{{ns}}.json',\n\n  // path to post missing resources\n  addPath: '/locales/{{lng}}/{{ns}}.missing.json',\n\n  // jsonIndent to use when storing json files\n  jsonIndent: 2,\n\n  // custom parser\n  parse: function(data) { return data; }\n}\n```\n\n**hint** {{lng}}, {{ns}} use the same prefix, suffix you define in interpolation for translations!!!\n\nOptions can be passed in:\n\n**preferred** - by setting options.backend in i18next.init:\n\n```js\nvar i18next = require(\"i18next\");\nvar Backend = require(\"i18next-node-fs-backend\");\n\ni18next.use(Backend).init({\n  backend: options\n});\n```\n\non construction:\n\n```js\nvar Backend = require(\"i18next-node-fs-backend\");\nvar backend = new Backend(null, options);\n```\n\nby calling init:\n\n```js\nvar Backend = require(\"i18next-node-fs-backend\");\nvar backend = new Backend();\nbackend.init(options);\n```\n\n---\n\n<h3 align=\"center\">Gold Sponsors</h3>\n\n<p align=\"center\">\n  <a href=\"https://locize.com/\" target=\"_blank\">\n    <img src=\"https://raw.githubusercontent.com/i18next/i18next/master/assets/locize_sponsor_240.gif\" width=\"240px\">\n  </a>\n</p>"
 }

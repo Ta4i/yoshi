@@ -138,7 +138,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749374307
+			"fetched": 1547828372761
 		}
 	},
 	"_distfiles": {
@@ -152,6 +152,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d20580c03a2c243d",
+	"_rev": "10-1b8eb79e61d845e8",
 	"readme": "# is-obj [![Build Status](https://travis-ci.org/sindresorhus/is-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/is-obj)\n\n> Check if a value is an object\n\nKeep in mind that array, function, regexp, etc, are objects in JavaScript.<br>\nSee [`is-plain-obj`](https://github.com/sindresorhus/is-plain-obj) if you want to check for plain objects.\n\n\n## Install\n\n```\n$ npm install --save is-obj\n```\n\n\n## Usage\n\n```js\nconst isObj = require('is-obj');\n\nisObj({foo: 'bar'});\n//=> true\n\nisObj([1, 2, 3]);\n//=> true\n\nisObj('foo');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

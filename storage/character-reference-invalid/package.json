@@ -531,7 +531,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749461339
+			"fetched": 1547828480204
 		}
 	},
 	"_distfiles": {
@@ -557,6 +557,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-0aa6228ff7fa5c89",
+	"_rev": "10-cb390d4ba91b33c5",
 	"readme": "# character-reference-invalid [![Build Status][travis-badge]][travis]\n\nHTML invalid numeric character reference information.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install character-reference-invalid\n```\n\n## Usage\n\n```js\nvar characterReferenceInvalid = require('character-reference-invalid')\n\nconsole.log(characterReferenceInvalid[0x80]) // => '€'\nconsole.log(characterReferenceInvalid[0x89]) // => '‰'\nconsole.log(characterReferenceInvalid[0x99]) // => '™'\n```\n\n## API\n\n### `characterReferenceInvalid`\n\nMapping between invalid numeric character reference to replacements.\n\n## Support\n\nSee [html.spec.whatwg.org][html].\n\n## Related\n\n*   [`character-entities`](https://github.com/wooorm/character-entities)\n    — HTML character entity info\n*   [`character-entities-html4`](https://github.com/wooorm/character-entities-html4)\n    — HTML 4 character entity info\n*   [`character-entities-legacy`](https://github.com/wooorm/character-entities-legacy)\n    — Legacy character entity info\n*   [`parse-entities`](https://github.com/wooorm/parse-entities)\n    — Parse HTML character references\n*   [`stringify-entities`](https://github.com/wooorm/stringify-entities)\n    — Stringify HTML character references\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/character-reference-invalid.svg\n\n[travis]: https://travis-ci.org/wooorm/character-reference-invalid\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[html]: https://html.spec.whatwg.org/multipage/syntax.html#table-charref-overrides"
 }

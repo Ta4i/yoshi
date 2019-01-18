@@ -75,7 +75,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749400503
+			"fetched": 1547828434811
 		}
 	},
 	"_distfiles": {
@@ -85,6 +85,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b5c091920075d7ea",
+	"_rev": "10-13d973834b2731ba",
 	"readme": "# dns-equal\n\nCompare DNS record strings for equality. Enforces [RFC\n1035](https://tools.ietf.org/html/rfc1035) domain comparison.\n\n[![Build status](https://travis-ci.org/watson/dns-equal.svg?branch=master)](https://travis-ci.org/watson/dns-equal)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)\n\n## Installation\n\n```\nnpm install dns-equal --save\n```\n\n## Usage\n\n```js\nvar dnsEqual = require('dns-equal')\n\nvar domain1 = 'Example.COM'\nvar domain2 = 'example.com'\n\nif (dnsEqual(domain1, domain2)) {\n  console.log('The two domains are the same')\n}\n```\n\n## License\n\nMIT"
 }

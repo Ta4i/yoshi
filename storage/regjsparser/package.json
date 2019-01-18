@@ -871,7 +871,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749411180
+			"fetched": 1547828439647
 		}
 	},
 	"_distfiles": {
@@ -937,6 +937,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-1865ab996ef35bac",
+	"_rev": "10-d9b86012a8f86bbb",
 	"readme": "# RegJSParser\n\nParsing the JavaScript's RegExp in JavaScript.\n\n## Installation\n\n```bash\nnpm install regjsparser\n```\n\n## Usage\n\n```js\nvar parse = require('regjsparser').parse;\n\nvar parseTree = parse('^a'); // /^a/\nconsole.log(parseTree);\n\n// Toggle on/off additional features:\nvar parseTree = parse('^a', '', {\n  // SEE: https://github.com/jviereck/regjsparser/pull/78\n  unicodePropertyEscape: true,\n\n  // SEE: https://github.com/jviereck/regjsparser/pull/83\n  namedGroups: true,\n\n  // SEE: https://github.com/jviereck/regjsparser/pull/89\n  lookbehind: true\n});\nconsole.log(parseTree);\n```\n\n## Testing\n\nTo run the tests, run the following command:\n\n```bash\nnpm test\n```\n\nTo create a new reference file, execute…\n\n```bash\nnode test/update-fixtures.js\n```\n\n…from the repo top directory."
 }

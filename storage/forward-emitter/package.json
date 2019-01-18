@@ -178,7 +178,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749389467
+			"fetched": 1547828443879
 		}
 	},
 	"_distfiles": {
@@ -196,6 +196,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-d532fcfa94a7f941",
+	"_rev": "8-54634eb0617f4a69",
 	"readme": "Forward-emitter\n==============\n\nForward events from one Node EventEmitter to another.\n\nInstallation\n------------\n\n`npm install forward-emitter`\n\nUsage\n-----\n\n```javascript\nvar forward = require('forward-emitter');\n\n// Basic forwarding\nforward(src, dest);\n\n// Forward only selected events\n// In this example, only the 'connect' event is forwarded.\nforward(src, dest, function (eventName) {\n  return eventName === 'connect';\n});\n\n// Forward all events except exclusions\nvar exclusions = ['connect', 'disconnect'];\nforward(src, dest, function(eventName) {\n  return exclusions.indexOf(eventName) === -1;\n});\n\n```\n\nHow It Works\n------------\n\n`forward-emitter` listens to the `newListener` and `removeListener` events, introduced in Node `0.8` and\nNode `0.10` respectively. When a callback is bound to an event on the destination emitter, the listener\nis forwarded to the source emitter.\n\nFor that reason, this module should not be used in Node `< 0.10` if you plan to use `removeListener`."
 }

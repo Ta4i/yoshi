@@ -155,7 +155,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749408461
+			"fetched": 1547828405726
 		}
 	},
 	"_distfiles": {
@@ -169,6 +169,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2c3620a463f25033",
+	"_rev": "10-98eeb035b50ce8bc",
 	"readme": "# elegant-spinner [![Build Status](https://travis-ci.org/sindresorhus/elegant-spinner.svg?branch=master)](https://travis-ci.org/sindresorhus/elegant-spinner)\n\n> Elegant spinner for interactive CLI apps\n\n<img width=\"173\" src=\"screenshot.gif\">\n\n\n## Install\n\n```\n$ npm install --save elegant-spinner\n```\n\n\n## Usage\n\n```js\nvar elegantSpinner = require('elegant-spinner');\nvar logUpdate = require('log-update');\nvar frame = elegantSpinner();\n\nsetInterval(function () {\n\tlogUpdate(frame());\n}, 50);\n```\n\n\n## Relevant\n\n- [log-update](https://github.com/sindresorhus/log-update) - Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

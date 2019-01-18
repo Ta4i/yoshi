@@ -305,7 +305,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749379060
+			"fetched": 1547828419579
 		}
 	},
 	"_distfiles": {
@@ -331,6 +331,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ef409aa8c8db60e8",
+	"_rev": "10-ef9177510e1b05e0",
 	"readme": "# commondir\n\ncompute the closest common parent directory among an array of directories\n\n# example\n\n``` js\nvar commondir = require('commondir');\nvar dir = commondir(process.argv.slice(2))\nconsole.log(dir);\n```\n\noutput:\n\n```\n$ node dir.js /x/y/z /x/y /x/y/w/q\n/x/y\n$ node ../baz ../../foo/quux ./bizzy\n/foo\n```\n\n# methods\n\n``` js\nvar commondir = require('commondir');\n```\n\n## commondir(absolutePaths)\n\nCompute the closest common parent directory for an array `absolutePaths`.\n\n## commondir(basedir, relativePaths)\n\nCompute the closest common parent directory for an array `relativePaths` which\nwill be resolved for each `dir` in `relativePaths` according to:\n`path.resolve(basedir, dir)`.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install commondir\n```\n\n# license\n\nMIT"
 }

@@ -339,7 +339,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749392140
+			"fetched": 1547828426982
 		}
 	},
 	"_distfiles": {
@@ -365,6 +365,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e458bd0a8784d0ae",
+	"_rev": "10-d9577f7f3f16d983",
 	"readme": "# serialize-error [![Build Status](https://travis-ci.org/sindresorhus/serialize-error.svg?branch=master)](https://travis-ci.org/sindresorhus/serialize-error)\n\n> Serialize an error into a plain object\n\nUseful if you for example need to `JSON.stringify()` or `process.send()` the error.\n\n\n## Install\n\n```\n$ npm install serialize-error\n```\n\n\n## Usage\n\n```js\nconst serializeError = require('serialize-error');\nconst error = new Error('unicorn');\n\nconsole.log(error);\n//=> [Error: unicorn]\n\nconsole.log(serializeError(error));\n//=> {name: 'Error', message: 'unicorn', stack: 'Error: unicorn\\n    at Object.<anonymous> …'}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

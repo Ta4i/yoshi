@@ -1506,7 +1506,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749365002
+			"fetched": 1547828373088
 		}
 	},
 	"_distfiles": {
@@ -1580,6 +1580,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4fa14ec2f253d87b",
+	"_rev": "10-b9572a0b34b1b210",
 	"readme": "# react-lifecycles-compat\n\n## What is this project?\n\nReact version 17 will deprecate several of the class component API lifecycles: `componentWillMount`, `componentWillReceiveProps`, and `componentWillUpdate`. (Read the [Update on Async rendering blog post](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html) to learn more about why.) A couple of new lifecycles are also being added to better support [async rendering mode](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html).\n\nTypically, this type of change would require third party libraries to release a new major version in order to adhere to semver. However, the `react-lifecycles-compat` polyfill offers a way to use the new lifecycles with older versions of React as well (0.14.9+) so no breaking release is required. This enables shared libraries to support both older and newer versions of React simultaneously.\n\n## How can I use the polyfill\n\nFirst, install the polyfill from NPM:\n```sh\n# Yarn\nyarn add react-lifecycles-compat\n\n# NPM\nnpm install react-lifecycles-compat --save\n```\n\nNext, update your component and replace any of the deprecated lifecycles with new ones introduced with React 16.3. (Refer to the React docs for [examples of how to use the new lifecycles](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html).)\n\nLastly, use the polyfill to make the new lifecycles work with older versions of React:\n```js\nimport React from 'react';\nimport {polyfill} from 'react-lifecycles-compat';\n\nclass ExampleComponent extends React.Component {\n  static getDerivedStateFromProps(nextProps, prevState) {\n    // Normally this method would only work for React 16.3 and newer,\n    // But the polyfill will make it work for older versions also!\n  }\n\n  getSnapshotBeforeUpdate(prevProps, prevState) {\n    // Normally this method would only work for React 16.3 and newer,\n    // But the polyfill will make it work for older versions also!\n  }\n\n  // render() and other methods ...\n}\n\n// Polyfill your component so the new lifecycles will work with older versions of React:\npolyfill(ExampleComponent);\n\nexport default ExampleComponent;\n```\n\n## Which lifecycles are supported?\n\nCurrently, this polyfill supports [static `getDerivedStateFromProps`](https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops) and [`getSnapshotBeforeUpdate`](https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)- both introduced in version 16.3.\n\n## Validation\n\nNote that in order for the polyfill to work, none of the following lifecycles can be defined by your component: `componentWillMount`, `componentWillReceiveProps`, or `componentWillUpdate`.\n\nNote also that if your component contains `getSnapshotBeforeUpdate`, `componentDidUpdate` must be defined as well.\n\nAn error will be thrown if any of the above conditions are not met."
 }

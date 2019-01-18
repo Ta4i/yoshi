@@ -2753,7 +2753,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749411791
+			"fetched": 1547828447893
 		}
 	},
 	"_distfiles": {
@@ -2963,6 +2963,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2124e56f8b2aa4e4",
+	"_rev": "10-822210744165d2f1",
 	"readme": "# babel-helper-builder-react-jsx\n\n## Usage\n\n```javascript\ntype ElementState = {\n  tagExpr: Object; // tag node\n  tagName: string; // raw string tag name\n  args: Array<Object>; // array of call arguments\n  call?: Object; // optional call property that can be set to override the call expression returned\n  pre?: Function; // function called with (state: ElementState) before building attribs\n  post?: Function; // function called with (state: ElementState) after building attribs\n};\n\nrequire(\"babel-helper-builder-react-jsx\")({\n  pre: function (state: ElementState) {\n    // called before building the element\n  },\n\n  post: function (state: ElementState) {\n    // called after building the element\n  }\n});\n```"
 }

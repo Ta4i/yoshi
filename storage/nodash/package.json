@@ -1,0 +1,1519 @@
+{
+	"name": "nodash",
+	"versions": {
+		"0.6.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.6.1",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://github.com/scravy/node-prelude",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/node-prelude.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/node-prelude/issues"
+			},
+			"main": "prelude.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.1.tgz",
+				"shasum": "7746d42d334d4126a4169d5c4f9bc3736d434f09"
+			},
+			"devDependencies": {
+				"chalk": "^1.0.0",
+				"gulp": "^3.8.11",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-rename": "^1.2.2",
+				"gulp-uglify": "^1.2.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.6.1",
+			"gitHead": "12f2ea106613894640ea09d76d486c3946effd12",
+			"_shasum": "7746d42d334d4126a4169d5c4f9bc3736d434f09"
+		},
+		"0.7.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.7.0",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://github.com/scravy/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.7.0.tgz",
+				"shasum": "175dd6c279222a506226f34ad02e33303215bc24"
+			},
+			"devDependencies": {
+				"chalk": "^1.0.0",
+				"gulp": "^3.8.11",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-rename": "^1.2.2",
+				"gulp-uglify": "^1.2.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.7.0",
+			"gitHead": "6f989aa15cf4eca79efc72388fcd65df20f80d84",
+			"_shasum": "175dd6c279222a506226f34ad02e33303215bc24",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.8.2": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.8.2",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.2.tgz",
+				"shasum": "38d8aab604d665650505745eb509b1fcd0d43b76"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"marked": "^0.3.3",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.8.2",
+			"gitHead": "e29d84a7ec0a10e0a294caa9c93740d5ba65811c",
+			"_shasum": "38d8aab604d665650505745eb509b1fcd0d43b76"
+		},
+		"0.9.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.9.1",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.1.tgz",
+				"shasum": "aa88411d5eface7d7fa9dda1b1f49ec16c0e1dd5"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.3",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.9.1",
+			"gitHead": "66e234f8e9803262f402eb1d18c9ec518f3015af",
+			"_shasum": "aa88411d5eface7d7fa9dda1b1f49ec16c0e1dd5",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.9.2": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.9.2",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.2.tgz",
+				"shasum": "41254f7cda76c3aa491466858cc5cbce85fc9c92"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.3",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.9.2",
+			"gitHead": "f9a182ce92fafe6019c050be9102a4fef8cd6ce4",
+			"_shasum": "41254f7cda76c3aa491466858cc5cbce85fc9c92",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.10.3": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.10.3",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.3.tgz",
+				"shasum": "e1deb6abedd7fd9efbc95e6ba0273577d1872383"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.1",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.10.3",
+			"gitHead": "b22693a7c17659cdc906e050255d8a12d0e3d76d",
+			"_shasum": "e1deb6abedd7fd9efbc95e6ba0273577d1872383",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.6.2": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.6.2",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://github.com/scravy/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "prelude.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.2.tgz",
+				"shasum": "04ba644c840db3a66925044cccc7b908838ba899"
+			},
+			"devDependencies": {
+				"chalk": "^1.0.0",
+				"gulp": "^3.8.11",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-rename": "^1.2.2",
+				"gulp-uglify": "^1.2.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.6.2",
+			"gitHead": "93f777864641ad7eaee9ff5327faa1e16f0aa90d",
+			"_shasum": "04ba644c840db3a66925044cccc7b908838ba899"
+		},
+		"0.7.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.7.1",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.7.1.tgz",
+				"shasum": "e8cb38c53cadcf9adf94b658b931f8c14e7860f9"
+			},
+			"devDependencies": {
+				"chalk": "^1.0.0",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.7.1",
+			"gitHead": "48568daaa3159de57c4008e5bd27c3f9f0ba1539",
+			"_shasum": "e8cb38c53cadcf9adf94b658b931f8c14e7860f9",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.8.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.8.0",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.0.tgz",
+				"shasum": "a324f7afda7e05d7ab6388686110c0779245654c"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"marked": "^0.3.3",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.8.0",
+			"gitHead": "d586f5ab8306b4d29d339c61a35a93279b5c23b5",
+			"_shasum": "a324f7afda7e05d7ab6388686110c0779245654c"
+		},
+		"0.10.2": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.10.2",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.2.tgz",
+				"shasum": "071b5ca7dca749bc939649f6de3781f30889eeec"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.1",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.10.2",
+			"gitHead": "46b54f4df3024c4bc10103c3a2bde8293e40fa01",
+			"_shasum": "071b5ca7dca749bc939649f6de3781f30889eeec",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.11.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.11.1",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.11.1.tgz",
+				"shasum": "50d7f2e4ca5358bc54fc0bf329a69b65deb4e87b"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0",
+				"steinhaus-johnson-trotter": "^1.1.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.2",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.11.1",
+			"gitHead": "5de3cba1ff87b1d4d5b953ce9246ded127cac489",
+			"_shasum": "50d7f2e4ca5358bc54fc0bf329a69b65deb4e87b",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.12.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.12.0",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.12.0.tgz",
+				"shasum": "817efe7cf1d1e23b2b973115d06e0000e79ebf79"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0",
+				"steinhaus-johnson-trotter": "^1.1.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.3",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.2",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.12.0",
+			"gitHead": "5a86a60b8f8d7a353d1658def37f854941c81e6e",
+			"_shasum": "817efe7cf1d1e23b2b973115d06e0000e79ebf79",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.6.3": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.6.3",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://github.com/scravy/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "prelude.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.3.tgz",
+				"shasum": "9762611beea90c757a87dc8119a3723ed1cc4fb8"
+			},
+			"devDependencies": {
+				"chalk": "^1.0.0",
+				"gulp": "^3.8.11",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-rename": "^1.2.2",
+				"gulp-uglify": "^1.2.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.6.3",
+			"gitHead": "9f6ba3f8affa1a0e56ee1020414d95f1a1ea0e9b",
+			"_shasum": "9762611beea90c757a87dc8119a3723ed1cc4fb8"
+		},
+		"0.8.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.8.1",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.1.tgz",
+				"shasum": "4e1e61e31ae09631873971f52677b7d36ed75916"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.7.0",
+				"lodash-cli": "^3.7.0",
+				"marked": "^0.3.3",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.8.1",
+			"gitHead": "8c5a1e07306973129d5fb4bd57fdecaa112a99fe",
+			"_shasum": "4e1e61e31ae09631873971f52677b7d36ed75916"
+		},
+		"0.9.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.9.0",
+			"author": {
+				"name": "Julian Fleischer"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.0.tgz",
+				"shasum": "64bcc128617186e4969051862703eccbdfdd3c47"
+			},
+			"devDependencies": {
+				"chai": "^3.0.0",
+				"chalk": "^1.0.0",
+				"filesize": "^3.1.2",
+				"gulp": "^3.8.11",
+				"gulp-docco": "0.0.4",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.1.0",
+				"gulp-istanbul": "^0.8.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.10.0",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.0.1",
+				"gulp-mustache": "^1.0.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.3",
+				"gulp-sourcemaps": "^1.5.2",
+				"gulp-uglify": "^1.2.0",
+				"highlight.js": "^8.6.0",
+				"less-plugin-autoprefix": "^1.4.2",
+				"less-plugin-clean-css": "^1.5.0",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.3",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.9.0",
+			"gitHead": "a6e2be9f6ee8ce695440d661275b8ea7cc768ba5",
+			"_shasum": "64bcc128617186e4969051862703eccbdfdd3c47",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.10.1": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.10.1",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.1.tgz",
+				"shasum": "41a2093ec31bdcde1c128c682dd3f7373303f000"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.1",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.10.1",
+			"gitHead": "cf2a7acb2e52e390d52b395bf7a6bb450f831dd0",
+			"_shasum": "41a2093ec31bdcde1c128c682dd3f7373303f000",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.11.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.11.0",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.11.0.tgz",
+				"shasum": "744dc049c6665b6e9a171f3ce08b5ef3830dcc12"
+			},
+			"dependencies": {
+				"knuth-morris-pratt": "^1.0.0",
+				"steinhaus-johnson-trotter": "^1.1.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"docco": "^0.7.0",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.1",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.11.0",
+			"gitHead": "870852a7959a2c65e4c329e38afdba28623614bd",
+			"_shasum": "744dc049c6665b6e9a171f3ce08b5ef3830dcc12",
+			"_nodeVersion": "0.10.33"
+		},
+		"0.10.0": {
+			"name": "nodash",
+			"description": "A port of the Haskell Prelude to JavaScript/NodeJS",
+			"version": "0.10.0",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://scravy.github.io/nodash",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/scravy/nodash.git"
+			},
+			"bugs": {
+				"url": "https://github.com/scravy/nodash/issues"
+			},
+			"main": "nodash.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.0.tgz",
+				"shasum": "4831ad29de5bfc10d2b95e0b84a895efd76d7065"
+			},
+			"dependencies": {
+				"docco": "^0.7.0",
+				"knuth-morris-pratt": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"chalk": "^1.1.1",
+				"directorywalker": "^1.0.2",
+				"filesize": "^3.1.3",
+				"gulp": "^3.9.0",
+				"gulp-esmangle": "^1.1.1",
+				"gulp-filenames": "^2.0.0",
+				"gulp-gh-pages": "^0.5.2",
+				"gulp-gzip": "^1.2.0",
+				"gulp-istanbul": "^0.10.1",
+				"gulp-istanbul-enforcer": "^1.0.3",
+				"gulp-jshint": "^1.11.2",
+				"gulp-less": "^3.0.3",
+				"gulp-markdown": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"gulp-mustache": "^1.1.2",
+				"gulp-preprocess": "^1.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-replace": "^0.5.4",
+				"gulp-sourcemaps": "^1.6.0",
+				"gulp-uglify": "^1.4.1",
+				"highlight.js": "^8.8.0",
+				"less-plugin-autoprefix": "^1.5.1",
+				"less-plugin-clean-css": "^1.5.1",
+				"lodash": "^3.10.1",
+				"marked": "^0.3.5",
+				"sprintf": "^0.1.5",
+				"underscore": "^1.8.3",
+				"vinyl-buffer": "^1.0.0",
+				"vinyl-source-stream": "^1.1.0"
+			},
+			"keywords": [
+				"prelude",
+				"haskell",
+				"functional",
+				"functional-programming",
+				"utility",
+				"library"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "gulp testm"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "nodash@0.10.0",
+			"gitHead": "c77a27b480c5309076a2a3e60f33c9d0953588e7",
+			"_shasum": "4831ad29de5bfc10d2b95e0b84a895efd76d7065",
+			"_nodeVersion": "0.10.33"
+		}
+	},
+	"time": {
+		"0.6.1": "2015-04-26T20:25:28.183Z",
+		"0.7.0": "2015-06-12T23:28:30.008Z",
+		"0.8.2": "2015-08-21T10:02:52.614Z",
+		"0.9.1": "2015-09-03T22:06:55.798Z",
+		"0.9.2": "2015-09-03T22:39:17.650Z",
+		"0.10.3": "2015-10-07T23:38:45.826Z",
+		"created": "2015-04-26T20:25:28.183Z",
+		"0.6.2": "2015-04-26T20:29:20.053Z",
+		"0.7.1": "2015-06-13T02:41:25.665Z",
+		"0.8.0": "2015-08-06T03:05:29.919Z",
+		"0.10.2": "2015-10-07T21:01:57.242Z",
+		"0.11.1": "2015-10-13T23:09:41.513Z",
+		"0.12.0": "2015-10-14T23:36:30.604Z",
+		"0.6.3": "2015-04-26T20:39:24.119Z",
+		"0.8.1": "2015-08-19T09:00:51.951Z",
+		"0.9.0": "2015-09-02T00:28:50.850Z",
+		"0.10.1": "2015-10-06T19:54:45.684Z",
+		"0.11.0": "2015-10-13T01:01:42.969Z",
+		"0.10.0": "2015-10-05T23:29:37.354Z",
+		"modified": "2015-10-14T23:36:30.604Z"
+	},
+	"dist-tags": {
+		"latest": "0.12.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828447294
+		}
+	},
+	"_distfiles": {
+		"nodash-0.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.1.tgz",
+			"sha": "7746d42d334d4126a4169d5c4f9bc3736d434f09"
+		},
+		"nodash-0.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.7.0.tgz",
+			"sha": "175dd6c279222a506226f34ad02e33303215bc24"
+		},
+		"nodash-0.8.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.2.tgz",
+			"sha": "38d8aab604d665650505745eb509b1fcd0d43b76"
+		},
+		"nodash-0.9.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.1.tgz",
+			"sha": "aa88411d5eface7d7fa9dda1b1f49ec16c0e1dd5"
+		},
+		"nodash-0.9.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.2.tgz",
+			"sha": "41254f7cda76c3aa491466858cc5cbce85fc9c92"
+		},
+		"nodash-0.10.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.3.tgz",
+			"sha": "e1deb6abedd7fd9efbc95e6ba0273577d1872383"
+		},
+		"nodash-0.6.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.2.tgz",
+			"sha": "04ba644c840db3a66925044cccc7b908838ba899"
+		},
+		"nodash-0.7.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.7.1.tgz",
+			"sha": "e8cb38c53cadcf9adf94b658b931f8c14e7860f9"
+		},
+		"nodash-0.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.0.tgz",
+			"sha": "a324f7afda7e05d7ab6388686110c0779245654c"
+		},
+		"nodash-0.10.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.2.tgz",
+			"sha": "071b5ca7dca749bc939649f6de3781f30889eeec"
+		},
+		"nodash-0.11.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.11.1.tgz",
+			"sha": "50d7f2e4ca5358bc54fc0bf329a69b65deb4e87b"
+		},
+		"nodash-0.12.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.12.0.tgz",
+			"sha": "817efe7cf1d1e23b2b973115d06e0000e79ebf79"
+		},
+		"nodash-0.6.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.6.3.tgz",
+			"sha": "9762611beea90c757a87dc8119a3723ed1cc4fb8"
+		},
+		"nodash-0.8.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.8.1.tgz",
+			"sha": "4e1e61e31ae09631873971f52677b7d36ed75916"
+		},
+		"nodash-0.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.9.0.tgz",
+			"sha": "64bcc128617186e4969051862703eccbdfdd3c47"
+		},
+		"nodash-0.10.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.1.tgz",
+			"sha": "41a2093ec31bdcde1c128c682dd3f7373303f000"
+		},
+		"nodash-0.11.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.11.0.tgz",
+			"sha": "744dc049c6665b6e9a171f3ce08b5ef3830dcc12"
+		},
+		"nodash-0.10.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nodash/-/nodash-0.10.0.tgz",
+			"sha": "4831ad29de5bfc10d2b95e0b84a895efd76d7065"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-3ec4732c4d5746bd",
+	"readme": "nodash\n======\n\n[![Build Status](https://travis-ci.org/scravy/nodash.svg?branch=master)](https://travis-ci.org/scravy/nodash)\n[![Dependencies](https://david-dm.org/scravy/nodash.svg)](https://david-dm.org/scravy/nodash#info=dependencies&view=table)\n[![Dependencies](https://david-dm.org/scravy/nodash/dev-status.svg)](https://david-dm.org/scravy/nodash#info=devDependencies&view=table)\n\n\n***nodash*** offers you a rich set of library functions, comparable to\nthe likes of [***underscore***](http://underscorejs.org/)\nor [***lodash***](https://lodash.com/).\nThe functions are actually derived\nfrom the [***Haskell Prelude***](https://hackage.haskell.org/package/base-4.7.0.0/docs/Prelude.html)\nand emphasize a [functional programming style](https://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf).\n\nA special trait of this library is that it discards some JavaScript concepts\n(like prototypes or optional arguments) to allow some (in the authors opinion)\nmore useful ones (such as currying).\n\nEvery function from this library can be thought of as *curried*, i.e. you can\npartially apply any function and get a function in return (on the other hand this\nmeans there are no optional arguments). It also supports *lists* which can be\nevaluated lazily and *infinite streams*.\n\nBrowse through the\n [apidoc](https://scravy.github.io/nodash/apidoc.html),\n [benchmark](https://github.com/scravy/nodash/tree/master/benchmark/index.js), or\n [tests](https://github.com/scravy/nodash/tree/master/test) for examples.\n\nFor a list of which prelude functions are covered see the\n[apidoc appendix](http://scravy.github.io/nodash/apidoc.html#Appendix).\n\nNodash is available via [npm](https://www.npmjs.com/package/nodash).\n\n\nExample\n-------\n\n```JavaScript\nNodash.install(global || window); // node or browser\n\nvar reverse = foldl(flip(cons), []);\n\nconsole.log(reverse([1,2,3])); // → [3,2,1]\n```\n\n\nUsage\n-----\n\n### in node\n\n```\nnpm install --save nodash\n```\n\n```JavaScript\nvar Nodash = require('nodash');\n```\n\n\n### in the browser\n\n```HTML\n<script src=\"nodash.js\"></script>\n<script>\n    // Nodash is available in `window.Nodash`\n    document.write(Nodash.foldl(Nodash.flip(cons), []));\n</script>\n```\n\n\n### in legacy browsers\n\nJust pull in `es5-shim` first:\n\n```HTML\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.13/es5-shim.js\"></script>\n<script src=\"nodash.js\"></script>\n```\n\n\n### `install(mountpoint)`\n\nIt is possible to attach the Nodash functions directly\nto the global object (in fact, any object), optionally\nwith a prefix or postfix:\n\n```JavaScript\nNodash.install(global);           → foldl(flip(cons), []);\nNodash.install([ '$', global ]);  → $foldl($flip($cons), []);\nNodash.install([ global, '_' ]);  → foldl_(flip_(cons_), []);\nNodash.install([ 'f_', global ]); → f_foldl(f_flip(f_cons), []);\n```\n\nBoth a prefix and a postfix works too:\n\n```JavaScript\nNodash.install([ '__', global, '__' ]); → __foldl__(__flip__(__cons__), []);\n```\n\n\nLicense\n-------\n\n    Copyright (c) 2015 Julian Alexander Fleischer\n\n    Permission is hereby granted, free of charge, to any\n    person obtaining a copy of this software and associated\n    documentation files (the \"Software\"), to deal in the\n    Software without restriction, including without\n    limitation the rights to use, copy, modify, merge,\n    publish, distribute, sublicense, and/or sell copies of\n    the Software, and to permit persons to whom the Software\n    is furnished to do so, subject to the following\n    conditions:\n\n    The above copyright notice and this permission notice\n    shall be included in all copies or substantial portions\n    of the Software.\n\n    THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF\n    ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED\n    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\n    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\n    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF\n    CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\n    IN THE SOFTWARE."
+}

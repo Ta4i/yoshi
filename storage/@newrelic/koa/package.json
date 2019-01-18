@@ -547,7 +547,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749386312
+			"fetched": 1547828440932
 		}
 	},
 	"_distfiles": {
@@ -589,6 +589,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-7cb8af6d1fcccebe",
+	"_rev": "8-b43edd23d61f9310",
 	"readme": "[![Coverage Status][1]][2]\n\nNew Relic's official Koa framework instrumentation for use with the\n[Node agent](https://github.com/newrelic/node-newrelic). This module is a\ndependency of the agent and is installed with it by running:\n\n```\nnpm install newrelic\n```\n\nAlternatively, it can be installed and loaded independently based on specific\nversioning needs:\n\n```\nnpm install @newrelic/koa\n```\n```js\n// index.js\nrequire('@newrelic/koa')\n```\n\n### Supported routing modules\n\n- `koa-router`\n- `koa-route`\n\nFor more information, please see the agent [installation guide][3], and\n[compatibility and requirements][4].\n\n[1]: https://coveralls.io/repos/github/newrelic/node-newrelic-koa/badge.svg?branch=master\n[2]: https://coveralls.io/github/newrelic/node-newrelic-koa?branch=master\n[3]: https://docs.newrelic.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent\n[4]: https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent"
 }

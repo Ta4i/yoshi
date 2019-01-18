@@ -155,7 +155,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749360567
+			"fetched": 1547828395801
 		}
 	},
 	"_distfiles": {
@@ -169,6 +169,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-85b15064e265647d",
+	"_rev": "10-b2d2f8181b0fa90d",
 	"readme": "# resolve-cwd [![Build Status](https://travis-ci.org/sindresorhus/resolve-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/resolve-cwd)\n\n> Resolve the path of a module like [`require.resolve()`](https://nodejs.org/api/globals.html#globals_require_resolve) but from the current working directory\n\n\n## Install\n\n```\n$ npm install --save resolve-cwd\n```\n\n\n## Usage\n\n```js\nconst resolveCwd = require('resolve-cwd');\n\nconsole.log(__dirname);\n//=> '/Users/sindresorhus/rainbow'\n\nconsole.log(process.cwd());\n//=> '/Users/sindresorhus/unicorn'\n\nresolveCwd('./foo');\n//=> '/Users/sindresorhus/unicorn/foo.js'\n```\n\n\n## API\n\n### resolveCwd(moduleId)\n\nLike `require()`, throws when the module can't be found.\n\n### resolveCwd.silent(moduleId)\n\nReturns `null` instead of throwing when the module can't be found.\n\n#### moduleId\n\nType: `string`\n\nWhat you would use in `require()`.\n\n\n## Related\n\n- [resolve-from](https://github.com/sindresorhus/resolve-from) - Resolve the path of a module from a given path\n- [req-from](https://github.com/sindresorhus/req-from) - Require a module from a given path\n- [req-cwd](https://github.com/sindresorhus/req-cwd) - Require a module from the current working directory\n- [resolve-pkg](https://github.com/sindresorhus/resolve-pkg) - Resolve the path of a package regardless of it having an entry point\n- [lazy-req](https://github.com/sindresorhus/lazy-req) - Require modules lazily\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

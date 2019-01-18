@@ -2323,7 +2323,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749380503
+			"fetched": 1547828420502
 		}
 	},
 	"_distfiles": {
@@ -2493,6 +2493,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-373b6855cf002b71",
+	"_rev": "10-b2f66bbe9caf9e0f",
 	"readme": "# babel-plugin-check-es2015-constants\n\nValidate ES2015 constants\n\n## Installation\n\n```sh\n$ npm install babel-plugin-check-es2015-constants\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"check-es2015-constants\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins check-es2015-constants script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"check-es2015-constants\"]\n});\n```\n\n## Note\n\nThis check will only validate consts. If you need it to compile down to `var` then you must also install and enable [`check-es2015-block-scoping`](../babel-plugin-check-es2015-block-scoping)."
 }

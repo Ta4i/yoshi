@@ -201,7 +201,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749422012
+			"fetched": 1547828452512
 		}
 	},
 	"_distfiles": {
@@ -215,6 +215,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d2d91a675dc877cd",
+	"_rev": "10-09ff078df6a3d539",
 	"readme": "# decamelize-keys [![Build Status](https://travis-ci.org/dsblv/decamelize-keys.svg?branch=master)](https://travis-ci.org/dsblv/decamelize-keys)\n\n> Convert object keys from camelCase to lowercase with a custom separator using [`decamelize`](https://github.com/sindresorhus/decamelize)\n\n*This project was forked from [`camelcase-keys`](https://github.com/sindresorhus/camelcase-keys) and converted to do the opposite*\n\n\n## Install\n\n```sh\n$ npm install --save decamelize-keys\n```\n\n\n## Usage\n\n```js\nconst decamelizeKeys = require('decamelize-keys');\n\ndecamelizeKeys({fooBar: true}, '-');\n//=> {'foo-bar': true}\n```\n\n\n## API\n\n### decamelizeKeys(input, [separator], [options])\n\n### input\n\nType: `object`  \n*Required*\n\nObject to decamelize.\n\n### separator\n\nType: `string`  \nDefault: `_`\n\nA string to insert between words.\n\n### options\n\nType: `object`\n\n#### separator\n\nType: `string`  \nDefault: `_`\n\nAlternative way to specify [separator](#separator).\n\n#### exclude\n\nType: `array`  \nDefault: `[]`\n\nExclude keys from being decamelized.\n\n\n## Related\n\nSee [`camelcase-keys`](https://github.com/sindresorhus/camelcase-keys) for the inverse.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com), [Dmirty Sobolev](https://github.com/dsblv)"
 }

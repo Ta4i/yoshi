@@ -511,7 +511,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749461270
+			"fetched": 1547828480117
 		}
 	},
 	"_distfiles": {
@@ -537,6 +537,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-851c0288517d49bb",
+	"_rev": "10-49249cacfe7e09a4",
 	"readme": "# character-entities [![Build Status][travis-badge]][travis]\n\nHTML character entity information.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install character-entities\n```\n\n## Usage\n\n```js\nvar characterEntities = require('character-entities')\n\nconsole.log(characterEntities.AElig) // => 'Æ'\nconsole.log(characterEntities.aelig) // => 'æ'\nconsole.log(characterEntities.amp) // => '&'\n```\n\n## API\n\n### characterEntities\n\nMapping between (case-sensitive) character entity names to replacements.\n\n## Support\n\nSee [html.spec.whatwg.org][html].\n\n## Related\n\n*   [`character-entities-html4`](https://github.com/wooorm/character-entities-html4)\n    — HTML 4 character entity info\n*   [`character-entities-legacy`](https://github.com/wooorm/character-entities-legacy)\n    — Legacy character entity info\n*   [`parse-entities`](https://github.com/wooorm/parse-entities)\n    — Parse HTML character references\n*   [`stringify-entities`](https://github.com/wooorm/stringify-entities)\n    — Stringify HTML character references\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/character-entities.svg\n\n[travis]: https://travis-ci.org/wooorm/character-entities\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[html]: https://html.spec.whatwg.org/multipage/syntax.html#named-character-references"
 }

@@ -175,7 +175,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749363957
+			"fetched": 1547828398496
 		}
 	},
 	"_distfiles": {
@@ -189,6 +189,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e97e49643681b1b8",
+	"_rev": "10-8fb8364aa2782d75",
 	"readme": "# pkg-up [![Build Status](https://travis-ci.org/sindresorhus/pkg-up.svg?branch=master)](https://travis-ci.org/sindresorhus/pkg-up)\n\n> Find the closest package.json file\n\n\n## Install\n\n```\n$ npm install --save pkg-up\n```\n\n\n## Usage\n\n```\n/\n└── Users\n    └── sindresorhus\n        └── foo\n            ├── package.json\n            └── bar\n                ├── baz\n                └── example.js\n```\n\n```js\n// example.js\nconst pkgUp = require('pkg-up');\n\npkgUp().then(filepath => {\n\tconsole.log(filepath);\n\t//=> '/Users/sindresorhus/foo/package.json'\n});\n```\n\n\n## API\n\n### pkgUp([cwd])\n\nReturns a `Promise` for either the filepath or `null` if it could be found.\n\n### pkgUp.sync([cwd])\n\nReturns the filepath or `null`.\n\n#### cwd\n\nType: `string`\nDefault: `process.cwd()`\n\nDirectory to start from.\n\n\n## Related\n\n- [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - Read the closest package.json file\n- [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package\n- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

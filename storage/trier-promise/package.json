@@ -127,7 +127,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749377616
+			"fetched": 1547828416089
 		}
 	},
 	"_distfiles": {
@@ -141,6 +141,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-061f4cc6416423a0",
+	"_rev": "8-a4cf8e205d55150f",
 	"readme": "# trier-promise\r\n\r\nA promise based trier\r\n\r\nDo one thing and do it well many times.\r\n\r\n# Installation\r\n\r\nnpm install trier-promise\r\n\r\n# Interface\r\n\r\n## Require\r\n\r\n```javascript\r\nvar tp = require('trier-promise');\r\n\r\n```\r\n\r\n## Try something for 10 seconds at 1 second intervals\r\n\r\n```javascript\r\ntp({\r\n    action: someFunctionThatReturnsAPromise,\r\n    timeout: 10000,\r\n    interval: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```\r\n\r\n## Try something for 10 seconds but guarantee 1 second sleep time between calls\r\n\r\nIf the asynchronous function takes a while, you may not want overlapping calls. \r\n\r\n```javascript\r\ntp({\r\n    action: aFunctionWithStdAsyncSignature,\r\n    timeout: 10000,\r\n    sleep: 1000,\r\n    async: true   // note: this is needed so that tp knows to call with callback and wait\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```\r\n\r\n## Try something 10 times, no matter the time\r\n\r\n```javascript\r\ntp({\r\n    action: aFunctionThatReturnsImmediately,\r\n    limit: 10,\r\n    sleep: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'LIMIT'\r\n  });\r\n```\r\n\r\n## Try something until some condition\r\n\r\n```javascript\r\ntp({\r\n    action: someFunctionThatReturnsAPromise,\r\n    until: function() { return Math.random() < 0.1 },\r\n    sleep: 1000\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'UNTIL'\r\n  });\r\n```\r\n\r\n\r\n## Exponentially growing interval\r\n\r\nSometimes you want to start polling rapidly but slow down for subsequent calls.\r\n\r\nSo instead of using a Number value as the interval (or sleep), specify a function that returns a Number.\r\n\r\n```javascript\r\nvar interval = 10;\r\ntp({\r\n    action: aFunctionWithStdAsyncSignature,\r\n    timeout: 600000, // 10 minutes\r\n    interval: function() { return interval *= 2; },\r\n    async: true   // note: this is needed so that tp knows to call with callback and wait\r\n  })\r\n  .then(function(value) {\r\n    // the value from the first success\r\n  })\r\n  .catch(function(error) {\r\n    // error.message === 'TIMEOUT'\r\n  });\r\n```"
 }

@@ -11967,7 +11967,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749327759
+			"fetched": 1547828351338
 		}
 	},
 	"_distfiles": {
@@ -12513,6 +12513,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-c480be10e6abaeda",
+	"_rev": "10-0034e82f2ef6836a",
 	"readme": "# `react-dom`\n\nThis package serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as `react` to npm.\n\n## Installation\n\n```sh\nnpm install react react-dom\n```\n\n## Usage\n\n### In the browser\n\n```js\nvar React = require('react');\nvar ReactDOM = require('react-dom');\n\nclass MyComponent extends React.Component {\n  render() {\n    return <div>Hello World</div>;\n  }\n}\n\nReactDOM.render(<MyComponent />, node);\n```\n\n### On the server\n\n```js\nvar React = require('react');\nvar ReactDOMServer = require('react-dom/server');\n\nclass MyComponent extends React.Component {\n  render() {\n    return <div>Hello World</div>;\n  }\n}\n\nReactDOMServer.renderToString(<MyComponent />);\n```\n\n## API\n\n### `react-dom`\n\n- `findDOMNode`\n- `render`\n- `unmountComponentAtNode`\n\n### `react-dom/server`\n\n- `renderToString`\n- `renderToStaticMarkup`"
 }

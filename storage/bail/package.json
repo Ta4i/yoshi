@@ -403,7 +403,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749456238
+			"fetched": 1547828476973
 		}
 	},
 	"_distfiles": {
@@ -425,6 +425,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4bf0db5cb2f12a06",
+	"_rev": "10-252bdcbe569a93d9",
 	"readme": "# bail [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\n:warning: Throw a given error.\n\n## Installation\n\n[npm][npm-install]:\n\n```bash\nnpm install bail\n```\n\n## Usage\n\n```js\nvar bail = require('bail')\n\nbail()\n\nbail(new Error('failure'))\n// Error: failure\n//     at repl:1:6\n//     at REPLServer.defaultEval (repl.js:154:27)\n//     ...\n```\n\n## API\n\n### `bail([err])`\n\nThrow a given error.\n\n###### Parameters\n\n*   `err` (`Error?`) — Optional error.\n\n###### Throws\n\n*   `Error` — Given error, if any.\n\n## Related\n\n*   [`noop`][noop]\n*   [`noop2`][noop2]\n*   [`noop3`][noop3]\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/bail.svg\n\n[travis]: https://travis-ci.org/wooorm/bail\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/bail.svg\n\n[codecov]: https://codecov.io/github/wooorm/bail\n\n[npm-install]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[noop]: https://www.npmjs.com/package/noop\n\n[noop2]: https://www.npmjs.com/package/noop2\n\n[noop3]: https://www.npmjs.com/package/noop3"
 }

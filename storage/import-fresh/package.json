@@ -161,7 +161,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749371767
+			"fetched": 1547828369466
 		}
 	},
 	"_distfiles": {
@@ -175,6 +175,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2d4155cbb6cbbe80",
+	"_rev": "10-82527a838f96c534",
 	"readme": "# import-fresh [![Build Status](https://travis-ci.org/sindresorhus/import-fresh.svg?branch=master)](https://travis-ci.org/sindresorhus/import-fresh)\n\n> Import a module while bypassing the [cache](https://nodejs.org/api/modules.html#modules_caching)\n\nUseful for testing purposes when you need to freshly import a module.\n\n\n## Install\n\n```\n$ npm install import-fresh\n```\n\n\n## Usage\n\n```js\n// foo.js\nlet i = 0;\nmodule.exports = () => ++i;\n```\n\n```js\nconst importFresh = require('import-fresh');\n\nrequire('./foo')();\n//=> 1\n\nrequire('./foo')();\n//=> 2\n\nimportFresh('./foo')();\n//=> 1\n\nimportFresh('./foo')();\n//=> 1\n```\n\n\n## Related\n\n- [clear-module](https://github.com/sindresorhus/clear-module) - Clear a module from the import cache\n- [import-from](https://github.com/sindresorhus/import-from) - Import a module from a given path\n- [import-cwd](https://github.com/sindresorhus/import-cwd) - Import a module from the current working directory\n- [import-lazy](https://github.com/sindresorhus/import-lazy) - Import modules lazily\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

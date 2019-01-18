@@ -733,7 +733,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749373249
+			"fetched": 1547828371298
 		}
 	},
 	"_distfiles": {
@@ -775,6 +775,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-8bc7d867ffab4f1b",
+	"_rev": "10-b4b8882bfeb71e5f",
 	"readme": "# listr-update-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-update-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-update-renderer)\n\n> [Listr](https://github.com/SamVerschueren/listr) update renderer\n\n<img src=\"screenshot.gif\" />\n\n\n## Install\n\n```\n$ npm install --save listr-update-renderer\n```\n\n\n## Usage\n\n```js\nconst UpdaterRenderer = require('listr-update-renderer');\nconst Listr = require('listr');\n\nconst list = new Listr([\n    {\n        title: 'foo',\n        task: () => Promise.resolve('bar')\n    }\n], {\n    renderer: UpdaterRenderer,\n\tcollapse: false\n});\n\nlist.run();\n```\n\n> Note: This is the default renderer for [Listr](https://github.com/SamVerschueren/listr) and doesn't need to be specified.\n\n\n## Options\n\nThese options should be provided in the [Listr](https://github.com/SamVerschueren/listr) options object.\n\n### showSubtasks\n\nType: `boolean`<br>\nDefault: `true`\n\nSet to `false` if you want to disable the rendering of the subtasks. Subtasks will be rendered if an error occurred in one of them.\n\n### collapse\n\nType: `boolean`<br>\nDefault: `true`\n\nSet to `false` if you don't want subtasks to be hidden after the main task succeed.\n\n### clearOutput\n\nType: `boolean`<br>\nDefault: `false`\n\nClear the output when all the tasks are executed succesfully.\n\n\n## Related\n\n- [listr](https://github.com/SamVerschueren/listr) - Terminal task list\n- [listr-verbose-renderer](https://github.com/SamVerschueren/listr-verbose-renderer) - Listr verbose renderer\n- [listr-silent-renderer](https://github.com/SamVerschueren/listr-silent-renderer) - Suppress Listr rendering output\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)"
 }

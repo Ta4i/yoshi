@@ -595,7 +595,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749431748
+			"fetched": 1547828456326
 		}
 	},
 	"_distfiles": {
@@ -641,6 +641,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b56aea3fb89d0c8e",
+	"_rev": "10-ce1d3ca13d4c88d5",
 	"readme": "# stream-each\n\nIterate all the data in a stream\n\n```\nnpm install stream-each\n```\n\n[![build status](http://img.shields.io/travis/mafintosh/stream-each.svg?style=flat)](http://travis-ci.org/mafintosh/stream-each)\n\n## Usage\n\n``` js\nvar each = require('stream-each')\n\neach(stream, function (data, next) {\n  console.log('data from stream', data)\n  // when ready to consume next chunk\n  next()\n}, function (err) {\n  console.log('no more data')\n})\n```\n\n## API\n\n#### `each(stream, iterator, cb)`\n\nIterate the data in the stream by calling the iterator function with `(data, next)`\nwhere data is a data chunk and next is a callback. Call next when you are ready to\nconsume the next chunk. Optionally you can call next with an error to destroy the stream\n\nWhen the stream ends/errors the callback is called if provided\n\n## License\n\nMIT\n\n## Related\n\n`stream-each` is part of the [mississippi stream utility collection](https://github.com/maxogden/mississippi) which includes more useful stream modules similar to this one."
 }

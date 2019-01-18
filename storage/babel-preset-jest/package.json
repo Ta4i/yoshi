@@ -7095,7 +7095,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749352075
+			"fetched": 1547828369591
 		}
 	},
 	"_distfiles": {
@@ -7613,6 +7613,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-dadd4094eb88c14c",
+	"_rev": "10-edc8c1e798dbe234",
 	"readme": "# babel-preset-jest\n\n> Babel preset for all Jest plugins. This preset is automatically included when using [babel-jest](https://github.com/facebook/jest/tree/master/packages/babel-jest).\n\n## Install\n\n```sh\n$ npm install --save-dev babel-preset-jest\n```\n\n## Usage\n\n### Via `babel.config.js` (Recommended)\n\n```js\nmodule.exports = {\n  presets: ['jest'],\n};\n```\n\n### Via CLI\n\n```sh\n$ babel script.js --presets jest\n```\n\n### Via Node API\n\n```javascript\nrequire('@babel/core').transform('code', {\n  presets: ['jest'],\n});\n```"
 }

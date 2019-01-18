@@ -1,0 +1,1701 @@
+{
+	"name": "scrollmonitor",
+	"versions": {
+		"1.0.12": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.12",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.12.tgz",
+				"shasum": "b9f46f50e53173724ab8456bc1ef2930cd34e225"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1",
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.12",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "ca79f4eaf3f63a50d21a21b128792e580b8e36a3",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_shasum": "b9f46f50e53173724ab8456bc1ef2930cd34e225"
+		},
+		"1.0.13": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.13",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.13.tgz",
+				"shasum": "bb76341cbf455ab31120022d653fe9be25521a4a"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1",
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.13",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "bd33af06784f9261cad4346f8e742eb270c6f96b",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.0.13.tgz_1475092687503_0.8807187543716282"
+			},
+			"_shasum": "bb76341cbf455ab31120022d653fe9be25521a4a",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.10": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.10",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.10.tgz",
+				"shasum": "3a8c929f2f7a6de306e91994411ae144b58c0c28"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.10",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "a52d1ff0e6f1cdf88c9b1fca95f0974c05391ce6",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_shasum": "3a8c929f2f7a6de306e91994411ae144b58c0c28"
+		},
+		"1.0.11": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.11",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.11.tgz",
+				"shasum": "e923a72ee033fb6cca88361cae8520cf20f1e503"
+			},
+			"dependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1"
+			},
+			"devDependencies": {
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.0.2",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.11",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "014cfd8fbec04350a1e17f309e39b0e9dc9ae4c9",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_shasum": "e923a72ee033fb6cca88361cae8520cf20f1e503",
+			"_nodeVersion": "0.10.32"
+		},
+		"1.0.3": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.3",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.3.tgz",
+				"shasum": "2d7c1dec64df3dec0e238de64031308f9e9b3f65"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.3"
+		},
+		"1.1.2": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.1.2",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.2.tgz",
+				"shasum": "622c6d9184f8fab5e8b7f25bf4c6617b80891e6f"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1",
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.1.2",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "d27df4a9f44e920ea00e47f3c635c4601435c94b",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.1.2.tgz_1478030441299_0.8787138373591006"
+			},
+			"_shasum": "622c6d9184f8fab5e8b7f25bf4c6617b80891e6f",
+			"_nodeVersion": "6.9.1"
+		},
+		"1.2.1": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.2.1",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/stutrek/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stutrek/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/stutrek/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.1.tgz",
+				"shasum": "c6ba85c22906eb5de612b994bbeba020b8b68a4d"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.2.1",
+				"babel-loader": "^6.2.0",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-plugin-transform-object-assign": "^6.8.0",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-stage-0": "^6.5.0",
+				"sinon": "^1.17.6",
+				"testem": "github:stutrek/testem",
+				"webpack": "^1.13.1"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "webpack; testem ci",
+				"start": "webpack; testem"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.2.1",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "988ff3ca4f17bd65b3a57b4d81e83a8c270a2b72",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.2.1.tgz_1480866965101_0.7510223402641714"
+			},
+			"_shasum": "c6ba85c22906eb5de612b994bbeba020b8b68a4d",
+			"_nodeVersion": "6.2.1"
+		},
+		"1.0.4": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.4",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.4.tgz",
+				"shasum": "26d7496fdda96e042a1bc093de65dba2d9560ff2"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.4"
+		},
+		"1.1.3": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.1.3",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.3.tgz",
+				"shasum": "d7e8350f96b58163f8ded216704f1e64478e2ef5"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1",
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.1.3",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "37d1061012c77d193c43c75f79dd24b0f592233f",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.1.3.tgz_1480372569722_0.13918920350261033"
+			},
+			"_shasum": "d7e8350f96b58163f8ded216704f1e64478e2ef5",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.2.2": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.2.2",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/stutrek/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stutrek/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/stutrek/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.2.tgz",
+				"shasum": "7a5f314e875126ecd9f3cc68babd5dabf9951f39"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.2.1",
+				"babel-loader": "^6.2.0",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-plugin-transform-object-assign": "^6.8.0",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-stage-0": "^6.5.0",
+				"sinon": "^1.17.6",
+				"testem": "github:stutrek/testem",
+				"webpack": "^1.13.1"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "webpack; testem ci",
+				"start": "webpack; testem"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.2.2",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "8a18a21be2f36a42ee0c15ec8d07931c9225d084",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.2.2.tgz_1481934129474_0.7158714290708303"
+			},
+			"_shasum": "7a5f314e875126ecd9f3cc68babd5dabf9951f39",
+			"_nodeVersion": "6.2.1"
+		},
+		"1.0.5": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.5",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.5.tgz",
+				"shasum": "bd26239cdf7614d528e42388a5b3e7b22a531b26"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.21",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.5"
+		},
+		"1.2.3": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.2.3",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/stutrek/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stutrek/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/stutrek/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.3.tgz",
+				"shasum": "87bf912ca28da64796f529e8129fa4a9b106fb74"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.2.1",
+				"babel-loader": "^6.2.0",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-plugin-transform-object-assign": "^6.8.0",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-stage-0": "^6.5.0",
+				"sinon": "^1.17.6",
+				"testem": "github:stutrek/testem",
+				"webpack": "^1.13.1"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "webpack; testem ci",
+				"start": "webpack; testem"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.2.3",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "46993cd5eb48fc4bafa1d20d77c958dd09d11d35",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.2.3.tgz_1485210083188_0.13862362666986883"
+			},
+			"_shasum": "87bf912ca28da64796f529e8129fa4a9b106fb74",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.6": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.6",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.6.tgz",
+				"shasum": "c8dd2f6aa14bcacde2ebdb76ef7d53805cbb9453"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.21",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.6"
+		},
+		"1.2.4": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.2.4",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/stutrek/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/stutrek/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/stutrek/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.4.tgz",
+				"shasum": "823d04cc1574aa3b71de7cc70ef91ebe633344a0"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.2.1",
+				"babel-loader": "^6.2.0",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-plugin-transform-object-assign": "^6.8.0",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-stage-0": "^6.5.0",
+				"sinon": "^1.17.6",
+				"testem": "github:stutrek/testem",
+				"webpack": "^1.13.1"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "webpack; testem ci",
+				"start": "webpack; testem"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.2.4",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "3aabc72d0c4a43277cbef0708e4be31334a0f8c6",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/scrollmonitor-1.2.4.tgz_1508272388032_0.907852828502655"
+			},
+			"_nodeVersion": "8.5.0"
+		},
+		"1.0.7": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.7",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.7.tgz",
+				"shasum": "b90d48522a794da8a33a8b4293d645e6a7f113f4"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.21",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.7"
+		},
+		"1.0.8": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.8",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.8.tgz",
+				"shasum": "07cd079ae7c65ece59debe066e1dfe93ad138ce5"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_from": ".",
+			"_npmVersion": "1.2.30",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.8",
+			"spm": {
+				"main": "scrollMonitor.js",
+				"dependencies": {
+					"jquery": "1.7.2"
+				}
+			}
+		},
+		"1.0.9": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.9",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.9.tgz",
+				"shasum": "41e30bda25287b45b900b09a5171ff153de02462"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.0.2",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.9",
+			"spm": {
+				"main": "scrollMonitor.js",
+				"dependencies": {
+					"jquery": "1.7.2"
+				}
+			},
+			"gitHead": "a038cdcf5853e99e6aa267d97f690e1f01bf093a",
+			"_shasum": "41e30bda25287b45b900b09a5171ff153de02462",
+			"_nodeVersion": "0.10.32"
+		},
+		"1.0.0": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.0",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.0.tgz",
+				"shasum": "6e669b2067db5078ed16aaf4dd2d41ac0dc6209d"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.0"
+		},
+		"1.0.1": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.1",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.1.tgz",
+				"shasum": "abb79a0af0a319fbf508c568252c89634540782a"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.1.62",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.1"
+		},
+		"1.1.0": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.1.0",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.0.tgz",
+				"shasum": "443d9d44c6eb4e67bb4d065b89d79db9c75a9681"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"karma": "^0.12.24",
+				"karma-chai": "^0.1.0",
+				"karma-expect": "^1.1.0",
+				"karma-firefox-launcher": "^0.1.3",
+				"karma-ie-launcher": "^0.1.5",
+				"karma-ios-launcher": "0.0.3",
+				"karma-mocha": "^0.1.9",
+				"karma-sinon-ie": "^1.0.1",
+				"browser-launcher": "^1.0.0",
+				"chai": "~1.8.1",
+				"mocha": "~1.14.0",
+				"sinon": "~1.7.3",
+				"sinon-chai": "~2.4.0",
+				"testem": "~0.6.15"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.1.0",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "93d4a164d6ebdd0a88c374d0efb3952d6107f17e",
+			"testling": {
+				"browsers": [
+					"ie6..latest",
+					"firefox/latest",
+					"chrome/latest",
+					"opera/latest",
+					"safari/latest"
+				],
+				"harness": "mocha",
+				"files": [
+					"testling.js"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.1.0.tgz_1478025058543_0.8720984733663499"
+			},
+			"_shasum": "443d9d44c6eb4e67bb4d065b89d79db9c75a9681",
+			"_nodeVersion": "6.9.1"
+		},
+		"1.0.2": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.0.2",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				}
+			],
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.2.tgz",
+				"shasum": "015f89e33813fec1c23b39914a392f8667eccbbf"
+			},
+			"dependencies": {
+				"jquery": ">= 1.2.6"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "stukabakoff@gmail.com"
+			},
+			"_id": "scrollmonitor@1.0.2"
+		},
+		"1.2.0": {
+			"name": "scrollmonitor",
+			"description": "A simple and fast API to monitor DOM elements as you scroll",
+			"version": "1.2.0",
+			"author": {
+				"name": "Stu Kabakoff",
+				"email": "stukabakoff@gmail.com"
+			},
+			"homepage": "https://github.com/sakabako/scrollMonitor#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sakabako/scrollMonitor.git"
+			},
+			"contributors": [
+				{
+					"name": "Stu Kabakoff",
+					"email": "stukabakoff@gmail.com"
+				},
+				{
+					"name": "Terrence Lee",
+					"email": "mr.lee@terrenceishere.com"
+				},
+				{
+					"name": "Roman Kalyakin",
+					"email": "roman@kalyakin.com"
+				}
+			],
+			"bugs": {
+				"url": "https://github.com/sakabako/scrollMonitor/issues"
+			},
+			"main": "./scrollMonitor.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.0.tgz",
+				"shasum": "64d2c5d75f50a0c7bb8f6e509c12d534cc92c850"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.2.1",
+				"babel-loader": "^6.2.0",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-plugin-transform-object-assign": "^6.8.0",
+				"babel-preset-es2015": "^6.3.13",
+				"babel-preset-stage-0": "^6.5.0",
+				"sinon": "^1.17.6",
+				"testem": "github:stutrek/testem",
+				"webpack": "^1.13.1"
+			},
+			"keywords": [
+				"scroll",
+				"dom"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sakabako",
+					"email": "stukabakoff@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "webpack; testem ci",
+				"start": "webpack; testem"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_npmUser": {
+				"name": "sakabako",
+				"email": "sakabako@gmail.com"
+			},
+			"_id": "scrollmonitor@1.2.0",
+			"spm": {
+				"main": "scrollMonitor.js"
+			},
+			"gitHead": "4af36c0293fc10f80d1a2ea8ed5d950f02ec9db6",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/scrollmonitor-1.2.0.tgz_1480635492511_0.16018284671008587"
+			},
+			"_shasum": "64d2c5d75f50a0c7bb8f6e509c12d534cc92c850",
+			"_nodeVersion": "6.3.1"
+		}
+	},
+	"time": {
+		"1.0.12": "2015-06-04T15:23:12.169Z",
+		"1.0.13": "2016-09-28T19:58:08.226Z",
+		"1.0.10": "2014-10-07T21:39:02.365Z",
+		"1.0.11": "2014-12-30T04:11:16.367Z",
+		"modified": "2018-03-03T07:02:04.449Z",
+		"created": "2013-01-15T16:40:16.338Z",
+		"1.0.3": "2013-01-18T15:59:58.911Z",
+		"1.1.2": "2016-11-01T20:00:43.390Z",
+		"1.2.1": "2016-12-04T15:56:07.192Z",
+		"1.0.4": "2013-05-13T16:25:25.920Z",
+		"1.1.3": "2016-11-28T22:36:11.968Z",
+		"1.2.2": "2016-12-17T00:22:11.396Z",
+		"1.0.5": "2013-05-16T20:01:51.612Z",
+		"1.2.3": "2017-01-23T22:21:25.046Z",
+		"1.0.6": "2013-10-18T22:14:13.834Z",
+		"1.2.4": "2017-10-17T20:33:09.087Z",
+		"1.0.7": "2013-10-18T22:26:19.755Z",
+		"1.0.8": "2014-05-16T03:22:55.106Z",
+		"1.0.9": "2014-10-04T20:11:17.974Z",
+		"1.0.0": "2013-01-15T16:40:17.102Z",
+		"1.0.1": "2013-01-16T03:35:52.671Z",
+		"1.1.0": "2016-11-01T18:30:59.191Z",
+		"1.0.2": "2013-01-17T15:54:24.600Z",
+		"1.1.1": "2016-11-01T19:26:15.358Z",
+		"1.2.0": "2016-12-01T23:38:14.742Z"
+	},
+	"dist-tags": {
+		"latest": "1.2.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828447380
+		}
+	},
+	"_distfiles": {
+		"scrollmonitor-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.12.tgz",
+			"sha": "b9f46f50e53173724ab8456bc1ef2930cd34e225"
+		},
+		"scrollmonitor-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.13.tgz",
+			"sha": "bb76341cbf455ab31120022d653fe9be25521a4a"
+		},
+		"scrollmonitor-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.10.tgz",
+			"sha": "3a8c929f2f7a6de306e91994411ae144b58c0c28"
+		},
+		"scrollmonitor-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.11.tgz",
+			"sha": "e923a72ee033fb6cca88361cae8520cf20f1e503"
+		},
+		"scrollmonitor-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.3.tgz",
+			"sha": "2d7c1dec64df3dec0e238de64031308f9e9b3f65"
+		},
+		"scrollmonitor-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.2.tgz",
+			"sha": "622c6d9184f8fab5e8b7f25bf4c6617b80891e6f"
+		},
+		"scrollmonitor-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.1.tgz",
+			"sha": "c6ba85c22906eb5de612b994bbeba020b8b68a4d"
+		},
+		"scrollmonitor-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.4.tgz",
+			"sha": "26d7496fdda96e042a1bc093de65dba2d9560ff2"
+		},
+		"scrollmonitor-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.3.tgz",
+			"sha": "d7e8350f96b58163f8ded216704f1e64478e2ef5"
+		},
+		"scrollmonitor-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.2.tgz",
+			"sha": "7a5f314e875126ecd9f3cc68babd5dabf9951f39"
+		},
+		"scrollmonitor-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.5.tgz",
+			"sha": "bd26239cdf7614d528e42388a5b3e7b22a531b26"
+		},
+		"scrollmonitor-1.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.3.tgz",
+			"sha": "87bf912ca28da64796f529e8129fa4a9b106fb74"
+		},
+		"scrollmonitor-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.6.tgz",
+			"sha": "c8dd2f6aa14bcacde2ebdb76ef7d53805cbb9453"
+		},
+		"scrollmonitor-1.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.4.tgz",
+			"sha": "823d04cc1574aa3b71de7cc70ef91ebe633344a0"
+		},
+		"scrollmonitor-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.7.tgz",
+			"sha": "b90d48522a794da8a33a8b4293d645e6a7f113f4"
+		},
+		"scrollmonitor-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.8.tgz",
+			"sha": "07cd079ae7c65ece59debe066e1dfe93ad138ce5"
+		},
+		"scrollmonitor-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.9.tgz",
+			"sha": "41e30bda25287b45b900b09a5171ff153de02462"
+		},
+		"scrollmonitor-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.0.tgz",
+			"sha": "6e669b2067db5078ed16aaf4dd2d41ac0dc6209d"
+		},
+		"scrollmonitor-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.1.tgz",
+			"sha": "abb79a0af0a319fbf508c568252c89634540782a"
+		},
+		"scrollmonitor-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.1.0.tgz",
+			"sha": "443d9d44c6eb4e67bb4d065b89d79db9c75a9681"
+		},
+		"scrollmonitor-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.0.2.tgz",
+			"sha": "015f89e33813fec1c23b39914a392f8667eccbbf"
+		},
+		"scrollmonitor-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/scrollmonitor/-/scrollmonitor-1.2.0.tgz",
+			"sha": "64d2c5d75f50a0c7bb8f6e509c12d534cc92c850"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-f4be4a5d562269e4",
+	"readme": "scrollMonitor\n=============\n\nThe scroll monitor allows you to receive events when elements enter or exit a viewport. It does this using watcher objects, which watch an element and trigger events. Watcher objects also contain information about the element they watch, including the element's visibility and location relative to the viewport. If your scroll container is an element other than the body you can create a container that creates watchers.\n\nThe scroll monitor was designed to be very fast. On each scroll event the DOM is only touched twice, once to find the document height and again to find the viewport top. No variables are declared, nor are any objects, arrays, or strings created. Watchers are _very_ cheap. Create them liberally.\n\nThe code is vanilla javascript and has no external dependencies, however _the script cannot be put in the head_.\n\nAlso see the [React component](https://github.com/stutrek/scrollmonitor-react) and the [parallax library](https://github.com/stutrek/scrollmonitor-parallax).\n\n## Basic Usage\n\n### When the body scrolls\n\n```javascript\nvar scrollMonitor = require(\"./scrollMonitor\"); // if you're not using require, you can use the scrollMonitor global.\nvar myElement = document.getElementById(\"itemToWatch\");\n\nvar elementWatcher = scrollMonitor.create( myElement );\n\nelementWatcher.enterViewport(function() {\n    console.log( 'I have entered the viewport' );\n});\nelementWatcher.exitViewport(function() {\n    console.log( 'I have left the viewport' );\n});\n```\n\n### For a scroll container\n\n```javascript\nvar containerElement = document.getElementById(\"container\");\n\nvar containerMonitor = scrollMonitor.createContainer(containerElement);\n// this containerMonitor is an instance of the scroll monitor\n// that listens to scroll events on your container.\n\nvar childElement = document.getElementById(\"child-of-container\");\nvar elementWatcher = containerMonitor.create(childElement);\n\nelementWatcher.enterViewport(function() {\n    console.log( 'I have entered the viewport' );\n});\nelementWatcher.exitViewport(function() {\n    console.log( 'I have left the viewport' );\n});\n```\n\n_Note: an element is said to be in the viewport if it is scrolled into its parent, it does not matter if the parent is in the viewport._\n\n## Demos\n\n* [Stress Test](http://stutrek.github.com/scrollMonitor/demos/stress.html) - Test with as many watchers as you'd like\n* [Stress Test in a div](http://stutrek.github.com/scrollMonitor/demos/stressTestInDiv.html) - Note how much slower scrolling a div is than scrolling the body.\n* [Nested scrollers](http://stutrek.github.com/scrollMonitor/demos/divInADiv.html)\n* [Fixed Positioning and Locking](http://stutrek.github.com/scrollMonitor/demos/fixed.html)\n* [Anchored section headers](http://stutrek.github.com/scrollMonitor/demos/list.html)\n* [Complex sidebar behavior](http://stutrek.github.com/scrollMonitor/demos/scoreboard.html)\n\n## Watcher Objects\n\nCreate watcher objects with `scrollMonitor.create( watchItem )`. An optional second argument lets you receive events before or after this element enters the viewport. _See \"[Offsets](#offsets)\"_.\n\n`watchItem` can be one of the following:\n\n* **DOM Element** - the watcher will watch the area contained by the DOM element.\n* **Object** - `obj.top` and `obj.bottom` will be used for watcher.top and watcher.bottom.\n* **Number** - the watcher will watch a 1px area this many pixels from the top. Negative numbers will watch from the bottom.\n* **jQuery object** - it will use the first DOM element.\n* **NodeList** or **Array** - it will use the first DOM element.\n* **string** - it will use the string as a CSS selector and watch the first match.\n\nWatchers are automatically recalculated on the first scroll event after the height of the document changes.\n\n### Events\n\nElement watchers trigger six events:\n\n* `visibilityChange` - when the element enters or exits the viewport.\n* `stateChange` - similar to `visibilityChange` but is also called if the element goes from below the viewport to above it in one scroll event or when the element goes from partially to fully visible or vice versa.\n* `enterViewport` - when the element enters the viewport.\n* `fullyEnterViewport` - when the element is completely in the viewport [1].\n* `exitViewport` - when the element completely leaves the viewport.\n* `partiallyExitViewport` - when the element goes from being fully in the viewport to only partially [2].\n\n1. If the element is larger than the viewport `fullyEnterViewport` will be triggered when the element spans the entire viewport.\n2. If the element is larger than the viewport `partiallyExitViewport` will be triggered when the element no longer spans the entire viewport.\n\n### Properties\n\n* `elementWatcher.isInViewport` - true if any part of the element is visible, false if not.\n* `elementWatcher.isFullyInViewport` - true if the entire element is visible [1].\n* `elementWatcher.isAboveViewport` - true if any part of the element is above the viewport.\n* `elementWatcher.isBelowViewport` - true if any part of the element is below the viewport.\n* `elementWatcher.top` - distance from the top of the document to the top of this watcher.\n* `elementWatcher.bottom` - distance from the top of the document to the bottom of this watcher.\n* `elementWatcher.height` - top - bottom.\n* `elementWatcher.watchItem` - the element, number, or object that this watcher is watching.\n* `elementWatcher.offsets` - an object that determines the offsets of this watcher. _See \"[Offsets](#offsets)\"_.\n\n1. If the element is larger than the viewport `isFullyInViewport` is true when the element spans the entire viewport.\n\n### Methods\n\n* `elementWatcher.on/off/one` - the standard event functions.\n* `elementWatcher.recalculateLocation` - recalculates the location of the element in relation to the document.\n* `elementWatcher.destroy` - removes this watcher and clears out its event listeners.\n* `elementWatcher.lock` - locks this watcher at its current location. _See \"[Locking](#locking)\"_.\n* `elementWatcher.unlock` - unlocks this watcher.\n\nThese methods are automatically called by the scrollMonitor, you should never need them:\n\n* `elementWatcher.update` - updates the boolean properties in relation to the viewport. Does not trigger events.\n* `elementWatcher.triggerCallbacks` - triggers any callbacks that need to be called.\n\n### Locking\n\nSometimes you want to change the element you're watching, but want to continue watching the original area. One common use case is setting `position: fixed` on an element when it exits the viewport, then removing positioning when it when it reenters.\n\n```javascript\nvar watcher = scrollMonitor.create( $element );\nwatcher.lock(); // ensure that we're always watching the place the element originally was\n\nwatcher.exitViewport(function() {\n    $element.addClass('fixed');\n});\nwatcher.enterViewport(function() {\n    $element.removeClass('fixed');\n});\n```\n\nBecause the watcher was locked on the second line, the scroll monitor will never recalculate its location.\n\n### Offsets\n\nIf you want to trigger an event when the edge of an element is near the edge of the viewport, you can use offsets. The offset is the second argument to `scrollMonitor.create`.\n\nThis will trigger events when an element gets within 200px of the viewport:\n```javascript\nscrollMonitor.create( element, 200 )\n```\n\nThis will trigger when the element is 200px inside the viewport:\n```javascript\nscrollMonitor.create( element, -200 )\n```\n\n If you only want it to affect the top and bottom differently you can send an object in.\n ```javascript\n scrollMonitor.create( element, {top: 200, bottom: 50})\n ```\n\n If you only want it to affect the top and not the bottom you can use only one property in.\n ```javascript\n scrollMonitor.create( element, {top: 200})\n ```\n\n## scrollMonitor Module\n\n### Methods\n* `scrollMonitor.createContainer( containerEl )` - returns a new ScrollMonitorContainer that can be used just like the scrollMonitor module.\n* `scrollMonitor.create( watchItem, offsets )` - Returns a new watcher. `watchItem` is a DOM element, jQuery object, NodeList, CSS selector, object with .top and .bottom, or a number.\n* `scrollMonitor.update()` - update and trigger all watchers.\n* `scrollMonitor.recalculateLocations()` - recalculate the location of all unlocked watchers and trigger if needed.\n\n### Properties\n* `scrollMonitor.viewportTop` - distance from the top of the document to the top of the viewport.\n* `scrollMonitor.viewportBottom` - distance from the top of the document to the bottom of the viewport.\n* `scrollMonitor.viewportHeight` - height of the viewport.\n* `scrollMonitor.documentHeight` - height of the document.\n\n# Contributing\n\nThere is a set of unit tests written with Mocha + Chai that run in testem. Getting them running is simple:\n\n```\nnpm install\nnpm test\n```\n\nthen open http://localhost:7357"
+}

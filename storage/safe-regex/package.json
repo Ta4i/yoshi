@@ -431,7 +431,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749409414
+			"fetched": 1547828406902
 		}
 	},
 	"_distfiles": {
@@ -461,6 +461,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ac62b0fd90a14bfc",
+	"_rev": "10-c3267bb1a2d1a0f4",
 	"readme": "# safe-regex\n\nDetect potentially\n[catastrophic](http://regular-expressions.mobi/catastrophic.html)\n[exponential-time](http://perlgeek.de/blog-en/perl-tips/in-search-of-an-exponetial-regexp.html)\nregular expressions by limiting the\n[star height](https://en.wikipedia.org/wiki/Star_height) to 1.\n\nWARNING: This module has both false positives and false negatives.\nUse [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) for improved accuracy.\n\n[![browser support](https://ci.testling.com/substack/safe-regex.png)](https://ci.testling.com/substack/safe-regex)\n\n[![build status](https://secure.travis-ci.org/substack/safe-regex.png)](http://travis-ci.org/substack/safe-regex)\n\n# Example\n\n``` js\nvar safe = require('safe-regex');\nvar regex = process.argv.slice(2).join(' ');\nconsole.log(safe(regex));\n```\n\n```\n$ node safe.js '(x+x+)+y'\nfalse\n$ node safe.js '(beep|boop)*'\ntrue\n$ node safe.js '(a+){10}'\nfalse\n$ node safe.js '\\blocation\\s*:[^:\\n]+\\b(Oakland|San Francisco)\\b'\ntrue\n```\n\n# Methods\n\n``` js\nconst safe = require('safe-regex')\n```\n\n## const ok = safe(re, opts={})\n\nReturn a boolean `ok` whether or not the regex `re` is safe and not possibly\ncatastrophic.\n\n`re` can be a `RegExp` object or just a string.\n\nIf the `re` is a string and is an invalid regex, returns `false`.\n\n* `opts.limit` - maximum number of allowed repetitions in the entire regex.\nDefault: `25`.\n\n# Install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install safe-regex\n```\n\n# License\n\nMIT"
 }

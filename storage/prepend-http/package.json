@@ -393,7 +393,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749402120
+			"fetched": 1547828407380
 		}
 	},
 	"_distfiles": {
@@ -423,6 +423,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-78249f756bc17385",
+	"_rev": "10-75b1b687ce15c641",
 	"readme": "# prepend-http [![Build Status](https://travis-ci.org/sindresorhus/prepend-http.svg?branch=master)](https://travis-ci.org/sindresorhus/prepend-http)\n\n> Prepend `http://` to humanized URLs like `todomvc.com` and `localhost`\n\n\n## Install\n\n```\n$ npm install prepend-http\n```\n\n\n## Usage\n\n```js\nconst prependHttp = require('prepend-http');\n\nprependHttp('todomvc.com');\n//=> 'http://todomvc.com'\n\nprependHttp('localhost');\n//=> 'http://localhost'\n\nprependHttp('http://todomvc.com');\n//=> 'http://todomvc.com'\n\nprependHttp('todomvc.com', {https: true});\n//=> 'https://todomvc.com'\n```\n\n\n## API\n\n### prependHttp(url, [options])\n\n#### url\n\nType: `string`\n\nURL to prepend `http://` on.\n\n#### options\n\nType: `Object`\n\n##### https\n\nType: `boolean`<br>\nDefault: `false`\n\nPrepend `https://` instead of `http://`.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

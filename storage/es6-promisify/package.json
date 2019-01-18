@@ -831,7 +831,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749410840
+			"fetched": 1547828438236
 		}
 	},
 	"_distfiles": {
@@ -889,6 +889,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-12607d5da8c520de",
+	"_rev": "10-2b19d199064ae74a",
 	"readme": "[![Travis CI](https://travis-ci.org/digitaldesignlabs/es6-promisify.svg)](https://travis-ci.org/digitaldesignlabs/es6-promisify)\n\n# es6-promisify\nConverts callback-based functions to ES6/ES2015 Promises, using a boilerplate callback function.\n\nNOTE: All-new API for Version 6.0.0; please read carefully!\n===========================================================\n\n## Install\nInstall with [npm](https://npmjs.org/package/es6-promisify)\n\n```bash\nnpm install es6-promisify\n```\n\n## Example\n```js\nconst {promisify} = require(\"es6-promisify\");\n\n// Convert the stat function\nconst fs = require(\"fs\");\nconst stat = promisify(fs.stat);\n\n// Now usable as a promise!\nstat(\"example.txt\").then(function (stats) {\n    console.log(\"Got stats\", stats);\n}).catch(function (err) {\n    console.error(\"Yikes!\", err);\n});\n```\n\n## Promisify methods\n```js\nconst {promisify} = require(\"es6-promisify\");\n\n// Create a promise-based version of send_command\nconst redis = require(\"redis\").createClient(6379, \"localhost\");\nconst client = promisify(redis.send_command.bind(redis));\n\n// Send commands to redis and get a promise back\nclient(\"ping\").then(function (pong) {\n    console.log(\"Got\", pong);\n}).catch(function (err) {\n    console.error(\"Unexpected error\", err);\n}).then(function () {\n    redis.quit();\n});\n```\n\n## Handle multiple callback arguments, with named parameters\n```js\nconst {promisify} = require(\"es6-promisify\");\n\nfunction test(cb) {\n    return cb(undefined, 1, 2, 3);\n}\n\n// Create promise-based version of test\ntest[promisify.argumentNames] = [\"one\", \"two\", \"three\"];\nconst multi = promisify(test);\n\n// Returns named arguments\nmulti().then(result => {\n    console.log(result); // {one: 1, two: 2, three: 3}\n});\n```\n\n## Provide your own Promise implementation\n```js\nconst {promisify} = require(\"es6-promisify\");\n\n// Now uses Bluebird\npromisify.Promise = require(\"bluebird\");\n\nconst test = promisify(cb => cb(undefined, \"test\"));\ntest().then(result => {\n    console.log(result); // \"test\", resolved using Bluebird\n});\n```\n\n### Tests\nTest with tape\n```bash\n$ npm test\n```\n\n### Changes from v5.0.0\n- Allow developer to specify a different implementations of `Promise`\n- No longer ships with a polyfill for `Promise`. If your environment has no native `Promise` you must polyfill yourself, or set `promisify.Promise` to an A+ compatible `Promise` implementation.\n- Removed support for `settings.thisArg`: use `.bind()` instead.\n- Removed support for `settings.multiArgs`: use named arguments instead.\n\nPublished under the [MIT License](http://opensource.org/licenses/MIT)."
 }

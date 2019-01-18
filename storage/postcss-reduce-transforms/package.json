@@ -616,7 +616,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749403940
+			"fetched": 1547828409177
 		}
 	},
 	"_distfiles": {
@@ -658,6 +658,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d711fa0b60087035",
+	"_rev": "10-355c1ecfb9f7ddd6",
 	"readme": "# [postcss][postcss]-reduce-transforms\n\n> Reduce transform functions with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-reduce-transforms) do:\n\n```\nnpm install postcss-reduce-transforms --save\n```\n\n## Example\n\nThis module will reduce transform functions where possible. For more examples,\nsee the [tests](src/__tests__/index.js).\n\n### Input\n\n```css\nh1 {\n    transform: rotate3d(0, 0, 1, 20deg);\n}\n```\n\n### Output\n\n```css\nh1 {\n    transform: rotate(20deg);\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss"
 }

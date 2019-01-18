@@ -333,7 +333,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749409077
+			"fetched": 1547828405605
 		}
 	},
 	"_distfiles": {
@@ -355,6 +355,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-aafeaa04edf24ac5",
+	"_rev": "10-90cc82a352245ec9",
 	"readme": "# any-observable [![Build Status](https://travis-ci.org/sindresorhus/any-observable.svg?branch=master)](https://travis-ci.org/sindresorhus/any-observable)\n\n> Support any [Observable](https://github.com/zenparsing/es-observable) library and polyfill\n\nLike [`any-promise`](https://github.com/kevinbeaty/any-promise). *(Docs are lacking here, so refer to those docs for now)*\n\n\n## Install\n\n```\n$ npm install any-observable\n```\n\nYou must also install the Observable library you want:\n\n```\n$ npm install zen-observable\n```\n\n\n## Usage\n\n```js\nconst Observable = require('any-observable'); // Using `zen-observable` since it's installed\n\nObservable.of(1, 2).forEach(x => console.log(x));\n//=> 1\n//=> 2\n```\n\n## Registration Shortcuts\n\nThis adds the following shortcut registrations:\n\n- `rxjs-min`: Bare bones [RxJs](https://github.com/ReactiveX/rxjs) Observable implementation. See the [RxJs Installation Instructions](http://reactivex.io/rxjs/manual/installation.html) for details on patching additional methods into that implementation.\n- `rxjs`: Same as `rxjs-min`, but adds the somewhat standard `Observable.of` and `Observable.from`.\n- `rxjs-all`: The kitchen sink approach to Observables.\n- `zen`: The [`zen-observable`](https://github.com/zenparsing/zen-observable) implementation.\n\nShortcut registration can be done as follows:\n\n```js\nimport 'any-observable/register/zen';\n```\n\nIt's especially handy for more recent versions of Node.js (and many test runners), that offer a `--require` flag:\n\n```\n$ ava --require=any-observable/register/zen test.js\n```\n\n\n## Related\n\n- [is-observable](https://github.com/sindresorhus/is-observable) - Check if a value is an Observable\n- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

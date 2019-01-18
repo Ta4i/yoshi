@@ -1,0 +1,644 @@
+{
+	"name": "@wix/app-market-api-js",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.12",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.12.tgz",
+				"shasum": "e75cfc8f4235276a5da92cea43d294b1db37d75c"
+			},
+			"dependencies": {
+				"axios": "^0.16.2",
+				"babel-runtime": "^6.22.0",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.14.0",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/i18next-node-fs-backend": "0.0.28",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"haste-preset-yoshi": "latest",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": ":",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.12",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.13": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.13",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.13.tgz",
+				"shasum": "f5fa8edfca5bc10acfacf4e9ad1ed64ad9b4dc7e"
+			},
+			"dependencies": {
+				"axios": "^0.16.2",
+				"babel-runtime": "^6.22.0",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.14.0",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"haste-preset-yoshi": "latest",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": ":",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.13",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.14": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.14",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.14.tgz",
+				"shasum": "25afba69163ee8071ae1149ce34b0ac0fbcbb2ab"
+			},
+			"dependencies": {
+				"axios": "^0.16.2",
+				"babel-runtime": "^6.22.0",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.14.0",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"haste-preset-yoshi": "latest",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": ":",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.14",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.15": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.15",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.15.tgz",
+				"shasum": "4e8f5addfd4b6da7ec514c10f3237ffd4e67f0ad"
+			},
+			"dependencies": {
+				"axios": "^0.16.2",
+				"babel-runtime": "^6.22.0",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.14.0",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"yoshi": "^3.22.4",
+				"yoshi-style-dependencies": "^3.16.0",
+				"@wix/wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.15",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.9": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.9",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.9.tgz",
+				"shasum": "1e084ead76c0430279c61a314c49a7b913500160"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0",
+				"axios": "^0.15.3",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.9.34",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/i18next-node-fs-backend": "0.0.28",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.9",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.10": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.10",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.10.tgz",
+				"shasum": "6e02c1099586f1f6ac3f4d8bcb7c6f2308fd72b6"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0",
+				"axios": "^0.15.3",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.9.34",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/i18next-node-fs-backend": "0.0.28",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"haste-preset-yoshi": "latest",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": ":",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.10",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.11": {
+			"name": "@wix/app-market-api-js",
+			"version": "1.0.11",
+			"author": {
+				"name": "Itai Chejanovsky",
+				"email": "itaich@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/appMarketAPI.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.11.tgz",
+				"shasum": "b1bd5f5774502263cd899fbb4af0e1a44dafe8ac"
+			},
+			"dependencies": {
+				"axios": "^0.16.2",
+				"babel-runtime": "^6.22.0",
+				"urijs": "^1.18.4"
+			},
+			"devDependencies": {
+				"@types/axios": "^0.14.0",
+				"@types/chai": "^3.4.32",
+				"@types/chai-as-promised": "0.0.29",
+				"@types/chance": "^0.7.30",
+				"@types/express": "^4.0.32",
+				"@types/history": "^3.0.0",
+				"@types/i18next": "^2.3.32",
+				"@types/i18next-express-middleware": "0.0.30",
+				"@types/i18next-node-fs-backend": "0.0.28",
+				"@types/jsdom": "^2.0.29",
+				"@types/lodash": "^4.14.53",
+				"@types/mocha": "^2.2.31",
+				"@types/nock": "^8.0.33",
+				"@types/protractor": "^4.0.0",
+				"@types/react": "^0.14.34",
+				"@types/react-addons-test-utils": "^0.14.15",
+				"@types/react-dom": "^0.14.16",
+				"@types/react-i18next": "^1.7.4",
+				"@types/react-redux": "^4.4.31",
+				"@types/react-router": "^2.0.33",
+				"@types/redux-logger": "^2.6.31",
+				"@types/redux-thunk": "^2.1.30",
+				"@types/selenium-webdriver": "^2.53.38",
+				"@types/sinon": "^1.16.31",
+				"@types/sinon-chai": "^2.7.27",
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"haste-preset-yoshi": "latest",
+				"nock": "^9.0.2",
+				"typescript": "^2.4.2",
+				"wix-axios-config": "^1.0.19"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": ":",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/app-market-api-js@1.0.11",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				],
+				"plugins": [
+					"transform-runtime"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		}
+	},
+	"time": {
+		"1.0.12": "2018-03-28T02:12:26.473Z",
+		"1.0.13": "2018-06-05T13:36:01.377Z",
+		"1.0.14": "2018-10-25T03:20:12.087Z",
+		"1.0.15": "2019-01-01T10:33:36.901Z",
+		"created": "2017-11-29T17:43:16.316Z",
+		"1.0.9": "2017-11-29T17:43:16.316Z",
+		"1.0.10": "2017-12-31T10:04:24.036Z",
+		"1.0.11": "2018-01-31T10:09:09.107Z",
+		"modified": "2019-01-01T10:33:36.901Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.15"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828412784
+		}
+	},
+	"_distfiles": {
+		"app-market-api-js-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.12.tgz",
+			"sha": "e75cfc8f4235276a5da92cea43d294b1db37d75c"
+		},
+		"app-market-api-js-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.13.tgz",
+			"sha": "f5fa8edfca5bc10acfacf4e9ad1ed64ad9b4dc7e"
+		},
+		"app-market-api-js-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.14.tgz",
+			"sha": "25afba69163ee8071ae1149ce34b0ac0fbcbb2ab"
+		},
+		"app-market-api-js-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.15.tgz",
+			"sha": "4e8f5addfd4b6da7ec514c10f3237ffd4e67f0ad"
+		},
+		"app-market-api-js-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.9.tgz",
+			"sha": "1e084ead76c0430279c61a314c49a7b913500160"
+		},
+		"app-market-api-js-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.10.tgz",
+			"sha": "6e02c1099586f1f6ac3f4d8bcb7c6f2308fd72b6"
+		},
+		"app-market-api-js-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/app-market-api-js/-/@wix/app-market-api-js-1.0.11.tgz",
+			"sha": "b1bd5f5774502263cd899fbb4af0e1a44dafe8ac"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-ef290a209df9f03e",
+	"readme": ""
+}

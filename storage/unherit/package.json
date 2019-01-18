@@ -649,7 +649,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455128
+			"fetched": 1547828476348
 		}
 	},
 	"_distfiles": {
@@ -683,6 +683,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-1e3aec49b775faee",
+	"_rev": "10-cb3ffc109165f7eb",
 	"readme": "# unherit [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCreate a custom constructor which can be modified without affecting the\noriginal class.\n\n## Installation\n\n[npm][npm-install]:\n\n```bash\nnpm install unherit\n```\n\n## Usage\n\n```js\nvar EventEmitter = require('events').EventEmitter\nvar unherit = require('unherit')\n\n/* Create a private class which acts just like\n * `EventEmitter`. */\nvar Emitter = unherit(EventEmitter)\n\nEmitter.prototype.defaultMaxListeners = 0\n/* Now, all instances of `Emitter` have no maximum\n * listeners, without affecting other `EventEmitter`s. */\n\nnew Emitter().defaultMaxListeners === 0 // => true\nnew EventEmitter().defaultMaxListeners === undefined // => true\nnew Emitter() instanceof EventEmitter // => true\n```\n\n## API\n\n### `unherit(Super)`\n\nCreate a custom constructor which can be modified without affecting the\noriginal class.\n\n###### Parameters\n\n*   `Super` (`Function`) — Super-class.\n\n###### Returns\n\n`Function` — Constructor acting like `Super`, which can be modified\nwithout affecting the original class.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/unherit.svg\n\n[travis]: https://travis-ci.org/wooorm/unherit\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/unherit.svg\n\n[codecov]: https://codecov.io/github/wooorm/unherit\n\n[npm-install]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

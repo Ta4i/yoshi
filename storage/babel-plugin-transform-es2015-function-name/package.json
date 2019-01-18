@@ -2224,7 +2224,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749381207
+			"fetched": 1547828421422
 		}
 	},
 	"_distfiles": {
@@ -2378,6 +2378,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-7bc26f2dfb5102ef",
+	"_rev": "10-42079f43ee235574",
 	"readme": "# babel-plugin-transform-es2015-function-name\n\n> Apply ES2015 function.name semantics to all functions\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-function-name\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-function-name\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-function-name script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-function-name\"]\n});\n```"
 }

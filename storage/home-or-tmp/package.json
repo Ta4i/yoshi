@@ -226,7 +226,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749352730
+			"fetched": 1547828387906
 		}
 	},
 	"_distfiles": {
@@ -244,6 +244,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-8b6f596babb76e2e",
+	"_rev": "10-128865a4648948f4",
 	"readme": "# home-or-tmp [![Build Status](https://travis-ci.org/sindresorhus/home-or-tmp.svg?branch=master)](https://travis-ci.org/sindresorhus/home-or-tmp)\n\n> Get the user home directory with fallback to the system temp directory\n\nUseful in cases where the home directory either isn't set or doesn't exist.\n\n\n## Install\n\n```\n$ npm install --save home-or-tmp\n```\n\n\n## Usage\n\n```js\nconst homeOrTmp = require('home-or-tmp');\n\nconsole.log(homeOrTmp);\n//=> '/Users/sindresorhus'\n\n// And if there is no home directory:\n\nconsole.log(homeOrTmp);\n//=> '/var/folders/m3/5574nnhn0yj488ccryqr7tc80000gn/T'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

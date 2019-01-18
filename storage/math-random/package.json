@@ -292,7 +292,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749462131
+			"fetched": 1547828481140
 		}
 	},
 	"_distfiles": {
@@ -318,6 +318,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-018cde13f1735f79",
+	"_rev": "10-d789e2f30e926b9f",
 	"readme": "# math-random\n\nmath-random is an drop-in replacement for Math.random that uses cryptographically secure random number generation, where available. It works in both browser and node environments.\n\n[![Build status](https://travis-ci.org/michaelrhodes/math-random.svg?branch=master)](https://travis-ci.org/michaelrhodes/math-random)\n\n## Install\n\n```sh\nnpm install math-random\n```\n\n### Usage\n\n```js\nvar random = require('math-random')\n\nconsole.log(random())\n=> 0.584293719381094\n\nconsole.log(random.cryptographic)\n=> true || undefined\n```\n\n### License\n[MIT](http://opensource.org/licenses/MIT)"
 }

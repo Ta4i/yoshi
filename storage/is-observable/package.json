@@ -286,7 +286,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749373101
+			"fetched": 1547828371105
 		}
 	},
 	"_distfiles": {
@@ -308,6 +308,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-835837fe5736f350",
+	"_rev": "10-ffd648ebeede7ca1",
 	"readme": "# is-observable [![Build Status](https://travis-ci.org/sindresorhus/is-observable.svg?branch=master)](https://travis-ci.org/sindresorhus/is-observable)\n\n> Check if a value is an [Observable](https://github.com/zenparsing/es-observable)\n\n\n## Install\n\n```\n$ npm install is-observable\n```\n\n\n## Usage\n\n```js\nconst isObservable = require('is-observable');\n\nisObservable(Observable.of(1, 2));\n//=> true\n```\n\n\n## Related\n\n- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -897,7 +897,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749460155
+			"fetched": 1547828462916
 		}
 	},
 	"_distfiles": {
@@ -971,6 +971,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-c88d4c893354a1f1",
+	"_rev": "8-22a3f558242ddf56",
 	"readme": "# currency-symbol-map\n\nA function to lookup the currency symbol for a given currency code.\n\n## Installation\n\n    npm install currency-symbol-map\n\n## Usage\n\n### Get symbol from currency code\n```js\n// ES5\nconst getSymbolFromCurrency = require('currency-symbol-map')\n\n// ES6\nimport getSymbolFromCurrency from 'currency-symbol-map'\n\ngetSymbolFromCurrency('GBP') //=> '£'\ngetSymbolFromCurrency('EUR') //=> '€'\ngetSymbolFromCurrency('USD') //=> '$'\ngetSymbolFromCurrency('NOT A VALID CODE') //=> undefined\n```\n\n### Exposed map for other processing\n```js\n// ES5\nconst currencyToSymbolMap = require('currency-symbol-map/map')\n\n// ES6\nimport currencyToSymbolMap from 'currency-symbol-map/map'\n\nconsole.log(currencyToSymbolMap)\n// =>\n{\n \"USD\": \"$\",\n \"GBP\": \"£\",\n …\n}\n```\n\n## Tests\n```bash\nnpm test\n```\n\n## Changelog\n\n### 4.0.0\n- the reverse lookup feature was removed (retrieving currency given a symbol) because\nthere is not a deterministic way to do so (i.e. the same symbol is used by multiple currencies).\n- in previous versions, an unsuccessful lookup would return the `'?'` character. It now returns\n`undefined` so that it is up to you how to handle the failure.\n\n## Credits\n\nCurrency symbols originally sourced from [xe](http://www.xe.com/symbols.php), but maintained\nand updated by [contributors](https://github.com/bengourley/currency-symbol-map/pulls?q=is%3Apr+is%3Aclosed)."
 }

@@ -324,7 +324,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749342216
+			"fetched": 1547828353823
 		}
 	},
 	"_distfiles": {
@@ -350,6 +350,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-edff97e467077019",
+	"_rev": "10-749377f710d096e2",
 	"readme": "# has\n\n> Object.prototype.hasOwnProperty.call shortcut\n\n## Installation\n\n```sh\nnpm install --save has\n```\n\n## Usage\n\n```js\nvar has = require('has');\n\nhas({}, 'hasOwnProperty'); // false\nhas(Object.prototype, 'hasOwnProperty'); // true\n```"
 }

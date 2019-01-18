@@ -170,7 +170,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749399515
+			"fetched": 1547828433189
 		}
 	},
 	"_distfiles": {
@@ -188,6 +188,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4c9098e86a08d685",
+	"_rev": "10-6779391d24c052c6",
 	"readme": "# unquote\n\nRemove wrapping quotes from a string. Returns an empty string if the first arg is falsey.\n\n## Installation\n\n```\nnpm install unquote\n```\n\n\n## Usage\n\nExample\n```js\nvar unquote = require('unquote')\n\nunquote('\"hello, world\"') // 'hello, world'\nunquote('\\'hello, world\\'') // 'hello, world'\n```\n\n\n## Running Tests\n\n```\nnpm test\n```\n\n## License\n\n([The MIT License](LICENSE))\n\nCopyright 2017 Cameron Lakenen"
 }

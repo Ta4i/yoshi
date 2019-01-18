@@ -1009,7 +1009,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749363729
+			"fetched": 1547828398316
 		}
 	},
 	"_distfiles": {
@@ -1071,6 +1071,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-f39bc0b0b4f58367",
+	"_rev": "10-d5b8ec5a38c5ec8f",
 	"readme": "# gzip-size [![Build Status](https://travis-ci.org/sindresorhus/gzip-size.svg?branch=master)](https://travis-ci.org/sindresorhus/gzip-size)\n\n> Get the gzipped size of a string or buffer\n\n\n## Install\n\n```\n$ npm install gzip-size\n```\n\n\n## Usage\n\n```js\nconst gzipSize = require('gzip-size');\nconst text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';\n\nconsole.log(text.length);\n//=> 191\n\nconsole.log(gzipSize.sync(text));\n//=> 78\n```\n\n\n## API\n\n### gzipSize(input, [options])\n\nReturns a `Promise` for the size.\n\n### gzipSize.sync(input, [options])\n\nReturns the size.\n\n#### input\n\nType: `string` `Buffer`\n\n#### options\n\nType: `Object`\n\nAny [`zlib` option](https://nodejs.org/api/zlib.html#zlib_class_options).\n\n### gzipSize.stream([options])\n\nReturns a [`stream.PassThrough`](https://nodejs.org/api/stream.html#stream_class_stream_passthrough). The stream emits a `gzip-size` event and has a `gzipSize` property.\n\n### gzipSize.file(path, [options])\n\nReturns a `Promise` for the size of the file.\n\n#### path\n\nType: `string`\n\n### gzipSize.fileSync(path, [options])\n\nReturns the size of the file.\n\n\n## Related\n\n- [gzip-size-cli](https://github.com/sindresorhus/gzip-size-cli) - CLI for this module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

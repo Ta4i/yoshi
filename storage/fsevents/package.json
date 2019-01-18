@@ -3366,6 +3366,182 @@
 				"tmp": "tmp/fsevents_1.2.0_1524236364192_0.38566375459566893"
 			},
 			"_nodeVersion": "6.10.2"
+		},
+		"1.2.6": {
+			"name": "fsevents",
+			"description": "Native Access to Mac OS-X FSEvents",
+			"version": "1.2.6",
+			"author": {
+				"name": "Philipp Dunkel",
+				"email": "pip@pipobscure.com"
+			},
+			"homepage": "https://github.com/strongloop/fsevents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/strongloop/fsevents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/strongloop/fsevents/issues"
+			},
+			"engines": {
+				"node": ">=4.0"
+			},
+			"main": "fsevents.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fsevents/-/fsevents-1.2.6.tgz",
+				"shasum": "d3a1864a71876a2eb9b244e3bd8f606eb09568c0"
+			},
+			"dependencies": {
+				"nan": "^2.9.2",
+				"node-pre-gyp": "^0.10.0"
+			},
+			"devDependencies": {
+				"tap": "~0.4.8"
+			},
+			"keywords": [
+				"fsevents",
+				"mac"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "mbajtoss@gmail.com",
+					"name": "bajtos"
+				},
+				{
+					"email": "info@bnoordhuis.nl",
+					"name": "bnoordhuis"
+				},
+				{
+					"email": "elan.shanker+npm@gmail.com",
+					"name": "es128"
+				},
+				{
+					"email": "pip@pipobscure.com",
+					"name": "pipobscure"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node install",
+				"prepublish": "if [ $(npm -v | head -c 1) -lt 3 ]; then exit 1; fi && npm dedupe",
+				"test": "tap ./test",
+				"node-pre-gyp": "node-pre-gyp"
+			},
+			"os": [
+				"darwin"
+			],
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "pipobscure",
+				"email": "pip@pipobscure.com"
+			},
+			"_id": "fsevents@1.2.6",
+			"gitHead": "3f7146e2900702d643bbd0d1814d4721523d5c27",
+			"binary": {
+				"module_name": "fse",
+				"module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./v{version}/",
+				"package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://fsevents-binaries.s3-us-west-2.amazonaws.com"
+			},
+			"_hasShrinkwrap": false,
+			"bundleDependencies": [
+				"node-pre-gyp"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/fsevents_1.2.6_1547580155054_0.5445106106788142"
+			},
+			"_nodeVersion": "11.0.0"
+		},
+		"1.2.7": {
+			"name": "fsevents",
+			"description": "Native Access to Mac OS-X FSEvents",
+			"version": "1.2.7",
+			"author": {
+				"name": "Philipp Dunkel",
+				"email": "pip@pipobscure.com"
+			},
+			"homepage": "https://github.com/strongloop/fsevents",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/strongloop/fsevents.git"
+			},
+			"bugs": {
+				"url": "https://github.com/strongloop/fsevents/issues"
+			},
+			"engines": {
+				"node": ">=4.0"
+			},
+			"main": "fsevents.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fsevents/-/fsevents-1.2.7.tgz",
+				"shasum": "4851b664a3783e52003b3c66eb0eee1074933aa4"
+			},
+			"dependencies": {
+				"nan": "^2.9.2",
+				"node-pre-gyp": "^0.10.0"
+			},
+			"devDependencies": {
+				"tap": "~0.4.8"
+			},
+			"keywords": [
+				"fsevents",
+				"mac"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "mbajtoss@gmail.com",
+					"name": "bajtos"
+				},
+				{
+					"email": "info@bnoordhuis.nl",
+					"name": "bnoordhuis"
+				},
+				{
+					"email": "elan.shanker+npm@gmail.com",
+					"name": "es128"
+				},
+				{
+					"email": "pip@pipobscure.com",
+					"name": "pipobscure"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"install": "node install",
+				"prepublish": "if [ $(npm -v | head -c 1) -lt 3 ]; then exit 1; fi && npm dedupe",
+				"test": "tap ./test",
+				"node-pre-gyp": "node-pre-gyp"
+			},
+			"os": [
+				"darwin"
+			],
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "pipobscure",
+				"email": "pip@pipobscure.com"
+			},
+			"_id": "fsevents@1.2.7",
+			"gitHead": "581ee4b38e07024ac0bf747aa398440d99c84b6c",
+			"binary": {
+				"module_name": "fse",
+				"module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+				"remote_path": "./v{version}/",
+				"package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+				"host": "https://fsevents-binaries.s3-us-west-2.amazonaws.com"
+			},
+			"_hasShrinkwrap": false,
+			"bundleDependencies": [
+				"node-pre-gyp"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/fsevents_1.2.7_1547826867585_0.6707229969998358"
+			},
+			"_nodeVersion": "11.0.0"
 		}
 	},
 	"time": {
@@ -3390,7 +3566,7 @@
 		"0.1.1": "2013-07-06T22:04:02.366Z",
 		"0.2.0": "2014-01-31T22:45:31.014Z",
 		"0.3.0": "2014-08-19T22:00:57.872Z",
-		"modified": "2019-01-03T22:23:10.637Z",
+		"modified": "2019-01-18T15:54:30.376Z",
 		"2.0.0": "2018-11-10T13:45:29.438Z",
 		"2.0.1": "2018-11-10T14:25:27.802Z",
 		"1.0.18-0": "2017-02-19T16:55:47.760Z",
@@ -3416,15 +3592,17 @@
 		"1.1.0": "2017-02-19T17:47:36.660Z",
 		"1.0.2": "2015-10-06T16:54:19.342Z",
 		"1.1.1": "2017-02-20T05:18:05.877Z",
-		"1.2.0": "2018-04-20T14:59:24.344Z"
+		"1.2.0": "2018-04-20T14:59:24.344Z",
+		"1.2.6": "2019-01-15T19:22:35.178Z",
+		"1.2.7": "2019-01-18T15:54:27.775Z"
 	},
 	"dist-tags": {
-		"latest": "1.2.4",
+		"latest": "1.2.7",
 		"napi": "2.0.2-pre-1"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749354289
+			"fetched": 1547828390827
 		}
 	},
 	"_distfiles": {
@@ -3599,9 +3777,21 @@
 		"fsevents-1.2.0.tgz": {
 			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fsevents/-/fsevents-1.2.0.tgz",
 			"sha": "e11a5ff285471e4cc43ab9cd09bb7986c565dcdc"
+		},
+		"fsevents-1.2.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fsevents/-/fsevents-1.2.6.tgz",
+			"sha": "d3a1864a71876a2eb9b244e3bd8f606eb09568c0"
+		},
+		"fsevents-1.2.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fsevents/-/fsevents-1.2.7.tgz",
+			"sha": "4851b664a3783e52003b3c66eb0eee1074933aa4"
 		}
 	},
-	"_attachments": {},
-	"_rev": "5-00fe87ce16655f4a",
-	"readme": ""
+	"_attachments": {
+		"fsevents-1.2.7.tgz": {
+			"shasum": "4851b664a3783e52003b3c66eb0eee1074933aa4"
+		}
+	},
+	"_rev": "11-59b380b9f5b7ac2c",
+	"readme": "# fsevents [![NPM](https://nodei.co/npm/fsevents.png)](https://nodei.co/npm/fsevents/)\n\nNative access to OS X FSEvents in [Node.js](http://nodejs.org/)\n\nThe FSEvents API in OS X allows applications to register for notifications of\nchanges to a given directory tree. It is a very fast and lightweight alternative\nto kqueue.\n\nThis is a low-level library. For a cross-compatible file watching module that\nuses fsevents, check out [Chokidar](https://www.npmjs.com/package/chokidar).\n\n* [Module Site & GitHub](https://github.com/strongloop/fsevents)\n* [NPM Page](https://npmjs.org/package/fsevents)\n\n## Installation\n\n\t$ npm install fsevents\n\n## Usage\n\n```js\nvar fsevents = require('fsevents');\nvar watcher = fsevents(__dirname);\nwatcher.on('fsevent', function(path, flags, id) { }); // RAW Event as emitted by OS-X\nwatcher.on('change', function(path, info) { }); // Common Event for all changes\nwatcher.start() // To start observation\nwatcher.stop()  // To end observation\n```\n\n### Events\n\n * *fsevent* - RAW Event as emitted by OS-X\n * *change* - Common Event for all changes\n * *created* - A File-System-Item has been created\n * *deleted* - A File-System-Item has been deleted\n * *modified* - A File-System-Item has been modified\n * *moved-out* - A File-System-Item has been moved away from this location\n * *moved-in* - A File-System-Item has been moved into this location\n\nAll events except *fsevent* take an *info* object as the second parameter of the callback. The structure of this object is:\n\n```js\n{\n  \"event\": \"<event-type>\",\n  \"id\": <eventi-id>,\n  \"path\": \"<path-that-this-is-about>\",\n  \"type\": \"<file|directory|symlink>\",\n  \"changes\": {\n    \"inode\": true, // Has the iNode Meta-Information changed\n    \"finder\": false, // Has the Finder Meta-Data changed\n    \"access\": false, // Have the access permissions changed\n    \"xattrs\": false // Have the xAttributes changed\n  },\n  \"flags\": <raw-flags>\n}\n```\n\n## MIT License\n\nCopyright (C) 2010-2014 Philipp Dunkel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
 }

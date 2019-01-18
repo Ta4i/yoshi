@@ -218,7 +218,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749373161
+			"fetched": 1547828371297
 		}
 	},
 	"_distfiles": {
@@ -236,6 +236,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-281a0eb0ead3c78f",
+	"_rev": "10-595510ca1e7fa2d6",
 	"readme": "# listr-silent-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-silent-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-silent-renderer)\n\n> Suppress [Listr](https://github.com/SamVerschueren/listr) rendering output\n\n\n## Install\n\n```\n$ npm install --save listr-silent-renderer\n```\n\n\n## Usage\n\n```js\nconst SilentRenderer = require('listr-silent-renderer');\nconst Listr = require('listr');\n\nconst list = new Listr([\n    {\n        title: 'foo',\n        task: () => Promise.resolve('bar')\n    }\n], {\n    renderer: SilentRenderer\n});\n\nlist.run();\n```\n\n\n## Related\n\n- [listr](https://github.com/SamVerschueren/listr) - Terminal task list\n- [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer) - Listr update renderer\n- [listr-verbose-renderer](https://github.com/SamVerschueren/listr-verbose-renderer) - Listr verbose renderer\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)"
 }

@@ -463,7 +463,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749391529
+			"fetched": 1547828403997
 		}
 	},
 	"_distfiles": {
@@ -497,6 +497,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6330db3e6183f2e3",
+	"_rev": "10-70c002d348952a86",
 	"readme": "# array-uniq [![Build Status](https://travis-ci.org/sindresorhus/array-uniq.svg?branch=master)](https://travis-ci.org/sindresorhus/array-uniq)\n\n> Create an array without duplicates\n\n\n## Install\n\n```\n$ npm install array-uniq\n```\n\n\n## Usage\n\n```js\nconst arrayUniq = require('array-uniq');\n\narrayUniq([1, 1, 2, 3, 3]);\n//=> [1, 2, 3]\n\narrayUniq(['foo', 'foo', 'bar', 'foo']);\n//=> ['foo', 'bar']\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

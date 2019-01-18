@@ -1,0 +1,1086 @@
+{
+	"name": "jss-global",
+	"versions": {
+		"2.0.0": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "2.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-2.0.0.tgz",
+				"shasum": "a162f822f17e5d760151d908bdb41d7f2824c28f"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "8.0.0",
+				"jss-nested": "^5.0.0",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^8.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublishOnly": "npm run all"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@2.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "3a35e50c1af47ef35122df9e25f39a7f20998704",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-global-2.0.0.tgz_1497991451537_0.8845716754440218"
+			},
+			"_nodeVersion": "6.10.2"
+		},
+		"0.4.0": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "0.4.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.4.0.tgz",
+				"shasum": "c65db1c1cdaac2b8c8d89ec5c10b5d3e33914dc0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "^6.0.2",
+				"jss-nested": "^3.0.0",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.2"
+			},
+			"keywords": [
+				"cssinnjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@0.4.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "f93cf9a75f8884031d706cccfbf362b31730ec3a",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-global-0.4.0.tgz_1482495066586_0.7159776324406266"
+			},
+			"_shasum": "c65db1c1cdaac2b8c8d89ec5c10b5d3e33914dc0",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.4.1": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "0.4.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.4.1.tgz",
+				"shasum": "41862c78528de4d333853004eb71adecde1a5fda"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "^6.0.2",
+				"jss-nested": "^3.0.0",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.2"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@0.4.1",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "9d6f2a74ef771bf450a7e0f55ca50d483c8c826c",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-global-0.4.1.tgz_1484428308703_0.5812412730883807"
+			},
+			"_shasum": "41862c78528de4d333853004eb71adecde1a5fda",
+			"_nodeVersion": "5.7.1"
+		},
+		"3.0.0": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "3.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-3.0.0.tgz",
+				"shasum": "e19e5c91ab2b96353c227e30aa2cbd938cdaafa2"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "^9.0.0",
+				"jss-nested": "^6.0.0",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublishOnly": "npm run all"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@3.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "62374a9178109887a001c701cc12d540f03999dc",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-global-3.0.0.tgz_1506788101238_0.37818267149850726"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"0.2.0": {
+			"name": "jss-global",
+			"description": "![JSS logo](https://avatars1.githubusercontent.com/u/9503099?v=3&s=60)",
+			"version": "0.2.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.2.0.tgz",
+				"shasum": "26c7b26daab7503c0d703076827580ef05932b7e"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"jss": "^5.5.6",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"cssinnjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@0.2.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "c962334d2d036694143bcf05e7464c2dd9337402",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-global-0.2.0.tgz_1480767449244_0.2107045913580805"
+			},
+			"_shasum": "26c7b26daab7503c0d703076827580ef05932b7e",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.3.0": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "0.3.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.3.0.tgz",
+				"shasum": "9879edca7f999c70742380cfa401d67f8257261d"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"jss": "^6.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"cssinnjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@0.3.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "9ccd344308202e2f7c140c27474f5eef1f08c71f",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-global-0.3.0.tgz_1481243780891_0.6062006328720599"
+			},
+			"_shasum": "9879edca7f999c70742380cfa401d67f8257261d",
+			"_nodeVersion": "6.9.2"
+		},
+		"1.0.0": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "1.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-1.0.0.tgz",
+				"shasum": "ba87850cd56d32e0623c3878fd5ef376a61e6f65"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "^7.0.0",
+				"jss-nested": "^3.0.0",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^7.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@1.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "6f4cfe60c813ff17ad75eeb04ee928d15f3fa90a",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-global-1.0.0.tgz_1491796683908_0.9652998948004097"
+			},
+			"_shasum": "ba87850cd56d32e0623c3878fd5ef376a61e6f65",
+			"_nodeVersion": "6.10.2"
+		},
+		"1.0.1": {
+			"name": "jss-global",
+			"description": "Global styles for JSS",
+			"version": "1.0.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-1.0.1.tgz",
+				"shasum": "36731778f6d8649110611f7c178dbcd60fd92b24"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"jss": "^7.0.0",
+				"jss-nested": "^4.0.1",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^7.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@1.0.1",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "6a595bc87ffe2564456ebc622add09c12d8589fd",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-global-1.0.1.tgz_1492523598534_0.5489336790051311"
+			},
+			"_shasum": "36731778f6d8649110611f7c178dbcd60fd92b24",
+			"_nodeVersion": "6.10.2"
+		},
+		"0.1.0": {
+			"name": "jss-global",
+			"description": "![JSS logo](https://avatars1.githubusercontent.com/u/9503099?v=3&s=60)",
+			"version": "0.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-global",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss-global.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-global]"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.1.0.tgz",
+				"shasum": "935d743940620e4748451d08d6463d0a524e6bfe"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.10.1",
+				"babel-core": "^6.9.1",
+				"babel-eslint": "^7.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.0.0",
+				"jss": "^5.5.6",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.6.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.3.0",
+				"eslint-plugin-import": "^2.0.0",
+				"eslint-plugin-jsx-a11y": "^2.2.2",
+				"eslint-plugin-react": "^6.3.0",
+				"expect.js": "^0.3.1",
+				"karma": "^1.3.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"cssinnjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"global",
+				"unscoped"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-global.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-global.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-global@0.1.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "5acc9d25768b1a7d43101fad989345d27476d779",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-global-0.1.0.tgz_1480765620124_0.2866038689389825"
+			},
+			"_shasum": "935d743940620e4748451d08d6463d0a524e6bfe",
+			"_nodeVersion": "5.7.1"
+		}
+	},
+	"time": {
+		"2.0.0": "2017-06-20T20:44:12.678Z",
+		"0.4.0": "2016-12-23T12:11:08.899Z",
+		"0.4.1": "2017-01-14T21:11:50.838Z",
+		"3.0.0": "2017-09-30T16:15:02.518Z",
+		"created": "2016-12-03T11:47:00.680Z",
+		"modified": "2017-09-30T16:23:22.040Z",
+		"0.2.0": "2016-12-03T12:17:31.288Z",
+		"0.3.0": "2016-12-09T00:36:21.494Z",
+		"1.0.0": "2017-04-10T03:58:04.469Z",
+		"1.0.1": "2017-04-18T13:53:19.120Z",
+		"0.1.0": "2016-12-03T11:47:00.680Z"
+	},
+	"dist-tags": {
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828479265
+		}
+	},
+	"_distfiles": {
+		"jss-global-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-2.0.0.tgz",
+			"sha": "a162f822f17e5d760151d908bdb41d7f2824c28f"
+		},
+		"jss-global-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.4.0.tgz",
+			"sha": "c65db1c1cdaac2b8c8d89ec5c10b5d3e33914dc0"
+		},
+		"jss-global-0.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.4.1.tgz",
+			"sha": "41862c78528de4d333853004eb71adecde1a5fda"
+		},
+		"jss-global-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-3.0.0.tgz",
+			"sha": "e19e5c91ab2b96353c227e30aa2cbd938cdaafa2"
+		},
+		"jss-global-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.2.0.tgz",
+			"sha": "26c7b26daab7503c0d703076827580ef05932b7e"
+		},
+		"jss-global-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.3.0.tgz",
+			"sha": "9879edca7f999c70742380cfa401d67f8257261d"
+		},
+		"jss-global-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-1.0.0.tgz",
+			"sha": "ba87850cd56d32e0623c3878fd5ef376a61e6f65"
+		},
+		"jss-global-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-1.0.1.tgz",
+			"sha": "36731778f6d8649110611f7c178dbcd60fd92b24"
+		},
+		"jss-global-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-global/-/jss-global-0.1.0.tgz",
+			"sha": "935d743940620e4748451d08d6463d0a524e6bfe"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-2c20fe96df97f38e",
+	"readme": "# Global Styles for JSS\n\nIf you want to write regular globally scoped CSS with JSS, this plugin is for you. Don't use it if you can avoid it.\n\n[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/cssinjs/lobby)\n\n## Top level global declarations block\n\n```javascript\nconst styles = {\n  '@global': {\n    body: {\n      color: 'green'\n    },\n    a: {\n      textDecoration: 'underline'\n    }\n  }\n}\n```\n\n## Top level global prefix\n\n```javascript\nconst styles = {\n  '@global body': {\n    color: 'green'\n  }\n}\n```\n\n## Nested global declarations block\n\n```javascript\nconst styles = {\n  button: {\n    float: 'left',\n    '@global': {\n      span: {color: 'red'}\n    }\n  }\n}\n```\n\n## Nested global prefix\n\n```javascript\nconst styles = {\n  button: {\n    float: 'left',\n    '@global span': {color: 'red'}\n  }\n}\n```\n\n## Issues\n\nFile a bug against [cssinjs/jss prefixed with \\[jss-global\\]](https://github.com/cssinjs/jss/issues/new?title=[jss-global]%20).\n\n## Run tests\n\n```bash\nnpm i\nnpm run test\n```\n\n## License\n\nMIT"
+}

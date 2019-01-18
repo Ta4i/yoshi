@@ -635,7 +635,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749394721
+			"fetched": 1547828416013
 		}
 	},
 	"_distfiles": {
@@ -669,6 +669,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ae6bd014dc1cfbaa",
+	"_rev": "10-ad1739eeb647d103",
 	"readme": "# has-ansi [![Build Status](https://travis-ci.org/chalk/has-ansi.svg?branch=master)](https://travis-ci.org/chalk/has-ansi)\n\n> Check if a string has [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)\n\n\n## Install\n\n```\n$ npm install has-ansi\n```\n\n\n## Usage\n\n```js\nconst hasAnsi = require('has-ansi');\n\nhasAnsi('\\u001B[4mUnicorn\\u001B[0m');\n//=> true\n\nhasAnsi('cake');\n//=> false\n```\n\n\n## Related\n\n- [has-ansi-cli](https://github.com/chalk/has-ansi-cli) - CLI for this module\n- [strip-ansi](https://github.com/chalk/strip-ansi) - Strip ANSI escape codes\n- [ansi-regex](https://github.com/chalk/ansi-regex) - Regular expression for matching ANSI escape codes\n- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right\n\n\n## Maintainers\n\n- [Sindre Sorhus](https://github.com/sindresorhus)\n- [Josh Junon](https://github.com/qix-)\n\n## License\n\nMIT"
 }

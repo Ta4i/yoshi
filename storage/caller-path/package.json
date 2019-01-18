@@ -225,7 +225,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749391137
+			"fetched": 1547828404920
 		}
 	},
 	"_distfiles": {
@@ -243,6 +243,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d5637645b7423328",
+	"_rev": "10-9216929cdee7a341",
 	"readme": "# caller-path [![Build Status](https://travis-ci.org/sindresorhus/caller-path.svg?branch=master)](https://travis-ci.org/sindresorhus/caller-path)\n\n> Get the path of the caller function\n\n\n## Install\n\n```\n$ npm install --save caller-path\n```\n\n\n## Usage\n\n```js\n// foo.js\nconst callerPath = require('caller-path');\n\nmodule.exports = () => {\n\tconsole.log(callerPath());\n\t//=> '/Users/sindresorhus/dev/unicorn/bar.js'\n}\n```\n\n```js\n// bar.js\nconst foo = require('./foo');\nfoo();\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

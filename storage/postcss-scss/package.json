@@ -1883,7 +1883,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749393543
+			"fetched": 1547828429184
 		}
 	},
 	"_distfiles": {
@@ -1985,6 +1985,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-cc66ec07e6764f02",
+	"_rev": "10-762c407026fa9c1c",
 	"readme": "# PostCSS SCSS Syntax [![Build Status][ci-img]][ci]\n\n<img align=\"right\" width=\"95\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"http://postcss.github.io/postcss/logo.svg\">\n\nA [SCSS] parser for [PostCSS].\n\n**This module does not compile SCSS.** It simply parses mixins as custom\nat-rules & variables as properties, so that PostCSS plugins can then transform\nSCSS source code alongside CSS.\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://img.shields.io/travis/postcss/postcss-scss.svg\n[SCSS]:    http://sass-lang.com/\n[ci]:      https://travis-ci.org/postcss/postcss-scss\n\n<a href=\"https://evilmartians.com/?utm_source=postcss\">\n<img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\" alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n\n## Install\n\n```sh\nnpm --save install postcss-scss\n```\n\nor (if you use [Yarn](https://yarnpkg.com/))\n\n```sh\nyarn add --dev postcss-scss\n```\n\n\n## Usage\n\nThere are two ways to use this parser:\n\n### 1. SCSS Transformations\n\nThe main use case of this plugin is to apply PostCSS transformations directly\nto SCSS source code.\n\nFor example, you can lint SCSS source with [Stylelint]\nand linter will automatically fix issues in the source.\n\n```js\n// postcss.config.js\nmodule.exports = {\n  syntax: 'postcss-scss',\n  plugins: {\n    …\n  }\n}\n```\n\n[Stylelint]:    http://stylelint.io/\n\n\n### 2. Inline Comments for PostCSS\n\nAlso you can use this parser just to add `//` single-line comment\nto your PostCSS project (without any Sass):\n\n```scss\n:root {\n    // Main theme color\n    --color: red;\n}\n```\n\nNote that you don’t need a special stringifier to handle the output; the default\none will automatically convert single line comments into block comments.\n\n```js\n// postcss.config.js\nmodule.exports = {\n  parser: 'postcss-scss',\n  plugins: {\n    …\n  }\n}\n```\n\nIf you want Sass behaviour with removing inline comments, you can use\n[postcss-strip-inline-comments] plugin.\n\n[postcss-strip-inline-comments]: https://github.com/mummybot/postcss-strip-inline-comments"
 }

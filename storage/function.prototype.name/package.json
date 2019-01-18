@@ -527,7 +527,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749340751
+			"fetched": 1547828353274
 		}
 	},
 	"_distfiles": {
@@ -553,6 +553,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-776ee40caead6d19",
+	"_rev": "10-86200d5f10bd15d3",
 	"readme": "# function.prototype.name <sup>[![Version Badge][2]][1]</sup>\n\n[![Build Status][3]][4]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\n[![browser support][9]][10]\n\nAn ES6 spec-compliant `Function.prototype.name` shim. Invoke its \"shim\" method to shim Function.prototype.name if it is unavailable.\n*Note*: `Function#name` requires a true ES5 environment - specifically, one with ES5 getters.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES5-supported environment and complies with the [spec](http://www.ecma-international.org/ecma-262/6.0/#sec-get-regexp.prototype.flags).\n\nMost common usage:\n\n## Example\n\n```js\nvar functionName = require('function.prototype.name');\nvar assert = require('assert');\n\nassert.equal(functionName(function foo() {}), 'foo');\n\nfunctionName.shim();\nassert.equal(function foo() {}.name, 'foo');\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/function.prototype.name\n[2]: http://versionbadg.es/ljharb/function.prototype.name.svg\n[3]: https://travis-ci.org/ljharb/function.prototype.name.svg\n[4]: https://travis-ci.org/ljharb/function.prototype.name\n[5]: https://david-dm.org/ljharb/function.prototype.name.svg\n[6]: https://david-dm.org/ljharb/function.prototype.name\n[7]: https://david-dm.org/ljharb/function.prototype.name/dev-status.svg\n[8]: https://david-dm.org/ljharb/function.prototype.name#info=devDependencies\n[9]: https://ci.testling.com/ljharb/function.prototype.name.png\n[10]: https://ci.testling.com/ljharb/function.prototype.name\n[11]: https://nodei.co/npm/function.prototype.name.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/function.prototype.name.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/function.prototype.name.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=function.prototype.name"
 }

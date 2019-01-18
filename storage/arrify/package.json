@@ -134,7 +134,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749362732
+			"fetched": 1547828397050
 		}
 	},
 	"_distfiles": {
@@ -148,6 +148,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-db63569bc7775dcd",
+	"_rev": "10-fd80866ce450a83e",
 	"readme": "# arrify [![Build Status](https://travis-ci.org/sindresorhus/arrify.svg?branch=master)](https://travis-ci.org/sindresorhus/arrify)\n\n> Convert a value to an array\n\n\n## Install\n\n```\n$ npm install --save arrify\n```\n\n\n## Usage\n\n```js\nconst arrify = require('arrify');\n\narrify('unicorn');\n//=> ['unicorn']\n\narrify(['unicorn']);\n//=> ['unicorn']\n\narrify(null);\n//=> []\n\narrify(undefined);\n//=> []\n```\n\n*Supplying `null` or `undefined` results in an empty array.*\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

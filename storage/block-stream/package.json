@@ -364,7 +364,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749435163
+			"fetched": 1547828446704
 		}
 	},
 	"_distfiles": {
@@ -398,6 +398,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e9d3f9ed8e002e75",
+	"_rev": "10-77616143c6e9e821",
 	"readme": "# block-stream\n\nA stream of blocks.\n\nWrite data into it, and it'll output data in buffer blocks the size you\nspecify, padding with zeroes if necessary.\n\n```javascript\nvar block = new BlockStream(512)\nfs.createReadStream(\"some-file\").pipe(block)\nblock.pipe(fs.createWriteStream(\"block-file\"))\n```\n\nWhen `.end()` or `.flush()` is called, it'll pad the block with zeroes."
 }

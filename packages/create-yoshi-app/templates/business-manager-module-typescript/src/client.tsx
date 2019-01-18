@@ -1,6 +1,5 @@
 import * as axios from 'axios';
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
 import { I18nextProvider } from 'react-i18next';
 import { ModuleRegistry } from 'react-module-container';
 import { create } from '@wix/fedops-logger';
@@ -19,11 +18,6 @@ wixAxiosConfig(axios, {
 });
 
 class AppContainer extends React.Component<IBMModuleParams> {
-  static propTypes = {
-    locale: PropTypes.string,
-    config: PropTypes.object,
-  };
-
   constructor(props) {
     super(props);
     ModuleRegistry.notifyListeners(

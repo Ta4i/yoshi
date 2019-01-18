@@ -690,7 +690,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749362009
+			"fetched": 1547828396928
 		}
 	},
 	"_distfiles": {
@@ -744,6 +744,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6093a6f06c6596a1",
+	"_rev": "10-accb23e9f1768cdc",
 	"readme": "[![Build Status](https://secure.travis-ci.org/andrewrk/node-mv.png)](http://travis-ci.org/andrewrk/node-mv)\n\nUsage:\n------\n\n```js\nvar mv = require('mv');\n\nmv('source/file', 'dest/file', function(err) {\n  // done. it tried fs.rename first, and then falls back to\n  // piping the source file to the dest file and then unlinking\n  // the source file.\n});\n```\n\nAnother example:\n\n```js\nmv('source/dir', 'dest/a/b/c/dir', {mkdirp: true}, function(err) {\n  // done. it first created all the necessary directories, and then\n  // tried fs.rename, then falls back to using ncp to copy the dir\n  // to dest and then rimraf to remove the source dir\n});\n```\n\nAnother example:\n\n```js\nmv('source/file', 'dest/file', {clobber: false}, function(err) {\n  // done. If 'dest/file' exists, an error is returned\n  // with err.code === 'EEXIST'.\n});\n```"
 }

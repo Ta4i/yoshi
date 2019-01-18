@@ -865,7 +865,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749370103
+			"fetched": 1547828374311
 		}
 	},
 	"_distfiles": {
@@ -935,6 +935,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-9f7a5b339a7557fc",
+	"_rev": "10-dcf883763d871073",
 	"readme": "# source-list-map\n\n## API\n\n### Example\n\n``` js\nvar SourceListMap = require(\"source-list-map\").SourceListMap;\n\n// Create a new map\nvar map = new SourceListMap();\n\n// Add generated code that is map line to line to some soure\nmap.add(\"Generated\\ncode1\\n\", \"source-code.js\", \"Orginal\\nsource\");\n\n// Add generated code that isn't mapped\nmap.add(\"Generated\\ncode2\\n\");\n\n// Get SourceMap and generated source\nmap.toStringWithSourceMap({ file: \"generated-code.js\" });\n// {\n//   source: 'Generated\\ncode1\\nGenerated\\ncode2\\n',\n//   map: {\n//      version: 3,\n//      file: 'generated-code.js',\n//      sources: [ 'source-code.js' ],\n//      sourcesContent: [ 'Orginal\\nsource' ],\n//      mappings: 'AAAA;AACA;;;'\n//    }\n// }\n\n// Convert existing SourceMap into SourceListMap\n// (Only the first mapping per line is preserved)\nvar fromStringWithSourceMap = require(\"source-list-map\").fromStringWithSourceMap;\nvar map = fromStringWithSourceMap(\"Generated\\ncode\", { version: 3, ... });\n\n```\n\n### `new SourceListMap()`\n\n### `SourceListMap.prototype.add`\n\n``` js\nSourceListMap.prototype.add(generatedCode: string)\nSourceListMap.prototype.add(generatedCode: string, source: string, originalSource: string)\nSourceListMap.prototype.add(sourceListMap: SourceListMap)\n```\n\nAppend some stuff.\n\n### `SourceListMap.prototype.prepend`\n\n``` js\nSourceListMap.prototype.prepend(generatedCode: string)\nSourceListMap.prototype.prepend(generatedCode: string, source: string, originalSource: string)\nSourceListMap.prototype.prepend(sourceListMap: SourceListMap)\n```\n\nPrepend some stuff.\n\n### `SourceListMap.prototype.toString()`\n\nGet generated code.\n\n### `SourceListMap.prototype.toStringWithSourceMap`\n\n``` js\nSourceListMap.prototype.toStringWithSourceMap(options: object)\n```\n\nGet generated code and SourceMap. `options` can contains `file` property which defines the `file` property of the SourceMap.\n\n### `SourceListMap.prototype.mapGeneratedCode`\n\n``` js\nSourceListMap.prototype.mapGeneratedCode(fn: function) : SourceListMap\n```\n\nApplies `fn` to each generated code block (per line). The returned value is set as new generated code. Returns a new SourceListMap.\n\nRemoving and adding lines is supported. The SourceMap complexity will increase when doing this.\n\n## Test\n\n[![Build Status](https://travis-ci.org/webpack/source-list-map.svg)](https://travis-ci.org/webpack/source-list-map)\n\n## License\n\nCopyright (c) 2017 JS Foundation\n\nMIT (http://www.opensource.org/licenses/mit-license.php)"
 }

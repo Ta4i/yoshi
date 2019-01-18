@@ -1888,7 +1888,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749379985
+			"fetched": 1547828420212
 		}
 	},
 	"_distfiles": {
@@ -2026,6 +2026,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-dff59cb25a74e088",
+	"_rev": "10-7cf157bac4f21a9e",
 	"readme": "# babel-plugin-transform-react-display-name\n\nAdd displayName to React.createClass calls\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-react-display-name\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-react-display-name\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-react-display-name script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-react-display-name\"]\n});\n```"
 }

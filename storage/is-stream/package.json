@@ -210,7 +210,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749357480
+			"fetched": 1547828369894
 		}
 	},
 	"_distfiles": {
@@ -228,6 +228,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-13ddb24ddb69660b",
+	"_rev": "10-3539b2191b899289",
 	"readme": "# is-stream [![Build Status](https://travis-ci.org/sindresorhus/is-stream.svg?branch=master)](https://travis-ci.org/sindresorhus/is-stream)\n\n> Check if something is a [Node.js stream](https://nodejs.org/api/stream.html)\n\n\n## Install\n\n```\n$ npm install --save is-stream\n```\n\n\n## Usage\n\n```js\nconst fs = require('fs');\nconst isStream = require('is-stream');\n\nisStream(fs.createReadStream('unicorn.png'));\n//=> true\n\nisStream({});\n//=> false\n```\n\n\n## API\n\n### isStream(stream)\n\n#### isStream.writable(stream)\n\n#### isStream.readable(stream)\n\n#### isStream.duplex(stream)\n\n#### isStream.transform(stream)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

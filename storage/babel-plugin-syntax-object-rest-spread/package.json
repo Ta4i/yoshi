@@ -1688,7 +1688,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749352153
+			"fetched": 1547828386871
 		}
 	},
 	"_distfiles": {
@@ -1818,6 +1818,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a0fab3dd5fd9b880",
+	"_rev": "10-21bd104cba4e4b8f",
 	"readme": "# babel-plugin-syntax-object-rest-spread\n\nAllow parsing of object rest/spread.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-object-rest-spread\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-object-rest-spread\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-object-rest-spread script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-object-rest-spread\"]\n});\n```"
 }

@@ -2421,7 +2421,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749393588
+			"fetched": 1547828429225
 		}
 	},
 	"_distfiles": {
@@ -2527,6 +2527,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-13f14c2f0aec751d",
+	"_rev": "10-8c63d227b1c44bee",
 	"readme": "PostCSS Syntax\n====\n\n[![NPM version](https://img.shields.io/npm/v/postcss-syntax.svg?style=flat-square)](https://www.npmjs.com/package/postcss-syntax)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-syntax.svg)](https://travis-ci.org/gucong3000/postcss-syntax)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-syntaxes.svg?label=integration)](https://travis-ci.org/gucong3000/postcss-syntaxes)\n[![Codecov](https://img.shields.io/codecov/c/github/gucong3000/postcss-syntax.svg)](https://codecov.io/gh/gucong3000/postcss-syntax)\n[![David](https://img.shields.io/david/dev/gucong3000/postcss-syntax.svg)](https://david-dm.org/gucong3000/postcss-syntax?type=dev)\n\n<img align=\"right\" width=\"95\" height=\"95\"\n\ttitle=\"Philosopher’s stone, logo of PostCSS\"\n\tsrc=\"http://postcss.github.io/postcss/logo.svg\">\n\npostcss-syntax can automatically switch the required [PostCSS](https://github.com/postcss/postcss) syntax by file extension/source\n\n## Getting Started\n\nFirst thing's first, install the module:\n\n```\nnpm install postcss-syntax --save-dev\n```\n\nIf you want support SCSS/SASS/LESS/SugarSS syntax, you need to install these module:\n\n- SCSS: [postcss-scss](https://github.com/postcss/postcss-scss)\n- SASS: [postcss-sass](https://github.com/aleshaoleg/postcss-sass)\n- LESS: [postcss-less](https://github.com/shellscape/postcss-less)\n- SugarSS: [sugarss](https://github.com/postcss/sugarss)\n\nIf you want support HTML (and HTML-like)/Markdown/CSS-in-JS file format, you need to install these module:\n\n- CSS-in-JS: [postcss-jsx](https://github.com/gucong3000/postcss-jsx)\n- HTML (and HTML-like): [postcss-html](https://github.com/gucong3000/postcss-html)\n- Markdown: [postcss-markdown](https://github.com/gucong3000/postcss-markdown)\n\n## Use Cases\n\n```js\nconst postcss = require('postcss');\nconst syntax = require('postcss-syntax')({\n\trules: [\n\t\t{\n\t\t\ttest: /\\.(?:[sx]?html?|[sx]ht|vue|ux|php)$/i,\n\t\t\textract: 'html',\n\t\t},\n\t\t{\n\t\t\ttest: /\\.(?:markdown|md)$/i,\n\t\t\textract: 'markdown',\n\t\t},\n\t\t{\n\t\t\ttest: /\\.(?:m?[jt]sx?|es\\d*|pac)$/i,\n\t\t\textract: 'jsx',\n\t\t},\n\t\t{\n\t\t\t// custom language for file extension\n\t\t\ttest: /\\.postcss$/i,\n\t\t\tlang: 'scss'\n\t\t},\n\t\t{\n\t\t\t// custom language for file extension\n\t\t\ttest: /\\.customcss$/i,\n\t\t\tlang: 'custom'\n\t\t},\n\t],\n\n\t// custom parser for CSS (using `postcss-safe-parser`)\n\tcss: 'postcss-safe-parser',\n\t// custom parser for SASS (PostCSS-compatible syntax.)\n\tsass: require('postcss-sass'),\n\t// custom parser for SCSS (by module name)\n\tscss: 'postcss-scss',\n\t// custom parser for LESS (by module path)\n\tless: './node_modules/postcss-less',\n\t// custom parser for SugarSS\n\tsugarss: require('sugarss'),\n\t// custom parser for custom language\n\tcustom: require('postcss-custom-syntax'),\n\n});\npostcss(plugins).process(source, { syntax: syntax }).then(function (result) {\n\t// An alias for the result.css property. Use it with syntaxes that generate non-CSS output.\n\tresult.content\n});\n```"
 }

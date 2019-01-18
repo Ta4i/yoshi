@@ -140,7 +140,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749374369
+			"fetched": 1547828372767
 		}
 	},
 	"_distfiles": {
@@ -154,6 +154,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-634c0a6c97fd945b",
+	"_rev": "10-b9946bba22d9d257",
 	"readme": "# is-regexp [![Build Status](https://travis-ci.org/sindresorhus/is-regexp.svg?branch=master)](https://travis-ci.org/sindresorhus/is-regexp)\n\n> Check if a value is a regular expression\n\n\n## Install\n\n```\n$ npm install is-regexp\n```\n\n\n## Usage\n\n```js\nconst isRegexp = require('is-regexp');\n\nisRegexp('unicorn');\n//=> false\n\nisRegexp(/unicorn/);\n//=> true\n\nisRegexp(new RegExp('unicorn'));\n//=> true\n```\n\n\n## Related\n\n- [is](https://github.com/sindresorhus/is) - Type check values\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -291,7 +291,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749404344
+			"fetched": 1547828416220
 		}
 	},
 	"_distfiles": {
@@ -313,6 +313,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-43e9c8dc37ce2c64",
+	"_rev": "10-54bbfc4a3ca923ee",
 	"readme": "# map-obj [![Build Status](https://travis-ci.org/sindresorhus/map-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/map-obj)\n\n> Map object keys and values into a new object\n\n\n## Install\n\n```\n$ npm install map-obj\n```\n\n\n## Usage\n\n```js\nconst mapObj = require('map-obj');\n\nconst newObject = mapObj({foo: 'bar'}, (key, value) => [value, key]);\n//=> {bar: 'foo'}\n```\n\n\n## API\n\n### mapObj(source, mapper, [options])\n\n#### source\n\nType: `Object`\n\nSource object to copy properties from.\n\n#### mapper\n\nType: `Function`\n\nMapping function.\n\n- It has signature `mapper(sourceKey, sourceValue, source)`.\n- It must return a two item array: `[targetKey, targetValue]`.\n\n#### options\n\nType: `Object`\n\n##### deep\n\nType: `boolean`<br>\nDefault: `false`\n\nRecurse nested objects and objects in arrays.\n\n##### target\n\nType: `Object`<br>\nDefault: `{}`\n\nTarget object to map properties on to.\n\n\n## Related\n\n- [filter-obj](https://github.com/sindresorhus/filter-obj) - Filter object keys and values into a new object\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

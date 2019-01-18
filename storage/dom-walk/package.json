@@ -176,7 +176,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749430437
+			"fetched": 1547828455704
 		}
 	},
 	"_distfiles": {
@@ -194,6 +194,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-fe78bc937206e87b",
+	"_rev": "10-1bd9d5f9cfe17564",
 	"readme": "# dom-walk\n\niteratively walk a DOM node\n\n## Example\n\n``` js\nvar walk = require(\"dom-walk\")\n\nwalk(document.body.childNodes, function (node) {\n    console.log(\"node\", node)\n})\n```\n\n## Installation\n\n`npm install dom-walk`\n\n## Contributors\n\n - Raynos\n\n## MIT Licenced"
 }

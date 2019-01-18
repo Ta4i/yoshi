@@ -127,7 +127,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749401778
+			"fetched": 1547828435306
 		}
 	},
 	"_distfiles": {
@@ -141,6 +141,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-41e03753b18646bf",
+	"_rev": "10-7582ddcff64e0d34",
 	"readme": "seekout\n=======\n\nLooks for a provided file in the current directory. Also checks all parent directories and returns the first found file path.\n\n## Installation\n\n```bash\n$ npm install seekout\n```\n\n## Usage\n\n```javascript\nconst seekout = require('seekout');\n\nseekout('.npmrc');\n// \"/Users/sullenor/.npmrc\"\n// or null if file was not found\n```\n\nYou can also specify any certain working directory by the second argument.\n\n```javascript\nconst seekout = require('seekout');\n\nseekout('package.json', './seekout');\n// \"/../seekout/package.json\"\n```"
 }

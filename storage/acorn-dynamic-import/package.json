@@ -549,7 +549,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749372509
+			"fetched": 1547828404389
 		}
 	},
 	"_distfiles": {
@@ -583,6 +583,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a2b3e475e6be7489",
+	"_rev": "10-3aedde9ce0646fdf",
 	"readme": "# Dynamic import support in acorn\n\nThis is plugin for [Acorn](http://marijnhaverbeke.nl/acorn/) - a tiny, fast JavaScript parser, written completely in JavaScript.\n\nFor more information, check out the [proposal repo](https://github.com/tc39/proposal-dynamic-import).\n\n## Usage\n\nImporting this module gives you a plugin that can be used to extend an Acorn parser:\n\n```js\nimport Parser from 'acorn';\nimport dynamicImport from 'acorn-dynamic-import';\n\nParser.extend(dynamicImport).parse('import(\"something\");');\n```\n\nTo extend the AST walker for dynamic imports, you can injecting the new node type into [`acorn-walk`](https://www.npmjs.com/package/acorn-walk) like this:\n\n```js\nimport inject from 'acorn-dynamic-import/lib/walk';\nimport * as acornWalk from 'acorn-walk';\n\nconst walk = inject(acornWalk);\n```\n\n## License\n\nThis plugin is issued under the [MIT license](./LICENSE)."
 }

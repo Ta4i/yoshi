@@ -1027,7 +1027,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749378237
+			"fetched": 1547828418523
 		}
 	},
 	"_distfiles": {
@@ -1085,6 +1085,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "6-56b3c5b49f8a676c",
+	"_rev": "11-947d75d16000118c",
 	"readme": "# os-locale [![Build Status](https://travis-ci.org/sindresorhus/os-locale.svg?branch=master)](https://travis-ci.org/sindresorhus/os-locale)\n\n> Get the system [locale](https://en.wikipedia.org/wiki/Locale_(computer_software))\n\nUseful for localizing your module or app.\n\nPOSIX systems: The returned locale refers to the [`LC_MESSAGE`](http://www.gnu.org/software/libc/manual/html_node/Locale-Categories.html#Locale-Categories) category, suitable for selecting the language used in the user interface for message translation.\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-os-locale?utm_source=npm-os-locale&utm_medium=referral&utm_campaign=readme\">Get professional support for 'os-locale' with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n\n---\n\n## Install\n\n```\n$ npm install os-locale\n```\n\n\n## Usage\n\n```js\nconst osLocale = require('os-locale');\n\n(async () => {\n\tconsole.log(await osLocale());\n\t//=> 'en_US'\n})();\n```\n\n\n## API\n\n### osLocale([options])\n\nReturns a `Promise` for the locale.\n\n### osLocale.sync([options])\n\nReturns the locale.\n\n#### options\n\nType: `Object`\n\n##### spawn\n\nType: `boolean`<br>\nDefault: `true`\n\nSet to `false` to avoid spawning subprocesses and instead only resolve the locale from environment variables.\n\n\n## Security\n\nTo report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

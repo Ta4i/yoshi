@@ -715,7 +715,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749431987
+			"fetched": 1547828456418
 		}
 	},
 	"_distfiles": {
@@ -765,6 +765,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4724220429e383b2",
+	"_rev": "10-133b2e4df90d6700",
 	"readme": "# fs-write-stream-atomic\n\nLike `fs.createWriteStream(...)`, but atomic.\n\nWrites to a tmp file and does an atomic `fs.rename` to move it into\nplace when it's done.\n\nFirst rule of debugging: **It's always a race condition.**\n\n## USAGE\n\n```javascript\nvar fsWriteStreamAtomic = require('fs-write-stream-atomic')\n// options are optional.\nvar write = fsWriteStreamAtomic('output.txt', options)\nvar read = fs.createReadStream('input.txt')\nread.pipe(write)\n\n// When the write stream emits a 'finish' or 'close' event,\n// you can be sure that it is moved into place, and contains\n// all the bytes that were written to it, even if something else\n// was writing to `output.txt` at the same time.\n```\n\n### `fsWriteStreamAtomic(filename, [options])`\n\n* `filename` {String} The file we want to write to\n* `options` {Object}\n  * `chown` {Object} User and group to set ownership after write\n    * `uid` {Number}\n    * `gid` {Number}\n  * `encoding` {String} default = 'utf8'\n  * `mode` {Number} default = `0666`\n  * `flags` {String} default = `'w'`"
 }

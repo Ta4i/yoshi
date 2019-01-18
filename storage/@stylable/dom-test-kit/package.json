@@ -1,0 +1,1291 @@
+{
+	"name": "@stylable/dom-test-kit",
+	"versions": {
+		"0.1.5": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.5",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.5.tgz",
+				"shasum": "e8e5a5e4d6683887d5c58bb4628925f88dc4f3ce"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.12",
+				"@stylable/runtime": "^0.1.9"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.5",
+			"gitHead": "e2ed9510f94436fec20cccc3505e6c902546718d",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.5_1540921790754_0.6169646336651302"
+			}
+		},
+		"0.1.6": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.6",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.6.tgz",
+				"shasum": "4fcdf8bbc91465aee31284f6eb7a18c2155cf5cd"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.13",
+				"@stylable/runtime": "^0.1.9"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.6",
+			"gitHead": "e2230521e4531534bfa43621ba26196f338a9971",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.6_1541689526982_0.9294256788799307"
+			}
+		},
+		"0.1.3": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.3",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.3.tgz",
+				"shasum": "38254b8678ab7528c7238d6ce87380ec3f6a979e"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.10",
+				"@stylable/runtime": "^0.1.8"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha \"./tests/**/*.spec.ts\" --watch-extensions ts --require typescript-support",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.3",
+			"gitHead": "dbb41fffb306e60269f04e2c7e78c997143977ff",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.3_1537218869793_0.3029664323949146"
+			}
+		},
+		"0.1.4": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.4",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.4.tgz",
+				"shasum": "8d395ead4b6f7d00cbc80132261ca93f90bb626a"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.11",
+				"@stylable/runtime": "^0.1.9"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.4",
+			"gitHead": "9f5a12e4744c079d3e0b41add9c18025a0719357",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.4_1539788310994_0.672806728657674"
+			}
+		},
+		"0.1.9": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.9",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.9.tgz",
+				"shasum": "3cd37a7b711780d5813a7441a7ba8926fa5e8606"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.16",
+				"@stylable/runtime": "^0.1.11"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.9",
+			"gitHead": "1126baf1321a0b5d30685a2a33395f73372ea076",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.9_1543852219275_0.26206326465506247"
+			}
+		},
+		"0.1.8": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.8",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.8.tgz",
+				"shasum": "0200476a7595f70899b3d0f8a90cc02a7701a603"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.15",
+				"@stylable/runtime": "^0.1.10"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.8",
+			"gitHead": "27d3597a45de3119c4d74e6c92822a45bd7125a7",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.8_1543254555233_0.5654506667939969"
+			}
+		},
+		"0.1.1": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.1",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:wix/stylable.git"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.1.tgz",
+				"shasum": "ddb6beb6619cd1ddbd7bc00b7db5306bfadc32e7"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.8",
+				"@stylable/runtime": "^0.1.7"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist",
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha \"./tests/**/*.spec.ts\" --watch-extensions ts --require typescript-support",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.1",
+			"gitHead": "1d8950a51e77383751ecc10d9b75375a8f0817b9",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.1_1535380251648_0.16217463466098292"
+			}
+		},
+		"0.1.2": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.2",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.2.tgz",
+				"shasum": "b44547d24d6866c78cd388577db72dd541a06ac6"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.9",
+				"@stylable/runtime": "^0.1.8"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist",
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha \"./tests/**/*.spec.ts\" --watch-extensions ts --require typescript-support",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.2",
+			"gitHead": "75daaf22f4d07b7b206d189706cf160f7a1feb02",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.2_1535455260298_0.8362964264096675"
+			}
+		},
+		"0.1.0": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"homepage": "https://github.com/wix/stylable#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/wix/stylable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wix/stylable/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.0.tgz",
+				"shasum": "e8d8c0fc35fa17fcc77dc3ecbfd051ac34b74942"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.7",
+				"@stylable/runtime": "^0.1.7"
+			},
+			"license": "BSD-3-Clause",
+			"files": [
+				"dist",
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha \"./tests/**/*.spec.ts\" --watch-extensions ts --require typescript-support",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.0",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.0_1534412650572_0.5828529510964224"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"0.1.12-alpha.0": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.12-alpha.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.12-alpha.0.tgz",
+				"shasum": "6047f4f46a5d59340c089a859fe3a3e87fecdccd"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.19-alpha.0",
+				"@stylable/runtime": "^0.2.0-alpha.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.8.1/node@v8.12.0+x64 (win32)",
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.12-alpha.0",
+			"gitHead": "9705292eb59661087c074dc973287f3898687679",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.12-alpha.0_1547118043283_0.9831578023948269"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"0.1.12": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.12",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.12.tgz",
+				"shasum": "619e4fa97b15a4261564fbf96a529710bcfc7692"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.19",
+				"@stylable/runtime": "^0.2.0-alpha.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.12",
+			"gitHead": "04cf7ac8aa3ec061e938ff0b131152eda654a5dc",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.12_1547375645287_0.7245051087303254"
+			},
+			"_nodeVersion": "10.15.0"
+		},
+		"0.1.11": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.11",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.11.tgz",
+				"shasum": "d73ca227c4119fbeb1ea1862be5846b8948004ec"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.18",
+				"@stylable/runtime": "^0.1.13"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "tomrav",
+				"email": "tomr@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.11",
+			"gitHead": "4de50a2e7656c4b7e3dab5619683e11e7364ebfc",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.11_1545234139604_0.30315088937788826"
+			}
+		},
+		"0.1.10": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "0.1.10",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.10.tgz",
+				"shasum": "fd27064617b341a8cd7e8a34a7a0fa1e98bc7002"
+			},
+			"dependencies": {
+				"@stylable/core": "^0.1.17",
+				"@stylable/runtime": "^0.1.12"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@0.1.10",
+			"gitHead": "6e2c807b60e65cc89457cc7e60eef1b819956258",
+			"types": "./dist/src/index.d.ts",
+			"licenseText": "Copyright (c) 2017, Wix.com\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of Wix.com Ltd. nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_0.1.10_1543913000076_0.4808132553439197"
+			}
+		},
+		"1.0.0": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "1.0.0",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.0.tgz",
+				"shasum": "c92104459c80e6d07a6b3ebfddc2f6d77c576b2f"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.0",
+				"@stylable/runtime": "^1.0.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@1.0.0",
+			"gitHead": "7bd843581c1434621e159d6026c2c521382cf8c4",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_1.0.0_1547376290266_0.8715386266965202"
+			},
+			"_nodeVersion": "10.15.0"
+		},
+		"1.0.1": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "1.0.1",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.1.tgz",
+				"shasum": "7909c26cbf3dddc60514b5949fa8c2917226e10d"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.1",
+				"@stylable/runtime": "^1.0.1"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v8.12.0+x64 (win32)",
+			"_npmUser": {
+				"name": "baraki",
+				"email": "barak.music.pro@gmail.com"
+			},
+			"_id": "@stylable/dom-test-kit@1.0.1",
+			"gitHead": "29d2ee61af2f3b31a5f4128dd4f81be5debe9b23",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_1.0.1_1547654353233_0.39794350846093596"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.0.2": {
+			"name": "@stylable/dom-test-kit",
+			"description": "Stylable DOM testing utilities",
+			"version": "1.0.2",
+			"author": {
+				"name": "Wix.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix/stylable/tree/master/packages/dom-test-kit"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "./dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.2.tgz",
+				"shasum": "7a836fceca6881ad580a8196a9abcf966343b402"
+			},
+			"dependencies": {
+				"@stylable/core": "^1.0.2",
+				"@stylable/runtime": "^1.0.2"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"name": "avi.vahl",
+					"email": "avi.vahl@wix.com"
+				},
+				{
+					"name": "baraki",
+					"email": "barak.music.pro@gmail.com"
+				},
+				{
+					"name": "idoros",
+					"email": "idoros@gmail.com"
+				},
+				{
+					"name": "stylable-barak",
+					"email": "stylable@wix.com"
+				},
+				{
+					"name": "tomrav",
+					"email": "tomr@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "tsc",
+				"start": "webpack-dev-server --hot --inline",
+				"clean": "rimraf ./dist",
+				"test": "yarn test:node",
+				"test:node": "mocha -r @ts-tools/node \"./tests/**/*.spec.ts\" --watch-extensions ts",
+				"lint": "tslint --project ./tsconfig.json",
+				"prepack": "yarn build"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v10.15.0+x64 (linux)",
+			"_npmUser": {
+				"name": "avi.vahl",
+				"email": "avi.vahl@wix.com"
+			},
+			"_id": "@stylable/dom-test-kit@1.0.2",
+			"gitHead": "a25e618e3e4e4c97a0a269a423a9e3008f59d7e7",
+			"types": "./dist/src/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/dom-test-kit_1.0.2_1547735115031_0.6395501038650309"
+			},
+			"_nodeVersion": "10.15.0"
+		}
+	},
+	"time": {
+		"0.1.5": "2018-10-30T17:49:50.846Z",
+		"0.1.6": "2018-11-08T15:05:27.122Z",
+		"0.1.3": "2018-09-17T21:14:29.924Z",
+		"0.1.4": "2018-10-17T14:58:31.095Z",
+		"0.1.9": "2018-12-03T15:50:19.379Z",
+		"created": "2018-08-16T09:44:10.502Z",
+		"0.1.8": "2018-11-26T17:49:15.337Z",
+		"0.1.1": "2018-08-27T14:30:51.721Z",
+		"0.1.2": "2018-08-28T11:21:00.403Z",
+		"0.1.0": "2018-08-16T09:44:10.654Z",
+		"0.1.12-alpha.0": "2019-01-10T11:00:43.416Z",
+		"modified": "2019-01-17T14:25:19.061Z",
+		"0.1.12": "2019-01-13T10:34:05.455Z",
+		"0.1.11": "2018-12-19T15:42:19.715Z",
+		"0.1.10": "2018-12-04T08:43:20.281Z",
+		"1.0.0": "2019-01-13T10:44:50.473Z",
+		"1.0.1": "2019-01-16T15:59:13.385Z",
+		"1.0.2": "2019-01-17T14:25:15.119Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828452220
+		}
+	},
+	"_distfiles": {
+		"dom-test-kit-0.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.5.tgz",
+			"sha": "e8e5a5e4d6683887d5c58bb4628925f88dc4f3ce"
+		},
+		"dom-test-kit-0.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.6.tgz",
+			"sha": "4fcdf8bbc91465aee31284f6eb7a18c2155cf5cd"
+		},
+		"dom-test-kit-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.3.tgz",
+			"sha": "38254b8678ab7528c7238d6ce87380ec3f6a979e"
+		},
+		"dom-test-kit-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.4.tgz",
+			"sha": "8d395ead4b6f7d00cbc80132261ca93f90bb626a"
+		},
+		"dom-test-kit-0.1.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.9.tgz",
+			"sha": "3cd37a7b711780d5813a7441a7ba8926fa5e8606"
+		},
+		"dom-test-kit-0.1.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.8.tgz",
+			"sha": "0200476a7595f70899b3d0f8a90cc02a7701a603"
+		},
+		"dom-test-kit-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.1.tgz",
+			"sha": "ddb6beb6619cd1ddbd7bc00b7db5306bfadc32e7"
+		},
+		"dom-test-kit-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.2.tgz",
+			"sha": "b44547d24d6866c78cd388577db72dd541a06ac6"
+		},
+		"dom-test-kit-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.0.tgz",
+			"sha": "e8d8c0fc35fa17fcc77dc3ecbfd051ac34b74942"
+		},
+		"dom-test-kit-0.1.12-alpha.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.12-alpha.0.tgz",
+			"sha": "6047f4f46a5d59340c089a859fe3a3e87fecdccd"
+		},
+		"dom-test-kit-0.1.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.12.tgz",
+			"sha": "619e4fa97b15a4261564fbf96a529710bcfc7692"
+		},
+		"dom-test-kit-0.1.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.11.tgz",
+			"sha": "d73ca227c4119fbeb1ea1862be5846b8948004ec"
+		},
+		"dom-test-kit-0.1.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-0.1.10.tgz",
+			"sha": "fd27064617b341a8cd7e8a34a7a0fa1e98bc7002"
+		},
+		"dom-test-kit-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.0.tgz",
+			"sha": "c92104459c80e6d07a6b3ebfddc2f6d77c576b2f"
+		},
+		"dom-test-kit-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.1.tgz",
+			"sha": "7909c26cbf3dddc60514b5949fa8c2917226e10d"
+		},
+		"dom-test-kit-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@stylable/dom-test-kit/-/dom-test-kit-1.0.2.tgz",
+			"sha": "7a836fceca6881ad580a8196a9abcf966343b402"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-c8082903b2afeaee",
+	"readme": "# @stylable/dom-test-kit\n\n[![npm version](https://img.shields.io/npm/v/@stylable/dom-test-kit.svg)](https://www.npmjs.com/package/stylable/dom-test-kit)\n\n`@stylable/dom-test-kit` is comprised of a single class named `StylableDOMUtil` which exposes several DOM related testing utilities.\n\n## Example\n```css\n/* my-component.st.css */\n.root {}\n\n.part {\n    -st-states: loading;\n}\n```\n```ts\n/* test.ts */\nimport { StylableDOMUtil } from '@stylable/dom-test-kit';\nimport style from './my-component.st.css';\n\nconst domUtil = new StylableDOMUtil(style);\nconst partElement = domUtil.select(style.part);\n\ndomUtil.hasStyleState(partElement, 'loading');\n```\n\n## What does it do?\n\n> Note: currently all of the provided utilities support only simplified Stylable selectors, consisting only of `class` and `pseudo-class` selectors.\n\n### `constructor(style: RuntimeStylesheet, root?: Element)`\nInitialize the `StylableDOMUtil` by providing a source stylesheet that would function as the base for all testing utilities. You may pass a DOM root element to serve as the default entry point for the `select` methods,\n\n### `select(selector?: string, element?: Element): Element | null`\nSelect the first `element` in the DOM that matches the provided Stylable `selector`.\n\n### `selectAll(selector?: string, element?: Element): Element[] | null`\nSelect all `elements` in the DOM that match the provided Stylable `selector`.\n\n### `scopeSelector(selector?: string): string`\nTransforms a Stylable `selector` to its target vanilla CSS.\n\n### `hasStyleState(element: Element, stateName: string, param: StateValue = true): boolean`\nCheck whether the provided `element` has the corresponding state set. This method can also receive a third optional param to validate the state active value.\n\n### `getStyleState(element: Element, stateName: string): string | null`\nGet an `element` state value if exists, `null` if it does not.\n\n## License\n\nCopyright (c) 2017 Wix.com Ltd. All Rights Reserved. Use of this source code is governed by a [BSD license](./LICENSE)."
+}

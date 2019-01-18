@@ -1,0 +1,2569 @@
+{
+	"name": "react-dnd-html5-backend",
+	"versions": {
+		"4.0.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.2",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.2.tgz",
+				"shasum": "bc58f4f4771de8ad0cf6a5d29d4e11664f2e017e"
+			},
+			"dependencies": {
+				"@types/lodash": "^4.14.109",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.2",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "^10.3.0",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.2",
+				"react-dnd-test-backend": "^4.0.2",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.2",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.2_1527957657379_0.23765414465597434"
+			}
+		},
+		"4.0.3": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.3",
+			"homepage": "https://github.com/react-dnd/react-dnd#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.3.tgz",
+				"shasum": "2f52a43cc8bb1bc393df67ff8533b97646d9f18e"
+			},
+			"dependencies": {
+				"@types/lodash": "^4.14.109",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.3",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "^10.3.0",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.3",
+				"react-dnd-test-backend": "^4.0.3",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w",
+				"start": "npm run watch"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.3",
+			"types": "lib/index.d.ts",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.3_1528303783091_0.6645035276879439"
+			},
+			"_nodeVersion": "10.3.0"
+		},
+		"4.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.0.tgz",
+				"shasum": "1493f9d510ea25b16f6c8a723e1a99442c06c420"
+			},
+			"dependencies": {
+				"@types/lodash": "^4.14.109",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.0",
+				"lodash": "^4.17.10",
+				"react": "^16.4.0",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "^10.3.0",
+				"npm-run-all": "^4.1.2",
+				"react-dnd": "^4.0.0",
+				"react-dnd-test-backend": "^4.0.0",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.0",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.0_1527874284653_0.543204186865329"
+			}
+		},
+		"4.0.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.1.tgz",
+				"shasum": "c4cbdf632643b4a5a0faf02ac8ef80d3ef036ffc"
+			},
+			"dependencies": {
+				"@types/lodash": "^4.14.109",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.0",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "^10.3.0",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.0",
+				"react-dnd-test-backend": "^4.0.0",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.1",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.1_1527883181238_0.4886797703729271"
+			}
+		},
+		"4.0.6": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.6",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.6.tgz",
+				"shasum": "4144ed5de8a79d322b0849142cbcb1b39d8db40d"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.5",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "10.3.2",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.5",
+				"react-dnd-test-backend": "^4.0.5",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.9.1",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.6",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.6_1529343070396_0.05474301033866458"
+			}
+		},
+		"4.0.4": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.4",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.4.tgz",
+				"shasum": "d828f8ee5deb5c09c24eaf7a40963bd1e45b5730"
+			},
+			"dependencies": {
+				"@types/lodash": "^4.14.109",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.4",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "^10.3.0",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.4",
+				"react-dnd-test-backend": "^4.0.4",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.9.1",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.4",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.4_1528305774921_0.09025275811073863"
+			}
+		},
+		"4.0.5": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "4.0.5",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.5.tgz",
+				"shasum": "36632a2d5cfaf8a5d43c586685f6dd696b50ccde"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.5",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "10.3.2",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^4.0.5",
+				"react-dnd-test-backend": "^4.0.5",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.9.1",
+				"webpack": "^4.6.0"
+			},
+			"peerDependencies": {
+				"react": ">= 16.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@4.0.5",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_4.0.5_1528924257101_0.21974628358260273"
+			}
+		},
+		"3.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "3.0.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.0.tgz",
+				"shasum": "d8715bb5f4ba6154ed8cff10d98d3cd8d2f31113"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^3.0.0",
+				"lodash": "^4.2.0",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/autobind-decorator": "^2.1.0",
+				"@types/lodash": "^4.14.108",
+				"babel-cli": "^6.26.0",
+				"babel-loader": "^7.1.4",
+				"npm-run-all": "^4.1.2",
+				"react-dnd": "^3.0.0",
+				"react-dnd-test-backend": "^3.0.0",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@3.0.0",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_3.0.0_1525295190793_0.23692663122996227"
+			},
+			"readmeFilename": "README.md"
+		},
+		"3.0.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "3.0.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.1.tgz",
+				"shasum": "46d52440d3013eae665810b0476eb2bd45003ac3"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^3.0.1",
+				"lodash": "^4.2.0",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/autobind-decorator": "^2.1.0",
+				"@types/lodash": "^4.14.108",
+				"babel-cli": "^6.26.0",
+				"babel-loader": "^7.1.4",
+				"npm-run-all": "^4.1.2",
+				"react-dnd": "^3.0.1",
+				"react-dnd-test-backend": "^3.0.1",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@3.0.1",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"deprecated": "Critical issue discovered, please use 2.x until it's resolved",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_3.0.1_1527614030344_0.7760655013712876"
+			}
+		},
+		"3.0.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "3.0.2",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.2.tgz",
+				"shasum": "87172fd4be90e45353119b40e10f591ddf8661ed"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^3.0.2",
+				"lodash": "^4.2.0",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/autobind-decorator": "^2.1.0",
+				"@types/lodash": "^4.14.108",
+				"babel-cli": "^6.26.0",
+				"babel-loader": "^7.1.4",
+				"npm-run-all": "^4.1.2",
+				"react-dnd": "^3.0.2",
+				"react-dnd-test-backend": "^3.0.2",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.8.3",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@3.0.2",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_3.0.2_1527627058153_0.0520863464834298"
+			}
+		},
+		"2.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.0.0",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.0.tgz",
+				"shasum": "c11110ba4415eb0e3b4c9bb928c95ecb29b74588"
+			},
+			"dependencies": {
+				"lodash": "^3.10.1"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.3",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.0.0",
+			"gitHead": "114bfdacc30b1f189a2aff6d3b086b6021b2f6ab",
+			"_shasum": "c11110ba4415eb0e3b4c9bb928c95ecb29b74588",
+			"_nodeVersion": "2.2.1"
+		},
+		"7.0.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "7.0.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.1.tgz",
+				"shasum": "b19d648b261288c83634ded13294499125e68f13"
+			},
+			"dependencies": {
+				"dnd-core": "^7.0.1",
+				"lodash": "^4.17.11"
+			},
+			"devDependencies": {
+				"@types/react": "^16.4.18",
+				"npm-run-all": "^4.1.5",
+				"react": "^16.6.0",
+				"react-dnd-test-backend": "^7.0.1",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^5.3.0",
+				"typescript": "^3.1.6",
+				"webpack": "^4.23.1",
+				"webpack-cli": "^3.1.2"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@7.0.1",
+			"gitHead": "e9fb7fd3c3e7f563dfe61718d2a7b7de7e2c2d33",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_7.0.1_1543618576917_0.7675477123562144"
+			}
+		},
+		"2.0.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.0.1",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.1.tgz",
+				"shasum": "78f3989f402e1850dbfaeb59409439617245b3ff"
+			},
+			"dependencies": {
+				"lodash": "^3.10.1"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build",
+				"postpublish": "publish-latest"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.0.1",
+			"gitHead": "bd4a51bf03b37286ec60c50e303e12ac44e26cdb",
+			"_shasum": "78f3989f402e1850dbfaeb59409439617245b3ff",
+			"_nodeVersion": "5.3.0"
+		},
+		"2.1.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.1.0",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.0.tgz",
+				"shasum": "57449442a135b777e03d06311646ab1f2e87d80d"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.7.1",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.1.0",
+			"gitHead": "91d2c2355d412c7a1f5b6aaf50307fd242e474fc",
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.1.0.tgz_1455396027127_0.8267392471898347"
+			},
+			"_shasum": "57449442a135b777e03d06311646ab1f2e87d80d",
+			"_nodeVersion": "5.3.0"
+		},
+		"7.0.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "7.0.2",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.2.tgz",
+				"shasum": "f74181ca0ff05be13eb6094629c5ad560f558a7e"
+			},
+			"dependencies": {
+				"dnd-core": "^7.0.2",
+				"lodash": "^4.17.11"
+			},
+			"devDependencies": {
+				"@types/react": "^16.4.18",
+				"npm-run-all": "^4.1.5",
+				"react": "^16.6.0",
+				"react-dnd-test-backend": "^7.0.2",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^5.3.0",
+				"typescript": "^3.1.6",
+				"webpack": "^4.23.1",
+				"webpack-cli": "^3.1.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@7.0.2",
+			"gitHead": "22666e78ac62fffee7f8a371b61ecb9c3597f9c8",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_7.0.2_1543861166681_0.6113347394806081"
+			}
+		},
+		"7.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "7.0.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.0.tgz",
+				"shasum": "f366117d8b4eaf965dbfccfe177c28933da83971"
+			},
+			"dependencies": {
+				"dnd-core": "^7.0.0",
+				"lodash": "^4.17.11"
+			},
+			"devDependencies": {
+				"@types/react": "^16.4.18",
+				"npm-run-all": "^4.1.5",
+				"react": "^16.6.0",
+				"react-dnd-test-backend": "^7.0.0",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^5.3.0",
+				"typescript": "^3.1.6",
+				"webpack": "^4.23.1",
+				"webpack-cli": "^3.1.2"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@7.0.0",
+			"gitHead": "f294f68dc82fe516adc1bb9f7452a67870943d84",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_7.0.0_1543356254809_0.6652572843627298"
+			}
+		},
+		"2.5.3": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.5.3",
+			"homepage": "https://github.com/react-dnd/react-dnd#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.3.tgz",
+				"shasum": "1158112e8129dfe672d4c72222f266dd05321f03"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.5.3"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.5.3",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend-2.5.3.tgz_1506477902587_0.848213529214263"
+			},
+			"_shasum": "1158112e8129dfe672d4c72222f266dd05321f03",
+			"_nodeVersion": "6.11.2"
+		},
+		"2.5.4": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.5.4",
+			"homepage": "https://github.com/react-dnd/react-dnd#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.4.tgz",
+				"shasum": "974ad083f67b12d56977a5b171f5ffeb29d78352"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.5.4"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.5.4",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend-2.5.4.tgz_1507396217841_0.4160723960958421"
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"2.2.4": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.2.4",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.4.tgz",
+				"shasum": "6c4a704efaa35cf568f40376ed82b8a3eb3c26df"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.2.4"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.2.4"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.2.4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.2.4.tgz_1488305355803_0.2768424255773425"
+			},
+			"_shasum": "6c4a704efaa35cf568f40376ed82b8a3eb3c26df",
+			"_nodeVersion": "7.5.0"
+		},
+		"2.5.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.5.1",
+			"homepage": "https://github.com/react-dnd/react-dnd#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.1.tgz",
+				"shasum": "d3656e514b0c469902a485fffa75f8684e21c777"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.5.1"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.5.1"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.5.1",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend-2.5.1.tgz_1504673778361_0.23679933487437665"
+			},
+			"_shasum": "d3656e514b0c469902a485fffa75f8684e21c777",
+			"_nodeVersion": "6.11.2"
+		},
+		"2.6.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.6.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.6.0.tgz",
+				"shasum": "590cd1cca78441bb274edd571fef4c0b16ddcf8e"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-loader": "^7.1.1",
+				"npm-run-all": "^4.1.2",
+				"react-dnd": "^2.6.0",
+				"rimraf": "^2.6.2",
+				"webpack": "^3.1.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "run-p build:*",
+				"test": "run-s clean build",
+				"prepublish": "npm test"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.6.0",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_2.6.0_1521663378968_0.4364990996157214"
+			}
+		},
+		"2.5.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.5.2",
+			"homepage": "https://github.com/react-dnd/react-dnd#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.2.tgz",
+				"shasum": "1cd0d81a2dff559d06ba6e1025a13dfc8838a6db"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.5.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.5.2",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend-2.5.2.tgz_1506475996760_0.42915853625163436"
+			},
+			"_shasum": "1cd0d81a2dff559d06ba6e1025a13dfc8838a6db",
+			"_nodeVersion": "6.11.2"
+		},
+		"2.4.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.4.0",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.4.0.tgz",
+				"shasum": "5711658a1c3fd7116cb73e52efd0d65cb035add5"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.4.0"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.4.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.4.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.4.0.tgz_1494354025606_0.08516178047284484"
+			},
+			"_shasum": "5711658a1c3fd7116cb73e52efd0d65cb035add5",
+			"_nodeVersion": "7.7.1"
+		},
+		"2.2.3": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.2.3",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.3.tgz",
+				"shasum": "96cb65a0df5968b8ef5cf5afb4da02daaefe5681"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.2.3"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.2.3"
+			},
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm-run-all --parallel build:*",
+				"test": "npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.2.3",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.2.3.tgz_1486505317071_0.7696465672925115"
+			},
+			"_shasum": "96cb65a0df5968b8ef5cf5afb4da02daaefe5681",
+			"_nodeVersion": "6.9.4"
+		},
+		"2.4.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.4.1",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.4.1.tgz",
+				"shasum": "439d2bcaf8bd8b87a51386beb51c128826182ddd"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.4.0"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.4.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.4.1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.4.1.tgz_1494355417457_0.36031303624622524"
+			},
+			"_shasum": "439d2bcaf8bd8b87a51386beb51c128826182ddd",
+			"_nodeVersion": "7.7.1"
+		},
+		"2.0.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.0.2",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.2.tgz",
+				"shasum": "780918fd2fa0cbed9874562f7380017b344eea54"
+			},
+			"dependencies": {
+				"lodash": "^3.10.1"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build",
+				"postpublish": "publish-latest"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.0.2",
+			"gitHead": "7393549ad211a6ffddbfdc0f8314b68291ce2577",
+			"_shasum": "780918fd2fa0cbed9874562f7380017b344eea54",
+			"_nodeVersion": "5.3.0"
+		},
+		"2.1.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.1.1",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.1.tgz",
+				"shasum": "31cec79318edbd24503ca6219db0d5461f7dcf4e"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.7.1",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.1.1",
+			"gitHead": "166057dd43e0dd2ba0da6dda24d43a7d59ddafb5",
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.1.1.tgz_1455399406329_0.9620180930942297"
+			},
+			"_shasum": "31cec79318edbd24503ca6219db0d5461f7dcf4e",
+			"_nodeVersion": "5.3.0"
+		},
+		"2.2.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.2.0",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/react-dnd/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/react-dnd/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/react-dnd/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.0.tgz",
+				"shasum": "7e0bdfaee175a461b842cb3f1227fb0f81230e9f"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.22.2",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.2.10",
+				"babel-preset-latest": "^6.22.0",
+				"babel-preset-stage-2": "^6.22.0",
+				"babel-register": "^6.22.0",
+				"eslint": "^3.14.0",
+				"eslint-config-airbnb": "^14.0.0",
+				"eslint-plugin-import": "^2.2.0",
+				"eslint-plugin-jsx-a11y": "^3.0.2",
+				"eslint-plugin-react": "^6.9.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^3.2.0",
+				"npm-run-all": "^4.0.1",
+				"react-dnd": "^2.2.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.2.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm-run-all --parallel build:*",
+				"lint": "eslint .",
+				"unit_test": "mocha --require babel-register --recursive",
+				"unit_test:watch": "npm run unit_test -- --watch",
+				"test": "npm-run-all clean --parallel lint build unit_test",
+				"develop": "npm run unit_test:watch",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.2.0",
+			"gitHead": "00e9ee809ca119562bf695b04ab438629416f544",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.2.0.tgz_1486443034876_0.5211185298394412"
+			},
+			"_shasum": "7e0bdfaee175a461b842cb3f1227fb0f81230e9f",
+			"_nodeVersion": "6.9.4"
+		},
+		"2.1.2": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.1.2",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.2.tgz",
+				"shasum": "bcff5866629c335b310b1062fe6537af35073c66"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.7.1",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.1.2",
+			"gitHead": "69e872a9c9ca49774fe0fd168049d703f2577535",
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.1.2.tgz_1455407476425_0.303009239025414"
+			},
+			"_shasum": "bcff5866629c335b310b1062fe6537af35073c66",
+			"_nodeVersion": "5.3.0"
+		},
+		"2.2.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.2.1",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.1.tgz",
+				"shasum": "7c78323af7e36c2fbad4064983aa6084e594fe58"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.2.0"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.2.0"
+			},
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm-run-all --parallel build:*",
+				"lint": "eslint .",
+				"unit_test": "jest",
+				"unit_test:coverage": "jest",
+				"unit_test:watch": "jest --watch",
+				"verify": "npm-run-all lint unit_test:coverage",
+				"test": "npm-run-all clean --parallel build verify",
+				"develop": "npm run unit_test:watch",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.2.1",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.2.1.tgz_1486495793717_0.02816537721082568"
+			},
+			"_shasum": "7c78323af7e36c2fbad4064983aa6084e594fe58",
+			"_nodeVersion": "6.9.4"
+		},
+		"2.3.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "2.3.0",
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.3.0.tgz",
+				"shasum": "a45ce593f5c6944aa01114b368117c56c954804e"
+			},
+			"dependencies": {
+				"lodash": "^4.2.0"
+			},
+			"devDependencies": {
+				"react-dnd": "^2.3.0"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.3.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "darthtrevino",
+					"email": "darthtrevino@gmail.com"
+				},
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				},
+				{
+					"name": "jordangens",
+					"email": "jordangens@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "../../node_modules/.bin/rimraf lib",
+				"build:lib": "../../node_modules/.bin/babel src --out-dir lib",
+				"build:umd": "../../node_modules/.bin/webpack",
+				"build": "../../node_modules/.bin/npm-run-all --parallel build:*",
+				"test": "../../node_modules/.bin/npm-run-all clean build",
+				"prepublish": "npm test"
+			},
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@2.3.0",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-dnd-html5-backend-2.3.0.tgz_1490463712646_0.7724545458331704"
+			},
+			"_shasum": "a45ce593f5c6944aa01114b368117c56c954804e",
+			"_nodeVersion": "7.7.1"
+		},
+		"6.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "6.0.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-6.0.0.tgz",
+				"shasum": "e70ad62a5df95cc993739aab1f1ffe0e725a9878"
+			},
+			"dependencies": {
+				"dnd-core": "^6.0.0",
+				"lodash": "^4.17.11"
+			},
+			"devDependencies": {
+				"@types/react": "^16.4.18",
+				"npm-run-all": "^4.1.3",
+				"react": "^16.6.0",
+				"react-dnd-test-backend": "^6.0.0",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^5.3.0",
+				"typescript": "^3.1.6",
+				"webpack": "^4.23.1",
+				"webpack-cli": "^3.1.2"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@6.0.0",
+			"gitHead": "21b878d2c66f020aa5248b085f4438b59e9c935b",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_6.0.0_1541750095409_0.5811966595770266"
+			}
+		},
+		"5.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "5.0.0",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-5.0.0.tgz",
+				"shasum": "fd08d6f47a9dccedbde4bff6fbb7ad8549fc8cfe"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.5",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "10.3.2",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd": "^5.0.0",
+				"react-dnd-test-backend": "^4.0.5",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.9.1",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@5.0.0",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_5.0.0_1529372786882_0.140948569042316"
+			}
+		},
+		"5.0.1": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "5.0.1",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/react-dnd/react-dnd.git"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-5.0.1.tgz",
+				"shasum": "0b578d79c5c01317c70414c8d717f632b919d4f1"
+			},
+			"dependencies": {
+				"autobind-decorator": "^2.1.0",
+				"dnd-core": "^4.0.5",
+				"lodash": "^4.17.10",
+				"shallowequal": "^1.0.2"
+			},
+			"devDependencies": {
+				"@types/node": "10.3.2",
+				"@types/react": "^16.3.16",
+				"@types/shallowequal": "^0.2.2",
+				"npm-run-all": "^4.1.2",
+				"react": "^16.4.0",
+				"react-dnd-test-backend": "^5.0.1",
+				"rimraf": "^2.6.2",
+				"ts-loader": "^4.2.0",
+				"typescript": "^2.9.1",
+				"webpack": "^4.6.0"
+			},
+			"license": "BSD-3-Clause",
+			"maintainers": [
+				{
+					"email": "darthtrevino@gmail.com",
+					"name": "darthtrevino"
+				},
+				{
+					"email": "dan.abramov@gmail.com",
+					"name": "gaearon"
+				},
+				{
+					"email": "jordangens@gmail.com",
+					"name": "jordangens"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib dist",
+				"transpile": "tsc",
+				"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+				"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+				"build": "run-p bundle:* transpile",
+				"test": "run-s clean build",
+				"watch": "tsc -w --preserveWatchOutput",
+				"start": "npm run watch"
+			},
+			"_npmUser": {
+				"name": "darthtrevino",
+				"email": "darthtrevino@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@5.0.1",
+			"types": "lib/index.d.ts",
+			"licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Dan Abramov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-dnd-html5-backend_5.0.1_1529418561671_0.4944804622564336"
+			}
+		},
+		"1.0.0": {
+			"name": "react-dnd-html5-backend",
+			"description": "HTML5 backend for React DnD",
+			"version": "1.0.0",
+			"author": {
+				"name": "Dan Abramov",
+				"email": "dan.abramov@me.com",
+				"url": "http://github.com/gaearon"
+			},
+			"homepage": "https://github.com/gaearon/react-dnd-html5-backend",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gaearon/react-dnd-html5-backend.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-1.0.0.tgz",
+				"shasum": "7fa62c7d1ce66aa2a475de9458b94eb215a7e5d4"
+			},
+			"dependencies": {
+				"lodash": "^3.10.1"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.6.0",
+				"eslint-config-airbnb": "^0.1.0",
+				"expect.js": "^0.3.1",
+				"mocha": "^2.0.1",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"react-dnd": "^2.0.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "gaearon",
+					"email": "dan.abramov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"clean": "rimraf lib",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "webpack",
+				"build": "npm run build:lib && npm run build:umd",
+				"lint": "eslint .",
+				"test": "mocha --compilers js:babel/register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run lint && npm run clean && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.3",
+			"_npmUser": {
+				"name": "gaearon",
+				"email": "dan.abramov@gmail.com"
+			},
+			"_id": "react-dnd-html5-backend@1.0.0",
+			"gitHead": "feb6eaa09b5c880c751ecf587dd89bf787ef54db",
+			"_shasum": "7fa62c7d1ce66aa2a475de9458b94eb215a7e5d4",
+			"_nodeVersion": "2.2.1"
+		}
+	},
+	"time": {
+		"4.0.2": "2018-06-02T16:40:57.433Z",
+		"4.0.3": "2018-06-06T16:49:43.211Z",
+		"4.0.0": "2018-06-01T17:31:25.153Z",
+		"4.0.1": "2018-06-01T19:59:41.323Z",
+		"4.0.6": "2018-06-18T17:31:10.517Z",
+		"4.0.4": "2018-06-06T17:22:54.990Z",
+		"4.0.5": "2018-06-13T21:10:57.199Z",
+		"3.0.0": "2018-05-02T21:06:30.900Z",
+		"modified": "2019-01-05T06:44:13.385Z",
+		"3.0.1": "2018-05-29T17:13:50.557Z",
+		"3.0.2": "2018-05-29T20:50:58.304Z",
+		"2.0.0": "2015-10-14T21:49:40.759Z",
+		"7.0.1": "2018-11-30T22:56:17.034Z",
+		"2.0.1": "2015-12-25T04:57:21.818Z",
+		"2.1.0": "2016-02-13T20:40:30.875Z",
+		"7.0.2": "2018-12-03T18:19:26.855Z",
+		"created": "2015-10-14T19:43:56.272Z",
+		"7.0.0": "2018-11-27T22:04:14.973Z",
+		"2.5.3": "2017-09-27T02:05:02.754Z",
+		"2.5.4": "2017-10-07T17:10:17.924Z",
+		"2.2.4": "2017-02-28T18:09:16.028Z",
+		"2.5.1": "2017-09-06T04:56:18.449Z",
+		"2.6.0": "2018-03-21T20:16:19.061Z",
+		"2.5.2": "2017-09-27T01:33:16.834Z",
+		"2.4.0": "2017-05-09T18:20:28.651Z",
+		"2.2.3": "2017-02-07T22:08:38.981Z",
+		"2.4.1": "2017-05-09T18:43:37.730Z",
+		"2.0.2": "2015-12-25T17:59:02.086Z",
+		"2.1.1": "2016-02-13T21:36:49.990Z",
+		"2.2.0": "2017-02-07T04:50:35.100Z",
+		"2.1.2": "2016-02-13T23:51:18.474Z",
+		"2.2.1": "2017-02-07T19:29:55.877Z",
+		"2.3.0": "2017-03-25T17:41:54.799Z",
+		"6.0.0": "2018-11-09T07:54:55.726Z",
+		"5.0.0": "2018-06-19T01:46:26.948Z",
+		"5.0.1": "2018-06-19T14:29:21.723Z",
+		"1.0.0": "2015-10-14T19:43:56.272Z"
+	},
+	"dist-tags": {
+		"beta": "3.0.0",
+		"latest": "7.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828424572
+		}
+	},
+	"_distfiles": {
+		"react-dnd-html5-backend-4.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.2.tgz",
+			"sha": "bc58f4f4771de8ad0cf6a5d29d4e11664f2e017e"
+		},
+		"react-dnd-html5-backend-4.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.3.tgz",
+			"sha": "2f52a43cc8bb1bc393df67ff8533b97646d9f18e"
+		},
+		"react-dnd-html5-backend-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.0.tgz",
+			"sha": "1493f9d510ea25b16f6c8a723e1a99442c06c420"
+		},
+		"react-dnd-html5-backend-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.1.tgz",
+			"sha": "c4cbdf632643b4a5a0faf02ac8ef80d3ef036ffc"
+		},
+		"react-dnd-html5-backend-4.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.6.tgz",
+			"sha": "4144ed5de8a79d322b0849142cbcb1b39d8db40d"
+		},
+		"react-dnd-html5-backend-4.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.4.tgz",
+			"sha": "d828f8ee5deb5c09c24eaf7a40963bd1e45b5730"
+		},
+		"react-dnd-html5-backend-4.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-4.0.5.tgz",
+			"sha": "36632a2d5cfaf8a5d43c586685f6dd696b50ccde"
+		},
+		"react-dnd-html5-backend-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.0.tgz",
+			"sha": "d8715bb5f4ba6154ed8cff10d98d3cd8d2f31113"
+		},
+		"react-dnd-html5-backend-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.1.tgz",
+			"sha": "46d52440d3013eae665810b0476eb2bd45003ac3"
+		},
+		"react-dnd-html5-backend-3.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-3.0.2.tgz",
+			"sha": "87172fd4be90e45353119b40e10f591ddf8661ed"
+		},
+		"react-dnd-html5-backend-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.0.tgz",
+			"sha": "c11110ba4415eb0e3b4c9bb928c95ecb29b74588"
+		},
+		"react-dnd-html5-backend-7.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.1.tgz",
+			"sha": "b19d648b261288c83634ded13294499125e68f13"
+		},
+		"react-dnd-html5-backend-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.1.tgz",
+			"sha": "78f3989f402e1850dbfaeb59409439617245b3ff"
+		},
+		"react-dnd-html5-backend-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.0.tgz",
+			"sha": "57449442a135b777e03d06311646ab1f2e87d80d"
+		},
+		"react-dnd-html5-backend-7.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.2.tgz",
+			"sha": "f74181ca0ff05be13eb6094629c5ad560f558a7e"
+		},
+		"react-dnd-html5-backend-7.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-7.0.0.tgz",
+			"sha": "f366117d8b4eaf965dbfccfe177c28933da83971"
+		},
+		"react-dnd-html5-backend-2.5.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.3.tgz",
+			"sha": "1158112e8129dfe672d4c72222f266dd05321f03"
+		},
+		"react-dnd-html5-backend-2.5.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.4.tgz",
+			"sha": "974ad083f67b12d56977a5b171f5ffeb29d78352"
+		},
+		"react-dnd-html5-backend-2.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.4.tgz",
+			"sha": "6c4a704efaa35cf568f40376ed82b8a3eb3c26df"
+		},
+		"react-dnd-html5-backend-2.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.1.tgz",
+			"sha": "d3656e514b0c469902a485fffa75f8684e21c777"
+		},
+		"react-dnd-html5-backend-2.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.6.0.tgz",
+			"sha": "590cd1cca78441bb274edd571fef4c0b16ddcf8e"
+		},
+		"react-dnd-html5-backend-2.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.5.2.tgz",
+			"sha": "1cd0d81a2dff559d06ba6e1025a13dfc8838a6db"
+		},
+		"react-dnd-html5-backend-2.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.4.0.tgz",
+			"sha": "5711658a1c3fd7116cb73e52efd0d65cb035add5"
+		},
+		"react-dnd-html5-backend-2.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.3.tgz",
+			"sha": "96cb65a0df5968b8ef5cf5afb4da02daaefe5681"
+		},
+		"react-dnd-html5-backend-2.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.4.1.tgz",
+			"sha": "439d2bcaf8bd8b87a51386beb51c128826182ddd"
+		},
+		"react-dnd-html5-backend-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.0.2.tgz",
+			"sha": "780918fd2fa0cbed9874562f7380017b344eea54"
+		},
+		"react-dnd-html5-backend-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.1.tgz",
+			"sha": "31cec79318edbd24503ca6219db0d5461f7dcf4e"
+		},
+		"react-dnd-html5-backend-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.0.tgz",
+			"sha": "7e0bdfaee175a461b842cb3f1227fb0f81230e9f"
+		},
+		"react-dnd-html5-backend-2.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.1.2.tgz",
+			"sha": "bcff5866629c335b310b1062fe6537af35073c66"
+		},
+		"react-dnd-html5-backend-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.2.1.tgz",
+			"sha": "7c78323af7e36c2fbad4064983aa6084e594fe58"
+		},
+		"react-dnd-html5-backend-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-2.3.0.tgz",
+			"sha": "a45ce593f5c6944aa01114b368117c56c954804e"
+		},
+		"react-dnd-html5-backend-6.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-6.0.0.tgz",
+			"sha": "e70ad62a5df95cc993739aab1f1ffe0e725a9878"
+		},
+		"react-dnd-html5-backend-5.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-5.0.0.tgz",
+			"sha": "fd08d6f47a9dccedbde4bff6fbb7ad8549fc8cfe"
+		},
+		"react-dnd-html5-backend-5.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-5.0.1.tgz",
+			"sha": "0b578d79c5c01317c70414c8d717f632b919d4f1"
+		},
+		"react-dnd-html5-backend-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dnd-html5-backend/-/react-dnd-html5-backend-1.0.0.tgz",
+			"sha": "7fa62c7d1ce66aa2a475de9458b94eb215a7e5d4"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-b18b34b00b474700",
+	"readme": "[![npm package](https://img.shields.io/npm/v/react-dnd-html5-backend.svg?style=flat-square)](https://www.npmjs.org/package/react-dnd-html5-backend)\n[![Build Status](https://travis-ci.org/react-dnd/react-dnd-html5-backend.svg?branch=master)](https://travis-ci.org/react-dnd/react-dnd-html5-backend)\n[![dependencies Status](https://david-dm.org/react-dnd/react-dnd-html5-backend/status.svg)](https://david-dm.org/react-dnd/react-dnd-html5-backend)\n[![devDependencies Status](https://david-dm.org/react-dnd/react-dnd-html5-backend/dev-status.svg)](https://david-dm.org/react-dnd/react-dnd-html5-backend?type=dev)\n[![peerDependencies Status](https://david-dm.org/react-dnd/react-dnd-html5-backend/peer-status.svg)](https://david-dm.org/react-dnd/react-dnd-html5-backend?type=peer)\n\n# React DnD HTML5 Backend\n\nThe officially supported HTML5 backend for [React DnD](http://react-dnd.github.io/react-dnd/).\nSee [the docs](http://react-dnd.github.io/react-dnd/docs-html5-backend.html) for usage information.\n\n## Installation\n\nIf you use [npm](http://npmjs.com):\n\n```\nnpm install --save react-dnd-html5-backend\n```\n\nThe npm package defaults to the CommonJS build.\n\nHowever it also includes a pre-minified UMD build in the `dist` folder.\nThe UMD build exports a global `window.ReactDnDHTML5Backend` when imported as a `<script>` tag.\n\nIf you’d rather not use npm, you can use [unpkg](http://unpkg.com/) to access the UMD build directly: [ReactDnDHTML5Backend.min.js](https://unpkg.com/react-dnd-html5-backend@latest/dist/ReactDnDHTML5Backend.min.js).\nYou may point your Bower config to it.\n\n## Browser Support\n\nWe strive to support the evergreen browsers, Safari 7+, as well as IE11+. IE10 should also work, but `DragLayer` is fairly useless because IE10 doesn’t support `pointer-events: none`. We don’t officially support IE9 and less.\n\nUnfortunately the browser bugs, inconsistencies, and regressions come up from time to time, so please make sure you test your app on the browsers you’re interested in, and report any bugs to us.\n\n## License\n\nMIT"
+}

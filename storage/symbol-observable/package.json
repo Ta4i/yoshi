@@ -1026,7 +1026,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749408186
+			"fetched": 1547828373161
 		}
 	},
 	"_distfiles": {
@@ -1084,6 +1084,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a6d434712fb33fd6",
+	"_rev": "10-62b472f89e283ee2",
 	"readme": "# symbol-observable [![Build Status](https://travis-ci.org/benlesh/symbol-observable.svg?branch=master)](https://travis-ci.org/benlesh/symbol-observable)\n\n> [`Symbol.observable`](https://github.com/zenparsing/es-observable) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save symbol-observable\n```\n\n\n## Usage\n\n```js\nconst symbolObservable = require('symbol-observable').default;\n\nconsole.log(symbolObservable);\n//=> Symbol(observable)\n```\n\n\n## Related\n\n- [is-observable](https://github.com/sindresorhus/is-observable) - Check if a value is an Observable\n- [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - Convert an Observable to a Promise\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com) and [Ben Lesh](https://github.com/benlesh)"
 }

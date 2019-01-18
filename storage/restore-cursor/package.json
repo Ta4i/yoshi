@@ -233,7 +233,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749418854
+			"fetched": 1547828438549
 		}
 	},
 	"_distfiles": {
@@ -251,6 +251,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4d4bf594225c2740",
+	"_rev": "10-9b32c021e3a1168e",
 	"readme": "# restore-cursor\n\n> Gracefully restore the CLI cursor on exit\n\nPrevent the cursor you've hidden interactively from remaining hidden if the process crashes.\n\n\n## Install\n\n```\n$ npm install --save restore-cursor\n```\n\n\n## Usage\n\n```js\nconst restoreCursor = require('restore-cursor');\nrestoreCursor();\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

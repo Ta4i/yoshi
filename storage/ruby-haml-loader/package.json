@@ -52,7 +52,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749336347
+			"fetched": 1547828364881
 		}
 	},
 	"_distfiles": {
@@ -62,6 +62,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-fbd7e72fd01a6c77",
+	"_rev": "10-6bdc00b9eccc8753",
 	"readme": "# Ruby Haml Loader for Webpack\n\nImport Haml files as modules in your webpack project. Returns a rendered template.\n\n**This is very slow.** It was created for temporary use until converting to Jade.\n\nThis README is based on the one from [haml-loader](npm.im/haml-loader).\n\n## Setup\n\nAdd to your webpack config module.loaders:\n\n```\n{ test: /\\.html\\.haml$/, loader: \"ruby-haml\" }\n```\n\n## Rendering templates\n\n### webpack/assets/javascripts/templates/my_template.html.haml\n\n```javascript\n.template\n  %h1 {{ title }}\n```\n\n### webpack/assets/javascripts/modules/my_module.js\n\n```javascript\nrequire(\"templates/my_template.html.haml\")\n```\n\nwill return the HTML:\n\n```html\n<div class=\"template\">\n  <h1></h1>\n</div>\n```\n\n```javascript\nrequire(\"!haml?title=test!templates/my_template.html.haml\")\n```\n\nwill return the HTML:\n\n```html\n<div class=\"template\">\n  <h1>test</h1>\n</div>\n```\n\n## AngularJS\n\n`ruby-haml-loader` can be nicely chained with `ngtemplate-loader`\n\n```\n{ test: /\\.html\\.haml$/, loaders: ['ngtemplate?relativeTo=assets/javascripts', 'ruby-haml'] },\n```\n\n## License\n\nMIT ([http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))"
 }

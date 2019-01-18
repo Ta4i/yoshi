@@ -285,7 +285,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749359313
+			"fetched": 1547828368727
 		}
 	},
 	"_distfiles": {
@@ -307,6 +307,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e132d3c74a9e4f91",
+	"_rev": "10-6e26330da7d1fa75",
 	"readme": "# array-union [![Build Status](https://travis-ci.org/sindresorhus/array-union.svg?branch=master)](https://travis-ci.org/sindresorhus/array-union)\n\n> Create an array of unique values, in order, from the input arrays\n\n\n## Install\n\n```\n$ npm install --save array-union\n```\n\n\n## Usage\n\n```js\nconst arrayUnion = require('array-union');\n\narrayUnion([1, 1, 2, 3], [2, 3]);\n//=> [1, 2, 3]\n\narrayUnion(['foo', 'foo', 'bar'], ['foo']);\n//=> ['foo', 'bar']\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

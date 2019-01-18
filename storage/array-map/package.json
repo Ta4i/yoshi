@@ -83,7 +83,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749398723
+			"fetched": 1547828432580
 		}
 	},
 	"_distfiles": {
@@ -93,6 +93,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-631b0a7fb07fae79",
+	"_rev": "10-95c2ce3911e5da04",
 	"readme": "# array-map\n\n`[].map(f)` for older browsers\n\n[![testling badge](https://ci.testling.com/substack/array-map.png)](https://ci.testling.com/substack/array-map)\n\n[![build status](https://secure.travis-ci.org/substack/array-map.png)](http://travis-ci.org/substack/array-map)\n\n# example\n\n``` js\nvar map = require('array-map');\nvar letters = map([97,98,99], function (c) {\n    return String.fromCharCode(c);\n});\nconsole.log(letters.join(''));\n```\n\noutput:\n\n```\nabc\n```\n\n# methods\n\n``` js\nvar map = require('array-map')\n```\n\n## var ys = map(xs, f)\n\nCreate a new array `ys` by applying `f(xs[i], i, xs)` to each element in `xs` at\nindex `i`.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install array-map\n```\n\n# license\n\nMIT"
 }

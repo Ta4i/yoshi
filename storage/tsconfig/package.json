@@ -2064,7 +2064,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749366237
+			"fetched": 1547828399957
 		}
 	},
 	"_distfiles": {
@@ -2166,6 +2166,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d63f3efaf34a6e79",
+	"_rev": "10-28ba734c6ee3a172",
 	"readme": "# TSConfig\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n\nResolve and parse [`tsconfig.json`][tsconfig], replicating TypeScript's behaviour.\n\n## Usage\n\nSee the [TypeScript docs][tsconfig] for information on setting up `tsconfig.json`.\n\n### API\n\n* **resolve(cwd: string, path?: string): Promise<string | void>** Resolve `tsconfig.json`, like TypeScript, allowing a path to be specified and falling back to recursively resolving `tsconfig.json` upward when no path is specified.\n* **resolveSync(cwd: string, path?: string): string | void** Synchronous `resolve`.\n* **find(cwd: string): Promise<string | void>** Standalone behaviour of recursively resolving `tsconfig.json` upward.\n* **findSync(cwd: string): string | void** Synchronous `find`.\n* **load(cwd: string, path?: string): Promise<{ path?: string, config: any }>** Resolve, load and parse `tsconfig.json`.\n* **loadSync(cwd: string, path?: string): { path?: string, config: any }** Synchronous `load`.\n* **readFile(filename: string): Promise<any>** Read a JSON file as `tsconfig.json` (strip BOM, parse JSON and support empty contents).\n* **readFileSync(filename: string): any** Synchronous `readFile`.\n* **parse(contents: string, filename: string): any** Parse file contents as `tsconfig.json` (strip BOM, parse JSON and support empty contents).\n\n## Contributing\n\nFeel free to open issues for discussion.\n\n```sh\n# Install dependencies/typings.\nnpm install\n\n# Run test suite.\nnpm test\n```\n\n## License\n\nMIT License\n\n[npm-image]: https://img.shields.io/npm/v/tsconfig.svg?style=flat\n[npm-url]: https://npmjs.org/package/tsconfig\n[downloads-image]: https://img.shields.io/npm/dm/tsconfig.svg?style=flat\n[downloads-url]: https://npmjs.org/package/tsconfig\n[travis-image]: https://img.shields.io/travis/TypeStrong/tsconfig.svg?style=flat\n[travis-url]: https://travis-ci.org/TypeStrong/tsconfig\n[coveralls-image]: https://img.shields.io/coveralls/TypeStrong/tsconfig.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/TypeStrong/tsconfig?branch=master\n[tsconfig]: http://www.typescriptlang.org/docs/handbook/tsconfig-json.html"
 }

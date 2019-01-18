@@ -532,7 +532,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455748
+			"fetched": 1547828476443
 		}
 	},
 	"_distfiles": {
@@ -558,6 +558,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-cf1e72092202ffcb",
+	"_rev": "10-742dc0125e26bb60",
 	"readme": "# vfile-location\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Chat][chat-badge]][chat]\n\nConvert between positions (line and column-based) and offsets\n(range-based) locations in a [virtual file][vfile].\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install vfile-location\n```\n\n## Usage\n\n```js\nvar vfile = require('vfile')\nvar vfileLocation = require('vfile-location')\n\nvar location = vfileLocation(vfile('foo\\nbar\\nbaz'))\n\nvar offset = location.toOffset({line: 3, column: 3}) // => 10\nlocation.toPosition(offset) // => {line: 3, column: 3, offset: 10}\n```\n\n## API\n\n### `location = vfileLocation(doc)`\n\nGet transform functions for the given `doc` (`string`) or\n[`file`][vfile].\n\nReturns an object with [`toOffset`][to-offset] and\n[`toPosition`][to-position].\n\n### `location.toOffset(position)`\n\nGet the `offset` (`number`) for a line and column-based\n[`position`][position] in the bound file.  Returns `-1`\nwhen given invalid or out of bounds input.\n\n### `location.toPosition(offset)`\n\nGet the line and column-based [`position`][position] for `offset` in\nthe bound file.\n\n## Contribute\n\nSee [`contributing.md` in `vfile/vfile`][contributing] for ways to get started.\n\nThis organisation has a [Code of Conduct][coc].  By interacting with this\nrepository, organisation, or community you agree to abide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://img.shields.io/travis/vfile/vfile-location.svg\n\n[build]: https://travis-ci.org/vfile/vfile-location\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/vfile/vfile-location.svg\n\n[coverage]: https://codecov.io/github/vfile/vfile-location\n\n[downloads-badge]: https://img.shields.io/npm/dm/vfile-location.svg\n\n[downloads]: https://www.npmjs.com/package/vfile-location\n\n[chat-badge]: https://img.shields.io/badge/join%20the%20community-on%20spectrum-7b16ff.svg\n\n[chat]: https://spectrum.chat/unified/vfile\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: license\n\n[author]: https://wooorm.com\n\n[vfile]: https://github.com/vfile/vfile\n\n[to-offset]: #locationtooffsetposition\n\n[to-position]: #locationtopositionoffset\n\n[position]: https://github.com/syntax-tree/unist#position\n\n[contributing]: https://github.com/vfile/vfile/blob/master/contributing.md\n\n[coc]: https://github.com/vfile/vfile/blob/master/code-of-conduct.md"
 }

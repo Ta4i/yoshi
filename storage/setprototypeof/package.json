@@ -329,7 +329,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749346735
+			"fetched": 1547828395144
 		}
 	},
 	"_distfiles": {
@@ -359,6 +359,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-dd54e37b76fe1711",
+	"_rev": "10-5f11e65e7c6eecad",
 	"readme": "# Polyfill for `Object.setPrototypeOf`\n\n[![NPM Version](https://img.shields.io/npm/v/setprototypeof.svg)](https://npmjs.org/package/setprototypeof)\n[![NPM Downloads](https://img.shields.io/npm/dm/setprototypeof.svg)](https://npmjs.org/package/setprototypeof)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/standard/standard)\n\nA simple cross platform implementation to set the prototype of an instianted object.  Supports all modern browsers and at least back to IE8.\n\n## Usage:\n\n```\n$ npm install --save setprototypeof\n```\n\n```javascript\nvar setPrototypeOf = require('setprototypeof')\n\nvar obj = {}\nsetPrototypeOf(obj, {\n  foo: function () {\n    return 'bar'\n  }\n})\nobj.foo() // bar\n```\n\nTypeScript is also supported:\n\n```typescript\nimport setPrototypeOf = require('setprototypeof')\n```"
 }

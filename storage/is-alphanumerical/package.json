@@ -346,7 +346,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749461233
+			"fetched": 1547828480250
 		}
 	},
 	"_distfiles": {
@@ -364,6 +364,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-8c1c2f76b614eb77",
+	"_rev": "10-ccea2e2a62dc8b9e",
 	"readme": "# is-alphanumerical [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCheck if a character is alphanumerical (`[a-zA-Z0-9]`).\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install is-alphanumerical\n```\n\n## Usage\n\n```javascript\nvar alphanumerical = require('is-alphanumerical')\n\nalphanumerical('a') // => true\nalphanumerical('Z') // => true\nalphanumerical('0') // => true\nalphanumerical(' ') // => false\nalphanumerical('💩') // => false\n```\n\n## API\n\n### `alphanumerical(character)`\n\nCheck whether the given character code (`number`), or the character\ncode at the first position (`string`), is alphanumerical.\n\n## Related\n\n*   [`is-alphabetical`](https://github.com/wooorm/is-alphabetical)\n*   [`is-decimal`](https://github.com/wooorm/is-decimal)\n*   [`is-hexadecimal`](https://github.com/wooorm/is-hexadecimal)\n*   [`is-whitespace-character`](https://github.com/wooorm/is-whitespace-character)\n*   [`is-word-character`](https://github.com/wooorm/is-word-character)\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/is-alphanumerical.svg\n\n[travis]: https://travis-ci.org/wooorm/is-alphanumerical\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/is-alphanumerical.svg\n\n[codecov]: https://codecov.io/github/wooorm/is-alphanumerical\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

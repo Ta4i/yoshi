@@ -325,7 +325,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749391527
+			"fetched": 1547828404018
 		}
 	},
 	"_distfiles": {
@@ -347,6 +347,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-5774e64069896466",
+	"_rev": "10-e92fc033476dd676",
 	"readme": "# path-type [![Build Status](https://travis-ci.org/sindresorhus/path-type.svg?branch=master)](https://travis-ci.org/sindresorhus/path-type)\n\n> Check if a path is a file, directory, or symlink\n\n\n## Install\n\n```\n$ npm install path-type\n```\n\n\n## Usage\n\n```js\nconst pathType = require('path-type');\n\npathType.file('package.json').then(isFile => {\n\tconsole.log(isFile);\n\t//=> true\n})\n```\n\n\n## API\n\n### .file(path)\n### .dir(path)\n### .symlink(path)\n\nReturns a `Promise` for a `boolean` of whether the path is the checked type.\n\n### .fileSync(path)\n### .dirSync(path)\n### .symlinkSync(path)\n\nReturns a `boolean` of whether the path is the checked type.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

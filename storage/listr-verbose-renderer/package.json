@@ -533,7 +533,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749373393
+			"fetched": 1547828371376
 		}
 	},
 	"_distfiles": {
@@ -567,6 +567,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-1ca9be8cc1af8f22",
+	"_rev": "10-f1428c654ce8e5bf",
 	"readme": "# listr-verbose-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-verbose-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-verbose-renderer)\n\n> [Listr](https://github.com/SamVerschueren/listr) verbose renderer\n\n<img src=\"screenshot.gif\" />\n\n\n## Install\n\n```\n$ npm install --save listr-verbose-renderer\n```\n\n\n## Usage\n\n```js\nconst VerboseRenderer = require('listr-verbose-renderer');\nconst Listr = require('listr');\n\nconst list = new Listr([\n\t{\n\t\ttitle: 'foo',\n\t\ttask: () => Promise.resolve('bar')\n\t}\n], {\n\trenderer: VerboseRenderer\n});\n\nlist.run();\n```\n\n> Note: This renderer supports non-TTY environments.\n\n\n## Options\n\nThese options should be provided in the [Listr](https://github.com/SamVerschueren/listr) options object.\n\n### dateFormat\n\nType: `string` `false`<br>\nDefault: `HH:mm:ss`\n\nFormat of the rendered timestamp. Use the [date-fns string format](https://date-fns.org/docs/format). If `false` is passed in, the timestamp will be hidden.\n\n\n## Related\n\n- [listr](https://github.com/SamVerschueren/listr) - Terminal task list\n- [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer) - Listr update renderer\n- [listr-silent-renderer](https://github.com/SamVerschueren/listr-silent-renderer) - Suppress Listr rendering output\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)"
 }

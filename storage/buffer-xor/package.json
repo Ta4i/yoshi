@@ -459,7 +459,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749458325
+			"fetched": 1547828478020
 		}
 	},
 	"_distfiles": {
@@ -493,6 +493,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-0c1049369bddb5e3",
+	"_rev": "10-720fb7e9d86a7f81",
 	"readme": "# buffer-xor\n\n[![NPM Package](https://img.shields.io/npm/v/buffer-xor.svg?style=flat-square)](https://www.npmjs.org/package/buffer-xor)\n[![Build Status](https://img.shields.io/travis/crypto-browserify/buffer-xor.svg?branch=master&style=flat-square)](https://travis-ci.org/crypto-browserify/buffer-xor)\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\nA simple module for bitwise-xor on buffers.\n\n\n## Examples\n\n``` javascript\nvar xor = require('buffer-xor')\nvar a = new Buffer('00ff0f', 'hex')\nvar b = new Buffer('f0f0', 'hex')\n\nconsole.log(xor(a, b))\n// => <Buffer f0 0f 0f>\n```\n\n\nOr for those seeking those few extra cycles, perform the operation in place with\n`xorInplace`:\n\n_NOTE: `xorInplace` won't xor past the bounds of the buffer it mutates so make\nsure it is long enough!_\n\n``` javascript\nvar xorInplace = require('buffer-xor/inplace')\nvar a = new Buffer('00ff0f', 'hex')\nvar b = new Buffer('f0f0', 'hex')\n\nconsole.log(xorInplace(a, b))\n// => <Buffer f0 0f 0f>\n\n// See that a has been mutated\nconsole.log(a)\n// => <Buffer f0 0f 0f>\n```\n\n\n## License [MIT](LICENSE)"
 }

@@ -400,7 +400,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749440889
+			"fetched": 1547828459316
 		}
 	},
 	"_distfiles": {
@@ -430,6 +430,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "6-34d852cbdbde7d5e",
+	"_rev": "11-dd2ecf9ea074489d",
 	"readme": "# onetime [![Build Status](https://travis-ci.org/sindresorhus/onetime.svg?branch=master)](https://travis-ci.org/sindresorhus/onetime)\n\n> Ensure a function is only called once\n\nWhen called multiple times it will return the return value from the first call.\n\n*Unlike the module [once](https://github.com/isaacs/once), this one isn't naughty extending `Function.prototype`.*\n\n\n## Install\n\n```\n$ npm install --save onetime\n```\n\n\n## Usage\n\n```js\nlet i = 0;\n\nconst foo = onetime(() => i++);\n\nfoo(); //=> 0\nfoo(); //=> 0\nfoo(); //=> 0\n```\n\n```js\nconst foo = onetime(() => {}, {throw: true});\n\nfoo();\n\nfoo();\n//=> Error: Function `foo` can only be called once\n```\n\n\n## API\n\n### onetime(fn, [options])\n\nReturns a function that only calls `fn` once.\n\n#### fn\n\nType: `Function`\n\nFunction that should only be called once.\n\n#### options\n\nType: `Object`\n\n##### throw\n\nType: `boolean`<br>\nDefault: `false`\n\nThrow an error when called more than once.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

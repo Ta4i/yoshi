@@ -549,7 +549,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749365445
+			"fetched": 1547828399772
 		}
 	},
 	"_distfiles": {
@@ -575,6 +575,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-06ba79da58aa8a10",
+	"_rev": "10-5c13454a1601a47f",
 	"readme": "[![Build Status](https://travis-ci.org/kwonoj/tslint-no-unused-expression-chai.svg?branch=master)](https://travis-ci.org/kwonoj/tslint-no-unused-expression-chai)\n[![npm](https://img.shields.io/npm/v/tslint-no-unused-expression-chai.svg)](https://www.npmjs.com/package/tslint-no-unused-expression-chai)\n\n# tslint-no-unused-expression-chai\n\nFrom tslint 5, lint applies `no-unused-expression` more strictly. This affects\ntest assertion written via [`chai`](http://chaijs.com/), as its `expect` assertion is form of expression caught by lint. `tslint-no-unused-expression-chai` provides drop-in replacement of rule `no-unused-expression` to loosen lint checker for chai's assertion.\n\nThis module supports chai's `expect` based assertion (i.e `expect(x).to.be....`).\nWhen adding `\"should\"` to the rule configuration, it also supports those assertios.\nOther type of property based assertion still may not work.\n\n# Install\n\nThis has a peer dependencies of `tslint@5.*.*` and implicit dependency of `typescript`, which will have to be installed as well\n\n```sh\nnpm install --save-dev tslint-no-unused-expression-chai\n```\n\n# Usage\n\nYou can configure tslint rules by replacing existing `no-unused-expression` rule.\n\n```js\n\"rules\": {\n  //accepts all options of https://palantir.github.io/tslint/rules/no-unused-expression/\n  \"no-unused-expression-chai\": true\n  ...\n},\n\"rulesDirectory\": [\n  \"tslint-no-unused-expression-chai\"\n  ...\n]\n```\n\nAlternatively you can just extend the configuration preset provided by this package. It disables `no-unused-expression` and enables `no-unused-expression-chai`.\n\n```js\n\"extends\": [\n  ...\n  \"tslint-no-unused-expression-chai\"\n]\n```\n\n# Building / Testing\n\nFew npm scripts are supported for build / test code. As this rule is simple override to default rules, it doesn't have own unit test coverage but borrows test fixture from [original rule](https://github.com/palantir/tslint/tree/master/test/rules/no-unused-expression).\n\n- `build`: Transpiles code to ES5 commonjs to `rules`.\n- `test`: Run tests.\n- `lint`: Run lint over all codebases\n- `lint:staged`: Run lint only for staged changes. This'll be executed automatically with precommit hook.\n- `commit`: Commit wizard to write commit message"
 }

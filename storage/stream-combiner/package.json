@@ -396,7 +396,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749433169
+			"fetched": 1547828457526
 		}
 	},
 	"_distfiles": {
@@ -434,6 +434,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-56217461a3770951",
+	"_rev": "10-8fa669bd80fe4d23",
 	"readme": "# stream-combiner\n\n[![npm version](https://img.shields.io/npm/v/stream-combiner.svg)](https://npmjs.org/package/stream-combiner) \n[![Travis CI](https://travis-ci.org/dominictarr/stream-combiner.svg)](https://travis-ci.org/dominictarr/stream-combiner)\n\n## Combine (stream1,...,streamN)\n\nTurn a pipeline into a single stream. `Combine` returns a stream that writes to the first stream\nand reads from the last stream. \n\nListening for 'error' will recieve errors from all streams inside the pipe.\n\n```js\nvar Combine = require('stream-combiner')\nvar es      = require('event-stream')\n\nCombine(                                  // connect streams together with `pipe`\n  process.openStdin(),                    // open stdin\n  es.split(),                             // split stream to break on newlines\n  es.map(function (data, callback) {      // turn this async function into a stream\n    var repr = util.inspect(JSON.parse(data))  // render it nicely\n    callback(null, repr)\n  }),\n  process.stdout                          // pipe it to stdout !\n)\n```\n\nCan also be called with an array:\n\n```js\nvar combinedStream = Combine([\n  stream1,\n  stream2,\n]);\n```\n\nOr to combine gulp plugins:\n\n```js\nfunction coffeePipe() {\n  return Combine(\n    coffeescript(),\n    coffeelint.reporter('fail').on('error', function(){\n      gutil.beep()\n      gulp.run('lint')\n    })\n}\n\n//usage:\ngulp.src().pipe(coffeePipe());\n```\n\n## License\n\nMIT"
 }

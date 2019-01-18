@@ -196,7 +196,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749363792
+			"fetched": 1547828398358
 		}
 	},
 	"_distfiles": {
@@ -214,6 +214,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e39320e76dd03fdf",
+	"_rev": "10-855f38f7918ac451",
 	"readme": "# is-root [![Build Status](https://travis-ci.org/sindresorhus/is-root.svg?branch=master)](https://travis-ci.org/sindresorhus/is-root)\n\n> Check if the process is running as root user, for example, one started with `sudo`\n\n\n## Install\n\n```\n$ npm install is-root\n```\n\n\n## Usage\n\n```\n$ sudo node index.js\n```\n\n```js\n// index.js\nconst isRoot = require('is-root');\n\nisRoot();\n//=> true\n```\n\n\n## Related\n\n- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges *(cross-platform)*\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

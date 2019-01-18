@@ -952,7 +952,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749334295
+			"fetched": 1547828363590
 		}
 	},
 	"_distfiles": {
@@ -1042,6 +1042,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-282abd35591877ae",
+	"_rev": "10-caf7b657db769d1a",
 	"readme": "# haste-task-webpack\nwebpack wrapper for haste runner.\n\n## options\n\n#### configPath\n\nType: `string`\n\nPath to a webpack config, the config can be a javascript object or a function that accepts an object of config params and return an object.\n\n```js\n// ./webpack.config.js\n\nmodule.exports = {\n  entry: './index.js',\n  output: {\n    path: 'dist',\n    filename: 'bundle.js',\n  }\n};\n```\n\nUseful when you want to build your webpack config dynamically using cli arguments or configuration from the preset.\n\n```js\n// ./webpack.config.function.js\n\nmodule.exports = configParams => ({\n  entry: configParams.entry,\n  output: {\n    path: 'dist',\n    filename: 'bundle.js',\n  }\n});\n```\n\n#### callbackPath\n\nType: `string`\n\nPath to a callback that accepts webpack err and stats, for example:\n\n```js\nmodule.exports = (err, stats) => {\n  console.log(stats.toString('minimal'));\n};\n```\n\n#### configParams\n\nType: `object`\n\nAn object that will be passed to the config function in case it is actually a function.\n\n```js\n// ./preset.js\n\nwebpack({ configPath: './webpack.config.function', configParams: { hey: 'oh'}});\n\n// ./webpack.config.function.js\n\nmodule.exports = configParams => {\n  console.log(configParams.hey) // oh\n\n  return ({\n    entry: './index.js',\n    output: {\n      path: 'dist',\n      filename: 'bundle.js',\n    }\n  })\n};\n```\n\n#### watch\n\nType: `boolean`\n\nWhether or not to run Webpack in watch mode, defaults to false.\n\n#### watchOptions\n\nType: `object`\n\nWatch options for webpack, see [webpack documentation](https://webpack.js.org/api/node/#watching) for the full list of available options.\n\n#### statsFilename\n\nType: `string`\n\nIf set, will generate a webpack stats file in the given location, by default no file is generated."
 }

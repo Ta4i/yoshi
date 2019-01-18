@@ -493,6 +493,76 @@
 			"gitHead": "077df3268bbad242f5b7de42b97e6d8b6165bb76",
 			"_shasum": "1e7daad2c2d0c268729ecca91f8ec463ad58f56b",
 			"_nodeVersion": "0.10.32"
+		},
+		"4.0.0": {
+			"name": "ip-regex",
+			"description": "Regular expression for matching IP addresses (IPv4 & IPv6)",
+			"version": "4.0.0",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"homepage": "https://github.com/sindresorhus/ip-regex#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/ip-regex.git"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/ip-regex/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ip-regex/-/ip-regex-4.0.0.tgz",
+				"shasum": "0120e0558a355604d511709c831a19adf8487b10"
+			},
+			"devDependencies": {
+				"ava": "^1.1.0",
+				"xo": "^0.24.0"
+			},
+			"keywords": [
+				"ip",
+				"ipv6",
+				"ipv4",
+				"regex",
+				"regexp",
+				"re",
+				"match",
+				"test",
+				"find",
+				"text",
+				"pattern",
+				"internet",
+				"protocol",
+				"address",
+				"validate"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"_id": "ip-regex@4.0.0",
+			"gitHead": "45f4ab50a93cf129461c39494be2ed375ef9678e",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ip-regex_4.0.0_1547795615436_0.0800270746604328"
+			},
+			"_nodeVersion": "10.13.0"
 		}
 	},
 	"time": {
@@ -501,17 +571,18 @@
 		"2.1.0": "2017-03-11T09:56:09.108Z",
 		"3.0.0": "2018-04-03T07:08:25.182Z",
 		"created": "2014-09-06T11:39:45.351Z",
-		"modified": "2019-01-08T05:39:16.940Z",
+		"modified": "2019-01-18T07:13:37.996Z",
 		"1.0.0": "2014-09-06T11:39:45.351Z",
 		"1.0.1": "2014-11-29T16:20:14.443Z",
-		"1.0.2": "2014-12-10T14:53:56.499Z"
+		"1.0.2": "2014-12-10T14:53:56.499Z",
+		"4.0.0": "2019-01-18T07:13:35.555Z"
 	},
 	"dist-tags": {
-		"latest": "3.0.0"
+		"latest": "4.0.0"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749378943
+			"fetched": 1547828419175
 		}
 	},
 	"_distfiles": {
@@ -542,9 +613,13 @@
 		"ip-regex-1.0.2.tgz": {
 			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ip-regex/-/ip-regex-1.0.2.tgz",
 			"sha": "1e7daad2c2d0c268729ecca91f8ec463ad58f56b"
+		},
+		"ip-regex-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ip-regex/-/ip-regex-4.0.0.tgz",
+			"sha": "0120e0558a355604d511709c831a19adf8487b10"
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-bccf63c1bc0b530a",
-	"readme": "# ip-regex [![Build Status](https://travis-ci.org/sindresorhus/ip-regex.svg?branch=master)](https://travis-ci.org/sindresorhus/ip-regex)\n\n> Regular expression for matching IP addresses\n\n\n## Install\n\n```\n$ npm install ip-regex\n```\n\nThis module targets Node.js 8 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, use version 2.1.0: `npm install ip-regex@2.1.0`\n\n\n## Usage\n\n```js\nconst ipRegex = require('ip-regex');\n\n// Contains an IP address?\nipRegex().test('unicorn 192.168.0.1');\n//=> true\n\n// Is an IP address?\nipRegex({exact: true}).test('unicorn 192.168.0.1');\n//=> false\n\nipRegex.v6({exact: true}).test('1:2:3:4:5:6:7:8');\n//=> true\n\n'unicorn 192.168.0.1 cake 1:2:3:4:5:6:7:8 rainbow'.match(ipRegex());\n//=> ['192.168.0.1', '1:2:3:4:5:6:7:8']\n```\n\n\n## API\n\n### ipRegex([options])\n\nReturns a regex for matching both IPv4 and IPv6.\n\n### ipRegex.v4([options])\n\nReturns a regex for matching IPv4.\n\n### ipRegex.v6([options])\n\nReturns a regex for matching IPv6.\n\n#### options.exact\n\nType: `boolean`<br>\nDefault: `false` *(Matches any IP address in a string)*\n\nOnly match an exact string. Useful with `RegExp#test()` to check if a string is an IP address.\n\n\n## Related\n\n- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address\n- [is-cidr](https://github.com/silverwind/is-cidr) - Check if a string is an IP address in CIDR notation\n- [cidr-regex](https://github.com/silverwind/cidr-regex) - Regular expression for matching IP addresses in CIDR notation\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+	"_rev": "10-691ea268c41063d4",
+	"readme": "# ip-regex [![Build Status](https://travis-ci.org/sindresorhus/ip-regex.svg?branch=master)](https://travis-ci.org/sindresorhus/ip-regex)\n\n> Regular expression for matching IP addresses\n\n\n## Install\n\n```\n$ npm install ip-regex\n```\n\nThis module targets Node.js 8 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, use version 2.1.0: `npm install ip-regex@2.1.0`\n\n\n## Usage\n\n```js\nconst ipRegex = require('ip-regex');\n\n// Contains an IP address?\nipRegex().test('unicorn 192.168.0.1');\n//=> true\n\n// Is an IP address?\nipRegex({exact: true}).test('unicorn 192.168.0.1');\n//=> false\n\nipRegex.v6({exact: true}).test('1:2:3:4:5:6:7:8');\n//=> true\n\n'unicorn 192.168.0.1 cake 1:2:3:4:5:6:7:8 rainbow'.match(ipRegex());\n//=> ['192.168.0.1', '1:2:3:4:5:6:7:8']\n\n// Contains an IP address?\nipRegex({includeBoundaries: true}).test('192.168.0.2000000000');\n//=> false\n\n// Matches an IP address?\n'192.168.0.2000000000'.match(ipRegex({includeBoundaries: true}));\n//=> null\n```\n\n\n## API\n\n### ipRegex([options])\n\nReturns a regex for matching both IPv4 and IPv6.\n\n### ipRegex.v4([options])\n\nReturns a regex for matching IPv4.\n\n### ipRegex.v6([options])\n\nReturns a regex for matching IPv6.\n\n#### options\n\nType: `Object`\n\n##### exact\n\nType: `boolean`<br>\nDefault: `false` *(Matches any IP address in a string)*\n\nOnly match an exact string. Useful with `RegExp#test()` to check if a string is an IP address.\n\n##### includeBoundaries\n\nType: `boolean`<br>\nDefault: `false`\n\nInclude boundaries in the regex. When `true`, `192.168.0.2000000000` will report as an invalid IPv4 address. If this option is not set, the mentioned IPv4 address would report as valid (ignoring the trailing zeros).\n\n\n## Related\n\n- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address\n- [is-cidr](https://github.com/silverwind/is-cidr) - Check if a string is an IP address in CIDR notation\n- [cidr-regex](https://github.com/silverwind/cidr-regex) - Regular expression for matching IP addresses in CIDR notation\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

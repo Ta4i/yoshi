@@ -145,7 +145,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749443481
+			"fetched": 1547828468436
 		}
 	},
 	"_distfiles": {
@@ -159,6 +159,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "23-f0b97879a3d064c5",
+	"_rev": "28-fa2473f2278c4055",
 	"readme": "# number-is-nan [![Build Status](https://travis-ci.org/sindresorhus/number-is-nan.svg?branch=master)](https://travis-ci.org/sindresorhus/number-is-nan)\n\n> ES2015 [`Number.isNaN()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save number-is-nan\n```\n\n\n## Usage\n\n```js\nvar numberIsNan = require('number-is-nan');\n\nnumberIsNan(NaN);\n//=> true\n\nnumberIsNan('unicorn');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

@@ -81,7 +81,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749453488
+			"fetched": 1547828476769
 		}
 	},
 	"_distfiles": {
@@ -91,6 +91,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-da5066d7f7b02ac9",
+	"_rev": "10-27af9ec23ea62827",
 	"readme": "# is-alphanumeric [![Build Status](https://travis-ci.org/arthurvr/is-alphanumeric.svg?branch=master)](https://travis-ci.org/arthurvr/is-alphanumeric)\n\n> Check if a string only contains alphanumeric characters\n\n\n## Install\n\n```\n$ npm install --save is-alphanumeric\n```\n\n\n## Usage\n\n```js\nvar isAlphanumeric = require('is-alphanumeric');\n\nisAlphanumeric('unicorns');\n//=> true\n\nisAlphanumeric('55');\n//=> true\n\nisAlphanumeric('ABC');\n//=> true\n\nisAlphanumeric('*unicorns');\n//=> false\n\nisAlphanumeric('{unicorns}');\n//=> false\n\nisAlphanumeric(' ');\n//=> false\n```\n\n\n## License\n\nMIT © [Arthur Verschaeve](http://arthurverschaeve.be)"
 }

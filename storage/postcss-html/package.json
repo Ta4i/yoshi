@@ -4159,7 +4159,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749392926
+			"fetched": 1547828428693
 		}
 	},
 	"_distfiles": {
@@ -4333,6 +4333,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b0322b42a1f9cc5e",
+	"_rev": "10-46a9f50801ceac59",
 	"readme": "PostCSS HTML Syntax\n====\n\n[![NPM version](https://img.shields.io/npm/v/postcss-html.svg?style=flat-square)](https://www.npmjs.com/package/postcss-html)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-html.svg)](https://travis-ci.org/gucong3000/postcss-html)\n[![Travis](https://img.shields.io/travis/gucong3000/postcss-syntaxes.svg?label=integration)](https://travis-ci.org/gucong3000/postcss-syntaxes)\n[![Codecov](https://img.shields.io/codecov/c/github/gucong3000/postcss-html.svg)](https://codecov.io/gh/gucong3000/postcss-html)\n[![David](https://img.shields.io/david/gucong3000/postcss-html.svg)](https://david-dm.org/gucong3000/postcss-html)\n\n<img align=\"right\" width=\"95\" height=\"95\"\n\ttitle=\"Philosopher’s stone, logo of PostCSS\"\n\tsrc=\"http://postcss.github.io/postcss/logo.svg\">\n\n[PostCSS](https://github.com/postcss/postcss) syntax for parsing HTML (and HTML-like)\n- [PHP](http://php.net)\n- [Vue Single-File Component](https://vue-loader.vuejs.org/spec.html)\n- [Quick App](https://doc.quickapp.cn/framework/source-file.html)\n- [XSLT](https://www.w3.org/TR/xslt-30/)\n\n## Getting Started\n\nFirst thing's first, install the module:\n\n```\nnpm install postcss-syntax postcss-html --save-dev\n```\n\nIf you want support SCSS/SASS/LESS/SugarSS syntax, you need to install the corresponding module.\n\n- SCSS: [postcss-scss](https://github.com/postcss/postcss-scss)\n- SASS: [postcss-sass](https://github.com/aleshaoleg/postcss-sass)\n- LESS: [postcss-less](https://github.com/shellscape/postcss-less)\n- SugarSS: [sugarss](https://github.com/postcss/sugarss)\n\n## Use Cases\n\n```js\nconst postcss = require('postcss');\nconst syntax = require('postcss-html')({\n\t// syntax for parse scss (non-required options)\n\tscss: require('postcss-scss'),\n\t// syntax for parse less (non-required options)\n\tless: require('postcss-less'),\n\t// syntax for parse css blocks (non-required options)\n\tcss: require('postcss-safe-parser'),\n});\npostcss(plugins).process(source, { syntax: syntax }).then(function (result) {\n\t// An alias for the result.css property. Use it with syntaxes that generate non-CSS output.\n\tresult.content\n});\n```\n\nIf you want support SCSS/SASS/LESS/SugarSS syntax, you need to install these module:\n\n- SCSS: [postcss-scss](https://github.com/postcss/postcss-scss)\n- SASS: [postcss-sass](https://github.com/aleshaoleg/postcss-sass)\n- LESS: [postcss-less](https://github.com/shellscape/postcss-less)\n- SugarSS: [sugarss](https://github.com/postcss/sugarss)\n\n## Advanced Use Cases\n\nSee: [postcss-syntax](https://github.com/gucong3000/postcss-syntax)\n\n## Turning PostCSS off from within your HTML\n\nPostCSS can be temporarily turned off by using special comments in your HTML. For example:\n\n```html\n<html>\n<body>\n<!-- postcss-disable -->\n<a style=\"color: red;\"></a>\n<!-- postcss-enable -->\n```\n\n## Style Transformations\n\nThe main use case of this plugin is to apply PostCSS transformations to `<style>` tags and `<div style=\"*\">` property in HTML (and HTML-like)."
 }

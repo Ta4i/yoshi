@@ -1771,7 +1771,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749412366
+			"fetched": 1547828448108
 		}
 	},
 	"_distfiles": {
@@ -1909,6 +1909,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-cd9bde979eafc3e5",
+	"_rev": "10-a31bfd41f5f6ec15",
 	"readme": "# babel-plugin-syntax-async-functions\n\nAllow parsing of async functions.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-async-functions\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-async-functions\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-async-functions script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-async-functions\"]\n});\n```"
 }

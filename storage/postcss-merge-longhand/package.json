@@ -1532,7 +1532,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749403093
+			"fetched": 1547828408541
 		}
 	},
 	"_distfiles": {
@@ -1618,6 +1618,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-7d4d65ce21963ec2",
+	"_rev": "10-5371d3b845b15051",
 	"readme": "# [postcss][postcss]-merge-longhand\n\n> Merge longhand properties into shorthand with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-merge-longhand) do:\n\n```\nnpm install postcss-merge-longhand --save\n```\n\n## Example\n\nMerge longhand properties into shorthand; works with `margin`, `padding` &\n`border`. For more examples see the [tests](src/__tests__/index.js).\n\n### Input\n\n```css\nh1 {\n    margin-top: 10px;\n    margin-right: 20px;\n    margin-bottom: 10px;\n    margin-left: 20px;\n}\n```\n\n### Output\n\n```css\nh1 {\n    margin: 10px 20px;\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss"
 }

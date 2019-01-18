@@ -1,0 +1,140 @@
+{
+	"name": "steinhaus-johnson-trotter",
+	"versions": {
+		"1.0.0": {
+			"name": "steinhaus-johnson-trotter",
+			"description": "Generate permutations using the Steinhaus-Johnson-Trotter algorithm.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://github.com/nodash/steinhaus-johnson-trotter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nodash/steinhaus-johnson-trotter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/nodash/steinhaus-johnson-trotter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/steinhaus-johnson-trotter/-/steinhaus-johnson-trotter-1.0.0.tgz",
+				"shasum": "3fa723630349e195362881ba53696f4c13ac907b"
+			},
+			"devDependencies": {
+				"jshint": "^2.8.0"
+			},
+			"keywords": [
+				"permutations",
+				"algorithm",
+				"steinhaus",
+				"johnson",
+				"trotter",
+				"even"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "jshint *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "steinhaus-johnson-trotter@1.0.0",
+			"gitHead": "dce6834b91dd5eb77a5a47968016d9ca6d6316db",
+			"_shasum": "3fa723630349e195362881ba53696f4c13ac907b",
+			"_nodeVersion": "0.10.33"
+		},
+		"1.1.0": {
+			"name": "steinhaus-johnson-trotter",
+			"description": "Generate permutations using the Steinhaus-Johnson-Trotter algorithm.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Julian Alexander Fleischer",
+				"email": "tirednesscankill@warhog.net"
+			},
+			"homepage": "https://github.com/nodash/steinhaus-johnson-trotter",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nodash/steinhaus-johnson-trotter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/nodash/steinhaus-johnson-trotter/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/steinhaus-johnson-trotter/-/steinhaus-johnson-trotter-1.1.0.tgz",
+				"shasum": "154e507839047337a212c181021c9f32e3a130bc"
+			},
+			"devDependencies": {
+				"jshint": "^2.8.0"
+			},
+			"keywords": [
+				"permutations",
+				"algorithm",
+				"steinhaus",
+				"johnson",
+				"trotter",
+				"even"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "scravy",
+					"email": "julian@scravy.de"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "jshint *.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.9",
+			"_npmUser": {
+				"name": "scravy",
+				"email": "julian@scravy.de"
+			},
+			"_id": "steinhaus-johnson-trotter@1.1.0",
+			"gitHead": "1c81afa3ca382eb23bc14cabf72e21501d9b28cc",
+			"_shasum": "154e507839047337a212c181021c9f32e3a130bc",
+			"_nodeVersion": "0.10.33"
+		}
+	},
+	"time": {
+		"created": "2015-10-12T22:21:25.445Z",
+		"modified": "2015-10-13T00:03:06.064Z",
+		"1.0.0": "2015-10-12T22:21:25.445Z",
+		"1.1.0": "2015-10-13T00:03:06.064Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828465545
+		}
+	},
+	"_distfiles": {
+		"steinhaus-johnson-trotter-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/steinhaus-johnson-trotter/-/steinhaus-johnson-trotter-1.0.0.tgz",
+			"sha": "3fa723630349e195362881ba53696f4c13ac907b"
+		},
+		"steinhaus-johnson-trotter-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/steinhaus-johnson-trotter/-/steinhaus-johnson-trotter-1.1.0.tgz",
+			"sha": "154e507839047337a212c181021c9f32e3a130bc"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-4c34dc079e05726f",
+	"readme": "steinhaus-johnson-trotter\n=========================\n\nA JavaScript implementation of the\n[Steinhaus-Johnson-Trotter algorithm with Even's speedup](https://en.wikipedia.org/wiki/Steinhaus%E2%80%93Johnson%E2%80%93Trotter_algorithm)\nto generate the permutations of a string or an array.\n\nUsage\n-----\n\n```JavaScript\nvar permutations = require('steinhaus-johnson-trotter');\n\nvar generate = permutations(\"123\");\n\nconsole.log(generate()); // → '132'\nconsole.log(generate()); // → '312'\nconsole.log(generate()); // → '321'\nconsole.log(generate()); // → '231'\nconsole.log(generate()); // → '213'\nconsole.log(generate()); // → undefined\n```\n\n`permutations` returns a function which returns another\npermutation each time is is invoked. If all permutations\nare generated it returns `undefined`. The source is never\nincluded in the permutations returned, i.e. the number of\ninvocations that the generator returns a permutation is\n`N! - 1` where N is the length of the array/string.\n\nAll permutations can be generated as follows:\n\n```JavaScript\nvar sjt = require('steinhaus-johnson-trotter');\n\nfunction permutations(arr) {\n  var generator = sjt(arr);\n  var next = arr;\n  var result = [];\n  while (next !== undefined) {\n    result.push(next);\n    next = generator();\n  }\n  return result;\n}\n```\n\nThe above function is also exported as `all`:\n\n```JavaScript\nvar permutations = require('steinhaus-johnson-trotter');\n\nconsole.log(permutations.all([ 1, 4, 7 ]));\n\n/* → [ [ 1, 4, 7 ],\n       [ 1, 7, 4 ],\n       [ 7, 1, 4 ],\n       [ 7, 4, 1 ],\n       [ 4, 7, 1 ],\n       [ 4, 1, 7 ] ] */\n```"
+}

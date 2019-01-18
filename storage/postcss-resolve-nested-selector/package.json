@@ -108,7 +108,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749393396
+			"fetched": 1547828429071
 		}
 	},
 	"_distfiles": {
@@ -122,6 +122,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-57b5c97c8930133f",
+	"_rev": "10-4ec69ec5d5be8e65",
 	"readme": "# postcss-resolve-nested-selector\n\n[![Build Status](https://travis-ci.org/davidtheclark/postcss-resolve-nested-selector.svg?branch=master)](https://travis-ci.org/davidtheclark/postcss-resolve-nested-selector)\n\nGiven a (nested) selector in a PostCSS AST, return an array of resolved selectors.\n\nTested to work with the syntax of\n[postcss-nested](https://github.com/postcss/postcss-nested)\nand [postcss-nesting](https://github.com/jonathantneal/postcss-nesting).\nShould also work with SCSS and Less syntax. If you'd like to help out by\nadding some automated tests for those, that'd be swell. In fact, if you'd\nlike to add any automated tests, you are a winner!\n\n## API\n\n`resolveNestedSelector(selector, node)`\n\nReturns an array of selectors resolved from `selector`.\n\nFor example, given this JS:\n\n```js\nvar resolvedNestedSelector = require('postcss-resolve-nested-selector');\npostcssRoot.eachRule(function(rule) {\n  rule.selectors.forEach(function(selector) {\n    console.log(resolvedNestedSelector(selector, rule));\n  });\n});\n```\n\nAnd the following CSS:\n\n```scss\n.foo {\n  .bar {\n    color: pink;\n  }\n}\n```\n\nThis should log:\n\n```\n['.foo']\n['.foo .bar']\n```\n\nOr with this CSS:\n\n```scss\n.foo {\n  .bar &,\n  a {\n    color: pink;\n  }\n}\n```\n\nThis should log:\n\n```\n['.foo']\n['.bar .foo']\n['.foo a']\n```"
 }

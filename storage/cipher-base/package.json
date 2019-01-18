@@ -294,7 +294,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749449425
+			"fetched": 1547828472155
 		}
 	},
 	"_distfiles": {
@@ -320,6 +320,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "9-ce6b6878a5b2bd90",
+	"_rev": "18-a011730ca3c3ad02",
 	"readme": "cipher-base\n===\n\n[![Build Status](https://travis-ci.org/crypto-browserify/cipher-base.svg)](https://travis-ci.org/crypto-browserify/cipher-base)\n\nAbstract base class to inherit from if you want to create streams implementing\nthe same api as node crypto streams.\n\nRequires you to implement 2 methods `_final` and `_update`. `_update` takes a\nbuffer and should return a buffer, `_final` takes no arguments and should return\na buffer.\n\n\nThe constructor takes one argument and that is a string which if present switches\nit into hash mode, i.e. the object you get from crypto.createHash or\ncrypto.createSign, this switches the name of the final method to be the string\nyou passed instead of `final` and returns `this` from update."
 }

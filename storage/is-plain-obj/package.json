@@ -141,7 +141,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749400353
+			"fetched": 1547828434209
 		}
 	},
 	"_distfiles": {
@@ -155,6 +155,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-cbb10b75ea3ecf33",
+	"_rev": "10-be6959852289d96a",
 	"readme": "# is-plain-obj [![Build Status](https://travis-ci.org/sindresorhus/is-plain-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/is-plain-obj)\n\n> Check if a value is a plain object\n\nAn object is plain if it's created by either `{}`, `new Object()` or `Object.create(null)`.\n\n\n## Install\n\n```\n$ npm install --save is-plain-obj\n```\n\n\n## Usage\n\n```js\nvar isPlainObj = require('is-plain-obj');\n\nisPlainObj({foo: 'bar'});\n//=> true\n\nisPlainObj([1, 2, 3]);\n//=> false\n```\n\n\n## Related\n\n- [is-obj](https://github.com/sindresorhus/is-obj) - Check if a value is an object\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

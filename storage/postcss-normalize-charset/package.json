@@ -496,7 +496,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749403422
+			"fetched": 1547828408916
 		}
 	},
 	"_distfiles": {
@@ -530,6 +530,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-864b003c5e13c4a7",
+	"_rev": "10-c7b7c20904eac4b3",
 	"readme": "# postcss-normalize-charset\n\nAdd necessary or remove extra charset with PostCSS\n\n```css\na{\n  content: \"©\";\n}\n```\n\n```css\n@charset \"utf-8\";\na{\n  content: \"©\";\n}\n```\n\n## API\n\n### normalizeCharset([options])\n\n#### options\n\n##### add\n\nType: `boolean`  \nDefault: `true`\n\nPass `false` to stop the module from adding a `@charset` declaration if it was\nmissing from the file (and the file contained non-ascii characters).\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)"
 }

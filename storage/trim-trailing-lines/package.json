@@ -297,7 +297,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455594
+			"fetched": 1547828476513
 		}
 	},
 	"_distfiles": {
@@ -315,6 +315,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-3452a364bb0b874b",
+	"_rev": "10-510c82fd530277a3",
 	"readme": "# trim-trailing-lines [![Build Status][travtrim-trailing-lines]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nRemove final newline characters from a string.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install trim-trailing-lines\n```\n\n## Usage\n\n```js\nvar trimTrailingLines = require('trim-trailing-lines')\n\ntrimTrailingLines('foo\\nbar') // => 'foo\\nbar'\ntrimTrailingLines('foo\\nbar\\n') // => 'foo\\nbar'\ntrimTrailingLines('foo\\nbar\\n\\n') // => 'foo\\nbar'\n```\n\n## API\n\n### `trimTrailingLines(value)`\n\nRemove final newline characters from `value`.\n\n###### Parameters\n\n*   `value` (`string`) — Value with trailing newlines, coerced to string.\n\n###### Returns\n\n`string` — Value without trailing newlines.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travtrim-trailing-lines]: https://img.shields.io/travis/wooorm/trim-trailing-lines.svg\n\n[travis]: https://travis-ci.org/wooorm/trim-trailing-lines\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/trim-trailing-lines.svg\n\n[codecov]: https://codecov.io/github/wooorm/trim-trailing-lines\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

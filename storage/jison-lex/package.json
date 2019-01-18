@@ -471,7 +471,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749439717
+			"fetched": 1547828480851
 		}
 	},
 	"_distfiles": {
@@ -505,6 +505,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-819bf6491a1c9b07",
+	"_rev": "8-cb6fdfe02a768cc3",
 	"readme": "# jison-lex\nA lexical analyzer generator used by [jison](http://jison.org). It takes a lexical grammar definition (either in JSON or Bison's lexical grammar format) and outputs a JavaScript lexer.\n\n## install\nnpm install jison-lex -g\n\n## usage\n```\nUsage: jison-lex [file] [options]\n\nfile     file containing a lexical grammar\n\nOptions:\n   -o FILE, --outfile FILE       Filename and base module name of the generated parser\n   -t TYPE, --module-type TYPE   The type of module to generate (commonjs, js)\n   --version                     print version and exit\n```\n\n## programatic usage\n\n```\nvar JisonLex = require('jison-lex');\n\nvar grammar = {\n  rules: [\n    [\"x\", \"return 'X';\" ],\n    [\"y\", \"return 'Y';\" ],\n    [\"$\", \"return 'EOF';\" ]\n  ]\n};\n\n// or load from a file\n// var grammar = fs.readFileSync('mylexer.l', 'utf8');\n\n// generate source\nvar lexerSource = JisonLex.generate(grammar);\n\n// or create a parser in memory\nvar lexer = new JisonLex(grammar);\nlexer.setInput('xyxxy');\nlexer.lex();\n// => 'X'\nlexer.lex();\n// => 'Y'\n\n## license\nMIT"
 }

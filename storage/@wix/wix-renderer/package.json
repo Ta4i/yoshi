@@ -1,0 +1,270 @@
+{
+	"name": "@wix/wix-renderer",
+	"versions": {
+		"1.0.930": {
+			"name": "@wix/wix-renderer",
+			"description": "",
+			"version": "1.0.930",
+			"author": {
+				"name": "Roy Miloh",
+				"email": "roymi@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"repository": "git@github.com:wix-private/wix-template-renderer.git",
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.930.tgz",
+				"shasum": "26cdde857a73b44197c52312737d1fb91d3e4419"
+			},
+			"dependencies": {
+				"@wix/wix-ejs-renderer": "~1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"chai-as-promised": "^5.3.0",
+				"eslint": "^4.15.0",
+				"eslint-config-wix": "^1.1.16",
+				"eslint-plugin-mocha": "^4.11.0",
+				"lodash": "^4.6.1",
+				"mocha": "~2.4.5",
+				"mocha-env-reporter": "~1.0.2",
+				"node-fetch": "^1.4.1",
+				"wix-config": "~1.0.247",
+				"wnpm-ci": "latest",
+				"@wix/wix-express-aspects-testkit": "^1.0.1",
+				"@wix/wix-express-rendering-model": "~1.0.160",
+				"@wix/wix-http-testkit": "~1.0.286",
+				"@wix/wix-req-options": "~1.0.239"
+			},
+			"keywords": [
+				""
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"build": ":",
+				"lint": "eslint test/ lib/",
+				"test": "mocha test/ it/ --reporter mocha-env-reporter",
+				"pretest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-renderer@1.0.930"
+		},
+		"1.0.927": {
+			"name": "@wix/wix-renderer",
+			"description": "",
+			"version": "1.0.927",
+			"author": {
+				"name": "Roy Miloh",
+				"email": "roymi@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"repository": "git@github.com:wix-private/wix-template-renderer.git",
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.927.tgz",
+				"shasum": "ce9c0f70aa359682e24be8ef53fe7a329ee978cd"
+			},
+			"dependencies": {
+				"wix-ejs-renderer": "~1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"chai-as-promised": "^5.3.0",
+				"eslint": "~2.10.2",
+				"eslint-config-spjs": "~1.0.0",
+				"eslint-plugin-mocha": "~2.2.0",
+				"lodash": "^4.6.1",
+				"mocha": "~2.4.5",
+				"mocha-env-reporter": "~1.0.2",
+				"node-fetch": "^1.4.1",
+				"wix-config": "~1.0.247",
+				"wix-express-aspects": "~1.0.234",
+				"wix-express-middleware-composer": "~1.0.269",
+				"wix-express-rendering-model": "~1.0.160",
+				"wix-http-testkit": "~1.0.286",
+				"wix-req-options": "~1.0.239",
+				"wix-web-context-aspect": "~1.0.232",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				""
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"build": ":",
+				"lint": "eslint test/ lib/",
+				"test": "mocha test/ it/ --reporter mocha-env-reporter",
+				"pretest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-renderer@1.0.927"
+		},
+		"1.0.928": {
+			"name": "@wix/wix-renderer",
+			"description": "",
+			"version": "1.0.928",
+			"author": {
+				"name": "Roy Miloh",
+				"email": "roymi@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"repository": "git@github.com:wix-private/wix-template-renderer.git",
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.928.tgz",
+				"shasum": "bedadc29da676c91e951d38ca1bdd8131fce528f"
+			},
+			"dependencies": {
+				"wix-ejs-renderer": "~1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"chai-as-promised": "^5.3.0",
+				"eslint": "^4.15.0",
+				"eslint-config-wix": "^1.1.16",
+				"eslint-plugin-mocha": "^4.11.0",
+				"lodash": "^4.6.1",
+				"mocha": "~2.4.5",
+				"mocha-env-reporter": "~1.0.2",
+				"node-fetch": "^1.4.1",
+				"wix-config": "~1.0.247",
+				"wix-express-aspects": "~1.0.234",
+				"wix-express-middleware-composer": "~1.0.269",
+				"wix-express-rendering-model": "~1.0.160",
+				"wix-http-testkit": "~1.0.286",
+				"wix-req-options": "~1.0.239",
+				"wix-web-context-aspect": "~1.0.232",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				""
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"build": ":",
+				"lint": "eslint test/ lib/",
+				"test": "mocha test/ it/ --reporter mocha-env-reporter",
+				"pretest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-renderer@1.0.928"
+		},
+		"1.0.929": {
+			"name": "@wix/wix-renderer",
+			"description": "",
+			"version": "1.0.929",
+			"author": {
+				"name": "Roy Miloh",
+				"email": "roymi@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"repository": "git@github.com:wix-private/wix-template-renderer.git",
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.929.tgz",
+				"shasum": "0f926ca3aab9a768cf0382c9a8a432d69c4b7b8d"
+			},
+			"dependencies": {
+				"wix-ejs-renderer": "~1.0.0"
+			},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"chai-as-promised": "^5.3.0",
+				"eslint": "^4.15.0",
+				"eslint-config-wix": "^1.1.16",
+				"eslint-plugin-mocha": "^4.11.0",
+				"lodash": "^4.6.1",
+				"mocha": "~2.4.5",
+				"mocha-env-reporter": "~1.0.2",
+				"node-fetch": "^1.4.1",
+				"wix-config": "~1.0.247",
+				"wix-express-aspects-testkit": "^1.0.1",
+				"wix-express-rendering-model": "~1.0.160",
+				"wix-http-testkit": "~1.0.286",
+				"wix-req-options": "~1.0.239",
+				"wnpm-ci": "latest"
+			},
+			"keywords": [
+				""
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"build": ":",
+				"lint": "eslint test/ lib/",
+				"test": "mocha test/ it/ --reporter mocha-env-reporter",
+				"pretest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-renderer@1.0.929"
+		}
+	},
+	"time": {
+		"1.0.930": "2018-12-13T15:05:08.880Z",
+		"created": "2017-11-29T13:35:44.451Z",
+		"modified": "2018-12-13T15:05:08.880Z",
+		"1.0.927": "2017-11-29T13:35:44.451Z",
+		"1.0.928": "2018-01-12T14:31:30.045Z",
+		"1.0.929": "2018-04-16T12:10:35.130Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.930"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828379113
+		}
+	},
+	"_distfiles": {
+		"wix-renderer-1.0.930.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.930.tgz",
+			"sha": "26cdde857a73b44197c52312737d1fb91d3e4419"
+		},
+		"wix-renderer-1.0.927.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.927.tgz",
+			"sha": "ce9c0f70aa359682e24be8ef53fe7a329ee978cd"
+		},
+		"wix-renderer-1.0.928.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.928.tgz",
+			"sha": "bedadc29da676c91e951d38ca1bdd8131fce528f"
+		},
+		"wix-renderer-1.0.929.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-renderer/-/@wix/wix-renderer-1.0.929.tgz",
+			"sha": "0f926ca3aab9a768cf0382c9a8a432d69c4b7b8d"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-de2e106458f56b9f",
+	"readme": ""
+}

@@ -150,7 +150,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749445991
+			"fetched": 1547828470057
 		}
 	},
 	"_distfiles": {
@@ -164,6 +164,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-c0403f82ee71afa7",
+	"_rev": "10-474cd10de1303de0",
 	"readme": "# DOMException\n\nThis package implements the [`DOMException`](https://heycam.github.io/webidl/#idl-DOMException) class, from web browsers. It exists in service of [jsdom](https://github.com/tmpvar/jsdom) and related packages.\n\nExample usage:\n\n```js\nconst DOMException = require(\"domexception\");\n\nconst e1 = new DOMException(\"Something went wrong\", \"BadThingsError\");\nconsole.assert(e1.name === \"BadThingsError\");\nconsole.assert(e1.code === 0);\n\nconst e2 = new DOMException(\"Another exciting error message\", \"NoModificationAllowedError\");\nconsole.assert(e2.name === \"NoModificationAllowedError\");\nconsole.assert(e2.code === 7);\n\nconsole.assert(DOMException.INUSE_ATTRIBUTE_ERR === 10);\n```"
 }

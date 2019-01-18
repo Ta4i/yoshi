@@ -1607,7 +1607,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749329598
+			"fetched": 1547828360289
 		}
 	},
 	"_distfiles": {
@@ -1701,6 +1701,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ad4a6087fcafb912",
+	"_rev": "10-63050f1b152ca9d0",
 	"readme": "# @stylable/node\n\n[![npm version](https://img.shields.io/npm/v/@stylable/node.svg)](https://www.npmjs.com/package/@stylable/node)\n\n`@stylable/node` is a simple integration that allows integrating Stylable into your node application. The most common use-case is server-side rendering.\n\n## Installation\n\n```sh\nyarn add --dev @stylable/node\n```\n## Usage\nImport the `attachHook` utility from `@stylable/node`, and invoke it.\nThe `attachHook` can receive optional arguments in the form of a `config` object. \n\nSee the type definition [here](https://github.com/wix/stylable/blob/master/packages/node/src/require-hook.ts#L5).\n\n```ts\nconst {attachHook} = require('@stylable/node');\nattachHook();\n\nconst style = require('./stylesheet.st.css');\n```\n## License\n\nCopyright (c) 2017 Wix.com Ltd. All Rights Reserved. Use of this source code is governed by a [BSD license](./LICENSE)."
 }

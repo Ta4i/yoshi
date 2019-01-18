@@ -3409,7 +3409,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749400139
+			"fetched": 1547828433871
 		}
 	},
 	"_distfiles": {
@@ -3611,6 +3611,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-af897ba51ae2c094",
+	"_rev": "10-6e68854960f1be89",
 	"readme": "# Bifröst\n\nCompatiblity layer for TSLint rules and formatters.\n\n[![npm version](https://img.shields.io/npm/v/@fimbul/bifrost.svg)](https://www.npmjs.com/package/@fimbul/bifrost)\n[![npm downloads](https://img.shields.io/npm/dm/@fimbul/bifrost.svg)](https://www.npmjs.com/package/@fimbul/bifrost)\n[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)\n[![CircleCI](https://circleci.com/gh/fimbullinter/wotan/tree/master.svg?style=shield)](https://circleci.com/gh/fimbullinter/wotan/tree/master)\n[![Build status](https://ci.appveyor.com/api/projects/status/a28dpupxvjljibq3/branch/master?svg=true)](https://ci.appveyor.com/project/ajafff/wotan/branch/master)\n[![codecov](https://codecov.io/gh/fimbullinter/wotan/branch/master/graph/badge.svg)](https://codecov.io/gh/fimbullinter/wotan)\n[![Join the chat at https://gitter.im/fimbullinter/wotan](https://badges.gitter.im/fimbullinter/wotan.svg)](https://gitter.im/fimbullinter/wotan)\n\nMake sure to also read the [full documentation of all available modules](https://github.com/fimbullinter/wotan#readme).\n\n## Purpose\n\nAllows TSLint rule authors to provide the same rules for Wotan without any refactoring.\nAlthough `@fimbul/heimdall` already allows users to use your rules and formatters in Wotan, they still need to remember to use `-m @fimbul/heimdall` when running Wotan.\nYou can help these users by providing your rules in a format that Wotan understands without any plugin.\n\nIt also provides the exact opposite functionality: using rules originally written for Fimbullinter (wotan) as TSLint rule.\n\n## Installation\n\n```sh\nnpm install --save @fimbul/bifrost\n# or\nyarn add @fimbul/bifrost\n```\n\n## Using TSLint Rules and Formatters in Wotan\n\n### Rules\n\nGiven a TSLint rule `my-foo` in a file `myFooRule.ts`, you simply create a file `my-foo.ts` with the following content:\n\n```ts\nimport {wrapTslintRule} from '@fimbul/bifrost';\nimport {Rule} from './myFooRule.ts';\n\nconst Wrapped = wrapTslintRule(Rule, 'my-foo');\nexport {Wrapped as Rule};\n```\n\nIf you want to use a different directory for your TSLint rules and their Wotan wrapper, you just need to adjust the paths in the above example.\n\n### Formatters\n\nGiven a TSLint formatter `my-foo` in a file `myFooFormatter.ts`, you simply create a file `my-foo.ts` with the following content:\n\n```ts\nimport {wrapTslintFormatter} from '@fimbul/bifrost';\nimport {Formatter} from './myFooFormatter.ts';\n\nconst Wrapped = wrapTslintFormatter(Formatter);\nexport {Wrapped as Formatter};\n```\n\nNote that findings with severity `suggestion` are reported as `warning` through TSLint formatters.\n\n## Using Fimbullinter Rules in TSLint\n\nGiven a Fimbullinter rule `my-foo` in a file `my-foo.ts`, you simply create a file `myFooRule.ts` with the following content:\n\n```ts\nimport {wrapRuleForTslint} from '@fimbul/bifrost';\nimport {Rule} from './my-foo.ts';\n\nconst Wrapped = wrapRuleForTslint(Rule);\nexport {Wrapped as Rule};\n```\n\n## License\n\nApache-2.0 © [Klaus Meinhardt](https://github.com/ajafff)"
 }

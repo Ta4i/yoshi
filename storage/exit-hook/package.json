@@ -282,7 +282,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749442902
+			"fetched": 1547828468301
 		}
 	},
 	"_distfiles": {
@@ -304,6 +304,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-7117dd63e6ea2372",
+	"_rev": "10-1d40b89477cb77d6",
 	"readme": "# exit-hook [![Build Status](https://travis-ci.org/sindresorhus/exit-hook.svg?branch=master)](https://travis-ci.org/sindresorhus/exit-hook)\n\n> Run some code when the process exits\n\nThe `process.on('exit')` event doesn't catch all the ways a process can exit.\n\nThis package is useful for cleaning up before exiting.\n\nCheck out [`async-exit-hook`](https://github.com/tapppi/async-exit-hook) if you need async support.\n\n\n## Install\n\n```\n$ npm install exit-hook\n```\n\n\n## Usage\n\n```js\nconst exitHook = require('exit-hook');\n\nexitHook(() => {\n\tconsole.log('Exiting');\n});\n\n// You can add multiple hooks, even across files\nexitHook(() => {\n\tconsole.log('Exiting 2');\n});\n\nthrow new Error('🦄');\n\n//=> 'Exiting'\n//=> 'Exiting 2'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

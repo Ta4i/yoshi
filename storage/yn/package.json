@@ -461,7 +461,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749366311
+			"fetched": 1547828400218
 		}
 	},
 	"_distfiles": {
@@ -491,6 +491,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-9294d7efe3f8f3e2",
+	"_rev": "10-998057928ea42a20",
 	"readme": "# yn [![Build Status](https://travis-ci.org/sindresorhus/yn.svg?branch=master)](https://travis-ci.org/sindresorhus/yn)\n\n> Parse yes/no like values\n\nUseful for validating answers of a CLI prompt.\n\n---\n\nThe following case-insensitive values are recognized:\n\n```js\n'y', 'yes', 'true', true, '1', 1, 'n', 'no', 'false', false, '0', 0\n```\n\n*Enable lenient mode to gracefully handle typos.*\n\n\n## Install\n\n```\n$ npm install yn\n```\n\n\n## Usage\n\n```js\nconst yn = require('yn');\n\nyn('y');\n//=> true\n\nyn('NO');\n//=> false\n\nyn(true);\n//=> true\n\nyn('abomasum');\n//=> null\n\nyn('abomasum', {default: false});\n//=> false\n\nyn('mo', {lenient: true});\n//=> false\n```\n\nUnrecognized values return `null`.\n\n\n## API\n\n### yn(input, [options])\n\n#### input\n\nType: `any`\n\nValue that should be converted.\n\n#### options\n\nType: `Object`\n\n##### lenient\n\nType: `boolean`<br>\nDefault: `false`\n\nUse a key distance-based score to leniently accept typos of `yes` and `no`.\n\n##### default\n\nType: `boolean`<br>\nDefault: `null`\n\nDefault value if no match was found.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -1,0 +1,2460 @@
+{
+	"name": "theming",
+	"versions": {
+		"2.0.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "2.0.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.0.0.tgz",
+				"shasum": "c3beb610c0e9c501e2a67d3fdf199834c1122196"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"create-react-context": "^0.2.3",
+				"hoist-non-react-statics": "^3.0.1",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-beta.8",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.6.0",
+				"eslint-config-jss": "^4.0.0",
+				"flow-bin": "^0.81.0",
+				"nyc": "^13.0.1",
+				"react": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.2",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.1.8",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^6.3.3",
+				"typescript": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": ">=15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "theming@2.0.0",
+			"gitHead": "a610313756d4c99ea6f209202b7af80ed8b415df",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_2.0.0_1540406985485_0.6436049469135594"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"2.1.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "2.1.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.0.tgz",
+				"shasum": "8cd4dec9182c25576901731129591b56d4f8673e"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"create-react-context": "^0.2.3",
+				"hoist-non-react-statics": "^3.0.1",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-beta.8",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.6.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.81.0",
+				"nyc": "^13.0.1",
+				"react": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.2",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.1.8",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^6.3.3",
+				"typescript": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": ">=15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@2.1.0",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_2.1.0_1540975179263_0.16523838487252096"
+			}
+		},
+		"0.1.1": {
+			"name": "theming",
+			"description": "Theming High-Order Components toolkit",
+			"version": "0.1.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.1.tgz",
+				"shasum": "a16d2200bbfd0498fb57faa2c4a7e83af326642b"
+			},
+			"dependencies": {
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^2.0.31",
+				"coveralls": "^2.13.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-config-pedant": "^0.9.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^6.10.3",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^10.3.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --ignore '*test*'",
+				"watch": "babel src -d dist --watch",
+				"lint": "eslint .",
+				"test": "ava",
+				"tdd": "ava --watch",
+				"coverage": "nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@0.1.1",
+			"gitHead": "eabd49f2e9dbbab2383d628739cc3fc753981941",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/theming-0.1.1.tgz_1495063972559_0.5058054542168975"
+			},
+			"_shasum": "a16d2200bbfd0498fb57faa2c4a7e83af326642b",
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"0.1.2": {
+			"name": "theming",
+			"description": "Theming High-Order Components toolkit",
+			"version": "0.1.2",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.2.tgz",
+				"shasum": "cdcc8867177de5504d5c2a5627e540afca5d38e0"
+			},
+			"dependencies": {
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^2.0.31",
+				"coveralls": "^2.13.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-config-pedant": "^0.9.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^6.10.3",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^10.3.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --ignore '*test*'",
+				"watch": "babel src -d dist --watch",
+				"lint": "eslint .",
+				"test": "ava",
+				"tdd": "ava --watch",
+				"coverage": "nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@0.1.2",
+			"gitHead": "31ed75dec5583370887b956d3b048e45958ed09f",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-0.1.2.tgz_1495301680293_0.047238805796951056"
+			},
+			"_shasum": "cdcc8867177de5504d5c2a5627e540afca5d38e0",
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"2.1.1": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "2.1.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.1.tgz",
+				"shasum": "30b4a3990c3357b8dca43f377eada2af51a8b350"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"create-react-context": "^0.2.3",
+				"hoist-non-react-statics": "^3.0.1",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-beta.8",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.6.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.81.0",
+				"nyc": "^13.0.1",
+				"react": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.2",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.1.8",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^6.3.3",
+				"typescript": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": ">=15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@2.1.1",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_2.1.1_1541071719069_0.4932445678793158"
+			}
+		},
+		"2.2.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "2.2.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.2.0.tgz",
+				"shasum": "64fe667afc5fb742060dd084fe4af6fac1227a97"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"create-react-context": "^0.2.3",
+				"hoist-non-react-statics": "^3.1.0",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-rc.1",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.8.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.85.0",
+				"nyc": "^13.1.0",
+				"react": "^16.6.0",
+				"react-test-renderer": "^16.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.6",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.2.0",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.1.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^7.1.1",
+				"typescript": "^3.1.6"
+			},
+			"peerDependencies": {
+				"react": ">=15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "henribeck.dev@gmail.com",
+					"name": "henribeck"
+				},
+				{
+					"email": "iamstarkov@gmail.com",
+					"name": "iamstarkov"
+				},
+				{
+					"email": "oleg008@gmail.com",
+					"name": "kof"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@2.2.0",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_2.2.0_1542396061389_0.7007654861833599"
+			}
+		},
+		"0.0.1": {
+			"name": "theming",
+			"description": "Theming tools",
+			"version": "0.0.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.0.1.tgz",
+				"shasum": "98eee69e3d59804fdc86411d9b698164f39020aa"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "ava test"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@0.0.1",
+			"gitHead": "4d865efbc1383d7cb1e673add5475ef086428ec7",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/theming-0.0.1.tgz_1493071024017_0.2665787760633975"
+			},
+			"_shasum": "98eee69e3d59804fdc86411d9b698164f39020aa",
+			"_nodeVersion": "7.9.0"
+		},
+		"0.1.0": {
+			"name": "theming",
+			"description": "Theming High-Order Components toolkit",
+			"version": "0.1.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.0.tgz",
+				"shasum": "4daaeb23137cc18948a69a40039473062ba35d44"
+			},
+			"dependencies": {
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^2.0.31",
+				"coveralls": "^2.13.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-config-pedant": "^0.9.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^6.10.3",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^10.3.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --ignore '*test*'",
+				"watch": "babel src -d dist --watch",
+				"lint": "eslint .",
+				"test": "ava",
+				"tdd": "ava --watch",
+				"coverage": "nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@0.1.0",
+			"gitHead": "f208dcbcc7096509a2357dcce20d38f7eacdfa8e",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/theming-0.1.0.tgz_1495063849356_0.77561473287642"
+			},
+			"_shasum": "4daaeb23137cc18948a69a40039473062ba35d44",
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"2.1.2": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "2.1.2",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.2.tgz",
+				"shasum": "f5a3353168b713f1becc0351bd35a6d4599d6b25"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"create-react-context": "^0.2.3",
+				"hoist-non-react-statics": "^3.1.0",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-rc.1",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.8.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.85.0",
+				"nyc": "^13.1.0",
+				"react": "^16.6.0",
+				"react-test-renderer": "^16.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.6",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.2.0",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.1.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^7.1.1",
+				"typescript": "^3.1.6"
+			},
+			"peerDependencies": {
+				"react": ">=15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "henribeck.dev@gmail.com",
+					"name": "henribeck"
+				},
+				{
+					"email": "iamstarkov@gmail.com",
+					"name": "iamstarkov"
+				},
+				{
+					"email": "oleg008@gmail.com",
+					"name": "kof"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@2.1.2",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_2.1.2_1541199373718_0.016692267579131892"
+			}
+		},
+		"1.2.1": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.2.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.2.1.tgz",
+				"shasum": "3de0be696339c6c203013a6c68d1c1057973dc44"
+			},
+			"dependencies": {
+				"brcast": "^3.0.1",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8"
+			},
+			"devDependencies": {
+				"ava": "^0.22.0",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^8.0.1",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^3.2.1",
+				"coveralls": "3.0.0",
+				"cross-env": "^5.0.1",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.2",
+				"eslint": "^4.1.0",
+				"eslint-config-pedant": "^0.10.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^7.0.1",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^11.0.2",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"react": ">=0.15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch",
+				"postversion": "npm run build"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "theming@1.2.1",
+			"gitHead": "743d923da72077767f0abb47e8267be435cd9686",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.2.1.tgz_1510421232095_0.7597229857929051"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"1.3.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.3.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.3.0.tgz",
+				"shasum": "286d5bae80be890d0adc645e5ca0498723725bdc"
+			},
+			"dependencies": {
+				"brcast": "^3.0.1",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8"
+			},
+			"devDependencies": {
+				"ava": "^0.22.0",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^8.0.1",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^3.2.1",
+				"coveralls": "3.0.0",
+				"cross-env": "^5.0.1",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.2",
+				"eslint": "^4.1.0",
+				"eslint-config-pedant": "^0.10.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^7.0.1",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^11.0.2",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"react": ">=0.15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch",
+				"postversion": "npm run build"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "theming@1.3.0",
+			"gitHead": "7c8ba15871dc3ec22319b73a9d74f3a37775e29d",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.3.0.tgz_1513630489453_0.490715095307678"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"3.0.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "3.0.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.0.tgz",
+				"shasum": "e623397e4b02f4318c7b272e2c7138cb8c99745e"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"hoist-non-react-statics": "^3.1.0",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"warning": "^4.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-rc.1",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.8.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.88.0",
+				"nyc": "^13.1.0",
+				"react": "^16.6.0",
+				"react-test-renderer": "^16.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.6",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.2.0",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.1.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^7.1.1",
+				"typescript": "^3.1.6"
+			},
+			"peerDependencies": {
+				"react": ">=16.3"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "henribeck.dev@gmail.com",
+					"name": "henribeck"
+				},
+				{
+					"email": "iamstarkov@gmail.com",
+					"name": "iamstarkov"
+				},
+				{
+					"email": "oleg008@gmail.com",
+					"name": "kof"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@3.0.0",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_3.0.0_1545320215616_0.10408974513395819"
+			}
+		},
+		"3.0.1": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "3.0.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.1.tgz",
+				"shasum": "c1bd098256be87dec6d0fbd7016409da3667896b"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"hoist-non-react-statics": "^3.1.0",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"tiny-warning": "^1.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-rc.1",
+				"babel-plugin-dev-expression": "^0.2.1",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.8.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.88.0",
+				"nyc": "^13.1.0",
+				"react": "^16.6.0",
+				"react-test-renderer": "^16.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.6",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.2.0",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.1.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^7.1.1",
+				"typescript": "^3.1.6"
+			},
+			"peerDependencies": {
+				"react": ">=16.3"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "henribeck.dev@gmail.com",
+					"name": "henribeck"
+				},
+				{
+					"email": "iamstarkov@gmail.com",
+					"name": "iamstarkov"
+				},
+				{
+					"email": "oleg008@gmail.com",
+					"name": "kof"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@3.0.1",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_3.0.1_1547336864099_0.6491929876609672"
+			}
+		},
+		"1.0.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.0.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.0.tgz",
+				"shasum": "261e21deac50c7ee5a5e2c6516ffd52bb1bf7f4f"
+			},
+			"dependencies": {
+				"brcast": "^2.0.0",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^2.0.31",
+				"coveralls": "^2.13.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-config-pedant": "^0.9.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^6.10.3",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^10.3.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --ignore '*test*'",
+				"watch": "babel src -d dist --watch",
+				"lint": "eslint .",
+				"test": "ava",
+				"tdd": "ava --watch",
+				"coverage": "nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@1.0.0",
+			"gitHead": "324050fb3c77d96e51a633fdc4c506848fdf3fea",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.0.0.tgz_1496993268257_0.45142202777788043"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"3.0.2": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "3.0.2",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/cssinjs/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/theming/issues"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"main": "dist/theming.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.2.tgz",
+				"shasum": "a7d26186c980c3e74a67b5610737c434a3787f6d"
+			},
+			"dependencies": {
+				"@types/react": "^16.4.18",
+				"hoist-non-react-statics": "^3.1.0",
+				"prop-types": "^15.5.8",
+				"react-display-name": "^0.2.4",
+				"tiny-warning": "^1.0.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.1.0",
+				"@babel/core": "^7.1.0",
+				"@babel/plugin-proposal-class-properties": "^7.1.0",
+				"@babel/preset-env": "^7.1.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"ava": "^1.0.0-rc.1",
+				"babel-plugin-dev-expression": "^0.2.1",
+				"coveralls": "^3.0.0",
+				"eslint": "^5.8.0",
+				"eslint-config-jss": "^5.0.1",
+				"flow-bin": "^0.88.0",
+				"nyc": "^13.1.0",
+				"react": "^16.6.0",
+				"react-test-renderer": "^16.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.66.6",
+				"rollup-plugin-babel": "^4.0.3",
+				"rollup-plugin-commonjs": "^9.2.0",
+				"rollup-plugin-node-globals": "^1.4.0",
+				"rollup-plugin-node-resolve": "^3.4.0",
+				"rollup-plugin-replace": "^2.1.0",
+				"rollup-plugin-size-snapshot": "^0.7.0",
+				"rollup-plugin-uglify": "^6.0.0",
+				"sinon": "^7.1.1",
+				"typescript": "^3.1.6"
+			},
+			"peerDependencies": {
+				"react": ">=16.3"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "henribeck.dev@gmail.com",
+					"name": "henribeck"
+				},
+				{
+					"email": "iamstarkov@gmail.com",
+					"name": "iamstarkov"
+				},
+				{
+					"email": "oleg008@gmail.com",
+					"name": "kof"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"flow": "flow check --max-warnings 0",
+				"ts-check": "tsc",
+				"test": "ava",
+				"tdd": "yarn test --watch",
+				"coverage": "nyc yarn test",
+				"coveralls": "yarn coverage && coveralls < coverage/lcov.info",
+				"prebuild": "rimraf dist",
+				"build": "rollup -c",
+				"postversion": "yarn build",
+				"match-snapshot": "SNAPSHOT=match rollup -c"
+			},
+			"_npmUser": {
+				"name": "henribeck",
+				"email": "henribeck.dev@gmail.com"
+			},
+			"_id": "theming@3.0.2",
+			"typings": "./src/index.d.ts",
+			"module": "dist/theming.esm.js",
+			"_hasShrinkwrap": false,
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming_3.0.2_1547660081964_0.33641342558174414"
+			}
+		},
+		"1.0.1": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.0.1",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.1.tgz",
+				"shasum": "a3838c9de635e2f29fc9cd3dea4bf68d3c5a650a"
+			},
+			"dependencies": {
+				"brcast": "^2.0.0",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^2.0.31",
+				"coveralls": "^2.13.1",
+				"cross-env": "^5.0.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-config-pedant": "^0.9.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^6.10.3",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^10.3.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@1.0.1",
+			"gitHead": "ef9fa26f74e0d4add7bba542470728bb5830bffe",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.0.1.tgz_1497185852193_0.10945787490345538"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"1.1.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.1.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.1.0.tgz",
+				"shasum": "0562760b55a1b919c2d5eeb94130351f8958e13a"
+			},
+			"dependencies": {
+				"brcast": "^2.0.0",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.20.0",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "2.0.31",
+				"coveralls": "^2.13.1",
+				"cross-env": "^5.0.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.0",
+				"eslint-config-pedant": "^0.10.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^7.0.1",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^11.0.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch"
+			},
+			"_npmVersion": "5.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@1.1.0",
+			"gitHead": "6d4b706caa250d82632be20b3dab973a1c13e240",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.1.0.tgz_1499872770540_0.33517578640021384"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"1.0.2": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.0.2",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.2.tgz",
+				"shasum": "4dbdac93ec344632c260729c5dcb4f1b7e8bf601"
+			},
+			"dependencies": {
+				"brcast": "^2.0.0",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8",
+				"react": "^15.5.4"
+			},
+			"devDependencies": {
+				"ava": "^0.20.0",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "2.0.31",
+				"coveralls": "^2.13.1",
+				"cross-env": "^5.0.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.0",
+				"eslint-config-pedant": "^0.10.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^7.0.1",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^11.0.2",
+				"react-dom": "^15.5.4",
+				"react-test-renderer": "^15.5.4",
+				"rimraf": "^2.6.1"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch"
+			},
+			"_npmVersion": "5.2.0",
+			"_npmUser": {
+				"name": "iamstarkov",
+				"email": "iamstarkov@gmail.com"
+			},
+			"_id": "theming@1.0.2",
+			"gitHead": "d3d9da5617a99c82e552557de31f18b29be9e3d5",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.0.2.tgz_1499849721434_0.025879570748656988"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"1.2.0": {
+			"name": "theming",
+			"description": "Unified CSSinJS theming solution for React",
+			"version": "1.2.0",
+			"author": {
+				"name": "Vladimir Starkov",
+				"email": "iamstarkov@gmail.com",
+				"url": "https://iamstarkov.com"
+			},
+			"homepage": "https://github.com/iamstarkov/theming#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/iamstarkov/theming.git"
+			},
+			"bugs": {
+				"url": "https://github.com/iamstarkov/theming/issues"
+			},
+			"main": "dist/cjs",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.2.0.tgz",
+				"shasum": "c34feb77cbfb40f19eb5a117606f8bf25a9bedb8"
+			},
+			"dependencies": {
+				"brcast": "^3.0.1",
+				"is-function": "^1.0.1",
+				"is-plain-object": "^2.0.1",
+				"prop-types": "^15.5.8"
+			},
+			"devDependencies": {
+				"ava": "^0.22.0",
+				"babel-cli": "^6.24.1",
+				"babel-eslint": "^8.0.1",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"browser-env": "^3.2.1",
+				"coveralls": "3.0.0",
+				"cross-env": "^5.0.1",
+				"enzyme": "^3.1.0",
+				"enzyme-adapter-react-16": "^1.0.2",
+				"eslint": "^4.1.0",
+				"eslint-config-pedant": "^0.10.0",
+				"eslint-config-prettier": "^2.1.0",
+				"eslint-plugin-react": "^7.0.1",
+				"eslint-plugin-require-path-exists": "^1.1.7",
+				"npm-run-all": "^4.0.2",
+				"nyc": "^11.0.2",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-test-renderer": "^16.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"peerDependencies": {
+				"react": ">=0.15"
+			},
+			"keywords": [
+				"react",
+				"theme",
+				"theming",
+				"styled-components",
+				"jss",
+				"cssinjs",
+				"css-in-js"
+			],
+			"license": "MIT",
+			"files": [
+				"src",
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "iamstarkov",
+					"email": "iamstarkov@gmail.com"
+				},
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "cross-env BABEL_ENV=cjs ava",
+				"tdd": "npm run test -- --watch",
+				"coverage": "cross-env BABEL_ENV=cjs nyc ava",
+				"coveralls": "run-s coveralls:*",
+				"coveralls:gather": "npm run coverage",
+				"coveralls:upload": "coveralls < coverage/lcov.info",
+				"clean": "rimraf dist",
+				"build": "run-s clean babel:*",
+				"babel:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/cjs --ignore '*test*'",
+				"babel:esm": "cross-env BABEL_ENV=esm babel src -d dist/esm --ignore '*test*'",
+				"watch": "npm-run-all clean -p babel:watch:*",
+				"babel:watch:cjs": "npm run babel:cjs -- --watch",
+				"babel:watch:esm": "npm run babel:esm -- --watch"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "theming@1.2.0",
+			"gitHead": "bca01e418cf151766c7caba268510af6cf4c8392",
+			"module": "dist/esm",
+			"nyc": {
+				"include": [
+					"src"
+				],
+				"exclude": [
+					"src/*test*"
+				],
+				"all": true,
+				"cache": true,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/theming-1.2.0.tgz_1510420630076_0.402226684615016"
+			},
+			"ava": {
+				"files": [
+					"src/**/*test.js"
+				],
+				"require": [
+					"babel-register",
+					"./.browser-env"
+				],
+				"babel": "inherit"
+			},
+			"_nodeVersion": "7.10.1"
+		}
+	},
+	"time": {
+		"2.0.0": "2018-10-24T18:49:45.594Z",
+		"2.1.0": "2018-10-31T08:39:39.481Z",
+		"created": "2017-04-24T21:57:04.577Z",
+		"0.1.1": "2017-05-17T23:32:54.334Z",
+		"0.1.2": "2017-05-20T17:34:41.347Z",
+		"2.1.1": "2018-11-01T11:28:39.220Z",
+		"2.2.0": "2018-11-16T19:21:01.609Z",
+		"0.0.1": "2017-04-24T21:57:04.577Z",
+		"0.1.0": "2017-05-17T23:30:51.380Z",
+		"2.1.2": "2018-11-02T22:56:13.844Z",
+		"1.2.1": "2017-11-11T17:27:13.122Z",
+		"1.3.0": "2017-12-18T20:54:49.523Z",
+		"3.0.0": "2018-12-20T15:36:55.982Z",
+		"modified": "2019-01-16T17:34:46.079Z",
+		"3.0.1": "2019-01-12T23:47:44.265Z",
+		"1.0.0": "2017-06-09T07:27:49.235Z",
+		"3.0.2": "2019-01-16T17:34:42.102Z",
+		"1.0.1": "2017-06-11T12:57:33.292Z",
+		"1.1.0": "2017-07-12T15:19:31.565Z",
+		"1.0.2": "2017-07-12T08:55:22.437Z",
+		"1.2.0": "2017-11-11T17:17:10.205Z"
+	},
+	"dist-tags": {
+		"latest": "3.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828474730
+		}
+	},
+	"_distfiles": {
+		"theming-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.0.0.tgz",
+			"sha": "c3beb610c0e9c501e2a67d3fdf199834c1122196"
+		},
+		"theming-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.0.tgz",
+			"sha": "8cd4dec9182c25576901731129591b56d4f8673e"
+		},
+		"theming-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.1.tgz",
+			"sha": "a16d2200bbfd0498fb57faa2c4a7e83af326642b"
+		},
+		"theming-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.2.tgz",
+			"sha": "cdcc8867177de5504d5c2a5627e540afca5d38e0"
+		},
+		"theming-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.1.tgz",
+			"sha": "30b4a3990c3357b8dca43f377eada2af51a8b350"
+		},
+		"theming-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.2.0.tgz",
+			"sha": "64fe667afc5fb742060dd084fe4af6fac1227a97"
+		},
+		"theming-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.0.1.tgz",
+			"sha": "98eee69e3d59804fdc86411d9b698164f39020aa"
+		},
+		"theming-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-0.1.0.tgz",
+			"sha": "4daaeb23137cc18948a69a40039473062ba35d44"
+		},
+		"theming-2.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-2.1.2.tgz",
+			"sha": "f5a3353168b713f1becc0351bd35a6d4599d6b25"
+		},
+		"theming-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.2.1.tgz",
+			"sha": "3de0be696339c6c203013a6c68d1c1057973dc44"
+		},
+		"theming-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.3.0.tgz",
+			"sha": "286d5bae80be890d0adc645e5ca0498723725bdc"
+		},
+		"theming-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.0.tgz",
+			"sha": "e623397e4b02f4318c7b272e2c7138cb8c99745e"
+		},
+		"theming-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.1.tgz",
+			"sha": "c1bd098256be87dec6d0fbd7016409da3667896b"
+		},
+		"theming-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.0.tgz",
+			"sha": "261e21deac50c7ee5a5e2c6516ffd52bb1bf7f4f"
+		},
+		"theming-3.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-3.0.2.tgz",
+			"sha": "a7d26186c980c3e74a67b5610737c434a3787f6d"
+		},
+		"theming-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.1.tgz",
+			"sha": "a3838c9de635e2f29fc9cd3dea4bf68d3c5a650a"
+		},
+		"theming-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.1.0.tgz",
+			"sha": "0562760b55a1b919c2d5eeb94130351f8958e13a"
+		},
+		"theming-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.0.2.tgz",
+			"sha": "4dbdac93ec344632c260729c5dcb4f1b7e8bf601"
+		},
+		"theming-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/theming/-/theming-1.2.0.tgz",
+			"sha": "c34feb77cbfb40f19eb5a117606f8bf25a9bedb8"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-1633865911915eba",
+	"readme": "# Theming\n\n[![NPM version][npm-image]][npm-url]\n[![Build][travis-image]][travis-url]\n[![Coveralls Status][coveralls-image]][coveralls-url]\n[![Dependency Status][depstat-image]][depstat-url]\n\n## Unified CSSinJS theming solution for React\n\n* `ThemeProvider` allows you to pass, update, merge and augment `theme` through context down react tree.\n* `withTheme` allows you to receive theme and its updates in your components as a `theme` prop.\n* `createTheming` allows you to integrate `theming` into your CSSinJS library with custom `channel` (if you need custom one).\n\nSee [Motivation](#motivation) for details.\n\n\n## Table of Contents\n\n* [Install](#install)\n* [Usage](#usage)\n* [Playground demo](#playground-demo)\n* [Motivation](#motivation)\n* [API](#api)\n  * [ThemeProvider](#themeprovider)\n  * [withTheme](#withthemecomponent)\n  * [createTheming](#createthemingcustomchannel)\n* [Credits](#credits)\n* [License](#license)\n\n\n## Install\n\n    npm install --save theming\n    # or\n    yarn add theming\n\n\n## Usage\n\nIn your components\n\nNote: this component i will use later to show what theme you will get\n\n```jsx\nimport React from 'react';\nimport { withTheme } from 'theming';\n\nconst DemoBox = props => {\n  console.log(props.theme);\n  return (<div />);\n}\n\nexport default withTheme(DemoBox);\n```\n\nIn your app\n\n```jsx\nimport React from 'react';\nimport { ThemeProvider } from 'theming';\nimport DemoBox from './components/DemoBox'\n\nconst theme = {\n  color: 'black',\n  background: 'white',\n};\n\nconst App = () => (\n  <ThemeProvider theme={theme}>\n    <DemoBox /> {/* { color: 'black', background: 'white' } */}\n  </ThemeProvider>\n)\n\nexport default App;\n```\n\n## Playground demo\n\nBe our guest, play with `theming` in codesandbox:\n[https://codesandbox.io/s/jvwzkkxrp5](https://codesandbox.io/s/jvwzkkxrp5)\n\n![theming playground demo](https://user-images.githubusercontent.com/559321/27082371-ba194816-5044-11e7-8f06-6cbdbdefb602.gif)\n\n## Motivation\n\nThese components are enabling seamless theming for your react applications. And as far as you dont want to pass theme object to each and every component. Thats why you want to use context. But as far context feature is _experimental API and it is likely to break in future releases of React_ you don't want to use it directly. Here `theming` comes to play.\n\n> If you insist on using context despite these warnings, try to isolate your use of context to a small area and avoid using the context API directly when possible so that it's easier to upgrade when the API changes.\n>\n> If you insist on using context despite these warnings, try to isolate your use of context to a small area and avoid using the context API directly when possible so that it's easier to upgrade when the API changes.\n> — [Context, React documentation](https://facebook.github.io/react/docs/context.html)\n\nRegarding _isolation your use of context to a small area_ and _small areas__ in particular our very own react prophet Dan Abramov have a thing to say:\n\n> Should I use React unstable “context” feature?\n> <img src=\"https://pbs.twimg.com/media/CmeGPNcVYAAM7TR.jpg\" alt=\"![context application areas]\" height=\"300\" />\n> — [Dan Abramov @dan_abramov on Twitter](https://twitter.com/dan_abramov/status/749715530454622208?lang=en)\n\nSo you are fine to use context for theming. `theming` package provides everything you need to do that:\n* `ThemeProvider` allows you to pass and update `theme` through context down react tree.\n* `withTheme` allows you to receive theme and its updates in your components as a `theme` prop.\n* `createTheming` allows you to integrate `theming` into your CSSinJS library with a custom `context` (if you need custom one).\n\n\n## API\n\n### ThemeProvider\n\nReact High-Order component, which passes theme object down the react tree by context.\n\n```jsx\nimport { ThemeProvider } from 'theming';\nconst theme = { /*…*/ };\n\n<ThemeProvider theme={theme}>\n  <App />\n</ThemeProvider>\n```\n\n#### props\n\n##### props.theme\n\n*Required*\nType: `Object`, `Function`\n\nIf its `Object` and its root `ThemeProvider` then its intact and being passed down the react tree.\n\n```jsx\nconst theme = { themed: true };\n\n<ThemeProvider theme={theme}>\n  <DemoBox /> {/* { themed: true } */}\n</ThemeProvider>\n```\n\nIf its `Object` and its nested `ThemeProvider` then its being merged with theme from parent `ThemeProvider` and passed down to the react tree.\n\n```jsx\nconst theme = { themed: true };\nconst patch = { merged: true };\n\n<ThemeProvider theme={theme}>\n  <ThemeProvider theme={patch}>\n    <DemoBox /> {/* { themed: true, merged: true } */}\n  </ThemeProvider>\n</ThemeProvider>\n```\n\nIf its `Function` and its nested `ThemeProvider` then its being applied to the theme from parent `ThemeProvider`. if result is an `Object` it will be passed down to the react tree, throws otherwise.\n\n```jsx\nconst theme = { themed: true };\nconst augment = outerTheme =>\n  Object.assign({}, outerTheme, { augmented: true });\n\n<ThemeProvider theme={theme}>\n  <ThemeProvider theme={augment}>\n    <DemoBox /> {/* { themed: true, augmented: true } */}\n  </ThemeProvider>\n</ThemeProvider>\n```\n\n##### props.children\n\n*Required*\nType: `PropTypes.element`\n\n### withTheme(component)\n\nReact High-Order component, which maps context to theme prop.\n\n#### component\n\n*Required*\nType: `ComponentType`\n\nYou need to have `ThemeProvider` with a theme somewhere upper the react tree, after that wrap your component in `withTheme` and your component will get theme as a prop. `withTheme` will handle initial theme object as well as theme updates.\n\nPS. It doesnt break if you have `PureComponent` somewhere in between your ThemeProvider and withTheme (i have tests for that).\n\nUsage with Component:\n\n```jsx\nimport React from 'react';\nimport { withTheme } from 'theming';\n\nconst DemoBox = props => {\n  console.log(props.theme);\n  return (<div />);\n}\n\nexport default withTheme(DemoBox);\n```\n\nIn the app:\n\n```jsx\nimport React from 'react';\nimport { ThemeProvider } from 'theming';\nimport DemoBox from './components/DemoBox'\n\nconst theme = {\n  color: 'black',\n  background: 'white',\n};\n\nconst App = () => (\n  <ThemeProvider theme={theme}>\n    <DemoBox /> {/* { color: 'black', background: 'white' } */}\n  </ThemeProvider>\n)\n\nexport default App;\n```\n\n#### Access inner component instance\n\nThe `withTheme` HOC supports the new React forwardRef API so you can just use the normal ref prop.\n\n### createTheming(context)\n\nFunction to create `ThemeProvider` and `withTheme` with custom context.\nThe context you pass in will be used.\n\n#### context\n\nType: `Object`\nResult: `Object { withTheme, ThemeProvider }`\n\n`withTheme` and `ThemeProvider` will use the context passed to `createTheming`.\n\n```js\nimport { createTheming } from 'theming';\nimport createReactContext from 'create-react-context';\n\nconst context = createReactContext({});\n\nconst theming = createTheming(context);\n\nconst { withTheme, ThemeProvider } = theming;\n\nexport default {\n  withTheme,\n  ThemeProvider,\n};\n```\n\n## ThemeContext\n\nWe export the default ThemeContext so you can use it with the new `static contextType` with classes or even the new React Hooks API.\nThis is the context which also the exported `withTheme` and `ThemeProvider` use.\n\n```js\nimport { ThemeContext } from 'theming';\n```\n\n## Credits\n\n* Thanks to [jss][jss] creator [Oleg Slobodskoi @kof][kof] for immersive help, support and code review.\n* Thanks to [styled-components][sc] creator [Max Stoiber @mxstbr][mxstbr] for initial and battle tested implementation of theming support in [styled-components][sc] as well as help and code review.\n* Thanks to [styled-components'][sc] core team member [Phil Plückthun @philpl][philpl] for help and code review.\n* Thanks to [glamorous][glamorous] creator [Kent C. Dodds @kentcdodds][kentcdodds] for help, support and code review.\n* Thanks to [glamorous's][glamorous] core team member [Alessandro Arnodo @vesparny][vesparny] for improved theming support in [glamorous][glamorous] and [brcast][brcast].\n* Thanks to [Gert Sallaerts @gertt][gertt] for the [playground][playground] demo.\n\n[kof]: https://github.com/kof\n[mxstbr]: https://github.com/mxstbr\n[philpl]: https://github.com/philpl\n[kentcdodds]: https://github.com/kentcdodds\n[vesparny]: https://github.com/vesparny\n[gertt]: https://github.com/gertt\n\n[jss]: https://github.com/cssinjs/jss\n[sc]: https://github.com/styled-components/styled-components\n[glamorous]: https://github.com/paypal/glamorous\n[brcast]: https://github.com/vesparny/brcast\n[playground]: https://codesandbox.io/s/jvwzkkxrp5\n\n## License\n\nMIT © [Vladimir Starkov](https://iamstarkov.com)\n\n[npm-url]: https://npmjs.org/package/theming\n[npm-image]: https://img.shields.io/npm/v/theming.svg?style=flat-square\n\n[travis-url]: https://travis-ci.org/iamstarkov/theming\n[travis-image]: https://img.shields.io/travis/iamstarkov/theming.svg?style=flat-square\n\n[coveralls-url]: https://coveralls.io/r/iamstarkov/theming\n[coveralls-image]: https://img.shields.io/coveralls/iamstarkov/theming.svg?style=flat-square\n\n[depstat-url]: https://david-dm.org/iamstarkov/theming\n[depstat-image]: https://david-dm.org/nordnet/grid.svg?style=flat-square"
+}

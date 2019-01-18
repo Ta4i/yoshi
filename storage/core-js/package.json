@@ -9877,7 +9877,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749352873
+			"fetched": 1547828368732
 		}
 	},
 	"_distfiles": {
@@ -10375,6 +10375,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ee22850072857462",
+	"_rev": "10-b692f3a8fce890b2",
 	"readme": "# core-js\n\nModular standard library for JavaScript. Includes polyfills for [ECMAScript up to 2019](https://github.com/zloirock/core-js#ecmascript): [promises](https://github.com/zloirock/core-js#ecmascript-promise), [symbols](https://github.com/zloirock/core-js#ecmascript-symbol), [collections](https://github.com/zloirock/core-js#ecmascript-collections), iterators, [typed arrays](https://github.com/zloirock/core-js#ecmascript-typed-arrays), many other features, [ECMAScript proposals](https://github.com/zloirock/core-js#ecmascript-proposals), [some cross-platform WHATWG / W3C features and proposals](#web-standards) like [`URL`](https://github.com/zloirock/core-js#url-and-urlsearchparams). You can load only required features or use it without global namespace pollution.\n\n[*Example*](http://goo.gl/a2xexl):\n```js\nimport 'core-js'; // <- at the top of your entry point\n\nArray.from(new Set([1, 2, 3, 2, 1]));          // => [1, 2, 3]\n[1, [2, 3], [4, [5]]].flat(2);                 // => [1, 2, 3, 4, 5]\nPromise.resolve(32).then(x => console.log(x)); // => 32\n```\n\n*You can load only required features*:\n```js\nimport 'core-js/features/array/from'; // <- at the top of your entry point\nimport 'core-js/features/array/flat'; // <- at the top of your entry point\nimport 'core-js/features/set';        // <- at the top of your entry point\nimport 'core-js/features/promise';    // <- at the top of your entry point\n\nArray.from(new Set([1, 2, 3, 2, 1]));          // => [1, 2, 3]\n[1, [2, 3], [4, [5]]].flat(2);                 // => [1, 2, 3, 4, 5]\nPromise.resolve(32).then(x => console.log(x)); // => 32\n```\n\n*Or use it without global namespace pollution*:\n```js\nimport from from 'core-js-pure/features/array/from';\nimport flat from 'core-js-pure/features/array/flat';\nimport Set from 'core-js-pure/features/set';\nimport Promise from 'core-js-pure/features/promise';\n\nfrom(new Set([1, 2, 3, 2, 1]));                // => [1, 2, 3]\nflat([1, [2, 3], [4, [5]]], 2);                // => [1, 2, 3, 4, 5]\nPromise.resolve(32).then(x => console.log(x)); // => 32\n```\n\n**It's a global version (first 2 examples), for more info see [`core-js` documentation](https://github.com/zloirock/core-js/blob/master/README.md).**"
 }

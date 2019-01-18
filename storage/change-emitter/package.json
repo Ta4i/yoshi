@@ -1,0 +1,524 @@
+{
+	"name": "change-emitter",
+	"versions": {
+		"0.1.5": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.5",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/change-emitter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/change-emitter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/change-emitter/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.5.tgz",
+				"shasum": "fa8f5aabf8d44eff78e76f9b692c5b154b5181a3"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				},
+				{
+					"name": "istarkov",
+					"email": "istarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "yarn run test -- --watch",
+				"prepublish": "yarn run check && yarn run test && yarn run build"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "istarkov",
+				"email": "istarkov@gmail.com"
+			},
+			"_id": "change-emitter@0.1.5",
+			"gitHead": "062de98fec9f34155ce4b25f1036313860eab187",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.5.tgz_1492454798850_0.35207757307216525"
+			},
+			"_shasum": "fa8f5aabf8d44eff78e76f9b692c5b154b5181a3",
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"0.1.6": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.6",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/change-emitter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/change-emitter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/change-emitter/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.6.tgz",
+				"shasum": "e8b2fe3d7f1ab7d69a32199aff91ea6931409515"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				},
+				{
+					"name": "istarkov",
+					"email": "istarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "yarn run test -- --watch",
+				"prepublish": "yarn run check && yarn run test && yarn run build"
+			},
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_npmUser": {
+				"name": "istarkov",
+				"email": "istarkov@gmail.com"
+			},
+			"_id": "change-emitter@0.1.6",
+			"gitHead": "8b6198fc863929441c1210e95350700641d571b4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.6.tgz_1492456785485_0.13078920054249465"
+			},
+			"_shasum": "e8b2fe3d7f1ab7d69a32199aff91ea6931409515",
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			},
+			"_nodeVersion": "7.9.0"
+		},
+		"0.1.3": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.3",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/change-emitter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/change-emitter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/change-emitter/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.3.tgz",
+				"shasum": "731c9360913855f613dd256568d50f854a8806ac"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run check && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "change-emitter@0.1.3",
+			"gitHead": "31c42efb047001dc4d0b7b066f0fae36cff071a8",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.3.tgz_1488311147869_0.9030326781794429"
+			},
+			"_shasum": "731c9360913855f613dd256568d50f854a8806ac",
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"0.1.4": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.4",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/change-emitter#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/change-emitter.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/change-emitter/issues"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.4.tgz",
+				"shasum": "a6e674b11aa17487550c409dc8796fce32d4208a"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				},
+				{
+					"name": "istarkov",
+					"email": "istarkov@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "yarn run test -- --watch",
+				"prepublish": "yarn run check && yarn run test && yarn run build"
+			},
+			"_npmUser": {
+				"name": "istarkov",
+				"email": "istarkov@gmail.com"
+			},
+			"_id": "change-emitter@0.1.4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.4.tgz_1492454638509_0.9456031783483922"
+			},
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			}
+		},
+		"0.1.1": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.1.tgz",
+				"shasum": "f7aa64d3c841986bc2e8805491dce71d2bc11daf"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run check && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "change-emitter@0.1.1",
+			"gitHead": "4d5bf956d2e83bd773270d7a95e631013fa0a3e3",
+			"babel": {
+				"presets": [
+					"es2015"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.1.tgz_1463283565401_0.5161002008244395"
+			},
+			"_shasum": "f7aa64d3c841986bc2e8805491dce71d2bc11daf",
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			},
+			"_nodeVersion": "5.10.1"
+		},
+		"0.1.2": {
+			"name": "change-emitter",
+			"description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.2.tgz",
+				"shasum": "6b88ca4d5d864e516f913421b11899a860aee8db"
+			},
+			"devDependencies": {
+				"ava": "^0.14.0",
+				"babel-cli": "^6.8.0",
+				"babel-core": "^6.8.0",
+				"babel-preset-es2015": "^6.6.0",
+				"eslint": "^2.10.1",
+				"eslint-config-airbnb-base": "^3.0.1",
+				"eslint-plugin-import": "^1.8.0",
+				"sinon": "^1.17.4"
+			},
+			"keywords": [
+				"change",
+				"event",
+				"emitter"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"check": "eslint src",
+				"build": "babel src --out-dir lib",
+				"test": "ava",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run check && npm run test && npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.3",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "change-emitter@0.1.2",
+			"gitHead": "e595d67a640473564839473f1f8012bc6baba81c",
+			"babel": {
+				"presets": [
+					"es2015"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/change-emitter-0.1.2.tgz_1463283657363_0.28469334659166634"
+			},
+			"_shasum": "6b88ca4d5d864e516f913421b11899a860aee8db",
+			"ava": {
+				"babel": "inherit",
+				"files": [
+					"**/*-test.js"
+				],
+				"source": [
+					"**/*.js"
+				],
+				"require": [
+					"babel-register"
+				]
+			},
+			"_nodeVersion": "5.10.1"
+		}
+	},
+	"time": {
+		"0.1.5": "2017-04-17T18:46:41.069Z",
+		"0.1.6": "2017-04-17T19:19:47.273Z",
+		"0.1.3": "2017-02-28T19:45:48.121Z",
+		"0.1.4": "2017-04-17T18:44:00.439Z",
+		"created": "2016-05-15T03:39:25.903Z",
+		"modified": "2018-01-19T19:00:39.090Z",
+		"0.1.1": "2016-05-15T03:39:25.903Z",
+		"0.1.2": "2016-05-15T03:41:00.707Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.6"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828373002
+		}
+	},
+	"_distfiles": {
+		"change-emitter-0.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.5.tgz",
+			"sha": "fa8f5aabf8d44eff78e76f9b692c5b154b5181a3"
+		},
+		"change-emitter-0.1.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.6.tgz",
+			"sha": "e8b2fe3d7f1ab7d69a32199aff91ea6931409515"
+		},
+		"change-emitter-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.3.tgz",
+			"sha": "731c9360913855f613dd256568d50f854a8806ac"
+		},
+		"change-emitter-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.4.tgz",
+			"sha": "a6e674b11aa17487550c409dc8796fce32d4208a"
+		},
+		"change-emitter-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.1.tgz",
+			"sha": "f7aa64d3c841986bc2e8805491dce71d2bc11daf"
+		},
+		"change-emitter-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/change-emitter/-/change-emitter-0.1.2.tgz",
+			"sha": "6b88ca4d5d864e516f913421b11899a860aee8db"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-33b130ef053ad2b2",
+	"readme": "change-emitter\n==============\n\n[![build status](https://img.shields.io/travis/acdlite/change-emitter/master.svg?style=flat-square)](https://travis-ci.org/acdlite/change-emitter)\n[![npm version](https://img.shields.io/npm/v/change-emitter.svg?style=flat-square)](https://www.npmjs.com/package/change-emitter)\n\nListen for changes. Like an event emitter that only emits a single event type. Really tiny.\n\nI extracted this from Redux's `createStore()` because I found it to be useful in other contexts. Use it where you want the most minimal event subscription implementation possible.\n\n## Usage\n\n```js\nimport { createChangeEmitter } from 'change-emitter'\n\nconst emitter = createChangeEmitter()\n\n// Called `listen` instead of `subscribe` to avoid confusion with observable spec\nconst unlisten = emitter.listen((...args) => {\n  console.log(args)\n})\n\nemitter.emit(1, 2, 3) // logs `[1, 2, 3]`\nunlisten()\nemitter.emit(4, 5, 6) // doesn't log\n```\n\n## Larger example\n\nHere's a (partial) implementation of Redux's `createStore`:\n\n```js\nconst createStore = (reducer, initialState) => {\n  let state = initialState\n  const emitter = createChangeEmitter()\n\n  function dispatch(action) {\n    state = reducer(state, action)\n    emitter.emit()\n    return action\n  }\n\n  function getState() {\n    return state\n  }\n\n  return {\n    dispatch,\n    getState,\n    subscribe: emitter.listen\n  }\n}\n```"
+}

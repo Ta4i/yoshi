@@ -1,0 +1,339 @@
+{
+	"name": "react-remarkable",
+	"versions": {
+		"1.1.2": {
+			"name": "react-remarkable",
+			"description": "A React component for rendering Markdown with remarkable",
+			"version": "1.1.2",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/react-remarkable#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/react-remarkable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/react-remarkable/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.2.tgz",
+				"shasum": "69793919d72f179570fa78bbb604aac20b3401f7"
+			},
+			"dependencies": {
+				"remarkable": "^1.4.1"
+			},
+			"devDependencies": {
+				"babel": "^5.1.13"
+			},
+			"keywords": [
+				"react",
+				"remarkable",
+				"markdown",
+				"commonmark"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "npm@mxstbr.com",
+					"name": "mxstbr"
+				},
+				{
+					"email": "acdlite@me.com",
+					"name": "acdlite"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --modules common",
+				"prepublish": "npm run build"
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "mxstbr",
+				"email": "npm@mxstbr.com"
+			},
+			"_id": "react-remarkable@1.1.2",
+			"gitHead": "e48149b3b36555aa85a13c36e42faa3daa87dbac",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-remarkable-1.1.2.tgz_1506455866870_0.019221605733036995"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.1.3": {
+			"name": "react-remarkable",
+			"description": "A React component for rendering Markdown with remarkable",
+			"version": "1.1.3",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/react-remarkable#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/acdlite/react-remarkable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/react-remarkable/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.3.tgz",
+				"shasum": "6ef3861812d806fbf747cc1d1e151ee3172130a6"
+			},
+			"dependencies": {
+				"remarkable": "^1.x"
+			},
+			"devDependencies": {
+				"babel": "^5.1.13"
+			},
+			"keywords": [
+				"react",
+				"remarkable",
+				"markdown",
+				"commonmark"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"email": "npm@mxstbr.com",
+					"name": "mxstbr"
+				},
+				{
+					"email": "acdlite@me.com",
+					"name": "acdlite"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --modules common",
+				"prepublish": "npm run build"
+			},
+			"_npmVersion": "5.5.0",
+			"_npmUser": {
+				"name": "mxstbr",
+				"email": "npm@mxstbr.com"
+			},
+			"_id": "react-remarkable@1.1.3",
+			"gitHead": "30e36e6fc4d9db5e8040e542697c125e2a9f1107",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-remarkable-1.1.3.tgz_1507926991095_0.0588705949485302"
+			},
+			"_nodeVersion": "8.4.0"
+		},
+		"1.0.0": {
+			"name": "react-remarkable",
+			"description": "A React component for rendering Markdown with remarkable",
+			"version": "1.0.0",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/react-remarkable",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/acdlite/react-remarkable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/react-remarkable/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.0.0.tgz",
+				"shasum": "69f8a44946bfc9c1b6579592a459bd0b2ee50064"
+			},
+			"dependencies": {
+				"react": "^0.12.1",
+				"remarkable": "^1.4.1"
+			},
+			"devDependencies": {
+				"6to5": "^1.13.11"
+			},
+			"keywords": [
+				"react",
+				"remarkable",
+				"markdown",
+				"commonmark"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "6to5 src -d dist --modules commonInterop",
+				"prepublish": "npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "react-remarkable@1.0.0",
+			"gitHead": "9b6a098251b6455ad47a38d27ab7d13ea51ead6b",
+			"_shasum": "69f8a44946bfc9c1b6579592a459bd0b2ee50064"
+		},
+		"1.1.0": {
+			"name": "react-remarkable",
+			"description": "A React component for rendering Markdown with remarkable",
+			"version": "1.1.0",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/react-remarkable",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/acdlite/react-remarkable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/react-remarkable/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.0.tgz",
+				"shasum": "2f06ef96c57d010a958ab588dce44f0c6ea6ab26"
+			},
+			"dependencies": {
+				"react": "^0.12.1",
+				"remarkable": "^1.4.1"
+			},
+			"devDependencies": {
+				"6to5": "^1.13.11"
+			},
+			"keywords": [
+				"react",
+				"remarkable",
+				"markdown",
+				"commonmark"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "6to5 src -d dist --modules commonInterop",
+				"prepublish": "npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "react-remarkable@1.1.0",
+			"gitHead": "e6c935661f876b682040963df0cf3ae128561ca7",
+			"_shasum": "2f06ef96c57d010a958ab588dce44f0c6ea6ab26"
+		},
+		"1.1.1": {
+			"name": "react-remarkable",
+			"description": "A React component for rendering Markdown with remarkable",
+			"version": "1.1.1",
+			"author": {
+				"name": "Andrew Clark",
+				"email": "acdlite@me.com"
+			},
+			"homepage": "https://github.com/acdlite/react-remarkable",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/acdlite/react-remarkable.git"
+			},
+			"bugs": {
+				"url": "https://github.com/acdlite/react-remarkable/issues"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.1.tgz",
+				"shasum": "37908ac95894576d0d39187bd289bc2cbb5ac6de"
+			},
+			"dependencies": {
+				"remarkable": "^1.4.1"
+			},
+			"devDependencies": {
+				"babel": "^5.1.13"
+			},
+			"keywords": [
+				"react",
+				"remarkable",
+				"markdown",
+				"commonmark"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "acdlite",
+					"email": "acdlite@me.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "babel src -d dist --modules common",
+				"prepublish": "npm run build"
+			},
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_npmUser": {
+				"name": "acdlite",
+				"email": "acdlite@me.com"
+			},
+			"_id": "react-remarkable@1.1.1",
+			"gitHead": "9c82de79bf4047c6d358dff3c8759f354c86b65a",
+			"_shasum": "37908ac95894576d0d39187bd289bc2cbb5ac6de",
+			"_nodeVersion": "1.2.0"
+		}
+	},
+	"time": {
+		"1.1.2": "2017-09-26T19:57:47.774Z",
+		"1.1.3": "2017-10-13T20:36:32.135Z",
+		"created": "2014-11-26T21:19:39.121Z",
+		"modified": "2017-10-13T20:36:32.135Z",
+		"1.0.0": "2014-11-26T21:19:39.121Z",
+		"1.1.0": "2014-12-01T15:02:57.128Z",
+		"1.1.1": "2015-04-30T13:52:54.079Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828464545
+		}
+	},
+	"_distfiles": {
+		"react-remarkable-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.2.tgz",
+			"sha": "69793919d72f179570fa78bbb604aac20b3401f7"
+		},
+		"react-remarkable-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.3.tgz",
+			"sha": "6ef3861812d806fbf747cc1d1e151ee3172130a6"
+		},
+		"react-remarkable-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.0.0.tgz",
+			"sha": "69f8a44946bfc9c1b6579592a459bd0b2ee50064"
+		},
+		"react-remarkable-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.0.tgz",
+			"sha": "2f06ef96c57d010a958ab588dce44f0c6ea6ab26"
+		},
+		"react-remarkable-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-remarkable/-/react-remarkable-1.1.1.tgz",
+			"sha": "37908ac95894576d0d39187bd289bc2cbb5ac6de"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-a7a4290a11e8bb86",
+	"readme": "react-remarkable\n=================\n\nA React component for rendering Markdown with [remarkable](https://github.com/jonschlinkert/remarkable).\n\n```\nnpm install --save react-remarkable\n```\n\n## Usage\n\n```jsx\n\nvar React = require('react');\nvar Markdown = require('react-remarkable');\n\nvar MyComponent = React.createClass({\n\n  render() {\n    return (\n      <div>\n        {/* Pass Markdown source to the `source` prop */}\n        <Markdown source=\"**Markdown is awesome!**\" />\n\n        {/* Or pass it as children */}\n        {/* You can nest React components, too */}\n        <Markdown>{`\n          ## Reasons React is great\n\n          1. Server-side rendering\n          2. This totally works:\n\n          <SomeOtherAmazingComponent />\n\n          Pretty neat!\n        `}</Markdown>\n      </div>\n    );\n  }\n\n});\n\n```\n\nAvailable props:\n\n- `options` - Hash of Remarkable options\n- `source`  - Markdown source. You can also pass the source as children, which allows you to mix React components and Markdown.\n- `container` - Element to use as container. Defaults to `div`.\n\n## Syntax Highlighting\n\n### Atom\n\nYou can enable syntax highlighting in Atom using the following steps:\n\nGo to Settings > Packages > language-babel Settings > Enter this for JavaScript Tagged Literal Grammar Extensions:\n\n`\"(?<=<Markdown>{)\":source.gfm`\n\n<img width=\"527\" alt=\"screen shot 2017-05-28 at 9 04 27 am\" src=\"https://cloud.githubusercontent.com/assets/108938/26529400/fe7ea216-4384-11e7-9eab-3259eb684648.png\">\n\nShortly you'll see that markdown syntax highlighting is enabled.\n\n<img width=\"449\" alt=\"screen shot 2017-05-28 at 9 06 31 am\" src=\"https://cloud.githubusercontent.com/assets/108938/26529401/fe7faf4e-4384-11e7-8977-f1fe39537524.png\">\n\n## License\nMIT"
+}

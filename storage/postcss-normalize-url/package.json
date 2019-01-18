@@ -2034,7 +2034,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749403458
+			"fetched": 1547828408923
 		}
 	},
 	"_distfiles": {
@@ -2148,6 +2148,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a3b8352d5758186a",
+	"_rev": "10-3239d35bd17c5168",
 	"readme": "# [postcss][postcss]-normalize-url\n\n> [Normalize URLs](https://github.com/sindresorhus/normalize-url) with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-url) do:\n\n```\nnpm install postcss-normalize-url --save\n```\n\n## Example\n\n### Input\n\n```css\nh1 {\n    background: url(\"http://site.com:80/image.jpg\")\n}\n```\n\n### Output\n\n```css\nh1 {\n    background: url(http://site.com/image.jpg)\n}\n```\n\nNote that this module will also try to normalize relative URLs, and is capable\nof stripping unnecessary quotes. For more examples, see the [tests](test.js).\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## API\n\n### normalize([options])\n\nPlease see the [normalize-url documentation][docs]. By default,\n`normalizeProtocol`, `stripFragment` & `stripWWW` are set to `false`.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[docs]: https://github.com/sindresorhus/normalize-url#options\n[postcss]: https://github.com/postcss/postcss"
 }

@@ -231,7 +231,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749434701
+			"fetched": 1547828446161
 		}
 	},
 	"_distfiles": {
@@ -249,6 +249,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "24-7d3179ef41f5cd81",
+	"_rev": "29-f95dfa3c1dfe07ca",
 	"readme": "# is-builtin-module [![Build Status](https://travis-ci.org/sindresorhus/is-builtin-module.svg?branch=master)](https://travis-ci.org/sindresorhus/is-builtin-module)\n\n> Check if a string matches the name of a Node.js builtin module\n\n\n## Install\n\n```\n$ npm install is-builtin-module\n```\n\n\n## Usage\n\n```js\nconst isBuiltinModule = require('is-builtin-module');\n\nisBuiltinModule('fs');\n//=> true\n\nisBuiltinModule('unicorn');\n//=> false\n```\n\n\n## Related\n\n- [builtin-modules](https://github.com/sindresorhus/builtin-modules) - List of the Node.js builtin modules\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

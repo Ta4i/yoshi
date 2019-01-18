@@ -652,7 +652,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749424861
+			"fetched": 1547828453810
 		}
 	},
 	"_distfiles": {
@@ -698,6 +698,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2063bc9d0c4a8a1a",
+	"_rev": "10-e98dd4fe1c7ad84d",
 	"readme": "# throat\n\nThrottle the parallelism of an asynchronous, promise returning, function / functions.  This has special utility when you set the concurrency to `1`.  That way you get a mutually exclusive lock.\n\n[![Build Status](https://img.shields.io/travis/ForbesLindesay/throat/master.svg)](https://travis-ci.org/ForbesLindesay/throat)\n[![Coverage Status](https://img.shields.io/coveralls/ForbesLindesay/throat/master.svg?style=flat)](https://coveralls.io/r/ForbesLindesay/throat?branch=master)\n[![Dependency Status](https://img.shields.io/david/ForbesLindesay/throat.svg)](https://david-dm.org/ForbesLindesay/throat)\n[![NPM version](https://img.shields.io/npm/v/throat.svg)](https://www.npmjs.com/package/throat)\n[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/throat.svg)](https://greenkeeper.io/)\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/throat.svg)](https://saucelabs.com/u/throat)\n\n## Installation\n\n    npm install throat\n\n## API\n\n### throat(concurrency)\n\nThis returns a function that acts a bit like a lock (exactly as a lock if concurrency is 1).\n\nExample, only 2 of the following functions will execute at any one time:\n\n```js\nconst throat = require('throat')(2);\n// alternatively provide your own promise implementation\nconst throat = require('throat')(require('promise'))(2);\nconst promise = Promise.resolve();\n\nconst resA = throat(() => /* async stuff... */ promise);\nconst resB = throat(() => /* async stuff... */ promise);\nconst resC = throat(() => /* async stuff... */ promise);\nconst resD = throat(() => /* async stuff... */ promise);\nconst resE = throat(() => /* async stuff... */ promise);\n```\n\n### throat(concurrency, worker)\n\nThis returns a function that is an exact copy of `worker` except that it will only execute up to `concurrency` times in parallel before further requests are queued:\n\n```js\nconst throat = require('throat');\n// alternatively provide your own promise implementation\nconst throat = require('throat')(require('promise'));\n\nconst input = ['fileA.txt', 'fileB.txt', 'fileC.txt', 'fileD.txt'];\nconst data = Promise.all(input.map(throat(2, fileName => readFile(fileName))));\n```\n\nOnly 2 files will be read at a time, sometimes limiting parallelism in this way can improve scalability.\n\n## License\n\n  MIT"
 }

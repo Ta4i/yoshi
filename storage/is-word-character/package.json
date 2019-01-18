@@ -331,7 +331,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455116
+			"fetched": 1547828476261
 		}
 	},
 	"_distfiles": {
@@ -349,6 +349,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2aa4ae32bd149d3d",
+	"_rev": "10-516568207b3533b3",
 	"readme": "# is-word-character [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCheck if a character is a word character (`\\w`, which equals\n`[a-zA-Z0-9_]`).\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install is-word-character\n```\n\n## Usage\n\n```javascript\nvar wordCharacter = require('is-word-character')\n\nwordCharacter('a') // => true\nwordCharacter('Z') // => true\nwordCharacter('0') // => true\nwordCharacter('_') // => true\nwordCharacter(' ') // => false\nwordCharacter('💩') // => false\n```\n\n## API\n\n### `wordCharacter(character|code)`\n\nCheck whether the given character code (`number`), or the character\ncode at the first position (`string`), is a word character.\n\n## Related\n\n*   [`is-alphabetical`](https://github.com/wooorm/is-alphabetical)\n*   [`is-alphanumerical`](https://github.com/wooorm/is-alphanumerical)\n*   [`is-decimal`](https://github.com/wooorm/is-decimal)\n*   [`is-hexadecimal`](https://github.com/wooorm/is-hexadecimal)\n*   [`is-whitespace-character`](https://github.com/wooorm/is-whitespace-character)\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/is-word-character.svg\n\n[travis]: https://travis-ci.org/wooorm/is-word-character\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/is-word-character.svg\n\n[codecov]: https://codecov.io/github/wooorm/is-word-character\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

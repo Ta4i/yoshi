@@ -805,7 +805,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749351969
+			"fetched": 1547828386864
 		}
 	},
 	"_distfiles": {
@@ -843,6 +843,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-bad4e959732bf84f",
+	"_rev": "10-2d897f1c0e9d8d55",
 	"readme": "# babel-plugin-dynamic-import-node\n\nBabel plugin to transpile `import()` to a deferred `require()`, for node. Matches the [proposed spec](https://github.com/domenic/proposal-import-function).\n\n**NOTE:** Babylon >= v6.12.0 is required to correctly parse dynamic imports.\n\n## Installation\n\n```sh\nnpm install babel-plugin-dynamic-import-node --save-dev\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"dynamic-import-node\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins dynamic-import-node script.js\n```\n\n### Via Node API\n\n```javascript\nrequire('babel-core').transform('code', {\n  plugins: ['dynamic-import-node']\n});\n```\n\n### Code Example\n```javascript\nPromise.all([\n  import('./lib/import1'),\n  import('./lib/import2')\n ]).then(([\n   Import1,\n   Import2\n  ]) => {\n   console.log(Import1);\n   /* CODE HERE*/\n  });\n```"
 }

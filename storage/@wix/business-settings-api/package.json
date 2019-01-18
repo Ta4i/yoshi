@@ -1,0 +1,1685 @@
+{
+	"name": "@wix/business-settings-api",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.12",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.12.tgz",
+				"shasum": "6b40a103284ffe4a83e722777a214e489d48027c"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.12",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.23": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.23",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.23.tgz",
+				"shasum": "b0ab4a93281476aace3442a13449fb29d85ba82b"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.23",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.13": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.13",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.13.tgz",
+				"shasum": "dc60fad69d3d10fffbfca42ddc9e74aed8ee6dda"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.13",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.24": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.24",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.24.tgz",
+				"shasum": "c18008638827f63884417431b154ba91db9ebfca"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.24",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.14": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.14",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.14.tgz",
+				"shasum": "0677ac5e0b5967728d654976208c35b6ddde14d3"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.14",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.25": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.25",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.25.tgz",
+				"shasum": "c56796f34a6abd0edde91a3bf71e4bbd4d266997"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.25",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.15": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.15",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.15.tgz",
+				"shasum": "3564a63a2c1ff1c1e684d1d47d884c6f9e709953"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.15",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.26": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.26",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.26.tgz",
+				"shasum": "111f830c9610f5460299e34bd6a9eb254bc05bfc"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.26",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.30": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.30",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.30.tgz",
+				"shasum": "a018bc358d5083b1fd48cfa0d4f8b2127d9b8e4a"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"eslint-config-wix": "^1.1.19",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "^2.7.0"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/business-settings-api@1.0.30",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.20": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.20",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.20.tgz",
+				"shasum": "df56229feffb3f9d8a6ce73beb59fbf16ae68823"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.20",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.10": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.10",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.10.tgz",
+				"shasum": "d10e72f3b099431fa84938822dc5e2dffca7466c"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.10",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.21": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.21",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.21.tgz",
+				"shasum": "6a2a88c14bc54d6e00503ee5455512162e1d2398"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.21",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.11": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.11",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.11.tgz",
+				"shasum": "f4f919b0effe015a2ff0967015290c78b703da65"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.11",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.22": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.22",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.22.tgz",
+				"shasum": "847e609dc0918f4adf217b095a3fc7bee8ccfb77"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.22",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.16": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.16",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.16.tgz",
+				"shasum": "4370df7cd6c18ee1814d02edc580269c54da833e"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.16",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.27": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.27",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.27.tgz",
+				"shasum": "2413af5609cd7d73ad56533fc9e94b1e250b90cd"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"eslint-config-wix": "^1.1.19",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/business-settings-api@1.0.27",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.17": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.17",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.17.tgz",
+				"shasum": "010a79488d1a070c5396199ee83ded7e268b3d43"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.17",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.28": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.28",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.28.tgz",
+				"shasum": "98e01f0b44641e762d61a30c259f3122639b928d"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"eslint-config-wix": "^1.1.19",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "^2.7.0"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/business-settings-api@1.0.28",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.18": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.18",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.18.tgz",
+				"shasum": "fe8c6d9b6875b156e11618d7f99d93de827eff79"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.18",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.29": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.29",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.29.tgz",
+				"shasum": "a36673620a95ae5e2fc7dc796837a410657c6e66"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"eslint-config-wix": "^1.1.19",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "^2.7.0"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/business-settings-api@1.0.29",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.19": {
+			"name": "@wix/business-settings-api",
+			"version": "1.0.19",
+			"author": {
+				"name": "Alon Bartur",
+				"email": "alonbt@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.19.tgz",
+				"shasum": "78ac8141daf7f566e8c867ece1dce0023ed90f2d"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.22.0"
+			},
+			"devDependencies": {
+				"babel-plugin-transform-runtime": "^6.22.0",
+				"babel-preset-env": "^1.5.2",
+				"babel-preset-stage-3": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.13.4",
+				"react-module-container": "^1.0.1452",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start",
+				"build": ":",
+				"precommit": "yoshi lint",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/business-settings-api@1.0.19",
+			"private": false,
+			"babel": {
+				"presets": [
+					"stage-3"
+				],
+				"plugins": [
+					"transform-runtime"
+				],
+				"env": {
+					"test": {
+						"presets": [
+							[
+								"env",
+								{
+									"targets": {
+										"node": "current"
+									}
+								}
+							]
+						]
+					},
+					"development": {
+						"presets": [
+							"env"
+						]
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		}
+	},
+	"time": {
+		"1.0.12": "2017-11-14T16:53:32.676Z",
+		"1.0.23": "2017-12-24T10:08:48.550Z",
+		"1.0.13": "2017-11-14T17:01:56.498Z",
+		"1.0.24": "2018-01-23T14:47:37.708Z",
+		"1.0.14": "2017-11-14T17:03:18.929Z",
+		"1.0.25": "2018-01-23T19:41:51.714Z",
+		"1.0.15": "2017-11-22T14:52:50.505Z",
+		"1.0.26": "2018-04-15T14:36:19.796Z",
+		"1.0.30": "2018-11-04T11:26:01.508Z",
+		"1.0.20": "2017-11-30T10:14:37.417Z",
+		"created": "2017-11-12T11:52:46.451Z",
+		"1.0.10": "2017-11-12T11:52:46.451Z",
+		"1.0.21": "2017-11-30T10:26:41.547Z",
+		"1.0.11": "2017-11-14T09:24:34.288Z",
+		"1.0.22": "2017-11-30T11:53:15.655Z",
+		"modified": "2018-11-04T11:26:01.508Z",
+		"1.0.16": "2017-11-22T15:01:27.378Z",
+		"1.0.27": "2018-07-15T08:14:54.232Z",
+		"1.0.17": "2017-11-23T09:17:07.250Z",
+		"1.0.28": "2018-07-15T11:06:17.806Z",
+		"1.0.18": "2017-11-23T09:18:25.729Z",
+		"1.0.29": "2018-10-25T02:54:14.179Z",
+		"1.0.19": "2017-11-26T14:12:50.750Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.30"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828412976
+		}
+	},
+	"_distfiles": {
+		"business-settings-api-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.12.tgz",
+			"sha": "6b40a103284ffe4a83e722777a214e489d48027c"
+		},
+		"business-settings-api-1.0.23.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.23.tgz",
+			"sha": "b0ab4a93281476aace3442a13449fb29d85ba82b"
+		},
+		"business-settings-api-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.13.tgz",
+			"sha": "dc60fad69d3d10fffbfca42ddc9e74aed8ee6dda"
+		},
+		"business-settings-api-1.0.24.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.24.tgz",
+			"sha": "c18008638827f63884417431b154ba91db9ebfca"
+		},
+		"business-settings-api-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.14.tgz",
+			"sha": "0677ac5e0b5967728d654976208c35b6ddde14d3"
+		},
+		"business-settings-api-1.0.25.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.25.tgz",
+			"sha": "c56796f34a6abd0edde91a3bf71e4bbd4d266997"
+		},
+		"business-settings-api-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.15.tgz",
+			"sha": "3564a63a2c1ff1c1e684d1d47d884c6f9e709953"
+		},
+		"business-settings-api-1.0.26.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.26.tgz",
+			"sha": "111f830c9610f5460299e34bd6a9eb254bc05bfc"
+		},
+		"business-settings-api-1.0.30.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.30.tgz",
+			"sha": "a018bc358d5083b1fd48cfa0d4f8b2127d9b8e4a"
+		},
+		"business-settings-api-1.0.20.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.20.tgz",
+			"sha": "df56229feffb3f9d8a6ce73beb59fbf16ae68823"
+		},
+		"business-settings-api-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.10.tgz",
+			"sha": "d10e72f3b099431fa84938822dc5e2dffca7466c"
+		},
+		"business-settings-api-1.0.21.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.21.tgz",
+			"sha": "6a2a88c14bc54d6e00503ee5455512162e1d2398"
+		},
+		"business-settings-api-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.11.tgz",
+			"sha": "f4f919b0effe015a2ff0967015290c78b703da65"
+		},
+		"business-settings-api-1.0.22.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.22.tgz",
+			"sha": "847e609dc0918f4adf217b095a3fc7bee8ccfb77"
+		},
+		"business-settings-api-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.16.tgz",
+			"sha": "4370df7cd6c18ee1814d02edc580269c54da833e"
+		},
+		"business-settings-api-1.0.27.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.27.tgz",
+			"sha": "2413af5609cd7d73ad56533fc9e94b1e250b90cd"
+		},
+		"business-settings-api-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.17.tgz",
+			"sha": "010a79488d1a070c5396199ee83ded7e268b3d43"
+		},
+		"business-settings-api-1.0.28.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.28.tgz",
+			"sha": "98e01f0b44641e762d61a30c259f3122639b928d"
+		},
+		"business-settings-api-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.18.tgz",
+			"sha": "fe8c6d9b6875b156e11618d7f99d93de827eff79"
+		},
+		"business-settings-api-1.0.29.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.29.tgz",
+			"sha": "a36673620a95ae5e2fc7dc796837a410657c6e66"
+		},
+		"business-settings-api-1.0.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/business-settings-api/-/@wix/business-settings-api-1.0.19.tgz",
+			"sha": "78ac8141daf7f566e8c867ece1dce0023ed90f2d"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-474d81189c882dd7",
+	"readme": ""
+}

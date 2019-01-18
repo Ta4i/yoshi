@@ -596,7 +596,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749414807
+			"fetched": 1547828450343
 		}
 	},
 	"_distfiles": {
@@ -634,6 +634,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-77fec35383ad59a4",
+	"_rev": "10-0d58d43307e493bc",
 	"readme": "# load-json-file [![Build Status](https://travis-ci.org/sindresorhus/load-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/load-json-file)\n\n> Read and parse a JSON file\n\n[Strips UTF-8 BOM](https://github.com/sindresorhus/strip-bom), uses [`graceful-fs`](https://github.com/isaacs/node-graceful-fs), and throws more [helpful JSON errors](https://github.com/sindresorhus/parse-json).\n\n\n## Install\n\n```\n$ npm install load-json-file\n```\n\n\n## Usage\n\n```js\nconst loadJsonFile = require('load-json-file');\n\nloadJsonFile('foo.json').then(json => {\n\tconsole.log(json);\n\t//=> {foo: true}\n});\n```\n\n\n## API\n\n### loadJsonFile(filePath, [options])\n\nReturns a promise for the parsed JSON.\n\n### loadJsonFile.sync(filepath, [options])\n\nReturns the parsed JSON.\n\n#### options\n\nType: `Object`\n\n##### beforeParse\n\nType: `Function`\n\nApplies a function to the JSON string before parsing.\n\n##### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See the [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter) for more.\n\n\n## Related\n\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

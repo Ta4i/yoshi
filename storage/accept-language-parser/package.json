@@ -742,7 +742,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749453323
+			"fetched": 1547828474191
 		}
 	},
 	"_distfiles": {
@@ -792,6 +792,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-d6c17ac66057cc53",
+	"_rev": "8-a23618af4ab635b8",
 	"readme": "accept-language-parser\n======================\n\n[![Build Status](https://travis-ci.org/opentable/accept-language-parser.png?branch=master)](https://travis-ci.org/opentable/accept-language-parser) [![NPM version](https://badge.fury.io/js/accept-language-parser.png)](http://badge.fury.io/js/accept-language-parser) ![Dependencies](https://david-dm.org/opentable/accept-language-parser.png)\n\nParses the accept-language header from an HTTP request and produces an array of language objects sorted by quality.\n\n\n### Installation:\n\n```\nnpm install accept-language-parser\n```\n\n### API\n\n#### parser.parse(acceptLanguageHeader)\n\n```\nvar parser = require('accept-language-parser');\n\nvar languages = parser.parse('en-GB,en;q=0.8');\n\nconsole.log(languages);\n```\n\nOutput will be:\n\n```\n[\n  {\n    code: \"en\",\n    region: \"GB\",\n    quality: 1.0\n  },\n  {\n    code: \"en\",\n    region: undefined,\n    quality: 0.8\n  }\n];\n```\n\nOutput is always sorted in quality order from highest -> lowest. as per the http spec, omitting the quality value implies 1.0.\n\n#### parser.pick(supportedLangugagesArray, acceptLanguageHeader, options = {})\n\n*Alias*: parser.pick(supportedLanguagesArray, parsedAcceptLanguageHeader)\n\n```\nvar parser = require('accept-language-parser');\n\nvar language = parser.pick(['fr-CA', 'fr-FR', 'fr'], 'en-GB,en-US;q=0.9,fr-CA;q=0.7,en;q=0.8');\n\nconsole.log(language);\n```\n\nOutput will be:\n\n```\n\"fr-CA\"\n```\n\nThe `options` currently supports only `loose` option that allows partial matching on supported languages. For example:\n\n\n```\nparser.pick(['fr', 'en'], 'en-GB,en-US;q=0.9,fr-CA;q=0.7,en;q=0.8');\n```\n\nWould return:\n\n```\n\"fr\"\n```\n\nIn loose mode the order of `supportedLanguagesArray` matters, as it is the first partially matching language that is returned. It means that if you want to pick more specific langauge first, you should list it first as well, for example: `['fr-CA', 'fr']`.\n\n### Running test\n```\nnpm install\nnpm test\n```\n\n### License\nMIT"
 }

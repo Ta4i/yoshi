@@ -732,7 +732,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749404213
+			"fetched": 1547828416178
 		}
 	},
 	"_distfiles": {
@@ -770,6 +770,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6c44e8e2509fb703",
+	"_rev": "10-bfa2eb5654fb6727",
 	"readme": "# camelcase-keys [![Build Status](https://travis-ci.org/sindresorhus/camelcase-keys.svg?branch=master)](https://travis-ci.org/sindresorhus/camelcase-keys)\n\n> Convert object keys to camelCase using [`camelcase`](https://github.com/sindresorhus/camelcase)\n\n\n## Install\n\n```\n$ npm install camelcase-keys\n```\n\n\n## Usage\n\n```js\nconst camelcaseKeys = require('camelcase-keys');\n\n// Convert an object\ncamelcaseKeys({'foo-bar': true});\n//=> {fooBar: true}\n\n// Convert an array of objects\ncamelcaseKeys([{'foo-bar': true}, {'bar-foo': false}]);\n//=> [{fooBar: true}, {barFoo: false}]\n\ncamelcaseKeys({'foo-bar': true, nested: {unicorn_rainbow: true}}, {deep: true});\n//=> {fooBar: true, nested: {unicornRainbow: true}}\n```\n\n```js\nconst camelcaseKeys = require('camelcase-keys');\n\nconst argv = require('minimist')(process.argv.slice(2));\n//=> {_: [], 'foo-bar': true}\n\ncamelcaseKeys(argv);\n//=> {_: [], fooBar: true}\n```\n\n\n## API\n\n### camelcaseKeys(input, [options])\n\n#### input\n\nType: `Object` `Object[]`\n\nObject or array of objects to camelCase.\n\n#### options\n\nType: `Object`\n\n##### exclude\n\nType: `Array<string|RegExp>`<br>\nDefault: `[]`\n\nExclude keys from being camelCased.\n\n##### deep\n\nType: `boolean`<br>\nDefault: `false`\n\nRecurse nested objects and objects in arrays.\n\n\n## Related\n\n- [snakecase-keys](https://github.com/bendrucker/snakecase-keys)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

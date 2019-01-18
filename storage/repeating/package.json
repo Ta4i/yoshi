@@ -647,7 +647,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749439232
+			"fetched": 1547828464847
 		}
 	},
 	"_distfiles": {
@@ -689,6 +689,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-8f72d7c7abeead4e",
+	"_rev": "10-7a6c884ac819a3e8",
 	"readme": "# repeating [![Build Status](https://travis-ci.org/sindresorhus/repeating.svg?branch=master)](https://travis-ci.org/sindresorhus/repeating)\n\n> Repeat a string - fast\n\n\n## Install\n\n```\n$ npm install --save repeating\n```\n\n\n## Usage\n\n```js\nconst repeating = require('repeating');\n\nrepeating(5);\n//=> '     '\n\nrepeating(100, 'unicorn ');\n//=> 'unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn '\n```\n\n\n## API\n\n### repeating(count, [string])\n\n#### count\n\nType: `number`\n\nTimes the `string` should be repeated.\n\n#### string\n\nType: `string`<br>\nDefault: `' '`\n\nString to repeat.\n\n\n## Related\n\n- [repeating-cli](https://github.com/sindresorhus/repeating-cli) - CLI for this module\n- [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -390,7 +390,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749453440
+			"fetched": 1547828476561
 		}
 	},
 	"_distfiles": {
@@ -412,6 +412,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-5309b358fcaaefff",
+	"_rev": "10-5aa9ceee66cd76a3",
 	"readme": "# ccount [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCount characters.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install ccount\n```\n\n## Usage\n\n```javascript\nvar ccount = require('ccount')\n\nccount('foo(bar(baz)', '(') // => 2\nccount('foo(bar(baz)', ')') // => 1\n```\n\n## API\n\n### `ccount(value, character)`\n\nGet the total count of `character` in `value`.\n\n###### Parameters\n\n*   `value` (`string`) — Content, coerced to string\n*   `character` (`string`) — Single character to look for\n\n###### Returns\n\n`number` — Number of times `character` occurred in `value`.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/ccount.svg\n\n[travis]: https://travis-ci.org/wooorm/ccount\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/ccount.svg\n\n[codecov]: https://codecov.io/github/wooorm/ccount\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

@@ -139,7 +139,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749429179
+			"fetched": 1547828455185
 		}
 	},
 	"_distfiles": {
@@ -157,6 +157,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-f07bb98f610840cf",
+	"_rev": "10-02247fef4cf82982",
 	"readme": "#utf8 detector\n\nDetect if a Buffer is utf8 encoded. \nIt need The minimum amount of bytes is 4.\n\n\n```javascript\n    var fs = require('fs');\n    var isUtf8 = require('is-utf8');\n    var ansi = fs.readFileSync('ansi.txt');\n    var utf8 = fs.readFileSync('utf8.txt');\n    \n    console.log('ansi.txt is utf8: '+isUtf8(ansi)); //false\n    console.log('utf8.txt is utf8: '+isUtf8(utf8)); //true\n```"
 }

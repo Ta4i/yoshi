@@ -1,0 +1,623 @@
+{
+	"name": "greedy-split",
+	"versions": {
+		"1.0.3": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.3",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.3.tgz",
+				"shasum": "8572c9f218561737b3239f388da3a98cc9d6792d"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"wix-node-build": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "wix-node-build start",
+				"pretest": "wix-node-build lint && wix-node-build build",
+				"build": ":",
+				"test": "wix-node-build test",
+				"release": "wix-node-build release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.3",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.3.tgz_1485507448546_0.09555259859189391"
+			},
+			"_shasum": "8572c9f218561737b3239f388da3a98cc9d6792d",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.2"
+		},
+		"1.0.4": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.4",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.4.tgz",
+				"shasum": "ee6c8d361ed5f9863da1e8e2c8c881b8d33c6123"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"wix-node-build": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "wix-node-build start",
+				"pretest": "wix-node-build lint && wix-node-build build",
+				"build": ":",
+				"test": "wix-node-build test",
+				"release": "wix-node-build release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.4",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.4.tgz_1485629016678_0.25011295173317194"
+			},
+			"_shasum": "ee6c8d361ed5f9863da1e8e2c8c881b8d33c6123",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.2"
+		},
+		"1.0.5": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.5",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.5.tgz",
+				"shasum": "8b298e6e62dc13dc1614e388bf8815bf08b7d725"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"yoshi": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.5",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.5.tgz_1493328462145_0.45650747301988304"
+			},
+			"_shasum": "8b298e6e62dc13dc1614e388bf8815bf08b7d725",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.5"
+		},
+		"1.0.6": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.6",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.6.tgz",
+				"shasum": "4bdab199cc285b742283fdf12ea481e6ef1c3b20"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"yoshi": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.6",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/greedy-split-1.0.6.tgz_1505714444163_0.2620026364456862"
+			},
+			"_shasum": "4bdab199cc285b742283fdf12ea481e6ef1c3b20",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.5"
+		},
+		"1.0.7": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.7",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.7.tgz",
+				"shasum": "a51fea83aafcf67f09314832003c28f800733403"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"yoshi": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.7",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/greedy-split-1.0.7.tgz_1505726053495_0.18055221694521606"
+			},
+			"_shasum": "a51fea83aafcf67f09314832003c28f800733403",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.5"
+		},
+		"1.0.8": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.8",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.8.tgz",
+				"shasum": "5505cd47814073425b437ada169d7933408bbdbe"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"yoshi": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": ":",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.8",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/greedy-split_1.0.8_1540443089056_0.700068030132966"
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.5"
+		},
+		"1.0.0": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.0.tgz",
+				"shasum": "77308dc4731dff71cf8b9eea938f51895134f7b2"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"wix-node-build": "latest"
+			},
+			"files": [
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "wix-node-build start",
+				"pretest": "wix-node-build lint && wix-node-build build",
+				"build": ":",
+				"test": "wix-node-build test",
+				"release": "wix-node-build release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.0",
+			"private": false,
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.0.tgz_1483822245243_0.35601999750360847"
+			},
+			"_shasum": "77308dc4731dff71cf8b9eea938f51895134f7b2",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.2"
+		},
+		"1.0.1": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.1.tgz",
+				"shasum": "4536138357623034ef3513b126f917897bd4e392"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "~3.5.0",
+				"wix-node-build": "latest"
+			},
+			"files": [
+				"src"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "wix-node-build start",
+				"pretest": "wix-node-build lint && wix-node-build build",
+				"build": ":",
+				"test": "wix-node-build test",
+				"release": "wix-node-build release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.1",
+			"private": false,
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.1.tgz_1483927372872_0.8204085661564022"
+			},
+			"_shasum": "4536138357623034ef3513b126f917897bd4e392",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.2"
+		},
+		"1.0.2": {
+			"name": "greedy-split",
+			"description": "splits string with limit the right way.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.2.tgz",
+				"shasum": "3df33077094d427a4e539f8fe527b2a576a6d1c9"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"wix-node-build": "latest",
+				"babel-preset-stage-0": "^6.5.0",
+				"babel-preset-es2015": "^6.9.0"
+			},
+			"files": [
+				"dist"
+			],
+			"maintainers": [
+				{
+					"name": "wix-ci",
+					"email": "ci@wix.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"start": "wix-node-build start",
+				"pretest": "wix-node-build lint && wix-node-build build",
+				"build": ":",
+				"test": "wix-node-build test",
+				"release": "wix-node-build release"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "wix-ci",
+				"email": "ci@wix.com"
+			},
+			"_id": "greedy-split@1.0.2",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/greedy-split-1.0.2.tgz_1484680774570_0.06179987755604088"
+			},
+			"_shasum": "3df33077094d427a4e539f8fe527b2a576a6d1c9",
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"_nodeVersion": "6.9.2"
+		}
+	},
+	"time": {
+		"1.0.3": "2017-01-27T08:57:30.361Z",
+		"1.0.4": "2017-01-28T18:43:37.343Z",
+		"1.0.5": "2017-04-27T21:27:42.862Z",
+		"1.0.6": "2017-09-18T06:00:45.124Z",
+		"1.0.7": "2017-09-18T09:14:14.388Z",
+		"1.0.8": "2018-10-25T04:51:29.197Z",
+		"created": "2017-01-07T20:50:47.271Z",
+		"modified": "2019-01-04T00:40:04.861Z",
+		"1.0.0": "2017-01-07T20:50:47.271Z",
+		"1.0.1": "2017-01-09T02:02:53.395Z",
+		"1.0.2": "2017-01-17T19:19:36.463Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.8"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828414507
+		}
+	},
+	"_distfiles": {
+		"greedy-split-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.3.tgz",
+			"sha": "8572c9f218561737b3239f388da3a98cc9d6792d"
+		},
+		"greedy-split-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.4.tgz",
+			"sha": "ee6c8d361ed5f9863da1e8e2c8c881b8d33c6123"
+		},
+		"greedy-split-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.5.tgz",
+			"sha": "8b298e6e62dc13dc1614e388bf8815bf08b7d725"
+		},
+		"greedy-split-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.6.tgz",
+			"sha": "4bdab199cc285b742283fdf12ea481e6ef1c3b20"
+		},
+		"greedy-split-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.7.tgz",
+			"sha": "a51fea83aafcf67f09314832003c28f800733403"
+		},
+		"greedy-split-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.8.tgz",
+			"sha": "5505cd47814073425b437ada169d7933408bbdbe"
+		},
+		"greedy-split-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.0.tgz",
+			"sha": "77308dc4731dff71cf8b9eea938f51895134f7b2"
+		},
+		"greedy-split-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.1.tgz",
+			"sha": "4536138357623034ef3513b126f917897bd4e392"
+		},
+		"greedy-split-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/greedy-split/-/greedy-split-1.0.2.tgz",
+			"sha": "3df33077094d427a4e539f8fe527b2a576a6d1c9"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-6df1cfd2b384c1ed",
+	"readme": "# greedy-split\n\nsplits string with limit the right way.\n\ninstall:\n\n```sh\n$ npm install --save greedy-split\n```\n\nuse:\n\n```js\nconst greedySplit = require('greedy-split');\n\nconsole.log('1|2|3|4'.split('|', 3)); //logs ['1', '2', '3']\nconsole.log(greedySplit('1|2|3|4', '|', 3)); //logs ['1', '2', '3|4']\n\nconsole.log('1|2|3|4'.split(/\\|+/, 3)); //logs ['1', '2', '3']\nconsole.log(greedySplit('1|2||3|4', /\\|+/, 3)); //logs ['1', '2', '3|4']\n```\n\nthat is all."
+}

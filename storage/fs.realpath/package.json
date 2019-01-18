@@ -131,7 +131,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749359898
+			"fetched": 1547828393512
 		}
 	},
 	"_distfiles": {
@@ -145,6 +145,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6902fd9068000878",
+	"_rev": "10-c99c4847ab09bb79",
 	"readme": "# fs.realpath\n\nA backwards-compatible fs.realpath for Node v6 and above\n\nIn Node v6, the JavaScript implementation of fs.realpath was replaced\nwith a faster (but less resilient) native implementation.  That raises\nnew and platform-specific errors and cannot handle long or excessively\nsymlink-looping paths.\n\nThis module handles those cases by detecting the new errors and\nfalling back to the JavaScript implementation.  On versions of Node\nprior to v6, it has no effect.\n\n## USAGE\n\n```js\nvar rp = require('fs.realpath')\n\n// async version\nrp.realpath(someLongAndLoopingPath, function (er, real) {\n  // the ELOOP was handled, but it was a bit slower\n})\n\n// sync version\nvar real = rp.realpathSync(someLongAndLoopingPath)\n\n// monkeypatch at your own risk!\n// This replaces the fs.realpath/fs.realpathSync builtins\nrp.monkeypatch()\n\n// un-do the monkeypatching\nrp.unmonkeypatch()\n```"
 }

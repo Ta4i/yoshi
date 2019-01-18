@@ -323,7 +323,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749394573
+			"fetched": 1547828427696
 		}
 	},
 	"_distfiles": {
@@ -361,6 +361,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-742015a0443b9175",
+	"_rev": "10-ea419cba6f4b15a6",
 	"readme": "# Decode streams into strings without setEncoding\n\n```js\nconst fs = require('fs')\nconst zlib = require('zlib')\nconst strs = require('stringstream')\n\nconst utf8Stream = fs.createReadStream('massiveLogFile.gz')\n  .pipe(zlib.createGunzip())\n  .pipe(strs('utf8'))\n\nutf8Stream.on('data', str => console.log(`This will be a string: ${str}`))\n```\n\n## API\n\n  - `strs(to, [options])` – creates a transform stream that converts the input into strings in `to` encoding (eg, `utf8`, `hex`, `base64`)\n  - `strs(from, to, [options])` – creates a transform stream converts the input from strings in `from` encoding to strings in `to` encoding\n\n`options` can be anything compatible with the standard Node.js [`new stream.Transform([options])` constructor](https://nodejs.org/api/stream.html#stream_new_stream_transform_options)\n\n## NB: This library was originally written before Node.js [correctly encoded base64 strings from streams](https://github.com/nodejs/node/commit/061f2075cf81017cdb40de80533ba18746743c94)\n\nBack in the day, calling `.setEncoding('base64')` on a readable stream didn't\nalign correctly, which was one of the main reasons I wrote this library –\nhowever this hasn't been the case for a long time, so this library is\nnow really only useful in scenarios where you don't want to call\n`.setEncoding()` for whatever reason.\n\nIt also handles input and output text encodings:\n\n```js\n// Stream from utf8 to hex to base64... Why not, ay.\nconst hex64Stream = fs.createReadStream('myFile.txt')\n  .pipe(strs('utf8', 'hex'))\n  .pipe(strs('hex', 'base64'))\n```\n\nAlso deals with `base64` output correctly by aligning each emitted data\nchunk so that there are no dangling `=` characters:\n\n```js\nconst stream = fs.createReadStream('myFile.jpg').pipe(strs('base64'))\n\nlet base64Str = ''\n\nstream.on('data', data => base64Str += data)\nstream.on('end', () => {\n  console.log('My base64 encoded file is: ' + base64Str)\n  console.log('Original file is: ' + Buffer.from(base64Str, 'base64'))\n})\n```"
 }

@@ -449,7 +449,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749440563
+			"fetched": 1547828411497
 		}
 	},
 	"_distfiles": {
@@ -491,6 +491,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-21b366e15315abe5",
+	"_rev": "8-aae81ad871ec936c",
 	"readme": "URI validation functions\n==\n[![Build Status](https://travis-ci.org/ogt/valid-url.png)](https://travis-ci.org/ogt/valid-url)\n\n## Synopsis\n\nReplicates the functionality of  http://search.cpan.org/~sonnen/Data-Validate-URI-0.01/lib/Data/Validate/URI.pm\n (http://anonscm.debian.org/gitweb/?p=users/dom/libdata-validate-uri-perl.git )\ninto a nodejs module.\n\n#Description\n\n## Installation \n\n *fork it to install  \n *TODO: need add to npm\n\n## Usage\n \n `\n var validUrl = require('validUrl');\n `  \n\n## Methods\n\n `\n is_uri(value)\n `  \n **accepts** value as string to be checked as any protocol url  \n **returns** undefined if is not url, returns RFC 3986 url if valid\n\n `\n is_http_uri(value, allowHttps)\n `  \n **accepts** *value* as string to be checked as HTTP url, *allowHttps* as boolean to include https urls *(optional)*  \n **returns** undefined if is not url, returns RFC 3986 url if valid  \n\n `\n is_https_uri(value)\n `  \n **accepts** value as string to be checked as HTTPS url  \n **returns** undefined if is not url, returns RFC 3986 url if valid  \n \n `\n is_web_uri(value)\n `  \n **accepts** value as string to be checked as HTTP or HTTPS url  \n **returns** undefined if is not url, returns RFC 3986 url if valid"
 }

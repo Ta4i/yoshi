@@ -1,0 +1,389 @@
+{
+	"name": "add-dom-event-listener",
+	"versions": {
+		"1.0.0": {
+			"name": "add-dom-event-listener",
+			"description": "add dom event listener. normalize ie and others",
+			"version": "1.0.0",
+			"author": "",
+			"homepage": "http://github.com/yiminghe/add-dom-event-listener",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/yiminghe/add-dom-event-listener.git"
+			},
+			"bugs": {
+				"url": "http://github.com/yiminghe/add-dom-event-listener/issues"
+			},
+			"main": "lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.0.tgz",
+				"shasum": "65096c19ebcbb87ccedc34ff21e1e7d96e1b7037"
+			},
+			"dependencies": {
+				"object-assign": "4.x"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x"
+			},
+			"keywords": [
+				"dom",
+				"event",
+				"ie"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8005
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "add-dom-event-listener@1.0.0",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "116524f5eae52fc3a8ed667a12e20dac3ac405ad",
+			"_shasum": "65096c19ebcbb87ccedc34ff21e1e7d96e1b7037",
+			"_nodeVersion": "4.0.0"
+		},
+		"0.0.0": {
+			"name": "add-dom-event-listener",
+			"description": "add dom event listener. normalize ie and others",
+			"version": "0.0.0",
+			"author": "",
+			"homepage": "http://github.com/yiminghe/add-dom-event-listener",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/yiminghe/add-dom-event-listener.git"
+			},
+			"bugs": {
+				"url": "http://github.com/yiminghe/add-dom-event-listener/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-0.0.0.tgz",
+				"shasum": "63b01f5478dec013b0fff0bb1b15677104e83e2d"
+			},
+			"devDependencies": {
+				"pre-commit": "1.x"
+			},
+			"keywords": [
+				"dom",
+				"event",
+				"ie"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"config": {
+				"port": 8005
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "add-dom-event-listener@0.0.0",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "ffeb928b12fb03956205ab284ceda6c07b4507c8",
+			"_shasum": "63b01f5478dec013b0fff0bb1b15677104e83e2d",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.0.1": {
+			"name": "add-dom-event-listener",
+			"description": "add dom event listener. normalize ie and others",
+			"version": "1.0.1",
+			"author": "",
+			"homepage": "http://github.com/yiminghe/add-dom-event-listener",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/yiminghe/add-dom-event-listener.git"
+			},
+			"bugs": {
+				"url": "http://github.com/yiminghe/add-dom-event-listener/issues"
+			},
+			"main": "lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.1.tgz",
+				"shasum": "70e74d0692b27108f9740554e0fa80a4683c2eb2"
+			},
+			"dependencies": {
+				"object-assign": "4.x"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"simulate-dom-event": "~1.0.3"
+			},
+			"keywords": [
+				"dom",
+				"event",
+				"ie"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8005
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "add-dom-event-listener@1.0.1",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "cc9a97c84a183962b20e4d3964f0df8409634bfa",
+			"_shasum": "70e74d0692b27108f9740554e0fa80a4683c2eb2",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.0": {
+			"name": "add-dom-event-listener",
+			"description": "add dom event listener. normalize ie and others",
+			"version": "1.1.0",
+			"author": "",
+			"homepage": "http://github.com/yiminghe/add-dom-event-listener",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/yiminghe/add-dom-event-listener.git"
+			},
+			"bugs": {
+				"url": "http://github.com/yiminghe/add-dom-event-listener/issues"
+			},
+			"main": "lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.1.0.tgz",
+				"shasum": "6a92db3a0dd0abc254e095c0f1dc14acbbaae310"
+			},
+			"dependencies": {
+				"object-assign": "4.x"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"simulate-dom-event": "~1.0.3"
+			},
+			"keywords": [
+				"dom",
+				"event",
+				"ie"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8005
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "add-dom-event-listener@1.1.0",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "db8ca9918f233d782a82b2327374d3ac61ab2f78",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/add-dom-event-listener_1.1.0_1539584374624_0.8045806834007838"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.0.2": {
+			"name": "add-dom-event-listener",
+			"description": "add dom event listener. normalize ie and others",
+			"version": "1.0.2",
+			"author": "",
+			"homepage": "http://github.com/yiminghe/add-dom-event-listener",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/yiminghe/add-dom-event-listener.git"
+			},
+			"bugs": {
+				"url": "http://github.com/yiminghe/add-dom-event-listener/issues"
+			},
+			"main": "lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.2.tgz",
+				"shasum": "8faed2c41008721cf111da1d30d995b85be42bed"
+			},
+			"dependencies": {
+				"object-assign": "4.x"
+			},
+			"devDependencies": {
+				"expect.js": "~0.3.1",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"simulate-dom-event": "~1.0.3"
+			},
+			"keywords": [
+				"dom",
+				"event",
+				"ie"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8005
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "add-dom-event-listener@1.0.2",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "e10c144824a81b33393cf7114d8ae7ec044593c6",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/add-dom-event-listener-1.0.2.tgz_1484108353111_0.7329658174421638"
+			},
+			"_shasum": "8faed2c41008721cf111da1d30d995b85be42bed",
+			"_nodeVersion": "6.9.1"
+		}
+	},
+	"time": {
+		"created": "2015-11-06T03:12:05.272Z",
+		"modified": "2019-01-01T02:33:27.692Z",
+		"1.0.0": "2015-11-06T03:52:21.777Z",
+		"0.0.0": "2015-11-06T03:12:05.272Z",
+		"1.0.1": "2015-11-06T07:17:17.437Z",
+		"1.1.0": "2018-10-15T06:19:34.737Z",
+		"1.0.2": "2017-01-11T04:19:15.119Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828466628
+		}
+	},
+	"_distfiles": {
+		"add-dom-event-listener-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.0.tgz",
+			"sha": "65096c19ebcbb87ccedc34ff21e1e7d96e1b7037"
+		},
+		"add-dom-event-listener-0.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-0.0.0.tgz",
+			"sha": "63b01f5478dec013b0fff0bb1b15677104e83e2d"
+		},
+		"add-dom-event-listener-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.1.tgz",
+			"sha": "70e74d0692b27108f9740554e0fa80a4683c2eb2"
+		},
+		"add-dom-event-listener-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.1.0.tgz",
+			"sha": "6a92db3a0dd0abc254e095c0f1dc14acbbaae310"
+		},
+		"add-dom-event-listener-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/add-dom-event-listener/-/add-dom-event-listener-1.0.2.tgz",
+			"sha": "8faed2c41008721cf111da1d30d995b85be42bed"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-93e6c611378654c6",
+	"readme": "# add-dom-event-listener\nadd dom event listener. normalize ie and others. port from https://github.com/modulex/event-dom\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![gemnasium deps][gemnasium-image]][gemnasium-url]\n[![node version][node-image]][node-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: http://img.shields.io/npm/v/add-dom-event-listener.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/add-dom-event-listener\n[travis-image]: https://img.shields.io/travis/yiminghe/add-dom-event-listener.svg?style=flat-square\n[travis-url]: https://travis-ci.org/yiminghe/add-dom-event-listener\n[coveralls-image]: https://img.shields.io/coveralls/yiminghe/add-dom-event-listener.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/yiminghe/add-dom-event-listener?branch=master\n[gemnasium-image]: http://img.shields.io/gemnasium/yiminghe/add-dom-event-listener.svg?style=flat-square\n[gemnasium-url]: https://gemnasium.com/yiminghe/add-dom-event-listener\n[node-image]: https://img.shields.io/badge/node.js-%3E=_4.0.0-green.svg?style=flat-square\n[node-url]: http://nodejs.org/download/\n[download-image]: https://img.shields.io/npm/dm/add-dom-event-listener.svg?style=flat-square\n[download-url]: https://npmjs.org/package/add-dom-event-listener\n\n## examples\n\n```js\nvar addEventListener = require('add-dom-event-listener');\nvar handler = addEventListener(document.body, 'click', function(e){\n  console.log(e.target); // works for ie\n  \n  console.log(e.nativeEvent); // native dom event\n});\nhandler.remove(); // detach event listener\n```\n\n## history\n\n### 1.1.0\n\n- allow event options"
+}

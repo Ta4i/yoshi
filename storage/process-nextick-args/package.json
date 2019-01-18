@@ -415,7 +415,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749297710
+			"fetched": 1547828446100
 		}
 	},
 	"_distfiles": {
@@ -457,6 +457,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "23-e970464fb9d4c332",
+	"_rev": "28-b307b3ffc0fb15bd",
 	"readme": "process-nextick-args\n=====\n\n[![Build Status](https://travis-ci.org/calvinmetcalf/process-nextick-args.svg?branch=master)](https://travis-ci.org/calvinmetcalf/process-nextick-args)\n\n```bash\nnpm install --save process-nextick-args\n```\n\nAlways be able to pass arguments to process.nextTick, no matter the platform\n\n```js\nvar pna = require('process-nextick-args');\n\npna.nextTick(function (a, b, c) {\n  console.log(a, b, c);\n}, 'step', 3,  'profit');\n```"
 }

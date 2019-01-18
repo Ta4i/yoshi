@@ -363,7 +363,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749302347
+			"fetched": 1547828422275
 		}
 	},
 	"_distfiles": {
@@ -389,6 +389,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "24-0e449f5e2425b592",
+	"_rev": "29-9532eea9077b946b",
 	"readme": "# Deprecated\n\nThis is not needed anymore. Use `require('os').homedir()` instead.\n\n---\n\n\n# os-homedir [![Build Status](https://travis-ci.org/sindresorhus/os-homedir.svg?branch=master)](https://travis-ci.org/sindresorhus/os-homedir)\n\n> Node.js 4 [`os.homedir()`](https://nodejs.org/api/os.html#os_os_homedir) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save os-homedir\n```\n\n\n## Usage\n\n```js\nconst osHomedir = require('os-homedir');\n\nconsole.log(osHomedir());\n//=> '/Users/sindresorhus'\n```\n\n\n## Related\n\n- [user-home](https://github.com/sindresorhus/user-home) - Same as this module but caches the result\n- [home-or-tmp](https://github.com/sindresorhus/home-or-tmp) - Get the user home directory with fallback to the system temp directory\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

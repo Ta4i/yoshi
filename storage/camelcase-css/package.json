@@ -270,7 +270,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749378555
+			"fetched": 1547828419015
 		}
 	},
 	"_distfiles": {
@@ -292,6 +292,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a12ce7a871caa9e9",
+	"_rev": "10-fd8822149829b7b4",
 	"readme": "# camelcase-css [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]\n\n> Convert a kebab-cased CSS property into a camelCased DOM property.\n\n\n## Installation\n[Node.js](http://nodejs.org/) `>= 6` is required. Type this at the command line:\n```shell\nnpm install camelcase-css\n```\n\n\n## Usage\n```js\nconst camelCaseCSS = require('camelcase-css');\n\ncamelCaseCSS('-webkit-border-radius');  //-> WebkitBorderRadius\ncamelCaseCSS('-moz-border-radius');     //-> MozBorderRadius\ncamelCaseCSS('-ms-border-radius');      //-> msBorderRadius\ncamelCaseCSS('border-radius');          //-> borderRadius\n```\n\n\n[npm-image]: https://img.shields.io/npm/v/camelcase-css.svg\n[npm-url]: https://npmjs.org/package/camelcase-css\n[travis-image]: https://img.shields.io/travis/stevenvachon/camelcase-css.svg\n[travis-url]: https://travis-ci.org/stevenvachon/camelcase-css"
 }

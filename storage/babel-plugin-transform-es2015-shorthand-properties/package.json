@@ -1947,7 +1947,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749381672
+			"fetched": 1547828421659
 		}
 	},
 	"_distfiles": {
@@ -2085,6 +2085,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-279a2206a806173b",
+	"_rev": "10-d7a2d990019ce380",
 	"readme": "# babel-plugin-transform-es2015-shorthand-properties\n\n> Compile ES2015 shorthand properties to ES5\n\n## Example\n\n**In**\n\n```js\nvar o = { a, b, c };\n```\n\n**Out**\n\n```js\nvar o = { a: a, b: b, c: c };\n```\n\n**In**\n\n```js\nvar cat = {\n  getName() {\n    return name;\n  }\n};\n```\n\n**Out**\n\n```js\nvar cat = {\n  getName: function () {\n    return name;\n  }\n};\n```\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-shorthand-properties\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-shorthand-properties\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-shorthand-properties script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-shorthand-properties\"]\n});\n```"
 }

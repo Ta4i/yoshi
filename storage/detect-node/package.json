@@ -289,7 +289,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749433320
+			"fetched": 1547828457510
 		}
 	},
 	"_distfiles": {
@@ -319,6 +319,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-0e9d287f8ef8bc82",
+	"_rev": "10-6da510a20a44cc69",
 	"readme": "### Install\n\n```shell\nnpm install --save detect-node\n```\n\n### Usage:\n\n```js\nvar isNode = require('detect-node');\n\nif (isNode) {\n  console.log(\"Running under Node.JS\");\n} else {\n  alert(\"Hello from browser (or whatever not-a-node env)\");\n}\n```\n\nThe check is performed as:\n```js\nmodule.exports = false;\n\n// Only Node.JS has a process variable that is of [[Class]] process\ntry {\n module.exports = Object.prototype.toString.call(global.process) === '[object process]' \n} catch(e) {}\n\n```\n\nThanks to Ingvar Stepanyan for the initial idea. This check is both **the most reliable I could find** and it does not use `process` env directly, which would cause browserify to include it into the build."
 }

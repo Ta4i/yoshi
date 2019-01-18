@@ -270,7 +270,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749344348
+			"fetched": 1547828357916
 		}
 	},
 	"_distfiles": {
@@ -292,6 +292,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d3f40e3c34945aef",
+	"_rev": "10-99bab140cb52c786",
 	"readme": "# What is it?\r\n`string-argv` parses a string into an argument array to mimic `process.argv`.\r\nThis is useful when testing Command Line Utilities that you want to pass arguments to and is the opposite of what the other argv utilities do.\r\n\r\n# Installation\r\n\r\n```\r\nnpm install string-argv --save\r\n```\r\n\r\n# Usage\r\n\r\n```js\r\nvar stringArgv = require('string-argv');\r\nvar args = stringArgv(\r\n    '-testing test -valid=true --quotes \"test quotes\" \"nested \\'quotes\\'\" --key=\"some value\" --title=\"Peter\\'s Friends\"',\r\n    'node',\r\n    'testing.js'\r\n);\r\n\r\n//legacy\r\nvar args2 = stringArgv.parseArgsStringToArgv(\r\n    '-testing test -valid=true --quotes \"test quotes\" \"nested \\'quotes\\'\" --key=\"some value\" --title=\"Peter\\'s Friends\"',\r\n    'node',\r\n    'testing.js'\r\n);\r\n\r\nconsole.log(args);\r\n/** output\r\n[ 'node',\r\n  'testing.js',\r\n  '-testing',\r\n  'test',\r\n  '-valid=true',\r\n  '--quotes',\r\n  'test quotes',\r\n  'nested \\'quotes\\'',\r\n  '--key=\"some value\"',\r\n  '--title=\"Peter\\'s Friends\"' ]\r\n  **/\r\n```\r\n\r\n## params\r\n\r\n__required__: __arguments__ String: arguments that you would normally pass to the command line.\r\n\r\n__optional__: __environment__ String: Adds to the environment position in the argv array. If ommitted then there is no need to call argv.split(2) to remove the environment/file values. However if your cli.parse method expects a valid argv value then you should include this value.\r\n\r\n__optional__: __file__ String: file that called the arguments. If omitted then there is no need to call argv.split(2) to remove the environment/file values. However if your cli.parse method expects a valid argv value then you should include this value."
 }

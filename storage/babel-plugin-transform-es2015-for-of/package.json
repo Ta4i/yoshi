@@ -2113,7 +2113,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749381249
+			"fetched": 1547828421242
 		}
 	},
 	"_distfiles": {
@@ -2267,6 +2267,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e8f8ece46bb3b93c",
+	"_rev": "10-f9e0f27a8773573e",
 	"readme": "# babel-plugin-transform-es2015-for-of\n\nCompile ES2015 for...of to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-es2015-for-of\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-for-of\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-es2015-for-of script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-for-of\"]\n});\n```"
 }

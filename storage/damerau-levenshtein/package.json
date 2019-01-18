@@ -382,7 +382,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749357203
+			"fetched": 1547828392001
 		}
 	},
 	"_distfiles": {
@@ -416,6 +416,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6e208baaee68f16f",
+	"_rev": "10-baf9f14efe36ffca",
 	"readme": "[![NPM](https://nodei.co/npm/damerau-levenshtein.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/damerau-levenshtein/)\n\nI use algorithm kindly provided by TheSpanishInquisition here: <http://jsperf.com/damerau-levenshtein-distance>.\n\nAll credits goes there. I have only packed it into Node module.\n\nIt provides a function that takes two string arguments and returns a hash like this:\n\n```` javascript\n{\n  steps: 5,       // Levenstein demerau distance\n  relative: 0.7,  // steps / length of the longer string\n  similarity: 0.3 // 1 - relative\n}\n````\n\nPlease see [tests](./test/test.js) for more insights."
 }

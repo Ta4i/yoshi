@@ -195,7 +195,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749439052
+			"fetched": 1547828465366
 		}
 	},
 	"_distfiles": {
@@ -213,6 +213,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "6-cf5f373ef0ff6b7a",
+	"_rev": "11-f2bea5bce8f1dab8",
 	"readme": "# invert-kv [![Build Status](https://travis-ci.org/sindresorhus/invert-kv.svg?branch=master)](https://travis-ci.org/sindresorhus/invert-kv)\n\n> Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`\n\n\n## Install\n\n```\n$ npm install invert-kv\n```\n\n\n## Usage\n\n```js\nconst invertKv = require('invert-kv');\n\ninvertKv({foo: 'bar', unicorn: 'rainbow'});\n//=> {bar: 'foo', rainbow: 'unicorn'}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

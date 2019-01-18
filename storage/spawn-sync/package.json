@@ -1030,7 +1030,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749424107
+			"fetched": 1547828453352
 		}
 	},
 	"_distfiles": {
@@ -1112,6 +1112,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d0440aff2b7d05f1",
+	"_rev": "10-242129baf87841f8",
 	"readme": "# spawn-sync\n\nThis used to be a polyfill for `require('child_process').spawnSync` but now all actively maintained node versions already support `spawnSync`, so this is just a stub that re-exports `spawnSync`.\n\n## Usage\n\nYou should remove this library from your dependencies and just do:\n```js\nvar spawnSync = require('child_process').spawnSync;\n\nvar result = spawnSync('node',\n                       ['filename.js'],\n                       {input: 'write this to stdin'});\n\nif (result.status !== 0) {\n  process.stderr.write(result.stderr);\n  process.exit(result.status);\n} else {\n  process.stdout.write(result.stdout);\n  process.stderr.write(result.stderr);\n}\n```\n\n## License\n\n  MIT"
 }

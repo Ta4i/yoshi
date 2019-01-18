@@ -363,7 +363,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749374285
+			"fetched": 1547828372727
 		}
 	},
 	"_distfiles": {
@@ -389,6 +389,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-04178b2a0cf6f316",
+	"_rev": "10-6da4720fcf3c85c4",
 	"readme": "# get-own-enumerable-property-symbols [![Build Status](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols.svg?branch=master)](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols)\n\nReturns an array of all *enumerable* symbol properties found directly upon a given object.\n\nSimilar to [`Object.getOwnPropertySymbols`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols)\nbut only [enumerable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties) keys.\n\n```js\nimport getOwnEnumPropSymbols from 'get-own-enumerable-property-symbols'\n\ngetOwnEnumPropSymbols({ [Symbol()]: undefined })\n// [Symbol()]\ngetOwnEnumPropSymbols(Object.defineProperty({}, Symbol(), {enumerable: false}))\n// []\n```"
 }

@@ -162,7 +162,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749362568
+			"fetched": 1547828397285
 		}
 	},
 	"_distfiles": {
@@ -176,6 +176,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-24c4253f77bbad78",
+	"_rev": "10-e1a139ae02976dd2",
 	"readme": "# default-require-extensions [![Build Status](https://travis-ci.org/avajs/default-require-extensions.svg?branch=master)](https://travis-ci.org/avajs/default-require-extensions)\n\n> Node's default require extensions as a separate module\n\nHandy for require extension authors that want reliable access to the default extension implementations.\n\nBy the time your extension is loaded, the default extension may have already been replaced. This provides extensions functionally identical to the default ones, which you know you can access reliably, no matter what extensions have been installed previously.\n\n\n## Install\n\n```\n$ npm install --save default-require-extensions\n```\n\n\n## Usage\n\n```js\nconst js = require('default-require-extensions/js');\nconst json = require('default-require-extensions/json');\n\nrequire.extensions['.js'] = js;\nrequire.extensions['.js'] = json;\n```\n\n*Note:* You would never actually do the above. Use these in your custom require extensions instead.\n\n\n## License\n\nMIT © Node.js contributors, [James Talmage](https://github.com/jamestalmage)"
 }

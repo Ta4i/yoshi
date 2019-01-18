@@ -514,7 +514,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749401784
+			"fetched": 1547828435208
 		}
 	},
 	"_distfiles": {
@@ -548,6 +548,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e654caab3104c6a4",
+	"_rev": "10-50ddb65d964e0b43",
 	"readme": "CSS Modules: Resolve Imports\n============================\n\n\nTransforms:\n\n```css\n:import(\"library/button.css\") {\n  i__imported_button_0: button;\n}\n:export {\n  continueButton: _source_continueButton i__imported_button_0;\n}\n._source_continueButton {\n  color: green;\n}\n```\n\ninto:\n\n```css\n:export {\n  continueButton: _source_continueButton _button_button\n}\n._button_button {\n  /*common button styles*/\n}\n._source_continueButton {\n  color: green\n}\n```\n\n**Note**: should be used after [postcss-modules-extract-imports](https://github.com/css-modules/postcss-modules-extract-imports) and [postcss-modules-scope](https://github.com/css-modules/postcss-modules-scope).\n\nThe `postcss-moduels-resolve-imports` plugin also fixes `@import` and `url()` paths (which doesn't start from `/`) for the included modules from the different folders.\n\n\n## Options\n\n`icssExports` `boolean`\n\nAdds the `:export` declaration to the resulting css. In case you need the JavaScript object with tokens, you may obtain it by accessing the `lazyResult.root.exports` property. For example,\n\n```javascript\nconst lazyResult = postcss([...plugins]).process(cssString, {from: filepath});\nconst tokens = lazyResult.root.exports;\n```\n\n\n`resolve` `object`\n\nConfigure how modules should be resolved.\n\n\n`resolve.alias` `object`\n\nCreate an aliases for the modules paths. For example, create an alias for the *lib* directory with common modules:\n\n```javascript\nalias: {\n  lib: path.resolve(__dirname, 'lib'),\n},\n```\n\nNow, instead of using relative paths when composing:\n\n```css\n.button {\n  composes: normal from '../../lib/button.css';\n}\n```\n\nyou can use the alias:\n\n```css\n.button {\n  composes: normal from 'lib/button.css';\n}\n```\n\n\n`resolve.extensions` `array`\n\nAutomaticaly check files with the provided extensions.\n\n```javascript\n['.css']\n```\n\nAllows you to omit file extensions while using compose:\n\n```css\n.button {\n  composes: normal from '../lib/button';\n}\n```\n\n\n`resolve.modules` `array`\n\nProvide additional directories to check the modules in. Should be absolute paths only.\n\n```javascript\n[path.resolve(__dirname, 'lib')]\n```\n\n\n`resolve.mainFile` `string`\n\nSpecifies the default filename to be used while resolving directories. Default: `index.css`.\n\n\n`resolve.preserveSymlinks` `boolean`\n\nWether to resolve symlinks in paths. Defaults to nodejs behaviour: `false`, \n(parsed from `--preserve-symlinks` or environment variable `PRESERVE_SYMLINKS`).\n\n\n## Reference Guides\n\n- Interoperable CSS: https://github.com/css-modules/icss\n- NodeJS modules resolving mechanism: https://nodejs.org/dist/latest-v6.x/docs/api/modules.html#modules_all_together\n\n\n## License\n\n> The MIT License"
 }

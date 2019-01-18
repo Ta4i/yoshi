@@ -1118,7 +1118,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749350610
+			"fetched": 1547828386309
 		}
 	},
 	"_distfiles": {
@@ -1184,6 +1184,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "6-df468d35e7743458",
+	"_rev": "13-6db93b4c75157266",
 	"readme": "# @stylable/runtime\n\n[![npm version](https://img.shields.io/npm/v/@stylable/runtime.svg)](https://www.npmjs.com/package/@stylable/runtime)\n\n`@stylable/runtime` provides the utility that is used to create the stylesheet functions that apply `classNames` and `states` to the DOM. It also exposes an optional DOM renderer that is responsible for loading CSS in its correct order.\n\nEnd-users will usually not add this package directly as a dependency themselves, and would instead receive it as a dependency of their chosen integration (e.g. `@stylable/webpack-plugin`).\n\n## Usage\n\n`@stylable/runtime` exposes two methods, `Stylesheet` and `Renderer`.\n\n### Stylesheet\n\nThe stylesheet function is returned when importing a Stylable stylesheet. It is used for creating the DOM-attributes required for CSS to be applied.\n\n```ts\nstyle(className: string, states?: StateMap, props: InheritedAttributes)\n```\n\n|Argument|Type|Description|Required|\n|---------|----|-----------|:------:|\n|className|string|`className` to be namespaced|true|\n|states|[StateMap](https://github.com/wix/stylable/blob/master/packages/runtime/src/types.ts#L3)|object containing states and their values|false|\n|inheritedAttributes|[InheritedAttributes](https://github.com/wix/stylable/blob/master/packages/runtime/src/types.ts#L12)|`props` passed to the root node from the parent component (automatically passing through `className` and `data-*` attributes) |false|\n\n```tsx\nimport style from './local.st.css';\n\nprops = {\n    className: \"app1211903207--root\",\n    \"data-app1211903207-propstate\": true\n}\n\nstyle('root');\n// returns \"{\n//     \"className\": \"local1211372639--root\"\n// }\"\n\nstyle('root', {localState: true});\n// returns \"{\n//     \"data-local1211372639-localstate\": true,\n//     \"className\": \"local1211372639--root\"\n// }\"\n\nstyle('root', {localState: true}, props);\n// returns \"{\n//     \"data-local1211372639-localstate\": true,\n//     \"data-app1211903207-propstate\": true,\n//     \"className\": \"local1211372639--root app1211903207--root\"\n// }\"\n\n// The stylesheet function also exposes a map of classNames and their namespaced values.\nstyle.root;\n// returns \"local1211372639--root\"\n```\n\n### Renderer\n\nResponsible for managing CSS files, linking to the `document` and maintaining their correct order in your application.\n\n## License\n\nCopyright (c) 2017 Wix.com Ltd. All Rights Reserved. Use of this source code is governed by a [BSD license](./LICENSE)."
 }

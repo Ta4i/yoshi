@@ -1,0 +1,2868 @@
+{
+	"name": "rc-util",
+	"versions": {
+		"4.0.2": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.0.2",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.2.tgz",
+				"shasum": "5804f8b141a13c8c14d7c265a7d21d298195af46"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@4.0.2",
+			"gitHead": "758244a69de428ad8a1ce9ae5b208a93a7f0c854",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-util-4.0.2.tgz_1480702987076_0.38263829285278916"
+			},
+			"_shasum": "5804f8b141a13c8c14d7c265a7d21d298195af46",
+			"_nodeVersion": "6.9.1"
+		},
+		"4.1.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.1.1",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.1.1.tgz",
+				"shasum": "9350e9c00368b50cd8fbd91775cc1cf9e2ca72b2"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "benjycui",
+				"email": "benjytrys@gmail.com"
+			},
+			"_id": "rc-util@4.1.1",
+			"gitHead": "8d5c97fadfd353c75ec058ec310c76ed530f733b",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-4.1.1.tgz_1507877195425_0.34289306611754"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"4.2.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.2.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.2.0.tgz",
+				"shasum": "dacec50735675a211f1c94571306a90e8b97248f"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-util@4.2.0",
+			"gitHead": "ff94f95f9ec556ca20c1a07899b7ff0b687654ba",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-4.2.0.tgz_1510035160566_0.5726992250420153"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"4.0.3": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.0.3",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.3.tgz",
+				"shasum": "ee1cda4c4761bb3fc1c6741edd869ca8cf4c251a"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"jest": "20.x",
+				"rc-tools": "6.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@4.0.3",
+			"gitHead": "6e9a16374681eeb3bcc7d10abf9cb44241699366",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-4.0.3.tgz_1494489222551_0.6172792874276638"
+			},
+			"_shasum": "ee1cda4c4761bb3fc1c6741edd869ca8cf4c251a",
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"4.3.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.3.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.3.0.tgz",
+				"shasum": "31c61e747e3e107acfe78049f98b275a8051a398"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.3.0",
+			"_npmUser": {
+				"name": "benjycui",
+				"email": "benjytrys@gmail.com"
+			},
+			"_id": "rc-util@4.3.0",
+			"gitHead": "2a92c934f65011f0fc59d9df801c3a1f94a644b8",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-4.3.0.tgz_1510816841345_0.47061783564276993"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.6.0"
+		},
+		"4.0.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.0.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.0.tgz",
+				"shasum": "89364f3db99f8cc52e68251ea97561f009b1fd25"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@4.0.0",
+			"gitHead": "04a48f39e1e9908d3e36b6f1484548d1b5d8de48",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-util-4.0.0.tgz_1473752065305_0.29939577425830066"
+			},
+			"_shasum": "89364f3db99f8cc52e68251ea97561f009b1fd25",
+			"_nodeVersion": "4.4.5"
+		},
+		"4.0.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.0.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.1.tgz",
+				"shasum": "9605c86a9768a9640268d4094e32b5b4ceeee228"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@4.0.1",
+			"gitHead": "94bed112560a0f93321668df0e1d6e92e13aa3e7",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-4.0.1.tgz_1477550396250_0.4416063178796321"
+			},
+			"_shasum": "9605c86a9768a9640268d4094e32b5b4ceeee228",
+			"_nodeVersion": "4.6.1"
+		},
+		"4.1.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.1.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.1.0.tgz",
+				"shasum": "3f0012409bdd91caf16bac9428f41ca12e3d9c9b"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "benjycui",
+				"email": "benjytrys@gmail.com"
+			},
+			"_id": "rc-util@4.1.0",
+			"gitHead": "c55f715e1d51c491f49bbbc2fa75af677197431f",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-4.1.0.tgz_1506321693685_0.9647461080458015"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.1.1"
+		},
+		"4.5.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.5.1",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.5.1.tgz",
+				"shasum": "0e435057174c024901c7600ba8903dd03da3ab39"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"create-react-class": "^15.6.3",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-util@4.5.1",
+			"gitHead": "6a7c079e2b86a7bb93578db54650d8ed0a4da586",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util_4.5.1_1528872891124_0.03160955172850932"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"4.6.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.6.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.6.0.tgz",
+				"shasum": "ba33721783192ec4f3afb259e182b04e55deb7f6"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "^1.1.0",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"create-react-class": "^15.6.3",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-util@4.6.0",
+			"gitHead": "8e0e619de1147ef015dd8bc514fa461828f88cf5",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util_4.6.0_1539616342260_0.9925775471852509"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"4.0.4": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.0.4",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.4.tgz",
+				"shasum": "99813dd90aee7e29b64939a70ac176ead3f4ff39"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@4.0.4",
+			"gitHead": "7949fe3cbf0d87175275919e03c43dccfd11c548",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-4.0.4.tgz_1494489362118_0.31650851550512016"
+			},
+			"_shasum": "99813dd90aee7e29b64939a70ac176ead3f4ff39",
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "6.10.0"
+		},
+		"4.3.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.3.1",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.3.1.tgz",
+				"shasum": "79f0adb30f449c1b29d7c5cdb2d82c193920c362"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-util@4.3.1",
+			"gitHead": "b44a77a534c41ef392fc324e3d753352e05f2af2",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-4.3.1.tgz_1512615726077_0.687160826753825"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"4.4.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.4.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.4.0.tgz",
+				"shasum": "f6a320a67100cfceaaa1b0a955b01e9be643576c"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-util@4.4.0",
+			"gitHead": "acf363f18eea852d974d8d381089f3eb6d54bb4e",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util_4.4.0_1518344731690_0.9493555268265002"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"4.5.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "4.5.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.5.0.tgz",
+				"shasum": "3183e6ec806f382efb2d3e85770d95875fa6180f"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"prop-types": "^15.5.10",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"create-react-class": "^15.6.3",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yesmeck@gmail.com",
+					"name": "yesmeck"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				},
+				{
+					"email": "smith3816@gmail.com",
+					"name": "zombiej"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.8.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-util@4.5.0",
+			"gitHead": "f51e4dec119ec87e2544445b6305ba833b2e4805",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util_4.5.0_1522222940708_0.11909264903425298"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.9.4"
+		},
+		"3.0.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.0.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.0.0.tgz",
+				"shasum": "b642162e0898afd4c66da270b9b1eb5e95afd5c7"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.0.0",
+			"gitHead": "6d6c375d3fdfd2178bb557830b9354c21b085c86",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "b642162e0898afd4c66da270b9b1eb5e95afd5c7",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.4.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.4.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.4.1.tgz",
+				"shasum": "4b7e0b0c7593bdbcff8ed045d88fbbc773a7b061"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.4.1",
+			"gitHead": "4d5b2b841cd1195dc6ff71eb955d757849a9c9af",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.4.1.tgz_1471337815786_0.70538813713938"
+			},
+			"_shasum": "4b7e0b0c7593bdbcff8ed045d88fbbc773a7b061",
+			"_nodeVersion": "4.4.5"
+		},
+		"3.0.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.0.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.0.1.tgz",
+				"shasum": "51fc3e8bb2764af74df1561f5dd6407544035c83"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.0.1",
+			"gitHead": "768df6cfd80924d3bc2b8db3cba3f5e1815f026e",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "51fc3e8bb2764af74df1561f5dd6407544035c83",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.1.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.1.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.0.tgz",
+				"shasum": "47d84a99749f675bc1abc80607e15ef8eb52a292"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x",
+				"util-deprecate": "1.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.1.0",
+			"gitHead": "2aef0d19fb4149047e876236bfb5ad9173b230c2",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "47d84a99749f675bc1abc80607e15ef8eb52a292",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.1.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.1.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.1.tgz",
+				"shasum": "2d46e4b054d22608de9d40e0b3387f49a2fb21fc"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x",
+				"util-deprecate": "1.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.1.1",
+			"gitHead": "b05097dab30a1e920e4969c86739d8e12f22de5f",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "2d46e4b054d22608de9d40e0b3387f49a2fb21fc",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.2.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.2.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.2.0.tgz",
+				"shasum": "793c5ce13ff67a0521421360236c9b926a3f5dd0"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"react-addons-pure-render-mixin": "15.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.2.0",
+			"gitHead": "1a719d12de5ba6386ce05811f68150532f88e906",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.2.0.tgz_1466078736102_0.5288557759486139"
+			},
+			"_shasum": "793c5ce13ff67a0521421360236c9b926a3f5dd0",
+			"_nodeVersion": "4.4.5"
+		},
+		"3.1.2": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.1.2",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.2.tgz",
+				"shasum": "094fd7b09a0be8739aa720f4a6b796df75b56c56"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x",
+				"util-deprecate": "1.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.1.2",
+			"gitHead": "b0826a1f9b25fa5544f555e32b07991cf006f744",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "094fd7b09a0be8739aa720f4a6b796df75b56c56",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.2.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.2.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.2.1.tgz",
+				"shasum": "79b74f38b039b340e86f31907285eb9011c67f7a"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.2.1",
+			"gitHead": "d5841333f298635d414d49e9add43cdb491a49c8",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.2.1.tgz_1467601530330_0.8666174209211022"
+			},
+			"_shasum": "79b74f38b039b340e86f31907285eb9011c67f7a",
+			"_nodeVersion": "4.4.5"
+		},
+		"3.3.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.3.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.3.0.tgz",
+				"shasum": "9e7b546c85c36176c1c0beb19732b5d5e3a84e2b"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.3.0",
+			"gitHead": "f87ed4b06839ec84a0e4b93da27d533b26f40c46",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.3.0.tgz_1468844438087_0.3885617502965033"
+			},
+			"_shasum": "9e7b546c85c36176c1c0beb19732b5d5e3a84e2b",
+			"_nodeVersion": "4.4.5"
+		},
+		"3.1.3": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.1.3",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.3.tgz",
+				"shasum": "aeaa9010a8834645052a537834a8e8a2e5baa5f8"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x",
+				"util-deprecate": "1.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.14.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react-dom": "^0.14.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.3",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.1.3",
+			"gitHead": "5fb73c1804589ffdca55f77661b15a79bdec6eb5",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.1.3.tgz_1455415761879_0.13931786990724504"
+			},
+			"_shasum": "aeaa9010a8834645052a537834a8e8a2e5baa5f8",
+			"_nodeVersion": "4.2.2"
+		},
+		"3.4.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "3.4.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.4.0.tgz",
+				"shasum": "d2528de311bd09d343fd010b16e2b61e60128c17"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x",
+				"shallowequal": "0.2.x"
+			},
+			"devDependencies": {
+				"pre-commit": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "15.x",
+				"rc-tools": "5.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@3.4.0",
+			"gitHead": "b7d265c7c3b3cc72d7bd92a5bb31bb7a07c4471f",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-util-3.4.0.tgz_1471326762695_0.7671457484830171"
+			},
+			"_shasum": "d2528de311bd09d343fd010b16e2b61e60128c17",
+			"_nodeVersion": "4.4.5"
+		},
+		"2.0.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.0.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.0.tgz",
+				"shasum": "2cd7c7c3a931a730ebdaeae20f28800c7434d75a"
+			},
+			"dependencies": {
+				"browserify-jsx": "^0.1.0",
+				"browserify-shim": "^3.8.0",
+				"object-assign": "^2.0.0"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"rc-server": "^1.5.4",
+				"rc-tools": "^1.1.3",
+				"expect.js": "~0.3.1",
+				"modulex": "^1.7.4",
+				"react": "~0.12.1"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish && spm doc publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.0.0",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				},
+				"buildArgs": "--global react:window.React"
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "f2f2686708d8ee1cb75a4e1175e7944060677403",
+			"browserify-shim": {
+				"react": "global:React",
+				"jquery": "global:jQuery"
+			},
+			"browserify": {
+				"transform": [
+					[
+						"browserify-jsx"
+					],
+					[
+						"browserify-shim"
+					]
+				]
+			},
+			"_shasum": "2cd7c7c3a931a730ebdaeae20f28800c7434d75a",
+			"_nodeVersion": "0.12.0"
+		},
+		"2.0.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.0.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.1.tgz",
+				"shasum": "5706a1cf228bf201fe1d082a80783e7834272835"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.13.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish && spm doc publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.0.1",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				},
+				"buildArgs": "--global react:window.React"
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "846c3697adf16ad18b224b0a6f251b966bf61bcb",
+			"_shasum": "5706a1cf228bf201fe1d082a80783e7834272835",
+			"_nodeVersion": "0.12.0"
+		},
+		"2.1.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.1.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.1.0.tgz",
+				"shasum": "0386c6f2877f5c353c6ac74c83a18c0cf7607ceb"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.13.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.1.0",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				}
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "9e5df86059920d831fdb253fe863ecd58b9b5400",
+			"_shasum": "0386c6f2877f5c353c6ac74c83a18c0cf7607ceb",
+			"_nodeVersion": "4.0.0"
+		},
+		"5.0.0-beta.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "5.0.0-beta.0",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-5.0.0-beta.0.tgz",
+				"shasum": "f938774253dab5ecf2417c9eb3b927957081679f"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"babel-runtime": "6.x",
+				"shallowequal": "^0.2.2"
+			},
+			"devDependencies": {
+				"coveralls": "^2.11.15",
+				"expect.js": "~0.3.1",
+				"jest": "20.x",
+				"pre-commit": "^1.0.7",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib",
+				"es"
+			],
+			"maintainers": [
+				{
+					"email": "benjytrys@gmail.com",
+					"name": "benjycui"
+				},
+				{
+					"email": "yiminghe@gmail.com",
+					"name": "yiminghe"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"compile": "rc-tools run compile",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"test": "jest",
+				"coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+			},
+			"config": {
+				"port": 8100
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "benjycui",
+				"email": "benjytrys@gmail.com"
+			},
+			"_id": "rc-util@5.0.0-beta.0",
+			"gitHead": "75fdc153ef7cc1c643d85690b60c9ce231fc67d9",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-util-5.0.0-beta.0.tgz_1505814775184_0.3021731546614319"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/*"
+				],
+				"transform": {
+					"\\.tsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js",
+					"\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
+				}
+			},
+			"_nodeVersion": "8.1.1"
+		},
+		"2.0.2": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.0.2",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.2.tgz",
+				"shasum": "e0be9f256d49d9dc20d72c9925e0cb3d9aed04cb"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.13.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.0.2",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				}
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "43471043ad647a727bea38d44eebed6b1abc85cb",
+			"_shasum": "e0be9f256d49d9dc20d72c9925e0cb3d9aed04cb",
+			"_nodeVersion": "0.12.0"
+		},
+		"2.1.1": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.1.1",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.1.1.tgz",
+				"shasum": "46d9103352352fb318d135a35a164185c430c0c9"
+			},
+			"dependencies": {
+				"add-dom-event-listener": "1.x",
+				"classnames": "2.x"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.13.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.1.1",
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "e2d1e34513a64837b7c3ffe94e38e45359d450ce",
+			"_shasum": "46d9103352352fb318d135a35a164185c430c0c9",
+			"_nodeVersion": "4.0.0"
+		},
+		"2.0.3": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "2.0.3",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.3.tgz",
+				"shasum": "15293db8fb259bd9629f81f41b8b8b1741bdabac"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"expect.js": "~0.3.1",
+				"react": "^0.13.0"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@2.0.3",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				}
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "d2a12345cf7642640019473d6e0155e95641c464",
+			"_shasum": "15293db8fb259bd9629f81f41b8b8b1741bdabac",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.0": {
+			"name": "rc-util",
+			"description": "Common Utils For React Component",
+			"version": "1.0.0",
+			"author": "",
+			"homepage": "http://github.com/react-component/util",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:react-component/util.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/util/issues"
+			},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-1.0.0.tgz",
+				"shasum": "73771d0aa174ab0573141823a1186e5022a4b1f4"
+			},
+			"dependencies": {
+				"browserify-jsx": "^0.1.0",
+				"browserify-shim": "^3.8.0",
+				"object-assign": "^2.0.0"
+			},
+			"devDependencies": {
+				"precommit-hook": "^1.0.7",
+				"rc-server": "^1.5.4",
+				"rc-tools": "^1.1.3",
+				"expect.js": "~0.3.1",
+				"modulex": "^1.7.4",
+				"react": "~0.12.1"
+			},
+			"keywords": [
+				"react",
+				"util"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"less": "rc-tools run less",
+				"history": "rc-tools run history",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag && spm publish && spm doc publish",
+				"lint": "rc-tools run lint",
+				"test": "",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-util@1.0.0",
+			"spm": {
+				"dependencies": {
+					"react": "*",
+					"object-assign": "^2.0.0"
+				},
+				"buildArgs": "--global react:window.React"
+			},
+			"precommit": [
+				"lint",
+				"less"
+			],
+			"gitHead": "2524ad0a4cefa2268b18524defac64434c659ae3",
+			"browserify-shim": {
+				"react": "global:React",
+				"jquery": "global:jQuery"
+			},
+			"browserify": {
+				"transform": [
+					[
+						"browserify-jsx"
+					],
+					[
+						"browserify-shim"
+					]
+				]
+			},
+			"_shasum": "73771d0aa174ab0573141823a1186e5022a4b1f4",
+			"_nodeVersion": "0.12.0"
+		}
+	},
+	"time": {
+		"4.0.2": "2016-12-02T18:23:07.718Z",
+		"4.1.1": "2017-10-13T06:46:35.539Z",
+		"4.2.0": "2017-11-07T06:12:40.652Z",
+		"4.0.3": "2017-05-11T07:53:42.791Z",
+		"4.3.0": "2017-11-16T07:20:41.432Z",
+		"4.0.0": "2016-09-13T07:34:27.346Z",
+		"4.0.1": "2016-10-27T06:39:58.198Z",
+		"4.1.0": "2017-09-25T06:41:33.766Z",
+		"4.5.1": "2018-06-13T06:54:51.187Z",
+		"4.6.0": "2018-10-15T15:12:22.413Z",
+		"4.0.4": "2017-05-11T07:56:02.373Z",
+		"4.3.1": "2017-12-07T03:02:07.714Z",
+		"4.4.0": "2018-02-11T10:25:31.773Z",
+		"4.5.0": "2018-03-28T07:42:20.913Z",
+		"3.0.0": "2015-11-10T14:15:36.340Z",
+		"3.4.1": "2016-08-16T08:56:57.716Z",
+		"modified": "2019-01-05T06:12:34.424Z",
+		"3.0.1": "2015-11-10T14:17:03.498Z",
+		"3.1.0": "2015-11-23T03:43:43.386Z",
+		"3.1.1": "2015-11-24T15:48:17.750Z",
+		"3.2.0": "2016-06-16T12:05:37.130Z",
+		"3.1.2": "2015-11-24T15:48:45.514Z",
+		"3.2.1": "2016-07-04T03:05:32.456Z",
+		"3.3.0": "2016-07-18T12:20:40.313Z",
+		"3.1.3": "2016-02-14T02:09:23.966Z",
+		"3.4.0": "2016-08-16T05:52:44.725Z",
+		"2.0.0": "2015-03-13T03:25:43.779Z",
+		"2.0.1": "2015-03-13T03:35:02.389Z",
+		"2.1.0": "2015-11-06T03:57:24.422Z",
+		"created": "2015-02-11T06:08:38.483Z",
+		"5.0.0-beta.0": "2017-09-19T09:52:55.285Z",
+		"2.0.2": "2015-03-13T03:52:17.264Z",
+		"2.1.1": "2015-11-06T04:04:41.786Z",
+		"2.0.3": "2015-06-11T18:42:03.672Z",
+		"1.0.0": "2015-02-11T06:08:38.483Z"
+	},
+	"dist-tags": {
+		"beta": "5.0.0-beta.0",
+		"latest": "4.6.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828449840
+		}
+	},
+	"_distfiles": {
+		"rc-util-4.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.2.tgz",
+			"sha": "5804f8b141a13c8c14d7c265a7d21d298195af46"
+		},
+		"rc-util-4.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.1.1.tgz",
+			"sha": "9350e9c00368b50cd8fbd91775cc1cf9e2ca72b2"
+		},
+		"rc-util-4.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.2.0.tgz",
+			"sha": "dacec50735675a211f1c94571306a90e8b97248f"
+		},
+		"rc-util-4.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.3.tgz",
+			"sha": "ee1cda4c4761bb3fc1c6741edd869ca8cf4c251a"
+		},
+		"rc-util-4.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.3.0.tgz",
+			"sha": "31c61e747e3e107acfe78049f98b275a8051a398"
+		},
+		"rc-util-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.0.tgz",
+			"sha": "89364f3db99f8cc52e68251ea97561f009b1fd25"
+		},
+		"rc-util-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.1.tgz",
+			"sha": "9605c86a9768a9640268d4094e32b5b4ceeee228"
+		},
+		"rc-util-4.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.1.0.tgz",
+			"sha": "3f0012409bdd91caf16bac9428f41ca12e3d9c9b"
+		},
+		"rc-util-4.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.5.1.tgz",
+			"sha": "0e435057174c024901c7600ba8903dd03da3ab39"
+		},
+		"rc-util-4.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.6.0.tgz",
+			"sha": "ba33721783192ec4f3afb259e182b04e55deb7f6"
+		},
+		"rc-util-4.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.0.4.tgz",
+			"sha": "99813dd90aee7e29b64939a70ac176ead3f4ff39"
+		},
+		"rc-util-4.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.3.1.tgz",
+			"sha": "79f0adb30f449c1b29d7c5cdb2d82c193920c362"
+		},
+		"rc-util-4.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.4.0.tgz",
+			"sha": "f6a320a67100cfceaaa1b0a955b01e9be643576c"
+		},
+		"rc-util-4.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-4.5.0.tgz",
+			"sha": "3183e6ec806f382efb2d3e85770d95875fa6180f"
+		},
+		"rc-util-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.0.0.tgz",
+			"sha": "b642162e0898afd4c66da270b9b1eb5e95afd5c7"
+		},
+		"rc-util-3.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.4.1.tgz",
+			"sha": "4b7e0b0c7593bdbcff8ed045d88fbbc773a7b061"
+		},
+		"rc-util-3.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.0.1.tgz",
+			"sha": "51fc3e8bb2764af74df1561f5dd6407544035c83"
+		},
+		"rc-util-3.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.0.tgz",
+			"sha": "47d84a99749f675bc1abc80607e15ef8eb52a292"
+		},
+		"rc-util-3.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.1.tgz",
+			"sha": "2d46e4b054d22608de9d40e0b3387f49a2fb21fc"
+		},
+		"rc-util-3.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.2.0.tgz",
+			"sha": "793c5ce13ff67a0521421360236c9b926a3f5dd0"
+		},
+		"rc-util-3.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.2.tgz",
+			"sha": "094fd7b09a0be8739aa720f4a6b796df75b56c56"
+		},
+		"rc-util-3.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.2.1.tgz",
+			"sha": "79b74f38b039b340e86f31907285eb9011c67f7a"
+		},
+		"rc-util-3.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.3.0.tgz",
+			"sha": "9e7b546c85c36176c1c0beb19732b5d5e3a84e2b"
+		},
+		"rc-util-3.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.1.3.tgz",
+			"sha": "aeaa9010a8834645052a537834a8e8a2e5baa5f8"
+		},
+		"rc-util-3.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-3.4.0.tgz",
+			"sha": "d2528de311bd09d343fd010b16e2b61e60128c17"
+		},
+		"rc-util-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.0.tgz",
+			"sha": "2cd7c7c3a931a730ebdaeae20f28800c7434d75a"
+		},
+		"rc-util-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.1.tgz",
+			"sha": "5706a1cf228bf201fe1d082a80783e7834272835"
+		},
+		"rc-util-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.1.0.tgz",
+			"sha": "0386c6f2877f5c353c6ac74c83a18c0cf7607ceb"
+		},
+		"rc-util-5.0.0-beta.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-5.0.0-beta.0.tgz",
+			"sha": "f938774253dab5ecf2417c9eb3b927957081679f"
+		},
+		"rc-util-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.2.tgz",
+			"sha": "e0be9f256d49d9dc20d72c9925e0cb3d9aed04cb"
+		},
+		"rc-util-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.1.1.tgz",
+			"sha": "46d9103352352fb318d135a35a164185c430c0c9"
+		},
+		"rc-util-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-2.0.3.tgz",
+			"sha": "15293db8fb259bd9629f81f41b8b8b1741bdabac"
+		},
+		"rc-util-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-util/-/rc-util-1.0.0.tgz",
+			"sha": "73771d0aa174ab0573141823a1186e5022a4b1f4"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-1263bce16ee4f342",
+	"readme": "# rc-util\n\nCommon Utils For React Component.\n\n[![NPM version][npm-image]][npm-url]\n[![gemnasium deps][gemnasium-image]][gemnasium-url]\n[![node version][node-image]][node-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: http://img.shields.io/npm/v/rc-util.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/rc-util\n[travis-image]: https://img.shields.io/travis/react-component/util.svg?style=flat-square\n[travis-url]: https://travis-ci.org/react-component/util\n[coveralls-image]: https://img.shields.io/coveralls/react-component/util.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/react-component/util?branch=master\n[gemnasium-image]: http://img.shields.io/gemnasium/react-component/util.svg?style=flat-square\n[gemnasium-url]: https://gemnasium.com/react-component/util\n[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square\n[node-url]: http://nodejs.org/download/\n[download-image]: https://img.shields.io/npm/dm/rc-util.svg?style=flat-square\n[download-url]: https://npmjs.org/package/rc-util\n\n## Install\n\n[![rc-util](https://nodei.co/npm/rc-util.png)](https://npmjs.org/package/rc-util)\n\n## API\n\n### createChainedFunction\n\n> (...functions): Function\n\nCreate a function which will call all the functions with it's arguments from left to right.\n\n```jsx\nimport createChainedFunction from 'rc-util/lib/createChainedFunction';\n```\n\n### deprecated\n\n> (prop: string, instead: string, component: string): void\n\nLog an error message to warn developers that `prop` is deprecated.\n\n```jsx\nimport deprecated from 'rc-util/lib/deprecated';\n```\n\n### getContainerRenderMixin\n\n> (config: Object): Object\n\nTo generate a mixin which will render specific component into specific container automatically.\n\n```jsx\nimport getContainerRenderMixin from 'rc-util/lib/getContainerRenderMixin';\n```\n\nFields in `config` and their meanings.\n\n| Field | Type | Description | Default |\n|-------|------|-------------|---------|\n| autoMount | boolean | Whether to render component into container automatically | true |\n| autoDestroy | boolean | Whether to remove container automatically while the component is unmounted | true |\n| isVisible | (instance): boolean | A function to get current visibility of the component | - |\n| isForceRender | (instance): boolean | A function to determine whether to render popup even it's not visible | - |\n| getComponent | (instance, extra): ReactNode | A function to get the component which will be rendered into container | - |\n| getContaienr | (instance): HTMLElement | A function to get the container | |\n\n### Portal\n\nRender children to the specific container;\n\n```jsx\nimport Portal from 'rc-util/lib/Portal';\n```\n\nProps:\n\n| Prop | Type | Description | Default |\n|-------|------|-------------|---------|\n| children | ReactChildren | Content render to the container | - |\n| getContaienr | (): HTMLElement  | A function  to get the container | - |\n\n\n### getScrollBarSize\n\n> (fresh?: boolean): number\n\nGet the width of scrollbar.\n\n```jsx\nimport getScrollBarSize from 'rc-util/lib/getScrollBarSize';\n```\n\n### guid\n\n> (): string\n\nTo generate a global unique id across current application.\n\n```jsx\nimport guid from 'rc-util/lib/guid';\n```\n\n### pickAttrs\n\n> (props: Object): Object\n\nPick valid HTML attributes and events from props.\n\n```jsx\nimport pickAttrs from 'rc-util/lib/pickAttrs';\n```\n\n### warn\n\n> (msg: string): void\n\nA shallow wrapper of `console.warn`.\n\n```jsx\nimport warn from 'rc-util/lib/warn';\n```\n\n### Children\n\nA collection of functions to operate React elements' children.\n\n#### Children/mapSelf\n\n> (children): children\n\nReturn a shallow copy of children.\n\n```jsx\nimport mapSelf from 'rc-util/lib/Children/mapSelf';\n```\n\n#### Children/toArray\n\n> (children: ReactNode[]): ReactNode[]\n\nConvert children into an array.\n\n```jsx\nimport toArray from 'rc-util/lib/Children/toArray';\n```\n\n### Dom\n\nA collection of functions to operate DOM elements.\n\n#### Dom/addEventlistener\n\n> (target: ReactNode, eventType: string, listener: Function): { remove: Function }\n\nA shallow wrapper of [add-dom-event-listener](https://github.com/yiminghe/add-dom-event-listener).\n\n```jsx\nimport addEventlistener from 'rc-util/lib/Dom/addEventlistener';\n```\n\n#### Dom/canUseDom\n\n> (): boolean\n\nCheck if DOM is available.\n\n```jsx\nimport canUseDom from 'rc-util/lib/Dom/canUseDom';\n```\n\n#### Dom/class\n\nA collection of functions to operate DOM nodes' class name.\n\n* `hasClass(node: HTMLElement, className: string): boolean`\n* `addClass(node: HTMLElement, className: string): void`\n* `removeClass(node: HTMLElement, className: string): void`\n\n```jsx\nimport cssClass from 'rc-util/lib/Dom/class;\n```\n\n#### Dom/contains\n\n> (root: HTMLElement, node: HTMLElement): boolean\n\nCheck if node is equal to root or in the subtree of root.\n\n```jsx\nimport contains from 'rc-util/lib/Dom/contains';\n```\n\n#### Dom/css\n\nA collection of functions to get or set css styles.\n\n* `get(node: HTMLElement, name?: string): any`\n* `set(node: HTMLElement, name?: string, value: any) | set(node, object)`\n* `getOuterWidth(el: HTMLElement): number`\n* `getOuterHeight(el: HTMLElement): number`\n* `getDocSize(): { width: number, height: number }`\n* `getClientSize(): { width: number, height: number }`\n* `getScroll(): { scrollLeft: number, scrollTop: number }`\n* `getOffset(node: HTMLElement): { left: number, top: number }`\n\n```jsx\nimport css from 'rc-util/lib/Dom/css';\n```\n\n#### Dom/focus\n\nA collection of functions to operate focus status of DOM node.\n\n* `saveLastFocusNode(): void`\n* `clearLastFocusNode(): void`\n* `backLastFocusNode(): void`\n* `getFocusNodeList(node: HTMLElement): HTMLElement[]` get a list of focusable nodes from the subtree of node.\n* `limitTabRange(node: HTMLElement, e: Event): void`\n\n```jsx\nimport focus from 'rc-util/lib/Dom/focus';\n```\n\n#### Dom/support\n\n> { animation: boolean | Object, transition: boolean | Object }\n\nA flag to tell whether current environment supports `animationend` or `transitionend`.\n\n```jsx\nimport support from 'rc-util/lib/Dom/support';\n```\n\n### KeyCode\n\n> Enum\n\nEnum of KeyCode, please check the [definition](https://github.com/react-component/util/blob/master/src/KeyCode.js) of it.\n\n```jsx\nimport KeyCode from 'rc-util/lib/KeyCode';\n```\n\n#### KeyCode.isTextModifyingKeyEvent\n\n> (e: Event): boolean\n\nWhether text and modified key is entered at the same time.\n\n#### KeyCode.isCharacterKey\n\n> (keyCode: KeyCode): boolean\n\nWhether character is entered.\n\n## License\n\nrc-util is released under the MIT license."
+}

@@ -2385,7 +2385,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749443473
+			"fetched": 1547828468977
 		}
 	},
 	"_distfiles": {
@@ -2463,6 +2463,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-868b78f25914f71c",
+	"_rev": "10-c50070ae1c290110",
 	"readme": "[![NPM version](https://img.shields.io/npm/v/esprima.svg)](https://www.npmjs.com/package/@gerhobbelt/esprima)\n[![npm download](https://img.shields.io/npm/dm/esprima.svg)](https://www.npmjs.com/package/@gerhobbelt/esprima)\n[![Build Status](https://img.shields.io/travis/GerHobbelt/esprima/master.svg)](https://travis-ci.org/GerHobbelt/esprima)\n[![Coverage Status](https://img.shields.io/codecov/c/github/GerHobbelt/esprima/master.svg)](https://codecov.io/github/GerHobbelt/esprima)\n\n>\n> # NOTE\n>\n> This fork/clone of `esprima` tracks the original closely, but adds support for \n> parsing [JISON](https://github.com/GerHobbelt/jison) action code blocks, which\n> MAY contain JISON-specific identifiers in the JavaScript code, e.g. `$1`, `@1`,\n> `#1` and `#ID#`.\n>\n \n**Esprima** ([esprima.org](http://esprima.org), BSD license) is a high performance,\nstandard-compliant [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)\nparser written in ECMAScript (also popularly known as\n[JavaScript](https://en.wikipedia.org/wiki/JavaScript)).\nEsprima is created and maintained by [Ariya Hidayat](https://twitter.com/ariyahidayat),\nwith the help of [many contributors](https://github.com/GerHobbelt/esprima/contributors).\n\n### Features\n\n- Full support for ECMAScript 2017 ([ECMA-262 8th Edition](http://www.ecma-international.org/publications/standards/Ecma-262.htm))\n- Sensible [syntax tree format](https://github.com/estree/estree/blob/master/es5.md) as standardized by [ESTree project](https://github.com/estree/estree)\n- Experimental support for [JSX](https://facebook.github.io/jsx/), a syntax extension for [React](https://facebook.github.io/react/)\n- Optional tracking of syntax node location (index-based and line-column)\n- [Heavily tested](http://esprima.org/test/ci.html) (~1500 [unit tests](https://github.com/GerHobbelt/esprima/tree/master/test/fixtures) with [full code coverage](https://codecov.io/github/GerHobbelt/esprima))\n\n### API\n\nEsprima can be used to perform [lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis) (tokenization) or [syntactic analysis](https://en.wikipedia.org/wiki/Parsing) (parsing) of a JavaScript program.\n\nA simple example on Node.js REPL:\n\n```javascript\n> var esprima = require('esprima');\n> var program = 'const answer = 42';\n\n> esprima.tokenize(program);\n[ { type: 'Keyword', value: 'const' },\n  { type: 'Identifier', value: 'answer' },\n  { type: 'Punctuator', value: '=' },\n  { type: 'Numeric', value: '42' } ]\n  \n> esprima.parseScript(program);\n{ type: 'Program',\n  body:\n   [ { type: 'VariableDeclaration',\n       declarations: [Object],\n       kind: 'const' } ],\n  sourceType: 'script' }\n```\n\nFor more information, please read the [complete documentation](http://esprima.org/doc)."
 }

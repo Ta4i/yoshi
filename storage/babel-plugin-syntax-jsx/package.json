@@ -1800,7 +1800,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749379982
+			"fetched": 1547828420210
 		}
 	},
 	"_distfiles": {
@@ -1938,6 +1938,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b1c12c9bd3a17288",
+	"_rev": "10-e1c08a573bea4619",
 	"readme": "# babel-plugin-syntax-jsx\n\n\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-jsx\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-jsx\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-jsx script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-jsx\"]\n});\n```"
 }

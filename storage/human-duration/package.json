@@ -131,7 +131,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749376403
+			"fetched": 1547828473256
 		}
 	},
 	"_distfiles": {
@@ -145,6 +145,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-0d985666efc48a1a",
+	"_rev": "8-3d01bbe85187fe34",
 	"readme": "# human-duration [![Build Status](https://travis-ci.org/WatchBeam/human-duration.svg?branch=master)](https://travis-ci.org/WatchBeam/human-duration)\n\nhuman-duration formats a duration as a human-readable duration, like `2d 6h`. There are other utilities similar to this, but this one aims to be compact (standing at 600 bytes), entirely configurable, and usable with internationalization.\n\n### Installation\n\n```\nnpm install --save human-duration\n```\n\n### Usage\n\nSee the test cases for quick usage examples.\n\n```js\nconst duration = require('human-duration')\n\nduration.fmt(second * 1.2) // => '1s'\nduration.fmt(second * 90) // => '1m 30s'\nduration.fmt(minute * 70 + second * 13) // => '1h 10m 13s'\nduration.fmt(hour * 30 + minute * 70 + second * 13) // => '1d 7h 10m 13s'\n\nduration.fmt(hour * 30).segments(2) // => '1d 7h'\nduration.fmt(hour * 30).separator(':') // => '1d:7h:0m:0s'\nduration.fmt(hour * 30).grading([duration.minutes, duration.hour]) // => '0m 30h'\nduration.fmt(1040)\n  .grading([\n    { unit: '% seconds', milliseconds: 1000 },\n    { unit: x => x === 1 ? 'a jiffy' : `${x} jiffies}`, milliseconds: 5 }\n  ])\n  .separator(' and ') // => '1s and 8 jiffies'\n```"
 }

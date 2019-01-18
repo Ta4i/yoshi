@@ -381,7 +381,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749432520
+			"fetched": 1547828456909
 		}
 	},
 	"_distfiles": {
@@ -419,6 +419,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-9619f3d82806c5d3",
+	"_rev": "10-29f82635802feefd",
 	"readme": "[![Build Status](https://secure.travis-ci.org/soldair/node-buffer-indexof.png)](http://travis-ci.org/soldair/node-buffer-indexof)\n \n\nbuffer-indexof\n===================\n\nfind the index of a buffer in a buffer. should behave like String.indexOf etc.\n\n```js\n\nvar bindexOf = require('buffer-indexof');\n\nvar newLineBuffer = new Buffer(\"\\n\");\n\nvar b = new Buffer(\"hi\\nho\\nsilver\");\n\n\nbindexOf(b,newLineBuffer) === 2\n\n// you can also start from index\n\nbindexOf(b,newLineBuffer,3) === 5\n\n// no match === -1\n\nbindexOf(b,newLineBuffer,6) === -1\n\n\n```\n\nCHANGELOG\n----------\n\n- 1.0.0\n  - fixed issue finding multibyte needles in haystack.  thanks @imulus\n- 1.0.1\n  - fixed failing to find partial matches as pointed out by @bahaa-aidi in #2"
 }

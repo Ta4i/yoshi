@@ -386,7 +386,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749454023
+			"fetched": 1547828476777
 		}
 	},
 	"_distfiles": {
@@ -408,6 +408,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-ab530a1af0de9756",
+	"_rev": "10-48c25517fe5538ac",
 	"readme": "# longest-streak [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCount the longest repeating streak of a character.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install longest-streak\n```\n\n## Usage\n\n```js\nvar longestStreak = require('longest-streak');\n\nlongestStreak('` foo `` bar `', '`') //=> 2\n```\n\n## API\n\n### `longestStreak(value, character)`\n\nGet the count of the longest repeating streak of `character` in `value`.\n\n###### Parameters\n\n*   `value` (`string`) — Content, coerced to string.\n*   `character` (`string`) — Single character to look for.\n\n###### Returns\n\n`number` — Number of characters at the place where `character` occurs in\nits longest streak in `value`.\n\n###### Throws\n\n*   `Error` — when `character` is not a single character string.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/longest-streak.svg\n\n[travis]: https://travis-ci.org/wooorm/longest-streak\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/longest-streak.svg\n\n[codecov]: https://codecov.io/github/wooorm/longest-streak\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

@@ -1,15 +1,10 @@
-import * as React from 'react';
-import * as PropTypes from 'prop-types';
-import { translate, InjectedTranslateProps } from 'react-i18next';
+import React from 'react';
+import { withNamespaces, WithNamespaces } from 'react-i18next';
 import * as s from './App.scss';
 
-interface IAppProps extends InjectedTranslateProps {}
+interface IAppProps extends WithNamespaces {}
 
 class App extends React.Component<IAppProps> {
-  static propTypes = {
-    t: PropTypes.func,
-  };
-
   render() {
     const { t } = this.props;
     return (
@@ -23,4 +18,4 @@ class App extends React.Component<IAppProps> {
   }
 }
 
-export default translate(undefined, { wait: true })(App);
+export default withNamespaces(undefined, { wait: true })(App);

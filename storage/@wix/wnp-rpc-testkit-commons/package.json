@@ -1,0 +1,1401 @@
+{
+	"name": "@wix/wnp-rpc-testkit-commons",
+	"versions": {
+		"1.0.12": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.12",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.12.tgz",
+				"shasum": "d0b0f1d2635b9ab8b61555bb1349ffbb71145974"
+			},
+			"dependencies": {
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.12",
+			"types": "index.d.ts"
+		},
+		"1.0.13": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.13",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.13.tgz",
+				"shasum": "fa97374642b555b945e6db1d5dc8f62bbc49bc8c"
+			},
+			"dependencies": {
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.5",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.13",
+			"types": "index.d.ts"
+		},
+		"1.0.14": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.14",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.14.tgz",
+				"shasum": "6306a51d6ebd410360b6984c2335d8ddd0ef91d6"
+			},
+			"dependencies": {
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.6",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.14",
+			"types": "index.d.ts"
+		},
+		"1.0.15": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.15",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.15.tgz",
+				"shasum": "e7881dc6e93e2ff6a34bff09651389cddddda984"
+			},
+			"dependencies": {
+				"@wix/wix-aspects": "~1.0.640",
+				"@wix/wix-proto-runtime-toolkit": "~1.0.0",
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-proto-codegen": "~2.0.0",
+				"@wix/wnp-dts-test": "~1.0.0",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.6"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.15",
+			"types": "index.d.ts"
+		},
+		"1.0.10": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.10",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.10.tgz",
+				"shasum": "56b9d5f8a371fea8431e939c9f471afcad7085ec"
+			},
+			"dependencies": {
+				"bluebird": "3.5.2",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.10",
+			"types": "index.d.ts"
+		},
+		"1.0.11": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.11",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.11.tgz",
+				"shasum": "477ee1ba1549292e72e47299ba5c218de355e300"
+			},
+			"dependencies": {
+				"bluebird": "3.5.2",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.2",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.11",
+			"types": "index.d.ts"
+		},
+		"1.0.3": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.3",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.3.tgz",
+				"shasum": "34dba343c6f00d1f29661eccb20b8844ad17bbb1"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.3",
+			"types": "index.d.ts"
+		},
+		"1.0.4": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.4",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.4.tgz",
+				"shasum": "ce80d11624684a6781bf37fb26c7225d5edb7691"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.4",
+			"types": "index.d.ts"
+		},
+		"1.0.5": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.5",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.5.tgz",
+				"shasum": "40c09167471841932d7d4bad37fa61d1bdb4a802"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.5",
+			"types": "index.d.ts"
+		},
+		"1.0.6": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.6",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.6.tgz",
+				"shasum": "cb0755a2e5ca069bace37de3a7d7a5c2e98f1e43"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.6",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.6",
+			"types": "index.d.ts"
+		},
+		"1.0.7": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.7",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.7.tgz",
+				"shasum": "3b1f05f7a1cb25dcfe6f493f60150d9a2f74fef9"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"sinon": "6.1.5",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.7",
+			"types": "index.d.ts"
+		},
+		"1.0.8": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.8",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.8.tgz",
+				"shasum": "fdfd49c2cc4b6aa0a4c4df92c738bcfff98a56cd"
+			},
+			"dependencies": {
+				"bluebird": "3.5.2",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.6",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.8",
+			"types": "index.d.ts"
+		},
+		"1.0.9": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.9",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.9.tgz",
+				"shasum": "e49da409bf73b85ad5f8bc37ec26b9be7f0f0628"
+			},
+			"dependencies": {
+				"bluebird": "3.5.2",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.6",
+				"@types/mocha": "5.2.5",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"wnpm-ci": "7.0.1",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.9",
+			"types": "index.d.ts"
+		},
+		"1.0.16": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.16",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.16.tgz",
+				"shasum": "27bdb5e58f14765c5a3ef93fa4e221ad2d13aa64"
+			},
+			"dependencies": {
+				"@wix/wix-aspects": "~1.0.640",
+				"@wix/wix-proto-runtime-toolkit": "~1.0.0",
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-proto-codegen": "~2.0.0",
+				"@wix/wnp-dts-test": "~1.0.0",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.16",
+			"types": "index.d.ts"
+		},
+		"1.0.0": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.0",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.0.tgz",
+				"shasum": "2a23bb1b4cf09543fde00ca6f141a491cb4cab30"
+			},
+			"dependencies": {
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.0",
+			"types": "index.d.ts"
+		},
+		"1.0.17": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.17",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.17.tgz",
+				"shasum": "26f967ef1743254bea4dbe5aa3657506eac1b3ec"
+			},
+			"dependencies": {
+				"@wix/wix-aspects": "~1.0.640",
+				"@wix/wix-proto-runtime-toolkit": "~1.0.0",
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-proto-codegen": "~2.0.0",
+				"@wix/wnp-dts-test": "~1.0.0",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.17",
+			"types": "index.d.ts"
+		},
+		"1.0.1": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.1",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.1.tgz",
+				"shasum": "b1ca9d68019d9c8b3613abc51985c55633eae06f"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.1",
+			"types": "index.d.ts"
+		},
+		"1.0.18": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.18",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.18.tgz",
+				"shasum": "1924855e68bcffa428cebc434da50b462ce72d11"
+			},
+			"dependencies": {
+				"@wix/wix-aspects": "~1.0.640",
+				"@wix/wix-proto-runtime-toolkit": "~1.0.0",
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-proto-codegen": "~2.0.0",
+				"@wix/wnp-dts-test": "~1.0.0",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.18",
+			"types": "index.d.ts"
+		},
+		"1.0.2": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.2",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.2.tgz",
+				"shasum": "1429ee5e29fc7e54a9a2cdcc594cef1d06ad4ada"
+			},
+			"dependencies": {
+				"bluebird": "3.5.1",
+				"lodash": "4.17.10",
+				"stack-trace": "0.0.10",
+				"wix-aspects": "~1.0.640",
+				"wix-proto-runtime-toolkit": "~1.0.0"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.4",
+				"@types/mocha": "5.2.5",
+				"chai": "4.1.2",
+				"chai-as-promised": "7.1.1",
+				"eslint-config-spjs": "~1.0.596",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"npm-version-up": "0.1.5",
+				"sinon": "6.1.4",
+				"sinon-chai": "3.2.0",
+				"wix-proto-codegen": "~2.0.0",
+				"wnp-dts-test": "~1.0.0"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "npm-version-up --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.2",
+			"types": "index.d.ts"
+		},
+		"1.0.19": {
+			"name": "@wix/wnp-rpc-testkit-commons",
+			"description": "RPC testkit commons",
+			"version": "1.0.19",
+			"author": "Daniel Shmuglin <daniels@wix.com>",
+			"homepage": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-platform/wix-node-platform/tree/master/rpc/wnp-rpc-testkit-commons"
+			},
+			"bugs": {
+				"url": "https://github.com/wix-platform/wix-node-platform/issues"
+			},
+			"main": "index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.19.tgz",
+				"shasum": "7113153607987aff4409e19a9acb1454c72a2796"
+			},
+			"dependencies": {
+				"@wix/wix-aspects": "~1.0.640",
+				"@wix/wix-proto-runtime-toolkit": "~1.0.0",
+				"bluebird": "3.5.3",
+				"lodash": "4.17.11",
+				"stack-trace": "0.0.10"
+			},
+			"devDependencies": {
+				"@types/chai": "4.1.7",
+				"@types/mocha": "5.2.5",
+				"@wix/eslint-config-spjs": "~1.0.596",
+				"@wix/wix-proto-codegen": "~2.0.0",
+				"@wix/wnp-dts-test": "~1.0.0",
+				"chai": "4.2.0",
+				"chai-as-promised": "7.1.1",
+				"long": "4.0.0",
+				"mocha": "5.2.0",
+				"mocha-env-reporter": "2.0.4",
+				"sinon": "6.3.4",
+				"sinon-chai": "3.3.0",
+				"wnpm-ci": "7.0.7"
+			},
+			"keywords": [
+				"json",
+				"rpc",
+				"client"
+			],
+			"license": "ISC",
+			"scripts": {
+				"clean": "rm -rf target",
+				"build": "npm run clean && npm run proto",
+				"lint": "eslint --fix .",
+				"proto": "wix-proto-codegen --module ./test/proto-module --dir ../../target/dist --workDir ../../target --filename local",
+				"pretest": "npm run build",
+				"test": "DEBUG='wix:*' mocha --exit --require ts-node/register --reporter mocha-env-reporter 'test/**/*.spec.js' 'test/**/*.it.js' 'test/**/*.it.ts'",
+				"test:typings": "dts-test",
+				"posttest": "npm run lint -s",
+				"release": "wnpm-release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wnp-rpc-testkit-commons@1.0.19",
+			"types": "index.d.ts"
+		}
+	},
+	"time": {
+		"1.0.12": "2018-11-14T12:25:56.195Z",
+		"1.0.13": "2018-11-27T21:46:40.644Z",
+		"1.0.14": "2018-12-05T11:48:16.053Z",
+		"1.0.15": "2018-12-12T08:50:10.210Z",
+		"created": "2018-07-29T07:50:59.441Z",
+		"1.0.10": "2018-11-04T14:51:03.353Z",
+		"1.0.11": "2018-11-06T14:58:09.238Z",
+		"1.0.3": "2018-08-15T07:03:34.264Z",
+		"1.0.4": "2018-08-26T12:12:16.112Z",
+		"1.0.5": "2018-09-13T11:01:21.531Z",
+		"1.0.6": "2018-09-25T14:30:16.629Z",
+		"1.0.7": "2018-10-02T10:39:33.760Z",
+		"1.0.8": "2018-10-03T10:59:34.723Z",
+		"1.0.9": "2018-10-24T15:38:31.022Z",
+		"modified": "2019-01-14T11:40:50.781Z",
+		"1.0.16": "2018-12-13T12:04:22.885Z",
+		"1.0.0": "2018-07-29T07:50:59.441Z",
+		"1.0.17": "2018-12-13T14:27:51.975Z",
+		"1.0.1": "2018-08-06T06:57:36.498Z",
+		"1.0.18": "2019-01-02T14:23:59.398Z",
+		"1.0.2": "2018-08-06T10:03:35.872Z",
+		"1.0.19": "2019-01-14T11:40:50.781Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.19"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828413893
+		}
+	},
+	"_distfiles": {
+		"wnp-rpc-testkit-commons-1.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.12.tgz",
+			"sha": "d0b0f1d2635b9ab8b61555bb1349ffbb71145974"
+		},
+		"wnp-rpc-testkit-commons-1.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.13.tgz",
+			"sha": "fa97374642b555b945e6db1d5dc8f62bbc49bc8c"
+		},
+		"wnp-rpc-testkit-commons-1.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.14.tgz",
+			"sha": "6306a51d6ebd410360b6984c2335d8ddd0ef91d6"
+		},
+		"wnp-rpc-testkit-commons-1.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.15.tgz",
+			"sha": "e7881dc6e93e2ff6a34bff09651389cddddda984"
+		},
+		"wnp-rpc-testkit-commons-1.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.10.tgz",
+			"sha": "56b9d5f8a371fea8431e939c9f471afcad7085ec"
+		},
+		"wnp-rpc-testkit-commons-1.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.11.tgz",
+			"sha": "477ee1ba1549292e72e47299ba5c218de355e300"
+		},
+		"wnp-rpc-testkit-commons-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.3.tgz",
+			"sha": "34dba343c6f00d1f29661eccb20b8844ad17bbb1"
+		},
+		"wnp-rpc-testkit-commons-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.4.tgz",
+			"sha": "ce80d11624684a6781bf37fb26c7225d5edb7691"
+		},
+		"wnp-rpc-testkit-commons-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.5.tgz",
+			"sha": "40c09167471841932d7d4bad37fa61d1bdb4a802"
+		},
+		"wnp-rpc-testkit-commons-1.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.6.tgz",
+			"sha": "cb0755a2e5ca069bace37de3a7d7a5c2e98f1e43"
+		},
+		"wnp-rpc-testkit-commons-1.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.7.tgz",
+			"sha": "3b1f05f7a1cb25dcfe6f493f60150d9a2f74fef9"
+		},
+		"wnp-rpc-testkit-commons-1.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.8.tgz",
+			"sha": "fdfd49c2cc4b6aa0a4c4df92c738bcfff98a56cd"
+		},
+		"wnp-rpc-testkit-commons-1.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.9.tgz",
+			"sha": "e49da409bf73b85ad5f8bc37ec26b9be7f0f0628"
+		},
+		"wnp-rpc-testkit-commons-1.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.16.tgz",
+			"sha": "27bdb5e58f14765c5a3ef93fa4e221ad2d13aa64"
+		},
+		"wnp-rpc-testkit-commons-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.0.tgz",
+			"sha": "2a23bb1b4cf09543fde00ca6f141a491cb4cab30"
+		},
+		"wnp-rpc-testkit-commons-1.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.17.tgz",
+			"sha": "26f967ef1743254bea4dbe5aa3657506eac1b3ec"
+		},
+		"wnp-rpc-testkit-commons-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.1.tgz",
+			"sha": "b1ca9d68019d9c8b3613abc51985c55633eae06f"
+		},
+		"wnp-rpc-testkit-commons-1.0.18.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.18.tgz",
+			"sha": "1924855e68bcffa428cebc434da50b462ce72d11"
+		},
+		"wnp-rpc-testkit-commons-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.2.tgz",
+			"sha": "1429ee5e29fc7e54a9a2cdcc594cef1d06ad4ada"
+		},
+		"wnp-rpc-testkit-commons-1.0.19.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wnp-rpc-testkit-commons/-/@wix/wnp-rpc-testkit-commons-1.0.19.tgz",
+			"sha": "7113153607987aff4409e19a9acb1454c72a2796"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-e2e5aac4f383834f",
+	"readme": ""
+}

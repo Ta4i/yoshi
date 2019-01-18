@@ -1389,7 +1389,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749384075
+			"fetched": 1547828423133
 		}
 	},
 	"_distfiles": {
@@ -1467,6 +1467,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e654171b74e20e09",
+	"_rev": "10-9e24faf6db5b170a",
 	"readme": "# binary-extensions [![Build Status](https://travis-ci.org/sindresorhus/binary-extensions.svg?branch=master)](https://travis-ci.org/sindresorhus/binary-extensions)\n\n> List of binary file extensions\n\nThe list is just a [JSON file](binary-extensions.json) and can be used wherever.\n\n\n## Install\n\n```\n$ npm install binary-extensions\n```\n\n\n## Usage\n\n```js\nconst binaryExtensions = require('binary-extensions');\n\nconsole.log(binaryExtensions);\n//=> ['3ds', '3g2', …]\n```\n\n\n## Related\n\n- [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file\n- [text-extensions](https://github.com/sindresorhus/text-extensions) - List of text file extensions\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

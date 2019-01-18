@@ -337,7 +337,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749454025
+			"fetched": 1547828476035
 		}
 	},
 	"_distfiles": {
@@ -355,6 +355,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-5f1ee035981c10b0",
+	"_rev": "10-8b45289dfa5c930f",
 	"readme": "# is-whitespace-character [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nCheck if a character is a whitespace character: `\\s`, which equals\nall Unicode Space Separators (including `[ \\t\\v\\f]`), the BOM\n(`\\uFEFF`), and line terminator (`[\\n\\r\\u2028\\u2029]`).\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install is-whitespace-character\n```\n\n## Usage\n\n```javascript\nvar whitespace = require('is-whitespace-character')\n\nwhitespace(' ') // => true\nwhitespace('\\n') // => true\nwhitespace('\\uFEFF') // => true\nwhitespace('_') // => false\nwhitespace('a') // => true\nwhitespace('💩') // => false\n```\n\n## API\n\n### `whitespaceCharacter(character|code)`\n\nCheck whether the given character code (`number`), or the character\ncode at the first position (`string`), is a whitespace character.\n\n## Related\n\n*   [`is-alphabetical`](https://github.com/wooorm/is-alphabetical)\n*   [`is-alphanumerical`](https://github.com/wooorm/is-alphanumerical)\n*   [`is-decimal`](https://github.com/wooorm/is-decimal)\n*   [`is-hexadecimal`](https://github.com/wooorm/is-hexadecimal)\n*   [`is-word-character`](https://github.com/wooorm/is-word-character)\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/is-whitespace-character.svg\n\n[travis]: https://travis-ci.org/wooorm/is-whitespace-character\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/is-whitespace-character.svg\n\n[codecov]: https://codecov.io/github/wooorm/is-whitespace-character\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

@@ -3646,7 +3646,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749460023
+			"fetched": 1547828481484
 		}
 	},
 	"_distfiles": {
@@ -3784,6 +3784,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-482c316d74107804",
+	"_rev": "8-cf057d3b2c897757",
 	"readme": "# bufrw\n\nBuffer Reading and Writing\n\n## Example\n\nSimple length-prefixed string:\n\n```js\nvar bufrw = require(\"bufrw\");\n\nvar buf = bufrw.toBuffer(bufrw.str1, \"hello world\");\n// <Buffer 0b 68 65 6c 6c 6f 20 77 6f 72 6c 64>\nvar str = bufrw.fromBuffer(bufrw.str1, buf)\n// \"hello world\"\n```\n\n// TODO more examples\n\n## Concept and Motivation\n\nA combinatoric library for synchronous binary buffer reading and writing.\n\nThe design is to combine:\n- needed byte length calculation\n- writing into a pre-allocated buffer\n- reading from a buffer\n\nInto a single re-combinable data type, eventually supporting code generation\nfor efficiency.\n\nAny of those three steps may result in an error, so rather than rely on error\nthrow/catching we use an error-able result type.\n\n## API Documentation\n\nSee docs.jsig\n\n## Installation\n\n`npm install bufrw`\n\n## Tests\n\n`npm test`\n\n## NPM scripts\n\n - `npm run add-licence` This will add the licence headers.\n - `npm run cover` This runs the tests with code coverage\n - `npm run lint` This will run the linter on your code\n - `npm test` This will run the tests.\n - `npm run trace` This will run your tests in tracing mode.\n - `npm run travis` This is run by travis.CI to run your tests\n - `npm run view-cover` This will show code coverage in a browser\n\n## Contributors\n\n - Joshua T Corbin\n\n## MIT Licenced\n\n  [build-png]: https://secure.travis-ci.org/uber/bufrw.png\n  [build]: https://travis-ci.org/uber/bufrw\n  [cover-png]: https://coveralls.io/repos/uber/bufrw/badge.png\n  [cover]: https://coveralls.io/r/uber/bufrw\n  [dep-png]: https://david-dm.org/uber/bufrw.png\n  [dep]: https://david-dm.org/uber/bufrw\n  [test-png]: https://ci.testling.com/uber/bufrw.png\n  [tes]: https://ci.testling.com/uber/bufrw\n  [npm-png]: https://nodei.co/npm/bufrw.png?stars&downloads\n  [npm]: https://nodei.co/npm/bufrw"
 }

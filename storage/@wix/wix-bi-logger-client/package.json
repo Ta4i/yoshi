@@ -1,0 +1,444 @@
+{
+	"name": "@wix/wix-bi-logger-client",
+	"versions": {
+		"0.0.264": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.264",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.264.tgz",
+				"shasum": "7b0826ce0a040ced21c6a3b2f794db0fa971d176"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^4.1.2",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-chai": "^3.0.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.264"
+		},
+		"0.0.265": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.265",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.265.tgz",
+				"shasum": "ad9dbca3e3e0c13ee98a17ea5c06c2df03f71d53"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "~3.5.0",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.265"
+		},
+		"0.0.266": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.266",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.266.tgz",
+				"shasum": "7a8447c2dae68be093c9d2ed88c91b909834c9c7"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^4.1.2",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-chai": "^3.0.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.266"
+		},
+		"0.0.267": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.267",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.267.tgz",
+				"shasum": "44b57b03f25c3c1261138538c83a4866c0b5a1a9"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^4.1.2",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-chai": "^3.0.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.267"
+		},
+		"0.0.261": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.261",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.261.tgz",
+				"shasum": "6ff0c10ba9fcdb9ed3bf400cf4427ce4e4900e98"
+			},
+			"dependencies": {
+				"mocha-teamcity-reporter": "^1.1.1"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "~3.5.0",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.261"
+		},
+		"0.0.262": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.262",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.262.tgz",
+				"shasum": "86ef7ed860505ac187db4728020592224939e130"
+			},
+			"dependencies": {
+				"mocha-teamcity-reporter": "^1.1.1"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "~3.5.0",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.262"
+		},
+		"0.0.263": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.263",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.263.tgz",
+				"shasum": "b5d817cebb9a19d366bf4fc53d027511c58edc63"
+			},
+			"dependencies": {
+				"mocha-teamcity-reporter": "^1.1.1"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^4.1.2",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-chai": "^3.0.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.263"
+		},
+		"0.0.268": {
+			"name": "@wix/wix-bi-logger-client",
+			"description": "Univeral wix bi logger api",
+			"version": "0.0.268",
+			"author": "vilius@wix.com",
+			"homepage": "https://github.com/wix/server-platform-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/bi-logger/bi-logger-client"
+			},
+			"main": "dist/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.268.tgz",
+				"shasum": "e73ef28f04645fa095cf7f3f5c299863a220e724"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.10.1",
+				"babel-eslint": "^6.0.4",
+				"babel-polyfill": "^6.3.14",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^4.1.2",
+				"chai-as-promised": "^7.0.0",
+				"eslint": "^3.19.0",
+				"eslint-config-wix": "latest",
+				"eslint-plugin-mocha": "~4.9.0",
+				"mocha": "~3.5.0",
+				"mocha-env-reporter": "latest",
+				"sinon": "^2.1.0",
+				"sinon-chai": "^3.0.0",
+				"sinon-promise": "^0.1.3",
+				"wnpm-ci": "latest"
+			},
+			"license": " ISC",
+			"scripts": {
+				"build": "babel lib --out-dir dist --source-maps --quiet",
+				"lint": "eslint test/ lib/",
+				"pretest": "npm run lint && npm run build",
+				"test": "mocha --reporter mocha-env-reporter",
+				"release": "wnpm-release --no-shrinkwrap"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/wix-bi-logger-client@0.0.268"
+		}
+	},
+	"time": {
+		"0.0.264": "2018-07-03T11:35:13.295Z",
+		"0.0.265": "2018-07-11T18:46:08.347Z",
+		"0.0.266": "2018-07-12T08:09:27.768Z",
+		"0.0.267": "2018-11-29T15:14:02.025Z",
+		"0.0.261": "2018-03-08T08:02:39.910Z",
+		"created": "2018-03-08T08:02:39.910Z",
+		"0.0.262": "2018-03-13T08:48:11.763Z",
+		"0.0.263": "2018-06-14T07:35:50.089Z",
+		"modified": "2019-01-02T09:32:57.123Z",
+		"0.0.268": "2019-01-02T09:32:57.123Z"
+	},
+	"dist-tags": {
+		"latest": "0.0.268"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828410491
+		}
+	},
+	"_distfiles": {
+		"wix-bi-logger-client-0.0.264.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.264.tgz",
+			"sha": "7b0826ce0a040ced21c6a3b2f794db0fa971d176"
+		},
+		"wix-bi-logger-client-0.0.265.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.265.tgz",
+			"sha": "ad9dbca3e3e0c13ee98a17ea5c06c2df03f71d53"
+		},
+		"wix-bi-logger-client-0.0.266.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.266.tgz",
+			"sha": "7a8447c2dae68be093c9d2ed88c91b909834c9c7"
+		},
+		"wix-bi-logger-client-0.0.267.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.267.tgz",
+			"sha": "44b57b03f25c3c1261138538c83a4866c0b5a1a9"
+		},
+		"wix-bi-logger-client-0.0.261.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.261.tgz",
+			"sha": "6ff0c10ba9fcdb9ed3bf400cf4427ce4e4900e98"
+		},
+		"wix-bi-logger-client-0.0.262.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.262.tgz",
+			"sha": "86ef7ed860505ac187db4728020592224939e130"
+		},
+		"wix-bi-logger-client-0.0.263.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.263.tgz",
+			"sha": "b5d817cebb9a19d366bf4fc53d027511c58edc63"
+		},
+		"wix-bi-logger-client-0.0.268.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/wix-bi-logger-client/-/@wix/wix-bi-logger-client-0.0.268.tgz",
+			"sha": "e73ef28f04645fa095cf7f3f5c299863a220e724"
+		}
+	},
+	"_attachments": {},
+	"_rev": "10-90508479d99742e3",
+	"readme": ""
+}

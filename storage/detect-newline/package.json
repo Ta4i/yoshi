@@ -667,7 +667,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749444276
+			"fetched": 1547828468994
 		}
 	},
 	"_distfiles": {
@@ -709,6 +709,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-13540bbefd44edbf",
+	"_rev": "10-059b53a53f4d7456",
 	"readme": "# detect-newline [![Build Status](https://travis-ci.org/sindresorhus/detect-newline.svg?branch=master)](https://travis-ci.org/sindresorhus/detect-newline)\n\n> Detect the dominant newline character of a string\n\n\n## Install\n\n```\n$ npm install --save detect-newline\n```\n\n\n## Usage\n\n```js\nconst detectNewline = require('detect-newline');\n\ndetectNewline('foo\\nbar\\nbaz\\r\\n');\n//=> '\\n'\n```\n\n\n## API\n\n### detectNewline(input)\n\nReturns detected newline or `null` when no newline character is found.\n\n### detectNewline.graceful(input)\n\nReturns detected newline or `\\n` when no newline character is found.\n\n\n## Related\n\n- [detect-newline-cli](https://github.com/sindresorhus/detect-newline-cli) - CLI for this module\n- [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

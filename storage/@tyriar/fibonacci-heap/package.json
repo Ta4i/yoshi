@@ -1564,7 +1564,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749386252
+			"fetched": 1547828440889
 		}
 	},
 	"_distfiles": {
@@ -1658,6 +1658,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-766b825c0eb59472",
+	"_rev": "8-22391c0635d65963",
 	"readme": "# ts-fibonacci-heap\n\n[![Build Status](https://api.travis-ci.org/gwtw/ts-fibonacci-heap.svg?branch=master)](http://travis-ci.org/gwtw/ts-fibonacci-heap)\n[![Coverage Status](https://coveralls.io/repos/github/gwtw/ts-fibonacci-heap/badge.svg?branch=master)](https://coveralls.io/github/gwtw/ts-fibonacci-heap?branch=master)\n\nA TypeScript implementation of the [Fibonacci heap](http://www.growingwiththeweb.com/data-structures/fibonacci-heap/overview/) data structure.\n\nNote that the primary purpose of this library is education but it should work in a production environment as well. It's certainly not as performant as it could be as it optimises for readability, abstraction and safety over raw performance.\n\n![](http://www.growingwiththeweb.com/images/data-structures/fibonacci-heap/fibonacci-heap.svg)\n\n## Features\n\n- 100% test coverage\n- Supports all common heap operations\n- Store keys with optional associated values\n- Optional custom compare function that can utilize both key and value to give full control over the order of the data\n\n## Install\n\n```bash\nnpm install --save @tyriar/fibonacci-heap\n```\n\n## Usage\n\nSee the [typings file](./typings/fibonacci-heap.d.ts) for the full API.\n\n```typescript\n// Import npm module\nimport { FibonacciHeap } from '@tyriar/fibonacci-heap';\n\n// Construct FibonacciHeap\nconst heap = new FibonacciHeap<number, any>();\n// Insert keys only\nheap.insert(3);\nheap.insert(7);\n// Insert keys and values\nheap.insert(8, {foo: 'bar'});\nheap.insert(1, {foo: 'baz'});\n\n// Extract all nodes in order\nwhile (!heap.isEmpty()) {\n  const node = heap.extractMinimum();\n  console.log('key: ' + node.key + ', value: ' + node.value);\n}\n// > key: 1, value: [object Object]\n// > key: 3, value: undefined\n// > key: 7, value: undefined\n// > key: 8, value: [object Object]\n\n// Construct custom compare FibonacciHeap\nconst heap2 = new FibonacciHeap<string, string>(function (a, b) {\n  return (a.key + a.value).localeCompare(b.key + b.value);\n});\nheap2.insert('2', 'B');\nheap2.insert('1', 'a');\nheap2.insert('1', 'A');\nheap2.insert('2', 'b');\n\n// Extract all nodes in order\nwhile (!heap2.isEmpty()) {\n  const node = heap2.extractMinimum();\n  console.log('key: ' + node.key + ', value: ' + node.value);\n}\n// > key: 1, value: a\n// > key: 1, value: A\n// > key: 2, value: b\n// > key: 2, value: B\n```\n\n## Operation time complexity\n\n| Operation      | Complexity |\n| -------------- | ---------- |\n| clear          | Θ(1)\\*     |\n| decreaseKey    | Θ(1)\\*     |\n| delete         | O(log n)\\* |\n| extractMinimum | O(log n)\\* |\n| findMinimum    | Θ(1)       |\n| insert         | Θ(1)       |\n| isEmpty        | Θ(1)       |\n| size           | Θ(n)       |\n| union          | Θ(1)       |\n\n\\* amortized"
 }

@@ -1,0 +1,1529 @@
+{
+	"name": "jss-camel-case",
+	"versions": {
+		"2.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "2.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.0.tgz",
+				"shasum": "735f867a9e1ea41bfdf80ef90bf0ac3dfeb16d0d"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.2.0",
+				"opener": "^1.4.1",
+				"qunitjs": "^1.21.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.2.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@2.0.0",
+			"gitHead": "62a87087016668041240129338fb25724273fcb4",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-2.0.0.tgz_1470055842478_0.5017282792832702"
+			},
+			"_shasum": "735f867a9e1ea41bfdf80ef90bf0ac3dfeb16d0d",
+			"_nodeVersion": "5.7.1"
+		},
+		"2.0.1": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "2.0.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.1.tgz",
+				"shasum": "075c911cd809f507453cc06344d60b1da46c113b"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.2.0",
+				"opener": "^1.4.1",
+				"qunitjs": "^1.21.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.2.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@2.0.1",
+			"gitHead": "206ba5cddad6336625fc834c48114bde31fed85e",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-2.0.1.tgz_1477514392100_0.6855254452675581"
+			},
+			"_shasum": "075c911cd809f507453cc06344d60b1da46c113b",
+			"_nodeVersion": "5.7.1"
+		},
+		"4.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "4.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-4.0.0.tgz",
+				"shasum": "39ef2a137aaa1e2f160ab826845305f8efabcfd5"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"common-tags": "^1.4.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^7.0.0",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^7.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@4.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "8bae395ebcdb735970cb4227342b5f812d26f763",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-4.0.0.tgz_1491797532544_0.5113322895485908"
+			},
+			"_shasum": "39ef2a137aaa1e2f160ab826845305f8efabcfd5",
+			"_nodeVersion": "6.10.2"
+		},
+		"0.1.1": {
+			"name": "jss-camel-case",
+			"description": "Allows to write camel cased rule properties.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.1.tgz",
+				"shasum": "eabbeea610e111b2e979e67ef73793f5e6a45249"
+			},
+			"devDependencies": {
+				"browserify": "6.0.3",
+				"qunitjs": "1.15.0",
+				"xpkg": "0.2.0",
+				"jss": "^1.0.0"
+			},
+			"peerDependencies": {
+				"jss": "^1.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://www.opensource.org/licenses/mit-license.php"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@0.1.1",
+			"gitHead": "23bc6cb1d626ab65a221dcc694d3e4259af7e590",
+			"_shasum": "eabbeea610e111b2e979e67ef73793f5e6a45249"
+		},
+		"0.2.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "0.2.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.2.0.tgz",
+				"shasum": "d24631589a9e170bf7de322369412730a3581e81"
+			},
+			"devDependencies": {
+				"babel": "^5.6.14",
+				"babel-core": "^5.6.20",
+				"babel-eslint": "^3.1.23",
+				"babel-loader": "^5.3.1",
+				"eslint": "^0.24.1",
+				"eslint-config-airbnb": "^0.0.6",
+				"eslint-config-jss": "^0.1.0",
+				"eslint-plugin-react": "^2.7.0",
+				"jss": "^2.3.4",
+				"opener": "^1.4.1",
+				"qunitjs": "1.15.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.11.0"
+			},
+			"peerDependencies": {
+				"jss": "^2.3.4"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "2.13.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@0.2.0",
+			"gitHead": "80698a20dc4fcbd4c442132f14a3a725d0517d0a",
+			"_shasum": "d24631589a9e170bf7de322369412730a3581e81",
+			"_nodeVersion": "2.4.0"
+		},
+		"0.1.2": {
+			"name": "jss-camel-case",
+			"description": "Allows to write camel cased rule properties.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.2.tgz",
+				"shasum": "47c96d1d8f841743f3f7be30ec75f181b6f2fa07"
+			},
+			"devDependencies": {
+				"browserify": "6.0.3",
+				"qunitjs": "1.15.0",
+				"xpkg": "0.2.0",
+				"jss": "^2.1.0"
+			},
+			"peerDependencies": {
+				"jss": "^2.1.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://www.opensource.org/licenses/mit-license.php"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "2.13.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@0.1.2",
+			"gitHead": "a1b340c6de015a2d987888ca0072acc9a74531b8",
+			"_shasum": "47c96d1d8f841743f3f7be30ec75f181b6f2fa07",
+			"_nodeVersion": "2.4.0"
+		},
+		"2.0.2": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "2.0.2",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.2.tgz",
+				"shasum": "62776f1480c4a2d4270745ab6ec6cb9f29a1e4e5"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^5.5.2",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@2.0.2",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "206ba5cddad6336625fc834c48114bde31fed85e",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-2.0.2.tgz_1478348005030_0.4898063801229"
+			},
+			"_shasum": "62776f1480c4a2d4270745ab6ec6cb9f29a1e4e5",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.1.0": {
+			"name": "jss-camel-case",
+			"description": "Allows to write camel cased rule properties.",
+			"version": "0.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.0.tgz",
+				"shasum": "40515b3fdfb376adea64c858ae391c33bb452fa2"
+			},
+			"devDependencies": {
+				"browserify": "6.0.3",
+				"qunitjs": "1.15.0",
+				"xpkg": "0.2.0",
+				"jss": "^1.0.0"
+			},
+			"peerDependencies": {
+				"jss": "^1.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://www.opensource.org/licenses/mit-license.php"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@0.1.0",
+			"gitHead": "5f974a4528c41406219bdbc188148d8a576a24a5",
+			"_shasum": "40515b3fdfb376adea64c858ae391c33bb452fa2"
+		},
+		"3.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "3.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-3.0.0.tgz",
+				"shasum": "46aa18eb149e95afce074532ad47df1c2a7d45cb"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^6.0.0",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@3.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "d2b1bb20a24cd7c51c90ec5cc8f0ea24254e4a9f",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-3.0.0.tgz_1481241028743_0.8977778779808432"
+			},
+			"_shasum": "46aa18eb149e95afce074532ad47df1c2a7d45cb",
+			"_nodeVersion": "6.9.2"
+		},
+		"6.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "6.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-6.0.0.tgz",
+				"shasum": "7cf8453e395c31fed931d11efbc885edcd61132e"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"common-tags": "^1.4.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^9.0.0",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublishOnly": "npm run all"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@6.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "e6f4344acdf4f766ce51d36fa6e982cd2a345be4",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-camel-case-6.0.0.tgz_1506779348865_0.29983723373152316"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"6.1.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "6.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-6.1.0.tgz",
+				"shasum": "ccb1ff8d6c701c02a1fed6fb6fb6b7896e11ce44"
+			},
+			"dependencies": {
+				"hyphenate-style-name": "^1.0.2"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"common-tags": "^1.4.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^9.7.0",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"files": [
+				"lib",
+				"dist",
+				"tests"
+			],
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublishOnly": "npm run all"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@6.1.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "6bdd1d6275ad3151ebccb6e8677c2bb78231c759",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-camel-case_6.1.0_1518083775566_0.7378222836296575"
+			},
+			"_nodeVersion": "8.0.0"
+		},
+		"5.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "5.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-5.0.0.tgz",
+				"shasum": "886c1fe56a8a11577454d6a8b4133caa6c1f53a0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+				"babel-plugin-transform-es3-property-literals": "^6.8.0",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"common-tags": "^1.4.0",
+				"cross-env": "^3.1.3",
+				"es5-shim": "^4.5.9",
+				"eslint": "^3.9.1",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.1.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.5.0",
+				"expect.js": "^0.3.1",
+				"jss": "^8.0.0",
+				"karma": "^1.1.1",
+				"karma-benchmark": "^0.6.0",
+				"karma-benchmark-reporter": "^0.1.1",
+				"karma-browserstack-launcher": "^1.0.0",
+				"karma-chrome-launcher": "^2.0.0",
+				"karma-coverage": "^1.1.1",
+				"karma-mocha": "^1.1.1",
+				"karma-mocha-reporter": "^2.2.0",
+				"karma-sourcemap-loader": "^0.3.7",
+				"karma-webpack": "^1.8.0",
+				"lint-staged": "^3.0.3",
+				"mocha": "^3.0.2",
+				"pre-commit": "^1.1.3",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^8.0.0"
+			},
+			"keywords": [
+				"cssinjs",
+				"css-in-js",
+				"css in js",
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run test && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:tests && npm run build:dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:tests": "npm run build:tests:lib && npm run build:tests:local",
+				"build:tests:lib": "cross-env NODE_ENV=test babel src --out-dir tests",
+				"build:tests:local": "cross-env NODE_ENV=test webpack src/index.test.js tmp/tests.js",
+				"build:dist": "npm run build:dist:max && npm run build:dist:min",
+				"build:dist:max": "cross-env NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:dist:min": "cross-env NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"clean": "rimraf {lib,dist,tests,tmp}/*",
+				"lint": "eslint ./src",
+				"lint:staged": "lint-staged",
+				"test": "cross-env NODE_ENV=test karma start --single-run ",
+				"test:watch": "cross-env NODE_ENV=test karma start",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@5.0.0",
+			"lint-staged": {
+				"./src/*.js": [
+					"eslint",
+					"git add"
+				]
+			},
+			"gitHead": "f829da8c8edb7ffa334a24d1f296e8aa4f2b8485",
+			"pre-commit": "lint:staged",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-camel-case-5.0.0.tgz_1497991580080_0.9570915757212788"
+			},
+			"_nodeVersion": "6.10.2"
+		},
+		"1.0.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "1.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.0.tgz",
+				"shasum": "28aaede9df2616b37dd26eacb8451f5d1f7583f7"
+			},
+			"devDependencies": {
+				"babel": "^5.6.14",
+				"babel-core": "^5.6.20",
+				"babel-eslint": "^3.1.23",
+				"babel-loader": "^5.3.1",
+				"eslint": "^0.24.1",
+				"eslint-config-airbnb": "^0.0.6",
+				"eslint-config-jss": "^0.1.0",
+				"eslint-plugin-react": "^2.7.0",
+				"jss": ">= 3.0.0 < 4.0.0",
+				"opener": "^1.4.1",
+				"qunitjs": "1.15.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.11.0"
+			},
+			"peerDependencies": {
+				"jss": ">= 3.0.0 < 4.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "2.13.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@1.0.0",
+			"gitHead": "042f2a700df6a3ad7b5419b6048c5859657e7aa9",
+			"_shasum": "28aaede9df2616b37dd26eacb8451f5d1f7583f7",
+			"_nodeVersion": "2.4.0"
+		},
+		"1.0.1": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "1.0.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.1.tgz",
+				"shasum": "f31905dce8deb179dd793c08e2d0b1ac454ff862"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-core": "^5.8.25",
+				"babel-eslint": "^4.1.3",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.7.3",
+				"eslint-config-airbnb": "^0.1.0",
+				"eslint-config-jss": "^0.2.0",
+				"eslint-plugin-react": "^3.6.3",
+				"jss": ">= 3.0.0 < 4.0.0",
+				"opener": "^1.4.1",
+				"qunitjs": "1.15.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"jss": ">= 3.0.0 < 4.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@1.0.1",
+			"gitHead": "e8c02d99920c6a5b02a290f0f0b6a1d609c16621",
+			"_shasum": "f31905dce8deb179dd793c08e2d0b1ac454ff862",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.0": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "1.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.1.0.tgz",
+				"shasum": "bad8924370a4f3ef85c085f91cb0c9847bf4faab"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^5.0.0-beta9",
+				"babel-loader": "^6.2.2",
+				"babel-preset-es2015": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^1.10.3",
+				"eslint-plugin-react": "^3.16.1",
+				"eslint-config-airbnb": "^0.1.0",
+				"eslint-config-jss": "^0.2.0",
+				"jss": ">= 3.0.0 < 4.0.0",
+				"opener": "^1.4.1",
+				"qunitjs": "1.15.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"jss": ">= 3.0.0 < 4.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@1.1.0",
+			"gitHead": "62a87087016668041240129338fb25724273fcb4",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-1.1.0.tgz_1461317275125_0.7436615352053195"
+			},
+			"_shasum": "bad8924370a4f3ef85c085f91cb0c9847bf4faab",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.0.2": {
+			"name": "jss-camel-case",
+			"description": "JSS plugin that allows to write camel cased rule properties",
+			"version": "1.0.2",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/jsstyles/jss-camel-case#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jsstyles/jss-camel-case.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jsstyles/jss-camel-case/issues"
+			},
+			"engines": {},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.2.tgz",
+				"shasum": "579ecef8531fa029450a0882337588db3d955286"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^5.0.0-beta9",
+				"babel-loader": "^6.2.2",
+				"babel-preset-es2015": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^1.10.3",
+				"eslint-plugin-react": "^3.16.1",
+				"eslint-config-airbnb": "^0.1.0",
+				"eslint-config-jss": "^0.2.0",
+				"jss": ">= 3.0.0 < 4.0.0",
+				"opener": "^1.4.1",
+				"qunitjs": "1.15.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.2"
+			},
+			"peerDependencies": {
+				"jss": ">= 3.0.0 < 4.0.0"
+			},
+			"keywords": [
+				"jss",
+				"plugin",
+				"camel case"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"test": "opener ./test/index.html",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-camel-case.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-camel-case.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all && git push --tags"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-camel-case@1.0.2",
+			"gitHead": "b7df39cee03ae24099bea1d3dbeb4f24729254f9",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-camel-case-1.0.2.tgz_1458840458586_0.17268609697930515"
+			},
+			"_shasum": "579ecef8531fa029450a0882337588db3d955286",
+			"_nodeVersion": "4.0.0"
+		}
+	},
+	"time": {
+		"2.0.0": "2016-08-01T12:50:43.149Z",
+		"2.0.1": "2016-10-26T20:39:53.987Z",
+		"created": "2015-01-31T20:42:42.273Z",
+		"4.0.0": "2017-04-10T04:12:14.418Z",
+		"0.1.1": "2015-02-01T12:13:51.896Z",
+		"0.2.0": "2015-09-21T21:58:30.765Z",
+		"0.1.2": "2015-07-20T14:29:15.114Z",
+		"2.0.2": "2016-11-05T12:13:26.697Z",
+		"0.1.0": "2015-01-31T20:42:42.273Z",
+		"3.0.0": "2016-12-08T23:50:29.258Z",
+		"6.0.0": "2017-09-30T13:49:09.774Z",
+		"6.1.0": "2018-02-08T09:56:16.268Z",
+		"modified": "2018-02-08T09:56:16.577Z",
+		"5.0.0": "2017-06-20T20:46:21.033Z",
+		"1.0.0": "2015-10-21T14:50:12.017Z",
+		"1.0.1": "2016-01-26T09:03:05.542Z",
+		"1.1.0": "2016-04-22T09:27:57.616Z",
+		"1.0.2": "2016-03-24T17:27:41.192Z"
+	},
+	"dist-tags": {
+		"latest": "6.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828478960
+		}
+	},
+	"_distfiles": {
+		"jss-camel-case-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.0.tgz",
+			"sha": "735f867a9e1ea41bfdf80ef90bf0ac3dfeb16d0d"
+		},
+		"jss-camel-case-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.1.tgz",
+			"sha": "075c911cd809f507453cc06344d60b1da46c113b"
+		},
+		"jss-camel-case-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-4.0.0.tgz",
+			"sha": "39ef2a137aaa1e2f160ab826845305f8efabcfd5"
+		},
+		"jss-camel-case-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.1.tgz",
+			"sha": "eabbeea610e111b2e979e67ef73793f5e6a45249"
+		},
+		"jss-camel-case-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.2.0.tgz",
+			"sha": "d24631589a9e170bf7de322369412730a3581e81"
+		},
+		"jss-camel-case-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.2.tgz",
+			"sha": "47c96d1d8f841743f3f7be30ec75f181b6f2fa07"
+		},
+		"jss-camel-case-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-2.0.2.tgz",
+			"sha": "62776f1480c4a2d4270745ab6ec6cb9f29a1e4e5"
+		},
+		"jss-camel-case-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-0.1.0.tgz",
+			"sha": "40515b3fdfb376adea64c858ae391c33bb452fa2"
+		},
+		"jss-camel-case-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-3.0.0.tgz",
+			"sha": "46aa18eb149e95afce074532ad47df1c2a7d45cb"
+		},
+		"jss-camel-case-6.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-6.0.0.tgz",
+			"sha": "7cf8453e395c31fed931d11efbc885edcd61132e"
+		},
+		"jss-camel-case-6.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-6.1.0.tgz",
+			"sha": "ccb1ff8d6c701c02a1fed6fb6fb6b7896e11ce44"
+		},
+		"jss-camel-case-5.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-5.0.0.tgz",
+			"sha": "886c1fe56a8a11577454d6a8b4133caa6c1f53a0"
+		},
+		"jss-camel-case-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.0.tgz",
+			"sha": "28aaede9df2616b37dd26eacb8451f5d1f7583f7"
+		},
+		"jss-camel-case-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.1.tgz",
+			"sha": "f31905dce8deb179dd793c08e2d0b1ac454ff862"
+		},
+		"jss-camel-case-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.1.0.tgz",
+			"sha": "bad8924370a4f3ef85c085f91cb0c9847bf4faab"
+		},
+		"jss-camel-case-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-camel-case/-/jss-camel-case-1.0.2.tgz",
+			"sha": "579ecef8531fa029450a0882337588db3d955286"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-b739a4360980ed3a",
+	"readme": "# JSS plugin that allows to write camel cased rule properties\n\n[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/cssinjs/lobby)\n\nInternally it converts everything back to dash separated names.\n\nMake sure you read [how to use\nplugins](https://github.com/cssinjs/jss/blob/master/docs/setup.md#setup-with-plugins)\nin general.\n\n## Example\n\n```javascript\nconst styles = {\n  container: {\n    fontSize: '20px',\n    zIndex: 1,\n    lineHeight: 1.2\n  }\n}\n```\n\n```css\n.container-a24234 {\n  font-size: 20px;\n  z-index: 1;\n  line-height: 1.2;\n}\n```\n\n## Demo\n\n[Simple](http://cssinjs.github.io/examples/plugins/jss-camel-case/simple/index.html)\n\n## Issues\n\nFile a bug against [cssinjs/jss prefixed with \\[jss-camel-case\\]](https://github.com/cssinjs/jss/issues/new?title=[jss-camel-case]%20).\n\n## Run tests\n\n```bash\nnpm i\nnpm run test\n```\n\n## License\n\nMIT"
+}

@@ -681,7 +681,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749392552
+			"fetched": 1547828428248
 		}
 	},
 	"_distfiles": {
@@ -731,6 +731,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-11acd4769040bdaf",
+	"_rev": "10-6ecd9d404b3e6a83",
 	"readme": "# html-tags [![Build Status](https://travis-ci.org/sindresorhus/html-tags.svg?branch=master)](https://travis-ci.org/sindresorhus/html-tags)\n\n> List of standard HTML tags\n\nIt's just a couple of JSON files that can be used in any environment.\n\nIt intentionally leaves out obsolete tags.\n\n\n## Install\n\n```\n$ npm install html-tags\n```\n\n\n## Usage\n\n```js\nconst htmlTags = require('html-tags');\n\nconsole.log(htmlTags);\n//=> ['a', 'abbr', 'acronym', ...]\n```\n\nAnd void (self-closing) tags:\n\n```js\nconst voidHtmlTags = require('html-tags/void');\n\nconsole.log(voidHtmlTags);\n//=> ['area', 'base', 'br', ...]\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

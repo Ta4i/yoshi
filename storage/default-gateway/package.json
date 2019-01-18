@@ -2537,7 +2537,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749400958
+			"fetched": 1547828434788
 		}
 	},
 	"_distfiles": {
@@ -2675,6 +2675,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-17d9441ff16b33ba",
+	"_rev": "10-df5724af2de2b51c",
 	"readme": "# default-gateway\n[![](https://img.shields.io/npm/v/default-gateway.svg?style=flat)](https://www.npmjs.org/package/default-gateway) [![](https://img.shields.io/npm/dm/default-gateway.svg)](https://www.npmjs.org/package/default-gateway) [![](https://api.travis-ci.org/silverwind/default-gateway.svg?style=flat)](https://travis-ci.org/silverwind/default-gateway)\n\n> Get the default network gateway, cross-platform.\n\nObtains the machine's default gateway through `exec` calls to OS routing interfaces. On Linux and Android, the `ip` command must be available (usually provided by the `iproute2` package).\n\n## Installation\n\n```\n$ npm install default-gateway\n```\n\n## Example\n\n```js\nconst defaultGateway = require('default-gateway');\n\ndefaultGateway.v4().then(result => {\n  // result = {gateway: '1.2.3.4', interface: 'en1'}\n});\n\ndefaultGateway.v6().then(result => {\n  // result = {gateway: '2001:db8::1', interface: 'en2'}\n});\n\nconst result = defaultGateway.v4.sync();\n// result = {gateway: '1.2.3.4', interface: 'en1'}\n\nconst result = defaultGateway.v6.sync();\n// result = {gateway: '2001:db8::1', interface: 'en2'}\n```\n\n## API\n### defaultGateway.v4()\n### defaultGateway.v6()\n### defaultGateway.v4.sync()\n### defaultGateway.v6.sync()\n\nReturns: `result` *Object*\n  - `gateway`: The IP address of the default gateway.\n  - `interface`: The name of the interface. On Windows, this is the network adapter name.\n\nThe `.v{4,6}()` methods return a Promise while the `.v{4,6}.sync()` variants will return the result synchronously.\n\nThe `gateway` property will always be defined on success, while `interface` can be `null` if it cannot be determined. All methods reject/throw when the gateway cannot be determined or the `exec` call failed.\n\n## License\n\n© [silverwind](https://github.com/silverwind), distributed under BSD licence"
 }

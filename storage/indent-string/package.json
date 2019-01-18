@@ -979,7 +979,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749408691
+			"fetched": 1547828405793
 		}
 	},
 	"_distfiles": {
@@ -1041,6 +1041,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-2ac41a6719df9d52",
+	"_rev": "10-8ba3e298a38ad95a",
 	"readme": "# indent-string [![Build Status](https://travis-ci.org/sindresorhus/indent-string.svg?branch=master)](https://travis-ci.org/sindresorhus/indent-string)\n\n> Indent each line in a string\n\n\n## Install\n\n```\n$ npm install indent-string\n```\n\n\n## Usage\n\n```js\nconst indentString = require('indent-string');\n\nindentString('Unicorns\\nRainbows', 4);\n//=> '    Unicorns'\n//=> '    Rainbows'\n\nindentString('Unicorns\\nRainbows', 4, {indent: '♥'});\n//=> '♥♥♥♥Unicorns'\n//=> '♥♥♥♥Rainbows'\n```\n\n\n## API\n\n### indentString(input, [count], [options])\n\n#### input\n\nType: `string`\n\nString you want to indent.\n\n#### count\n\nType: `number`<br>\nDefault: `1`\n\nHow many times you want `indent` repeated.\n\n#### options\n\nType: `Object`<br>\n\n##### indent\n\nType: `string`<br>\nDefault: `' '`\n\nString to use for the indent.\n\n##### includeEmptyLines\n\nType: `boolean`<br>\nDefault: `false`\n\nAlso indent empty lines.\n\n\n## Related\n\n- [indent-string-cli](https://github.com/sindresorhus/indent-string-cli) - CLI for this module\n- [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

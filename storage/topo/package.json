@@ -825,7 +825,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749453112
+			"fetched": 1547828444508
 		}
 	},
 	"_distfiles": {
@@ -879,6 +879,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-83bdce40d191b1f3",
+	"_rev": "8-3e118480f3f8ed88",
 	"readme": "# topo\n\nTopological sorting with grouping support.\n\n[![Build Status](https://secure.travis-ci.org/hapijs/topo.svg?branch=master)](http://travis-ci.org/hapijs/topo)\n\nLead Maintainer: [Devin Ivy](https://github.com/devinivy)\n\n## Usage\n\nSee the [API Reference](API.md)\n\n**Example**\n```js\nconst Topo = require('topo');\n\nconst morning = new Topo();\n\nmorning.add('Nap', { after: ['breakfast', 'prep'] });\n\nmorning.add([\n    'Make toast',\n    'Pour juice'\n], { before: 'breakfast', group: 'prep' });\n\nmorning.add('Eat breakfast', { group: 'breakfast' });\n\nmorning.nodes;        // ['Make toast', 'Pour juice', 'Eat breakfast', 'Nap']\n```"
 }

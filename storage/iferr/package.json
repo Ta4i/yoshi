@@ -476,7 +476,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749447195
+			"fetched": 1547828471108
 		}
 	},
 	"_distfiles": {
@@ -518,6 +518,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-60829175f26fc453",
+	"_rev": "10-811f179d1a4be477",
 	"readme": "# iferr\n\nHigher-order functions for easier error handling.\n\n`if (err) return cb(err);` be gone!\n\n## Install\n```bash\nnpm install iferr\n```\n\n## Use\n\n### JavaScript/ES6 example\n```js\nvar iferr = require('iferr');\n\nfunction get_friends_count(id, cb) {\n  User.load_user(id, iferr(cb, user =>\n    user.load_friends(iferr(cb, friends =>\n      cb(null, friends.length)\n    ))\n  ))\n}\n```\n\n### JavaScript/ES5 example\n```js\nvar iferr = require('iferr');\n\nfunction get_friends_count(id, cb) {\n  User.load_user(id, iferr(cb, function(user) {\n    user.load_friends(iferr(cb, function(friends) {\n      cb(null, friends.length)\n    }))\n  }))\n}\n```\n\n### CoffeeScript example\n```coffee\niferr = require 'iferr'\n\nget_friends_count = (id, cb) ->\n  User.load_user id, iferr cb, (user) ->\n    user.load_friends iferr cb, (friends) ->\n      cb null, friends.length\n```\n\n(TODO: document tiferr, throwerr and printerr)\n\n## License\nMIT"
 }

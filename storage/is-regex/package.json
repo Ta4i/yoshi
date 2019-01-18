@@ -522,7 +522,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749402086
+			"fetched": 1547828403122
 		}
 	},
 	"_distfiles": {
@@ -552,6 +552,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-cd93d3265723763e",
+	"_rev": "10-45ca140726b97eea",
 	"readme": "#is-regex <sup>[![Version Badge][2]][1]</sup>\n\n[![Build Status][3]][4]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\n[![browser support][9]][10]\n\nIs this value a JS regex?\nThis module works cross-realm/iframe, and despite ES6 @@toStringTag.\n\n## Example\n\n```js\nvar isRegex = require('is-regex');\nvar assert = require('assert');\n\nassert.notOk(isRegex(undefined));\nassert.notOk(isRegex(null));\nassert.notOk(isRegex(false));\nassert.notOk(isRegex(true));\nassert.notOk(isRegex(42));\nassert.notOk(isRegex('foo'));\nassert.notOk(isRegex(function () {}));\nassert.notOk(isRegex([]));\nassert.notOk(isRegex({}));\n\nassert.ok(isRegex(/a/g));\nassert.ok(isRegex(new RegExp('a', 'g')));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/is-regex\n[2]: http://versionbadg.es/ljharb/is-regex.svg\n[3]: https://travis-ci.org/ljharb/is-regex.svg\n[4]: https://travis-ci.org/ljharb/is-regex\n[5]: https://david-dm.org/ljharb/is-regex.svg\n[6]: https://david-dm.org/ljharb/is-regex\n[7]: https://david-dm.org/ljharb/is-regex/dev-status.svg\n[8]: https://david-dm.org/ljharb/is-regex#info=devDependencies\n[9]: https://ci.testling.com/ljharb/is-regex.png\n[10]: https://ci.testling.com/ljharb/is-regex\n[11]: https://nodei.co/npm/is-regex.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/is-regex.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/is-regex.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=is-regex"
 }

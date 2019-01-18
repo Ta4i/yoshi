@@ -1,0 +1,1876 @@
+{
+	"name": "find-remove",
+	"versions": {
+		"0.1.5": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.5",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.3"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.5.tgz",
+				"shasum": "ff8800cf3d8b3e4626735788a5e32992ab6509a4"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.20",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.5",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.2.4": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.4",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.4.tgz",
+				"shasum": "12694585b50728871c8f316abd6f1588ebd008cc"
+			},
+			"dependencies": {
+				"fmerge": "^1.1.1",
+				"rimraf": "^2.2"
+			},
+			"devDependencies": {
+				"nodeunit": "^0.9.0",
+				"randomstring": "^1.0.2",
+				"mkdirp": "^0.5.0",
+				"async": "^0.9.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.16",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.4",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092",
+			"_shasum": "12694585b50728871c8f316abd6f1588ebd008cc"
+		},
+		"0.2.5": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.5",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.5.tgz",
+				"shasum": "36613ac7fa3bade2342891eb6668e3d35981a10a"
+			},
+			"dependencies": {
+				"fmerge": "^1.2.0",
+				"rimraf": "^2.2.0"
+			},
+			"devDependencies": {
+				"nodeunit": "^0.9.0",
+				"randomstring": "^1.0.2",
+				"mkdirp": "^0.5.0",
+				"async": "^0.9.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.5",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092",
+			"_shasum": "36613ac7fa3bade2342891eb6668e3d35981a10a"
+		},
+		"0.1.3": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.3",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.3.tgz",
+				"shasum": "91780a4b74467c35f2bf3bc28001bee555446d7d"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.17",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.3",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.1.4": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.4",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.4.tgz",
+				"shasum": "c88d358295b8f3cc88ee81a85ec8f465bd32db77"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.17",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.4",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.2.3": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.3",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.3.tgz",
+				"shasum": "3b38fb61e4a0878020266d396bdda1a3749af570"
+			},
+			"dependencies": {
+				"fmerge": "^1.1.0",
+				"rimraf": "^2.2"
+			},
+			"devDependencies": {
+				"nodeunit": "^0.8.7",
+				"randomstring": "^1.0.2",
+				"mkdirp": "^0.5.0",
+				"async": "^0.8.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.10",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.3",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092",
+			"_shasum": "3b38fb61e4a0878020266d396bdda1a3749af570"
+		},
+		"0.2.8": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.8",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.8.tgz",
+				"shasum": "11730cfeda9a4dc1d5c1873df5370621c45d77cc"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.4.3"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.0.8",
+				"mkdirp": "0.5.1",
+				"async": "1.4.2"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.13.2",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.8",
+			"gitHead": "4edeccc8b345e7506e0b3dc71d012404a8e7498f",
+			"_shasum": "11730cfeda9a4dc1d5c1873df5370621c45d77cc",
+			"_nodeVersion": "2.5.0"
+		},
+		"0.2.6": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.6",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.6.tgz",
+				"shasum": "38f838705e539a3d03353ee35d0ce2f5b6f3a809"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.4.1"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.0.7",
+				"mkdirp": "0.5.1",
+				"async": "1.3.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.6",
+			"gitHead": "a12a7e166de21d0fda68027f52f3e4c6ac4e10b7",
+			"_shasum": "38f838705e539a3d03353ee35d0ce2f5b6f3a809",
+			"_nodeVersion": "2.3.4"
+		},
+		"0.2.7": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.7",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.7.tgz",
+				"shasum": "5de50b1e02b3ee05d795f88724534c187a552ffa"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.4.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.0.7",
+				"mkdirp": "0.5.1",
+				"async": "1.4.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.13.0",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.7",
+			"gitHead": "c3b98fb6dcec976662aa55d7f26b654d037c0de3",
+			"_shasum": "5de50b1e02b3ee05d795f88724534c187a552ffa",
+			"_nodeVersion": "2.4.0"
+		},
+		"0.0.2": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.0.2",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com",
+				"url": "http://binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.0.2.tgz",
+				"shasum": "f3f285c5a053f5ef1313359066099f20b2fc47da"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": "./",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.0.2",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.1.1": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.1.tgz",
+				"shasum": "e71cc8b517061ea138f43f2d6a22789791cf46d4"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.1",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.2.0": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.0",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.3"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.0.tgz",
+				"shasum": "83125051b734adc7cb21eef0c9417cad42379957"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0",
+				"rimraf": "*"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.0",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.0",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.1.2": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.2",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.2.tgz",
+				"shasum": "5ddb4a70fe24a232738fa97502c3427f840f968d"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.2",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.2.1": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.1",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.3"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.1.tgz",
+				"shasum": "fd7e1c6d33542bad6ea5aa530d80fe440ad3e7ce"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0",
+				"rimraf": "*"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.0",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.1",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.0.1": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.0.1",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com",
+				"url": "http://binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.0.1.tgz",
+				"shasum": "ee34caa20d6eab996229a9e43e4e46fad063dc40"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": "./",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.0.1",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.1.0": {
+			"name": "find-remove",
+			"description": "recursively finds files by filter options from a start directory onwards and deletes these. useful if you want to clean up a directory in your node.js app.",
+			"version": "0.1.0",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com",
+				"url": "http://binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=0.8"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.0.tgz",
+				"shasum": "593cff7aa3e1df050990adfdd45f09548597b4bf"
+			},
+			"dependencies": {
+				"fmerge": ">=1.0"
+			},
+			"devDependencies": {
+				"nodeunit": "*",
+				"randomstring": "*",
+				"mkdirp": "*",
+				"async": "*",
+				"rimraf": "*"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"recursive",
+				"fs",
+				"delete",
+				"extension"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": "./",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.1.0",
+			"gitHead": "4054ab4121d6a2023812bb720ffcd9a514efb092"
+		},
+		"0.2.10": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.10",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.10.tgz",
+				"shasum": "fd797e72df270583b77f1de0a17e4310c2bf8cbb"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.5.1"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.1.3",
+				"mkdirp": "0.5.1",
+				"async": "1.5.2"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.10",
+			"gitHead": "235825ac1463e5600c8234e17545ab17a0da7d4b",
+			"_shasum": "fd797e72df270583b77f1de0a17e4310c2bf8cbb",
+			"_nodeVersion": "4.2.1"
+		},
+		"0.2.11": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.11",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.11.tgz",
+				"shasum": "248a26c9f115b3c601ea3578ce8dd7689b105055"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.5.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.1.4",
+				"mkdirp": "0.5.1",
+				"async": "1.5.2"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.11",
+			"gitHead": "e12dcfd48e9169f6543d8a675e65caca7e24813d",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/find-remove-0.2.11.tgz_1459647028911_0.9141696379519999"
+			},
+			"_shasum": "248a26c9f115b3c601ea3578ce8dd7689b105055",
+			"_nodeVersion": "4.4.2"
+		},
+		"0.2.12": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "0.2.12",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=0.10.24"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.12.tgz",
+				"shasum": "b685ef3f39a5b7b6daf77b7b670667540951c241"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.5.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "1.5.2"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@0.2.12",
+			"gitHead": "bab9f397173953d52ebfc15244bdbbdb8c0f0e58",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/find-remove-0.2.12.tgz_1463802991842_0.4347132614348084"
+			},
+			"_shasum": "b685ef3f39a5b7b6daf77b7b670667540951c241",
+			"_nodeVersion": "6.2.0"
+		},
+		"1.2.1": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.2.1",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/binarykitchen/find-remove.git"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.1.tgz",
+				"shasum": "afd93400d23890e018ea197591e9d850d3d049a2"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.6.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.11.3",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.6.1"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.2.1",
+			"licenseText": "Copyright (c) 2013 - 2018 Michael Heuberger\n\nPermission is hereby granted, free of charge,\nto any person obtaining a copy of this software and\nassociated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom\nthe Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice\nshall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR\nANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/find-remove_1.2.1_1536040302437_0.5687860572675867"
+			}
+		},
+		"1.2.2": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.2.2",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.2.tgz",
+				"shasum": "b479d3b7c2b62ddc3f91f0001b7836f121ac9395"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.6.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.11.3",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.6.1"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.2.2",
+			"gitHead": "ae944755566b0067dba0178a7ae884ece081f29a",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/find-remove_1.2.2_1539129911463_0.14537664719783683"
+			},
+			"_nodeVersion": "8.12.0"
+		},
+		"1.0.0": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.0.0.tgz",
+				"shasum": "23cdd0d6319eb96a903917baaa6d863f34e4388f"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.5.4"
+			},
+			"devDependencies": {
+				"nodeunit": "0.10.2",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.0.1"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.0.0",
+			"gitHead": "d94e1ced2ff67f14f25ed95475ad7d9b46405ec2",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/find-remove-1.0.0.tgz_1475055938304_0.4403842519968748"
+			},
+			"_shasum": "23cdd0d6319eb96a903917baaa6d863f34e4388f",
+			"_nodeVersion": "6.3.1"
+		},
+		"1.0.1": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.0.1",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.0.1.tgz",
+				"shasum": "72a2de627cdea2d4a8723be5fbb24abfb73f9b52"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.6.1"
+			},
+			"devDependencies": {
+				"nodeunit": "0.11.0",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.1.5"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.2",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.0.1",
+			"gitHead": "c58ed1aca560f54033ce88f4fdd49cf6afc7dac2",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/find-remove-1.0.1.tgz_1489805018713_0.8894907415378839"
+			},
+			"_shasum": "72a2de627cdea2d4a8723be5fbb24abfb73f9b52",
+			"_nodeVersion": "7.7.2"
+		},
+		"1.1.0": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.1.0.tgz",
+				"shasum": "3726fce0cd34256f88661e66739a1cc07ebf08fd"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.6.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.11.1",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.6.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.1.0",
+			"gitHead": "a13c849bef8096872234e0b326df92267200919a",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/find-remove-1.1.0.tgz_1512417464639_0.5375269276555628"
+			},
+			"_nodeVersion": "8.9.1"
+		},
+		"1.2.0": {
+			"name": "find-remove",
+			"description": "recursively finds files and/or directories by filter options from a start directory onwards and deletes these according to plenty of options you can configure. useful if you want to clean up stuff within a directory in your node.js app.",
+			"version": "1.2.0",
+			"author": {
+				"name": "Michael Heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"homepage": "https://github.com/binarykitchen/find-remove#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/binarykitchen/find-remove.git"
+			},
+			"bugs": {
+				"url": "https://github.com/binarykitchen/find-remove/issues"
+			},
+			"engines": {
+				"node": ">=4.1.0"
+			},
+			"main": "find-remove.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.0.tgz",
+				"shasum": "df23dc35df362ada95b1d70600e134e8dad3bf8c"
+			},
+			"dependencies": {
+				"fmerge": "1.2.0",
+				"rimraf": "2.6.2"
+			},
+			"devDependencies": {
+				"nodeunit": "0.11.2",
+				"randomstring": "1.1.5",
+				"mkdirp": "0.5.1",
+				"async": "2.6.0"
+			},
+			"keywords": [
+				"file",
+				"remove",
+				"rmdir",
+				"unlink",
+				"find",
+				"filter",
+				"recursive",
+				"fs",
+				"delete",
+				"extension",
+				"file stats"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "michael.heuberger",
+					"email": "michael.heuberger@binarykitchen.com"
+				}
+			],
+			"directories": {
+				"test": "tests"
+			},
+			"scripts": {
+				"test": "nodeunit tests/basics.js"
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "michael.heuberger",
+				"email": "michael.heuberger@binarykitchen.com"
+			},
+			"_id": "find-remove@1.2.0",
+			"gitHead": "92dd66d55b023636881125e2ee886a987412d63d",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/find-remove-1.2.0.tgz_1512621517069_0.08749934658408165"
+			},
+			"_nodeVersion": "8.9.1"
+		}
+	},
+	"time": {
+		"0.1.5": "2013-05-12T02:28:34.540Z",
+		"0.2.4": "2014-07-14T09:53:37.609Z",
+		"0.2.5": "2014-08-26T04:00:43.308Z",
+		"0.1.3": "2013-04-24T03:31:28.938Z",
+		"0.1.4": "2013-04-24T04:45:46.696Z",
+		"0.2.3": "2014-05-09T07:18:56.207Z",
+		"0.2.8": "2015-09-06T05:21:08.809Z",
+		"0.2.6": "2015-07-17T04:11:48.492Z",
+		"0.2.7": "2015-07-28T00:56:50.584Z",
+		"0.0.2": "2013-03-11T11:34:15.307Z",
+		"0.1.1": "2013-03-13T06:46:43.065Z",
+		"0.2.0": "2013-06-23T03:15:16.790Z",
+		"0.1.2": "2013-03-16T00:30:16.545Z",
+		"0.2.1": "2013-06-23T03:48:54.896Z",
+		"0.0.1": "2013-03-11T11:02:15.542Z",
+		"0.1.0": "2013-03-11T12:34:24.921Z",
+		"0.2.10": "2016-01-26T02:22:44.593Z",
+		"0.2.11": "2016-04-03T01:30:29.463Z",
+		"0.2.12": "2016-05-21T03:56:34.147Z",
+		"modified": "2019-01-03T21:26:16.136Z",
+		"created": "2013-03-11T11:02:11.085Z",
+		"1.2.1": "2018-09-04T05:51:42.595Z",
+		"1.2.2": "2018-10-10T00:05:11.596Z",
+		"1.0.0": "2016-09-28T09:45:38.545Z",
+		"1.0.1": "2017-03-18T02:43:39.149Z",
+		"1.1.0": "2017-12-04T19:57:44.727Z",
+		"1.2.0": "2017-12-07T04:38:37.171Z"
+	},
+	"dist-tags": {
+		"latest": "1.2.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828440776
+		}
+	},
+	"_distfiles": {
+		"find-remove-0.1.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.5.tgz",
+			"sha": "ff8800cf3d8b3e4626735788a5e32992ab6509a4"
+		},
+		"find-remove-0.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.4.tgz",
+			"sha": "12694585b50728871c8f316abd6f1588ebd008cc"
+		},
+		"find-remove-0.2.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.5.tgz",
+			"sha": "36613ac7fa3bade2342891eb6668e3d35981a10a"
+		},
+		"find-remove-0.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.3.tgz",
+			"sha": "91780a4b74467c35f2bf3bc28001bee555446d7d"
+		},
+		"find-remove-0.1.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.4.tgz",
+			"sha": "c88d358295b8f3cc88ee81a85ec8f465bd32db77"
+		},
+		"find-remove-0.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.3.tgz",
+			"sha": "3b38fb61e4a0878020266d396bdda1a3749af570"
+		},
+		"find-remove-0.2.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.8.tgz",
+			"sha": "11730cfeda9a4dc1d5c1873df5370621c45d77cc"
+		},
+		"find-remove-0.2.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.6.tgz",
+			"sha": "38f838705e539a3d03353ee35d0ce2f5b6f3a809"
+		},
+		"find-remove-0.2.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.7.tgz",
+			"sha": "5de50b1e02b3ee05d795f88724534c187a552ffa"
+		},
+		"find-remove-0.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.0.2.tgz",
+			"sha": "f3f285c5a053f5ef1313359066099f20b2fc47da"
+		},
+		"find-remove-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.1.tgz",
+			"sha": "e71cc8b517061ea138f43f2d6a22789791cf46d4"
+		},
+		"find-remove-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.0.tgz",
+			"sha": "83125051b734adc7cb21eef0c9417cad42379957"
+		},
+		"find-remove-0.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.2.tgz",
+			"sha": "5ddb4a70fe24a232738fa97502c3427f840f968d"
+		},
+		"find-remove-0.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.1.tgz",
+			"sha": "fd7e1c6d33542bad6ea5aa530d80fe440ad3e7ce"
+		},
+		"find-remove-0.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.0.1.tgz",
+			"sha": "ee34caa20d6eab996229a9e43e4e46fad063dc40"
+		},
+		"find-remove-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.1.0.tgz",
+			"sha": "593cff7aa3e1df050990adfdd45f09548597b4bf"
+		},
+		"find-remove-0.2.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.10.tgz",
+			"sha": "fd797e72df270583b77f1de0a17e4310c2bf8cbb"
+		},
+		"find-remove-0.2.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.11.tgz",
+			"sha": "248a26c9f115b3c601ea3578ce8dd7689b105055"
+		},
+		"find-remove-0.2.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-0.2.12.tgz",
+			"sha": "b685ef3f39a5b7b6daf77b7b670667540951c241"
+		},
+		"find-remove-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.1.tgz",
+			"sha": "afd93400d23890e018ea197591e9d850d3d049a2"
+		},
+		"find-remove-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.2.tgz",
+			"sha": "b479d3b7c2b62ddc3f91f0001b7836f121ac9395"
+		},
+		"find-remove-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.0.0.tgz",
+			"sha": "23cdd0d6319eb96a903917baaa6d863f34e4388f"
+		},
+		"find-remove-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.0.1.tgz",
+			"sha": "72a2de627cdea2d4a8723be5fbb24abfb73f9b52"
+		},
+		"find-remove-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.1.0.tgz",
+			"sha": "3726fce0cd34256f88661e66739a1cc07ebf08fd"
+		},
+		"find-remove-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/find-remove/-/find-remove-1.2.0.tgz",
+			"sha": "df23dc35df362ada95b1d70600e134e8dad3bf8c"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-a9b719f6660ca366",
+	"readme": "# find-remove v1.0 (breaking!)\n\n[![Build Status](https://travis-ci.org/binarykitchen/find-remove.png?branch=master)](https://travis-ci.org/binarykitchen/find-remove)\n\nrecursively finds files by filter options from a start directory onwards and deletes those who meet conditions you can define. useful if you want to clean up a directory in your node.js app.\n\nyou can filter by extensions, names, level in directory structure, file creation date and ignore by name, yeah!\n\n## installation\n\nto install find-remove, use [npm](http://github.com/isaacs/npm):\n\n    $ npm install -S find-remove\n\nthen in your node.js app, get reference to the function like that:\n\n```javascript\nvar findRemoveSync = require('find-remove')\n```\n\n## quick examples\n\n### 1. delete all *.bak or *.log files within the /temp/ directory\n\n```javascript\nvar result = findRemoveSync('/temp', {extensions: ['.bak', '.log']})\n```\n\nthe return value `result` is a json object with successfully deleted files. if you output `result` to the console, you will get something like this:\n\n```\n{\n    '/tmp/haumiblau.bak': true,\n    '/tmp/dump.log': true\n}\n```\n\n### 2. delete all files called 'dump.log' within the /temp/ directory and within its subfolders\n\n```javascript\nvar result = findRemoveSync('/temp', {files: 'dump.log'})\n```\n\n### 3. same as above, but also deletes any subfolders\n\n```javascript\nvar result = findRemoveSync('/temp', {files: 'dump.log', dir: '*'})\n```\n\n### 4. delete all *.bak files but not file 'haumiblau.bak'\n\n```javascript\nvar result = findRemoveSync('/temp', {extensions: ['.bak'], ignore: 'haumiblau.bak'})\n```\n\n### 5. delete recursively any subdirectory called 'CVS' within /dist/\n\n```javascript\nvar result = findRemoveSync('/dist', {dir: 'CVS'})\n```\n\n### 6. delete all jpg files older than one hour with limit of 100 files deletion per operation\n\n```javascript\nvar result = findRemoveSync('/tmp', {age: {seconds: 3600}, extensions: '.jpg', limit: 100})\n```\n\n### 7. delete all files with prefix 'filenamestartswith'\n\n```javascript\nvar result = findRemoveSync('/tmp', {prefix: 'filenamestartswith'})\n```\n\n### 8. apply filter options only for two levels inside the /temp directory for all tmp files\n\n```javascript\nvar result = findRemoveSync('/tmp', {maxLevel: 2, extensions: '.tmp'})\n```\n\nthis deletes any `.tmp` files up to two levels, for example: `/tmp/level1/level2/a.tmp`\n\nbut not `/tmp/level1/level2/level3/b.tmp`\n\nwhy the heck do we have this `maxLevel` option? because of performance. if you care about deep subfolders, apply that option to get a speed boost.\n\n### 9. delete everything recursively (hey, who needs that when you can use nodejs' fs.unlink?)\n\n```javascript\nvar result = findRemoveSync(rootDirectory, {dir: \"*\", files: \"*.*\"})\n```\n\n## api\n\n### findRemoveSync(dir, options)\n\nfindRemoveSync takes any start directory and searches files from there for removal. the selection of files for removal depends on the given options. and at last, it deletes the selected files/directories.\n\n__arguments__\n\n* `dir` - any directory to search for files and/or directories for deletion (does not delete that directory itself)\n* options - currently those properties are supported:\n    * `files` - can be a string or an array of files you want to delete within `dir`.\n    * `dir` - can be a string or an array of directories you want to delete within `dir`.\n    * `extensions` - this too, can be a string or an array of file extentions you want to delete within `dir`.\n    * `ignore` - useful to exclude some files. again, can be a string or an array of file names you do NOT want to delete within `dir`\n    * `age.seconds` - can be any float number. findRemoveSync then compares it with the file stats and deletes those with modification times older than `age.seconds`\n    * `limit` - can be any integer number. Will limit the number of <b>files</b> to be deleted at single operation to be `limit`\n    * `prefix` - can be any string. Will delete any files that start with `prefix`. \n    * `maxLevel` - advanced: limits filtering to a certain level. useful for performance. recommended for crawling huge directory trees. \n    * `test` - advanced: set to true for a test run, meaning it does not delete anything but returns a JSON of files/directories it would have deleted. useful for testing.\n\nas a precaution, nothing happens when there are no options.\n\nthe unit tests are good examples on how to use the above arguments.\n\n__returns__\n\nJSON of files/directories that were deleted. For limit option - will only return number of files deleted.\n\n## todo\n\n* needs a rewrite\n* add more filtering options (combinations, regex, etc.)\n* have an asynchronous solution\n* use streams instead\n\n## license\n\nMIT"
+}

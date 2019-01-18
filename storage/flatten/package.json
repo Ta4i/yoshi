@@ -264,7 +264,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749447635
+			"fetched": 1547828459883
 		}
 	},
 	"_distfiles": {
@@ -290,6 +290,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-f116d4e99924ef6c",
+	"_rev": "10-24b1f4e611703e5b",
 	"readme": "# flatten\n\nA tiny utility to flatten arrays of arrays (of arrays, etc., recursively, infinitely or to an optional depth) into a single array of non-arrays.\n\n## example:\n\n```js\n> var flatten = require('flatten');\nundefined\n> flatten([1, [2, 3], [4, 5, 6], [7, [8, 9]], 10])\n[ 1,\n  2,\n  3,\n  4,\n  5,\n  6,\n  7,\n  8,\n  9,\n  10 ]\n> flatten([1, [2, [3, [4, [5]]]]], 2)\n[ 1,\n  2,\n  3,\n  [ 4, [ 5 ] ] ]\n```\n\n## install:\n\n    npm install flatten\n\n## license:\n\nMIT/X11."
 }

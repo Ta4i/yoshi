@@ -890,7 +890,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749361982
+			"fetched": 1547828396664
 		}
 	},
 	"_distfiles": {
@@ -956,6 +956,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-c1b4cc4a10708260",
+	"_rev": "10-77cedfd9bf187334",
 	"readme": "## left-pad\n\nString left pad\n\n[![Build Status][travis-image]][travis-url]\n\n## Install\n\n```bash\n$ npm install left-pad\n```\n\n## Usage\n\n```js\nconst leftPad = require('left-pad')\n\nleftPad('foo', 5)\n// => \"  foo\"\n\nleftPad('foobar', 6)\n// => \"foobar\"\n\nleftPad(1, 2, '0')\n// => \"01\"\n\nleftPad(17, 5, 0)\n// => \"00017\"\n```\n\n**NOTE:** The third argument should be a single `char`. However the module doesn't throw an error if you supply more than one `char`s. See [#28](https://github.com/stevemao/left-pad/pull/28).\n\n**NOTE:** Characters having code points outside of [BMP plan](https://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane) are considered a two distinct characters. See [#58](https://github.com/stevemao/left-pad/issues/58).\n\n[travis-image]: https://travis-ci.org/stevemao/left-pad.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/left-pad"
 }

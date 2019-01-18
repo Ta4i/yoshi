@@ -496,7 +496,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455124
+			"fetched": 1547828475806
 		}
 	},
 	"_distfiles": {
@@ -522,6 +522,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-39b6ac39bde7d1dc",
+	"_rev": "10-50e705dfaee9fc89",
 	"readme": "# collapse-white-space [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nReplace multiple white-space characters with a single space.\n\n## Installation\n\n[npm][npm-install]:\n\n```bash\nnpm install collapse-white-space\n```\n\n## Usage\n\n```javascript\nvar collapse = require('collapse-white-space')\n\ncollapse('\\tfoo \\n\\tbar  \\t\\r\\nbaz') //=> ' foo bar baz'\n```\n\n## API\n\n### `collapse(value)`\n\nReplace multiple white-space characters in value with a single space.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/wooorm/collapse-white-space.svg\n\n[travis]: https://travis-ci.org/wooorm/collapse-white-space\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/collapse-white-space.svg\n\n[codecov]: https://codecov.io/github/wooorm/collapse-white-space\n\n[npm-install]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com"
 }

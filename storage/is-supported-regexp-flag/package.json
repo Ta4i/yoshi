@@ -202,7 +202,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749442311
+			"fetched": 1547828468299
 		}
 	},
 	"_distfiles": {
@@ -220,6 +220,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-203e2524d69b430f",
+	"_rev": "10-a85a064d3fd52a72",
 	"readme": "# is-supported-regexp-flag [![Build Status](https://travis-ci.org/sindresorhus/is-supported-regexp-flag.svg?branch=master)](https://travis-ci.org/sindresorhus/is-supported-regexp-flag)\n\n> Check whether a RegExp flag is supported. Mostly useful for `y` and `u`.\n\n\n## Install\n\n```sh\n$ npm install --save is-supported-regexp-flag\n```\n\n\n## Usage\n\n```js\nvar isSupportedRegexpFlag = require('is-supported-regexp-flag');\n\nisSupportedRegexpFlag('g'); // as in /foo/g\n//=> true\n\nisSupportedRegexpFlag('u');\n//=> false\n```\n\nRegExp throws if you're trying to use unsupported flags. This is a nicer way to check for support.\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)"
 }

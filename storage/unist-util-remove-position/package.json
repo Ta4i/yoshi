@@ -433,7 +433,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749455751
+			"fetched": 1547828476359
 		}
 	},
 	"_distfiles": {
@@ -455,6 +455,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-613b12035dbc429c",
+	"_rev": "10-704edb1af0449f42",
 	"readme": "# unist-util-remove-position [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]\n\nRemove [`position`][position]s from a [Unist][] tree.\n\n## Installation\n\n[npm][]:\n\n```bash\nnpm install unist-util-remove-position\n```\n\n## Usage\n\n```javascript\nvar remark = require('remark')\nvar removePosition = require('unist-util-remove-position')\n\nvar tree = remark().parse('Some _emphasis_, **importance**, and `code`.')\n\nconsole.dir(removePosition(tree, true), {depth: null})\n```\n\nYields:\n\n```js\n{ type: 'root',\n  children:\n   [ { type: 'paragraph',\n       children:\n        [ { type: 'text', value: 'Some ' },\n          { type: 'emphasis',\n            children: [ { type: 'text', value: 'emphasis' } ] },\n          { type: 'text', value: ', ' },\n          { type: 'strong',\n            children: [ { type: 'text', value: 'importance' } ] },\n          { type: 'text', value: ', and ' },\n          { type: 'inlineCode', value: 'code' },\n          { type: 'text', value: '.' } ] } ] }\n```\n\n## API\n\n### `removePosition(node[, force])`\n\nRemove [`position`][position]s from [`node`][node].  If `force` is given,\nuses `delete`, otherwise, sets `position`s to `undefined`.\n\n###### Returns\n\nThe given `node`.\n\n## Contribute\n\nSee [`contributing.md` in `syntax-tree/unist`][contributing] for ways to get\nstarted.\n\nThis organisation has a [Code of Conduct][coc].  By interacting with this\nrepository, organisation, or community you agree to abide by its terms.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[travis-badge]: https://img.shields.io/travis/syntax-tree/unist-util-remove-position.svg\n\n[travis]: https://travis-ci.org/syntax-tree/unist-util-remove-position\n\n[codecov-badge]: https://img.shields.io/codecov/c/github/syntax-tree/unist-util-remove-position.svg\n\n[codecov]: https://codecov.io/github/syntax-tree/unist-util-remove-position\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: LICENSE\n\n[author]: http://wooorm.com\n\n[unist]: https://github.com/syntax-tree/unist\n\n[position]: https://github.com/syntax-tree/unist#position\n\n[node]: https://github.com/syntax-tree/unist#node\n\n[contributing]: https://github.com/syntax-tree/unist/blob/master/contributing.md\n\n[coc]: https://github.com/syntax-tree/unist/blob/master/code-of-conduct.md"
 }

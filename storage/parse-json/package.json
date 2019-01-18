@@ -535,7 +535,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749355004
+			"fetched": 1547828369836
 		}
 	},
 	"_distfiles": {
@@ -569,6 +569,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-6eece42be38dc052",
+	"_rev": "10-c15b8d675be46109",
 	"readme": "# parse-json [![Build Status](https://travis-ci.org/sindresorhus/parse-json.svg?branch=master)](https://travis-ci.org/sindresorhus/parse-json)\n\n> Parse JSON with more helpful errors\n\n\n## Install\n\n```\n$ npm install parse-json\n```\n\n\n## Usage\n\n```js\nconst parseJson = require('parse-json');\nconst json = '{\\n\\t\"foo\": true,\\n}';\n\n\nJSON.parse(json);\n/*\nundefined:3\n}\n^\nSyntaxError: Unexpected token }\n*/\n\n\nparseJson(json);\n/*\nJSONError: Trailing comma in object at 3:1\n}\n^\n*/\n\n\nparseJson(json, 'foo.json');\n/*\nJSONError: Trailing comma in object in foo.json:3:1\n}\n^\n*/\n\n\n// You can also add the filename at a later point\ntry {\n\tparseJson(json);\n} catch (err) {\n\terr.fileName = 'foo.json';\n\tthrow err;\n}\n/*\nJSONError: Trailing comma in object in foo.json:3:1\n}\n^\n*/\n```\n\n## API\n\n### parseJson(input, [reviver], [filename])\n\n#### input\n\nType: `string`\n\n#### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter\n) for more.\n\n#### filename\n\nType: `string`\n\nFilename displayed in the error message.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -158,7 +158,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749456846
+			"fetched": 1547828477934
 		}
 	},
 	"_distfiles": {
@@ -172,6 +172,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "8-61a6aa4269bd08ea",
+	"_rev": "18-5954128b245c1c9a",
 	"readme": "# p-try [![Build Status](https://travis-ci.org/sindresorhus/p-try.svg?branch=master)](https://travis-ci.org/sindresorhus/p-try)\n\n> Start a promise chain\n\n[How is it useful?](http://cryto.net/~joepie91/blog/2016/05/11/what-is-promise-try-and-why-does-it-matter/)\n\n\n## Install\n\n```\n$ npm install p-try\n```\n\n\n## Usage\n\n```js\nconst pTry = require('p-try');\n\npTry(() => {\n\treturn synchronousFunctionThatMightThrow();\n}).then(value => {\n\tconsole.log(value);\n}).catch(error => {\n\tconsole.error(error);\n});\n```\n\n\n## API\n\n### pTry(fn, ...args)\n\nReturns a `Promise` resolved with the value of calling `fn(...args)`. If the function throws an error, the returned `Promise` will be rejected with that error.\n\nSupport for passing arguments on to the `fn` is provided in order to be able to avoid creating unnecessary closures. You probably don't need this optimization unless you're pushing a *lot* of functions.\n\n\n## Related\n\n- [p-finally](https://github.com/sindresorhus/p-finally) - `Promise#finally()` ponyfill - Invoked when the promise is settled regardless of outcome\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

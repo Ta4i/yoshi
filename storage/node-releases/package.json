@@ -1335,7 +1335,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749398122
+			"fetched": 1547828432157
 		}
 	},
 	"_distfiles": {
@@ -1433,6 +1433,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-4c9852ccf381974c",
+	"_rev": "10-1c663f051fb16b79",
 	"readme": "# Node.js releases data\n\nAll data is located in `data` directory.\n\n`data/raw` contains raw data `nodejs.json` and `iojs.json`.\n\n`data/processed` contains `envs.js` with both node.js and io.js data preprocessed to be used by [browserlist](https://github.com/ai/browserslist) and other projects. Each version in this file contains only necessary info: version, release date and optionally LTS flag.\n\n## Installation\n```bash\nnpm install --save node-releases\n```\n\n## Updating data\n```bash\nnpm run build\n```\nThis is a build script which fetches data from web, processes it and saves processed data to `data/processed/envs.json`. If you want to run this steps separately you can use commands described below.\n\n\n### Fetching data\n```bash\nnpm run fetch\n```\nThis npm script will download new data to `data/raw` directory. Also it'll download Node.js release schedule into `release-schedule` folder.\n\n### Processing data\n```bash\nnpm run process\n```\nThis script generates `envs.json` file from raw data files and saves it to `data/processed` directory."
 }

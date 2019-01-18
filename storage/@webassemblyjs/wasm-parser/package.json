@@ -4826,7 +4826,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749372590
+			"fetched": 1547828404344
 		}
 	},
 	"_distfiles": {
@@ -5120,6 +5120,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-54b7ce3de9a3e404",
+	"_rev": "10-a5a2752e2483bd05",
 	"readme": "# @webassemblyjs/wasm-parser\n\n> WebAssembly binary format parser\n\n## Installation\n\n```sh\nyarn add @webassemblyjs/wasm-parser\n```\n\n## Usage\n\n```js\nimport { decode } from \"@webassemblyjs/wasm-parser\";\n\nconst decoderOpts = {};\n\nconst ast = decode(binary, decoderOpts);\n```\n\n### Decoder options\n\n- `dump`: print dump information while decoding (default `false`)\n- `ignoreCodeSection`: ignore the code section (default `false`)\n- `ignoreDataSection`: ignore the data section (default `false`)"
 }

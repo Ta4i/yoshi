@@ -314,7 +314,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749364662
+			"fetched": 1547828399008
 		}
 	},
 	"_distfiles": {
@@ -340,6 +340,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-bc53c958e7f3eb7c",
+	"_rev": "10-f6eec108bea71696",
 	"readme": "# PostCSS Extract Styles [![Build Status][ci-img]][ci] [![npm](https://img.shields.io/npm/v/postcss-extract-styles.svg)](https://www.npmjs.com/package/postcss-extract-styles)\n\n[PostCSS] plugin that extracts styles from css based on deceleration matching.\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://travis-ci.org/felixmosh/postcss-extract-styles.svg\n[ci]:      https://travis-ci.org/felixmosh/postcss-extract-styles\n\n## Options\n`pattern` : Regex | Array<Regex>\n\n## Usage\n\n```js\nconst options = {\n  pattern: /{{[^\\}]+}}/g\n};\npostcss([ require('postcss-extract-styles')(options) ]\n  .then((result) => {\n     result.css // would be the \"remain\" part\n     result.extracted // would be the \"extracted\" part\n  });\n```\n\n## Example\n```css\n.wix-tpa {\n\tcolor: {{color-1}};\n\tmargin-left: 10px;\n}\n```\n```css\n// remain\n.wix-tpa {\n  margin-left: 10px;\n}\n```\n```css\n// extracted\n.wix-tpa {\n  color: {{color-1}};\n}\n```\n\n## Testing\n\n```\n$ npm test\n```\n\nSee [PostCSS] docs for examples for your environment."
 }

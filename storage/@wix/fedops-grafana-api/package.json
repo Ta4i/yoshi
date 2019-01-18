@@ -1,0 +1,3825 @@
+{
+	"name": "@wix/fedops-grafana-api",
+	"versions": {
+		"1.0.78": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.78",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.78.tgz",
+				"shasum": "e39be7794264b558bbfcc6b6b542ea9e1f01f09f"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"haste-preset-yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": "haste build",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.78",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.79": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.79",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.79.tgz",
+				"shasum": "8ae7567161902fd69416e5369e1453ddd9c5d6ac"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.79",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.74": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.74",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.74.tgz",
+				"shasum": "6c4320c7dc2e55b35fef5fc1b76f6dc97f4e81f8"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"haste-preset-yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": "haste build",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.74",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.75": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.75",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.75.tgz",
+				"shasum": "b5d1eeb136541ad10d396d404a8c513e0a69909a"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"haste-preset-yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": "haste build",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.75",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.76": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.76",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.76.tgz",
+				"shasum": "00ef1083af0af60b294476a1827f11b7511bbb54"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"haste-preset-yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": "haste build",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.76",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.77": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.77",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.77.tgz",
+				"shasum": "395296ca46b1ecb1fbae25b08414ff131011d136"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"haste-preset-yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "haste start",
+				"pretest": "haste lint && haste build",
+				"build": "haste build",
+				"test": "haste test",
+				"release": "haste release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.77",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.70": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.70",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.70.tgz",
+				"shasum": "f656d8667dc38aa3994f5dce2de43dc6bde92d43"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.70",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.92": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.92",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.92.tgz",
+				"shasum": "6039250291010c951b032207a94f1838ea6b748f"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.92",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.71": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.71",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.71.tgz",
+				"shasum": "3ff51de2b716336c25511064b8808556b22626bc"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.71",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.93": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.93",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.93.tgz",
+				"shasum": "2f019d2d5717ca77a2b5ce735051af2c8be5e989"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.93",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.72": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.72",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.72.tgz",
+				"shasum": "bdb3ebb3d7a7628fe5e8aa15b67a371e13dd049c"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.72",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.73": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.73",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.73.tgz",
+				"shasum": "9083feeb301eefe8b7caf05f4a9d6a0d35dddadf"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.73",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.90": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.90",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.90.tgz",
+				"shasum": "a8489c0a58d747314d69e79f12446162ebaa2004"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.90",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.91": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.91",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.91.tgz",
+				"shasum": "bb73cfd38b963bdc3282e1e717e48bf0df2a4ee6"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.91",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.17": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.17",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.17.tgz",
+				"shasum": "bf4d960badbbaead40b8e93b88d0f0c1ff1835d1"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.17",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"3.0.0": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "3.0.0",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-3.0.0.tgz",
+				"shasum": "dc3bcdc5a20283701ac3269d11236306f07d4095"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@3.0.0",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.67": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.67",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.67.tgz",
+				"shasum": "bc36f6ac4575d2c7d8d02c3c5d729344b336e1b5"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.67",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.0": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.0",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.0.tgz",
+				"shasum": "3bae38e070cda7ead52616fbd7fadd0ac9644537"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "^9.0.2",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.3.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.0",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.89": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.89",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.89.tgz",
+				"shasum": "d57b1e67b74aecacb74523957bc47bb0c7d2032c"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.89",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.68": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.68",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.68.tgz",
+				"shasum": "194b123f0ac8ed209f5905644f924b301fc448ff"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.68",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.1": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.1",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.1.tgz",
+				"shasum": "8395af033a8e0cdf4fa6a4663b26551c2d562524"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "^9.0.2",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.3.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.1",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.69": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.69",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.69.tgz",
+				"shasum": "59557e7d5c183adfcc573ade510372373de33778"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.69",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.85": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.85",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.85.tgz",
+				"shasum": "63301e884202d54e845876963000ba53fe3b49bf"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.85",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.86": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.86",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.86.tgz",
+				"shasum": "3e9641ff2d96b2e816cf22952f02d607a5f15f47"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.86",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.65": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.65",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.65.tgz",
+				"shasum": "6bce4d171b071b2363fbeedb48e0578eeb83d2cd"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.65",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.87": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.87",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.87.tgz",
+				"shasum": "e9fb63df5300910b2f50d60518b32b0783cebe4a"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.87",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.66": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.66",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.66.tgz",
+				"shasum": "6453c40482339cad5cb535522d6eef7d2c11683d"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.66",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.88": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.88",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.88.tgz",
+				"shasum": "dbf660e3ab324453a770cc401ec81ac9824f0d3e"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.88",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.81": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.81",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.81.tgz",
+				"shasum": "f57e3185720f80eb76c4ae9a95305f559a618290"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.81",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.8": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.8",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.8.tgz",
+				"shasum": "17428ea0225d2fbdc78ef5791fd8c977dbfb9b53"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.8",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.10": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.10",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.10.tgz",
+				"shasum": "900e7ee259b2b272d75f766745ff5bdbd2dee4e5"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.10",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.82": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.82",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.82.tgz",
+				"shasum": "6e58384400a8d764ec5e41e27f016f88622951c5"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.3.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.82",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.9": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.9",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.9.tgz",
+				"shasum": "83e21304c2c1c300ce508252a85595e653663f9d"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.9",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.83": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.83",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.83.tgz",
+				"shasum": "ee23cf487b2ded7227ce563de38c73e371ffa37c"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.83",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.6": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.6",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.6.tgz",
+				"shasum": "916ae4f4b6cf197203694647b97bc9f106e8400f"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.6",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.12": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.12",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.12.tgz",
+				"shasum": "3f1c10afedf0e99df60b54c154d8624ff2a6ff7c"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.12",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.84": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.84",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.84.tgz",
+				"shasum": "efd34175d688ae4e9f063e02e9d88bd6f64d8a76"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.84",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.7": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.7",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.7.tgz",
+				"shasum": "767f2e2b7b6b7305086a352ba04e71710a1a3e5f"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.7",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.11": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.11",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.11.tgz",
+				"shasum": "913bc6275be8581a1648129b1097a53b54392cea"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.11",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.4": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.4",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.4.tgz",
+				"shasum": "5044678143b7661c385b926be0b74b9439b200d5"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.4",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.14": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.14",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.14.tgz",
+				"shasum": "63ffdaa24544c0861743cbc8a86563614c2d0a3e"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.14",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.5": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.5",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.5.tgz",
+				"shasum": "5e59cf8c7f6e2abf531ad5010cc771025e58e449"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.5",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.13": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.13",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.13.tgz",
+				"shasum": "60f3e630f710eb1a811530c8a20fbe22402e6f06"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.13",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.2": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.2",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.2.tgz",
+				"shasum": "3c627865be32831b3fa542e35979e0530f500f75"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.3.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.2",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.16": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.16",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.16.tgz",
+				"shasum": "4c4bbdeba331602b38e4051cefa5ce25945cac2a"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.16",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"1.0.80": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "1.0.80",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.80.tgz",
+				"shasum": "7cc956e782669d8eee3efe8c57536d3559ac2a5e"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2",
+				"xml2js": "^0.4.19"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"nock": "^9.0.2",
+				"sinon": "^2.2.0",
+				"typescript": "~2.3.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@1.0.80",
+			"private": false,
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.3": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.3",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.3.tgz",
+				"shasum": "58bce2a6c2dec71c6d3e10ab3b0e67e608250f97"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/sinon": "^2.2.1",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.3.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.3",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		},
+		"2.0.15": {
+			"name": "@wix/fedops-grafana-api",
+			"version": "2.0.15",
+			"author": {
+				"name": "Alon Yehezkel",
+				"email": "alony@wix.com",
+				"url": ""
+			},
+			"homepage": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-grafana-api"
+			},
+			"main": "dist/src/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.15.tgz",
+				"shasum": "d3a8f136ea80771ef04997f4fce14c331d2908a8"
+			},
+			"dependencies": {
+				"commander": "^2.9.0",
+				"lodash": "^4.17.4",
+				"superagent": "^3.3.2"
+			},
+			"devDependencies": {
+				"@types/chai": "^3.4.34",
+				"@types/lodash": "^4.14.64",
+				"@types/mocha": "^2.2.38",
+				"@types/nock": "^9.3.0",
+				"@types/sinon": "^2.2.1",
+				"@types/superagent": "^3.8.3",
+				"babel-preset-es2015": "~6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"chai": "^3.5.0",
+				"husky": "^0.14.3",
+				"lint-staged": "^7.2.0",
+				"nock": "9.4.0",
+				"prettier": "^1.13.5",
+				"prettier-eslint-cli": "^4.7.1",
+				"sinon": "^2.2.0",
+				"tslint-config-prettier": "^1.13.0",
+				"tslint-consistent-codestyle": "^1.13.1",
+				"typescript": "~2.4.0",
+				"yoshi": "^2.11.3"
+			},
+			"files": [
+				"dist"
+			],
+			"bin": {
+				"fedops-api": "./dist/src/cli.js"
+			},
+			"scripts": {
+				"start": "yoshi start",
+				"pretest": "yoshi lint && yoshi build",
+				"precommit": "lint-staged && yoshi lint",
+				"build": "yoshi build",
+				"test": "yoshi test",
+				"release": "yoshi release"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/fedops-grafana-api@2.0.15",
+			"private": false,
+			"lint-staged": {
+				"*.{ts,json}": [
+					"prettier --config .prettierrc --write **/*.{ts,json}",
+					"git add"
+				]
+			},
+			"babel": {
+				"presets": [
+					"es2015",
+					"stage-0"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/esnext"
+			}
+		}
+	},
+	"time": {
+		"1.0.92": "2018-10-03T18:04:11.019Z",
+		"1.0.93": "2018-10-07T14:09:48.141Z",
+		"1.0.90": "2018-08-22T11:53:28.723Z",
+		"1.0.91": "2018-09-13T17:39:33.077Z",
+		"2.0.17": "2019-01-01T14:14:22.251Z",
+		"modified": "2019-01-03T15:36:29.707Z",
+		"1.0.89": "2018-08-07T14:46:14.799Z",
+		"1.0.85": "2018-07-13T13:02:04.155Z",
+		"1.0.86": "2018-07-17T15:47:06.820Z",
+		"created": "2017-11-12T14:02:27.707Z",
+		"1.0.87": "2018-07-25T09:25:03.057Z",
+		"1.0.88": "2018-07-29T08:56:10.583Z",
+		"1.0.81": "2018-06-03T10:44:53.997Z",
+		"2.0.10": "2018-12-05T10:47:49.744Z",
+		"1.0.82": "2018-07-08T08:14:21.128Z",
+		"1.0.83": "2018-07-11T10:42:43.070Z",
+		"2.0.12": "2018-12-07T17:26:29.277Z",
+		"1.0.84": "2018-07-11T12:04:44.040Z",
+		"2.0.11": "2018-12-07T12:08:28.419Z",
+		"2.0.14": "2018-12-13T13:54:03.097Z",
+		"2.0.13": "2018-12-12T13:18:47.040Z",
+		"2.0.16": "2018-12-26T08:34:28.261Z",
+		"1.0.80": "2018-06-03T08:17:03.196Z",
+		"2.0.15": "2018-12-16T14:53:22.797Z",
+		"1.0.78": "2018-05-07T19:05:06.268Z",
+		"1.0.79": "2018-05-22T09:32:09.994Z",
+		"1.0.74": "2018-03-26T06:57:21.685Z",
+		"1.0.75": "2018-03-29T06:44:10.218Z",
+		"1.0.76": "2018-04-04T07:03:37.592Z",
+		"1.0.77": "2018-05-03T14:49:13.275Z",
+		"1.0.70": "2018-03-23T12:47:40.944Z",
+		"1.0.71": "2018-03-23T13:27:24.918Z",
+		"1.0.72": "2018-03-23T15:11:14.517Z",
+		"1.0.73": "2018-03-25T08:11:34.294Z",
+		"3.0.0": "2019-01-03T15:36:29.707Z",
+		"1.0.67": "2017-11-22T11:28:03.380Z",
+		"2.0.0": "2018-06-21T18:12:04.649Z",
+		"1.0.68": "2018-03-02T12:09:25.354Z",
+		"2.0.1": "2018-06-24T08:24:10.269Z",
+		"1.0.69": "2018-03-22T12:30:56.860Z",
+		"1.0.65": "2017-11-12T14:02:27.707Z",
+		"1.0.66": "2017-11-15T13:43:42.442Z",
+		"2.0.8": "2018-10-25T04:13:15.644Z",
+		"2.0.9": "2018-12-03T07:50:54.287Z",
+		"2.0.6": "2018-10-11T08:01:55.264Z",
+		"2.0.7": "2018-10-17T10:32:24.817Z",
+		"2.0.4": "2018-10-07T14:59:14.376Z",
+		"2.0.5": "2018-10-08T09:25:19.223Z",
+		"2.0.2": "2018-07-03T09:36:52.054Z",
+		"2.0.3": "2018-07-05T15:49:46.325Z"
+	},
+	"dist-tags": {
+		"old": "1.0.93",
+		"latest": "3.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828414481
+		}
+	},
+	"_distfiles": {
+		"fedops-grafana-api-1.0.78.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.78.tgz",
+			"sha": "e39be7794264b558bbfcc6b6b542ea9e1f01f09f"
+		},
+		"fedops-grafana-api-1.0.79.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.79.tgz",
+			"sha": "8ae7567161902fd69416e5369e1453ddd9c5d6ac"
+		},
+		"fedops-grafana-api-1.0.74.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.74.tgz",
+			"sha": "6c4320c7dc2e55b35fef5fc1b76f6dc97f4e81f8"
+		},
+		"fedops-grafana-api-1.0.75.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.75.tgz",
+			"sha": "b5d1eeb136541ad10d396d404a8c513e0a69909a"
+		},
+		"fedops-grafana-api-1.0.76.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.76.tgz",
+			"sha": "00ef1083af0af60b294476a1827f11b7511bbb54"
+		},
+		"fedops-grafana-api-1.0.77.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.77.tgz",
+			"sha": "395296ca46b1ecb1fbae25b08414ff131011d136"
+		},
+		"fedops-grafana-api-1.0.70.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.70.tgz",
+			"sha": "f656d8667dc38aa3994f5dce2de43dc6bde92d43"
+		},
+		"fedops-grafana-api-1.0.92.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.92.tgz",
+			"sha": "6039250291010c951b032207a94f1838ea6b748f"
+		},
+		"fedops-grafana-api-1.0.71.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.71.tgz",
+			"sha": "3ff51de2b716336c25511064b8808556b22626bc"
+		},
+		"fedops-grafana-api-1.0.93.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.93.tgz",
+			"sha": "2f019d2d5717ca77a2b5ce735051af2c8be5e989"
+		},
+		"fedops-grafana-api-1.0.72.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.72.tgz",
+			"sha": "bdb3ebb3d7a7628fe5e8aa15b67a371e13dd049c"
+		},
+		"fedops-grafana-api-1.0.73.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.73.tgz",
+			"sha": "9083feeb301eefe8b7caf05f4a9d6a0d35dddadf"
+		},
+		"fedops-grafana-api-1.0.90.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.90.tgz",
+			"sha": "a8489c0a58d747314d69e79f12446162ebaa2004"
+		},
+		"fedops-grafana-api-1.0.91.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.91.tgz",
+			"sha": "bb73cfd38b963bdc3282e1e717e48bf0df2a4ee6"
+		},
+		"fedops-grafana-api-2.0.17.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.17.tgz",
+			"sha": "bf4d960badbbaead40b8e93b88d0f0c1ff1835d1"
+		},
+		"fedops-grafana-api-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-3.0.0.tgz",
+			"sha": "dc3bcdc5a20283701ac3269d11236306f07d4095"
+		},
+		"fedops-grafana-api-1.0.67.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.67.tgz",
+			"sha": "bc36f6ac4575d2c7d8d02c3c5d729344b336e1b5"
+		},
+		"fedops-grafana-api-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.0.tgz",
+			"sha": "3bae38e070cda7ead52616fbd7fadd0ac9644537"
+		},
+		"fedops-grafana-api-1.0.89.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.89.tgz",
+			"sha": "d57b1e67b74aecacb74523957bc47bb0c7d2032c"
+		},
+		"fedops-grafana-api-1.0.68.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.68.tgz",
+			"sha": "194b123f0ac8ed209f5905644f924b301fc448ff"
+		},
+		"fedops-grafana-api-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.1.tgz",
+			"sha": "8395af033a8e0cdf4fa6a4663b26551c2d562524"
+		},
+		"fedops-grafana-api-1.0.69.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.69.tgz",
+			"sha": "59557e7d5c183adfcc573ade510372373de33778"
+		},
+		"fedops-grafana-api-1.0.85.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.85.tgz",
+			"sha": "63301e884202d54e845876963000ba53fe3b49bf"
+		},
+		"fedops-grafana-api-1.0.86.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.86.tgz",
+			"sha": "3e9641ff2d96b2e816cf22952f02d607a5f15f47"
+		},
+		"fedops-grafana-api-1.0.65.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.65.tgz",
+			"sha": "6bce4d171b071b2363fbeedb48e0578eeb83d2cd"
+		},
+		"fedops-grafana-api-1.0.87.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.87.tgz",
+			"sha": "e9fb63df5300910b2f50d60518b32b0783cebe4a"
+		},
+		"fedops-grafana-api-1.0.66.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.66.tgz",
+			"sha": "6453c40482339cad5cb535522d6eef7d2c11683d"
+		},
+		"fedops-grafana-api-1.0.88.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.88.tgz",
+			"sha": "dbf660e3ab324453a770cc401ec81ac9824f0d3e"
+		},
+		"fedops-grafana-api-1.0.81.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.81.tgz",
+			"sha": "f57e3185720f80eb76c4ae9a95305f559a618290"
+		},
+		"fedops-grafana-api-2.0.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.8.tgz",
+			"sha": "17428ea0225d2fbdc78ef5791fd8c977dbfb9b53"
+		},
+		"fedops-grafana-api-2.0.10.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.10.tgz",
+			"sha": "900e7ee259b2b272d75f766745ff5bdbd2dee4e5"
+		},
+		"fedops-grafana-api-1.0.82.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.82.tgz",
+			"sha": "6e58384400a8d764ec5e41e27f016f88622951c5"
+		},
+		"fedops-grafana-api-2.0.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.9.tgz",
+			"sha": "83e21304c2c1c300ce508252a85595e653663f9d"
+		},
+		"fedops-grafana-api-1.0.83.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.83.tgz",
+			"sha": "ee23cf487b2ded7227ce563de38c73e371ffa37c"
+		},
+		"fedops-grafana-api-2.0.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.6.tgz",
+			"sha": "916ae4f4b6cf197203694647b97bc9f106e8400f"
+		},
+		"fedops-grafana-api-2.0.12.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.12.tgz",
+			"sha": "3f1c10afedf0e99df60b54c154d8624ff2a6ff7c"
+		},
+		"fedops-grafana-api-1.0.84.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.84.tgz",
+			"sha": "efd34175d688ae4e9f063e02e9d88bd6f64d8a76"
+		},
+		"fedops-grafana-api-2.0.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.7.tgz",
+			"sha": "767f2e2b7b6b7305086a352ba04e71710a1a3e5f"
+		},
+		"fedops-grafana-api-2.0.11.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.11.tgz",
+			"sha": "913bc6275be8581a1648129b1097a53b54392cea"
+		},
+		"fedops-grafana-api-2.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.4.tgz",
+			"sha": "5044678143b7661c385b926be0b74b9439b200d5"
+		},
+		"fedops-grafana-api-2.0.14.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.14.tgz",
+			"sha": "63ffdaa24544c0861743cbc8a86563614c2d0a3e"
+		},
+		"fedops-grafana-api-2.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.5.tgz",
+			"sha": "5e59cf8c7f6e2abf531ad5010cc771025e58e449"
+		},
+		"fedops-grafana-api-2.0.13.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.13.tgz",
+			"sha": "60f3e630f710eb1a811530c8a20fbe22402e6f06"
+		},
+		"fedops-grafana-api-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.2.tgz",
+			"sha": "3c627865be32831b3fa542e35979e0530f500f75"
+		},
+		"fedops-grafana-api-2.0.16.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.16.tgz",
+			"sha": "4c4bbdeba331602b38e4051cefa5ce25945cac2a"
+		},
+		"fedops-grafana-api-1.0.80.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-1.0.80.tgz",
+			"sha": "7cc956e782669d8eee3efe8c57536d3559ac2a5e"
+		},
+		"fedops-grafana-api-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.3.tgz",
+			"sha": "58bce2a6c2dec71c6d3e10ab3b0e67e608250f97"
+		},
+		"fedops-grafana-api-2.0.15.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/fedops-grafana-api/-/@wix/fedops-grafana-api-2.0.15.tgz",
+			"sha": "d3a8f136ea80771ef04997f4fce14c331d2908a8"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-5950ce5252904b4a",
+	"readme": ""
+}

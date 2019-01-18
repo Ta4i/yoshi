@@ -1200,7 +1200,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749403470
+			"fetched": 1547828408851
 		}
 	},
 	"_distfiles": {
@@ -1266,6 +1266,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b72e98fc3539e937",
+	"_rev": "10-90094a6fe57cbb1b",
 	"readme": "# postcss-minify-params [![Build Status][ci-img]][ci]\n\n> Minify at-rule params with PostCSS.\n\n```css\n@media only screen   and ( min-width: 400px, min-height: 500px ) {\n    h2{\n        color:blue\n    }\n}\n```\n\n```css\n@media only screen and (min-width:400px,min-height:500px) {\n    h2{\n        color:blue\n    }\n}\n```\n\n## Usage\n\n```js\npostcss([ require('postcss-minify-params') ])\n```\n\nSee [PostCSS] docs for examples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://travis-ci.org/cssnano/postcss-minify-params.svg\n[ci]:      https://travis-ci.org/cssnano/postcss-minify-params"
 }

@@ -111,7 +111,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749398858
+			"fetched": 1547828432869
 		}
 	},
 	"_distfiles": {
@@ -125,6 +125,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-deaf42356d835a3e",
+	"_rev": "10-496edc1bed6c45d7",
 	"readme": "# css-font-stretch-keywords\n\nList of CSS [font stretches](https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch):\n- normal\n- condensed\n- semi-condensed\n- extra-condensed\n- ultra-condensed\n- expanded\n- semi-expanded\n- extra-expanded\n- ultra-expanded\n\n## Installation\n\n```\nnpm install css-font-stretch-keywords [--save[-dev]]\n```\n\n## Usage\n\n```js\nvar fontStretchKeywords = require('css-font-stretch-keywords');\nfontStretchKeywords; /*\n[\n\t\"normal\",\n\t\"condensed\",\n\t\"semi-condensed\",\n\t\"extra-condensed\",\n\t\"ultra-condensed\",\n\t\"expanded\",\n\t\"semi-expanded\",\n\t\"extra-expanded\",\n\t\"ultra-expanded\"\n]\n*/\n```"
 }

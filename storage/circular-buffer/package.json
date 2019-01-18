@@ -438,7 +438,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749416649
+			"fetched": 1547828460933
 		}
 	},
 	"_distfiles": {
@@ -476,6 +476,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-41d5379765a78092",
+	"_rev": "8-19b6793c89aba98a",
 	"readme": "# NodeJS Circular Buffer\n<p>\n\t<a href=\"https://travis-ci.org/tomsmeding/circular-buffer\">\n\t\t<img src=\"https://api.travis-ci.org/tomsmeding/circular-buffer.png?branch=master\" alt=\"Travis CI Badge\"/>\n\t</a>\n</p>\n\nThis is a simple [circular buffer](http://en.wikipedia.org/wiki/Circular_buffer) implementation for NodeJS.\n\nThe implementation can function both as a queue (which it's most suited for), and as a (forgetful) stack. Queue functionality uses `enq()` and `deq()`; stack functionality uses `push()` and `pop()`. Values are enqueued at the front of the buffer and dequeued at the back of the buffer; pushing and popping is at the back of the buffer. Indexing is front-to-back: the last-enqueued item has lowest index, which is also the first-pushed item.\n\n## Usage\n\nBelow is a sample session with a circular buffer with this package. It should answer most questions.\n\n```node\nvar CircularBuffer = require(\"circular-buffer\");\n\nvar buf = new CircularBuffer(3);\nconsole.log(buf.capacity()); // -> 3\nbuf.enq(1);\nbuf.enq(2);\nconsole.log(buf.size()); // -> 2\nbuf.toarray(); // -> [2,1]\nbuf.push(3);\nbuf.toarray(); // -> [2,1,3]\nbuf.enq(4);\nconsole.log(buf.size()); // -> 3  (despite having added a fourth item!)\nbuf.toarray(); // -> [4,2,1]\nbuf.get(0); // -> 4  (last enqueued item is at start of buffer)\nbuf.get(0,2); // -> [4,2,1]  (2-parameter get takes start and end)\nbuf.toarray(); // -> [4,2,1]  (equivalent to buf.get(0,buf.size() - 1) )\nconsole.log(buf.deq()); // -> 1\nbuf.toarray(); // -> [4,2]\nbuf.pop(); // -> 2  (deq and pop are functionally the same)\nbuf.deq(); // -> 4\nbuf.toarray(); // -> []\nbuf.deq(); // -> throws RangeError(\"CircularBuffer dequeue on empty buffer\")\n```\n\n## Functions\n\n- `size()` -> `integer`\n  - Returns the current number of items in the buffer.\n- `capacity()` -> `integer`\n  - Returns the maximum number of items in the buffer (specified when creating it).\n- `enq(value)`\n  - Enqueue `value` at the front of the buffer\n- `deq()` -> `value`\n  - Dequeue an item from the back of the buffer; returns that item. Throws `RangeError` if the buffer is empty on invocation.\n- `get(idx)` -> `value`\n  - Get the value at index `idx`. `0` is the front of the buffer (last-enqueued item, or first-pushed item), `buf.size()-1` is the back of the buffer.\n- `get(start,end)` -> `[value]`\n  - Gets the values from index `start` up to and including index `end`; returns an array, in front-to-back order. Equivalent to `[buf.get(start),buf.get(start+1),/*etc*/,buf.get(end)]`.\n- `toarray()` -> `[value]`\n  - Equivalent to `buf.get(0,buf.size() - 1)`: exports all items in the buffer in front-to-back order.\n\n## Testing\n\nTo test the package simply run `npm update && npm test` in the package's root folder."
 }

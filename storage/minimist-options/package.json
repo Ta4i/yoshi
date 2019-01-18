@@ -588,7 +588,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749422018
+			"fetched": 1547828452553
 		}
 	},
 	"_distfiles": {
@@ -630,6 +630,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-de137902524805bd",
+	"_rev": "10-2b5434568e315bf3",
 	"readme": "# minimist-options [![Build Status](https://travis-ci.org/vadimdemedes/minimist-options.svg?branch=master)](https://travis-ci.org/vadimdemedes/minimist-options)\n\n> Write options for [minimist](https://npmjs.org/package/minimist) in a comfortable way.\n> Support string, boolean, number and array options.\n\n## Installation\n\n```\n$ npm install --save minimist-options\n```\n\n## Usage\n\n```js\nconst buildOptions = require('minimist-options');\nconst minimist = require('minimist');\n\nconst options = buildOptions({\n\tname: {\n\t\ttype: 'string',\n\t\talias: 'n',\n\t\tdefault: 'john'\n\t},\n\n\tforce: {\n\t\ttype: 'boolean',\n\t\talias: ['f', 'o'],\n\t\tdefault: false\n\t},\n\n\tscore: {\n\t\ttype: 'number',\n\t\talias: 's',\n\t\tdefault: 0\n\t},\n\n\tarr: {\n\t\ttype: 'array',\n\t\talias: 'a',\n\t\tdefault: []\n\t},\n\n\tpublished: 'boolean',\n\n\t// Special option for positional arguments (`_` in minimist)\n\targuments: 'string'\n});\n\nconst args = minimist(process.argv.slice(2), options);\n```\n\ninstead of:\n\n```js\nconst minimist = require('minimist');\n\nconst options = {\n\tstring: ['name', '_'],\n\tnumber: ['score'],\n\tarray: ['arr'],\n\tboolean: ['force', 'published'],\n\talias: {\n\t\tn: 'name',\n\t\tf: 'force',\n\t\ts: 'score',\n\t\ta: 'arr'\n\t},\n\tdefault: {\n\t\tname: 'john',\n\t\tf: false,\n\t\tscore: 0,\n\t\tarr: []\n\t}\n};\n\nconst args = minimist(process.argv.slice(2), options);\n```\n\n## License\n\nMIT © [Vadim Demedes](https://vadimdemedes.com)"
 }

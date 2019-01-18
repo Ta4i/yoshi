@@ -1270,7 +1270,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749351186
+			"fetched": 1547828385859
 		}
 	},
 	"_distfiles": {
@@ -1332,6 +1332,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-fece0981f9f820f4",
+	"_rev": "10-0608d6858e836f41",
 	"readme": "# PostCSS Safe Parser [![Build Status][ci-img]][ci]\n\n<img align=\"right\" width=\"95\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"http://postcss.github.io/postcss/logo.svg\">\n\nA fault-tolerant CSS parser for [PostCSS], which will find & fix syntax errors,\ncapable of parsing any input. It is useful for:\n\n* Parse legacy code with many hacks. For example, it can parse all examples\n  from [Browserhacks].\n* Works with demo tools with live input like [Autoprefixer demo].\n\n[Autoprefixer demo]: http://simevidas.jsbin.com/gufoko/quiet\n[Browserhacks]:      http://browserhacks.com/\n[PostCSS]:           https://github.com/postcss/postcss\n[ci-img]:            https://img.shields.io/travis/postcss/postcss-safe-parser.svg\n[ci]:                https://travis-ci.org/postcss/postcss-safe-parser\n\n<a href=\"https://evilmartians.com/?utm_source=postcss\">\n<img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\" alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n## Usage\n\n```js\nvar safe   = require('postcss-safe-parser');\nvar badCss = 'a {';\n\npostcss(plugins).process(badCss, { parser: safe }).then(function (result) {\n    result.css //= 'a {}'\n});\n```"
 }

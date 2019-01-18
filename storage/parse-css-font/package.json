@@ -581,7 +581,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749364692
+			"fetched": 1547828398955
 		}
 	},
 	"_distfiles": {
@@ -615,6 +615,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-a86337de50d0ded5",
+	"_rev": "10-0df23785b58874c4",
 	"readme": "# parse-css-font\n\n[![NPM version](http://img.shields.io/npm/v/parse-css-font.svg?style=flat)](https://www.npmjs.org/package/parse-css-font)\n[![npm license](http://img.shields.io/npm/l/parse-css-font.svg?style=flat-square)](https://www.npmjs.org/package/parse-css-font)\n[![Travis Build Status](https://img.shields.io/travis/jedmao/parse-css-font.svg?label=unix)](https://travis-ci.org/jedmao/parse-css-font)\n\n[![npm](https://nodei.co/npm/parse-css-font.svg?downloads=true)](https://nodei.co/npm/parse-css-font/)\n\nParses the CSS [font property](https://developer.mozilla.org/en-US/docs/Web/CSS/font#font-variant-css21).\n\n## Installation\n\n```\n$ npm install parse-css-font [--save[-dev]]\n```\n\n## Usage\n\n```js\nvar parseCSSFont = require('parse-css-font');\nparseCSSFont('1rem \"Roboto Condensed\", sans-serif;');\n/*\n{\n\tsize: '1rem',\n\tfamily: ['Roboto Condensed', 'sans-serif'],\n\tstyle: 'normal',\n\tvariant: 'normal',\n\tweight: 'normal',\n\tstretch: 'normal',\n\tlineHeight: 'normal'\n}\n*/\n```\n\nSee [the tests](https://github.com/jedmao/parse-css-font/blob/master/src/index.test.ts) for more scenarios.\n\n### ES6/2015 import\n\n```ts\nimport parseCSSFont from 'parse-css-font';\n```\n\n## Testing\n\n```\n$ npm test\n```\n\nThis will run tests and generate a code coverage report. Anything less than 100% coverage will throw an error."
 }

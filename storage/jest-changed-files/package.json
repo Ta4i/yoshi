@@ -4961,7 +4961,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749395531
+			"fetched": 1547828430236
 		}
 	},
 	"_distfiles": {
@@ -5335,6 +5335,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-e5012bfc164e1988",
+	"_rev": "10-67d94aba20701053",
 	"readme": "# jest-changed-files\n\nA module used internally by Jest to check which files have changed since you last committed in git or hg.\n\n## Install\n\n```sh\n$ npm install --save jest-changed-files\n```\n\n## API\n\n### `getChangedFilesForRoots(roots: <Array<string>>, options: ?object): Promise<?object>`\n\nGet the list of files and repos that have changed since the last commit.\n\n#### Parameters\n\nroots: Array of string paths gathered from [jest roots](https://jestjs.io/docs/configuration.html#roots-array-string).\n\noptions: Object literal with keys\n\n- lastCommit: boolean\n- withAncestor: boolean\n\n### findRepos(roots: <Array<string>>): Promise<?object>\n\nGet a set of git and hg repositories.\n\n#### Parameters\n\nroots: Array of string paths gathered from [jest roots](https://jestjs.io/docs/configuration.html#roots-array-string).\n\n## Usage\n\n```javascript\nimport {getChangedFilesForRoots} from 'jest-changed-files';\n\ngetChangedFilesForRoots(['/path/to/test'], {\n  lastCommit: true,\n  withAncestor: true,\n}).then(files => {\n  /*\n  {\n    repos: [],\n    changedFiles: []\n  }\n  */\n});\n```\n\n```javascript\nimport {findRepos} from 'jest-changed-files';\n\nfindRepos(['/path/to/test']).then(repos => {\n  /*\n  {\n    git: Set<Path>,\n    hg: Set<Path>\n  }\n  */\n});\n```"
 }

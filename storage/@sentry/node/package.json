@@ -7638,7 +7638,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749329229
+			"fetched": 1547828359937
 		}
 	},
 	"_distfiles": {
@@ -7888,6 +7888,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-3894ba83bbe82461",
+	"_rev": "10-a607b72d1ce01b32",
 	"readme": "<p align=\"center\">\n  <a href=\"https://sentry.io\" target=\"_blank\" align=\"center\">\n    <img src=\"https://sentry-brand.storage.googleapis.com/sentry-logo-black.png\" width=\"280\">\n  </a>\n  <br />\n</p>\n\n# Official Sentry SDK for NodeJS\n\n[![npm version](https://img.shields.io/npm/v/@sentry/node.svg)](https://www.npmjs.com/package/@sentry/node)\n[![npm dm](https://img.shields.io/npm/dm/@sentry/node.svg)](https://www.npmjs.com/package/@sentry/node)\n[![npm dt](https://img.shields.io/npm/dt/@sentry/node.svg)](https://www.npmjs.com/package/@sentry/node)\n[![typedoc](https://img.shields.io/badge/docs-typedoc-blue.svg)](http://getsentry.github.io/sentry-javascript/)\n\n## Links\n\n- [Official SDK Docs](https://docs.sentry.io/quickstart/)\n- [TypeDoc](http://getsentry.github.io/sentry-javascript/)\n\n## Usage\n\nTo use this SDK, call `init(options)` as early as possible in the main entry module. This will initialize the SDK and\nhook into the environment. Note that you can turn off almost all side effects using the respective options.\n\n```javascript\n// ES5 Syntax\nconst Sentry = require('@sentry/node');\n// ES6 Syntax\nimport * as Sentry from '@sentry/node';\n\nSentry.init({\n  dsn: '__DSN__',\n  // ...\n});\n```\n\nTo set context information or send manual events, use the exported functions of `@sentry/node`. Note that these\nfunctions will not perform any action before you have called `init()`:\n\n```javascript\n// Set user information, as well as tags and further extras\nSentry.configureScope(scope => {\n  scope.setExtra('battery', 0.7);\n  scope.setTag('user_mode', 'admin');\n  scope.setUser({ id: '4711' });\n  // scope.clear();\n});\n\n// Add a breadcrumb for future events\nSentry.addBreadcrumb({\n  message: 'My Breadcrumb',\n  // ...\n});\n\n// Capture exceptions, messages or manual events\nSentry.captureMessage('Hello, world!');\nSentry.captureException(new Error('Good bye'));\nSentry.captureEvent({\n  message: 'Manual',\n  stacktrace: [\n    // ...\n  ],\n});\n```"
 }

@@ -62,7 +62,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749350533
+			"fetched": 1547828385585
 		}
 	},
 	"_distfiles": {
@@ -72,6 +72,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-f72e8154717bd5e2",
+	"_rev": "10-b692ff2c569b64e8",
 	"readme": "# deindent\n\nES6 template string helper for deindentation (adapted from https://gist.github.com/zenparsing/5dffde82d9acef19e43c).\n\n```js\nvar deindent = require('deindent')\n\n// as a string function\ndeindent(`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`);\n\n// as a template tag\ndeindent`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`;\n\n\n// as a higher-order template tag\ndeindent(String.raw)`\n    this\n    is\n  the ${ \"end\" }\n      my only\n      friend\n    the end\n`;\n\n// all three should output the same deindented string\n'\\nthis\\nis\\nthe end\\n  my only\\n  friend\\nthe end\\n'\n```"
 }

@@ -1,0 +1,4735 @@
+{
+	"name": "rc-animate",
+	"versions": {
+		"1.2.9": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.9",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.9.tgz",
+				"shasum": "cb0f661c90b3d23bf232283b2109fc9cacb13a1b"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.9",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "45f57ea1519964d64d45329682ea57b632a43a31",
+			"_shasum": "cb0f661c90b3d23bf232283b2109fc9cacb13a1b",
+			"_nodeVersion": "0.12.0"
+		},
+		"3.0.0-rc.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.3.tgz",
+				"shasum": "a36199ceadc7952e949c3e132e9172b7bd21344b"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.3",
+			"gitHead": "e0288b8c60fac8df7cce47680319f7e5d86cccfc",
+			"module": "./es/index",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.3_1532954883319_0.19905218739445552"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"3.0.0-rc.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.4.tgz",
+				"shasum": "caddbd849f01d987965c6237afe64167679497bd"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.4",
+			"gitHead": "d580537f259e138e33d57baecf61b0ce268dc1d4",
+			"module": "./es/index",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.4_1533032986009_0.389879502371695"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"3.0.0-rc.5": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.5",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.5.tgz",
+				"shasum": "802ac2af847d27b24aa89d8a43f89e26e9b3293c"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.5",
+			"gitHead": "f53681041ddf2312cf712d556d4d981e1f7bb573",
+			"module": "./es/index",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.5_1534472904583_0.11878533685696802"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"3.0.0-rc.6": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.6",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.6.tgz",
+				"shasum": "04288eefa118e0cae214536c8a903ffaac1bc3fb"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.6",
+			"gitHead": "9d6a99695ea830674cd9492da6823d0c8ba66e62",
+			"module": "./es/index",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.6_1535099972055_0.39334003252502536"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"3.0.0-rc.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.0.tgz",
+				"shasum": "59170d91be11acd5c5f8f77343a2731ca4cf8b7d"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.0",
+			"gitHead": "6c11c4ad3e824e2f11035773d97e676f61373ca0",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.0_1528703637596_0.49230359875258967"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.9.4"
+		},
+		"3.0.0-rc.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.1.tgz",
+				"shasum": "39703e5be6d35c0c50ae53126a6c2424e5ec9405"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.1",
+			"gitHead": "e184e9f46b025341aa7e15fcbb806c3d028a4008",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.1_1530537266115_0.5379964727936408"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"3.0.0-rc.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "3.0.0-rc.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.2.tgz",
+				"shasum": "99afa46c3482dac4d27447d6b1f4b29495de0263"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.5",
+				"component-classes": "^1.2.6",
+				"fbjs": "^0.8.16",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"rc-util": "^4.5.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.3.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.2.0",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@3.0.0-rc.2",
+			"gitHead": "4c9fcc5fcb73105bd2ac83cf89d337366d81edf6",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_3.0.0-rc.2_1532947055554_0.530633450571057"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"2.1.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.1.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.1.0.tgz",
+				"shasum": "b66c9e261c19d630b9d32e78d9a0391e93baf3b9"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.1.0",
+			"gitHead": "e707fda37923db7d3a51ca70635970b7d35ce570",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.1.0.tgz_1466089882471_0.16643683169968426"
+			},
+			"_shasum": "b66c9e261c19d630b9d32e78d9a0391e93baf3b9",
+			"_nodeVersion": "4.4.5"
+		},
+		"2.6.0-beta.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.6.0-beta.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.6.0-beta.1.tgz",
+				"shasum": "9c2566e4c9f77608a49681fc68bbbc0a6fae9ebf"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8201
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.6.0-beta.1",
+			"gitHead": "2fda6298b7bb7859ad6741ddf65dc7c71fb807d8",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.6.0-beta.1_1537252184568_0.692754800685959"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.5": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.5",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.5.tgz",
+				"shasum": "91e815d9ec61a07072b26dc738431e14d7d02546"
+			},
+			"dependencies": {
+				"create-react-class": "^15.5.1",
+				"css-animation": "^1.3.0",
+				"prop-types": "^15.5.6"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.4",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-animate@2.3.5",
+			"gitHead": "f1c48464a8a4149bf647f2ffe6bcdee9f4091b67",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.5.tgz_1492402047827_0.7769100333098322"
+			},
+			"_shasum": "91e815d9ec61a07072b26dc738431e14d7d02546",
+			"_nodeVersion": "7.7.1"
+		},
+		"2.5.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.5.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.3.tgz",
+				"shasum": "a84636b50d4198184c34efa325824f14a2218d0d"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8201
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.5.3",
+			"gitHead": "a8842c4cbc89ddbbe9998122c0832bb5adfeafdd",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.5.3_1537238499835_0.058717698410369"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.6": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.6",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.6.tgz",
+				"shasum": "4177a2822c67adf4fd5b908ceba7cee8d13c1fac"
+			},
+			"dependencies": {
+				"css-animation": "^1.3.0",
+				"prop-types": "^15.5.6"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-addons-test-utils": "15.x",
+				"react-dom": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "4.4.4",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-animate@2.3.6",
+			"gitHead": "07686271fac403681db53808d035f7d290caf169",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.6.tgz_1492433916395_0.9798817443661392"
+			},
+			"_shasum": "4177a2822c67adf4fd5b908ceba7cee8d13c1fac",
+			"_nodeVersion": "7.7.1"
+		},
+		"2.5.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.5.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.4.tgz",
+				"shasum": "3b308c42e137a2e3fb578650fdb145c2100fcc35"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8201
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.5.4",
+			"gitHead": "167e3b50b8372492d8be9ad27ae2737a1c6247c7",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.5.4_1537860925913_0.34580798367937726"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.3.tgz",
+				"shasum": "9f123990aa625c5867ace88412a185e46b307d03"
+			},
+			"dependencies": {
+				"css-animation": "^1.3.0"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.3.3",
+			"gitHead": "19500f68ea736646130ecef0a697a2c3f60e0413",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.3.tgz_1488179951737_0.9878581988159567"
+			},
+			"_shasum": "9f123990aa625c5867ace88412a185e46b307d03",
+			"_nodeVersion": "6.9.1"
+		},
+		"2.5.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.5.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.1.tgz",
+				"shasum": "ce9b726c7e1ac2cd43d6953765c08c3c4ec96496"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.5.1",
+			"gitHead": "b148e6eacceb8a005230414c05a8afd117d166a6",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.5.1_1537173800182_0.432065708375982"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.4.tgz",
+				"shasum": "fcd424bc389ab71643222a3595f202e240367562"
+			},
+			"dependencies": {
+				"create-react-class": "^15.5.1",
+				"css-animation": "^1.3.0",
+				"prop-types": "^15.5.6"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_npmUser": {
+				"name": "xujihui1985",
+				"email": "xujihui1985@outlook.com"
+			},
+			"_id": "rc-animate@2.3.4",
+			"gitHead": "41fa933d3216c1cc3672fc402da573a3e4595210",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.4.tgz_1492398580844_0.6669102762825787"
+			},
+			"_shasum": "fcd424bc389ab71643222a3595f202e240367562",
+			"_nodeVersion": "7.4.0"
+		},
+		"2.5.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.5.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.2.tgz",
+				"shasum": "4f929070288ea9a78200b78b197304258baae93c"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.5.2",
+			"gitHead": "f446f6bb897d15e6284b11b06ff3c852e37088cb",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.5.2_1537178361538_0.5213427696888648"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.1.tgz",
+				"shasum": "eacda46bf589d857f640c53953d92e07cb688636"
+			},
+			"dependencies": {
+				"css-animation": "^1.3.0"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.3.1",
+			"gitHead": "df8e4103fd253c3a51dccdfd6591bf3b2c2ef1fe",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.1.tgz_1470023236006_0.19832818489521742"
+			},
+			"_shasum": "eacda46bf589d857f640c53953d92e07cb688636",
+			"_nodeVersion": "4.4.5"
+		},
+		"2.5.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.5.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.0.tgz",
+				"shasum": "4f3fe6dbf7a7101e7669035ce98e0baae039fc7c"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.5.0",
+			"gitHead": "af682be8dfb9cafee13e346589bd6eeda9e16c06",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.5.0_1537172204362_0.29773447659751695"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.3.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.3.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.0.tgz",
+				"shasum": "c32e17bea04124deed547c2919fa5101e9170d3e"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.3.0",
+			"gitHead": "b5d8ec7c13da59532a9d46e9f4a647c4facb35ea",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.3.0.tgz_1467706682003_0.363684969721362"
+			},
+			"_shasum": "c32e17bea04124deed547c2919fa5101e9170d3e",
+			"_nodeVersion": "4.4.5"
+		},
+		"1.3.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.3.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.3.0.tgz",
+				"shasum": "80c3fab454c0f4b9f88e11fed54ad73d318710ec"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.3.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.3.0",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "ed662fc69f685c703e3a7dc5db7e865da84b7db6",
+			"_shasum": "80c3fab454c0f4b9f88e11fed54ad73d318710ec",
+			"_nodeVersion": "4.0.0"
+		},
+		"1.1.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.1.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.1.0.tgz",
+				"shasum": "8ab29c22f8617d8010c967ed64761409dde7f212"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.1.0",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "9b614d266507b3c79518d07fdbe7e20a843c0a69",
+			"_shasum": "8ab29c22f8617d8010c967ed64761409dde7f212",
+			"_nodeVersion": "0.12.0"
+		},
+		"2.0.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.0.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.0.tgz",
+				"shasum": "f83c48bc17a4278620336a70ca8cd2c1beb86a52"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook-eslint": "~3.0.0",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.14.x",
+				"react-dom": "0.14.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover",
+				"validate": "npm ls"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.0.0",
+			"gitHead": "d05204c51914267bdc8b33db78af90c4acb53759",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "f83c48bc17a4278620336a70ca8cd2c1beb86a52",
+			"_nodeVersion": "4.0.0"
+		},
+		"2.0.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.0.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.1.tgz",
+				"shasum": "88aafe4b4d4394e4012a4ee5516069cc9c9020f8"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.14.x",
+				"react-dom": "0.14.x",
+				"react-addons-test-utils": "~0.14.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.0.1",
+			"gitHead": "d3af35e4d32d6e5fa76936e5294058b5125e4ef3",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "88aafe4b4d4394e4012a4ee5516069cc9c9020f8",
+			"_nodeVersion": "4.2.2"
+		},
+		"2.4.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.4.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.4.tgz",
+				"shasum": "a05a784c747beef140d99ff52b6117711bef4b1e"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "6.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-animate@2.4.4",
+			"gitHead": "2085d589745303f3434761936393875b6c53a2dc",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate-2.4.4.tgz_1514362894287_0.8021196536719799"
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"2.6.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.6.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.6.0.tgz",
+				"shasum": "ca8440d042781af7a1329d84f97ea94794c5ec15"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"classnames": "^2.2.6",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x",
+				"raf": "^3.4.0",
+				"react-lifecycles-compat": "^3.0.4"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "^3.3.1",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "8.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage",
+				"prepublish": "rc-tools run guard"
+			},
+			"config": {
+				"port": 8201
+			},
+			"_npmVersion": "6.4.1",
+			"_npmUser": {
+				"name": "zombiej",
+				"email": "smith3816@gmail.com"
+			},
+			"_id": "rc-animate@2.6.0",
+			"gitHead": "1fe9e1e313e5ca98987756437d5032cc5fb429af",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate_2.6.0_1543235310928_0.05485794238854247"
+			},
+			"_nodeVersion": "8.11.3"
+		},
+		"2.4.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.4.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.3.tgz",
+				"shasum": "2440011d6fcaeedb0ee2db068c2c5676aa076559"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x"
+			},
+			"devDependencies": {
+				"core-js": "^2.5.1",
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "6.x",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "5.5.1",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-animate@2.4.3",
+			"gitHead": "97a9ebf2f3392a8f6287ecf0e6b98ffd13aed436",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate-2.4.3.tgz_1513679153581_0.15175819350406528"
+			},
+			"_nodeVersion": "9.0.0"
+		},
+		"2.0.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.0.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.4.tgz",
+				"shasum": "35260cd36a4679aa763af5d72ba89e1f91ffd385"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.14.x",
+				"react-dom": "0.14.x",
+				"react-addons-test-utils": "~0.14.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.5.3",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.0.4",
+			"gitHead": "5d6b2952eb52a5ecb3a889dad01664070e983af5",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.0.4.tgz_1464246939626_0.1285381531342864"
+			},
+			"_shasum": "35260cd36a4679aa763af5d72ba89e1f91ffd385",
+			"_nodeVersion": "4.2.2"
+		},
+		"2.2.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.2.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.2.tgz",
+				"shasum": "5c55a57ddf6395aef5f871f02676ad562cce2e03"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.2.2",
+			"gitHead": "775bb3e3e7a9f55f1272714bba82767935917717",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.2.2.tgz_1467705611937_0.3154140990227461"
+			},
+			"_shasum": "5c55a57ddf6395aef5f871f02676ad562cce2e03",
+			"_nodeVersion": "4.4.5"
+		},
+		"2.4.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.4.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.0.tgz",
+				"shasum": "a51b47dadf8ad9af08cddfb5b0217bfa81aee803"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"css-animation": "1.x",
+				"prop-types": "15.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.4.0",
+			"gitHead": "fdec45af3fc62de7a03c2554ff0bfc2fff97e318",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate-2.4.0.tgz_1497283265658_0.2447938013356179"
+			},
+			"_shasum": "a51b47dadf8ad9af08cddfb5b0217bfa81aee803",
+			"_nodeVersion": "6.10.0"
+		},
+		"2.4.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.4.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/Animate",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.1.tgz",
+				"shasum": "df3e0f56fe106afe4bf52ff408ced241c5178919"
+			},
+			"dependencies": {
+				"babel-runtime": "6.x",
+				"css-animation": "^1.3.2",
+				"prop-types": "15.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-test": "6.x",
+				"rc-tools": "6.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"es",
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				},
+				{
+					"name": "yesmeck",
+					"email": "yesmeck@gmail.com"
+				},
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub --babel-runtime",
+				"lint": "rc-tools run lint",
+				"karma": "rc-test run karma",
+				"saucelabs": "rc-test run saucelabs",
+				"test": "rc-test run test",
+				"chrome-test": "rc-test run chrome-test",
+				"coverage": "rc-test run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "yesmeck",
+				"email": "yesmeck@gmail.com"
+			},
+			"_id": "rc-animate@2.4.1",
+			"gitHead": "528f278d251ed9d496caf0d2e2bb30882a6f7090",
+			"module": "./es/Animate",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rc-animate-2.4.1.tgz_1500623034444_0.4611801360733807"
+			},
+			"_nodeVersion": "8.1.2"
+		},
+		"2.0.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.0.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.2.tgz",
+				"shasum": "d59703789f6d7803ac4ddef810ebf3bd4032c9da"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.14.x",
+				"react-dom": "0.14.x",
+				"react-addons-test-utils": "~0.14.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.0.2",
+			"gitHead": "6dbce2ebea7ddb7d700583763965d6896beba6d6",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "d59703789f6d7803ac4ddef810ebf3bd4032c9da",
+			"_nodeVersion": "4.2.2"
+		},
+		"2.2.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.2.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.0.tgz",
+				"shasum": "ba4744306bae76e4c0e43d55d046f02db738ccd5"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.2.0",
+			"gitHead": "f9a3581d484911c6b51b0d5f035e6847b57b9106",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.2.0.tgz_1467086096401_0.30838810792192817"
+			},
+			"_shasum": "ba4744306bae76e4c0e43d55d046f02db738ccd5",
+			"_nodeVersion": "4.4.5"
+		},
+		"2.0.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.0.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.3.tgz",
+				"shasum": "0ba647b0dd3e9800ea392ea7abeb6c44b62f1697"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.14.x",
+				"react-dom": "0.14.x",
+				"react-addons-test-utils": "~0.14.0",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"browser-test": "rc-tools run browser-test",
+				"browser-test-cover": "rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.0.3",
+			"gitHead": "6c6ef2bccdba876fa2a4b8a59af84683a4f0a86d",
+			"pre-commit": [
+				"lint"
+			],
+			"_shasum": "0ba647b0dd3e9800ea392ea7abeb6c44b62f1697",
+			"_nodeVersion": "4.2.2"
+		},
+		"2.2.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "2.2.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.1.tgz",
+				"shasum": "766d37cc88b7b19e01935cc4ea79723710ed96a3"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "4.x",
+				"pre-commit": "1.x",
+				"rc-tools": "5.x",
+				"react": "15.x",
+				"react-dom": "15.x",
+				"react-addons-test-utils": "15.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-animate",
+				"animate"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "rc-tools run server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "rc-tools run saucelabs",
+				"test": "rc-tools run test",
+				"chrome-test": "rc-tools run chrome-test",
+				"coverage": "rc-tools run coverage"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@2.2.1",
+			"gitHead": "155d824dc2f87b5c28315bdfeb98cf4921125ebc",
+			"pre-commit": [
+				"lint"
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/rc-animate-2.2.1.tgz_1467620153833_0.9653412802144885"
+			},
+			"_shasum": "766d37cc88b7b19e01935cc4ea79723710ed96a3",
+			"_nodeVersion": "4.4.5"
+		},
+		"1.0.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.3.tgz",
+				"shasum": "4d20855b8180ba049402f5f5e8811d8239d02498"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.3",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "a126661a4fa466c483578612441a53f35e036769",
+			"_shasum": "4d20855b8180ba049402f5f5e8811d8239d02498",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.1.tgz",
+				"shasum": "9349ba7935d188dc0ad43bec2d0a54468ca11a44"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.1",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "8bcc15636d3c97016e715142a40570456d535dce",
+			"_shasum": "9349ba7935d188dc0ad43bec2d0a54468ca11a44",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.4.tgz",
+				"shasum": "c4f8be2811abfa7a26ca3c9d4c7084f8a5fe3e91"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.4",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "941c82c073ec2ad8608ae0cdc1d67c68a4a794f1",
+			"_shasum": "c4f8be2811abfa7a26ca3c9d4c7084f8a5fe3e91",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.2.tgz",
+				"shasum": "7e2b6d7e09d8cdef7e1043132819337b9717c634"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.2",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "927237d3355d3b800f83b710df95d7fb0e44ce0a",
+			"_shasum": "7e2b6d7e09d8cdef7e1043132819337b9717c634",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.5": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.5",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.5.tgz",
+				"shasum": "04960c1d426241381a99823e29fa73ee5dcd3576"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.5",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "90c471bea3ef7c8420176e8f0c5c2276fa070bbb",
+			"_shasum": "04960c1d426241381a99823e29fa73ee5dcd3576",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.3": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.3",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.3.tgz",
+				"shasum": "3022da3959645011b45650840da712cb4cac7dfc"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.3",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "5373c5b4a68201a2ec8781039d732aff555d5c55",
+			"_shasum": "3022da3959645011b45650840da712cb4cac7dfc",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.4": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.4",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.4.tgz",
+				"shasum": "d3451ed8774299ef6e0b1699e97cf153cd92a0e1"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.4",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "fd2e9d95d96e4cbbd05969f6d6d81bdd8631d86e",
+			"_shasum": "d3451ed8774299ef6e0b1699e97cf153cd92a0e1",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.5": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.5",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.5.tgz",
+				"shasum": "bafbb3c16727d12f0ed51d96fa1c7a24c0f4e64d"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.5",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "8b08f3e3e9284bceb5e55a96214e20dcedc826f6",
+			"_shasum": "bafbb3c16727d12f0ed51d96fa1c7a24c0f4e64d",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.6": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.6",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.6.tgz",
+				"shasum": "86bcf9b532111d2fce9a57d8b99d79781b4234e6"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.6",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "5b95fad7b1205d55fade3494704f035623a99cba",
+			"_shasum": "86bcf9b532111d2fce9a57d8b99d79781b4234e6",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.7": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.7",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.7.tgz",
+				"shasum": "647914389e0da3b01b241bdd817a70ca31788016"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.7",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "4fdbf1aa8d0cbb0591f42e5e1afadb7ab396c1a3",
+			"_shasum": "647914389e0da3b01b241bdd817a70ca31788016",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.8": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.8",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.8.tgz",
+				"shasum": "5369ee29fc8c02814ed4e97822e8b486fc7524ec"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.8",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "9d132f0d9290ffd13bf49084ce33b264c4824a8c",
+			"_shasum": "5369ee29fc8c02814ed4e97822e8b486fc7524ec",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.0.tgz",
+				"shasum": "9f5160c9ccf62754ac956e2c1d9d2dc900f75f87"
+			},
+			"dependencies": {
+				"css-animation": "~1.0.5"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.0",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "c0edc53304a693fa46d42c80ebbef14ab230e5e2",
+			"_shasum": "9f5160c9ccf62754ac956e2c1d9d2dc900f75f87",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.1": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.1",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.1.tgz",
+				"shasum": "724103eb111b343d2316a02603658f835ca68ce5"
+			},
+			"dependencies": {
+				"css-animation": "~1.0.5"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.1",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "a3c35b34743cf7468c465460f0e40464270623e1",
+			"_shasum": "724103eb111b343d2316a02603658f835ca68ce5",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.0.2": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.0.2",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.2.tgz",
+				"shasum": "204881447f7bcde6bbbc1529750a173d89c8ac90"
+			},
+			"dependencies": {
+				"css-animation": "~1.0.5"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"node-dev": "2.x",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "3.x",
+				"react": "0.13.x"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"precommit": "rc-tools run precommit",
+				"less": "rc-tools run less",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"publish": "rc-tools run tag",
+				"lint": "rc-tools run lint",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8000
+			},
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.0.2",
+			"precommit": [
+				"precommit"
+			],
+			"gitHead": "f3d61107c6ed73ac514febb599d91b811b799780",
+			"_shasum": "204881447f7bcde6bbbc1529750a173d89c8ac90",
+			"_nodeVersion": "0.12.0"
+		},
+		"1.2.0": {
+			"name": "rc-animate",
+			"description": "css-transition ui component for react",
+			"version": "1.2.0",
+			"author": "",
+			"homepage": "https://github.com/react-component/animate",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/react-component/animate.git"
+			},
+			"bugs": {
+				"url": "http://github.com/react-component/animate/issues"
+			},
+			"main": "./lib/index",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.0.tgz",
+				"shasum": "7f3c86d2ee0d11dcbe3f318ef8dab02ae14451cd"
+			},
+			"dependencies": {
+				"css-animation": "1.x"
+			},
+			"devDependencies": {
+				"expect.js": "0.3.x",
+				"jquery": "~1.11.3",
+				"object-assign": "~3.0.0",
+				"precommit-hook": "1.x",
+				"rc-server": "3.x",
+				"rc-tools": "4.x",
+				"react": "0.13.x",
+				"velocity-animate": "~1.2.2"
+			},
+			"keywords": [
+				"react",
+				"react-component",
+				"react-anim-if-change",
+				"anim-if-change"
+			],
+			"licenses": "MIT",
+			"files": [
+				"lib"
+			],
+			"maintainers": [
+				{
+					"name": "yiminghe",
+					"email": "yiminghe@gmail.com"
+				},
+				{
+					"name": "xujihui1985",
+					"email": "xujihui1985@outlook.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "rc-tools run build",
+				"gh-pages": "rc-tools run gh-pages",
+				"start": "node --harmony node_modules/.bin/rc-server",
+				"pub": "rc-tools run pub",
+				"lint": "rc-tools run lint",
+				"karma": "rc-tools run karma",
+				"saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+				"browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+				"browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+			},
+			"config": {
+				"port": 8200
+			},
+			"_from": ".",
+			"_npmVersion": "3.2.2",
+			"_npmUser": {
+				"name": "yiminghe",
+				"email": "yiminghe@gmail.com"
+			},
+			"_id": "rc-animate@1.2.0",
+			"precommit": [
+				"lint"
+			],
+			"gitHead": "425dcfda00f25a574c6f7e8bb8bce8c9566d3766",
+			"_shasum": "7f3c86d2ee0d11dcbe3f318ef8dab02ae14451cd",
+			"_nodeVersion": "0.12.0"
+		}
+	},
+	"time": {
+		"1.2.9": "2015-08-31T08:44:22.522Z",
+		"3.0.0-rc.3": "2018-07-30T12:48:03.402Z",
+		"3.0.0-rc.4": "2018-07-31T10:29:46.091Z",
+		"3.0.0-rc.5": "2018-08-17T02:28:24.667Z",
+		"3.0.0-rc.6": "2018-08-24T08:39:32.158Z",
+		"3.0.0-rc.0": "2018-06-11T07:53:57.674Z",
+		"3.0.0-rc.1": "2018-07-02T13:14:26.220Z",
+		"3.0.0-rc.2": "2018-07-30T10:37:35.636Z",
+		"modified": "2019-01-05T06:10:27.722Z",
+		"2.1.0": "2016-06-16T15:11:24.964Z",
+		"2.6.0-beta.1": "2018-09-18T06:29:44.691Z",
+		"created": "2015-07-23T13:40:51.888Z",
+		"2.3.5": "2017-04-17T04:07:29.636Z",
+		"2.5.3": "2018-09-18T02:41:40.001Z",
+		"2.3.6": "2017-04-17T12:58:36.949Z",
+		"2.5.4": "2018-09-25T07:35:26.067Z",
+		"2.3.3": "2017-02-27T07:19:13.537Z",
+		"2.5.1": "2018-09-17T08:43:20.339Z",
+		"2.3.4": "2017-04-17T03:09:42.642Z",
+		"2.5.2": "2018-09-17T09:59:21.811Z",
+		"2.3.1": "2016-08-01T03:47:17.874Z",
+		"2.5.0": "2018-09-17T08:16:44.502Z",
+		"2.3.0": "2016-07-05T08:18:04.359Z",
+		"1.3.0": "2015-10-20T14:07:05.835Z",
+		"1.1.0": "2015-07-29T08:46:29.881Z",
+		"2.0.0": "2015-10-22T04:09:50.489Z",
+		"2.0.1": "2015-11-10T05:09:41.338Z",
+		"2.4.4": "2017-12-27T08:21:34.376Z",
+		"2.4.2": "2017-12-19T09:46:42.136Z",
+		"2.6.0": "2018-11-26T12:28:31.089Z",
+		"2.4.3": "2017-12-19T10:25:53.697Z",
+		"2.0.4": "2016-05-26T07:15:42.322Z",
+		"2.2.2": "2016-07-05T08:00:14.289Z",
+		"2.4.0": "2017-06-12T16:01:05.784Z",
+		"2.4.1": "2017-07-21T07:43:54.508Z",
+		"2.0.2": "2015-11-10T10:53:19.270Z",
+		"2.2.0": "2016-06-28T03:54:58.534Z",
+		"2.0.3": "2016-01-20T08:05:32.813Z",
+		"2.2.1": "2016-07-04T08:15:56.013Z",
+		"1.0.3": "2015-07-28T11:50:03.625Z",
+		"1.2.1": "2015-08-23T16:44:43.909Z",
+		"1.0.4": "2015-07-28T12:13:23.962Z",
+		"1.2.2": "2015-08-25T03:28:09.336Z",
+		"1.0.5": "2015-07-29T05:07:09.074Z",
+		"1.2.3": "2015-08-25T12:36:31.953Z",
+		"1.2.4": "2015-08-26T03:31:34.155Z",
+		"1.2.5": "2015-08-26T05:12:54.498Z",
+		"1.2.6": "2015-08-28T03:04:54.059Z",
+		"1.2.7": "2015-08-28T03:07:18.880Z",
+		"1.2.8": "2015-08-28T05:49:20.437Z",
+		"1.0.0": "2015-07-23T13:40:51.888Z",
+		"1.0.1": "2015-07-24T18:12:29.026Z",
+		"1.0.2": "2015-07-28T10:34:52.288Z",
+		"1.2.0": "2015-08-23T15:59:41.755Z"
+	},
+	"dist-tags": {
+		"beta": "2.6.0-beta.1",
+		"latest": "2.6.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828475783
+		}
+	},
+	"_distfiles": {
+		"rc-animate-1.2.9.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.9.tgz",
+			"sha": "cb0f661c90b3d23bf232283b2109fc9cacb13a1b"
+		},
+		"rc-animate-3.0.0-rc.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.3.tgz",
+			"sha": "a36199ceadc7952e949c3e132e9172b7bd21344b"
+		},
+		"rc-animate-3.0.0-rc.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.4.tgz",
+			"sha": "caddbd849f01d987965c6237afe64167679497bd"
+		},
+		"rc-animate-3.0.0-rc.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.5.tgz",
+			"sha": "802ac2af847d27b24aa89d8a43f89e26e9b3293c"
+		},
+		"rc-animate-3.0.0-rc.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.6.tgz",
+			"sha": "04288eefa118e0cae214536c8a903ffaac1bc3fb"
+		},
+		"rc-animate-3.0.0-rc.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.0.tgz",
+			"sha": "59170d91be11acd5c5f8f77343a2731ca4cf8b7d"
+		},
+		"rc-animate-3.0.0-rc.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.1.tgz",
+			"sha": "39703e5be6d35c0c50ae53126a6c2424e5ec9405"
+		},
+		"rc-animate-3.0.0-rc.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-3.0.0-rc.2.tgz",
+			"sha": "99afa46c3482dac4d27447d6b1f4b29495de0263"
+		},
+		"rc-animate-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.1.0.tgz",
+			"sha": "b66c9e261c19d630b9d32e78d9a0391e93baf3b9"
+		},
+		"rc-animate-2.6.0-beta.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.6.0-beta.1.tgz",
+			"sha": "9c2566e4c9f77608a49681fc68bbbc0a6fae9ebf"
+		},
+		"rc-animate-2.3.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.5.tgz",
+			"sha": "91e815d9ec61a07072b26dc738431e14d7d02546"
+		},
+		"rc-animate-2.5.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.3.tgz",
+			"sha": "a84636b50d4198184c34efa325824f14a2218d0d"
+		},
+		"rc-animate-2.3.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.6.tgz",
+			"sha": "4177a2822c67adf4fd5b908ceba7cee8d13c1fac"
+		},
+		"rc-animate-2.5.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.4.tgz",
+			"sha": "3b308c42e137a2e3fb578650fdb145c2100fcc35"
+		},
+		"rc-animate-2.3.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.3.tgz",
+			"sha": "9f123990aa625c5867ace88412a185e46b307d03"
+		},
+		"rc-animate-2.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.1.tgz",
+			"sha": "ce9b726c7e1ac2cd43d6953765c08c3c4ec96496"
+		},
+		"rc-animate-2.3.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.4.tgz",
+			"sha": "fcd424bc389ab71643222a3595f202e240367562"
+		},
+		"rc-animate-2.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.2.tgz",
+			"sha": "4f929070288ea9a78200b78b197304258baae93c"
+		},
+		"rc-animate-2.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.1.tgz",
+			"sha": "eacda46bf589d857f640c53953d92e07cb688636"
+		},
+		"rc-animate-2.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.5.0.tgz",
+			"sha": "4f3fe6dbf7a7101e7669035ce98e0baae039fc7c"
+		},
+		"rc-animate-2.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.3.0.tgz",
+			"sha": "c32e17bea04124deed547c2919fa5101e9170d3e"
+		},
+		"rc-animate-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.3.0.tgz",
+			"sha": "80c3fab454c0f4b9f88e11fed54ad73d318710ec"
+		},
+		"rc-animate-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.1.0.tgz",
+			"sha": "8ab29c22f8617d8010c967ed64761409dde7f212"
+		},
+		"rc-animate-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.0.tgz",
+			"sha": "f83c48bc17a4278620336a70ca8cd2c1beb86a52"
+		},
+		"rc-animate-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.1.tgz",
+			"sha": "88aafe4b4d4394e4012a4ee5516069cc9c9020f8"
+		},
+		"rc-animate-2.4.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.4.tgz",
+			"sha": "a05a784c747beef140d99ff52b6117711bef4b1e"
+		},
+		"rc-animate-2.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.6.0.tgz",
+			"sha": "ca8440d042781af7a1329d84f97ea94794c5ec15"
+		},
+		"rc-animate-2.4.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.3.tgz",
+			"sha": "2440011d6fcaeedb0ee2db068c2c5676aa076559"
+		},
+		"rc-animate-2.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.4.tgz",
+			"sha": "35260cd36a4679aa763af5d72ba89e1f91ffd385"
+		},
+		"rc-animate-2.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.2.tgz",
+			"sha": "5c55a57ddf6395aef5f871f02676ad562cce2e03"
+		},
+		"rc-animate-2.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.0.tgz",
+			"sha": "a51b47dadf8ad9af08cddfb5b0217bfa81aee803"
+		},
+		"rc-animate-2.4.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.4.1.tgz",
+			"sha": "df3e0f56fe106afe4bf52ff408ced241c5178919"
+		},
+		"rc-animate-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.2.tgz",
+			"sha": "d59703789f6d7803ac4ddef810ebf3bd4032c9da"
+		},
+		"rc-animate-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.0.tgz",
+			"sha": "ba4744306bae76e4c0e43d55d046f02db738ccd5"
+		},
+		"rc-animate-2.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.0.3.tgz",
+			"sha": "0ba647b0dd3e9800ea392ea7abeb6c44b62f1697"
+		},
+		"rc-animate-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-2.2.1.tgz",
+			"sha": "766d37cc88b7b19e01935cc4ea79723710ed96a3"
+		},
+		"rc-animate-1.0.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.3.tgz",
+			"sha": "4d20855b8180ba049402f5f5e8811d8239d02498"
+		},
+		"rc-animate-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.1.tgz",
+			"sha": "9349ba7935d188dc0ad43bec2d0a54468ca11a44"
+		},
+		"rc-animate-1.0.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.4.tgz",
+			"sha": "c4f8be2811abfa7a26ca3c9d4c7084f8a5fe3e91"
+		},
+		"rc-animate-1.2.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.2.tgz",
+			"sha": "7e2b6d7e09d8cdef7e1043132819337b9717c634"
+		},
+		"rc-animate-1.0.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.5.tgz",
+			"sha": "04960c1d426241381a99823e29fa73ee5dcd3576"
+		},
+		"rc-animate-1.2.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.3.tgz",
+			"sha": "3022da3959645011b45650840da712cb4cac7dfc"
+		},
+		"rc-animate-1.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.4.tgz",
+			"sha": "d3451ed8774299ef6e0b1699e97cf153cd92a0e1"
+		},
+		"rc-animate-1.2.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.5.tgz",
+			"sha": "bafbb3c16727d12f0ed51d96fa1c7a24c0f4e64d"
+		},
+		"rc-animate-1.2.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.6.tgz",
+			"sha": "86bcf9b532111d2fce9a57d8b99d79781b4234e6"
+		},
+		"rc-animate-1.2.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.7.tgz",
+			"sha": "647914389e0da3b01b241bdd817a70ca31788016"
+		},
+		"rc-animate-1.2.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.8.tgz",
+			"sha": "5369ee29fc8c02814ed4e97822e8b486fc7524ec"
+		},
+		"rc-animate-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.0.tgz",
+			"sha": "9f5160c9ccf62754ac956e2c1d9d2dc900f75f87"
+		},
+		"rc-animate-1.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.1.tgz",
+			"sha": "724103eb111b343d2316a02603658f835ca68ce5"
+		},
+		"rc-animate-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.0.2.tgz",
+			"sha": "204881447f7bcde6bbbc1529750a173d89c8ac90"
+		},
+		"rc-animate-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc-animate/-/rc-animate-1.2.0.tgz",
+			"sha": "7f3c86d2ee0d11dcbe3f318ef8dab02ae14451cd"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-7775ccc7dad1de6c",
+	"readme": "# rc-animate\n---\n\nanimate react element easily\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![gemnasium deps][gemnasium-image]][gemnasium-url]\n[![node version][node-image]][node-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: http://img.shields.io/npm/v/rc-animate.svg?style=flat-square\n[npm-url]: http://npmjs.org/package/rc-animate\n[travis-image]: https://img.shields.io/travis/react-component/animate.svg?style=flat-square\n[travis-url]: https://travis-ci.org/react-component/animate\n[coveralls-image]: https://img.shields.io/coveralls/react-component/animate.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/react-component/animate?branch=master\n[gemnasium-image]: http://img.shields.io/gemnasium/react-component/animate.svg?style=flat-square\n[gemnasium-url]: https://gemnasium.com/react-component/animate\n[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square\n[node-url]: http://nodejs.org/download/\n[download-image]: https://img.shields.io/npm/dm/rc-animate.svg?style=flat-square\n[download-url]: https://npmjs.org/package/rc-animate\n\n## Feature\n\n* support ie8,ie8+,chrome,firefox,safari\n\n## install\n\n[![rc-animate](https://nodei.co/npm/rc-animate.png)](https://npmjs.org/package/rc-animate)\n\n## Usage\n\n```jsx\nimport Animate from 'rc-animate';\n\nReactDOM.render(\n  <Animate animation={{ ... }}>\n    <p key=\"1\">1</p>\n    <p key=\"2\">2</p>\n  </Animate>\n, mountNode);\n```\n\n## API\n\n### props\n\n<table class=\"table table-bordered table-striped\">\n    <thead>\n    <tr>\n        <th style=\"width: 100px;\">name</th>\n        <th style=\"width: 50px;\">type</th>\n        <th style=\"width: 50px;\">default</th>\n        <th>description</th>\n    </tr>\n    </thead>\n    <tbody>\n        <tr>\n          <td>component</td>\n          <td>React.Element/String</td>\n          <td>'span'</td>\n          <td>wrap dom node or component for children. set to '' if you do not wrap for only one child</td>\n        </tr>\n        <tr>\n          <td>componentProps</td>\n          <td>Object</td>\n          <td>{}</td>\n          <td>extra props that will be passed to component</td>\n        </tr>\n        <tr>\n          <td>showProp</td>\n          <td>String</td>\n          <td></td>\n          <td>using prop for show and hide. [demo](http://react-component.github.io/animate/examples/hide-todo.html) </td>\n        </tr>\n        <tr>\n          <td>exclusive</td>\n          <td>Boolean</td>\n          <td></td>\n          <td>whether allow only one set of animations(enter and leave) at the same time. </td>\n        </tr>\n        <tr>\n          <td>transitionName</td>\n          <td>String|Object</td>\n          <td></td>\n          <td>specify corresponding css, see ReactCSSTransitionGroup</td>\n        </tr>\n       <tr>\n         <td>transitionAppear</td>\n         <td>Boolean</td>\n         <td>false</td>\n         <td>whether support transition appear anim</td>\n       </tr>\n        <tr>\n          <td>transitionEnter</td>\n          <td>Boolean</td>\n          <td>true</td>\n          <td>whether support transition enter anim</td>\n        </tr>\n       <tr>\n         <td>transitionLeave</td>\n         <td>Boolean</td>\n         <td>true</td>\n         <td>whether support transition leave anim</td>\n       </tr>\n       <tr>\n         <td>onEnd</td>\n         <td>function(key:String, exists:Boolean)</td>\n         <td>true</td>\n         <td>animation end callback</td>\n       </tr>\n        <tr>\n          <td>animation</td>\n          <td>Object</td>\n          <td>{}</td>\n          <td>\n            to animate with js. see animation format below.\n          </td>\n        </tr>\n    </tbody>\n</table>\n\n### animation format\n\nwith appear, enter and leave as keys. for example:\n\n```js\n  {\n    appear: function(node, done){\n      node.style.display='none';\n      $(node).slideUp(done);\n      return {\n        stop:function(){\n          // jq will call done on finish\n          $(node).stop(true);\n        }\n      };\n    },\n    enter: function(){\n      this.appear.apply(this,arguments);\n    },\n    leave: function(node, done){\n      node.style.display='';\n      $(node).slideDown(done);\n      return {\n        stop:function(){\n          // jq will call done on finish\n          $(node).stop(true);\n        }\n      };              \n    }\n  }\n```\n\n## Development\n\n```\nnpm install\nnpm start\n```\n\n## Example\n\nhttp://localhost:8200/examples/index.md\n\nonline example: http://react-component.github.io/animate/examples/\n\n## Test Case\n\n```\nnpm test\nnpm run chrome-test\n```\n\n## Coverage\n\n```\nnpm run coverage\n```\n\nopen coverage/ dir\n\n## License\n\nrc-animate is released under the MIT license."
+}

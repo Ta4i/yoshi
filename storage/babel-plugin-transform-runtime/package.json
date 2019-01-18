@@ -2369,7 +2369,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749352583
+			"fetched": 1547828387163
 		}
 	},
 	"_distfiles": {
@@ -2539,6 +2539,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-11174f6f9a2e1669",
+	"_rev": "10-7721b5d0e42e55ea",
 	"readme": "# babel-plugin-transform-runtime\n\nExternalise references to helpers and builtins, automatically polyfilling your code without polluting globals\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-runtime\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-runtime\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-runtime script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-runtime\"]\n});\n```"
 }

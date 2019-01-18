@@ -201,7 +201,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749349817
+			"fetched": 1547828385325
 		}
 	},
 	"_distfiles": {
@@ -223,6 +223,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-69f007ea3d60e0c4",
+	"_rev": "10-c92501d61b9fa3fd",
 	"readme": "# lsmod [![Build Status](https://secure.travis-ci.org/defunctzombie/node-lsmod.png?branch=master)](https://travis-ci.org/defunctzombie/node-lsmod)\n\nlsmod fetches the list of modules and the versions loaded by the entry file for your node.js app.\n\n## use\n\n```javascript\nvar lsmod = require('lsmod');\n\n// get an object with module version information\nvar modules = lsmod();\n\n// modules is an object `key:version`\n{\n    express: '3.0.5',\n    hbs: '2.0.1'\n}\n```\n\nNote that the version is the actual installed version and not the dependency version string.\n\n## install via [npm](https://npmjs.org)\n\n```\nnpm install lsmod\n```"
 }

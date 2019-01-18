@@ -1,0 +1,3026 @@
+{
+	"name": "jss-preset-default",
+	"versions": {
+		"0.6.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.6.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.6.0.tgz",
+				"shasum": "a3299af39596fde2dfa06ac88e520d7f7dc31c9d"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-compose": "^1.0.1",
+				"jss-default-unit": "^4.0.1",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.5.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^5.5.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.6.0",
+			"gitHead": "e750cec2ba805e7399947cfcb0033d210d875d68",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.6.0.tgz_1477877073584_0.45265072118490934"
+			},
+			"_shasum": "a3299af39596fde2dfa06ac88e520d7f7dc31c9d",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.7.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.7.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.7.0.tgz",
+				"shasum": "ce5563584dd3cde11d81ed390b6cf84fd1cdf591"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.1",
+				"jss-compose": "^1.1.0",
+				"jss-default-unit": "^4.1.0",
+				"jss-extend": "^2.0.4",
+				"jss-nested": "^2.5.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^5.5.6",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.7.0",
+			"gitHead": "4677f3afcbac8c82c6ac9272a7350758db500893",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.7.0.tgz_1478951269897_0.015351038658991456"
+			},
+			"_shasum": "ce5563584dd3cde11d81ed390b6cf84fd1cdf591",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.3.1": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.3.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.3.1.tgz",
+				"shasum": "e22138227c45704b6ab5fffc0c9b6aba1af8861e"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.1",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.2.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.5.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.3.1",
+			"gitHead": "73198b924e0adbfad9254b72cafb7022e08eac96",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.3.1.tgz_1473448807324_0.314687617123127"
+			},
+			"_shasum": "e22138227c45704b6ab5fffc0c9b6aba1af8861e",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.4.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.4.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.4.0.tgz",
+				"shasum": "503e814e8c87456cdd81fbe4f3f5e2fdcbfb5dad"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.1",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.4.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.5.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.4.0",
+			"gitHead": "a4b282ba4dbcc10620fd1c6e2f48f7311b5391b1",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.4.0.tgz_1473719281220_0.5817653802223504"
+			},
+			"_shasum": "503e814e8c87456cdd81fbe4f3f5e2fdcbfb5dad",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.5.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.5.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.5.0.tgz",
+				"shasum": "b83c3262df756e7a4a9bda754d2f0c53d752bd0b"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-compose": "^1.0.1",
+				"jss-default-unit": "^4.0.1",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.4.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.5.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.5.0",
+			"gitHead": "0e811d80fbc667903b343d8fcb47e3ee99e05127",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.5.0.tgz_1475010223064_0.46461601881310344"
+			},
+			"_shasum": "b83c3262df756e7a4a9bda754d2f0c53d752bd0b",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.8.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.8.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.8.0.tgz",
+				"shasum": "e409c5135598275a3ebe5673050b5cb11f0fd5c5"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.1",
+				"jss-compose": "^1.1.0",
+				"jss-default-unit": "^4.1.0",
+				"jss-expand": "^1.6.0",
+				"jss-extend": "^2.0.4",
+				"jss-nested": "^2.5.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^5.5.6",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.8.0",
+			"gitHead": "b5f15336bff39feb3c21d3476b572b853e25b6ff",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.8.0.tgz_1479165301470_0.7798399201128632"
+			},
+			"_shasum": "e409c5135598275a3ebe5673050b5cb11f0fd5c5",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.9.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.9.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.9.0.tgz",
+				"shasum": "46644fe256ce6fa153a96230e2dfa4d32099f24f"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.1",
+				"jss-compose": "^1.1.0",
+				"jss-default-unit": "^4.1.0",
+				"jss-expand": "^1.6.0",
+				"jss-extend": "^2.0.4",
+				"jss-nested": "^2.5.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^12.0.0",
+				"eslint-config-jss": "^2.4.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^5.5.6",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.6"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.9.0",
+			"gitHead": "86fd01d1787e11b3def85b227ef0de55c99a7bd5",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.9.0.tgz_1479723698733_0.24748303112573922"
+			},
+			"_shasum": "46644fe256ce6fa153a96230e2dfa4d32099f24f",
+			"_nodeVersion": "5.7.1"
+		},
+		"4.2.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.2.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.2.0.tgz",
+				"shasum": "03d1f8e4f41c059bb69cfdecdca39e1984e9390f"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.0.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.2",
+				"jss-expand": "^5.1.0",
+				"jss-extend": "^6.2.0",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.1",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.7.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.2.0",
+			"gitHead": "ff3e66324fc8c9d29f21afd3f741ab028ca7a108",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default-4.2.0.tgz_1517928067737_0.7316416676621884"
+			},
+			"_nodeVersion": "8.0.0"
+		},
+		"4.3.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.3.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.3.0.tgz",
+				"shasum": "7bc91b0b282492557d36ed4e5c6d7c8cb3154bb8"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.1.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.2",
+				"jss-expand": "^5.1.0",
+				"jss-extend": "^6.2.0",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.1",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.8.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.3.0",
+			"gitHead": "492fd91df58a728aa25a06075ecdd0b92cde4b27",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_4.3.0_1518099346277_0.3838690512754437"
+			},
+			"_nodeVersion": "8.0.0"
+		},
+		"4.0.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.0.0.tgz",
+				"shasum": "7f9a95e422134485e78c4369cf46bdf77749999f"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.0.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.0",
+				"jss-expand": "^5.0.0",
+				"jss-extend": "^6.0.1",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.0",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.0",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.0.0",
+			"gitHead": "e8c5a4c66f488777267da2495e58c5982d05c14c",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default-4.0.0.tgz_1506803633273_0.7819751081988215"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"4.0.1": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.0.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.0.1.tgz",
+				"shasum": "822cecb87c27ff91633774422f4c221d61486b65"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.0.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.0",
+				"jss-expand": "^5.0.0",
+				"jss-extend": "^6.0.1",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.0",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.0.1",
+			"gitHead": "bc090b35ab8f829f5aae6dc6ef71c0754dfbbd98",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default-4.0.1.tgz_1507374360743_0.8711993519682437"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"4.1.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.1.0.tgz",
+				"shasum": "8a07d8de92cb0c55b70dc1919b802aed9cc4ebe9"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.0.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.2",
+				"jss-expand": "^5.1.0",
+				"jss-extend": "^6.1.0",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-vendor-prefixer": "^7.0.0",
+				"jss-template": "^1.0.1"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.5.1"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.4.2",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.1.0",
+			"gitHead": "d6f6e85dff1af1f35a83bf421b6746de9c6dcc04",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default-4.1.0.tgz_1516226062256_0.6358232726342976"
+			},
+			"_nodeVersion": "7.10.1"
+		},
+		"0.1.1": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.1.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.1.1.tgz",
+				"shasum": "ed0db7810221086a458e40586b73968c820b86f8"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.0",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.0.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.3.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.3.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.1.1",
+			"gitHead": "3156c2e824cd465dd7b200bc871d2b9fa274af7c",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.1.1.tgz_1470527022850_0.01573420548811555"
+			},
+			"_shasum": "ed0db7810221086a458e40586b73968c820b86f8",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.2.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.2.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.2.0.tgz",
+				"shasum": "ae447fc05699e7f178353bf3cc5ac3fd18c822ed"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.0",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.1.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.3.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.3.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.2.0",
+			"gitHead": "bda224e641c5e2ef57f97090e60988e77c040e16",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.2.0.tgz_1471261011861_0.247031279373914"
+			},
+			"_shasum": "ae447fc05699e7f178353bf3cc5ac3fd18c822ed",
+			"_nodeVersion": "5.7.1"
+		},
+		"0.3.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.3.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.3.0.tgz",
+				"shasum": "73863b58f9e3b476b2ac4f757c45392fedb66fc1"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.0",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.2.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.5.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.5.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.3.0",
+			"gitHead": "59f13aab221e47645958704b742e25eece8f8742",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.3.0.tgz_1473168780082_0.817856271751225"
+			},
+			"_shasum": "73863b58f9e3b476b2ac4f757c45392fedb66fc1",
+			"_nodeVersion": "5.7.1"
+		},
+		"4.4.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.4.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.4.0.tgz",
+				"shasum": "5bfdf1d660a1454040ac86294dfee0b37ae44235"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.1.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.2",
+				"jss-expand": "^5.2.0",
+				"jss-extend": "^6.2.0",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.1",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.8.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.4.0",
+			"gitHead": "3d3e8067d8b746d24289e12a46451d6e79326b20",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_4.4.0_1525534556777_0.3751669423847115"
+			},
+			"_nodeVersion": "8.0.0"
+		},
+		"0.1.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "0.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.1.0.tgz",
+				"shasum": "00ecf0840424d17d3d484c34c851f03bde168014"
+			},
+			"dependencies": {
+				"jss-camel-case": "^2.0.0",
+				"jss-default-unit": "^4.0.0",
+				"jss-extend": "^2.0.1",
+				"jss-nested": "^2.0.0",
+				"jss-props-sort": "^2.0.0",
+				"jss-vendor-prefixer": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^6.1.2",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^2.8.0",
+				"eslint-config-airbnb": "^8.0.0",
+				"eslint-config-jss": "^1.1.0",
+				"eslint-plugin-import": "^1.12.0",
+				"eslint-plugin-jsx-a11y": "^1.5.5",
+				"eslint-plugin-react": "^5.0.1",
+				"jss": "^5.3.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^5.3.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@0.1.0",
+			"gitHead": "2f99620807e70a192cb6ce1587e140c5ff7705c6",
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-0.1.0.tgz_1470525117228_0.9117323907557875"
+			},
+			"_shasum": "00ecf0840424d17d3d484c34c851f03bde168014",
+			"_nodeVersion": "5.7.1"
+		},
+		"4.5.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "4.5.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.5.0.tgz",
+				"shasum": "d3a457012ccd7a551312014e394c23c4b301cadd"
+			},
+			"dependencies": {
+				"jss-camel-case": "^6.1.0",
+				"jss-compose": "^5.0.0",
+				"jss-default-unit": "^8.0.2",
+				"jss-expand": "^5.3.0",
+				"jss-extend": "^6.2.0",
+				"jss-global": "^3.0.0",
+				"jss-nested": "^6.0.1",
+				"jss-props-sort": "^6.0.0",
+				"jss-template": "^1.0.1",
+				"jss-vendor-prefixer": "^7.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^9.8.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@4.5.0",
+			"gitHead": "c33dfb93ccf97702295a33ab21f773e232280c8a",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_4.5.0_1525536147909_0.8892984779176993"
+			},
+			"_nodeVersion": "8.0.0"
+		},
+		"3.0.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "3.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-3.0.0.tgz",
+				"shasum": "e43ee1ac526f689baf2bfd28ae95a6fdc3a02663"
+			},
+			"dependencies": {
+				"jss-camel-case": "^5.0.0",
+				"jss-compose": "^4.0.0",
+				"jss-default-unit": "^7.0.0",
+				"jss-expand": "^4.0.0",
+				"jss-extend": "^5.0.0",
+				"jss-global": "^2.0.0",
+				"jss-nested": "^5.0.0",
+				"jss-props-sort": "^5.0.0",
+				"jss-vendor-prefixer": "^6.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^8.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^8.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_npmVersion": "5.0.3",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@3.0.0",
+			"gitHead": "23de3b548d22dbe7435ff6a17398362c14e9ede8",
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default-3.0.0.tgz_1497998064574_0.9583866740576923"
+			},
+			"_nodeVersion": "6.10.2"
+		},
+		"2.0.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "2.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-2.0.0.tgz",
+				"shasum": "0368d99626b31067e8d04ab3c7cb17ba8354d422"
+			},
+			"dependencies": {
+				"jss-camel-case": "^4.0.0",
+				"jss-compose": "^3.0.0",
+				"jss-default-unit": "^6.0.0",
+				"jss-expand": "^3.0.0",
+				"jss-extend": "^4.0.0",
+				"jss-global": "^1.0.0",
+				"jss-nested": "^4.0.0",
+				"jss-props-sort": "^4.0.0",
+				"jss-vendor-prefixer": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^7.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^7.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@2.0.0",
+			"gitHead": "0bcc3e21953dbf7a3234a5eb2b9a148434f8bdf1",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-2.0.0.tgz_1491797797961_0.9967619210947305"
+			},
+			"_shasum": "0368d99626b31067e8d04ab3c7cb17ba8354d422",
+			"_nodeVersion": "6.10.2"
+		},
+		"10.0.0-alpha.2": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.2",
+			"author": {
+				"name": "Oleg Isonen",
+				"email": "oleg008@gmail.com",
+				"url": "Slobodskoi"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.2.tgz",
+				"shasum": "65e339012c45c382732437dce26d234c0cc17f2c"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.2",
+				"jss-plugin-compose": "^10.0.0-alpha.2",
+				"jss-plugin-default-unit": "^10.0.0-alpha.2",
+				"jss-plugin-expand": "^10.0.0-alpha.2",
+				"jss-plugin-extend": "^10.0.0-alpha.2",
+				"jss-plugin-global": "^10.0.0-alpha.2",
+				"jss-plugin-nested": "^10.0.0-alpha.2",
+				"jss-plugin-props-sort": "^10.0.0-alpha.2",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.2",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.2",
+				"jss-plugin-template": "^10.0.0-alpha.2",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.2"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.2"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.2",
+			"typings": "./src/index.d.ts",
+			"licenseText": "The MIT License (MIT)\nCopyright (c) 2014-present Oleg Isonen (Slobodskoi) & contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.2_1545826235841_0.2213379396864339"
+			}
+		},
+		"10.0.0-alpha.3": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.3",
+			"author": {
+				"name": "Oleg Isonen",
+				"email": "oleg008@gmail.com",
+				"url": "Slobodskoi"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.3.tgz",
+				"shasum": "afbcd30acf625a0c15aaa9e7656eaa9a88379725"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.3",
+				"jss-plugin-compose": "^10.0.0-alpha.3",
+				"jss-plugin-default-unit": "^10.0.0-alpha.3",
+				"jss-plugin-expand": "^10.0.0-alpha.3",
+				"jss-plugin-extend": "^10.0.0-alpha.3",
+				"jss-plugin-global": "^10.0.0-alpha.3",
+				"jss-plugin-nested": "^10.0.0-alpha.3",
+				"jss-plugin-props-sort": "^10.0.0-alpha.3",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.3",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.3",
+				"jss-plugin-template": "^10.0.0-alpha.3",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.3"
+			},
+			"peerDependencies": {
+				"jss": "^9.7.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"build": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.3",
+			"typings": "./src/index.d.ts",
+			"licenseText": "The MIT License (MIT)\nCopyright (c) 2014-present Oleg Isonen (Slobodskoi) & contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.3_1545836099667_0.6596542634879539"
+			}
+		},
+		"10.0.0-alpha.4": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.4",
+			"author": {
+				"name": "Oleg Isonen (Slobodskoi)",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.4.tgz",
+				"shasum": "2abdd3320d34ad896a83a70efe21df9e47a84a1c"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.4",
+				"jss-plugin-compose": "^10.0.0-alpha.4",
+				"jss-plugin-default-unit": "^10.0.0-alpha.4",
+				"jss-plugin-expand": "^10.0.0-alpha.4",
+				"jss-plugin-extend": "^10.0.0-alpha.4",
+				"jss-plugin-global": "^10.0.0-alpha.4",
+				"jss-plugin-nested": "^10.0.0-alpha.4",
+				"jss-plugin-props-sort": "^10.0.0-alpha.4",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.4",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.4",
+				"jss-plugin-template": "^10.0.0-alpha.4",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.4"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.4"
+			},
+			"peerDependencies": {
+				"jss": "10.0.0-alpha.3"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmVersion": "lerna/3.8.0/node@v8.11.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.4",
+			"gitHead": "4efd47a4af45de9c8784d68f3a239f9a1d29c942",
+			"typings": "./src/index.d.ts",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.4_1546281193704_0.5852434250501839"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"10.0.0-alpha.5": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.5",
+			"author": {
+				"name": "Oleg Isonen (Slobodskoi)",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.5.tgz",
+				"shasum": "5d2a813ad2c64f4d804c4285969117e9bd118af4"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.5",
+				"jss-plugin-compose": "^10.0.0-alpha.5",
+				"jss-plugin-default-unit": "^10.0.0-alpha.5",
+				"jss-plugin-expand": "^10.0.0-alpha.5",
+				"jss-plugin-extend": "^10.0.0-alpha.5",
+				"jss-plugin-global": "^10.0.0-alpha.5",
+				"jss-plugin-nested": "^10.0.0-alpha.5",
+				"jss-plugin-props-sort": "^10.0.0-alpha.5",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.5",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.5",
+				"jss-plugin-template": "^10.0.0-alpha.5",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.5"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.5"
+			},
+			"peerDependencies": {
+				"jss": "10.0.0-alpha.3"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmVersion": "lerna/3.8.0/node@v8.11.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.5",
+			"gitHead": "37ddf2a900aae0d9bdc9a559e97fe40c7a4f716a",
+			"typings": "./src/index.d.ts",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.5_1546293093639_0.9668596175808475"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"10.0.0-alpha.6": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.6",
+			"author": {
+				"name": "Oleg Isonen (Slobodskoi)",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.6.tgz",
+				"shasum": "7419701f329932d30fb85949d16f3888dc856741"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.6",
+				"jss-plugin-compose": "^10.0.0-alpha.6",
+				"jss-plugin-default-unit": "^10.0.0-alpha.6",
+				"jss-plugin-expand": "^10.0.0-alpha.6",
+				"jss-plugin-extend": "^10.0.0-alpha.6",
+				"jss-plugin-global": "^10.0.0-alpha.6",
+				"jss-plugin-nested": "^10.0.0-alpha.6",
+				"jss-plugin-props-sort": "^10.0.0-alpha.6",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.6",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.6",
+				"jss-plugin-template": "^10.0.0-alpha.6",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.6"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.6"
+			},
+			"peerDependencies": {
+				"jss": "10.0.0-alpha.3"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmVersion": "lerna/3.8.0/node@v8.11.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.6",
+			"gitHead": "35e4f8d17c49d0688d660d20d467dc56ccf7e226",
+			"typings": "./src/index.d.ts",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.6_1546357662493_0.9037875668084048"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"10.0.0-alpha.7": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.7",
+			"author": {
+				"name": "Oleg Isonen (Slobodskoi)",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.7.tgz",
+				"shasum": "f5f04edd7f19c73f82ea028681b4c0d96ceeecce"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.7",
+				"jss-plugin-compose": "^10.0.0-alpha.7",
+				"jss-plugin-default-unit": "^10.0.0-alpha.7",
+				"jss-plugin-expand": "^10.0.0-alpha.7",
+				"jss-plugin-extend": "^10.0.0-alpha.7",
+				"jss-plugin-global": "^10.0.0-alpha.7",
+				"jss-plugin-nested": "^10.0.0-alpha.7",
+				"jss-plugin-props-sort": "^10.0.0-alpha.7",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.7",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.7",
+				"jss-plugin-template": "^10.0.0-alpha.7",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.7"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.7"
+			},
+			"peerDependencies": {
+				"jss": "10.0.0-alpha.3"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmVersion": "lerna/3.8.0/node@v8.11.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.7",
+			"gitHead": "b12732bff76a96379748d511671a401ebe354588",
+			"typings": "./src/index.d.ts",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.7_1546511008060_0.845089355669538"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"10.0.0-alpha.8": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "10.0.0-alpha.8",
+			"author": {
+				"name": "Oleg Isonen",
+				"email": "oleg008@gmail.com",
+				"url": "Slobodskoi"
+			},
+			"homepage": "https://cssinjs.org/jss-preset-default",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/cssinjs/jss.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss/issues/new?title=[jss-preset-default]"
+			},
+			"main": "dist/jss-preset-default.cjs.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.8.tgz",
+				"shasum": "577797903830a93452446f28f1232b260699c61a"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"jss-plugin-camel-case": "^10.0.0-alpha.8",
+				"jss-plugin-compose": "^10.0.0-alpha.8",
+				"jss-plugin-default-unit": "^10.0.0-alpha.8",
+				"jss-plugin-expand": "^10.0.0-alpha.8",
+				"jss-plugin-extend": "^10.0.0-alpha.8",
+				"jss-plugin-global": "^10.0.0-alpha.8",
+				"jss-plugin-nested": "^10.0.0-alpha.8",
+				"jss-plugin-props-sort": "^10.0.0-alpha.8",
+				"jss-plugin-rule-value-function": "^10.0.0-alpha.8",
+				"jss-plugin-rule-value-observable": "^10.0.0-alpha.8",
+				"jss-plugin-template": "^10.0.0-alpha.8",
+				"jss-plugin-vendor-prefixer": "^10.0.0-alpha.8"
+			},
+			"devDependencies": {
+				"jss": "^10.0.0-alpha.8"
+			},
+			"peerDependencies": {
+				"jss": "10.0.0-alpha.3"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"prepare": "node ../../scripts/build.js",
+				"check-snapshot": "node ../../scripts/match-snapshot.js"
+			},
+			"_npmVersion": "lerna/3.10.5/node@v8.11.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@10.0.0-alpha.8",
+			"gitHead": "b43e7761badfbb6b8161b8e407ab17475e61450c",
+			"typings": "./src/index.d.ts",
+			"module": "dist/jss-preset-default.esm.js",
+			"unpkg": "dist/jss-preset-default.bundle.js",
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jss-preset-default_10.0.0-alpha.8_1547695399833_0.6604463609198821"
+			},
+			"_nodeVersion": "8.11.1"
+		},
+		"1.2.1": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.2.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.2.1.tgz",
+				"shasum": "c3b5a153388907de521469ab007a9d44e0544f95"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.0",
+				"jss-expand": "^2.0.1",
+				"jss-extend": "^3.0.0",
+				"jss-global": "^0.4.0",
+				"jss-nested": "^3.0.0",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.2.1",
+			"gitHead": "bced2d1fa792d7a77eb91c1b6b487877dd67f0c2",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.2.1.tgz_1483631335182_0.058459982043132186"
+			},
+			"_shasum": "c3b5a153388907de521469ab007a9d44e0544f95",
+			"_nodeVersion": "6.2.2"
+		},
+		"1.3.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.3.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.3.0.tgz",
+				"shasum": "aa581ed999bb522c2866453ffadf14ba59116a49"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.2",
+				"jss-expand": "^2.0.3",
+				"jss-extend": "^3.0.0",
+				"jss-global": "^0.4.1",
+				"jss-nested": "^3.0.1",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.2.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.3.0",
+			"gitHead": "6759a84c40d5af753ae3ee3fce04ea0ad793824f",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.3.0.tgz_1484487372795_0.5410121469758451"
+			},
+			"_shasum": "aa581ed999bb522c2866453ffadf14ba59116a49",
+			"_nodeVersion": "6.2.2"
+		},
+		"1.3.1": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.3.1",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.3.1.tgz",
+				"shasum": "8a4b7f9a41ec412d19fb1d23e6dc80ebef040d5a"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.2",
+				"jss-expand": "^2.0.3",
+				"jss-extend": "^3.0.0",
+				"jss-global": "^0.4.1",
+				"jss-nested": "^3.0.1",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.2.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.3.1",
+			"gitHead": "a009353b21ed4e410313ed3a52708740f1cc4edf",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.3.1.tgz_1484670992084_0.8587238423060626"
+			},
+			"_shasum": "8a4b7f9a41ec412d19fb1d23e6dc80ebef040d5a",
+			"_nodeVersion": "5.7.0"
+		},
+		"1.0.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.0.0.tgz",
+				"shasum": "b7c115024dbd1128bd8f50b1211774fc9698c7d3"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.0",
+				"jss-expand": "^2.0.1",
+				"jss-extend": "^3.0.0",
+				"jss-nested": "^3.0.0",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^3.0.1",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.0.0",
+			"gitHead": "67516dad5c7391c0d5cfa6e32423a77b0a93da14",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.0.0.tgz_1481245111038_0.055921683786436915"
+			},
+			"_shasum": "b7c115024dbd1128bd8f50b1211774fc9698c7d3",
+			"_nodeVersion": "6.9.2"
+		},
+		"1.1.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.1.0.tgz",
+				"shasum": "ab163d8b908084d00755621bf5d0566533f8736b"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.0",
+				"jss-expand": "^2.0.1",
+				"jss-extend": "^3.0.0",
+				"jss-global": "^0.3.0",
+				"jss-nested": "^3.0.0",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^3.0.1",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.1.0",
+			"gitHead": "1e763271b160fc40f296faf4a832594f983738f2",
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.1.0.tgz_1481331087718_0.2102783105801791"
+			},
+			"_shasum": "ab163d8b908084d00755621bf5d0566533f8736b",
+			"_nodeVersion": "6.9.2"
+		},
+		"1.2.0": {
+			"name": "jss-preset-default",
+			"description": "Default preset for JSS with selected plugins.",
+			"version": "1.2.0",
+			"author": {
+				"name": "Oleg Slobodskoi",
+				"email": "oleg008@gmail.com"
+			},
+			"homepage": "https://github.com/cssinjs/jss-preset-default#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/cssinjs/jss-preset-default.git"
+			},
+			"bugs": {
+				"url": "https://github.com/cssinjs/jss-preset-default/issues"
+			},
+			"main": "./lib/index.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.2.0.tgz",
+				"shasum": "5973629caac63369fae75d89b9e6dcb75fa8f2f7"
+			},
+			"dependencies": {
+				"jss-camel-case": "^3.0.0",
+				"jss-compose": "^2.0.0",
+				"jss-default-unit": "^5.0.0",
+				"jss-expand": "^2.0.1",
+				"jss-extend": "^3.0.0",
+				"jss-global": "^0.4.0",
+				"jss-nested": "^3.0.0",
+				"jss-props-sort": "^3.0.0",
+				"jss-vendor-prefixer": "^4.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.5.1",
+				"babel-core": "^6.5.1",
+				"babel-eslint": "^7.1.0",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"eslint": "^3.9.0",
+				"eslint-config-airbnb": "^13.0.0",
+				"eslint-config-jss": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^3.0.1",
+				"eslint-plugin-react": "^6.4.1",
+				"jss": "^6.0.0",
+				"rimraf": "^2.5.4",
+				"webpack": "^1.13.1"
+			},
+			"peerDependencies": {
+				"jss": "^6.0.0"
+			},
+			"keywords": [
+				"jss",
+				"preset",
+				"default"
+			],
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "kof",
+					"email": "oleg008@gmail.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"all": "npm run lint && npm run build",
+				"build": "npm run clean && npm run build:lib && npm run build:max && npm run build:min",
+				"clean": "rimraf ./lib/*",
+				"build:lib": "babel src --out-dir lib",
+				"build:max": "NODE_ENV=development webpack src/index.js dist/jss-preset-default.js",
+				"build:min": "NODE_ENV=production webpack src/index.js dist/jss-preset-default.min.js",
+				"lint": "eslint ./src",
+				"prepublish": "npm run all"
+			},
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_npmUser": {
+				"name": "kof",
+				"email": "oleg008@gmail.com"
+			},
+			"_id": "jss-preset-default@1.2.0",
+			"gitHead": "eab43d23a39cdd1165ccbbf36ce900e1115d4010",
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/jss-preset-default-1.2.0.tgz_1483202365059_0.2266112642828375"
+			},
+			"_shasum": "5973629caac63369fae75d89b9e6dcb75fa8f2f7",
+			"_nodeVersion": "6.2.2"
+		}
+	},
+	"time": {
+		"0.6.0": "2016-10-31T01:24:34.091Z",
+		"0.7.0": "2016-11-12T11:47:51.865Z",
+		"0.3.1": "2016-09-09T19:20:08.824Z",
+		"0.4.0": "2016-09-12T22:28:03.201Z",
+		"0.5.0": "2016-09-27T21:03:44.823Z",
+		"0.8.0": "2016-11-14T23:15:02.069Z",
+		"0.9.0": "2016-11-21T10:21:40.700Z",
+		"4.2.0": "2018-02-06T14:41:08.767Z",
+		"4.3.0": "2018-02-08T14:15:47.054Z",
+		"4.0.0": "2017-09-30T20:33:54.231Z",
+		"4.0.1": "2017-10-07T11:06:02.348Z",
+		"4.1.0": "2018-01-17T21:54:22.335Z",
+		"0.1.1": "2016-08-06T23:43:44.775Z",
+		"0.2.0": "2016-08-15T11:36:53.685Z",
+		"0.3.0": "2016-09-06T13:33:00.841Z",
+		"4.4.0": "2018-05-05T15:35:56.903Z",
+		"0.1.0": "2016-08-06T23:11:59.169Z",
+		"4.5.0": "2018-05-05T16:02:28.177Z",
+		"3.0.0": "2017-06-20T22:34:25.570Z",
+		"modified": "2019-01-17T03:23:22.421Z",
+		"2.0.0": "2017-04-10T04:16:39.876Z",
+		"created": "2016-08-06T23:11:59.169Z",
+		"10.0.0-alpha.2": "2018-12-26T12:10:35.978Z",
+		"10.0.0-alpha.3": "2018-12-26T14:54:59.777Z",
+		"10.0.0-alpha.4": "2018-12-31T18:33:13.817Z",
+		"10.0.0-alpha.5": "2018-12-31T21:51:33.821Z",
+		"10.0.0-alpha.6": "2019-01-01T15:47:42.618Z",
+		"10.0.0-alpha.7": "2019-01-03T10:23:28.262Z",
+		"10.0.0-alpha.8": "2019-01-17T03:23:19.981Z",
+		"1.2.1": "2017-01-05T15:48:57.180Z",
+		"1.3.0": "2017-01-15T13:36:14.989Z",
+		"1.3.1": "2017-01-17T16:36:32.663Z",
+		"1.0.0": "2016-12-09T00:58:33.167Z",
+		"1.1.0": "2016-12-10T00:51:28.347Z",
+		"1.2.0": "2016-12-31T16:39:27.152Z"
+	},
+	"dist-tags": {
+		"next": "10.0.0-alpha.8",
+		"latest": "10.0.0-alpha.7"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828474710
+		}
+	},
+	"_distfiles": {
+		"jss-preset-default-0.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.6.0.tgz",
+			"sha": "a3299af39596fde2dfa06ac88e520d7f7dc31c9d"
+		},
+		"jss-preset-default-0.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.7.0.tgz",
+			"sha": "ce5563584dd3cde11d81ed390b6cf84fd1cdf591"
+		},
+		"jss-preset-default-0.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.3.1.tgz",
+			"sha": "e22138227c45704b6ab5fffc0c9b6aba1af8861e"
+		},
+		"jss-preset-default-0.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.4.0.tgz",
+			"sha": "503e814e8c87456cdd81fbe4f3f5e2fdcbfb5dad"
+		},
+		"jss-preset-default-0.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.5.0.tgz",
+			"sha": "b83c3262df756e7a4a9bda754d2f0c53d752bd0b"
+		},
+		"jss-preset-default-0.8.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.8.0.tgz",
+			"sha": "e409c5135598275a3ebe5673050b5cb11f0fd5c5"
+		},
+		"jss-preset-default-0.9.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.9.0.tgz",
+			"sha": "46644fe256ce6fa153a96230e2dfa4d32099f24f"
+		},
+		"jss-preset-default-4.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.2.0.tgz",
+			"sha": "03d1f8e4f41c059bb69cfdecdca39e1984e9390f"
+		},
+		"jss-preset-default-4.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.3.0.tgz",
+			"sha": "7bc91b0b282492557d36ed4e5c6d7c8cb3154bb8"
+		},
+		"jss-preset-default-4.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.0.0.tgz",
+			"sha": "7f9a95e422134485e78c4369cf46bdf77749999f"
+		},
+		"jss-preset-default-4.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.0.1.tgz",
+			"sha": "822cecb87c27ff91633774422f4c221d61486b65"
+		},
+		"jss-preset-default-4.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.1.0.tgz",
+			"sha": "8a07d8de92cb0c55b70dc1919b802aed9cc4ebe9"
+		},
+		"jss-preset-default-0.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.1.1.tgz",
+			"sha": "ed0db7810221086a458e40586b73968c820b86f8"
+		},
+		"jss-preset-default-0.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.2.0.tgz",
+			"sha": "ae447fc05699e7f178353bf3cc5ac3fd18c822ed"
+		},
+		"jss-preset-default-0.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.3.0.tgz",
+			"sha": "73863b58f9e3b476b2ac4f757c45392fedb66fc1"
+		},
+		"jss-preset-default-4.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.4.0.tgz",
+			"sha": "5bfdf1d660a1454040ac86294dfee0b37ae44235"
+		},
+		"jss-preset-default-0.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-0.1.0.tgz",
+			"sha": "00ecf0840424d17d3d484c34c851f03bde168014"
+		},
+		"jss-preset-default-4.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-4.5.0.tgz",
+			"sha": "d3a457012ccd7a551312014e394c23c4b301cadd"
+		},
+		"jss-preset-default-3.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-3.0.0.tgz",
+			"sha": "e43ee1ac526f689baf2bfd28ae95a6fdc3a02663"
+		},
+		"jss-preset-default-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-2.0.0.tgz",
+			"sha": "0368d99626b31067e8d04ab3c7cb17ba8354d422"
+		},
+		"jss-preset-default-10.0.0-alpha.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.2.tgz",
+			"sha": "65e339012c45c382732437dce26d234c0cc17f2c"
+		},
+		"jss-preset-default-10.0.0-alpha.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.3.tgz",
+			"sha": "afbcd30acf625a0c15aaa9e7656eaa9a88379725"
+		},
+		"jss-preset-default-10.0.0-alpha.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.4.tgz",
+			"sha": "2abdd3320d34ad896a83a70efe21df9e47a84a1c"
+		},
+		"jss-preset-default-10.0.0-alpha.5.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.5.tgz",
+			"sha": "5d2a813ad2c64f4d804c4285969117e9bd118af4"
+		},
+		"jss-preset-default-10.0.0-alpha.6.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.6.tgz",
+			"sha": "7419701f329932d30fb85949d16f3888dc856741"
+		},
+		"jss-preset-default-10.0.0-alpha.7.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.7.tgz",
+			"sha": "f5f04edd7f19c73f82ea028681b4c0d96ceeecce"
+		},
+		"jss-preset-default-10.0.0-alpha.8.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-10.0.0-alpha.8.tgz",
+			"sha": "577797903830a93452446f28f1232b260699c61a"
+		},
+		"jss-preset-default-1.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.2.1.tgz",
+			"sha": "c3b5a153388907de521469ab007a9d44e0544f95"
+		},
+		"jss-preset-default-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.3.0.tgz",
+			"sha": "aa581ed999bb522c2866453ffadf14ba59116a49"
+		},
+		"jss-preset-default-1.3.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.3.1.tgz",
+			"sha": "8a4b7f9a41ec412d19fb1d23e6dc80ebef040d5a"
+		},
+		"jss-preset-default-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.0.0.tgz",
+			"sha": "b7c115024dbd1128bd8f50b1211774fc9698c7d3"
+		},
+		"jss-preset-default-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.1.0.tgz",
+			"sha": "ab163d8b908084d00755621bf5d0566533f8736b"
+		},
+		"jss-preset-default-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jss-preset-default/-/jss-preset-default-1.2.0.tgz",
+			"sha": "5973629caac63369fae75d89b9e6dcb75fa8f2f7"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-f63f0b680538270c",
+	"readme": "ERROR: No README data found!"
+}

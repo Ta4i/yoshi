@@ -136514,6 +136514,439 @@
 				"path": false
 			},
 			"_shasum": "53b55e73bcd2344e57f5bcb1238c6bcdf721566b"
+		},
+		"3.3.0-dev.20190118": {
+			"name": "typescript",
+			"description": "TypeScript is a language for application scale JavaScript development",
+			"version": "3.3.0-dev.20190118",
+			"author": {
+				"name": "Microsoft Corp."
+			},
+			"homepage": "https://www.typescriptlang.org/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Microsoft/TypeScript.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Microsoft/TypeScript/issues"
+			},
+			"engines": {
+				"node": ">=4.2.0"
+			},
+			"main": "./lib/typescript.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.3.0-dev.20190118.tgz",
+				"shasum": "e188c10d2ddda86f74c502a4c5da8aed07d2ae4b"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/rest": "latest",
+				"@types/browserify": "latest",
+				"@types/chai": "latest",
+				"@types/convert-source-map": "latest",
+				"@types/del": "latest",
+				"@types/glob": "latest",
+				"@types/gulp": "3.X",
+				"@types/gulp-concat": "latest",
+				"@types/gulp-help": "latest",
+				"@types/gulp-if": "0.0.33",
+				"@types/gulp-newer": "latest",
+				"@types/gulp-rename": "0.0.33",
+				"@types/gulp-sourcemaps": "0.0.32",
+				"@types/jake": "latest",
+				"@types/merge2": "latest",
+				"@types/minimatch": "latest",
+				"@types/minimist": "latest",
+				"@types/mkdirp": "latest",
+				"@types/mocha": "latest",
+				"@types/node": "8.5.5",
+				"@types/q": "latest",
+				"@types/run-sequence": "latest",
+				"@types/source-map-support": "latest",
+				"@types/through2": "latest",
+				"@types/travis-fold": "latest",
+				"@types/xml2js": "^0.4.0",
+				"browser-resolve": "^1.11.2",
+				"browserify": "latest",
+				"chai": "latest",
+				"chalk": "latest",
+				"convert-source-map": "latest",
+				"del": "latest",
+				"fancy-log": "latest",
+				"fs-extra": "^6.0.1",
+				"gulp": "3.X",
+				"gulp-clone": "latest",
+				"gulp-concat": "latest",
+				"gulp-help": "latest",
+				"gulp-if": "latest",
+				"gulp-insert": "latest",
+				"gulp-newer": "latest",
+				"gulp-rename": "latest",
+				"gulp-sourcemaps": "latest",
+				"gulp-typescript": "latest",
+				"istanbul": "latest",
+				"jake": "latest",
+				"lodash": "4.17.10",
+				"merge2": "latest",
+				"minimist": "latest",
+				"mkdirp": "latest",
+				"mocha": "latest",
+				"mocha-fivemat-progress-reporter": "latest",
+				"plugin-error": "latest",
+				"pretty-hrtime": "^1.0.3",
+				"prex": "^0.4.3",
+				"q": "latest",
+				"remove-internal": "^2.9.2",
+				"run-sequence": "latest",
+				"source-map-support": "latest",
+				"through2": "latest",
+				"travis-fold": "latest",
+				"tslint": "latest",
+				"typescript": "next",
+				"vinyl": "latest",
+				"vinyl-sourcemaps-apply": "latest",
+				"xml2js": "^0.4.19"
+			},
+			"keywords": [
+				"TypeScript",
+				"Microsoft",
+				"compiler",
+				"language",
+				"javascript"
+			],
+			"license": "Apache-2.0",
+			"bin": {
+				"tsc": "./bin/tsc",
+				"tsserver": "./bin/tsserver"
+			},
+			"maintainers": [
+				{
+					"name": "typescript",
+					"email": "typescript@microsoft.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jake tests",
+				"test": "jake runtests-parallel light=false",
+				"build": "npm run build:compiler && npm run build:tests",
+				"build:compiler": "jake local",
+				"build:tests": "jake tests",
+				"start": "node lib/tsc",
+				"clean": "jake clean",
+				"gulp": "gulp",
+				"jake": "jake",
+				"lint": "jake lint",
+				"setup-hooks": "node scripts/link-hooks.js"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "typescript",
+				"email": "typescript@microsoft.com"
+			},
+			"_id": "typescript@3.3.0-dev.20190118",
+			"gitHead": "b317334c2a286daa1cfcfdc0a850693cc04376e6",
+			"typings": "./lib/typescript.d.ts",
+			"browser": {
+				"fs": false,
+				"os": false,
+				"path": false
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/typescript_3.3.0-dev.20190118_1547795653686_0.8036781153309649"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.14.2"
+		},
+		"3.3.0-dev.20190117": {
+			"name": "typescript",
+			"description": "TypeScript is a language for application scale JavaScript development",
+			"version": "3.3.0-dev.20190117",
+			"author": {
+				"name": "Microsoft Corp."
+			},
+			"homepage": "https://www.typescriptlang.org/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Microsoft/TypeScript.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Microsoft/TypeScript/issues"
+			},
+			"engines": {
+				"node": ">=4.2.0"
+			},
+			"main": "./lib/typescript.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.3.0-dev.20190117.tgz",
+				"shasum": "5fd2cc2fc29cf6f18bf9f5e5b9e198417f04473b"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/rest": "latest",
+				"@types/browserify": "latest",
+				"@types/chai": "latest",
+				"@types/convert-source-map": "latest",
+				"@types/del": "latest",
+				"@types/glob": "latest",
+				"@types/gulp": "3.X",
+				"@types/gulp-concat": "latest",
+				"@types/gulp-help": "latest",
+				"@types/gulp-if": "0.0.33",
+				"@types/gulp-newer": "latest",
+				"@types/gulp-rename": "0.0.33",
+				"@types/gulp-sourcemaps": "0.0.32",
+				"@types/jake": "latest",
+				"@types/merge2": "latest",
+				"@types/minimatch": "latest",
+				"@types/minimist": "latest",
+				"@types/mkdirp": "latest",
+				"@types/mocha": "latest",
+				"@types/node": "8.5.5",
+				"@types/q": "latest",
+				"@types/run-sequence": "latest",
+				"@types/source-map-support": "latest",
+				"@types/through2": "latest",
+				"@types/travis-fold": "latest",
+				"@types/xml2js": "^0.4.0",
+				"browser-resolve": "^1.11.2",
+				"browserify": "latest",
+				"chai": "latest",
+				"chalk": "latest",
+				"convert-source-map": "latest",
+				"del": "latest",
+				"fancy-log": "latest",
+				"fs-extra": "^6.0.1",
+				"gulp": "3.X",
+				"gulp-clone": "latest",
+				"gulp-concat": "latest",
+				"gulp-help": "latest",
+				"gulp-if": "latest",
+				"gulp-insert": "latest",
+				"gulp-newer": "latest",
+				"gulp-rename": "latest",
+				"gulp-sourcemaps": "latest",
+				"gulp-typescript": "latest",
+				"istanbul": "latest",
+				"jake": "latest",
+				"lodash": "4.17.10",
+				"merge2": "latest",
+				"minimist": "latest",
+				"mkdirp": "latest",
+				"mocha": "latest",
+				"mocha-fivemat-progress-reporter": "latest",
+				"plugin-error": "latest",
+				"pretty-hrtime": "^1.0.3",
+				"prex": "^0.4.3",
+				"q": "latest",
+				"remove-internal": "^2.9.2",
+				"run-sequence": "latest",
+				"source-map-support": "latest",
+				"through2": "latest",
+				"travis-fold": "latest",
+				"tslint": "latest",
+				"typescript": "next",
+				"vinyl": "latest",
+				"vinyl-sourcemaps-apply": "latest",
+				"xml2js": "^0.4.19"
+			},
+			"keywords": [
+				"TypeScript",
+				"Microsoft",
+				"compiler",
+				"language",
+				"javascript"
+			],
+			"license": "Apache-2.0",
+			"bin": {
+				"tsc": "./bin/tsc",
+				"tsserver": "./bin/tsserver"
+			},
+			"maintainers": [
+				{
+					"name": "typescript",
+					"email": "typescript@microsoft.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jake tests",
+				"test": "jake runtests-parallel light=false",
+				"build": "npm run build:compiler && npm run build:tests",
+				"build:compiler": "jake local",
+				"build:tests": "jake tests",
+				"start": "node lib/tsc",
+				"clean": "jake clean",
+				"gulp": "gulp",
+				"jake": "jake",
+				"lint": "jake lint",
+				"setup-hooks": "node scripts/link-hooks.js"
+			},
+			"_npmVersion": "6.5.0",
+			"_npmUser": {
+				"name": "typescript",
+				"email": "typescript@microsoft.com"
+			},
+			"_id": "typescript@3.3.0-dev.20190117",
+			"gitHead": "a9c5a0472f83958f4a70f4ce66cc299b4b2c332c",
+			"typings": "./lib/typescript.d.ts",
+			"browser": {
+				"fs": false,
+				"os": false,
+				"path": false
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/typescript_3.3.0-dev.20190117_1547709319680_0.6730075942851879"
+			},
+			"readmeFilename": "README.md",
+			"_nodeVersion": "10.14.2"
+		},
+		"3.2.4": {
+			"name": "typescript",
+			"description": "TypeScript is a language for application scale JavaScript development",
+			"version": "3.2.4",
+			"author": {
+				"name": "Microsoft Corp."
+			},
+			"homepage": "https://www.typescriptlang.org/",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Microsoft/TypeScript.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Microsoft/TypeScript/issues"
+			},
+			"engines": {
+				"node": ">=4.2.0"
+			},
+			"main": "./lib/typescript.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.2.4.tgz",
+				"shasum": "c585cb952912263d915b462726ce244ba510ef3d"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@octokit/rest": "latest",
+				"@types/browserify": "latest",
+				"@types/chai": "latest",
+				"@types/convert-source-map": "latest",
+				"@types/del": "latest",
+				"@types/glob": "latest",
+				"@types/gulp": "3.X",
+				"@types/gulp-concat": "latest",
+				"@types/gulp-help": "latest",
+				"@types/gulp-if": "0.0.33",
+				"@types/gulp-newer": "latest",
+				"@types/gulp-rename": "0.0.33",
+				"@types/gulp-sourcemaps": "0.0.32",
+				"@types/jake": "latest",
+				"@types/merge2": "latest",
+				"@types/minimatch": "latest",
+				"@types/minimist": "latest",
+				"@types/mkdirp": "latest",
+				"@types/mocha": "latest",
+				"@types/node": "8.5.5",
+				"@types/q": "latest",
+				"@types/run-sequence": "latest",
+				"@types/source-map-support": "latest",
+				"@types/through2": "latest",
+				"@types/travis-fold": "latest",
+				"@types/xml2js": "^0.4.0",
+				"browser-resolve": "^1.11.2",
+				"browserify": "latest",
+				"chai": "latest",
+				"chalk": "latest",
+				"convert-source-map": "latest",
+				"del": "latest",
+				"fancy-log": "latest",
+				"fs-extra": "^6.0.1",
+				"gulp": "3.X",
+				"gulp-clone": "latest",
+				"gulp-concat": "latest",
+				"gulp-help": "latest",
+				"gulp-if": "latest",
+				"gulp-insert": "latest",
+				"gulp-newer": "latest",
+				"gulp-rename": "latest",
+				"gulp-sourcemaps": "latest",
+				"gulp-typescript": "latest",
+				"istanbul": "latest",
+				"jake": "latest",
+				"lodash": "4.17.10",
+				"merge2": "latest",
+				"minimist": "latest",
+				"mkdirp": "latest",
+				"mocha": "latest",
+				"mocha-fivemat-progress-reporter": "latest",
+				"plugin-error": "latest",
+				"prex": "^0.4.3",
+				"q": "latest",
+				"remove-internal": "^2.9.2",
+				"run-sequence": "latest",
+				"source-map-support": "latest",
+				"through2": "latest",
+				"travis-fold": "latest",
+				"tslint": "latest",
+				"typescript": "next",
+				"vinyl": "latest",
+				"vinyl-sourcemaps-apply": "latest",
+				"xml2js": "^0.4.19"
+			},
+			"keywords": [
+				"TypeScript",
+				"Microsoft",
+				"compiler",
+				"language",
+				"javascript"
+			],
+			"license": "Apache-2.0",
+			"bin": {
+				"tsc": "./bin/tsc",
+				"tsserver": "./bin/tsserver"
+			},
+			"maintainers": [
+				{
+					"name": "typescript",
+					"email": "typescript@microsoft.com"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"pretest": "jake tests",
+				"test": "jake runtests-parallel light=false",
+				"build": "npm run build:compiler && npm run build:tests",
+				"build:compiler": "jake local",
+				"build:tests": "jake tests",
+				"start": "node lib/tsc",
+				"clean": "jake clean",
+				"gulp": "gulp",
+				"jake": "jake",
+				"lint": "jake lint",
+				"setup-hooks": "node scripts/link-hooks.js"
+			},
+			"_npmVersion": "6.1.0",
+			"_npmUser": {
+				"name": "typescript",
+				"email": "typescript@microsoft.com"
+			},
+			"_id": "typescript@3.2.4",
+			"gitHead": "e7a0f7e8a9b84b0d76200cc673954497a81934d6",
+			"typings": "./lib/typescript.d.ts",
+			"browser": {
+				"fs": false,
+				"os": false,
+				"path": false
+			},
+			"_hasShrinkwrap": false,
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/typescript_3.2.4_1547764303975_0.11890016694584205"
+			},
+			"_nodeVersion": "10.4.1"
 		}
 	},
 	"time": {
@@ -136752,7 +137185,7 @@
 		"2.9.0-rc": "2018-05-16T20:32:57.988Z",
 		"2.3.1-insiders.20170425": "2017-04-25T20:18:59.909Z",
 		"2.3.1-insiders.20170420": "2017-04-20T22:33:55.218Z",
-		"modified": "2019-01-16T17:39:29.795Z",
+		"modified": "2019-01-18T07:14:16.647Z",
 		"2.1.3-insiders.20161130": "2016-11-30T01:30:43.213Z",
 		"2.2.0-dev.20170121": "2017-01-21T07:12:13.314Z",
 		"2.2.0-dev.20170122": "2017-01-22T07:12:04.595Z",
@@ -137705,18 +138138,21 @@
 		"1.9.0-dev.20160605-1.0": "2016-06-05T06:08:14.375Z",
 		"2.2.1-insiders.20170209": "2017-02-09T22:44:05.323Z",
 		"1.6.0-dev.20150824": "2015-08-24T06:03:18.790Z",
-		"1.6.0-dev.20150820": "2015-08-20T06:04:43.807Z"
+		"1.6.0-dev.20150820": "2015-08-20T06:04:43.807Z",
+		"3.3.0-dev.20190118": "2019-01-18T07:14:14.204Z",
+		"3.3.0-dev.20190117": "2019-01-17T07:15:20.277Z",
+		"3.2.4": "2019-01-17T22:31:44.379Z"
 	},
 	"dist-tags": {
-		"next": "3.3.0-dev.20190116",
+		"next": "3.3.0-dev.20190118",
 		"rc": "3.2.0-rc",
 		"insiders": "3.2.1-insiders.20181128",
 		"beta": "2.0.0",
-		"latest": "3.2.2"
+		"latest": "3.2.4"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749327035
+			"fetched": 1547828354196
 		}
 	},
 	"_distfiles": {
@@ -142455,9 +142891,21 @@
 		"typescript-1.6.0-dev.20150820.tgz": {
 			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-1.6.0-dev.20150820.tgz",
 			"sha": "53b55e73bcd2344e57f5bcb1238c6bcdf721566b"
+		},
+		"typescript-3.3.0-dev.20190118.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.3.0-dev.20190118.tgz",
+			"sha": "e188c10d2ddda86f74c502a4c5da8aed07d2ae4b"
+		},
+		"typescript-3.3.0-dev.20190117.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.3.0-dev.20190117.tgz",
+			"sha": "5fd2cc2fc29cf6f18bf9f5e5b9e198417f04473b"
+		},
+		"typescript-3.2.4.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typescript/-/typescript-3.2.4.tgz",
+			"sha": "c585cb952912263d915b462726ce244ba510ef3d"
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ff172ea46afa30a2",
+	"_rev": "7-90162c0219b0b06c",
 	"readme": "[![Build Status](https://travis-ci.org/Microsoft/TypeScript.svg?branch=master)](https://travis-ci.org/Microsoft/TypeScript)\r\n[![VSTS Build Status](https://typescript.visualstudio.com/_apis/public/build/definitions/cf7ac146-d525-443c-b23c-0d58337efebc/4/badge)](https://typescript.visualstudio.com/TypeScript/_build/latest?definitionId=4&view=logs) \r\n[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)\r\n[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)\r\n\r\n# TypeScript\r\n\r\n[![Join the chat at https://gitter.im/Microsoft/TypeScript](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Microsoft/TypeScript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\r\n\r\n[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the [playground](https://www.typescriptlang.org/play/), and stay up to date via [our blog](https://blogs.msdn.microsoft.com/typescript) and [Twitter account](https://twitter.com/typescriptlang).\r\n\r\n## Installing\r\n\r\nFor the latest stable version:\r\n\r\n```bash\r\nnpm install -g typescript\r\n```\r\n\r\nFor our nightly builds:\r\n\r\n```bash\r\nnpm install -g typescript@next\r\n```\r\n\r\n## Contribute\r\n\r\nThere are many ways to [contribute](https://github.com/Microsoft/TypeScript/blob/master/CONTRIBUTING.md) to TypeScript.\r\n* [Submit bugs](https://github.com/Microsoft/TypeScript/issues) and help us verify fixes as they are checked in.\r\n* Review the [source code changes](https://github.com/Microsoft/TypeScript/pulls).\r\n* Engage with other TypeScript users and developers on [StackOverflow](https://stackoverflow.com/questions/tagged/typescript). \r\n* Join the [#typescript](https://twitter.com/search?q=%23TypeScript) discussion on Twitter.\r\n* [Contribute bug fixes](https://github.com/Microsoft/TypeScript/blob/master/CONTRIBUTING.md).\r\n* Read the language specification ([docx](https://github.com/Microsoft/TypeScript/blob/master/doc/TypeScript%20Language%20Specification.docx?raw=true),\r\n [pdf](https://github.com/Microsoft/TypeScript/blob/master/doc/TypeScript%20Language%20Specification.pdf?raw=true), [md](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)).\r\n\r\nThis project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see \r\nthe [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) \r\nwith any additional questions or comments.\r\n\r\n## Documentation\r\n\r\n*  [Quick tutorial](https://www.typescriptlang.org/docs/tutorial.html)\r\n*  [Programming handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)\r\n*  [Language specification](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)\r\n*  [Homepage](https://www.typescriptlang.org/)\r\n\r\n## Building\r\n\r\nIn order to build the TypeScript compiler, ensure that you have [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/) installed.\r\n\r\nClone a copy of the repo:\r\n\r\n```bash\r\ngit clone https://github.com/Microsoft/TypeScript.git\r\n```\r\n\r\nChange to the TypeScript directory:\r\n\r\n```bash\r\ncd TypeScript\r\n```\r\n\r\nInstall [Jake](http://jakejs.com/) tools and dev dependencies:\r\n\r\n```bash\r\nnpm install -g jake\r\nnpm install\r\n```\r\n\r\nUse one of the following to build and test:\r\n\r\n```\r\njake local            # Build the compiler into built/local \r\njake clean            # Delete the built compiler \r\njake LKG              # Replace the last known good with the built one.\r\n                      # Bootstrapping step to be executed when the built compiler reaches a stable state.\r\njake tests            # Build the test infrastructure using the built compiler. \r\njake runtests         # Run tests using the built compiler and test infrastructure. \r\n                      # You can override the host or specify a test for this command. \r\n                      # Use host=<hostName> or tests=<testPath>. \r\njake runtests-browser # Runs the tests using the built run.js file. Syntax is jake runtests. Optional\r\n                        parameters 'host=', 'tests=[regex], reporter=[list|spec|json|<more>]'.\r\njake baseline-accept  # This replaces the baseline test results with the results obtained from jake runtests.\r\njake lint             # Runs tslint on the TypeScript source.\r\njake help             # List the above commands. \r\n```\r\n\r\n\r\n## Usage\r\n\r\n```bash\r\nnode built/local/tsc.js hello.ts\r\n```\r\n\r\n\r\n## Roadmap\r\n\r\nFor details on our planned features and future direction please refer to our [roadmap](https://github.com/Microsoft/TypeScript/wiki/Roadmap)."
 }

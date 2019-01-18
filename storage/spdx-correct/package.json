@@ -1169,7 +1169,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749448201
+			"fetched": 1547828465066
 		}
 	},
 	"_distfiles": {
@@ -1239,6 +1239,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "24-12024fccc6a07dbb",
+	"_rev": "29-51bf0cf7b54998e2",
 	"readme": "```javascript\nvar correct = require('spdx-correct')\nvar assert = require('assert')\n\nassert.equal(correct('mit'), 'MIT')\n\nassert.equal(correct('Apache 2'), 'Apache-2.0')\n\nassert(correct('No idea what license') === null)\n\n// disable upgrade option\nassert(correct('GPL-3.0'), 'GPL-3.0-or-later')\nassert(correct('GPL-3.0', { upgrade: false }), 'GPL-3.0')\n```"
 }

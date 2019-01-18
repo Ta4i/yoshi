@@ -1129,7 +1129,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749369830
+			"fetched": 1547828373859
 		}
 	},
 	"_distfiles": {
@@ -1191,6 +1191,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-79fd773561352eb8",
+	"_rev": "10-6c9fe18a928e126e",
 	"readme": "# CSS Modules: Extract Imports\n\n[![Build Status](https://travis-ci.org/css-modules/postcss-modules-extract-imports.svg?branch=master)](https://travis-ci.org/css-modules/postcss-modules-extract-imports)\n\nTransforms:\n\n```css\n:local(.continueButton) {\n  composes: button from \"library/button.css\";\n  color: green;\n}\n```\n\ninto:\n\n```css\n:import(\"library/button.css\") {\n  button: __tmp_487387465fczSDGHSABb;\n}\n:local(.continueButton) {\n  composes: __tmp_487387465fczSDGHSABb;\n  color: green;\n}\n```\n\n## Specification\n\n- Only a certain whitelist of properties are inspected. Currently, that whitelist is `['composes']` alone.\n- An extend-import has the following format:\n```\ncomposes: className [... className] from \"path/to/file.css\";\n```\n\n## Options\n\n- `failOnWrongOrder` `bool` generates exception for unpredictable imports order.\n\n```css\n.aa {\n  composes: b from './b.css';\n  composes: c from './c.css';\n}\n\n.bb {\n  /* \"b.css\" should be before \"c.css\" in this case */\n  composes: c from './c.css';\n  composes: b from './b.css';\n}\n```\n\n## Building\n\n```\nnpm install\nnpm test\n```\n\n[![Build Status](https://travis-ci.org/css-modules/postcss-modules-extract-imports.svg?branch=master)](https://travis-ci.org/css-modules/postcss-modules-extract-imports)\n\n* Lines: [![Coverage Status](https://coveralls.io/repos/css-modules/postcss-modules-extract-imports/badge.svg?branch=master)](https://coveralls.io/r/css-modules/postcss-modules-extract-imports?branch=master)\n* Statements: [![codecov.io](http://codecov.io/github/css-modules/postcss-modules-extract-imports/coverage.svg?branch=master)](http://codecov.io/github/css-modules/postcss-modules-extract-imports?branch=master)\n\n## Development\n\n- `npm watch` will watch `src` for changes and rebuild\n- `npm autotest` will watch `src` and `test` for changes and retest\n\n## License\n\nISC\n\n## With thanks\n\n- Mark Dalgleish\n- Tobias Koppers\n- Guy Bedford\n\n---\nGlen Maddern, 2015."
 }

@@ -514,7 +514,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749344341
+			"fetched": 1547828357667
 		}
 	},
 	"_distfiles": {
@@ -552,6 +552,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-12e32c0419c5b818",
+	"_rev": "10-00e34119a6a5e198",
 	"readme": "# Please upgrade Node [![](http://img.shields.io/npm/dm/please-upgrade-node.svg?style=flat)](https://www.npmjs.org/package/please-upgrade-node) [![Build Status](https://travis-ci.org/typicode/please-upgrade-node.svg?branch=master)](https://travis-ci.org/typicode/please-upgrade-node) [![npm](https://img.shields.io/npm/v/please-upgrade-node.svg)](https://www.npmjs.com/package/please-upgrade-node)\r\n\r\n> :information_desk_person: show a message to your users to upgrade Node instead of a stacktrace \r\n\r\nIt's common for new Node users to miss the `npm` engines warning when installing a CLI. This package displays a beginner-friendly message if their Node version is below the one expected.\r\n\r\n```sh\r\n$ node -v\r\n0.12\r\n\r\n$ modern-cli\r\nmodern-cli requires at least version 6 of Node, please upgrade\r\n```\r\n\r\n## Install\r\n\r\n```sh\r\nnpm install please-upgrade-node\r\n```\r\n\r\n```js\r\n#!/usr/bin/env node\r\nconst pkg = require('./package.json')\r\nrequire('please-upgrade-node')(pkg)\r\n// Must run BEFORE requiring other modules\r\n```\r\n\r\n```js\r\n// package.json\r\n{\r\n  \"bin\": \"./bin.js\",\r\n  \"engines\": {\r\n    \"node\": \">=6\"\r\n  }\r\n}\r\n```\r\n\r\n__Important__: `>=` is the only operator supported by `please-upgrade-node` (e.g. `>=6`, `>=6.0`, `>=6.0.0`).\r\n\r\n## Options\r\n\r\nYou can also pass custom `exitCode` (default: `1`) or `message` function\r\n\r\n```js\r\npleaseUpgradeNode(pkg, {\r\n  exitCode: 0,\r\n  message: function(requiredVersion) {\r\n    return 'Oops, this program requires Node ' + requiredVersion\r\n  }\r\n})\r\n```\r\n\r\n__Important__: to keep `message` function compatible with older versions of Node, avoid using ES6 features like `=>` or string interpolation.\r\n\r\n## See also\r\n\r\n* [pkg-ok](https://github.com/typicode/pkg-ok) - :ok_hand: Prevents publishing a module with bad paths\r\n* [husky](https://github.com/typicode/husky) - :dog: Git hooks made easy\r\n* [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app \r\n\r\nThanks to [zeit/serve](https://github.com/zeit/serve) for the error message inspiration.\r\n\r\n## License\r\n\r\nMIT - [Typicode :cactus:](https://github.com/typicode) - [Patreon](https://patreon.com/typicode)"
 }

@@ -318,7 +318,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749355693
+			"fetched": 1547828391379
 		}
 	},
 	"_distfiles": {
@@ -348,6 +348,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-f4abe4b805c7026a",
+	"_rev": "10-fe60497cf86d305b",
 	"readme": "# Fast Diff [![Build Status](https://travis-ci.org/jhchen/fast-diff.svg)](https://travis-ci.org/jhchen/fast-diff)\n\nThis is a simplified import of the excellent [diff-match-patch](https://code.google.com/p/google-diff-match-patch/) library by [Neil Fraser](https://neil.fraser.name/) into the Node.js environment. The match and patch parts are removed, as well as all the extra diff options. What remains is incredibly fast diffing between two strings.\n\n The diff function is an implementation of [\"An O(ND) Difference Algorithm and its Variations\" (Myers, 1986)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.4.6927&rep=rep1&type=pdf) with the suggested divide and conquer strategy along with several [optimizations](http://neil.fraser.name/news/2007/10/09/) Neil added.\n\n```js\nvar diff = require('fast-diff');\n\nvar good = 'Good dog';\nvar bad = 'Bad dog';\n\nvar result = diff(good, bad);\n// [[-1, \"Goo\"], [1, \"Ba\"], [0, \"d dog\"]]\n\n// Respect suggested edit location (cursor position), added in v1.1\ndiff('aaa', 'aaaa', 1)\n// [[0, \"a\"], [1, \"a\"], [0, \"aa\"]]\n\n// For convenience\ndiff.INSERT === 1;\ndiff.EQUAL === 0;\ndiff.DELETE === -1;\n```"
 }

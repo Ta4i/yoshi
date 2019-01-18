@@ -600,7 +600,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749333647
+			"fetched": 1547828363252
 		}
 	},
 	"_distfiles": {
@@ -658,6 +658,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-b02bcb032e2612e0",
+	"_rev": "10-cb60a3f284d076df",
 	"readme": "# haste-task-copy\nHaste task for copying files.\n\n```js\nawait run(\n  read({ pattern: '**.*' })\n  copy({ target: 'static' })\n)\n```\n\n## options\n\n#### target\n\nType: `String`\n\nA relative/absolute path which the files will be copied relatively to.\n\n#### cwd\n\nType: `String`\n\nAn absolute path which the target will be relative to, defaults to `process.cwd()`."
 }

@@ -1,0 +1,1382 @@
+{
+	"name": "isomorphic-fetch",
+	"versions": {
+		"2.0.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.0.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.0.tgz",
+				"shasum": "febd208ddcd99ccb7c27a1fc9f84b053c80537be"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch#ie9"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.0.0",
+			"gitHead": "c84e497a770673d68bbf18847d2afa5830da0a28",
+			"browser": "npm-client.js",
+			"_shasum": "febd208ddcd99ccb7c27a1fc9f84b053c80537be"
+		},
+		"2.0.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.0.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.1.tgz",
+				"shasum": "b35b25092ed615f577734b66888edcd047f70caf"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch#ie9"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.0.1",
+			"gitHead": "1bb628e94a54d27bd3ede95e3740a27c9f0ed9eb",
+			"browser": "npm-client.js",
+			"_shasum": "b35b25092ed615f577734b66888edcd047f70caf"
+		},
+		"2.1.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.1.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.1.0.tgz",
+				"shasum": "ebcfabe281b9e64f83b4867ea87f2db35f9ea25f"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": "^0.8.2"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.1.0",
+			"gitHead": "30f04d83d210a169bd85eb773b02d64762818950",
+			"browser": "npm-client.js",
+			"_shasum": "ebcfabe281b9e64f83b4867ea87f2db35f9ea25f"
+		},
+		"2.0.2": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.0.2",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.2.tgz",
+				"shasum": "a2b1ece3202f73d503016e6a93b3386832329437"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch#ie9"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.0.2",
+			"gitHead": "605153f74b41b1db5f4e6e35ea0dd2d712e002aa",
+			"browser": "npm-client.js",
+			"_shasum": "a2b1ece3202f73d503016e6a93b3386832329437"
+		},
+		"2.1.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.1.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "fetch-npm-node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.1.1.tgz",
+				"shasum": "b573f32c87c7c61ec106bcef18cf8fdfc34894fa"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": "^0.8.2"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.1.1",
+			"gitHead": "38e38727ee43247961bc52b781db6741131cbe46",
+			"browser": "fetch-npm-browserify.js",
+			"_shasum": "b573f32c87c7c61ec106bcef18cf8fdfc34894fa"
+		},
+		"2.2.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.2.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "fetch-npm-node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.2.0.tgz",
+				"shasum": "8a834c42f415535285651ff9742dde64f3ab532d"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": ">=0.10.0"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@2.2.0",
+			"gitHead": "6d55ed5553f4b1cf672400ff3bb4add0a9e7afa0",
+			"browser": "fetch-npm-browserify.js",
+			"_shasum": "8a834c42f415535285651ff9742dde64f3ab532d",
+			"_nodeVersion": "4.1.2"
+		},
+		"2.2.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "2.2.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/matthew-andrews/isomorphic-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+			},
+			"main": "fetch-npm-node.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+				"shasum": "611ae1acf14f5e81f729507472819fe9733558a9"
+			},
+			"dependencies": {
+				"node-fetch": "^1.0.1",
+				"whatwg-fetch": ">=0.10.0"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "financial-times",
+					"email": "strategic.products@ft.com"
+				},
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha"
+			},
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_npmUser": {
+				"name": "financial-times",
+				"email": "strategic.products@ft.com"
+			},
+			"_id": "isomorphic-fetch@2.2.1",
+			"gitHead": "43437dc5b381e391b73522d71cea23fc72675154",
+			"browser": "fetch-npm-browserify.js",
+			"_shasum": "611ae1acf14f5e81f729507472819fe9733558a9",
+			"_nodeVersion": "4.2.3"
+		},
+		"1.1.2": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.1.2",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.2.tgz",
+				"shasum": "186b2fa1ed585d4e43f9371e7557498ad38e9755"
+			},
+			"dependencies": {
+				"whatwg-fetch": "^0.5.0",
+				"xmlhttprequest": "^1.6.0"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.1.2",
+			"gitHead": "36e9b1673252819240b92160bd41ee36475fad0e",
+			"browser": "npm-client.js",
+			"_shasum": "186b2fa1ed585d4e43f9371e7557498ad38e9755"
+		},
+		"1.3.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.3.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.3.0.tgz",
+				"shasum": "9a6eb3e8cde8d808f1c6ecfac2d967f0b29abedb"
+			},
+			"dependencies": {
+				"whatwg-fetch": "^0.5.0",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.3.0",
+			"gitHead": "458e4f6c38412ba5ceec0492aa9f3e4e393af303",
+			"browser": "npm-client.js",
+			"_shasum": "9a6eb3e8cde8d808f1c6ecfac2d967f0b29abedb"
+		},
+		"1.1.3": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.1.3",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.3.tgz",
+				"shasum": "aa23a0849fb10f984b6ff46d56c9561ed6cd7d55"
+			},
+			"dependencies": {
+				"whatwg-fetch": "^0.5.0",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.1.3",
+			"gitHead": "2a5b43e944b25c60b5172ee77a0f6ec8a407d984",
+			"browser": "npm-client.js",
+			"_shasum": "aa23a0849fb10f984b6ff46d56c9561ed6cd7d55"
+		},
+		"1.4.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.4.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.4.0.tgz",
+				"shasum": "1b6641e4e0115ff2efcaaa2135d079789dce4518"
+			},
+			"dependencies": {
+				"whatwg-fetch": "^0.5.0",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.4.0",
+			"gitHead": "6cb9ea63395c9d51814649017cd52870c61229e9",
+			"browser": "npm-client.js",
+			"_shasum": "1b6641e4e0115ff2efcaaa2135d079789dce4518"
+		},
+		"1.5.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.5.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.0.tgz",
+				"shasum": "b94ea066e21cd88717537dbbedeced5772094b43"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.5.0",
+			"gitHead": "e06a858614c85100e310fa1661385f8d05fc712c",
+			"browser": "npm-client.js",
+			"_shasum": "b94ea066e21cd88717537dbbedeced5772094b43"
+		},
+		"1.5.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.5.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.1.tgz",
+				"shasum": "7bab8acba1de3a7c128265ff888e23daa10b5835"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.5.1",
+			"gitHead": "d8fc09a91b0d965651c4605e14ebe72210ef2c83",
+			"browser": "npm-client.js",
+			"_shasum": "7bab8acba1de3a7c128265ff888e23daa10b5835"
+		},
+		"1.6.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.6.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.6.0.tgz",
+				"shasum": "219cfeac4e5f3aa23ab1b0e471053fd3f6720d26"
+			},
+			"dependencies": {
+				"whatwg-fetch": "^0.7.0",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.6.0",
+			"gitHead": "38b7466267555d33f1390cb3a048c5ea9c9d27f0",
+			"browser": "npm-client.js",
+			"_shasum": "219cfeac4e5f3aa23ab1b0e471053fd3f6720d26"
+		},
+		"1.5.2": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.5.2",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.2.tgz",
+				"shasum": "eb49bc07ef4550cc2fbaad2b206e9c287a668a18"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.5.2",
+			"gitHead": "3d6bdd161ef07cd887043edb85e0e9e4f5cc3c6f",
+			"browser": "npm-client.js",
+			"_shasum": "eb49bc07ef4550cc2fbaad2b206e9c287a668a18"
+		},
+		"1.6.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.6.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.6.1.tgz",
+				"shasum": "47e7bfc698f6d00beb0ecd63feb44ae16d8852ef"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch#ie9",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.6.1",
+			"gitHead": "589d9166104d148a4f583dc0d595b0b6ccea0c45",
+			"browser": "npm-client.js",
+			"_shasum": "47e7bfc698f6d00beb0ecd63feb44ae16d8852ef"
+		},
+		"1.7.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.7.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.7.0.tgz",
+				"shasum": "15e3eb87c2fb440129ba6b4b8dcf83be30e50620"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/matthew-andrews/fetch#ie9",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.7.0",
+			"gitHead": "5cde7c91b45ea7b5b7240170783e694ddc1e4354",
+			"browser": "npm-client.js",
+			"_shasum": "15e3eb87c2fb440129ba6b4b8dcf83be30e50620"
+		},
+		"1.0.0": {
+			"name": "isomorphic-fetch",
+			"description": "Fetch for node",
+			"version": "1.0.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.0.0.tgz",
+				"shasum": "a692d1dec18b9d40cd608042a018aa011b5c3cec"
+			},
+			"dependencies": {
+				"fetch": "git://github.com/github/fetch",
+				"xmlhttprequest": "^1.6.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.10",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.0.0",
+			"browser": "client.js",
+			"_shasum": "a692d1dec18b9d40cd608042a018aa011b5c3cec"
+		},
+		"1.1.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.1.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.0.tgz",
+				"shasum": "1e35e5e875f8de9348f4398f90470b94f37920f8"
+			},
+			"dependencies": {
+				"fetch": "git://github.com/github/fetch",
+				"xmlhttprequest": "^1.6.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.14",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.1.0",
+			"gitHead": "d707e7878c3f3e42c248cd2caca6d7849334f344",
+			"browser": "client.js",
+			"_shasum": "1e35e5e875f8de9348f4398f90470b94f37920f8",
+			"_nodeVersion": "0.10.33"
+		},
+		"1.0.2": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.0.2",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.0.2.tgz",
+				"shasum": "9d26ec43b65e8f229e9d8b17359cd49ba968da27"
+			},
+			"dependencies": {
+				"fetch": "git://github.com/github/fetch#v0.3.2",
+				"xmlhttprequest": "^1.6.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.14",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.0.2",
+			"gitHead": "3dd58c0d5d1e6c1a115193a4b3bbdd9ab624beeb",
+			"browser": "client.js",
+			"_shasum": "9d26ec43b65e8f229e9d8b17359cd49ba968da27",
+			"_nodeVersion": "0.10.33"
+		},
+		"1.1.1": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.1.1",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.1.tgz",
+				"shasum": "3cb91c728f6468777b59ce59e60ebb1ba757efef"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git://github.com/github/fetch",
+				"xmlhttprequest": "^1.6.0"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "2.1.14",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.1.1",
+			"gitHead": "4b45eace5041d11113d5d83b767fbf28fc67c807",
+			"browser": "npm-client.js",
+			"_shasum": "3cb91c728f6468777b59ce59e60ebb1ba757efef",
+			"_nodeVersion": "0.10.33"
+		},
+		"1.2.0": {
+			"name": "isomorphic-fetch",
+			"description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+			"version": "1.2.0",
+			"author": {
+				"name": "Matt Andrews",
+				"email": "matt@mattandre.ws"
+			},
+			"homepage": "https://github.com/matthew-andrews/node-fetch",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/matthew-andrews/node-fetch.git"
+			},
+			"bugs": {
+				"url": "https://github.com/matthew-andrews/node-fetch/issues"
+			},
+			"main": "server.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.2.0.tgz",
+				"shasum": "39eda24ad7802d8ac4682b6173d0eb8420fab9e3"
+			},
+			"dependencies": {
+				"whatwg-fetch": "git+https://github.com/Financial-Times/fetch",
+				"xmlhttprequest": "git+https://github.com/matthew-andrews/node-XMLHttpRequest"
+			},
+			"devDependencies": {
+				"chai": "^1.10.0",
+				"es6-promise": "^2.0.1",
+				"jshint": "^2.5.11",
+				"lintspaces-cli": "0.0.4",
+				"mocha": "^2.1.0",
+				"nock": "^0.56.0",
+				"npm-prepublish": "^1.0.2"
+			},
+			"license": "MIT",
+			"maintainers": [
+				{
+					"name": "mattandrews",
+					"email": "matt@mattandre.ws"
+				}
+			],
+			"directories": {},
+			"scripts": {
+				"files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
+				"test": "jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha",
+				"start": "node server.js"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattandrews",
+				"email": "matt@mattandre.ws"
+			},
+			"_id": "isomorphic-fetch@1.2.0",
+			"gitHead": "c3aa2911db3ed9845198af58d3a243c45b906634",
+			"browser": "npm-client.js",
+			"_shasum": "39eda24ad7802d8ac4682b6173d0eb8420fab9e3"
+		}
+	},
+	"time": {
+		"2.0.0": "2015-02-10T21:22:56.987Z",
+		"2.0.1": "2015-04-06T08:39:39.727Z",
+		"2.1.0": "2015-05-21T16:55:18.725Z",
+		"created": "2014-11-07T21:18:22.127Z",
+		"2.0.2": "2015-04-15T16:00:10.300Z",
+		"2.1.1": "2015-07-16T12:40:02.280Z",
+		"2.2.0": "2015-10-20T19:06:37.885Z",
+		"2.2.1": "2016-01-15T09:27:42.311Z",
+		"1.1.2": "2015-01-12T23:55:48.530Z",
+		"1.3.0": "2015-01-19T01:37:28.282Z",
+		"1.1.3": "2015-01-13T15:33:55.449Z",
+		"1.4.0": "2015-01-21T23:57:56.415Z",
+		"1.5.0": "2015-01-23T12:14:16.554Z",
+		"1.5.1": "2015-01-23T12:23:17.326Z",
+		"1.6.0": "2015-01-24T19:42:54.108Z",
+		"1.5.2": "2015-01-23T12:32:29.599Z",
+		"1.6.1": "2015-01-26T18:35:27.260Z",
+		"1.7.0": "2015-01-27T23:25:20.693Z",
+		"modified": "2018-03-20T16:31:10.941Z",
+		"1.0.0": "2014-11-07T21:18:22.127Z",
+		"1.1.0": "2014-12-29T21:42:25.393Z",
+		"1.0.2": "2014-12-29T15:30:19.119Z",
+		"1.1.1": "2015-01-12T23:20:47.864Z",
+		"1.2.0": "2015-01-15T19:01:17.230Z"
+	},
+	"dist-tags": {
+		"latest": "2.2.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828368556
+		}
+	},
+	"_distfiles": {
+		"isomorphic-fetch-2.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.0.tgz",
+			"sha": "febd208ddcd99ccb7c27a1fc9f84b053c80537be"
+		},
+		"isomorphic-fetch-2.0.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.1.tgz",
+			"sha": "b35b25092ed615f577734b66888edcd047f70caf"
+		},
+		"isomorphic-fetch-2.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.1.0.tgz",
+			"sha": "ebcfabe281b9e64f83b4867ea87f2db35f9ea25f"
+		},
+		"isomorphic-fetch-2.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.0.2.tgz",
+			"sha": "a2b1ece3202f73d503016e6a93b3386832329437"
+		},
+		"isomorphic-fetch-2.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.1.1.tgz",
+			"sha": "b573f32c87c7c61ec106bcef18cf8fdfc34894fa"
+		},
+		"isomorphic-fetch-2.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.2.0.tgz",
+			"sha": "8a834c42f415535285651ff9742dde64f3ab532d"
+		},
+		"isomorphic-fetch-2.2.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+			"sha": "611ae1acf14f5e81f729507472819fe9733558a9"
+		},
+		"isomorphic-fetch-1.1.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.2.tgz",
+			"sha": "186b2fa1ed585d4e43f9371e7557498ad38e9755"
+		},
+		"isomorphic-fetch-1.3.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.3.0.tgz",
+			"sha": "9a6eb3e8cde8d808f1c6ecfac2d967f0b29abedb"
+		},
+		"isomorphic-fetch-1.1.3.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.3.tgz",
+			"sha": "aa23a0849fb10f984b6ff46d56c9561ed6cd7d55"
+		},
+		"isomorphic-fetch-1.4.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.4.0.tgz",
+			"sha": "1b6641e4e0115ff2efcaaa2135d079789dce4518"
+		},
+		"isomorphic-fetch-1.5.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.0.tgz",
+			"sha": "b94ea066e21cd88717537dbbedeced5772094b43"
+		},
+		"isomorphic-fetch-1.5.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.1.tgz",
+			"sha": "7bab8acba1de3a7c128265ff888e23daa10b5835"
+		},
+		"isomorphic-fetch-1.6.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.6.0.tgz",
+			"sha": "219cfeac4e5f3aa23ab1b0e471053fd3f6720d26"
+		},
+		"isomorphic-fetch-1.5.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.5.2.tgz",
+			"sha": "eb49bc07ef4550cc2fbaad2b206e9c287a668a18"
+		},
+		"isomorphic-fetch-1.6.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.6.1.tgz",
+			"sha": "47e7bfc698f6d00beb0ecd63feb44ae16d8852ef"
+		},
+		"isomorphic-fetch-1.7.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.7.0.tgz",
+			"sha": "15e3eb87c2fb440129ba6b4b8dcf83be30e50620"
+		},
+		"isomorphic-fetch-1.0.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.0.0.tgz",
+			"sha": "a692d1dec18b9d40cd608042a018aa011b5c3cec"
+		},
+		"isomorphic-fetch-1.1.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.0.tgz",
+			"sha": "1e35e5e875f8de9348f4398f90470b94f37920f8"
+		},
+		"isomorphic-fetch-1.0.2.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.0.2.tgz",
+			"sha": "9d26ec43b65e8f229e9d8b17359cd49ba968da27"
+		},
+		"isomorphic-fetch-1.1.1.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.1.1.tgz",
+			"sha": "3cb91c728f6468777b59ce59e60ebb1ba757efef"
+		},
+		"isomorphic-fetch-1.2.0.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/isomorphic-fetch/-/isomorphic-fetch-1.2.0.tgz",
+			"sha": "39eda24ad7802d8ac4682b6173d0eb8420fab9e3"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-70721246ff27e3a3",
+	"readme": "isomorphic-fetch [![Build Status](https://travis-ci.org/matthew-andrews/isomorphic-fetch.svg?branch=master)](https://travis-ci.org/matthew-andrews/isomorphic-fetch)\n================\n\nFetch for node and Browserify.  Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).\n\n## Warnings\n\n- This adds `fetch` as a global so that its API is consistent between client and server.\n- You must bring your own ES6 Promise compatible polyfill, I suggest [es6-promise](https://github.com/jakearchibald/es6-promise).\n\n## Installation\n\n### NPM\n\n```sh\nnpm install --save isomorphic-fetch es6-promise\n```\n\n### Bower\n\n```sh\nbower install --save isomorphic-fetch es6-promise\n```\n\n## Usage\n\n```js\nrequire('es6-promise').polyfill();\nrequire('isomorphic-fetch');\n\nfetch('//offline-news-api.herokuapp.com/stories')\n\t.then(function(response) {\n\t\tif (response.status >= 400) {\n\t\t\tthrow new Error(\"Bad response from server\");\n\t\t}\n\t\treturn response.json();\n\t})\n\t.then(function(stories) {\n\t\tconsole.log(stories);\n\t});\n```\n\n## License\n\nAll open source code released by FT Labs is licenced under the MIT licence.  Based on [the fine work by](https://github.com/github/fetch/pull/31) **[jxck](https://github.com/Jxck)**."
+}

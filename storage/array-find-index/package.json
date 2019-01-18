@@ -209,7 +209,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749432230
+			"fetched": 1547828456743
 		}
 	},
 	"_distfiles": {
@@ -227,6 +227,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-d7acfc09aa2a7d5b",
+	"_rev": "10-972970d8f79b1063",
 	"readme": "# array-find-index [![Build Status](https://travis-ci.org/sindresorhus/array-find-index.svg?branch=master)](https://travis-ci.org/sindresorhus/array-find-index)\n\n> ES2015 [`Array#findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save array-find-index\n```\n\n\n## Usage\n\n```js\nconst arrayFindIndex = require('array-find-index');\n\narrayFindIndex(['rainbow', 'unicorn', 'pony'], x => x === 'unicorn');\n//=> 1\n```\n\n\n## API\n\nSame as `Array#findIndex()`, but with the input array as the first argument.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -1,0 +1,2996 @@
+{
+	"name": "@wix/web-bi-logger",
+	"versions": {
+		"1.0.728": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.728",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.728.tgz",
+				"shasum": "29b8881cebf42f5b6ac4b2a885faddafc73e0b50"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.728",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				}
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.729": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.729",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.729.tgz",
+				"shasum": "9298097f1cb62385647de4622cd8189b721722c8"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.729",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.748": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.748",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.748.tgz",
+				"shasum": "6e17794b7c34157493b790388fe173596ad3e96e"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.748",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.727": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.727",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.727.tgz",
+				"shasum": "f3a4079c9eb0c4ec9fc0705b72e2729304c34a5c"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.727",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				}
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.749": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.749",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.749.tgz",
+				"shasum": "f16ed2c86f6c10524da3cd178554a50527754e0b"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.749",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.731": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.731",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.731.tgz",
+				"shasum": "8e9a1427a7f464728f5e14e628307619096c7f32"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.731",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.753": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.753",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.753.tgz",
+				"shasum": "0bfc63f35086bb9a587fbe13b979b36c3f5d9585"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.753",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.732": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.732",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.732.tgz",
+				"shasum": "14d14fa7444aefaa93cfbc4d16b6313a271e1a52"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.732",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.754": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.754",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.754.tgz",
+				"shasum": "3a399d4e76002e193bfb0b24d072b6f0a6156251"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.754",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.751": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.751",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.751.tgz",
+				"shasum": "60e4fcdf9ef6ca81b7e59a4f50036f8c6c30f4fb"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.751",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.730": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.730",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.730.tgz",
+				"shasum": "1906fd55a1edca2a0757f92c283a7c9637ad64e3"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.730",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.752": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.752",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.752.tgz",
+				"shasum": "5bf8a02b0c7596be7d5fdc9c2e15478ff2592163"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.752",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.735": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.735",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.735.tgz",
+				"shasum": "4c600c998e9217b558a4aef59dd5170b05dd55ea"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.735",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.757": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.757",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.757.tgz",
+				"shasum": "64c7014964a71c4b7af9bfca4235166dd576cfe5"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.757",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.736": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.736",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.736.tgz",
+				"shasum": "1afb69b46e291f2e6c337d0524ec0142c399989f"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.736",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.758": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.758",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.758.tgz",
+				"shasum": "2e2924c83facc988386fe1c9215fdb7d65cceaa0"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.758",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.733": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.733",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.733.tgz",
+				"shasum": "657f1e2f1a7da934f65260b4341133442003f4dd"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.733",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.755": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.755",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.755.tgz",
+				"shasum": "5dabf2cafd9200fdf69af4a9688390c903494daa"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.755",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.734": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.734",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.734.tgz",
+				"shasum": "9433748e16cbfd83ead3f5fd0ee15016968c3f10"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.734",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.756": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.756",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.756.tgz",
+				"shasum": "f13055ffcd8ada992251799125eed99a41944713"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.756",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.750": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.750",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.750.tgz",
+				"shasum": "178a1f4d19bdabe2af4ebf27b671d1283e93e501"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.750",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.739": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.739",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.739.tgz",
+				"shasum": "cc8fa8e4be077257a38f111bd1d2d5543886fc35"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"haste-preset-yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.739",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.737": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.737",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.737.tgz",
+				"shasum": "dba88cb5b2c1477f7ecb8a95b567cd42bafd9ad9"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"haste-preset-yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.737",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.759": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.759",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.759.tgz",
+				"shasum": "6c9cdd705186937debef4e9323c76fd2eff79a52"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.759",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.738": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.738",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.738.tgz",
+				"shasum": "296335993010f6210869c7e12284b8b27ae9f1dd"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"haste-preset-yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.738",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.742": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.742",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.742.tgz",
+				"shasum": "7d7a92e42f98b58e1a4b36843920ce963363089a"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"haste-preset-yoshi": "latest",
+				"jsdom": "^11.7.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.742",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.764": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.764",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/tracking-logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.764.tgz",
+				"shasum": "887553fee125759e4d44b8ac3a354e77923069a5"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.764",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./tracking-logger.js",
+					"worker": "./worker-test.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.743": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.743",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.743.tgz",
+				"shasum": "f08d2f33772594638fea7e29d3e2748d99056336"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.743",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.765": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.765",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/tracking-logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.765.tgz",
+				"shasum": "cf99085caaaeaf7d07ccbbb2e3014827b3df613c"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.765",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./tracking-logger.js",
+					"worker": "./worker-test.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.740": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.740",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.740.tgz",
+				"shasum": "e53b23a17ac666bd42809e4fcb66e72d84ff8ec5"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"haste-preset-yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.740",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.762": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.762",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.762.tgz",
+				"shasum": "efbfbdec2f78ee69f0422e169d2ceddd6809b583"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.762",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.741": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.741",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.741.tgz",
+				"shasum": "687663d8f2a0e2e80adc2f178abfa45693979345"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"haste-preset-yoshi": "latest",
+				"jsdom": "^11.7.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/",
+				"@wix:registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.741",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.763": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.763",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/tracking-logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.763.tgz",
+				"shasum": "7a60590a293fb5e4c9c4b743f7cbf20ae8d454b1"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.763",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./tracking-logger.js",
+					"worker": "./worker-test.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.746": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.746",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.746.tgz",
+				"shasum": "ad41f0af57b7cec1c06ee929e4580a8d7dd697cd"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.746",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.747": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.747",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.747.tgz",
+				"shasum": "3fab4627b7c72a9825c9d341cd350c4766c1afa6"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"haste-preset-yoshi": "latest",
+				"bower-art-resolver": "^2.0.9"
+			},
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"start": "haste start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "haste build",
+				"test": "haste test",
+				"posttest": "haste lint",
+				"test:e2e": "haste test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && haste release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.747",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			},
+			"haste": {
+				"preset": "yoshi"
+			}
+		},
+		"1.0.744": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.744",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.744.tgz",
+				"shasum": "b6fb2cd436417c18df097aac557a2fa30d2671b0"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.744",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.745": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.745",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.745.tgz",
+				"shasum": "ce1b6e103fe08e365454a9e1ce6f81a58df601bc"
+			},
+			"dependencies": {
+				"wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^1.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.745",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.760": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.760",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.760.tgz",
+				"shasum": "08ff11ab9172991fed9d49c324ab962bd8d9b306"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.760",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		},
+		"1.0.761": {
+			"name": "@wix/web-bi-logger",
+			"description": "",
+			"version": "1.0.761",
+			"author": {
+				"name": "Shahar Talmi",
+				"email": "shahart@wix.com",
+				"url": ""
+			},
+			"homepage": "",
+			"main": "dist/src/logger.js",
+			"dist": {
+				"tarball": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.761.tgz",
+				"shasum": "713675fec77b5a87e2be1dcc5a3786334b75ae04"
+			},
+			"dependencies": {
+				"@wix/wix-bi-logger-client": "~0.0.1"
+			},
+			"devDependencies": {
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-wix": "^2.0.0",
+				"body-parser": "^1.15.0",
+				"bower-art-resolver": "^2.0.9",
+				"bower-auto-release": "latest",
+				"chai": "^3.5.0",
+				"chai-as-promised": "^7.1.1",
+				"chai-like": "^1.1.1",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.13.4",
+				"express-session": "^1.13.0",
+				"jsdom": "^11.7.0",
+				"mocha": "^5.0.5",
+				"nock": "^9.0.13",
+				"node-fetch": "^1.7.1",
+				"sinon": "^2.1.0",
+				"yoshi": "^1.2.0"
+			},
+			"files": [
+				"dist/src",
+				"dist/statics"
+			],
+			"scripts": {
+				"start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+				"build": ":",
+				"pretest": "yoshi build",
+				"test": "yoshi test",
+				"posttest": "yoshi lint",
+				"test:e2e": "yoshi test --protractor",
+				"release": "rm dist/statics/worker.bundle.* && yoshi release && bower-auto-release --dist dist/statics --git-repo git@github.com:wix-private/web-bi-logger-bower-component.git",
+				"postpublish": "rm -f npm-shrinkwrap.json"
+			},
+			"publishConfig": {
+				"registry": "http://npm.dev.wixpress.com/",
+				"@wix:registry": "http://npm.dev.wixpress.com/"
+			},
+			"_id": "@wix/web-bi-logger@1.0.761",
+			"private": false,
+			"yoshi": {
+				"entry": {
+					"app": "./app.js",
+					"worker": "./worker.js"
+				},
+				"exports": "webBiLogger"
+			},
+			"unpkg": true,
+			"babel": {
+				"presets": [
+					"wix"
+				]
+			},
+			"eslintConfig": {
+				"extends": "wix/react"
+			}
+		}
+	},
+	"time": {
+		"1.0.728": "2017-12-05T02:21:47.389Z",
+		"1.0.729": "2017-12-12T08:11:27.490Z",
+		"1.0.748": "2018-07-12T08:11:05.960Z",
+		"1.0.727": "2017-12-04T02:41:13.415Z",
+		"1.0.749": "2018-08-30T03:22:15.686Z",
+		"1.0.731": "2017-12-14T08:53:39.676Z",
+		"1.0.753": "2018-10-25T13:01:41.171Z",
+		"1.0.732": "2017-12-20T07:41:11.283Z",
+		"1.0.754": "2018-10-25T13:03:36.691Z",
+		"1.0.751": "2018-10-25T03:16:44.233Z",
+		"1.0.730": "2017-12-14T02:08:34.390Z",
+		"1.0.752": "2018-10-25T10:07:19.827Z",
+		"1.0.735": "2018-02-11T02:24:17.418Z",
+		"1.0.757": "2018-11-29T15:15:46.210Z",
+		"1.0.736": "2018-02-14T16:31:34.050Z",
+		"1.0.758": "2019-01-02T09:34:36.801Z",
+		"1.0.733": "2018-02-07T04:05:36.163Z",
+		"1.0.755": "2018-10-25T13:05:41.886Z",
+		"1.0.734": "2018-02-07T13:01:44.053Z",
+		"1.0.756": "2018-10-25T13:07:48.949Z",
+		"modified": "2019-01-16T11:07:23.537Z",
+		"1.0.750": "2018-09-25T10:55:16.846Z",
+		"created": "2017-12-04T02:41:13.415Z",
+		"1.0.739": "2018-03-08T14:10:32.008Z",
+		"1.0.737": "2018-02-14T19:48:37.874Z",
+		"1.0.759": "2019-01-02T16:34:03.890Z",
+		"1.0.738": "2018-03-08T08:04:04.557Z",
+		"1.0.742": "2018-04-27T06:27:50.328Z",
+		"1.0.764": "2019-01-15T14:23:05.855Z",
+		"1.0.743": "2018-06-03T08:07:00.770Z",
+		"1.0.765": "2019-01-16T11:07:23.537Z",
+		"1.0.740": "2018-03-13T08:49:42.323Z",
+		"1.0.762": "2019-01-14T14:02:21.271Z",
+		"1.0.741": "2018-04-11T14:25:53.422Z",
+		"1.0.763": "2019-01-15T09:04:06.342Z",
+		"1.0.746": "2018-06-20T09:12:00.612Z",
+		"1.0.747": "2018-07-11T18:47:39.801Z",
+		"1.0.744": "2018-06-04T13:17:37.693Z",
+		"1.0.745": "2018-06-14T07:37:27.099Z",
+		"1.0.760": "2019-01-13T16:15:50.112Z",
+		"1.0.761": "2019-01-13T18:04:51.770Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.765"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"fetched": 1547828375194
+		}
+	},
+	"_distfiles": {
+		"web-bi-logger-1.0.728.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.728.tgz",
+			"sha": "29b8881cebf42f5b6ac4b2a885faddafc73e0b50"
+		},
+		"web-bi-logger-1.0.729.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.729.tgz",
+			"sha": "9298097f1cb62385647de4622cd8189b721722c8"
+		},
+		"web-bi-logger-1.0.748.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.748.tgz",
+			"sha": "6e17794b7c34157493b790388fe173596ad3e96e"
+		},
+		"web-bi-logger-1.0.727.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.727.tgz",
+			"sha": "f3a4079c9eb0c4ec9fc0705b72e2729304c34a5c"
+		},
+		"web-bi-logger-1.0.749.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.749.tgz",
+			"sha": "f16ed2c86f6c10524da3cd178554a50527754e0b"
+		},
+		"web-bi-logger-1.0.731.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.731.tgz",
+			"sha": "8e9a1427a7f464728f5e14e628307619096c7f32"
+		},
+		"web-bi-logger-1.0.753.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.753.tgz",
+			"sha": "0bfc63f35086bb9a587fbe13b979b36c3f5d9585"
+		},
+		"web-bi-logger-1.0.732.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.732.tgz",
+			"sha": "14d14fa7444aefaa93cfbc4d16b6313a271e1a52"
+		},
+		"web-bi-logger-1.0.754.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.754.tgz",
+			"sha": "3a399d4e76002e193bfb0b24d072b6f0a6156251"
+		},
+		"web-bi-logger-1.0.751.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.751.tgz",
+			"sha": "60e4fcdf9ef6ca81b7e59a4f50036f8c6c30f4fb"
+		},
+		"web-bi-logger-1.0.730.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.730.tgz",
+			"sha": "1906fd55a1edca2a0757f92c283a7c9637ad64e3"
+		},
+		"web-bi-logger-1.0.752.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.752.tgz",
+			"sha": "5bf8a02b0c7596be7d5fdc9c2e15478ff2592163"
+		},
+		"web-bi-logger-1.0.735.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.735.tgz",
+			"sha": "4c600c998e9217b558a4aef59dd5170b05dd55ea"
+		},
+		"web-bi-logger-1.0.757.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.757.tgz",
+			"sha": "64c7014964a71c4b7af9bfca4235166dd576cfe5"
+		},
+		"web-bi-logger-1.0.736.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.736.tgz",
+			"sha": "1afb69b46e291f2e6c337d0524ec0142c399989f"
+		},
+		"web-bi-logger-1.0.758.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.758.tgz",
+			"sha": "2e2924c83facc988386fe1c9215fdb7d65cceaa0"
+		},
+		"web-bi-logger-1.0.733.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.733.tgz",
+			"sha": "657f1e2f1a7da934f65260b4341133442003f4dd"
+		},
+		"web-bi-logger-1.0.755.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.755.tgz",
+			"sha": "5dabf2cafd9200fdf69af4a9688390c903494daa"
+		},
+		"web-bi-logger-1.0.734.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.734.tgz",
+			"sha": "9433748e16cbfd83ead3f5fd0ee15016968c3f10"
+		},
+		"web-bi-logger-1.0.756.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.756.tgz",
+			"sha": "f13055ffcd8ada992251799125eed99a41944713"
+		},
+		"web-bi-logger-1.0.750.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.750.tgz",
+			"sha": "178a1f4d19bdabe2af4ebf27b671d1283e93e501"
+		},
+		"web-bi-logger-1.0.739.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.739.tgz",
+			"sha": "cc8fa8e4be077257a38f111bd1d2d5543886fc35"
+		},
+		"web-bi-logger-1.0.737.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.737.tgz",
+			"sha": "dba88cb5b2c1477f7ecb8a95b567cd42bafd9ad9"
+		},
+		"web-bi-logger-1.0.759.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.759.tgz",
+			"sha": "6c9cdd705186937debef4e9323c76fd2eff79a52"
+		},
+		"web-bi-logger-1.0.738.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.738.tgz",
+			"sha": "296335993010f6210869c7e12284b8b27ae9f1dd"
+		},
+		"web-bi-logger-1.0.742.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.742.tgz",
+			"sha": "7d7a92e42f98b58e1a4b36843920ce963363089a"
+		},
+		"web-bi-logger-1.0.764.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.764.tgz",
+			"sha": "887553fee125759e4d44b8ac3a354e77923069a5"
+		},
+		"web-bi-logger-1.0.743.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.743.tgz",
+			"sha": "f08d2f33772594638fea7e29d3e2748d99056336"
+		},
+		"web-bi-logger-1.0.765.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.765.tgz",
+			"sha": "cf99085caaaeaf7d07ccbbb2e3014827b3df613c"
+		},
+		"web-bi-logger-1.0.740.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.740.tgz",
+			"sha": "e53b23a17ac666bd42809e4fcb66e72d84ff8ec5"
+		},
+		"web-bi-logger-1.0.762.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.762.tgz",
+			"sha": "efbfbdec2f78ee69f0422e169d2ceddd6809b583"
+		},
+		"web-bi-logger-1.0.741.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.741.tgz",
+			"sha": "687663d8f2a0e2e80adc2f178abfa45693979345"
+		},
+		"web-bi-logger-1.0.763.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.763.tgz",
+			"sha": "7a60590a293fb5e4c9c4b743f7cbf20ae8d454b1"
+		},
+		"web-bi-logger-1.0.746.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.746.tgz",
+			"sha": "ad41f0af57b7cec1c06ee929e4580a8d7dd697cd"
+		},
+		"web-bi-logger-1.0.747.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.747.tgz",
+			"sha": "3fab4627b7c72a9825c9d341cd350c4766c1afa6"
+		},
+		"web-bi-logger-1.0.744.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.744.tgz",
+			"sha": "b6fb2cd436417c18df097aac557a2fa30d2671b0"
+		},
+		"web-bi-logger-1.0.745.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.745.tgz",
+			"sha": "ce1b6e103fe08e365454a9e1ce6f81a58df601bc"
+		},
+		"web-bi-logger-1.0.760.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.760.tgz",
+			"sha": "08ff11ab9172991fed9d49c324ab962bd8d9b306"
+		},
+		"web-bi-logger-1.0.761.tgz": {
+			"url": "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@wix/web-bi-logger/-/@wix/web-bi-logger-1.0.761.tgz",
+			"sha": "713675fec77b5a87e2be1dcc5a3786334b75ae04"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-e6bf5ba32595da0d",
+	"readme": ""
+}

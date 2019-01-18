@@ -1305,7 +1305,7 @@
 	},
 	"_uplinks": {
 		"npmjs": {
-			"fetched": 1547749380215
+			"fetched": 1547828420382
 		}
 	},
 	"_distfiles": {
@@ -1395,6 +1395,6 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-86bde69e89dc49e7",
+	"_rev": "10-bcffa5cbf52f4e54",
 	"readme": "# babel-plugin-transform-react-jsx-self\n\nAdds `__self` prop to JSX elements, which React will use to generate some runtime warnings.  All React users\nshould enable this transform in dev mode.\n\n## Example\n\n###In\n\n```\n<sometag />\n```\n###Out\n\n```\n<sometag __self={this} />\n```\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-react-jsx-self\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-react-jsx-self\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-react-jsx-self script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-react-jsx-self\"]\n});\n```"
 }
