@@ -1,5 +1,5 @@
 import React from 'react';
-import { translate } from 'react-i18next';
+import { withNamespaces } from 'react-i18next';
 import s from './App.scss';
 import PropTypes from 'prop-types';
 
@@ -21,4 +21,4 @@ class App extends React.Component {
   }
 }
 
-export default translate()(App);
+export default withNamespaces()(App);
